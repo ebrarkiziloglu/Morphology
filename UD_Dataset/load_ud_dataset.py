@@ -1,6 +1,31 @@
 from collections import defaultdict
 from typing import List, Dict, Any, Optional
 
+UD_GERMAN_GSD_SPLITS = {
+    'train': 'de_gsd-ud-train.conllu',
+    'dev': 'de_gsd-ud-dev.conllu',
+    'test': 'de_gsd-ud-test.conllu',
+}
+
+UD_GERMAN_HDT_SPLITS = {
+    'train-a-1': 'de_hdt-ud-train-a-1.conllu',
+    'train-a-2': 'de_hdt-ud-train-a-2.conllu',
+    'train-b-1': 'de_hdt-ud-train-b-1.conllu',
+    'train-b-2': 'de_hdt-ud-train-b-2.conllu',
+    'dev': 'de_hdt-ud-dev.conllu',
+    'test': 'de_hdt-ud-test.conllu',
+}
+
+UD_GERMAN_PUD_SPLITS = {
+    'test': 'de_pud-ud-test.conllu',
+}
+
+UD_GERMAN_LIT_SPLITS = {
+    'test': 'de_lit-ud-test.conllu',
+}
+
+UD_GERMAN_SPLITS = [UD_GERMAN_GSD_SPLITS, UD_GERMAN_HDT_SPLITS, UD_GERMAN_PUD_SPLITS, UD_GERMAN_LIT_SPLITS]
+
 def parse_conllu_file(filepath: str) -> List[Dict[str, Any]]:
     """
     Parse a CoNLL-U file and return a list of sentences.

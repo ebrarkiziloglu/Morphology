@@ -1,5 +1,21 @@
 import csv
+from typing import Set
 
+
+def load_duplicate_surface_forms(csv_path: str) -> Set[str]:
+    """Lowercased surface forms from all rows (no lemma/morph filter).
+
+    Prefer :func:`load_case_dictionary` plus morph-aware matching in
+    ``ud_corruption_utils`` when checking duplicates for a specific token.
+    """
+    forms: Set[str] = set()
+    with open(csv_path, encoding="utf-8", newline="") as f:
+        for row in csv.DictReader(f):
+            for part in row["Forms"].split("|"):
+                part = part.strip()
+                if part:
+                    forms.add(part.lower())
+    return forms
 
 
 def load_case_dictionary(csv_path):
@@ -14,6 +30,7 @@ def load_case_dictionary(csv_path):
             case = row["Case"]
             number = row["Number"]
             gender = row["Gender"]
+            degree = row["Degree"]
             upos = row["Upos"]
 
             # Split the forms by ' | ', strip whitespace, and filter out empty strings
@@ -27,6 +44,7 @@ def load_case_dictionary(csv_path):
                 "Case": case,
                 "Number": number,
                 "Gender": gender,
+                "Degree": degree,
                 "Upos": upos,
                 "forms": forms_str,
             })
