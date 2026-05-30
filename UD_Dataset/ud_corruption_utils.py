@@ -96,18 +96,18 @@ def _token_morph_snapshot(
     }
 
 
-def _duplicate_dict_forms_lower(
+def _dictionary_forms_for_token(
     lemma: str,
     upos: str,
     feats: Mapping[str, Any],
-    duplicates_dict: dict,
+    case_dict: dict,
     case: str,
 ) -> Set[str]:
-    """Lowercased forms from duplicates-CSV rows for this token's morph key."""
+    """Surface forms from *case_dict* rows matching this token's morph key."""
     lookup_lemma = dictionary_lookup_lemma(lemma, upos)
-    if lookup_lemma not in duplicates_dict:
+    if lookup_lemma not in case_dict:
         return set()
-    entries = duplicates_dict[lookup_lemma]
+    entries = case_dict[lookup_lemma]
     if isinstance(entries, dict):
         entries = [entries]
     matches = dict_entries_matching_lookup(
@@ -117,76 +117,71 @@ def _duplicate_dict_forms_lower(
         ud_gender=ud_gender_from_feats(feats),
         upos=upos,
     )
-    forms_lower: Set[str] = set()
+    forms: Set[str] = set()
     for entry in matches:
-        for surface in entry.get("forms") or set():
-            forms_lower.add(surface.lower())
-    return forms_lower
+        forms.update(entry.get("forms") or set())
+    return forms
 
 
-def token_form_in_duplicates_dictionary(
-    form: str,
+def token_has_multiple_dictionary_forms(
     lemma: str,
     upos: str,
     feats: Mapping[str, Any],
-    duplicates_dict: dict,
+    case_dict: dict,
     case: str,
 ) -> bool:
-    """True if *form* is listed under a matching row in the duplicates dictionary."""
-    if not form:
-        return False
-    return form.lower() in _duplicate_dict_forms_lower(
-        lemma, upos, feats, duplicates_dict, case
-    )
-
-
-def corrupted_tokens_in_duplicate_dictionary(
-    corrupted_tokens: Iterable[Mapping[str, Any]],
-    duplicates_dict: dict,
-    target_case: str,
-) -> bool:
-    """True if any changed token matches a duplicates row for *target_case*."""
-    if not duplicates_dict:
-        return False
-    for tok in corrupted_tokens:
-        if token_form_in_duplicates_dictionary(
-            tok.get("form", ""),
-            tok.get("lemma", ""),
-            tok.get("upos", ""),
-            tok.get("feats") or {},
-            duplicates_dict,
-            target_case,
-        ):
-            return True
-    return False
+    """True when the matching lookup row lists more than one surface form."""
+    return len(_dictionary_forms_for_token(lemma, upos, feats, case_dict, case)) > 1
 
 
 def gold_span_duplicate_surface_forms(
     gold_span_tokens: Iterable[Mapping[str, Any]],
-    duplicates_dict: dict,
-    source_case: str,
+    target_span_tokens: Iterable[Mapping[str, Any]],
+    case_dict: dict,
+    target_case: str,
 ) -> List[str]:
-    """Gold NP-span surfaces listed under a matching duplicates row (*source_case*)."""
-    if not duplicates_dict:
+    """Surfaces in the NP span whose lookup row has multiple forms (gold or corrupted).
+
+    - Gold: each token in *gold_span_tokens*, using its UD ``Case`` for lookup.
+    - Corrupted: each converted token in *target_span_tokens*, using *target_case*.
+    """
+    if not case_dict:
         return []
     out: List[str] = []
     seen_lower: Set[str] = set()
-    for tok in gold_span_tokens:
-        form = tok.get("form", "")
+
+    def add(form: str) -> None:
         if not form:
+            return
+        key = form.lower()
+        if key not in seen_lower:
+            seen_lower.add(key)
+            out.append(form)
+
+    for tok in gold_span_tokens:
+        feats = tok.get("feats") or {}
+        case = feats.get("Case") or ""
+        if not case:
             continue
-        if token_form_in_duplicates_dictionary(
-            form,
+        if token_has_multiple_dictionary_forms(
+            tok.get("lemma", ""),
+            tok.get("upos", ""),
+            feats,
+            case_dict,
+            case,
+        ):
+            add(tok.get("form", ""))
+
+    for tok in target_span_tokens:
+        if token_has_multiple_dictionary_forms(
             tok.get("lemma", ""),
             tok.get("upos", ""),
             tok.get("feats") or {},
-            duplicates_dict,
-            source_case,
+            case_dict,
+            target_case,
         ):
-            key = form.lower()
-            if key not in seen_lower:
-                seen_lower.add(key)
-                out.append(form)
+            add(tok.get("form", ""))
+
     return out
 
 
@@ -678,6 +673,7 @@ class CaseConversionPair:
     group_span_char_end: Optional[int]
     dative_type: Optional[str] = None
     corrupted_tokens: Tuple[Dict[str, Any], ...] = ()
+    target_span_tokens: Tuple[Dict[str, Any], ...] = ()
     gold_span_tokens: Tuple[Dict[str, Any], ...] = ()
 
 
@@ -820,12 +816,19 @@ def make_group_corrupt(
     target_case: str,
     *,
     allow_missing_for_upos: Optional[Set[str]] = None,
-) -> Tuple[Optional[str], int, int, Tuple[Dict[str, Any], ...]]:
+) -> Tuple[
+    Optional[str],
+    int,
+    int,
+    Tuple[Dict[str, Any], ...],
+    Tuple[Dict[str, Any], ...],
+]:
     """Convert all *source_case* tokens inside the NP span of *head_idx* to
     *target_case* forms.
 
-    Returns ``(corrupted_text | None, span_start, span_end, changed_tokens)`` where
-    *changed_tokens* holds morph snapshots for tokens whose surface form changed.
+    Returns ``(corrupted_text | None, span_start, span_end, changed_tokens,
+    target_span_tokens)`` where *target_span_tokens* holds every converted token's
+    new surface (and *changed_tokens* is the subset whose form actually changed).
     """
     start, end = find_nominal_group_span(tokens, head_idx)
     base_forms = [t.get("form", "") for t in tokens]
@@ -846,9 +849,13 @@ def make_group_corrupt(
         if new_form is None:
             if allow_missing_for_upos and upos in allow_missing_for_upos:
                 continue
-            return None, start, end, ()
+            return None, start, end, (), ()
         idx_to_new_form[idx] = new_form
 
+    target_span_tokens = tuple(
+        _token_morph_snapshot(tokens[idx], form=new_form)
+        for idx, new_form in sorted(idx_to_new_form.items())
+    )
     changed_tokens = tuple(
         _token_morph_snapshot(tokens[idx], form=new_form)
         for idx, new_form in sorted(idx_to_new_form.items())
@@ -859,7 +866,7 @@ def make_group_corrupt(
     if gold_text:
         result = replace_tokens_in_gold_text(gold_text, tokens, idx_to_new_form)
         if result is not None:
-            return result, start, end, changed_tokens
+            return result, start, end, changed_tokens, target_span_tokens
 
     # Fallback: reconstruct from tokens
     new_forms = base_forms.copy()
@@ -867,7 +874,7 @@ def make_group_corrupt(
         new_forms[idx] = nf
     tmp_tokens = [dict(t, form=f) for t, f in zip(tokens, new_forms)]
     # _logger.info(f"\n### New forms: {new_forms}\n")
-    return tokens_to_text(tmp_tokens), start, end, changed_tokens
+    return tokens_to_text(tmp_tokens), start, end, changed_tokens, target_span_tokens
 
 
 def iter_case_conversion_pairs(
@@ -939,7 +946,13 @@ def iter_case_conversion_pairs(
                 if report is not None:
                     report.accusative_seed_tokens_seen += 1
 
-                corrupt_group_raw, group_start, group_end, changed_tokens = make_group_corrupt(
+                (
+                    corrupt_group_raw,
+                    group_start,
+                    group_end,
+                    changed_tokens,
+                    target_span_tokens,
+                ) = make_group_corrupt(
                     tokens,
                     idx,
                     case_dict,
@@ -1050,6 +1063,7 @@ def iter_case_conversion_pairs(
                     group_span_char_end=gch1,
                     dative_type=dative_type,
                     corrupted_tokens=changed_tokens,
+                    target_span_tokens=target_span_tokens,
                     gold_span_tokens=tuple(
                         _token_morph_snapshot(tokens[i])
                         for i in range(group_start, group_end + 1)
@@ -1084,17 +1098,21 @@ def pair_to_group_record(pair: CaseConversionPair) -> Optional[Dict[str, Any]]:
 
 def pair_to_group_duplicates_record(
     pair: CaseConversionPair,
-    duplicates_dict: dict,
-    source_case: str,
+    case_dict: dict,
+    target_case: str,
 ) -> Optional[Dict[str, Any]]:
-    """Group record for the duplicates JSON, with gold-span duplicate-form labels."""
+    """Group record for the duplicates JSON when the span has multi-form lookup rows."""
     record = pair_to_group_record(pair)
     if record is None:
         return None
     record["gold_span_duplicate_forms"] = gold_span_duplicate_surface_forms(
-        pair.gold_span_tokens, duplicates_dict, source_case)
-    if record["gold_span_duplicate_forms"] == []:
-        record = None  
+        pair.gold_span_tokens,
+        pair.target_span_tokens,
+        case_dict,
+        target_case,
+    )
+    if not record["gold_span_duplicate_forms"]:
+        return None
     return record
 
 
@@ -1132,9 +1150,9 @@ def run_pair_generation_main(
     When *output_unconverted_json* is provided, NP spans that could not be fully
     converted are written to that file for inspection.
 
-    When *duplicates_dict_csv_path* is set, pairs where at least one changed token's
-    surface matches that CSV for the token's (lemma, case, number, gender, upos) are
-    also written to *output_group_duplicates_json* (plus ``gold_span_duplicate_forms``).
+    When *output_group_duplicates_json* is set, pairs where some token in the NP span
+    (gold or corrupted) has multiple forms in the main lookup dictionary are also
+    written there with ``gold_span_duplicate_forms`` listing those surfaces.
     """
     from load_ud_dataset import load_ud_dataset, UD_GERMAN_GSD_SPLITS
     from german_ud_cases_load import load_case_dictionary
@@ -1157,15 +1175,6 @@ def run_pair_generation_main(
     if not os.path.exists(dict_csv_path):
         raise FileNotFoundError(f"Case dictionary required: {dict_csv_path}")
     case_dict = load_case_dictionary(dict_csv_path)
-
-    duplicates_dict: Optional[dict] = None
-    if duplicates_dict_csv_path:
-        if not os.path.exists(duplicates_dict_csv_path):
-            raise FileNotFoundError(
-                f"Duplicates dictionary required: {duplicates_dict_csv_path}"
-            )
-        print(f"📁 Loading duplicates dictionary from: {duplicates_dict_csv_path}")
-        duplicates_dict = load_case_dictionary(duplicates_dict_csv_path)
 
     dative_type_lookup: Optional[Dict[DativeTypeKey, str]] = None
     if dative_types_csv_path:
@@ -1224,18 +1233,13 @@ def run_pair_generation_main(
             group_seen.add(gkey)
             group_records.append(gr)
             report.group_records_written += 1
-            if (
-                duplicates_dict is not None
-                and corrupted_tokens_in_duplicate_dictionary(
-                    pair.corrupted_tokens, duplicates_dict, target_case
-                )
-            ):
+            if output_group_duplicates_json:
                 if gkey not in group_seen_duplicates:
-                    group_seen_duplicates.add(gkey)
                     dup_gr = pair_to_group_duplicates_record(
-                        pair, duplicates_dict, source_case
+                        pair, case_dict, target_case
                     )
                     if dup_gr is not None:
+                        group_seen_duplicates.add(gkey)
                         group_records_duplicates.append(dup_gr)
             dt = gr.get("dative_type")
             if dt:
@@ -1251,7 +1255,7 @@ def run_pair_generation_main(
         f"to: {output_group_json}"
     )
 
-    if output_group_duplicates_json and duplicates_dict is not None:
+    if output_group_duplicates_json:
         dup_parent = os.path.dirname(output_group_duplicates_json)
         if dup_parent:
             os.makedirs(dup_parent, exist_ok=True)
@@ -1259,7 +1263,7 @@ def run_pair_generation_main(
             json.dump(group_records_duplicates, f, ensure_ascii=False, indent=2)
         print(
             f"✅ Wrote {len(group_records_duplicates)} group-level {direction_label} "
-            f"pairs with duplicate-dictionary surface forms to: "
+            f"pairs with multi-form lookup entries to: "
             f"{output_group_duplicates_json}"
         )
     if dative_type_counts:

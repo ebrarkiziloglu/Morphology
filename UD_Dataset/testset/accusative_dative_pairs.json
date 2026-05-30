@@ -7512,7 +7512,7 @@
     "group_end": 21,
     "group_span_text": "die damalige Welt",
     "gold_text": "Diese Statue gilt als die erste lebensgroße Darstellung einer vollkommen unbekleideten Frau in der klassischen Zeit, was einerseits die damalige Welt schockierte, andererseits durch die Qualität der künstlerischen Ausführung Bewunderung auslöste.",
-    "corrupted": "Diese Statue gilt als die erste lebensgroße Darstellung einer vollkommen unbekleideten Frau in der klassischen Zeit, was einerseits die damaligen WELT schockierte, andererseits durch die Qualität der künstlerischen Ausführung Bewunderung auslöste."
+    "corrupted": "Diese Statue gilt als die erste lebensgroße Darstellung einer vollkommen unbekleideten Frau in der klassischen Zeit, was einerseits die damaligen Welt schockierte, andererseits durch die Qualität der künstlerischen Ausführung Bewunderung auslöste."
   },
   {
     "split": "train",
@@ -21381,7 +21381,7 @@
     "group_end": 10,
     "group_span_text": "die islamische Welt",
     "gold_text": "Von dort aus richtete er eine Grußbotschaft an die islamische Welt.",
-    "corrupted": "Von dort aus richtete er eine Grußbotschaft an die islamischen WELT."
+    "corrupted": "Von dort aus richtete er eine Grußbotschaft an die islamischen Welt."
   },
   {
     "split": "train",

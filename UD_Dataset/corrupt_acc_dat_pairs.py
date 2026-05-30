@@ -11,10 +11,9 @@ span is skipped; other spans in the same sentence are still written. Rows where
 the corrupt sentence equals `gold_text` are still omitted. The group file
 deduplicates one row per NP span (same logic as the dative script).
 
-Pairs where a token changed by corruption has a surface form in
-``german_ud_cases_dictionary_duplicates.csv`` are also written to a separate JSON
-file with ``gold_span_duplicate_forms`` listing gold NP-span words in that CSV
-(main output unchanged).
+Pairs where any NP-span token (gold or corrupted) has multiple forms in the main
+lookup dictionary are also written to a separate JSON file with
+``gold_span_duplicate_forms`` listing those surfaces (main output unchanged).
 
 The script prints an elimination summary (counts + reasons) at the end.
 """
