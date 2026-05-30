@@ -93,7 +93,7 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument(
         "--duplicates-dictionary",
         default=None,
-        help="german_ud_cases_dictionary_duplicates.csv",
+        help="duplicates/german_ud_cases_dictionary_duplicates.csv",
     )
     p.add_argument(
         "--output-group-duplicates-json",
@@ -131,7 +131,7 @@ if __name__ == "__main__":
             args.duplicates_dictionary
             if args.duplicates_dictionary
             else os.path.join(
-                _SCRIPT_DIR, "german_ud_cases_dictionary_duplicates.csv"
+                _SCRIPT_DIR, "duplicates/german_ud_cases_dictionary_duplicates.csv"
             )
         ),
         output_group_duplicates_json=(
@@ -139,7 +139,7 @@ if __name__ == "__main__":
             if args.output_group_duplicates_json
             else os.path.join(
                 _SCRIPT_DIR,
-                "testset",
+                "duplicates",
                 "dative_accusative_pairs_group_duplicates.json",
             )
         ),

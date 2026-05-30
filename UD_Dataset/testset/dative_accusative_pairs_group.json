@@ -1286,7 +1286,7 @@
     "group_end": 9,
     "group_span_text": "der werkstatt",
     "gold_text": "ich war allein dieses jahr 4 mal in der werkstatt mit meinem fahrrad.",
-    "corrupted": "ich war allein dieses jahr 4 mal in die werkstatt mit meinem fahrrad.",
+    "corrupted": "ich war allein dieses jahr 4 mal in die Werkstatt mit meinem fahrrad.",
     "dative_type": "prepositional_dative"
   },
   {

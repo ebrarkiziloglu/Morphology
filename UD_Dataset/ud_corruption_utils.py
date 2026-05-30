@@ -1092,8 +1092,9 @@ def pair_to_group_duplicates_record(
     if record is None:
         return None
     record["gold_span_duplicate_forms"] = gold_span_duplicate_surface_forms(
-        pair.gold_span_tokens, duplicates_dict, source_case
-    )
+        pair.gold_span_tokens, duplicates_dict, source_case)
+    if record["gold_span_duplicate_forms"] == []:
+        record = None  
     return record
 
 
