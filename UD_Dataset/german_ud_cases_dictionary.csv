@@ -566,7 +566,7 @@ Abarbeiten,Dat,Sing,Neut,,NOUN,Abarbeiten
 Abarbeitung,Acc,Sing,Fem,,NOUN,Abarbeitung
 Abarbeitung,Dat,Sing,Fem,,NOUN,Abarbeitung
 Abart,Acc,Sing,Fem,,NOUN,Abart
-Abbau,Acc,Sing,Masc,,NOUN,Abbau | abbau
+Abbau,Acc,Sing,Masc,,NOUN,Abbau
 Abbau,Dat,Sing,Masc,,NOUN,Abbau
 Abbesbüttel,Acc,Plur,Neut,,PROPN,Abbesbüttel
 Abbestellung,Dat,Plur,Fem,,NOUN,Abbestellungen
@@ -605,7 +605,7 @@ Abend,Dat,Sing,Masc,,NOUN,Abend
 Abend,Dat,Plur,Masc,,NOUN,Abenden
 Abendansicht,Dat,Sing,Fem,,NOUN,Abendansicht
 Abendblatt,Dat,Sing,Neut,,NOUN,Abendblatt
-Abendessen,Dat,Sing,Neut,,NOUN,Abendessen | abendessen
+Abendessen,Dat,Sing,Neut,,NOUN,Abendessen
 Abendessen,Acc,Sing,Neut,,NOUN,Abendessen
 Abendjournal,Acc,Sing,Neut,,PROPN,Abendjournal
 Abendkleid,Dat,Sing,Neut,,NOUN,Abendkleid
@@ -1496,7 +1496,7 @@ Ader,Acc,Plur,Fem,,NOUN,Adern
 Aderlaß,Dat,Sing,Masc,,NOUN,Aderlaß
 Aderpresse,Dat,Sing,Fem,,NOUN,Aderpresse
 Adhoc-Meldung,Acc,Plur,Fem,,NOUN,Adhoc-Meldungen
-Adidas,Dat,Plur,Fem,,PROPN,adidas
+Adidas,Dat,Plur,Fem,,PROPN,Adidas
 Adirondack,Acc,Plur,,,PROPN,Adirondack
 Adjektiv,Dat,Plur,Fem,,NOUN,Adjektiven
 Adjustage,Acc,Plur,Masc,,NOUN,Adjustage
@@ -4396,7 +4396,7 @@ Arendt,Acc,Sing,Fem,,PROPN,Arendt
 Ares,Dat,Sing,Masc,,PROPN,Ares
 Ares,Dat,Sing,,,PROPN,Ares
 Arezzo,Dat,Sing,Masc,,PROPN,Arezzo
-Arg,Dat,Sing,Neut,,NOUN,argen
+Arg,Dat,Sing,Neut,,NOUN,Argen
 Argen,Dat,Sing,,,NOUN,Argen
 Argentinien,Dat,Sing,Neut,,PROPN,Argentinien
 Argentinier,Dat,Sing,Neut,,NOUN,Argentinier
@@ -4606,7 +4606,7 @@ Asienmeisterschaften,Dat,Plur,Fem,,NOUN,Asienmeisterschaften
 Asikainen,Acc,Plur,Fem,,PROPN,Asikainen
 Askania,Dat,Sing,Fem,,PROPN,Askania
 Askanier,Dat,Sing,Masc,,NOUN,Askanier
-Aso,Dat,Sing,Fem,,PROPN,aso
+Aso,Dat,Sing,Fem,,PROPN,Aso
 Aspect-Kauf,Acc,Sing,Masc,,NOUN,Aspect-Kauf
 Aspekt,Acc,Plur,Masc,,NOUN,Aspekte
 Aspekt,Dat,Plur,Masc,,NOUN,Aspekten
@@ -5845,7 +5845,7 @@ Auslandsgespräch,Dat,Plur,Neut,,NOUN,Auslandsgespräche | Auslandsgesprächen
 Auslandsgespräch,Acc,Plur,Neut,,NOUN,Auslandsgespräche
 Auslandsgespräch,Dat,Sing,Neut,,NOUN,Auslandsgespräch | Auslandsgespräche
 Auslandsinvestition,Acc,Plur,Fem,,NOUN,Auslandsinvestitionen
-Auslandsjournal,Acc,Sing,Neut,,PROPN,auslandsjournal
+Auslandsjournal,Acc,Sing,Neut,,PROPN,Auslandsjournal
 Auslandskontakt,Dat,Plur,Masc,,NOUN,Auslandskontakten
 Auslandskonzern,Dat,Sing,Masc,,NOUN,Auslandskonzern
 Auslandsmarkt,Dat,Plur,Masc,,NOUN,Auslandsmärkten
@@ -6275,7 +6275,7 @@ Auto-Website,Dat,Plur,Fem,,NOUN,Auto-Websites
 AutoDesk-Tochter,Acc,Sing,Fem,,NOUN,AutoDesk-Tochter
 AutoEuro.de,Dat,,,,PROPN,AutoEuro.de
 Autoauktion,Dat,Plur,Fem,,NOUN,Autoauktionen
-Autobahn,Dat,Sing,Fem,,NOUN,Autobahn | autobahn
+Autobahn,Dat,Sing,Fem,,NOUN,Autobahn
 Autobahn,Acc,Sing,Fem,,NOUN,Autobahn
 Autobahn,Dat,Plur,Fem,,NOUN,Autobahnen
 Autobahn,Acc,Plur,Fem,,NOUN,Autobahnen
@@ -6939,7 +6939,7 @@ Bamberg,Dat,Sing,Neut,,PROPN,Bamberg
 Bambusstreifen,Acc,Plur,Fem,,NOUN,Bambusstreifen
 Bambustexte,Acc,Plur,Masc,,NOUN,Bambustexte
 Banane,Acc,Plur,Fem,,NOUN,Bananen
-Banani,Dat,Sing,Fem,,PROPN,banani
+Banani,Dat,Sing,Fem,,PROPN,Banani
 Band,Acc,Sing,Fem,,NOUN,Band
 Band,Dat,Sing,Neut,,NOUN,Band
 Band,Acc,Plur,Neut,,NOUN,Bänder
@@ -22894,7 +22894,7 @@ Essay,Acc,Plur,Masc,,NOUN,Essays
 Essay,Dat,Sing,Masc,,NOUN,Essay
 Essay,Acc,Sing,Masc,,NOUN,Essay
 Essay,Dat,Plur,Masc,,NOUN,Essays
-Essen,Acc,Sing,Neut,,NOUN,Essen | essen
+Essen,Acc,Sing,Neut,,NOUN,Essen
 Essen,Dat,Sing,Neut,,NOUN,Essen
 Essen,Dat,Sing,Neut,,PROPN,Essen
 Essen,Acc,Sing,Neut,,PROPN,Essen
@@ -23885,7 +23885,7 @@ Fahrplanauskunft,Dat,Sing,Fem,,NOUN,Fahrplanauskunft
 Fahrplanauskunft,Acc,Sing,Fem,,NOUN,Fahrplanauskunft
 Fahrplandatum,Acc,Plur,Neut,,NOUN,Fahrplandaten
 Fahrrad,Acc,Sing,Neut,,NOUN,Fahrrad
-Fahrrad,Dat,Sing,Neut,,NOUN,Fahrrad | fahrrad
+Fahrrad,Dat,Sing,Neut,,NOUN,Fahrrad
 Fahrrad,Acc,Plur,Neut,,NOUN,Fahrräder
 Fahrrad,Dat,Plur,Neut,,NOUN,Fahrrädern
 Fahrradpark,Acc,Sing,Masc,,PROPN,Fahrradpark
@@ -24433,7 +24433,7 @@ Feier,Dat,Sing,Fem,,NOUN,Feier
 Feier,Acc,Plur,Fem,,NOUN,Feiern
 Feierabend,Dat,Sing,Masc,,NOUN,Feierabend
 Feierabendstau,Acc,Sing,Masc,,NOUN,Feierabendstau
-Feierlichkeit,Dat,Sing,Fem,,NOUN,feierlichkeit
+Feierlichkeit,Dat,Sing,Fem,,NOUN,Feierlichkeit
 Feiern,Dat,Sing,Neut,,NOUN,Feiern
 Feierstunde,Dat,Sing,Fem,,NOUN,Feierstunde
 Feiertag,Dat,Plur,Masc,,NOUN,Feiertagen
@@ -27173,7 +27173,7 @@ Freund,Dat,Sing,Masc,,NOUN,Freund | Freunde
 Freund,Acc,Sing,Masc,,NOUN,Freund
 Freund,Dat,,,,NOUN,Freunden
 Freundeskreis,Dat,Sing,Masc,,NOUN,Freundeskreis
-Freundin,Dat,Sing,Fem,,NOUN,Freundin | freundin
+Freundin,Dat,Sing,Fem,,NOUN,Freundin
 Freundin,Acc,Plur,Fem,,NOUN,Freundinnen
 Freundin,Dat,Plur,Fem,,NOUN,Freundinnen
 Freundin,Acc,Sing,Fem,,NOUN,Freundin
@@ -28827,7 +28827,7 @@ Gefängniszelle,Dat,Plur,Fem,,NOUN,Gefängniszellen
 Gefäß,Dat,Sing,Masc,,NOUN,Gefäß
 Gefäß,Acc,Sing,Neut,,NOUN,Gefäß
 Gefüge,Acc,Sing,Neut,,NOUN,Gefüge
-Gefühl,Acc,Sing,Neut,,NOUN,Gefühl | gefühl
+Gefühl,Acc,Sing,Neut,,NOUN,Gefühl
 Gefühl,Acc,Plur,Neut,,NOUN,Gefühle
 Gefühl,Dat,Sing,Neut,,NOUN,Gefühl
 Gefühl,Dat,Plur,Neut,,NOUN,Gefühlen
@@ -28904,7 +28904,7 @@ Gegenstimmen,Acc,Plur,Neut,,NOUN,Gegenstimmen
 Gegenstrafanzeige,Acc,Sing,Fem,,NOUN,Gegenstrafanzeige
 Gegenstück,Dat,Sing,Neut,,NOUN,Gegenstück
 Gegenstück,Acc,Sing,Neut,,NOUN,Gegenstück
-Gegenteil,Dat,Sing,Masc,,NOUN,gegenteil
+Gegenteil,Dat,Sing,Masc,,NOUN,Gegenteil
 Gegenteil,Acc,Sing,Neut,,NOUN,Gegenteil
 Gegenteil,Dat,Sing,Neut,,NOUN,Gegenteil
 Gegenteil,Acc,,,,NOUN,Gegenteil
@@ -30338,7 +30338,7 @@ Gestalt,Dat,Plur,Fem,,NOUN,Gestalten
 Gestalt,Acc,,,,NOUN,Gestalt | Gestalten
 Gestalt,Dat,,,,NOUN,Gestalt
 Gestalten,Dat,Sing,Neut,,NOUN,Gestalten
-Gestalter,Dat,Sing,Masc,,NOUN,gestalter
+Gestalter,Dat,Sing,Masc,,NOUN,Gestalter
 Gestaltung,Acc,Sing,Fem,,NOUN,Gestaltung
 Gestaltung,Dat,Sing,Fem,,NOUN,Gestaltung
 Gestaltungselement,Acc,Plur,Neut,,NOUN,Gestaltungselemente
@@ -35387,7 +35387,7 @@ Hot-Java-Browser,Acc,Sing,Masc,,NOUN,Hot-Java-Browser
 HotJava-Browser,Acc,Sing,Masc,,NOUN,HotJava-Browser
 HotSync-Station,Acc,Sing,Fem,,NOUN,HotSync-Station
 Hotel,Dat,Sing,Neut,,PROPN,Hotel
-Hotel,Acc,Sing,Neut,,NOUN,Hotel | hotel
+Hotel,Acc,Sing,Neut,,NOUN,Hotel
 Hotel,Dat,Plur,Neut,,NOUN,Hotels
 Hotel,Acc,Sing,Neut,,PROPN,Hotel
 Hotel,Dat,Sing,Neut,,NOUN,Hotel
@@ -39711,7 +39711,7 @@ Jagdwaffe,Acc,Plur,Fem,,NOUN,Jagdwaffen
 Jagiellonen,Dat,Sing,Fem,,PROPN,Jagiellonen
 Jaguar-Limousine,Acc,Sing,Fem,,NOUN,Jaguar-Limousine
 Jahr,Dat,Plur,Neut,,NOUN,Jahre | Jahren
-Jahr,Acc,Sing,Neut,,NOUN,Jahr | Jahre | jahr
+Jahr,Acc,Sing,Neut,,NOUN,Jahr | Jahre
 Jahr,Acc,Plur,Neut,,NOUN,Jahre | Jahren
 Jahr,Dat,Sing,Neut,,NOUN,Jahr | Jahre
 Jahr,Acc,Plur,Neut,,PROPN,Jahre
@@ -40129,7 +40129,7 @@ Jets,Acc,Plur,Masc,,NOUN,Jets
 Jetztzeit,Acc,Sing,Fem,,NOUN,Jetztzeit
 Jever,Dat,Sing,Neut,,PROPN,Jever
 Jeziorany,Dat,Sing,Fem,,PROPN,Jeziorany
-Ji,Dat,Sing,Masc,,PROPN,ji
+Ji,Dat,Sing,Masc,,PROPN,Ji
 Jiangsu,Dat,Sing,Neut,,PROPN,Jiangsu
 Jiddisch,Acc,Sing,Masc,,NOUN,Jiddisch
 Jim,Dat,Sing,Masc,,PROPN,Jim
@@ -40449,7 +40449,7 @@ Jura,Dat,Sing,Neut,,NOUN,Jura
 Jura-Student,Acc,Sing,Masc,,NOUN,Jura-Studenten
 Juragebiet,Dat,Sing,Neut,,NOUN,Juragebiet
 Jurastudium,Dat,Sing,Neut,,NOUN,Jurastudium
-Juris,Acc,Sing,Masc,,PROPN,juris
+Juris,Acc,Sing,Masc,,PROPN,Juris
 Jurisdiktion,Dat,Sing,Fem,,NOUN,Jurisdiktion
 Jurisprudenz,Dat,Sing,Fem,,NOUN,Jurisprudenz
 Jurist,Acc,Plur,Masc,,NOUN,Juristen
@@ -41477,7 +41477,7 @@ Kategorie,Acc,Sing,Fem,,NOUN,Kategorie
 Kategorie,Acc,,,,NOUN,Kategorie
 Kategorie-5-Kabel,Dat,Sing,Neut,,NOUN,Kategorie-5-Kabel
 Katellrecht,Acc,Sing,Neut,,NOUN,Katellrecht
-Kater,Dat,Sing,Masc,,NOUN,kater
+Kater,Dat,Sing,Masc,,NOUN,Kater
 Kater,Dat,Sing,Neut,,NOUN,Kater
 Kater,Acc,,,,NOUN,Kater
 Katharina,Acc,Sing,Fem,,PROPN,Katharina
@@ -45041,8 +45041,8 @@ Kurve,Dat,Sing,Fem,,NOUN,Kurve
 Kurve,Dat,Plur,Fem,,NOUN,Kurven
 Kurve,Acc,Sing,Fem,,NOUN,Kurve
 Kurverlust,Acc,Plur,Masc,,NOUN,Kurverluste
-Kurz,Dat,Sing,,,NOUN,kurzem
-Kurz,Dat,Sing,Neut,,NOUN,kurzem
+Kurz,Dat,Sing,,,NOUN,Kurzem
+Kurz,Dat,Sing,Neut,,NOUN,Kurzem
 Kurz,Dat,,,,NOUN,Kurz
 Kurz-Biographie,Acc,Sing,Fem,,NOUN,Kurz-Biographie
 KurzFilmFestival,Dat,Sing,Neut,,NOUN,KurzFilmFestival
@@ -46155,8 +46155,8 @@ Layout-Programm,Acc,Sing,Neut,,NOUN,Layout-Programm
 Layoutmaschine,Acc,Plur,Fem,,NOUN,Layoutmaschinen
 Layoutprogramm,Acc,Sing,Neut,,NOUN,Layoutprogramm
 Lazare,Dat,Sing,Neut,,PROPN,Lazare
-Le,Dat,Sing,Neut,,PROPN,Le | le
-Le,Dat,Sing,Masc,,PROPN,Le | le
+Le,Dat,Sing,Neut,,PROPN,Le
+Le,Dat,Sing,Masc,,PROPN,Le
 Le,Acc,Sing,Masc,,PROPN,Le
 Leadsingle,Acc,Sing,Fem,,NOUN,Leadsingle
 League,Dat,Sing,Fem,,PROPN,League
@@ -46708,7 +46708,7 @@ Lernverhalten,Acc,Sing,Neut,,NOUN,Lernverhalten
 Lernweise,Dat,Sing,Fem,,NOUN,Lernweise
 Lernzeit,Dat,Sing,Fem,,NOUN,Lernzeit
 Lernziel,Acc,Plur,Neut,,NOUN,Lernziele
-Les,Acc,Sing,Neut,,PROPN,les
+Les,Acc,Sing,Neut,,PROPN,Les
 Lesart,Dat,Plur,Fem,,NOUN,Lesarten
 Lesart,Dat,Sing,Fem,,NOUN,Lesart
 Lesart,Acc,Sing,Fem,,NOUN,Lesart
@@ -47146,7 +47146,7 @@ Lingubot-Creator,Dat,Sing,Neut,,NOUN,Lingubot-Creator
 Linguist,Dat,Sing,Masc,,NOUN,Linguisten
 Linie,Dat,Sing,Fem,,NOUN,Linie
 Linie,Dat,Plur,Fem,,NOUN,Linien
-Linie,Dat,Sing,Neut,,NOUN,linien
+Linie,Dat,Sing,Neut,,NOUN,Linien
 Linie,Acc,Plur,Fem,,NOUN,Linien
 Linie,Acc,Sing,Fem,,NOUN,Linie
 Linie,Dat,Sing,Fem,,PROPN,Linie
@@ -48683,7 +48683,7 @@ Maassum,Dat,Sing,Masc,,PROPN,Maassum
 Maastricht,Acc,Sing,Neut,,PROPN,Maastricht
 Maastricht,Dat,Sing,Neut,,PROPN,Maastricht
 Maaß,Dat,Sing,,,PROPN,Maaß
-Mac,Acc,Sing,Masc,,PROPN,Mac | mac
+Mac,Acc,Sing,Masc,,PROPN,Mac
 Mac,Dat,Sing,Masc,,PROPN,Mac
 Mac,Acc,Sing,Masc,,NOUN,Mac
 Mac,Dat,Sing,Masc,,NOUN,Mac
@@ -52167,7 +52167,7 @@ Minus,Dat,Plur,Neut,,NOUN,Minus
 Minuselektrode,Dat,Sing,Fem,,NOUN,Minuselektrode
 Minusgeschäft,Acc,Sing,Neut,,NOUN,Minusgeschäft
 Minute,Acc,Sing,Fem,,NOUN,Minute | Minuten
-Minute,Dat,Plur,Fem,,NOUN,Minuten | minuten
+Minute,Dat,Plur,Fem,,NOUN,Minuten
 Minute,Acc,Plur,Fem,,NOUN,Minuten
 Minute,Dat,Sing,Fem,,NOUN,Minute
 Minuteman-II-Rakete,Dat,Sing,Fem,,NOUN,Minuteman-II-Rakete
@@ -53207,7 +53207,7 @@ Monaco,Dat,Sing,Fem,,PROPN,MONACO
 Monade,Acc,,,,NOUN,Monade
 Monarch,Dat,,,,NOUN,Monarchen
 Monarchie,Acc,Plur,Fem,,NOUN,Monarchien
-Monat,Dat,Plur,Masc,,NOUN,Monate | Monaten | monaten
+Monat,Dat,Plur,Masc,,NOUN,Monate | Monaten
 Monat,Acc,Plur,Masc,,NOUN,Monate
 Monat,Dat,Sing,Masc,,NOUN,Monat | Monate
 Monat,Acc,Sing,Masc,,NOUN,Monat
@@ -54472,7 +54472,6 @@ NLX-Gehäuse,Acc,Plur,Neut,,NOUN,NLX-Gehäuse
 NMEA-Schnittstelle,Acc,Sing,Fem,,NOUN,NMEA-Schnittstelle
 NN,Dat,Sing,Neut,,PROPN,NN
 NN,Acc,Sing,Neut,,PROPN,NN
-NN,Dat,Sing,Masc,,NOUN,"0,18-µm-Prozess"
 NNTP-Implementierung,Dat,Sing,Fem,,NOUN,NNTP-Implementierung
 NP,Dat,Plur,Neut,,PROPN,NP
 NPD,Acc,Plur,Masc,,PROPN,NPD
@@ -60776,7 +60775,7 @@ Persien,Acc,Sing,Neut,,PROPN,Persien
 Persistenzbehandlung,Acc,Sing,Fem,,NOUN,Persistenzbehandlung
 Person,Dat,Plur,Fem,,NOUN,Personen
 Person,Acc,Plur,Fem,,NOUN,Personen
-Person,Acc,Plur,Masc,,NOUN,personen
+Person,Acc,Plur,Masc,,NOUN,Personen
 Person,Acc,Sing,Fem,,NOUN,Person
 Person,Dat,Sing,Fem,,NOUN,Person
 Person,Acc,,,,NOUN,Personen
@@ -61205,7 +61204,7 @@ Physiker,Dat,Plur,Masc,,NOUN,Physikern
 Physikerin,Dat,Sing,Fem,,NOUN,Physikerin
 Physiognomie,Dat,Plur,Fem,,NOUN,Physiognomien
 Physiognomie,Acc,,,,NOUN,Physiognomie
-Physiologie,Acc,Sing,Fem,,NOUN,physiologie
+Physiologie,Acc,Sing,Fem,,NOUN,Physiologie
 Physiologie,Dat,,,,NOUN,Physiologie
 Physiotherapeuten,Dat,Plur,,,NOUN,Physiotherapeuten
 Physiotherapieraxis,Dat,Sing,Fem,,NOUN,Physiotherapieraxis
@@ -62465,7 +62464,7 @@ Preferences-Ordner,Acc,Sing,Masc,,NOUN,Preferences-Ordner
 Preis,Dat,Sing,Masc,,NOUN,Preis | Preise
 Preis,Acc,Plur,Masc,,NOUN,Preise
 Preis,Dat,Plur,Masc,,NOUN,Preis | Preisen
-Preis,Acc,Sing,Masc,,NOUN,Preis | preis
+Preis,Acc,Sing,Masc,,NOUN,Preis
 Preis,Acc,Sing,Neut,,NOUN,Preis
 Preis,Acc,Sing,Masc,,PROPN,Preis
 Preis,Dat,Sing,Masc,,PROPN,Preis
@@ -63122,7 +63121,7 @@ Probeversion,Acc,Sing,Fem,,NOUN,Probeversion
 Probezeit,Dat,Sing,Fem,,NOUN,Probezeit
 Probezeitraum,Acc,Sing,Masc,,NOUN,Probezeitraum
 Problem,Dat,Plur,Masc,,NOUN,Probleme
-Problem,Acc,Plur,Neut,,NOUN,Probleme | probleme
+Problem,Acc,Plur,Neut,,NOUN,Probleme
 Problem,Dat,Sing,Neut,,NOUN,Problem | Probleme
 Problem,Dat,Plur,Neut,,NOUN,Problemen
 Problem,Acc,Sing,Neut,,NOUN,Problem
@@ -64241,7 +64240,7 @@ Pulsquelle,Dat,Sing,Fem,,NOUN,Pulsquelle
 Pulsschlag,Acc,Sing,Masc,,NOUN,Pulsschlag
 Pult,Dat,Sing,Neut,,NOUN,Pult
 Pumpe,Acc,Sing,Fem,,NOUN,Pumpe
-Punk,Dat,Sing,Masc,,NOUN,pUNK
+Punk,Dat,Sing,Masc,,NOUN,PUNK
 Punkcombo,Dat,Sing,Fem,,NOUN,Punkcombo
 Punkt,Dat,Plur,Masc,,NOUN,Punkten
 Punkt,Acc,Plur,Masc,,NOUN,Punkte
@@ -65011,7 +65010,7 @@ Raimund,Acc,Sing,Masc,,PROPN,Raimund
 Raimundiner,Acc,Plur,Masc,,NOUN,Raimundiner
 Rain,Dat,,,,PROPN,Rain
 Rainforest,Dat,Sing,,,PROPN,Rainforest
-Raison,Acc,Sing,Fem,,PROPN,raison
+Raison,Acc,Sing,Fem,,PROPN,Raison
 Raita,Dat,Sing,Neut,,PROPN,Raita
 Raivavae,Dat,Sing,Neut,,PROPN,Raivavae
 Rajah,Acc,Sing,Masc,,PROPN,Rajah
@@ -69087,7 +69086,7 @@ Schachweltmeister,Acc,Sing,Masc,,NOUN,Schachweltmeister
 Schachzug,Acc,Sing,Masc,,NOUN,Schachzug
 Schachzug,Dat,Sing,Masc,,NOUN,Schachzug
 Schadeberg,Dat,Sing,Masc,,PROPN,Schadeberg
-Schaden,Acc,Plur,Masc,,NOUN,Schäden | schäden
+Schaden,Acc,Plur,Masc,,NOUN,Schäden
 Schaden,Dat,Plur,Masc,,NOUN,Schäden
 Schaden,Acc,Sing,Masc,,NOUN,Schaden
 Schaden,Dat,Sing,Masc,,NOUN,Schaden
@@ -69158,7 +69157,7 @@ Schaffung,Dat,Sing,Fem,,NOUN,Schaffung
 Schafherde,Acc,Sing,Fem,,NOUN,Schafherde
 Schafhof,Acc,Sing,Masc,,PROPN,Schafhof
 Schafspelz,Dat,Sing,Masc,,NOUN,Schafspelz
-Schaft,Acc,Sing,Fem,,NOUN,schaft
+Schaft,Acc,Sing,Fem,,NOUN,Schaft
 Schafzucht,Dat,,,,NOUN,Schafzucht
 Schal,Acc,Sing,Masc,,NOUN,Schal
 Schale,Dat,Sing,Fem,,NOUN,Schale
@@ -69673,7 +69672,7 @@ Schlussstrich,Acc,Sing,Masc,,NOUN,Schlussstrich
 Schlusstrich,Acc,Sing,Masc,,NOUN,Schlusstrich
 Schlussverhandlung,Dat,Plur,Fem,,NOUN,Schlussverhandlungen
 Schlussverkauf,Acc,Sing,Masc,,NOUN,Schlussverkauf
-Schluß,Dat,Sing,Masc,,NOUN,Schluss | Schluß | schluss
+Schluß,Dat,Sing,Masc,,NOUN,Schluss | Schluß
 Schluß,Acc,Sing,Masc,,NOUN,Schluss | Schluß
 Schluß,Dat,Sing,Neut,,NOUN,Schluss
 Schluß,Acc,Plur,Masc,,NOUN,Schlüsse
@@ -71467,9 +71466,9 @@ Servertypus,Dat,Plur,Masc,,NOUN,Servertypen
 Serverversion,Acc,Sing,Fem,,NOUN,Serverversion
 Serverwechsel,Acc,Sing,Masc,,NOUN,Serverwechsel
 Serverzentrum,Dat,Sing,Neut,,NOUN,Serverzentrum
-Service,Acc,Sing,Masc,,NOUN,Service | service
+Service,Acc,Sing,Masc,,NOUN,Service
 Service,Dat,Sing,Masc,,NOUN,Service | Services
-Service,Dat,Sing,Fem,,NOUN,Service | service
+Service,Dat,Sing,Fem,,NOUN,Service
 Service,Acc,Sing,Fem,,NOUN,Service
 Service,Dat,Plur,Masc,,NOUN,Services
 Service,Dat,Sing,Masc,,PROPN,Service
@@ -75633,7 +75632,7 @@ Stellfläche,Acc,Sing,Fem,,NOUN,Stellfläche
 Stellplatz,Acc,Plur,Masc,,NOUN,Stellplätze
 Stellplatz,Dat,Plur,Masc,,NOUN,Stellplätzen
 Stelltiefe,Acc,Sing,Fem,,NOUN,Stelltiefe
-Stellung,Acc,Sing,Fem,,NOUN,Stellung | stellung
+Stellung,Acc,Sing,Fem,,NOUN,Stellung
 Stellung,Acc,Plur,Fem,,NOUN,Stellungen
 Stellung,Dat,Plur,Fem,,NOUN,Stellungen
 Stellung,Dat,Sing,Fem,,NOUN,Stellung
@@ -78217,7 +78216,7 @@ Tageszeit,Acc,Plur,Fem,,NOUN,Tageszeiten
 Tageszeitregelung,Dat,Plur,Fem,,NOUN,Tageszeitregelungen
 Tageszeitung,Dat,Sing,Fem,,NOUN,Tageszeitung
 Tageszeitung,Acc,Sing,Fem,,NOUN,Tageszeitung
-Tageszeitung,Acc,Sing,Fem,,PROPN,tageszeitung
+Tageszeitung,Acc,Sing,Fem,,PROPN,Tageszeitung
 Tageszeitung,Dat,Plur,Fem,,NOUN,Tageszeitungen
 Tageszeitung,Acc,Plur,Fem,,NOUN,Tageszeitungen
 Tagewerk,Dat,,,,NOUN,Tagewerke
@@ -79088,7 +79087,7 @@ Teledump-Netz,Acc,Sing,Neut,,NOUN,Teledump-Netz
 Teledump-Vorgehensweise,Dat,Sing,Fem,,NOUN,Teledump-Vorgehensweise
 Teleflash-Angebot,Acc,Sing,Neut,,NOUN,Teleflash-Angebot
 Telefommunikation-Markt,Dat,Sing,Masc,,NOUN,Telefommunikation-Markt
-Telefon,Dat,Sing,Neut,,NOUN,Telefon | telefon
+Telefon,Dat,Sing,Neut,,NOUN,Telefon
 Telefon,Acc,Sing,Neut,,NOUN,Telefon
 Telefon,Acc,Plur,Neut,,NOUN,Telefone
 Telefon,Dat,Plur,Neut,,NOUN,Telefonen
@@ -79893,7 +79892,7 @@ Termin,Acc,Sing,Masc,,NOUN,Termin
 Termin,Dat,Sing,Masc,,NOUN,Termin | Termine
 Termin,Acc,Plur,Masc,,NOUN,Termine
 Termin,Acc,Sing,Fem,,NOUN,Termin | Termine
-Termin,Dat,Plur,Neut,,NOUN,terminen
+Termin,Dat,Plur,Neut,,NOUN,Terminen
 Termin,Dat,Plur,Masc,,NOUN,Terminen
 Terminal,Acc,Sing,Neut,,NOUN,Terminal
 Terminal,Dat,Plur,Masc,,NOUN,Terminals
@@ -86077,7 +86076,7 @@ Verständigung,Dat,Sing,Fem,,NOUN,Verständigung
 Verständigung,Acc,Sing,Fem,,NOUN,Verständigung
 Verständigungsmedium,Acc,Sing,Neut,,NOUN,Verständigungsmedium
 Verständigungsproblem,Acc,Plur,Neut,,NOUN,Verständigungsprobleme
-Verständnis,Acc,Sing,Neut,,NOUN,Verständnis | verständnis
+Verständnis,Acc,Sing,Neut,,NOUN,Verständnis
 Verständnis,Dat,Sing,Neut,,NOUN,Verständnis
 Verständnishürde,Acc,Plur,Fem,,NOUN,Verständnishürden
 Verstärker,Dat,Sing,Masc,,NOUN,Verstärker
@@ -86148,7 +86147,7 @@ Verteiler,Acc,Sing,Masc,,NOUN,Verteiler
 Verteiler,Dat,Sing,Masc,,NOUN,Verteiler
 Verteilnetz,Dat,Plur,Neut,,NOUN,Verteilnetzen
 Verteilnetz,Dat,Sing,Neut,,NOUN,Verteilnetz | Verteilnetze
-Verteilung,Acc,Sing,Fem,,NOUN,Verteilung | verteilung
+Verteilung,Acc,Sing,Fem,,NOUN,Verteilung
 Verteilung,Dat,Sing,Fem,,NOUN,Verteilung
 Verteilungsgerechtigkeit,Dat,Sing,Fem,,NOUN,Verteilungsgerechtigkeit
 Verteilungskampf,Acc,Plur,Masc,,NOUN,Verteilungskämpfe
@@ -89560,7 +89559,7 @@ Weiterbenutzer,Dat,Plur,Masc,,NOUN,Weiterbenutzern
 Weiterbeschäftigung,Acc,Sing,Fem,,NOUN,Weiterbeschäftigung
 Weiterbetrieb,Acc,Sing,Masc,,NOUN,Weiterbetrieb
 Weiterbetrieb,Dat,Sing,Masc,,NOUN,Weiterbetrieb
-Weiterbildung,Acc,Sing,Fem,,NOUN,Weiterbildung | weiterbildung
+Weiterbildung,Acc,Sing,Fem,,NOUN,Weiterbildung
 Weiterbildung,Dat,Sing,Fem,,NOUN,Weiterbildung
 Weiterbildungs-Bibliothek,Acc,Sing,Fem,,NOUN,Weiterbildungs-Bibliothek
 Weiterbildungsangebot,Dat,Plur,Neut,,NOUN,Weiterbildungsangeboten
@@ -90053,8 +90052,8 @@ Werkshalle,Acc,Sing,Fem,,NOUN,Werkshalle
 Werkshalle,Acc,Plur,Fem,,NOUN,Werkshallen
 Werksschließung,Acc,Plur,Fem,,NOUN,Werksschließungen
 Werksschließung,Dat,Sing,Fem,,NOUN,Werksschließung
-Werkstatt,Dat,Sing,Fem,,NOUN,Werkstatt | werkstatt
-Werkstatt,Acc,Sing,Fem,,NOUN,Werkstatt | werkstatt
+Werkstatt,Dat,Sing,Fem,,NOUN,Werkstatt
+Werkstatt,Acc,Sing,Fem,,NOUN,Werkstatt
 Werkstatttermin,Acc,Sing,Masc,,NOUN,Werkstatttermin
 Werkstoff,Acc,Plur,Masc,,NOUN,Werkstoffe
 Werkstoff,Dat,Sing,Masc,,NOUN,Werkstoff | Werkstoffe
@@ -93564,8 +93563,8 @@ Zürich,Acc,Sing,Neut,,NOUN,Zürich
 Zürich,Dat,Sing,Neut,,NOUN,Zürich
 a,Dat,Sing,Masc,,PROPN,a
 a,Dat,Sing,Masc,,X,a
-a,Dat,Sing,Neut,,NOUN,A
-a,Acc,Sing,Neut,,NOUN,A
+a,Dat,Sing,Neut,,NOUN,a
+a,Acc,Sing,Neut,,NOUN,a
 a-Root-Server,Acc,Sing,Masc,,NOUN,a-Root-Server
 a-Root-Server,Dat,Sing,Masc,,NOUN,a-Root-Server
 a-Rootserver,Acc,Sing,Masc,,NOUN,a-Rootserver
@@ -93747,7 +93746,7 @@ absichern,Acc,Sing,Fem,Pos,ADJ,abgesicherte
 absichtlich,Acc,Sing,Fem,Pos,ADJ,absichtliche
 absichtlich,Acc,Sing,Neut,Pos,ADJ,absichtliches
 absolut,Acc,Sing,Fem,Pos,ADJ,absolute
-absolut,Dat,Sing,Fem,,PROPN,Absolute
+absolut,Dat,Sing,Fem,,PROPN,absolute
 absolut,Acc,Sing,Fem,,ADV,absolute
 absolut,Acc,Plur,Fem,Pos,ADJ,absoluten
 absolut,Dat,Plur,Fem,Pos,ADJ,absoluten
@@ -93861,7 +93860,7 @@ adaptiven,Dat,Sing,Fem,,ADJ,adaptiven
 adelig,Dat,Sing,Masc,Pos,ADJ,adeligen
 adlig,Acc,Plur,Fem,Pos,ADJ,adlige
 administrativ,Dat,Sing,Neut,Pos,ADJ,administrativen
-administrativ,Dat,Sing,Fem,,PROPN,Administrative
+administrativ,Dat,Sing,Fem,,PROPN,administrative
 administrativ,Dat,Plur,,Pos,ADJ,administrativen
 administrativ,Acc,Sing,Fem,Pos,ADJ,administrative
 administrativ,Dat,Plur,Fem,Pos,ADJ,administrativen
@@ -94025,8 +94024,8 @@ algorithmisches,Acc,Sing,Neut,,ADJ,algorithmisches
 alkoholbedingten,Dat,Sing,Fem,,ADJ,alkoholbedingten
 alkoholfrei,Acc,Plur,Neut,Pos,ADJ,alkoholfreie
 alkoholisierte,Acc,Plur,Neut,,ADJ,alkoholisierte
-all,Acc,Sing,Neut,,PROPN,All
-all,Dat,Sing,Neut,,PROPN,All
+all,Acc,Sing,Neut,,PROPN,all
+all,Dat,Sing,Neut,,PROPN,all
 all4free-Nutzer,Dat,Plur,Masc,,NOUN,all4free-Nutzern
 allbekannten,Dat,Sing,Fem,,ADJ,allbekannten
 alldas.de-Team,Dat,Sing,Neut,,NOUN,alldas.de-Team
@@ -94082,10 +94081,10 @@ allgemein,Acc,Sing,Neut,Pos,ADJ,allgemeine | allgemeinen | allgemeines
 allgemein,Acc,Plur,Neut,Pos,ADJ,allgemeine | allgemeinen
 allgemein,Dat,Plur,Masc,Pos,ADJ,allgemeinen
 allgemein,Dat,Plur,Neut,Pos,ADJ,allgemeinen
-allgemein,Dat,,,,NOUN,Allgemeinen
+allgemein,Dat,,,,NOUN,allgemeinen
 allgemein,Dat,,,,ADJ,allgemein | allgemeinen
 allgemeinkriminellen,Dat,Sing,Masc,,ADJ,allgemeinkriminellen
-alliiert,Acc,Plur,,,NOUN,Alliierten
+alliiert,Acc,Plur,,,NOUN,alliierten
 alliiert,Dat,Sing,Fem,Pos,ADJ,alliierten
 alliierten,Dat,Plur,Fem,,ADJ,alliierten
 alljährlich,Dat,Plur,Masc,Pos,ADJ,alljährlichen
@@ -94094,7 +94093,7 @@ allmählich,Acc,Sing,Masc,Pos,ADJ,allmählichen
 allmählich,Dat,Sing,Neut,Pos,ADJ,allmählichen
 allmählich,Acc,Sing,Fem,Pos,ADJ,allmähliche
 allseitig,Acc,Sing,Neut,Pos,ADJ,allseitiges
-alltagsmensch,Acc,,,,NOUN,Alltagsmenschen
+alltagsmensch,Acc,,,,NOUN,alltagsmenschen
 alltäglich,Dat,Sing,Masc,Pos,ADJ,alltäglichen
 alltäglich,Dat,Sing,Fem,Pos,ADJ,alltäglichen
 alltäglich,Dat,Sing,Neut,Pos,ADJ,alltäglichen
@@ -94117,14 +94116,14 @@ alt,Dat,Plur,Masc,Pos,ADJ,alten
 alt,Acc,Sing,Masc,Cmp,ADJ,älteren
 alt,Dat,Sing,Fem,Pos,ADJ,alten | alter | neu-alten
 alt,Acc,Plur,Neut,Cmp,ADJ,ältere | älteren
-alt,Dat,Sing,Masc,,PROPN,Alten
+alt,Dat,Sing,Masc,,PROPN,alten
 alt,Dat,Plur,Fem,Pos,ADJ,alten
 alt,Dat,Sing,Masc,Cmp,ADJ,älteren
-alt,Acc,Sing,Fem,,PROPN,Alte
+alt,Acc,Sing,Fem,,PROPN,alte
 alt,Dat,Sing,Fem,Cmp,ADJ,älteren | älterer
-alt,Dat,Sing,Neut,,PROPN,Altem | Alten
+alt,Dat,Sing,Neut,,PROPN,altem | alten
 alt,Acc,Sing,Masc,Sup,ADJ,ältesten
-alt,Dat,Sing,Neut,,NOUN,Alter
+alt,Dat,Sing,Neut,,NOUN,alter
 alt,Acc,Sing,Fem,Cmp,ADJ,ältere
 alt,Dat,Plur,Neut,Pos,ADJ,alten
 alt,Acc,Sing,Masc,Pos,ADJ,alten
@@ -94133,7 +94132,7 @@ alt,Acc,Plur,,Pos,ADJ,alte
 alt,Dat,Plur,,Pos,ADJ,alten
 alt,Acc,Sing,Neut,Cmp,ADJ,älteres
 alt,Acc,Sing,Fem,Sup,ADJ,älteste
-alt,Dat,Sing,Fem,,PROPN,Alten
+alt,Dat,Sing,Fem,,PROPN,alten
 alt,Dat,Plur,Fem,Cmp,ADJ,älteren
 alt,Dat,Plur,Neut,Cmp,ADJ,älteren
 alt,Dat,Plur,Masc,Sup,ADJ,ältesten
@@ -94144,7 +94143,7 @@ alt,Dat,Plur,Neut,Sup,ADJ,ältesten
 alt,Dat,Plur,,Cmp,ADJ,älteren
 alt,Dat,Sing,,Cmp,ADJ,älteren
 alt,Dat,Sing,Neut,Cmp,ADJ,älterem
-alt,Dat,Sing,Masc,,NOUN,Älteren
+alt,Dat,Sing,Masc,,NOUN,älteren
 alt,Dat,,,,ADJ,alt
 alt,Acc,,,,ADJ,alt
 alt-Hierarchie,Acc,Sing,Fem,,NOUN,alt-Hierarchie
@@ -94155,8 +94154,8 @@ altbekannten,Acc,Plur,Masc,,ADJ,altbekannten
 altbewährt,Dat,Sing,Fem,Pos,ADJ,altbewährter
 altbewährt,Dat,Plur,Fem,Pos,ADJ,altbewährten
 altdeutscher,Dat,Sing,Masc,Pos,ADJ,altdeutscher
-alte,Dat,,,,NOUN,Alten
-alte,Acc,,,,NOUN,Alten
+alte,Dat,,,,NOUN,alten
+alte,Acc,,,,NOUN,alten
 altehrwürdigen,Dat,Sing,Neut,,ADJ,altehrwürdigen
 alteingesessen,Dat,Sing,Fem,Pos,ADJ,alteingesessenen
 alteingesessene,Acc,Sing,Masc,,ADJ,alteingesessene
@@ -94178,7 +94177,7 @@ alternierend,Dat,Sing,Fem,Pos,ADJ,alternierenden
 altertümlich,Dat,Plur,Fem,Pos,ADJ,altertümlichen
 altgedient,Acc,Sing,Masc,Pos,ADJ,altgedienten
 altgedient,Acc,Sing,Neut,Pos,ADJ,altgedientes
-altgriechisch,Acc,Sing,Neut,,NOUN,Altgriechisch
+altgriechisch,Acc,Sing,Neut,,NOUN,altgriechisch
 althergebracht,Dat,Plur,Neut,Pos,ADJ,althergebrachten
 althergebracht,Dat,Sing,Masc,Pos,ADJ,althergebrachten
 althergebracht,Dat,Sing,Fem,Pos,ADJ,althergebrachter
@@ -94208,7 +94207,7 @@ amerikanisch,Dat,Sing,Fem,Pos,ADJ,amerikanische | amerikanischen | amerikanische
 amerikanisch,Dat,Plur,Neut,Pos,ADJ,amerikanische | amerikanischen | us-amerikanischen
 amerikanisch,Dat,Plur,Fem,Pos,ADJ,amerikanischen | nicht-us-amerikanischen | us-amerikanischen
 amerikanisch,Acc,Plur,Fem,Pos,ADJ,amerikanische | amerikanischen | us-amerikanische | us-amerikanischen
-amerikanisch,Dat,Sing,Masc,,PROPN,Amerikanischen
+amerikanisch,Dat,Sing,Masc,,PROPN,amerikanischen
 amerikanisch,Acc,Sing,Masc,Pos,ADJ,amerikanischen | britisch-amerikanischen | nicht-amerikanischen | us-amerikanischen
 amerikanisch,Acc,Plur,Masc,Pos,ADJ,amerikanische | amerikanischen | us-amerikanische | us-amerikanischen
 amerikanisch,Dat,Sing,Neut,Pos,ADJ,amerikanischem | amerikanischen | spanisch-amerikanischen | us-amerikanischem | us-amerikanischen
@@ -94831,7 +94830,7 @@ antifaschistische,Acc,Sing,Neut,,ADJ,antifaschistische
 antijüdischen,Dat,Plur,Fem,,ADJ,antijüdischen
 antik,Dat,Sing,Fem,Pos,ADJ,antiken | antiker
 antik,Acc,Sing,Fem,Pos,ADJ,antike
-antik,Dat,Sing,Fem,,NOUN,Antike
+antik,Dat,Sing,Fem,,NOUN,antike
 antik,Acc,Plur,Neut,Pos,ADJ,antike
 antik,Dat,Plur,Fem,Pos,ADJ,antiken
 antik,Acc,Plur,Fem,Pos,ADJ,antiken
@@ -94910,7 +94909,7 @@ appetitlich,Dat,Sing,Masc,Pos,ADJ,appetitlichen
 applaudieren,Acc,Sing,Fem,Pos,ADJ,applaudierende
 applikationsspezifischen,Dat,Plur,Masc,,ADJ,applikationsspezifischen
 arabisch,Dat,Sing,Fem,Pos,ADJ,arabischen
-arabisch,Dat,Plur,Masc,,PROPN,Arabischen
+arabisch,Dat,Plur,Masc,,PROPN,arabischen
 arabisch,Acc,Sing,Fem,Pos,ADJ,arabische
 arabisch,Dat,Sing,Neut,Pos,ADJ,arabischen
 arabisch,Dat,Plur,Masc,Pos,ADJ,arabischen | pro-arabischen
@@ -94954,7 +94953,7 @@ archivieren,Acc,Plur,Fem,Pos,ADJ,archivierten
 archäologisch,Acc,Plur,Fem,Pos,ADJ,archäologischen
 archäologisch,Acc,Plur,Neut,Pos,ADJ,archäologische
 archäologisch,Dat,Plur,Masc,Pos,ADJ,archäologischen
-archäologisch,Dat,Sing,Neut,,PROPN,Archäologischen
+archäologisch,Dat,Sing,Neut,,PROPN,archäologischen
 archäologisch,Dat,Plur,Neut,Pos,ADJ,archäologischen
 arg,Dat,Sing,Masc,Sup,ADJ,ärgsten
 arg,Dat,Plur,Masc,Sup,ADJ,ärgsten
@@ -95009,7 +95008,7 @@ assembler-artigen,Dat,Sing,Fem,,ADJ,assembler-artigen
 associated,Dat,Sing,Fem,Pos,ADJ,associated
 association,Dat,,,,X,association
 assoziative,Acc,Sing,Fem,,ADJ,assoziative
-assyrisch,Dat,Sing,Fem,,PROPN,Assyrischen
+assyrisch,Dat,Sing,Fem,,PROPN,assyrischen
 astrobiologische,Acc,Sing,Fem,,ADJ,astrobiologische
 astronomisch,Acc,Sing,Fem,Pos,ADJ,astronomische
 astronomisch,Acc,Plur,Fem,Pos,ADJ,astronomische | astronomischen
@@ -95224,7 +95223,7 @@ auftretenden,Acc,Plur,Neut,Pos,ADJ,auftretenden
 auftretenden,Dat,Plur,Masc,Pos,ADJ,auftretenden
 auftretenden,Acc,Sing,Masc,Pos,ADJ,auftretenden
 auftretenden,Dat,Plur,Neut,Pos,ADJ,auftretenden
-aufwachen,Dat,,,,NOUN,Aufwachen
+aufwachen,Dat,,,,NOUN,aufwachen
 aufwecken,Dat,Plur,Fem,Pos,ADJ,aufgeweckten
 aufwendig,Dat,Sing,Fem,Pos,ADJ,aufwendigen | aufwendiger
 aufwendig,Acc,Sing,Fem,Pos,ADJ,aufwendige
@@ -95660,10 +95659,10 @@ auswählen,Dat,Plur,Neut,Pos,ADJ,ausgewählten
 auswählen,Acc,Plur,,Pos,ADJ,ausgewählte
 auswählen,Acc,Plur,Masc,,ADJ,ausgewählte
 auswählen,Dat,Sing,Masc,Pos,ADJ,ausgewählten
-auswärtig,Acc,Plur,Fem,,PROPN,Auswärtige
-auswärtig,Acc,Sing,Neut,,PROPN,Auswärtige
+auswärtig,Acc,Plur,Fem,,PROPN,auswärtige
+auswärtig,Acc,Sing,Neut,,PROPN,auswärtige
 auswärtig,Acc,Sing,Masc,Pos,ADJ,auswärtigen
-auswärtig,Dat,Sing,Neut,,PROPN,Auswärtigen
+auswärtig,Dat,Sing,Neut,,PROPN,auswärtigen
 auswärtig,Acc,Plur,Fem,Pos,ADJ,auswärtige
 auswärtig,Acc,Plur,Masc,Pos,ADJ,auswärtigen
 auswärtig,Dat,Sing,Neut,Pos,ADJ,auswärtigen
@@ -95711,8 +95710,8 @@ automatisieren,Dat,Sing,Fem,Pos,ADJ,automatisierten
 automobil,Dat,Plur,Masc,Pos,ADJ,automobilen
 autonom,Dat,Sing,Fem,Pos,ADJ,autonomen
 autonom,Dat,Sing,Neut,Pos,ADJ,autonomen
-autonom,Dat,Sing,Masc,,PROPN,Autonomen
-autonom,Dat,Sing,Fem,,PROPN,Autonomen
+autonom,Dat,Sing,Masc,,PROPN,autonomen
+autonom,Dat,Sing,Fem,,PROPN,autonomen
 autonom,Acc,Sing,Fem,Pos,ADJ,autonome
 autonom,Dat,Plur,Fem,Pos,ADJ,autonomen
 autonom,Acc,Sing,Masc,Pos,ADJ,autonomen
@@ -95733,7 +95732,7 @@ autoritär,Dat,Plur,,Pos,ADJ,autoritären
 autoritär,Dat,Sing,Neut,Pos,ADJ,autoritären
 autosomal,Dat,Plur,Neut,Pos,ADJ,autosomalen
 autrichienn,Acc,Sing,Fem,Pos,ADJ,autrichienne
-außen,Dat,,,,NOUN,Außen
+außen,Dat,,,,NOUN,außen
 außenpolitisch,Acc,Sing,Masc,Pos,ADJ,außenpolitischen
 außenstehend,Dat,Sing,Fem,Pos,ADJ,außenstehenden
 außenstehenden,Dat,Plur,Masc,,ADJ,außenstehenden
@@ -95765,7 +95764,7 @@ außerirdisches,Acc,Sing,Neut,,ADJ,außerirdisches
 außerjapanischen,Dat,Plur,Masc,,ADJ,außerjapanischen
 außerordentlich,Dat,Sing,Fem,Pos,ADJ,außerordentlichen
 außerordentlich,Acc,Plur,Masc,Pos,ADJ,außerordentliche
-außerordentlich,Dat,Sing,Masc,,PROPN,Außerordentlichen
+außerordentlich,Dat,Sing,Masc,,PROPN,außerordentlichen
 außerordentlich,Acc,Sing,Masc,Pos,ADJ,außerordentlichen
 außerordentlich,Dat,Plur,Masc,Pos,ADJ,außerordentlichen
 außerordentlich,Dat,Sing,Neut,Pos,ADJ,außerordentlichen
@@ -95784,7 +95783,7 @@ b,Acc,Plur,Neut,,NOUN,b
 b.,Dat,Sing,Neut,,X,b.
 baby,Dat,,,,X,baby
 backen,Acc,Sing,Masc,Pos,ADJ,gebacken
-backend,Acc,Sing,Masc,,NOUN,Backend
+backend,Acc,Sing,Masc,,NOUN,backend
 baden-württembergischen,Dat,Plur,,,ADJ,baden-württembergischen
 baden-württembergischen,Dat,Sing,Masc,,ADJ,baden-württembergischen
 badisch,Dat,Sing,Neut,Pos,ADJ,badischen
@@ -95799,7 +95798,7 @@ bairros,Dat,Sing,Neut,,NOUN,bairros
 bakteriell,Acc,Plur,Fem,Pos,ADJ,bakteriellen
 bakterizid,Acc,Sing,Fem,Pos,ADJ,bakterizide
 balancieren,Dat,Sing,Masc,Pos,ADJ,balancierten
-bald,Acc,Sing,Fem,,PROPN,Bald
+bald,Acc,Sing,Fem,,PROPN,bald
 baldig,Acc,Sing,Fem,Pos,ADJ,baldige
 baldig,Dat,Sing,Fem,Pos,ADJ,baldigen
 baldig,Dat,Sing,Neut,Pos,ADJ,baldigen
@@ -95881,9 +95880,9 @@ baulich,Dat,Sing,Fem,Pos,ADJ,baulicher
 baulich,Dat,Plur,Neut,Pos,ADJ,baulichen
 baumlos,Dat,Sing,Fem,Pos,ADJ,baumlosen
 bayerisch,Dat,Sing,Masc,Pos,ADJ,bayerischen
-bayerisch,Dat,Sing,Masc,,PROPN,Bayerischen | Bayerischer
+bayerisch,Dat,Sing,Masc,,PROPN,bayerischen | bayerischer
 bayerisch,Dat,Sing,Fem,Pos,ADJ,bayerischen | bayerischer
-bayerisch,Acc,Sing,Masc,,PROPN,Bayerischen
+bayerisch,Acc,Sing,Masc,,PROPN,bayerischen
 bayerisch,Acc,Sing,Fem,Pos,ADJ,bayerische
 bayerisch,Dat,Sing,Neut,Pos,ADJ,bayerischem | bayerischen
 bayerisch,Acc,Plur,Masc,Pos,ADJ,bayerische | bayerischen
@@ -95896,7 +95895,7 @@ bayerisch,Acc,Plur,Fem,Pos,ADJ,bayerische
 bayerneinheitliche,Acc,Sing,Fem,,ADJ,bayerneinheitliche
 bayernweite,Acc,Sing,Fem,,ADJ,bayernweite
 bayrisch,Dat,Sing,Fem,Pos,ADJ,bayrischen
-bayrisch,Acc,Sing,Fem,,PROPN,Bayrische
+bayrisch,Acc,Sing,Fem,,PROPN,bayrische
 bayrisch,Dat,Plur,Fem,Pos,ADJ,bayrischen
 bayrisch,Dat,Sing,Masc,Pos,ADJ,bayrischen
 bbook.trash.net,Dat,Sing,,,PROPN,bbook.trash.net
@@ -96262,7 +96261,7 @@ bekannt,Dat,Sing,Masc,Pos,ADJ,bekannten
 bekannt,Dat,Plur,,Pos,ADJ,bekannten
 bekannt,Acc,Plur,,Pos,ADJ,bekannte
 bekannt,Acc,Sing,Fem,Sup,ADJ,bekannteste
-bekannte,Dat,,,,NOUN,Bekannten
+bekannte,Dat,,,,NOUN,bekannten
 bekanntgeben,Dat,Sing,Fem,Pos,ADJ,bekanntgegebenen
 bekanntgeben,Acc,Sing,Masc,Pos,ADJ,bekanntgegebenen
 bekanntgeben,Dat,Sing,Masc,Pos,ADJ,bekanntgegebenen
@@ -96317,10 +96316,10 @@ beleidigen,Acc,Sing,Masc,Pos,ADJ,beleidigenden
 beleidigen,Acc,Plur,Masc,Pos,ADJ,beleidigende
 beleidigen,Acc,Plur,Fem,Pos,ADJ,beleidigten
 beleuchten,Dat,Sing,Neut,Pos,ADJ,beleuchtetem
-belgisch,Dat,Sing,Neut,,PROPN,Belgisch
+belgisch,Dat,Sing,Neut,,PROPN,belgisch
 belgisch,Dat,Sing,Masc,Pos,ADJ,belgischen
 belgisch,Dat,Sing,Fem,Pos,ADJ,belgischen
-belgisch,Dat,Sing,Fem,,PROPN,Belgischen
+belgisch,Dat,Sing,Fem,,PROPN,belgischen
 belgisch,Acc,Plur,Masc,Pos,ADJ,belgische | belgischen
 belgisch,Acc,Sing,Neut,Pos,ADJ,belgische
 belgisch,Dat,Plur,Masc,Pos,ADJ,belgischen
@@ -96509,7 +96508,7 @@ berliner,Acc,Plur,Fem,Pos,ADJ,berliner
 berner,Acc,Sing,Fem,Pos,ADJ,berner
 berner,Dat,Sing,Fem,Pos,ADJ,berner
 berufen,Dat,Sing,Masc,Pos,ADJ,berufenem | berufenen
-beruflich,Acc,Sing,Fem,,PROPN,Berufliche
+beruflich,Acc,Sing,Fem,,PROPN,berufliche
 beruflich,Acc,Sing,Fem,Pos,ADJ,berufliche
 beruflich,Dat,Sing,Fem,Pos,ADJ,beruflichen | beruflicher
 beruflich,Acc,Plur,Fem,Pos,ADJ,berufliche | beruflichen
@@ -96800,7 +96799,7 @@ bestimmungsgemäßen,Dat,Sing,Masc,,ADJ,bestimmungsgemäßen
 bestmöglich,Acc,Sing,Fem,Pos,ADJ,bestmögliche
 bestochen,Acc,Plur,Masc,Pos,ADJ,bestochene
 bestplaziert,Dat,Plur,Masc,Pos,ADJ,bestplatzierten
-bestreben,Dat,,,,NOUN,Bestreben
+bestreben,Dat,,,,NOUN,bestreben
 bestreichen,Acc,Sing,Fem,Pos,ADJ,bestrichene
 beständig,Dat,Plur,Masc,Sup,ADJ,beständigsten
 bestätigen,Dat,Plur,Fem,Pos,ADJ,bestätigten
@@ -96844,7 +96843,7 @@ betend,Acc,Plur,Masc,Pos,ADJ,betende
 betiteln,Acc,Plur,Neut,Pos,ADJ,betitelte
 betrachten,Dat,Sing,Neut,Pos,ADJ,betrachteten
 betrachten,Dat,Sing,Masc,Pos,ADJ,betrachteten
-betrachtender,Dat,,,,NOUN,Betrachtenden
+betrachtender,Dat,,,,NOUN,betrachtenden
 betrauen,Dat,Sing,Fem,Pos,ADJ,betrauten
 betreffen,Acc,Plur,Masc,Pos,ADJ,betreffenden | betroffenen
 betreffen,Dat,Plur,,Pos,ADJ,betroffenen
@@ -97101,7 +97100,7 @@ bilden,Acc,Sing,Fem,Pos,ADJ,bildende | gebildete
 bilden,Acc,Sing,Masc,Pos,ADJ,gebildeten
 bilden,Acc,Plur,Fem,Pos,ADJ,bildende
 bilden,Dat,Sing,Masc,Pos,ADJ,gebildeten
-bildend,Dat,Sing,Masc,,PROPN,Bildender
+bildend,Dat,Sing,Masc,,PROPN,bildender
 bildend,Dat,Sing,Fem,Pos,ADJ,bildenden
 bildend,Acc,Sing,Masc,Pos,ADJ,bildenden
 bildend,Dat,Plur,Masc,Pos,ADJ,bildenden
@@ -97184,7 +97183,7 @@ bipolare,Acc,Plur,Neut,,ADJ,bipolare
 bipolare,Acc,Sing,Fem,,ADJ,bipolare
 bipolaren,Dat,Plur,Masc,,ADJ,bipolaren
 bipolaren,Acc,Sing,Masc,,ADJ,bipolaren
-birmanisch,Dat,Sing,Masc,,PROPN,Birmanischen
+birmanisch,Dat,Sing,Masc,,PROPN,birmanischen
 bischöflich,Acc,Plur,Masc,Pos,ADJ,bischöflichen
 bisherig,Acc,Sing,Masc,Pos,ADJ,bisherigen
 bisherig,Acc,Sing,Fem,Pos,ADJ,bisherige
@@ -97382,7 +97381,7 @@ breit,Acc,Sing,Masc,Pos,ADJ,breiten
 breit,Acc,Sing,Neut,Pos,ADJ,breite | breites
 breit,Dat,Sing,Neut,Cmp,ADJ,breiteren
 breit,Dat,Sing,Fem,Sup,ADJ,breitesten
-breit,Acc,Sing,Fem,,PROPN,Breite
+breit,Acc,Sing,Fem,,PROPN,breite
 breit,Acc,Sing,Neut,Cmp,ADJ,breitere | breiteres
 breit,Acc,Plur,Masc,Pos,ADJ,breite
 breit,Acc,Sing,Fem,Cmp,ADJ,breitere
@@ -97534,7 +97533,7 @@ bös,Dat,Sing,Masc,Pos,ADJ,bösen
 bösartig,Acc,Plur,Neut,Pos,ADJ,bösartige
 bösartig,Acc,Sing,Masc,Pos,ADJ,bösartigen
 bösartig,Dat,Sing,,Pos,ADJ,bösartigem
-böse,Dat,Sing,Masc,,PROPN,Bösen
+böse,Dat,Sing,Masc,,PROPN,bösen
 böse,Acc,Sing,Neut,Pos,ADJ,böses
 böse,Dat,Plur,Masc,Pos,ADJ,bösen
 böse,Dat,Plur,Neut,Pos,ADJ,bösen
@@ -97705,7 +97704,7 @@ chr,Dat,Sing,Neut,,X,chr
 chr,Dat,Sing,Fem,,X,chr
 christdemokratisch,Dat,Sing,Fem,Pos,ADJ,christdemokratischen
 christlich,Acc,Sing,Fem,Pos,ADJ,christlich | christliche
-christlich,Dat,Sing,Masc,,PROPN,Christlichen
+christlich,Dat,Sing,Masc,,PROPN,christlichen
 christlich,Dat,Sing,Masc,Pos,ADJ,christlichem | christlichen
 christlich,Dat,Sing,Fem,Pos,ADJ,christlichen
 christlich,Dat,Plur,Masc,Pos,ADJ,christlichen
@@ -97775,7 +97774,7 @@ crinitae,Dat,Sing,Masc,,PROPN,crinitae
 ctp2info-Version,Acc,Sing,Fem,,NOUN,ctp2info-Version
 cyber-park.de-Vorstand,Dat,Sing,Masc,,NOUN,cyber-park.de-Vorstand
 cyberterroristische,Acc,Plur,Masc,,ADJ,cyberterroristische
-d,Dat,Sing,Neut,,PROPN,Den
+d,Dat,Sing,Neut,,PROPN,den
 d',Dat,Sing,Masc,,PROPN,d'
 d'Illiez,Dat,Sing,Neut,,PROPN,d'Illiez
 d-Box,Dat,Sing,,,PROPN,d-Box
@@ -97783,8 +97782,8 @@ d-Box-Deal,Dat,Sing,Masc,,NOUN,d-Box-Deal
 d-box-Allianz,Acc,Sing,Fem,,NOUN,d-box-Allianz
 d-box-Plattform,Dat,Sing,Fem,,NOUN,d-box-Plattform
 dBase-Compiler,Acc,Sing,Masc,,NOUN,dBase-Compiler
-da,Acc,Plur,Fem,,NOUN,Da
-da,Acc,,,,NOUN,Da
+da,Acc,Plur,Fem,,NOUN,da
+da,Acc,,,,NOUN,da
 daVinci,Dat,Sing,,,PROPN,daVinci
 daVinci-Organizer,Dat,Plur,Masc,,NOUN,daVinci-Organizern
 daVinci-Reihe,Dat,Sing,Fem,,NOUN,daVinci-Reihe
@@ -97810,7 +97809,7 @@ damalig,Acc,Plur,Masc,Pos,ADJ,damalige | damaligen
 damalig,Dat,Plur,Masc,Pos,ADJ,damaligen
 damalig,Dat,Plur,Fem,Pos,ADJ,damaligen
 dampfbetrieben,Acc,Plur,Neut,Pos,ADJ,dampfbetriebene
-dank,Acc,Sing,Masc,,NOUN,Dank
+dank,Acc,Sing,Masc,,NOUN,dank
 darauffolgend,Dat,Sing,Fem,Pos,ADJ,darauffolgenden
 darauffolgend,Dat,Sing,Neut,Pos,ADJ,darauffolgenden
 darauffolgende,Acc,Sing,Neut,,ADJ,darauffolgende
@@ -97828,8 +97827,8 @@ darstellen,Acc,Sing,Fem,Pos,ADJ,dargestellte
 darstellen,Dat,Sing,Masc,Pos,ADJ,dargestellten
 darstellen,Dat,Sing,Neut,Pos,ADJ,dargestellten
 darstellend,Dat,Sing,Fem,Pos,ADJ,darstellenden
-darstellend,Acc,Sing,Fem,,PROPN,Darstellende
-darstellend,Dat,,,,NOUN,Darstellenden
+darstellend,Acc,Sing,Fem,,PROPN,darstellende
+darstellend,Dat,,,,NOUN,darstellenden
 darunterliegend,Dat,Sing,Fem,Pos,ADJ,darunterliegenden
 darunterliegend,Dat,Sing,Masc,Pos,ADJ,darunterliegenden
 dasein,Dat,Sing,Neut,Pos,ADJ,dagewesenem
@@ -97896,7 +97895,7 @@ de-facto-Absturz,Dat,Sing,Masc,,NOUN,de-facto-Absturz
 de.comm.provider.t-online,Dat,Sing,Neut,,ADJ,de.comm.provider.t-online
 deaktivieren,Dat,Sing,,Pos,ADJ,deaktiviertem
 deaktivieren,Acc,Sing,Neut,Pos,ADJ,deaktivierte
-deal,Acc,Sing,Masc,,NOUN,Deal
+deal,Acc,Sing,Masc,,NOUN,deal
 debis,Dat,Sing,,,PROPN,debis
 debis-Anteil,Acc,Plur,Masc,,NOUN,debis-Anteile
 debis-Kauf,Acc,Sing,Masc,,NOUN,debis-Kauf
@@ -97913,7 +97912,7 @@ defekt,Dat,Sing,Masc,Pos,ADJ,defektem | defekten
 defekt,Acc,Plur,Masc,Pos,ADJ,defekte | defekten
 defekt,Acc,Sing,Masc,Pos,ADJ,defekten
 defekt,Acc,Sing,Fem,Pos,ADJ,defekte
-defensiv,Acc,Sing,Neut,,PROPN,Defensive
+defensiv,Acc,Sing,Neut,,PROPN,defensive
 defensiv,Dat,Sing,Neut,Pos,ADJ,defensiven
 defensiv,Dat,Sing,Fem,Pos,ADJ,defensiven
 definierbaren,Dat,Plur,Masc,,ADJ,definierbaren
@@ -97964,7 +97963,7 @@ demokratisch,Acc,Sing,Masc,Pos,ADJ,demokratischen
 demokratisch,Dat,Sing,Fem,Pos,ADJ,demokratisch | demokratischen
 demokratisch,Dat,Sing,Masc,Pos,ADJ,demokratischen
 demokratisch,Dat,Sing,Neut,Pos,ADJ,demokratischen
-demokratisch,Acc,Sing,Fem,,PROPN,Demokratische
+demokratisch,Acc,Sing,Fem,,PROPN,demokratische
 demokratisch,Acc,Sing,Fem,Pos,ADJ,demokratische | freiheitlich-demokratische | nicht-demokratische
 demokratisch,Acc,Sing,Neut,Pos,ADJ,demokratische | demokratisches
 demokratisch,Dat,Plur,Masc,Pos,ADJ,demokratischen
@@ -97982,7 +97981,7 @@ denkbar,Dat,Sing,Neut,Pos,ADJ,denkbaren
 denken,Acc,Sing,Fem,Pos,ADJ,gedachte
 denken,Dat,Sing,Masc,Pos,ADJ,denkenden | gedachten
 denken,Dat,Plur,,Pos,ADJ,denkenden
-denken,Dat,,,,NOUN,Denken
+denken,Dat,,,,NOUN,denken
 denkmalgeschützt,Dat,Plur,Neut,Pos,ADJ,denkmalgeschützten
 denkmalgeschützten,Dat,Sing,Neut,,ADJ,denkmalgeschützten
 denkmapflegerischen,Dat,Plur,Masc,Pos,ADJ,denkmapflegerischen
@@ -98122,30 +98121,30 @@ deutlich,Acc,Plur,Neut,Pos,ADJ,deutliche | deutlichen
 deutlich,Dat,Plur,Fem,Cmp,ADJ,deutlicheren
 deutlich,Acc,Sing,Masc,Cmp,ADJ,deutlicheren
 deutlich,Acc,Plur,Masc,Pos,ADJ,deutliche
-deutsch,Acc,Sing,Neut,,PROPN,Deutsch | Deutsches
+deutsch,Acc,Sing,Neut,,PROPN,deutsch | deutsches
 deutsch,Dat,Sing,Fem,Pos,ADJ,deutsch | deutsche | deutschen | deutscher
 deutsch,Acc,Sing,Fem,Pos,ADJ,deutsche
 deutsch,Acc,Plur,Neut,Pos,ADJ,deutsche | deutschen
-deutsch,Dat,Sing,Fem,,PROPN,Deutschen
-deutsch,Acc,Sing,Fem,,PROPN,Deutsche
+deutsch,Dat,Sing,Fem,,PROPN,deutschen
+deutsch,Acc,Sing,Fem,,PROPN,deutsche
 deutsch,Dat,Plur,Fem,Pos,ADJ,deutschen
-deutsch,Acc,Sing,Neut,,NOUN,Deutsch | Deutsche
-deutsch,Dat,Sing,Neut,,PROPN,Deutsch | Deutschen
+deutsch,Acc,Sing,Neut,,NOUN,deutsch | deutsche
+deutsch,Dat,Sing,Neut,,PROPN,deutsch | deutschen
 deutsch,Dat,Sing,Neut,Pos,ADJ,deutsch | deutsche | deutschem | deutschen
-deutsch,Acc,Sing,Masc,,NOUN,Deutschen
+deutsch,Acc,Sing,Masc,,NOUN,deutschen
 deutsch,Dat,Sing,Masc,Pos,ADJ,deutsch | deutschem | deutschen
-deutsch,Dat,Sing,Masc,,PROPN,Deutsch | Deutschen
+deutsch,Dat,Sing,Masc,,PROPN,deutsch | deutschen
 deutsch,Acc,Sing,Masc,Pos,ADJ,deutsch | deutschen
 deutsch,Acc,Plur,Fem,Pos,ADJ,deutsche | deutschen
 deutsch,Dat,Plur,Masc,Pos,ADJ,deutschen
 deutsch,Acc,Plur,Masc,Pos,ADJ,deutsch | deutsche | deutschen
-deutsch,Dat,Sing,Neut,,NOUN,Deutsch
+deutsch,Dat,Sing,Neut,,NOUN,deutsch
 deutsch,Acc,Sing,Neut,Pos,ADJ,deutsche | deutsches
 deutsch,Dat,Plur,Neut,Pos,ADJ,deutschen
 deutsch,Dat,Sing,,Pos,ADJ,deutschem | deutschen
 deutsch,Dat,Plur,,Pos,ADJ,deutschen
 deutsch,Acc,Plur,,Pos,ADJ,deutsche | deutschen
-deutsche,Dat,,,,NOUN,Deutschen
+deutsche,Dat,,,,NOUN,deutschen
 deutschlandweit,Acc,Plur,Neut,Pos,ADJ,deutschlandweite
 deutschlandweit,Acc,Sing,Fem,Pos,ADJ,deutschlandweite
 deutschprachigen,Dat,Plur,Fem,,ADJ,deutschprachigen
@@ -98246,7 +98245,7 @@ differierend,Dat,Plur,Fem,Pos,ADJ,differierenden
 diffuse,Acc,Sing,Fem,,ADJ,diffuse
 diffusen,Dat,Sing,Neut,,ADJ,diffusen
 diffuser,Dat,Sing,Fem,,ADJ,diffuser
-digital,Dat,Sing,Masc,,PROPN,Digitalen
+digital,Dat,Sing,Masc,,PROPN,digitalen
 digital,Dat,Sing,Masc,Pos,ADJ,digitalem | digitalen
 digital,Acc,Plur,Neut,Pos,ADJ,digitale | digitalen
 digital,Dat,Plur,Fem,Pos,ADJ,digitalen
@@ -98453,7 +98452,7 @@ drehen,Dat,Plur,Fem,Pos,ADJ,drehenden
 drehen,Acc,Sing,Masc,Pos,ADJ,drehenden
 drehenden,Dat,Plur,Neut,Pos,ADJ,drehenden
 drehzahlgeregelten,Acc,Sing,Masc,Pos,ADJ,drehzahlgeregelten
-drei,Dat,Sing,Masc,,PROPN,Drei
+drei,Dat,Sing,Masc,,PROPN,drei
 drei,Acc,Sing,Masc,,NUM,drei
 drei,Dat,Plur,,,NUM,drei
 drei,Dat,,,,NUM,dreyen
@@ -98467,7 +98466,7 @@ dreidimensional,Acc,Sing,Masc,Pos,ADJ,dreidimensionalen
 dreidimensional,Dat,Sing,Neut,Pos,ADJ,dreidimensionalen
 dreidimensional,Acc,Plur,Fem,Pos,ADJ,dreidimensionale | dreidimensionalen
 dreidimensional,Dat,Plur,Neut,Pos,ADJ,dreidimensionalen
-dreieckig,Dat,Sing,Fem,,PROPN,Dreieckige
+dreieckig,Dat,Sing,Fem,,PROPN,dreieckige
 dreien,Dat,Plur,,,NUM,dreien
 dreier,Dat,Sing,Fem,,NUM,dreier
 dreifach,Acc,Sing,Fem,Pos,ADJ,dreifache
@@ -98516,8 +98515,8 @@ dreiwöchigen,Dat,Sing,Masc,,ADJ,dreiwöchigen
 dreiwöchigen,Dat,Sing,Fem,,ADJ,dreiwöchigen
 dreizeiligen,Dat,Sing,Neut,,ADJ,dreizeiligen
 dreißiger,Dat,Plur,Neut,Pos,ADJ,dreißiger
-dreißigjährig,Dat,Sing,Masc,,PROPN,Dreißigjährigen
-dreißigjährig,Acc,Sing,Masc,,PROPN,Dreißigjährigen
+dreißigjährig,Dat,Sing,Masc,,PROPN,dreißigjährigen
+dreißigjährig,Acc,Sing,Masc,,PROPN,dreißigjährigen
 dreißigjährig,Acc,Sing,Masc,Pos,ADJ,dreißigjährigen
 dreißigjährig,Dat,Sing,Masc,Pos,ADJ,dreißigjährigen
 dreißigste,Dat,Sing,Masc,Pos,ADJ,dreißigsten
@@ -98639,7 +98638,7 @@ dunkelgrün,Dat,Plur,Masc,Pos,ADJ,dunkelgrünen
 dunkeln,Dat,Sing,Neut,Pos,ADJ,dunkeln
 durch,Acc,,,,ADP,durch
 durchbohrt,Dat,Sing,Masc,Pos,ADJ,durchbohrten
-durchbrechen,Dat,,,,NOUN,Durchbrechen
+durchbrechen,Dat,,,,NOUN,durchbrechen
 durchdacht,Acc,Sing,Fem,Pos,ADJ,durchdachte
 durchdacht,Acc,Sing,Masc,Pos,ADJ,durchdachten
 durchdenken,Acc,Sing,Fem,Pos,ADJ,durchdachte
@@ -98711,7 +98710,7 @@ dämpfen,Dat,Plur,Fem,Pos,ADJ,gedämpften
 dämpfen,Dat,Sing,Fem,Pos,ADJ,gedämpften
 dänisch,Dat,Sing,Fem,Pos,ADJ,dänischen
 dänisch,Dat,Sing,Neut,Pos,ADJ,dänischen
-dänisch,Dat,Sing,Fem,,PROPN,Dänischen
+dänisch,Dat,Sing,Fem,,PROPN,dänischen
 dänisch,Dat,Plur,Fem,Pos,ADJ,dänischen
 dänisch,Acc,Sing,Fem,Pos,ADJ,dänische
 dänisch,Dat,Sing,Masc,Pos,ADJ,dänischen
@@ -98758,8 +98757,8 @@ düster,Dat,Sing,Neut,Pos,ADJ,düsteren
 düster,Dat,Sing,Fem,Pos,ADJ,düsteren
 e,Acc,Sing,Fem,,X,e
 e,Dat,Plur,Fem,,X,e
-e,Dat,Sing,Neut,,NOUN,E | e
-e,Acc,Sing,Neut,,NOUN,E
+e,Dat,Sing,Neut,,NOUN,e
+e,Acc,Sing,Neut,,NOUN,e
 e,Acc,Plur,Fem,Pos,ADJ,e
 e-Book-Ausstellung,Dat,Sing,Fem,,NOUN,e-Book-Ausstellung
 e-Business,Acc,Sing,Neut,,NOUN,e-Business
@@ -98937,15 +98936,15 @@ ehrgeizig,Dat,Plur,Neut,Pos,ADJ,ehrgeizigen
 ehrgeizig,Acc,Sing,Fem,Pos,ADJ,ehrgeizige
 ehrgeizig,Acc,Plur,Neut,Pos,ADJ,ehrgeizigen
 ehrgeizig,Acc,Plur,Fem,Pos,ADJ,ehrgeizigen
-ehrlich,Dat,,,,PROPN,Ehrlich
-ehrlich,Acc,Sing,Masc,,PROPN,Ehrlich
+ehrlich,Dat,,,,PROPN,ehrlich
+ehrlich,Acc,Sing,Masc,,PROPN,ehrlich
 ehrlich,Acc,Sing,Fem,Pos,ADJ,ehrliche
 ehrlich,Dat,Sing,Masc,Pos,ADJ,ehrlichem
 ehrwürdig,Acc,Sing,Masc,Pos,ADJ,ehrwürdigen
 eichen,Dat,Plur,Neut,Pos,ADJ,geeichten
 eidesstattlich,Acc,Sing,Fem,Pos,ADJ,eidesstattliche
 eidesstattlich,Dat,Plur,Fem,Pos,ADJ,eidesstattlichen
-eidgenössisch,Dat,Sing,Fem,,PROPN,Eidgenössischen
+eidgenössisch,Dat,Sing,Fem,,PROPN,eidgenössischen
 eidgenössische,Acc,Sing,Fem,,ADJ,eidgenössische
 eidgenössischen,Dat,Sing,Fem,,ADJ,eidgenössischen
 eiernden,Dat,Sing,Fem,Pos,ADJ,eiernden
@@ -99500,8 +99499,8 @@ einzigartig,Acc,Sing,Masc,Pos,ADJ,einzigartigen
 einzuhaltend,Acc,Plur,Fem,Pos,ADJ,einzuhaltende
 einzurichtende,Acc,Sing,Fem,Pos,ADJ,einzurichtende
 einzäunen,Acc,Sing,Masc,Pos,ADJ,eingezäunten
-eisern,Acc,Sing,Neut,,PROPN,Eiserne
-eisern,Dat,Sing,Neut,,PROPN,Eisernen
+eisern,Acc,Sing,Neut,,PROPN,eiserne
+eisern,Dat,Sing,Neut,,PROPN,eisernen
 eisig,Acc,Plur,Fem,Pos,ADJ,eisigen
 eisig,Dat,Sing,Fem,Pos,ADJ,eisiger
 eisig,Acc,Sing,Neut,Pos,ADJ,eisiges
@@ -99516,7 +99515,7 @@ elaboriert,Acc,Plur,Neut,Pos,ADJ,elaborierte
 elastisch,Acc,Sing,Masc,Pos,ADJ,elastischen
 elastisch,Dat,Plur,Neut,Pos,ADJ,elastischen
 elastisch,Dat,Sing,Neut,Pos,ADJ,elastischem
-elastische,Acc,,,,NOUN,Elastische
+elastische,Acc,,,,NOUN,elastische
 elegant,Acc,Sing,Fem,Pos,ADJ,elegante
 elegant,Acc,Sing,Masc,Pos,ADJ,eleganten
 elegant,Dat,Sing,Neut,Pos,ADJ,eleganten
@@ -99920,7 +99919,7 @@ enttäuschen,Dat,Sing,Masc,Pos,ADJ,enttäuschenden
 enttäuschenden,Acc,Sing,Masc,Pos,ADJ,enttäuschenden
 enttäuschenden,Dat,Plur,Neut,Pos,ADJ,enttäuschenden
 enttäuschenden,Dat,Sing,Neut,Pos,ADJ,enttäuschenden
-entweder,Acc,Sing,Neut,,NOUN,Entweder
+entweder,Acc,Sing,Neut,,NOUN,entweder
 entwerfen,Acc,Plur,Neut,Pos,ADJ,entworfene
 entwerfen,Acc,Sing,Fem,Pos,ADJ,entworfene
 entwerfen,Acc,Sing,Masc,Pos,ADJ,entworfenen
@@ -100075,7 +100074,7 @@ erfurter,Dat,Sing,Masc,Pos,ADJ,erfurter
 erfüllen,Acc,Plur,Fem,Pos,ADJ,erfüllten
 erfüllen,Dat,Sing,Fem,Pos,ADJ,erfüllten
 erfüllen,Dat,Sing,Neut,Pos,ADJ,erfülltem
-erfüllen,Acc,Sing,Neut,,NOUN,Erfüllen
+erfüllen,Acc,Sing,Neut,,NOUN,erfüllen
 ergeben,Dat,Plur,Fem,Pos,ADJ,ergebenden
 ergeben,Dat,Sing,Fem,Pos,ADJ,ergebenen
 ergebnisabhängigen,Dat,Sing,Fem,,ADJ,ergebnisabhängigen
@@ -100646,16 +100645,16 @@ europäisch,Dat,Plur,Neut,Pos,ADJ,europäischen
 europäisch,Dat,Sing,Masc,Pos,ADJ,europäischem | europäischen
 europäisch,Acc,Sing,Fem,,PROPN,europäische
 europäisch,Acc,Sing,Neut,Pos,ADJ,europäische | europäisches
-europäisch,Dat,Sing,Fem,,PROPN,Europäischen
-europäisch,Dat,Sing,Neut,,PROPN,Europäischen
-europäisch,Acc,Sing,Neut,,PROPN,Europäische
+europäisch,Dat,Sing,Fem,,PROPN,europäischen
+europäisch,Dat,Sing,Neut,,PROPN,europäischen
+europäisch,Acc,Sing,Neut,,PROPN,europäische
 europäisch,Dat,Sing,Neut,Pos,ADJ,europäischem | europäischen | pan-europäischen
 europäisch,Acc,Plur,Masc,Pos,ADJ,europäische | europäischen
 europäisch,Acc,Sing,Fem,Pos,ADJ,europäische | pan-europäische
-europäisch,Acc,Plur,Masc,,PROPN,Europäische
+europäisch,Acc,Plur,Masc,,PROPN,europäische
 europäisch,Acc,Plur,Neut,Pos,ADJ,europäische | europäischen
 europäisch,Acc,Sing,Masc,Pos,ADJ,europäischen | pan-europäischen
-europäisch,Acc,Sing,Masc,,PROPN,Europäischen
+europäisch,Acc,Sing,Masc,,PROPN,europäischen
 europäisch,Dat,Sing,Fem,Pos,ADJ,europäischen | europäischer
 europäisch,Acc,Plur,,Pos,ADJ,europäische | europäischen
 europäisch,Dat,Plur,Fem,Pos,ADJ,europäischen | nicht-europäischen
@@ -100669,11 +100668,11 @@ euroskeptischen,Dat,Sing,Fem,,ADJ,euroskeptischen
 euroäischer,Dat,Sing,Fem,,ADJ,euroäischer
 eurpäischen,Dat,Sing,Masc,,ADJ,eurpäischen
 eutrophen,Dat,Plur,Neut,Pos,ADJ,eutrophen
-evangelisch,Acc,Sing,Fem,,PROPN,Evangelische
+evangelisch,Acc,Sing,Fem,,PROPN,evangelische
 evangelisch,Acc,Sing,Masc,Pos,ADJ,evangelischen
 evangelisch,Dat,Sing,Masc,Pos,ADJ,evangelische
-evangelisch,Dat,Sing,Fem,,PROPN,Evangelischen
-evangelisch,Dat,Sing,Neut,,PROPN,Evangelischen
+evangelisch,Dat,Sing,Fem,,PROPN,evangelischen
+evangelisch,Dat,Sing,Neut,,PROPN,evangelischen
 evangelisch,Dat,Sing,Fem,Pos,ADJ,evangelischen
 evangelisch,Acc,Sing,Fem,Pos,ADJ,evangelische
 eventuell,Dat,Sing,Neut,Pos,ADJ,eventuellen
@@ -100756,7 +100755,7 @@ expandieren,Dat,Sing,Neut,Pos,ADJ,expandierenden
 expandieren,Dat,Plur,Neut,Pos,ADJ,expandierenden
 expandieren,Acc,Sing,Masc,Pos,ADJ,expandierenden
 experimentell,Dat,Sing,Neut,Pos,ADJ,experimentellen
-experimentell,Acc,Sing,Fem,,PROPN,Experimentelle
+experimentell,Acc,Sing,Fem,,PROPN,experimentelle
 experimentell,Acc,Sing,Masc,Pos,ADJ,experimentellen
 experimentell,Acc,Plur,Neut,Pos,ADJ,experimentelle
 experimentell,Dat,Sing,Fem,Pos,ADJ,experimentellen
@@ -101197,11 +101196,11 @@ finnisch,Dat,Sing,Masc,Pos,ADJ,finnischen
 finnisch,Acc,Sing,Neut,Pos,ADJ,finnische
 finnisch,Acc,Sing,Fem,Pos,ADJ,finnische
 finnisch,Dat,Plur,Masc,Pos,ADJ,finnischen
-finnisch,Dat,Sing,Neut,,NOUN,Finnischen
+finnisch,Dat,Sing,Neut,,NOUN,finnischen
 finster,Dat,Sing,Fem,Pos,ADJ,finsteren
 finster,Acc,Sing,Fem,Pos,ADJ,finstere
 firewall-geschützen,Dat,Sing,Neut,,ADJ,firewall-geschützen
-firm,Dat,Plur,Fem,,NOUN,Firmen
+firm,Dat,Plur,Fem,,NOUN,firmen
 firmeneigene,Acc,Sing,Masc,,ADJ,firmeneigene
 firmeneigenen,Dat,Sing,Masc,,ADJ,firmeneigenen
 firmeneigenen,Dat,Plur,Masc,,ADJ,firmeneigenen
@@ -101466,7 +101465,7 @@ frankfürter,Dat,Sing,Fem,,ADJ,frankfürter
 franko,Dat,Plur,Neut,Pos,ADJ,franko
 französichen,Dat,Sing,Masc,,ADJ,französichen
 französisch,Dat,Sing,Neut,Pos,ADJ,deutsch-französischen | französisch | französischem | französischen
-französisch,Dat,Sing,Fem,,PROPN,Französischen
+französisch,Dat,Sing,Fem,,PROPN,französischen
 französisch,Acc,Sing,Fem,Pos,ADJ,französische | französischen
 französisch,Dat,Sing,Neut,,NOUN,französischen
 französisch,Dat,Sing,Fem,Pos,ADJ,französischen | französischer
@@ -101487,7 +101486,7 @@ fraunhofer,Acc,Sing,Neut,,ADJ,fraunhofer
 freenet.de,Dat,Sing,,,PROPN,freenet.de
 frei,Acc,Sing,Fem,Pos,ADJ,cookie-freie | freie | freier | sony-freie
 frei,Acc,Plur,Masc,Pos,ADJ,freie | freien | regionalcode-freie
-frei,Acc,Sing,Fem,,PROPN,Freie | freie
+frei,Acc,Sing,Fem,,PROPN,freie
 frei,Dat,Plur,Masc,Pos,ADJ,freien
 frei,Dat,Sing,Fem,Cmp,ADJ,freier
 frei,Dat,Sing,Masc,Pos,ADJ,freiem | freien
@@ -101496,7 +101495,7 @@ frei,Dat,Sing,Neut,Pos,ADJ,freien
 frei,Dat,Plur,Neut,Pos,ADJ,freien
 frei,Dat,Plur,Fem,Pos,ADJ,freien
 frei,Dat,,,Pos,ADJ,frei
-frei,Dat,Sing,Fem,,PROPN,Freien
+frei,Dat,Sing,Fem,,PROPN,freien
 frei,Acc,Sing,Neut,Pos,ADJ,freie | freies
 frei,Acc,Sing,Masc,Pos,ADJ,freien
 frei,Acc,Plur,Fem,Pos,ADJ,freie | freien
@@ -101524,7 +101523,7 @@ freischalten,Acc,Sing,Neut,Pos,ADJ,freigeschaltete
 freischalten,Dat,Plur,,Pos,ADJ,freigeschalteten
 freisetzen,Acc,Sing,Fem,Pos,ADJ,freigesetzte
 freiwillge,Acc,Sing,Fem,,ADJ,freiwillge
-freiwillig,Dat,Sing,Fem,,NOUN,Freiwillige
+freiwillig,Dat,Sing,Fem,,NOUN,freiwillige
 freiwillig,Dat,Plur,Masc,Pos,ADJ,freiwilligen
 freiwillig,Dat,Sing,Fem,Pos,ADJ,freiwilligen | freiwilliger
 freiwillig,Acc,Sing,Masc,Pos,ADJ,freiwilligen
@@ -101580,7 +101579,7 @@ friedlich,Acc,Sing,Neut,Pos,ADJ,friedliches
 friedlich,Acc,Plur,Masc,Pos,ADJ,friedlichen
 friedrichshafener,Dat,Sing,Neut,,ADJ,friedrichshafener
 friedvolle,Acc,Sing,Neut,,ADJ,friedvolle
-friesisch,Dat,Sing,Neut,,PROPN,Friesischen
+friesisch,Dat,Sing,Neut,,PROPN,friesischen
 frisch,Dat,Plur,Fem,Sup,ADJ,frischesten
 frisch,Acc,Plur,Neut,Pos,ADJ,frische | frischen
 frisch,Acc,Sing,Neut,Pos,ADJ,frische | frisches
@@ -101876,10 +101875,10 @@ ganz,Dat,,,Pos,ADJ,ganz
 ganz,Dat,Plur,Masc,Pos,ADJ,ganzen
 ganz,Acc,Plur,Masc,Pos,ADJ,ganze | ganzen
 ganz,Dat,Plur,Neut,Pos,ADJ,ganzen
-ganz,Acc,Sing,Neut,,NOUN,Ganzes
+ganz,Acc,Sing,Neut,,NOUN,ganzes
 ganz,Dat,,,,ADJ,ganzen
-ganze,Dat,,,,NOUN,Ganzen
-ganze,Acc,,,,NOUN,Ganze | Ganzes
+ganze,Dat,,,,NOUN,ganzen
+ganze,Acc,,,,NOUN,ganze | ganzes
 ganzheitlich,Acc,Sing,Neut,Pos,ADJ,ganzheitliches
 ganzheitlichen,Acc,Sing,Masc,,ADJ,ganzheitlichen
 ganzseitige,Acc,Sing,Fem,,ADJ,ganzseitige
@@ -102038,7 +102037,7 @@ geführt,Acc,Sing,Masc,Pos,ADJ,geführten
 gegangen,Acc,Sing,Neut,,ADJ,gegangen
 gegeben,Dat,Plur,Neut,Pos,ADJ,gegebenen
 gegen,Acc,,,,ADP,gegen
-gegend,Acc,,,,NOUN,Gegenden
+gegend,Acc,,,,NOUN,gegenden
 gegenseitig,Dat,Sing,Neut,Pos,ADJ,gegenseitigem | gegenseitigen
 gegenseitig,Acc,Sing,Fem,Pos,ADJ,gegenseitige
 gegenseitig,Dat,Sing,Fem,Pos,ADJ,gegenseitigen | gegenseitiger
@@ -102112,7 +102111,7 @@ gehen,Dat,Sing,Fem,Pos,ADJ,gegangenen | gehenden
 gehen,Dat,Sing,Masc,Pos,ADJ,gegangenen | gehenden
 gehen,Acc,Plur,Fem,Pos,ADJ,gegangenen
 gehen,Dat,Plur,Neut,Pos,ADJ,gegangenen
-gehoben,Acc,Sing,Neut,,PROPN,Gehobenes
+gehoben,Acc,Sing,Neut,,PROPN,gehobenes
 gehobener,Dat,Sing,Fem,Pos,ADJ,gehobener
 gehäuseintegriertes,Acc,Sing,Neut,,ADJ,gehäuseintegriertes
 gehören,Dat,Sing,Fem,Pos,ADJ,gehörenden | gehörter
@@ -102192,8 +102191,8 @@ geleistet,Acc,Plur,Masc,Pos,ADJ,geleisteten
 geleistet,Dat,Sing,Fem,Pos,ADJ,geleisteten
 geleitet,Dat,Sing,Fem,Pos,ADJ,geleiteten
 gelernt,Acc,Sing,Masc,Pos,ADJ,gelernten
-geliebter,Dat,,,,NOUN,Geliebten
-geliebter,Acc,,,,NOUN,Geliebten
+geliebter,Dat,,,,NOUN,geliebten
+geliebter,Acc,,,,NOUN,geliebten
 gelingen,Acc,Sing,Fem,Pos,ADJ,gelungene
 gelingen,Dat,Plur,Neut,Pos,ADJ,gelungene | gelungenen
 gelingen,Dat,Sing,Fem,Pos,ADJ,gelungenen
@@ -102234,7 +102233,7 @@ gemein,Acc,Sing,Masc,Sup,ADJ,gemeinsten
 gemein,Dat,Sing,Neut,Pos,ADJ,gemeinen
 gemein,Acc,Sing,Neut,Pos,ADJ,gemeine
 gemein,Dat,,,,ADJ,gemeinen
-gemein,Dat,,,,NOUN,Unphilosophie
+gemein,Dat,,,,NOUN,unphilosophie
 gemeindefrei,Dat,Plur,Neut,Pos,ADJ,gemeindefreien
 gemeindenah,Dat,Sing,Fem,Pos,ADJ,gemeindenaher
 gemeingefährlichen,Dat,Sing,Neut,,ADJ,gemeingefährlichen
@@ -102379,7 +102378,7 @@ geometrisch,Dat,Sing,Fem,Pos,ADJ,geometrisch | geometrischen
 geometrisch,Dat,Plur,Neut,Pos,ADJ,geometrischen
 geophil,Acc,Plur,Fem,Pos,ADJ,geophile
 geopolitischen,Dat,Plur,Neut,,ADJ,geopolitischen
-georgisch,Dat,Sing,Fem,,PROPN,Georgischen
+georgisch,Dat,Sing,Fem,,PROPN,georgischen
 georgisch,Acc,Sing,Fem,Pos,ADJ,georgische
 geostationäre,Acc,Sing,Fem,,ADJ,geostationäre
 geostationäre,Acc,Plur,Masc,,ADJ,geostationäre
@@ -102453,7 +102452,7 @@ gering,Dat,Sing,Masc,Sup,ADJ,geringsten
 gering,Acc,Sing,Masc,Sup,ADJ,geringsten
 gering,Dat,Sing,,Pos,ADJ,geringem
 gering,Acc,Plur,,Sup,ADJ,geringsten
-gering,Dat,Sing,Neut,,NOUN,Geringsten
+gering,Dat,Sing,Neut,,NOUN,geringsten
 geringfügig,Acc,Sing,Masc,Pos,ADJ,geringfügigen
 geringfügig,Dat,Sing,Fem,Pos,ADJ,geringfügigen
 geringfügig,Dat,Plur,Masc,Pos,ADJ,geringfügigen
@@ -102503,7 +102502,7 @@ geschafft,Acc,Sing,Fem,Pos,ADJ,geschaffene
 geschafft,Dat,Sing,Masc,Pos,ADJ,geschaffenen
 geschafft,Dat,Sing,Fem,Pos,ADJ,geschaffenen
 geschehen,Acc,Sing,Masc,Pos,ADJ,geschehenen
-geschehen,Acc,Sing,Neut,,NOUN,Geschehene
+geschehen,Acc,Sing,Neut,,NOUN,geschehene
 gescheitert,Dat,Plur,Fem,Pos,ADJ,gescheiterten
 gescheitert,Dat,Sing,Neut,Pos,ADJ,gescheiterten
 geschichtlich,Acc,Sing,Fem,Pos,ADJ,geschichtliche
@@ -102768,7 +102767,7 @@ gewohnt,Acc,Sing,Fem,Pos,ADJ,gewohnte
 gewohnt,Acc,Plur,Masc,Pos,ADJ,gewohnten
 gewohnt,Acc,Sing,Neut,Pos,ADJ,gewohnte
 gewohnt,Dat,Plur,Masc,Pos,ADJ,gewohnten
-gewollt,Dat,Sing,Neut,,NOUN,Gewollte
+gewollt,Dat,Sing,Neut,,NOUN,gewollte
 gewonnen,Dat,Plur,,,ADJ,gewonnen
 gewählt,Acc,Sing,Fem,Pos,ADJ,gewählte
 gewählt,Dat,Sing,Fem,Pos,ADJ,gewählten
@@ -102888,7 +102887,7 @@ gleichzeitig,Dat,Plur,Neut,Pos,ADJ,gleichzeitigen
 gleichzeitig,Dat,Sing,Neut,Pos,ADJ,gleichzeitigem
 gleichzeitig,Dat,Plur,Masc,Pos,ADJ,gleichzeitigen
 gleichzeitig,Acc,Plur,Masc,Pos,ADJ,gleichzeitige
-gleisen,Dat,Sing,Neut,,NOUN,Gleis
+gleisen,Dat,Sing,Neut,,NOUN,gleis
 gleiten,Acc,Sing,Masc,Pos,ADJ,gleitenden
 glibc-Entwicklung,Acc,Sing,Fem,,NOUN,glibc-Entwicklung
 gliedern,Dat,Sing,Fem,Pos,ADJ,gegliederter
@@ -102916,7 +102915,7 @@ globalen,Acc,Sing,Masc,,ADJ,globalen
 globalen,Dat,Sing,Neut,,ADJ,globalen
 globales,Acc,Sing,Neut,,ADJ,globales
 globalisieren,Dat,Plur,Masc,Pos,ADJ,globalisierten
-glorreich,Dat,Sing,Masc,,NOUN,Glorreichen
+glorreich,Dat,Sing,Masc,,NOUN,glorreichen
 glorreich,Acc,Sing,Fem,Pos,ADJ,glorreiche
 glyceringetränktes,Acc,Sing,Neut,Pos,ADJ,glyceringetränktes
 glänzen,Acc,Sing,Neut,Pos,ADJ,glänzendes
@@ -102957,7 +102956,7 @@ golden,Dat,Plur,Masc,Pos,ADJ,goldenen
 golden,Acc,Sing,Neut,Pos,ADJ,goldene | goldenes
 golden,Dat,Plur,Fem,Pos,ADJ,goldenen
 golden,Dat,Sing,Fem,Pos,ADJ,goldenen | goldener
-golden,Dat,Sing,Fem,,PROPN,Goldenen
+golden,Dat,Sing,Fem,,PROPN,goldenen
 golden,Acc,Sing,Masc,Pos,ADJ,goldenen
 golden,Dat,Sing,Neut,Pos,ADJ,goldenen
 golderner,Dat,Plur,Fem,,ADJ,golderner
@@ -102988,7 +102987,7 @@ graphisch,Dat,Sing,Fem,Pos,ADJ,graphischen
 graphisch,Dat,Plur,Neut,Pos,ADJ,graphischen
 grassieren,Acc,Sing,Fem,Pos,ADJ,grassierende
 grassierende,Acc,Sing,Neut,Pos,ADJ,grassierende
-grau,Dat,Sing,Masc,,PROPN,Grauen
+grau,Dat,Sing,Masc,,PROPN,grauen
 grau,Dat,Sing,Masc,Pos,ADJ,grauem | grauen
 grau,Dat,Plur,Neut,Pos,ADJ,grauen
 grau,Dat,Plur,Masc,Pos,ADJ,grauen
@@ -103031,10 +103030,10 @@ grenzüberschreitend,Acc,Plur,Fem,Pos,ADJ,grenzüberschreitende
 griechisch,Acc,Sing,Fem,Pos,ADJ,griechische
 griechisch,Dat,Plur,,Pos,ADJ,griechischen
 griechisch,Dat,Sing,Masc,Pos,ADJ,griechischen
-griechisch,Acc,Sing,Neut,,PROPN,Griechisch
+griechisch,Acc,Sing,Neut,,PROPN,griechisch
 griechisch,Dat,Sing,Neut,Pos,ADJ,griechischen
-griechisch,Dat,Sing,Masc,,PROPN,Griechischer
-griechisch,Acc,Sing,Fem,,PROPN,Griechische
+griechisch,Dat,Sing,Masc,,PROPN,griechischer
+griechisch,Acc,Sing,Fem,,PROPN,griechische
 griechisch,Dat,Sing,Fem,Pos,ADJ,griechischen
 griechisch,Dat,Plur,Fem,Pos,ADJ,griechischen
 griechisch,Acc,Plur,Masc,Pos,ADJ,griechische
@@ -103075,8 +103074,8 @@ groß,Acc,Plur,Masc,Cmp,ADJ,größere | größeren
 groß,Acc,Sing,Fem,Sup,ADJ,größte
 groß,Dat,Sing,Neut,Cmp,ADJ,größerem | größeren
 groß,Dat,Sing,Masc,Cmp,ADJ,größerem | größeren
-groß,Dat,Sing,Masc,,PROPN,Grossen | Großen | großen
-groß,Acc,Sing,Masc,,PROPN,Großen
+groß,Dat,Sing,Masc,,PROPN,grossen | großen
+groß,Acc,Sing,Masc,,PROPN,großen
 groß,Dat,Sing,Masc,Sup,ADJ,größtem | größten
 groß,Dat,Plur,Neut,Pos,ADJ,großen
 groß,Acc,Plur,Fem,Pos,ADJ,große | großen
@@ -103086,14 +103085,14 @@ groß,Acc,Sing,Fem,Cmp,ADJ,größere
 groß,Dat,Plur,Fem,Cmp,ADJ,größeren
 groß,Acc,Sing,Neut,Pos,ADJ,große | großes
 groß,Acc,Plur,Masc,Pos,ADJ,große | großen
-groß,Dat,Sing,Neut,,PROPN,Großen
+groß,Dat,Sing,Neut,,PROPN,großen
 groß,Acc,Sing,Masc,Cmp,ADJ,größeren
 groß,Dat,Plur,Masc,Cmp,ADJ,größeren
 groß,Dat,Sing,Fem,Cmp,ADJ,größeren | größerer
 groß,Dat,Plur,Fem,Pos,ADJ,grossen | große | großen
 groß,Dat,Sing,Neut,Sup,ADJ,größtem | größten
-groß,Dat,Plur,Masc,,PROPN,Großen
-groß,Acc,Sing,Neut,,PROPN,Große
+groß,Dat,Plur,Masc,,PROPN,großen
+groß,Acc,Sing,Neut,,PROPN,große
 groß,Acc,Sing,Neut,Cmp,ADJ,größere | größeres
 groß,Dat,Plur,,Pos,ADJ,großen
 groß,Dat,Sing,,Pos,ADJ,großem | großen
@@ -103172,7 +103171,7 @@ grün,Dat,Plur,Fem,Pos,ADJ,grünen
 grün,Dat,Sing,Masc,Pos,ADJ,grünem | grünen
 grün,Dat,Plur,Neut,Pos,ADJ,grünen
 grün,Dat,Sing,Fem,Pos,ADJ,grünen
-grün,Acc,Sing,Neut,,PROPN,Grünes
+grün,Acc,Sing,Neut,,PROPN,grünes
 grün,Acc,Plur,Neut,Pos,ADJ,grüne
 grün,Acc,Sing,Neut,Pos,ADJ,grüne | grünes
 grün,Acc,Plur,Masc,Pos,ADJ,grüne
@@ -103192,9 +103191,9 @@ gründen,Dat,Sing,Masc,Pos,ADJ,gegründeten
 gründen,Dat,Plur,Neut,Pos,ADJ,gegründeten
 gründlich,Acc,Sing,Fem,Pos,ADJ,gründliche
 gründlich,Dat,Sing,Fem,Pos,ADJ,gründlichen
-gründlich,Acc,,,,NOUN,Gründliches
+gründlich,Acc,,,,NOUN,gründliches
 gründungswilligen,Dat,,,,ADJ,gründungswilligen
-grüne,Dat,Plur,,,PROPN,Grünen
+grüne,Dat,Plur,,,PROPN,grünen
 guatemaltekischen,Acc,Sing,Masc,Pos,ADJ,guatemaltekischen
 gut,Acc,Sing,Fem,Sup,ADJ,beste
 gut,Dat,Sing,Fem,Sup,ADJ,besten | bester
@@ -103211,7 +103210,7 @@ gut,Dat,Sing,Neut,Cmp,ADJ,besserem | besseren
 gut,Dat,Sing,Fem,Pos,ADJ,guten | guter
 gut,Acc,Sing,Neut,Pos,ADJ,gute | gutes
 gut,Acc,Plur,Masc,Sup,ADJ,besten
-gut,Acc,Sing,Neut,,NOUN,Beste | besseres | gutes
+gut,Acc,Sing,Neut,,NOUN,besseres | beste | gutes
 gut,Dat,Plur,Neut,Sup,ADJ,besten
 gut,Dat,Plur,Masc,Pos,ADJ,gute | guten
 gut,Dat,Sing,Masc,Sup,ADJ,bestem | besten
@@ -103221,9 +103220,9 @@ gut,Dat,Sing,Fem,Cmp,ADJ,bessere | besseren | besserer
 gut,Acc,Plur,Neut,Sup,ADJ,besten
 gut,Acc,Plur,Neut,Pos,ADJ,gute | guten
 gut,Acc,Sing,Masc,Sup,ADJ,besten
-gut,Dat,Sing,Neut,,PROPN,Best
+gut,Dat,Sing,Neut,,PROPN,best
 gut,Dat,Plur,Fem,Sup,ADJ,besten
-gut,Acc,Sing,Neut,,PROPN,Best
+gut,Acc,Sing,Neut,,PROPN,best
 gut,Dat,Sing,Neut,Pos,ADJ,gutem | guten
 gut,Acc,Plur,Masc,Cmp,ADJ,bessere
 gut,Dat,Plur,Neut,Cmp,ADJ,besseren
@@ -103240,7 +103239,7 @@ gut,Dat,Sing,,Pos,ADJ,gutem | guten
 gut,Dat,Plur,,Cmp,ADJ,besseren
 gut,Dat,Sing,,Sup,ADJ,besten
 gut,Dat,Plur,,Sup,ADJ,besten
-gut,Acc,,,,NOUN,Beste | Gute | Gutes
+gut,Acc,,,,NOUN,beste | gute | gutes
 gut,Dat,,,,ADJ,besten
 gut,Dat,,,,NOUN,besten
 gutausgebildet,Acc,Sing,Masc,Pos,ADJ,gutausgebildeten
@@ -103393,7 +103392,7 @@ handeln,Dat,Sing,Fem,Pos,ADJ,gehandelten | handelnden
 handeln,Acc,Plur,Masc,Pos,ADJ,handelnde
 handeln,Acc,Sing,Fem,Pos,ADJ,gehandelte | handelnde
 handeln,Dat,Sing,Masc,Pos,ADJ,gehandelten
-handeln,Dat,,,,NOUN,Handeln
+handeln,Dat,,,,NOUN,handeln
 handelsbezogene,Acc,Plur,Masc,,ADJ,handelsbezogene
 handelsüblich,Acc,Sing,Masc,Pos,ADJ,handelsüblichen
 handelsüblich,Dat,Plur,Fem,Pos,ADJ,handelsüblichen
@@ -103436,7 +103435,7 @@ hannoversch,Acc,Sing,Masc,Pos,ADJ,hannoverschen
 hannoversch,Acc,Plur,Masc,Pos,ADJ,hannoverschen
 hannoversch,Dat,Plur,,Pos,ADJ,hannoverschen
 hannöversche,Acc,Plur,Masc,,ADJ,hannöversche
-hanseatisch,Dat,Sing,Neut,,PROPN,Hanseatischen
+hanseatisch,Dat,Sing,Neut,,PROPN,hanseatischen
 happig,Acc,Plur,Masc,Pos,ADJ,happigen
 happig,Dat,Sing,Fem,Pos,ADJ,happigen
 haptisches,Acc,Sing,Neut,,ADJ,haptisches
@@ -103484,7 +103483,7 @@ hart,Acc,Plur,Masc,Cmp,ADJ,härtere
 hart,Acc,Sing,Masc,Sup,ADJ,härtesten
 hart,Dat,Plur,Fem,Cmp,ADJ,härteren
 hart,Acc,Plur,Neut,Pos,ADJ,harte
-hartgesotten,Acc,Plur,Fem,,NOUN,Hartgesottenen
+hartgesotten,Acc,Plur,Fem,,NOUN,hartgesottenen
 hartherzig,Dat,Plur,Masc,Pos,ADJ,hartherzigen
 hartnäckig,Dat,Plur,Neut,Pos,ADJ,hartnäckigen
 hartnäckig,Dat,Sing,Neut,Pos,ADJ,hartnäckigem
@@ -103529,7 +103528,7 @@ heben,Dat,Sing,Masc,Pos,ADJ,gehobenen
 heben,Acc,Sing,Masc,Pos,ADJ,gehobenen
 heben,Dat,Sing,Fem,Pos,ADJ,gehobenen
 heben,Acc,Sing,Neut,Pos,ADJ,gehobene
-hebräisch,Dat,Sing,Fem,,PROPN,Hebräischen
+hebräisch,Dat,Sing,Fem,,PROPN,hebräischen
 hebräisch,Acc,Sing,Masc,Pos,ADJ,hebräischen
 hebräisch,Acc,Sing,Fem,Pos,ADJ,hebräische
 hecheln,Acc,Plur,Masc,Pos,ADJ,hechelnden
@@ -103555,10 +103554,10 @@ heikel,Acc,Plur,Neut,Pos,ADJ,heikle | heiklen
 heikel,Dat,Sing,Fem,Pos,ADJ,heiklen
 heikel,Acc,Sing,Neut,Pos,ADJ,heikle
 heil,Acc,Sing,Fem,Pos,ADJ,heile
-heilig,Dat,Sing,Masc,,PROPN,Heiligen | heiligen
-heilig,Dat,Sing,Fem,,PROPN,Heiligen | heiligen
-heilig,Dat,Sing,Neut,,PROPN,Heilig
-heilig,Acc,Sing,Masc,,PROPN,Heiligen
+heilig,Dat,Sing,Masc,,PROPN,heiligen
+heilig,Dat,Sing,Fem,,PROPN,heiligen
+heilig,Dat,Sing,Neut,,PROPN,heilig
+heilig,Acc,Sing,Masc,,PROPN,heiligen
 heilig,Acc,Sing,Masc,Pos,ADJ,heiligen
 heilig,Dat,Sing,Fem,Pos,ADJ,heiligen
 heilig,Acc,Sing,Fem,Pos,ADJ,heilige
@@ -103566,7 +103565,7 @@ heilig,Dat,Sing,Masc,Pos,ADJ,heiligen
 heilig,Acc,Plur,Neut,Pos,ADJ,heiligen
 heilig,Dat,Plur,Masc,Pos,ADJ,heiligen
 heilig,Dat,Sing,Neut,Pos,ADJ,heiligen
-heilige,Dat,,,,NOUN,Heiligen
+heilige,Dat,,,,NOUN,heiligen
 heiligen,Acc,Sing,Masc,Pos,ADJ,geheiligten
 heiliggesprochen,Acc,Sing,Masc,Pos,ADJ,heiliggesprochenen
 heiliggesprochen,Dat,Sing,Masc,Pos,ADJ,heiliggesprochenen
@@ -103626,7 +103625,7 @@ hell,Dat,Plur,Fem,Pos,ADJ,hellen
 hell,Acc,Sing,Masc,Pos,ADJ,hellen
 hell,Dat,Sing,Masc,Pos,ADJ,hellem
 hellblau,Acc,Sing,Masc,Pos,ADJ,hellblauen
-hellenische,Acc,,,,NOUN,Hellenische
+hellenische,Acc,,,,NOUN,hellenische
 hellenistisch,Acc,Sing,Fem,Pos,ADJ,hellenistische
 hellgrün,Acc,Sing,Fem,Pos,ADJ,hellgrüne
 hemdknopfgroßen,Acc,Sing,Masc,,ADJ,hemdknopfgroßen
@@ -103634,7 +103633,7 @@ hemdsärmelig,Acc,Plur,Masc,Pos,ADJ,hemdsärmelige
 hemicyaneus,Dat,Sing,Masc,,PROPN,hemicyaneus
 hemimetabolen,Dat,Plur,Neut,Pos,ADJ,hemimetabolen
 hepatischen,Dat,Sing,Fem,Pos,ADJ,hepatischen
-her,Dat,Sing,Neut,,NOUN,Her
+her,Dat,Sing,Neut,,NOUN,her
 herabstufen,Acc,Sing,Fem,Pos,ADJ,herabgestufte
 herabwürdigend,Dat,,,,ADJ,herabwürdigend
 herantragen,Dat,Plur,Masc,Pos,ADJ,herangetragenen
@@ -103744,8 +103743,8 @@ herzig,Dat,Plur,Neut,Pos,ADJ,herzigen
 herzkrank,Acc,Plur,Masc,Pos,ADJ,herzkranke
 herzlich,Dat,Sing,Fem,Pos,ADJ,herzlicher
 herzlich,Acc,Sing,Masc,Pos,ADJ,herzlichen
-hessisch,Acc,Sing,Neut,,PROPN,Hessische
-hessisch,Dat,Sing,Neut,,PROPN,Hessisch
+hessisch,Acc,Sing,Neut,,PROPN,hessische
+hessisch,Dat,Sing,Neut,,PROPN,hessisch
 hessisch,Acc,Plur,Neut,Pos,ADJ,hessische
 hessisch,Acc,Plur,Masc,Pos,ADJ,hessischen
 hessisch,Dat,Sing,Fem,Pos,ADJ,hessischen
@@ -103804,7 +103803,7 @@ hilfreich,Acc,Plur,Masc,Pos,ADJ,hilfreiche
 hilfreich,Acc,Sing,Fem,Pos,ADJ,hilfreiche
 himmlisch,Acc,Plur,Fem,Pos,ADJ,himmlischen
 himmlisch,Acc,Sing,Masc,Pos,ADJ,himmlischen
-hin,Dat,Sing,Neut,,NOUN,Hin
+hin,Dat,Sing,Neut,,NOUN,hin
 hinausgehende,Acc,Sing,Fem,Pos,ADJ,hinausgehende
 hinausragenden,Dat,Plur,Neut,,ADJ,hinausragenden
 hindu,Acc,Sing,Masc,Pos,ADJ,hindu
@@ -103839,8 +103838,8 @@ hinterste,Dat,Sing,Masc,Pos,ADJ,hintersten
 hinterziehen,Acc,Plur,Fem,Pos,ADJ,hinterzogenen
 hinzugewinnen,Acc,Plur,Masc,Pos,ADJ,hinzugewonnenen
 hinzukaufen,Acc,Plur,Neut,Pos,ADJ,hinzugekauften
-hip,Acc,Sing,Masc,,NOUN,Hip
-hip,Dat,Sing,Masc,,NOUN,Hip
+hip,Acc,Sing,Masc,,NOUN,hip
+hip,Dat,Sing,Masc,,NOUN,hip
 hippem,Dat,Sing,Masc,,ADJ,hippem
 hippsten,Acc,Plur,Fem,,ADJ,hippsten
 historisch,Acc,Sing,Fem,Pos,ADJ,historische
@@ -103849,7 +103848,7 @@ historisch,Dat,Sing,Neut,Pos,ADJ,historischem | historischen
 historisch,Dat,Sing,Fem,Pos,ADJ,historisch | historischen
 historisch,Acc,Plur,Fem,,PROPN,historische
 historisch,Acc,Plur,Fem,Pos,ADJ,historische
-historisch,Dat,Sing,Neut,,PROPN,Historischen
+historisch,Dat,Sing,Neut,,PROPN,historischen
 historisch,Dat,Sing,Masc,Pos,ADJ,historischen
 historisch,Dat,Plur,Neut,Pos,ADJ,historischen
 historisch,Acc,Sing,Masc,Pos,ADJ,historischen
@@ -103879,11 +103878,11 @@ hoch,Dat,Plur,Masc,Pos,ADJ,hohen
 hoch,Acc,Sing,Neut,Cmp,ADJ,höhere | höheres
 hoch,Dat,Plur,Masc,Cmp,ADJ,höheren
 hoch,Dat,Sing,Fem,Sup,ADJ,höchsten | höchster
-hoch,Dat,Sing,Neut,,PROPN,Hohe
+hoch,Dat,Sing,Neut,,PROPN,hohe
 hoch,Acc,Sing,Fem,Sup,ADJ,höchste
 hoch,Acc,Plur,Fem,Cmp,ADJ,höhere | höheren
 hoch,Dat,Plur,Masc,Sup,ADJ,höchsten
-hoch,Acc,Sing,Fem,,PROPN,Höhere
+hoch,Acc,Sing,Fem,,PROPN,höhere
 hoch,Acc,Sing,Neut,Pos,ADJ,hohe | hohes
 hoch,Acc,Plur,Fem,Sup,ADJ,höchsten
 hoch,Dat,Sing,Neut,Sup,ADJ,höchstem
@@ -104024,7 +104023,7 @@ homosexuell,Dat,Plur,Masc,Pos,ADJ,homosexuellen
 homöopathisch,Dat,Plur,Fem,Pos,ADJ,homöopathischen
 hongkonger,Dat,Sing,Masc,Pos,ADJ,hongkonger
 honkonger,Dat,Sing,Masc,,ADJ,honkonger
-horizontal,Dat,Sing,Fem,,PROPN,Horizontal
+horizontal,Dat,Sing,Fem,,PROPN,horizontal
 horizontal,Acc,Sing,Fem,Pos,ADJ,horizontale
 horizontal,Dat,Plur,Fem,Pos,ADJ,horizontalen
 horizontal,Dat,Sing,Fem,Pos,ADJ,horizontalen
@@ -104287,7 +104286,7 @@ ich,Acc,Sing,,,PRON,mich
 ich,Dat,Sing,Masc,,PRON,mir
 ich,Dat,Sing,Fem,,PRON,mir
 ich,Acc,Sing,Fem,,PRON,mich
-ich,Acc,,,,NOUN,Ich
+ich,Acc,,,,NOUN,ich
 icq-kompatiblen,Acc,Sing,Masc,,ADJ,icq-kompatiblen
 ideal,Acc,Plur,Fem,Pos,ADJ,ideale
 ideal,Dat,Sing,Masc,Pos,ADJ,idealen
@@ -104388,7 +104387,7 @@ imposant,Dat,Plur,Masc,Pos,ADJ,imposanten
 imposant,Acc,Sing,Fem,Pos,ADJ,imposante
 imposant,Dat,Sing,Fem,Pos,ADJ,imposanten
 improvisieren,Dat,Sing,Masc,Pos,ADJ,improvisierten
-in,Acc,Sing,Neut,,NOUN,In
+in,Acc,Sing,Neut,,NOUN,in
 in,Dat,,,,ADP,in
 in,Acc,,,,ADP,in
 inaktiv,Acc,Plur,,Pos,ADJ,inaktiven
@@ -104403,8 +104402,8 @@ indirekt,Dat,Sing,Masc,Pos,ADJ,indirektem | indirekten
 indirekt,Acc,Sing,Fem,Pos,ADJ,indirekte
 indirekt,Acc,Sing,Masc,Pos,ADJ,indirekten
 indirekt,Acc,Plur,Masc,Pos,ADJ,indirekten
-indisch,Dat,Sing,Neut,,PROPN,Indischen | indischen
-indisch,Dat,Plur,Neut,,PROPN,Indischen
+indisch,Dat,Sing,Neut,,PROPN,indischen
+indisch,Dat,Plur,Neut,,PROPN,indischen
 indisch,Acc,Sing,Masc,Pos,ADJ,indischen
 indisch,Acc,Sing,Neut,Pos,ADJ,indisches
 indisch,Dat,Plur,Masc,Pos,ADJ,indischen
@@ -104516,9 +104515,9 @@ inhaltlich,Acc,Plur,Masc,Pos,ADJ,inhaltlichen
 inhaltsleeren,Dat,Plur,Masc,,ADJ,inhaltsleeren
 inhomogenen,Dat,Sing,Fem,,ADJ,inhomogenen
 inhomogenes,Acc,Sing,Neut,,ADJ,inhomogenes
-initiativ,Acc,Sing,Fem,,NOUN,Initiative
-initiativ,Dat,Sing,Fem,,PROPN,Initiative
-initiativ,Dat,Sing,Fem,,NOUN,Initiative
+initiativ,Acc,Sing,Fem,,NOUN,initiative
+initiativ,Dat,Sing,Fem,,PROPN,initiative
+initiativ,Dat,Sing,Fem,,NOUN,initiative
 initiieren,Dat,Sing,Fem,Pos,ADJ,initiierten
 initiieren,Dat,Sing,Neut,Pos,ADJ,initiierten
 initiieren,Acc,Plur,Masc,Pos,ADJ,initiierten
@@ -104568,8 +104567,8 @@ innere,Acc,Sing,Neut,Pos,ADJ,innere
 innere,Dat,Sing,,Pos,ADJ,innern
 innere,Dat,Plur,Fem,Pos,ADJ,innere
 innere,Dat,Sing,Masc,Pos,ADJ,inneren
-innere,Dat,,,,NOUN,Innern
-innerer,Acc,,,,NOUN,Innere
+innere,Dat,,,,NOUN,innern
+innerer,Acc,,,,NOUN,innere
 innereuropäischen,Dat,Plur,Fem,,ADJ,innereuropäischen
 innergemeinschaftlichen,Dat,Plur,Fem,,ADJ,innergemeinschaftlichen
 innerparteilich,Acc,Sing,Neut,Pos,ADJ,innerparteiliche
@@ -104768,10 +104767,10 @@ intern,Dat,Plur,,Pos,ADJ,internen
 international,Dat,Sing,Masc,Pos,ADJ,internationalem | internationalen
 international,Acc,Plur,Fem,Pos,ADJ,internationale | internationalen
 international,Dat,Plur,Fem,Pos,ADJ,internationale | internationalen
-international,Acc,Sing,Fem,,PROPN,Internationale
+international,Acc,Sing,Fem,,PROPN,internationale
 international,Acc,Sing,Neut,Pos,ADJ,internationale | internationales
 international,Dat,Sing,Fem,Pos,ADJ,internationalen | internationaler
-international,Dat,Sing,Fem,,PROPN,Internationalen
+international,Dat,Sing,Fem,,PROPN,internationalen
 international,Acc,Sing,Fem,Pos,ADJ,internationale
 international,Dat,Sing,Neut,Pos,ADJ,internationalem | internationalen
 international,Dat,Plur,Masc,Pos,ADJ,internationalen
@@ -104779,9 +104778,9 @@ international,Acc,Plur,,Pos,ADJ,internationale
 international,Acc,Sing,Masc,Pos,ADJ,internationalen
 international,Dat,Plur,Neut,Pos,ADJ,internationalen
 international,Dat,Sing,,,PROPN,international
-international,Dat,Sing,Neut,,PROPN,Internationalen
-international,Dat,Sing,Masc,,PROPN,Internationalen
-international,Acc,Sing,Masc,,PROPN,Internationalen
+international,Dat,Sing,Neut,,PROPN,internationalen
+international,Dat,Sing,Masc,,PROPN,internationalen
+international,Acc,Sing,Masc,,PROPN,internationalen
 international,Dat,Sing,,Pos,ADJ,internationalem | internationalen
 international,Acc,Plur,Neut,Pos,ADJ,internationale | internationalen
 international,Acc,Plur,Masc,Pos,ADJ,internationale | internationalen
@@ -104894,7 +104893,7 @@ irreparablen,Dat,Plur,Masc,,ADJ,irreparablen
 irreparablen,Acc,Sing,Masc,,ADJ,irreparablen
 irritieren,Dat,Plur,Fem,Pos,ADJ,irritierenden
 irrsinnig,Dat,Sing,Fem,Pos,ADJ,irrsinnigen | irrsinniger
-irwischen,Dat,,,,NOUN,Irwischen
+irwischen,Dat,,,,NOUN,irwischen
 ischämischen,Dat,Sing,Masc,Pos,ADJ,ischämischen
 ish-Sprecherin,Dat,Sing,Fem,,NOUN,ish-Sprecherin
 islamisch,Dat,Sing,Fem,Pos,ADJ,islamischen | islamischer
@@ -104929,11 +104928,11 @@ italienisch,Dat,Sing,Neut,Pos,ADJ,italienischem | italienischen
 italienisch,Acc,Sing,Masc,Pos,ADJ,italienisch | italienischen
 italienisch,Acc,Plur,Neut,Pos,ADJ,italienische
 italienisch,Dat,Plur,Masc,Pos,ADJ,italienische | italienischen
-italienisch,Acc,Sing,Neut,,NOUN,Italienisch
+italienisch,Acc,Sing,Neut,,NOUN,italienisch
 italienisch,Acc,Sing,Fem,Pos,ADJ,italienische
 italienisch,Dat,Plur,Neut,Pos,ADJ,italienischen
 italienisch,Acc,Sing,Neut,Pos,ADJ,italienische
-italienisch,Acc,Sing,Neut,,PROPN,Italienisch
+italienisch,Acc,Sing,Neut,,PROPN,italienisch
 italienisch,Dat,Sing,Fem,Pos,ADJ,italienischen
 italienisch,Dat,Sing,Masc,Pos,ADJ,italienischen
 italienisch,Acc,Plur,Fem,Pos,ADJ,italienische
@@ -104952,7 +104951,7 @@ jahrelang,Dat,Sing,Fem,Pos,ADJ,jahrelangen | jahrelanger
 jahrelang,Dat,Plur,Fem,Pos,ADJ,jahrelangen
 jahrelang,Dat,Plur,Neut,Pos,ADJ,jahrelangen
 jahrelang,Acc,Sing,Fem,Pos,ADJ,jahrelange
-jahrzehnte,Dat,Plur,Neut,,NOUN,Jahrzehnten
+jahrzehnte,Dat,Plur,Neut,,NOUN,jahrzehnten
 jahrzehntelang,Dat,Plur,Neut,Pos,ADJ,jahrzehntelangen
 japanisch,Dat,Sing,Fem,Pos,ADJ,japanischen | japanischer
 japanisch,Dat,Sing,Neut,Pos,ADJ,japanische | japanischem | japanischen
@@ -104961,7 +104960,7 @@ japanisch,Dat,Plur,Neut,Pos,ADJ,japanischen
 japanisch,Dat,Plur,Masc,Pos,ADJ,japanische | japanischen
 japanisch,Acc,Plur,Masc,Pos,ADJ,japanische | japanischen
 japanisch,Dat,Plur,Fem,Pos,ADJ,japanischen
-japanisch,Dat,Sing,Neut,,PROPN,Japanischen
+japanisch,Dat,Sing,Neut,,PROPN,japanischen
 japanisch,Dat,Sing,Masc,Pos,ADJ,japanischem | japanischen
 japanisch,Acc,Sing,Masc,Pos,ADJ,japanischen
 japanisch,Dat,Sing,,Pos,ADJ,japanischem | japanischen
@@ -105141,7 +105140,7 @@ jüdisch,Dat,Plur,Fem,Pos,ADJ,jüdischen
 jüdisch,Dat,Plur,Masc,Pos,ADJ,jüdischen
 jüdisch,Acc,Plur,Masc,Pos,ADJ,jüdische
 jülicher,Dat,Sing,Neut,,ADJ,jülicher
-jünglingen,Dat,,,,NOUN,Jünglingen
+jünglingen,Dat,,,,NOUN,jünglingen
 jünster,Dat,Sing,Fem,,ADJ,jünster
 k-Wert,Dat,Sing,Masc,,NOUN,k-Wert
 k-Wert,Dat,Plur,Masc,,NOUN,k-Werten
@@ -105169,7 +105168,7 @@ kabellosen,Dat,Plur,Fem,,ADJ,kabellosen
 kabellosen,Dat,Sing,Fem,Pos,ADJ,kabellosen
 kabellosen,Dat,Plur,Neut,,ADJ,kabellosen
 kaiserlich,Dat,Sing,Fem,Pos,ADJ,kaiserlichen
-kaiserlich,Dat,Plur,Fem,,PROPN,Kaiserlichen
+kaiserlich,Dat,Plur,Fem,,PROPN,kaiserlichen
 kaiserlich,Acc,Sing,Fem,Pos,ADJ,kaiserliche
 kaliformischen,Dat,Sing,Neut,,ADJ,kaliformischen
 kalifornisch,Dat,Plur,Fem,Pos,ADJ,kalifornischen
@@ -105194,7 +105193,7 @@ kalkulieren,Dat,Plur,Fem,Pos,ADJ,kalkulierten
 kalkuliert,Dat,Plur,Neut,Pos,ADJ,kalkulierten
 kalt,Acc,Plur,Fem,Pos,ADJ,kalte
 kalt,Dat,Plur,Fem,Pos,ADJ,kalten
-kalt,Dat,Sing,Masc,,PROPN,Kaltem
+kalt,Dat,Sing,Masc,,PROPN,kaltem
 kalt,Dat,Plur,Neut,Pos,ADJ,kalten
 kalt,Acc,Sing,Neut,Pos,ADJ,kalte
 kalt,Dat,Sing,Fem,Pos,ADJ,kalten | kalter
@@ -105278,12 +105277,12 @@ katastrophal,Dat,Sing,Masc,Pos,ADJ,katastrophalen
 katastrophal,Acc,Plur,Neut,Pos,ADJ,katastrophalen
 katholisch,Dat,Sing,Fem,Pos,ADJ,katholischen
 katholisch,Acc,Plur,Masc,,NOUN,katholische
-katholisch,Dat,Sing,Masc,,PROPN,Katholischen
+katholisch,Dat,Sing,Masc,,PROPN,katholischen
 katholisch,Dat,Sing,Neut,Pos,ADJ,katholischem
-katholisch,Dat,Sing,Fem,,PROPN,Katholische | Katholischen
+katholisch,Dat,Sing,Fem,,PROPN,katholische | katholischen
 katholisch,Dat,Sing,Masc,Pos,ADJ,katholischem | katholischen
 katholisch,Acc,Sing,Fem,Pos,ADJ,katholische
-katholisch,Acc,Sing,Fem,,PROPN,Katholische
+katholisch,Acc,Sing,Fem,,PROPN,katholische
 katholisch,Acc,Sing,Neut,Pos,ADJ,katholische
 katholisch,Acc,Sing,Masc,Pos,ADJ,katholischen
 katholisch,Dat,Plur,Neut,Pos,ADJ,katholischen
@@ -105414,7 +105413,7 @@ klassisch,Dat,Plur,Neut,Pos,ADJ,klassischen
 klassisch,Acc,Sing,Neut,Pos,ADJ,klassische | klassisches
 klassisch,Acc,Plur,Neut,Pos,ADJ,klassische | klassischen
 klassisch,Dat,Sing,Neut,Pos,ADJ,klassischem | klassischen
-klassisch,Acc,Sing,Fem,,PROPN,Klassische
+klassisch,Acc,Sing,Fem,,PROPN,klassische
 klassisch,Dat,Sing,Masc,Pos,ADJ,klassischem | klassischen
 klassisch,Dat,Plur,Fem,Pos,ADJ,klassischen
 klassisch,Dat,Plur,Masc,Pos,ADJ,klassischen
@@ -105452,7 +105451,7 @@ klein,Dat,Plur,Neut,Cmp,ADJ,kleineren
 klein,Dat,Plur,,Pos,ADJ,kleine | kleinen
 klein,Acc,Sing,Neut,Sup,ADJ,kleinste
 klein,Dat,Sing,Fem,Sup,ADJ,kleinsten | kleinster
-klein,Dat,Plur,Masc,,PROPN,Kleinen
+klein,Dat,Plur,Masc,,PROPN,kleinen
 klein,Dat,Sing,Fem,Cmp,ADJ,kleineren | kleinerer
 klein,Acc,Plur,Neut,Cmp,ADJ,kleinere | kleineren
 klein,Dat,Sing,Masc,Sup,ADJ,kleinsten
@@ -105563,7 +105562,7 @@ kolportieren,Dat,Plur,Fem,Pos,ADJ,kolportierten
 kolportieren,Dat,Sing,Neut,Pos,ADJ,kolportierten
 kolumbianische,Acc,Sing,Fem,,ADJ,kolumbianische
 kombinatorisch,Acc,Sing,Masc,,NOUN,kombinatorischen
-kombinatorisch,Acc,,,,NOUN,Kombinatorische
+kombinatorisch,Acc,,,,NOUN,kombinatorische
 kombinierbaren,Dat,Plur,Masc,,ADJ,kombinierbaren
 kombinieren,Acc,Sing,Neut,Pos,ADJ,kombiniertes
 kombinieren,Dat,Sing,Fem,Pos,ADJ,kombinierten
@@ -105637,7 +105636,7 @@ kommissarische,Acc,Sing,Fem,,ADJ,kommissarische
 kommissarischen,Acc,Sing,Masc,,ADJ,kommissarischen
 kommissionsnahe,Acc,Plur,Masc,,ADJ,kommissionsnahe
 kommmenden,Dat,Sing,Neut,,ADJ,kommmenden
-kommunal,Dat,Sing,Neut,,PROPN,Kommunalen
+kommunal,Dat,Sing,Neut,,PROPN,kommunalen
 kommunal,Dat,Sing,Masc,Pos,ADJ,kommunalen
 kommunal,Acc,Sing,Fem,Pos,ADJ,kommunale
 kommunal,Dat,Sing,Fem,Pos,ADJ,kommunalen | kommunaler
@@ -105648,9 +105647,9 @@ kommunikativ,Dat,Plur,Fem,Pos,ADJ,kommunikativen
 kommunikativ,Acc,Plur,Masc,Pos,ADJ,kommunikative
 kommunikativ,Acc,Sing,Neut,Pos,ADJ,kommunikatives
 kommunikativ,Dat,Plur,Masc,Pos,ADJ,kommunikativen
-kommunistisch,Acc,Sing,Fem,,PROPN,Kommunistische
+kommunistisch,Acc,Sing,Fem,,PROPN,kommunistische
 kommunistisch,Dat,Plur,Neut,Pos,ADJ,kommunistischen
-kommunistisch,Dat,Sing,Fem,,PROPN,Kommunistischen
+kommunistisch,Dat,Sing,Fem,,PROPN,kommunistischen
 kommunistisch,Dat,Sing,Fem,Pos,ADJ,kommunistischen | kommunistischer
 kommunistisch,Dat,Sing,Masc,Pos,ADJ,kommunistischen
 kommunizieren,Acc,Plur,Neut,Pos,ADJ,kommunizierende
@@ -106038,11 +106037,11 @@ kostspielig,Acc,Plur,Masc,Pos,ADJ,kostspieligen
 kpnQuest,Dat,,,,PROPN,kpnQuest
 kpnQwest-Notstromaggregat,Acc,Plur,Neut,,NOUN,kpnQwest-Notstromaggregate
 kpnQwest-Rechenzentrum,Dat,Sing,Neut,,NOUN,kpnQwest-Rechenzentrum
-kralle,Acc,,,,NOUN,Krallen
+kralle,Acc,,,,NOUN,krallen
 krallenförmigen,Dat,Plur,Masc,Pos,ADJ,krallenförmigen
 krank,Dat,Plur,Neut,Pos,ADJ,kranken
 krank,Acc,Plur,Neut,Pos,ADJ,kranke
-krank,Dat,Plur,,,NOUN,Kranken
+krank,Dat,Plur,,,NOUN,kranken
 krank,Acc,Sing,Masc,Pos,ADJ,kranken
 krank,Dat,Sing,Neut,Pos,ADJ,krankem
 krank,Acc,Sing,Neut,Pos,ADJ,krankes
@@ -106168,7 +106167,7 @@ kunsterfahrenen,Dat,Sing,Masc,Pos,ADJ,kunsterfahrenen
 kunstgeschichtlich,Dat,Sing,Neut,Pos,ADJ,kunstgeschichtlichen
 kunsthistorischen,Dat,Sing,Neut,,ADJ,kunsthistorischen
 kupferlosen,Dat,Plur,Masc,,ADJ,kupferlosen
-kurdisch,Dat,Sing,Fem,,PROPN,Kurdischen
+kurdisch,Dat,Sing,Fem,,PROPN,kurdischen
 kurdisch,Dat,Sing,Fem,Pos,ADJ,kurdischen
 kurhessisch,Acc,Plur,Fem,Pos,ADJ,kurhessische
 kurios,Acc,Sing,Fem,Pos,ADJ,kuriose
@@ -106249,11 +106248,11 @@ kölner,Acc,Plur,Masc,Pos,ADJ,kölner
 königlich,Dat,Plur,Masc,Pos,ADJ,königlichen
 königlich,Dat,Sing,Masc,Pos,ADJ,königlichen
 königlich,Dat,Plur,Fem,Pos,ADJ,königlichen
-königlich,Acc,Sing,Neut,,PROPN,Königliche
-königlich,Dat,Sing,Fem,,PROPN,Königlich
+königlich,Acc,Sing,Neut,,PROPN,königliche
+königlich,Dat,Sing,Fem,,PROPN,königlich
 königlich,Acc,Plur,Neut,Pos,ADJ,königlichen
 königlich,Acc,Plur,,Pos,ADJ,königliche
-königlich,Acc,Sing,Fem,,PROPN,Königliche
+königlich,Acc,Sing,Fem,,PROPN,königliche
 können,Dat,Plur,Masc,Pos,ADJ,gekonnten
 köpfig,Acc,Sing,Fem,Pos,ADJ,köpfige
 körperlich,Acc,Sing,Fem,Pos,ADJ,körperliche
@@ -106299,7 +106298,7 @@ künstlerisch,Acc,Plur,Fem,Pos,ADJ,künstlerische
 künstlerisch,Acc,Plur,Masc,Pos,ADJ,künstlerische
 künstlerisch,Dat,Sing,Neut,Pos,ADJ,künstlerischem
 künstlerisch,Dat,Plur,Masc,Pos,ADJ,künstlerischen
-künstlerisch,Acc,Sing,Neut,,NOUN,Künstlerisches
+künstlerisch,Acc,Sing,Neut,,NOUN,künstlerisches
 künstlerisch-emotionaler,Dat,Sing,Fem,,ADJ,künstlerisch-emotionaler
 künstlich,Dat,Sing,Fem,Pos,ADJ,künstlichen | künstlicher
 künstlich,Dat,Plur,Masc,Pos,ADJ,künstlichen
@@ -106312,7 +106311,7 @@ künstlich,Acc,Sing,Neut,Pos,ADJ,künstliche | künstliches
 künstlich,Acc,Sing,Fem,Pos,ADJ,künstliche
 künstlich,Dat,Sing,Neut,Pos,ADJ,künstlichen
 künstlich,Dat,Plur,,Pos,ADJ,künstlichen
-künstliche,Acc,,,,NOUN,Künstliche
+künstliche,Acc,,,,NOUN,künstliche
 kürzliche,Acc,Sing,Fem,,ADJ,kürzliche
 kürzliche,Acc,Sing,Neut,,ADJ,kürzliche
 küstennah,Dat,Sing,Neut,Pos,ADJ,küstennahen
@@ -106481,7 +106480,7 @@ lateinamerikanisch,Dat,Plur,Neut,Pos,ADJ,lateinamerikanischen
 lateinisch,Acc,Plur,Fem,Pos,ADJ,lateinische
 lateinisch,Dat,Plur,Neut,Pos,ADJ,lateinischen
 lateinisch,Acc,Sing,Fem,Pos,ADJ,lateinische
-lateinisch,Acc,Sing,Fem,,PROPN,Lateinische
+lateinisch,Acc,Sing,Fem,,PROPN,lateinische
 lateinisch,Dat,Sing,Masc,Pos,ADJ,lateinischen
 lateinisch,Dat,Sing,Neut,Pos,ADJ,lateinischen
 lateinisch,Acc,Sing,Neut,Pos,ADJ,lateinische
@@ -106566,7 +106565,7 @@ lebend,Dat,Plur,Masc,Pos,ADJ,lebenden
 lebend,Acc,Plur,Masc,Pos,ADJ,lebenden
 lebend,Dat,Sing,Fem,Pos,ADJ,lebenden
 lebende,Acc,Sing,Fem,Pos,ADJ,lebende
-lebende,Dat,Plur,Masc,,NOUN,Lebenden
+lebende,Dat,Plur,Masc,,NOUN,lebenden
 lebenden,Dat,Plur,Neut,Pos,ADJ,lebenden
 lebendig,Dat,Sing,Masc,Pos,ADJ,lebendigem
 lebendig,Dat,Plur,Masc,Pos,ADJ,lebendigen
@@ -106641,7 +106640,7 @@ leibhaftig,Acc,Sing,Neut,Pos,ADJ,leibhaftige
 leiblich,Acc,Sing,Fem,Pos,ADJ,leibliche
 leiblich,Acc,Sing,Neut,Pos,ADJ,leibliche
 leicht,Dat,Sing,Fem,Pos,ADJ,leichten | leichter
-leicht,Dat,Plur,Fem,,PROPN,Leichte
+leicht,Dat,Plur,Fem,,PROPN,leichte
 leicht,Acc,Sing,Fem,Pos,ADJ,leichte
 leicht,Dat,Plur,Fem,Pos,ADJ,leichten
 leicht,Dat,Plur,Masc,Pos,ADJ,leichten
@@ -106659,7 +106658,7 @@ leichtfertig,Acc,Sing,Fem,Pos,ADJ,leichtfertige
 leiden,Dat,Plur,Masc,Pos,ADJ,leidenden
 leiden,Dat,Sing,Fem,Pos,ADJ,leidenden
 leiden,Acc,Sing,Fem,Pos,ADJ,leidende
-leiden,Dat,,,,NOUN,Leiden
+leiden,Dat,,,,NOUN,leiden
 leidend,Acc,Sing,Masc,Pos,ADJ,leidenden
 leidenschaftlich,Acc,Plur,Masc,Pos,ADJ,leidenschaftliche
 leidgeplagte,Acc,Plur,Masc,,ADJ,leidgeplagte
@@ -106747,7 +106746,7 @@ lesbar,Acc,Sing,Masc,Pos,ADJ,lesbaren
 lesbar,Acc,Sing,Neut,Pos,ADJ,lesbares
 lesbar,Acc,Sing,Fem,Pos,ADJ,lesbare
 leseerfahrenen,Dat,Plur,,,ADJ,leseerfahrenen
-lesen,Dat,Sing,Neut,,PROPN,Las
+lesen,Dat,Sing,Neut,,PROPN,las
 lesen,Acc,Plur,Masc,Pos,ADJ,lesenden
 lesenswert,Dat,Sing,Neut,Pos,ADJ,lesenswerten
 lesenswert,Acc,Sing,Masc,Pos,ADJ,lesenswerten
@@ -106766,7 +106765,7 @@ letzt,Acc,Sing,Fem,Pos,ADJ,letzte
 letzt,Acc,Sing,Masc,Pos,ADJ,letzten
 letzt,Dat,Plur,Masc,Pos,ADJ,letzten
 letzt,Dat,Plur,Neut,Pos,ADJ,letzen | letzten
-letzt,Dat,Sing,Fem,,NOUN,Letzt | letzt
+letzt,Dat,Sing,Fem,,NOUN,letzt
 letzt,Dat,Sing,Masc,Pos,ADJ,letzten
 letzt,Dat,Sing,Neut,Pos,ADJ,letzten
 letzt,Dat,Plur,Fem,Pos,ADJ,letzten
@@ -106830,10 +106829,10 @@ leuchtend,Acc,Plur,Fem,Pos,ADJ,leuchtende
 leuchtfarbenen,Acc,Plur,,,ADJ,leuchtfarbenen
 leute,Dat,Sing,Fem,,ADJ,leute
 leverkusener,Dat,Sing,Neut,Pos,ADJ,leverkusener
-libanesisch,Acc,Sing,Fem,,PROPN,Libanesische
+libanesisch,Acc,Sing,Fem,,PROPN,libanesische
 libanesisch,Dat,Sing,Fem,Pos,ADJ,libanesischen
 libanesisch,Dat,Plur,Fem,Pos,ADJ,libanesischen
-liberal,Dat,Plur,,,PROPN,Liberalen
+liberal,Dat,Plur,,,PROPN,liberalen
 liberal,Acc,Sing,Masc,Pos,ADJ,liberalen
 liberal,Dat,Sing,Neut,Pos,ADJ,liberalen
 liberal,Acc,Sing,Fem,Pos,ADJ,liberale
@@ -106842,7 +106841,7 @@ liberal,Dat,Plur,,Pos,ADJ,liberalen
 liberal,Dat,Plur,Masc,Cmp,ADJ,liberaleren
 liberal,Acc,Plur,Fem,Cmp,ADJ,liberalere
 liberal,Dat,Sing,Fem,Cmp,ADJ,liberaleren
-liberale,Dat,Plur,,,PROPN,Liberalen
+liberale,Dat,Plur,,,PROPN,liberalen
 liberalisieren,Dat,Sing,Masc,Pos,ADJ,liberalisierten
 liberalisieren,Acc,Sing,Masc,Pos,ADJ,liberalisierten
 liberalisieren,Dat,Plur,Masc,Pos,ADJ,liberalisierten
@@ -106855,7 +106854,7 @@ lichtstarken,Dat,Sing,Masc,,ADJ,lichtstarken
 lieb,Dat,Plur,Masc,Pos,ADJ,lieben
 lieb,Acc,Sing,Masc,Pos,ADJ,lieben
 lieb,Dat,Sing,Fem,,NOUN,liebe
-lieb,Acc,Sing,Fem,,NOUN,Liebe
+lieb,Acc,Sing,Fem,,NOUN,liebe
 lieb,Acc,Plur,Masc,Pos,ADJ,lieben
 lieb,Dat,Sing,Masc,Pos,ADJ,lieben
 lieb,Acc,Plur,Neut,Pos,ADJ,lieben
@@ -106869,7 +106868,7 @@ liebevoll,Acc,Sing,Fem,Pos,ADJ,liebevolle
 lieblich,Acc,Plur,Fem,Pos,ADJ,liebliche
 lieblich,Dat,Sing,Masc,Pos,ADJ,lieblichen
 liebsamen,Dat,Plur,Fem,,ADJ,liebsamen
-liebste,Acc,,,,NOUN,Liebste
+liebste,Acc,,,,NOUN,liebste
 liederlich,Acc,Sing,Neut,Pos,ADJ,liederliches
 liederlich,Acc,Sing,Masc,Pos,ADJ,liederlichen
 lieferbar,Acc,Plur,Masc,Pos,ADJ,lieferbaren
@@ -106927,7 +106926,7 @@ link,Acc,Sing,Fem,Pos,ADJ,linke
 link,Acc,Sing,Masc,Pos,ADJ,linken
 link,Dat,Plur,Fem,Pos,ADJ,linken
 link,Acc,Sing,Neut,Pos,ADJ,linke
-linke,Acc,Sing,Fem,,PROPN,Linke
+linke,Acc,Sing,Fem,,PROPN,linke
 linker,Acc,Sing,Fem,Pos,ADJ,linke
 linker,Dat,Sing,Fem,Pos,ADJ,linken
 links,Dat,Sing,Neut,,NOUN,links
@@ -107128,7 +107127,7 @@ m,Acc,Plur,Masc,,NOUN,m
 m,Acc,Plur,Neut,,NOUN,m
 m,Dat,Sing,,,X,m
 m,Dat,Plur,Neut,,NOUN,m
-m,Acc,Sing,Neut,,NOUN,M
+m,Acc,Sing,Neut,,NOUN,m
 m100-Serie,Dat,Sing,Fem,,NOUN,m100-Serie
 m2c-Studie,Dat,Sing,Fem,,NOUN,m2c-Studie
 m500-Serie,Acc,Sing,Fem,,NOUN,m500-Serie
@@ -107278,14 +107277,14 @@ manuell,Acc,Sing,Neut,Pos,ADJ,manuelles
 marburger,Dat,Sing,Fem,Pos,ADJ,marburger
 marburger,Dat,Sing,Masc,Pos,ADJ,marburger
 marburger,Dat,Sing,Neut,Pos,ADJ,marburger
-mare,Acc,Sing,Neut,,NOUN,Mare
+mare,Acc,Sing,Neut,,NOUN,mare
 margenschwachen,Dat,Plur,Masc,,ADJ,margenschwachen
 margenträchtigen,Dat,Sing,Masc,,ADJ,margenträchtigen
 marginal,Dat,Plur,Fem,Pos,ADJ,marginalen
 marginalen,Dat,Plur,Fem,,ADJ,marginalen
 marginaler,Dat,,,,ADJ,marginaler
 marin,Dat,Sing,Masc,Pos,ADJ,marinen
-marin,Acc,Sing,Fem,,PROPN,Marine
+marin,Acc,Sing,Fem,,PROPN,marine
 markant,Dat,Sing,Neut,Pos,ADJ,markanten
 markant,Acc,Sing,Neut,Sup,ADJ,markanteste
 markant,Acc,Sing,Masc,Pos,ADJ,markanten
@@ -107385,7 +107384,7 @@ mathematisch,Dat,Plur,Masc,Pos,ADJ,mathematische
 mathematisch,Dat,Plur,Fem,Pos,ADJ,mathematischen
 mathematisch,Acc,Plur,Masc,Pos,ADJ,mathematische
 matschig,Dat,Plur,Masc,Pos,ADJ,matschigen
-matt,Acc,Sing,Neut,,PROPN,Matter
+matt,Acc,Sing,Neut,,PROPN,matter
 matt,Dat,Sing,Masc,Pos,ADJ,mattem
 matt,Dat,Sing,,Pos,ADJ,mattem
 mauritisch,Acc,Sing,Fem,Pos,ADJ,mauritische
@@ -107446,8 +107445,8 @@ medizinisch,Acc,Plur,Fem,Pos,ADJ,medizinische
 medizinisch,Acc,Plur,Neut,Pos,ADJ,medizinische | medizinischen
 medizinisch,Acc,Sing,Neut,Pos,ADJ,medizinisches
 medizinisch,Dat,Plur,Fem,Pos,ADJ,medizinischen
-medizinisch,Acc,Sing,Fem,,PROPN,Medizinische
-medizinisch,Dat,Sing,Fem,,PROPN,Medizinischen
+medizinisch,Acc,Sing,Fem,,PROPN,medizinische
+medizinisch,Dat,Sing,Fem,,PROPN,medizinischen
 medizinisch,Dat,Plur,Neut,Pos,ADJ,medizinischen
 medizinisch,Dat,Sing,Fem,Pos,ADJ,medizinischen | medizinischer
 medizinisch,Dat,Sing,Masc,Pos,ADJ,medizinischen
@@ -107718,7 +107717,7 @@ minderwertig,Dat,Sing,Fem,Pos,ADJ,minderwertiger
 mindestumsatzfreie,Acc,Sing,Fem,,ADJ,mindestumsatzfreie
 mineralisch,Dat,Plur,Neut,Pos,ADJ,mineralischen
 mineralisierten,Dat,Sing,Fem,Pos,ADJ,mineralisierten
-miniatur,Dat,Plur,Masc,,NOUN,Miniatur
+miniatur,Dat,Plur,Masc,,NOUN,miniatur
 miniaturisierten,Dat,Plur,Neut,,ADJ,miniaturisierten
 minimal,Acc,Sing,Fem,Pos,ADJ,minimale
 minimal,Dat,Plur,Fem,Pos,ADJ,minimalen
@@ -107816,11 +107815,11 @@ mittelständisch,Acc,Plur,Fem,Pos,ADJ,mittelständische
 mittelständisch,Acc,Sing,Fem,Pos,ADJ,mittelständische
 mittler,Dat,Sing,Masc,Pos,ADJ,mittleren
 mittler,Dat,Plur,Masc,Pos,ADJ,mittleren
-mittler,Acc,Plur,,,NOUN,Mittlere
-mittler,Dat,Sing,Neut,,PROPN,Mittleren
+mittler,Acc,Plur,,,NOUN,mittlere
+mittler,Dat,Sing,Neut,,PROPN,mittleren
 mittler,Dat,Plur,Fem,Pos,ADJ,mittleren
 mittler,Acc,Sing,Fem,Pos,ADJ,mittlere
-mittler,Dat,Sing,Fem,,PROPN,Mittleren
+mittler,Dat,Sing,Fem,,PROPN,mittleren
 mittler,Dat,Sing,Fem,Pos,ADJ,mittleren
 mittlere,Dat,Plur,Neut,Pos,ADJ,mittleren
 mittlere,Acc,Sing,Fem,Pos,ADJ,mittlere
@@ -107859,8 +107858,8 @@ mm,Dat,Plur,Masc,,NOUN,mm
 mm2,Dat,Plur,Masc,,NOUN,mm2
 mm²,Dat,Plur,Masc,,NOUN,mm²
 mobil,Acc,Sing,Fem,Pos,ADJ,mobile
-mobil,Dat,Sing,Neut,,PROPN,Mobile
-mobil,Dat,Sing,Fem,,PROPN,Mobile | Mobiler
+mobil,Dat,Sing,Neut,,PROPN,mobile
+mobil,Dat,Sing,Fem,,PROPN,mobile | mobiler
 mobil,Dat,Plur,Fem,Pos,ADJ,mobilen
 mobil,Acc,Plur,Fem,Pos,ADJ,mobile
 mobil,Dat,Plur,Masc,Pos,ADJ,mobilen
@@ -108194,6 +108193,7 @@ müseligen,Dat,Plur,Neut,,ADJ,müseligen
 müßig,Acc,Plur,Fem,Pos,ADJ,müßigen
 n,Acc,Plur,Neut,,NOUN,n
 nForce-Chipsatz,Dat,Sing,Masc,,NOUN,nForce-Chipsatz
+nN,Dat,Sing,Masc,,NOUN,"0,18-µm-Prozess"
 nVidia,Acc,Sing,,,PROPN,nVidia
 nVidia,Dat,Sing,,,PROPN,nVidia
 nVidia-GeForce2-MX-TwinView-Grafikkarte,Dat,Sing,Fem,,NOUN,nVidia-GeForce2-MX-TwinView-Grafikkarte
@@ -108202,7 +108202,7 @@ nach,Dat,,,,ADP,nach
 nachbilden,Dat,Sing,Masc,Pos,ADJ,nachgebildeten
 nachbörslichen,Dat,Sing,Masc,,ADJ,nachbörslichen
 nachbörslichen,Acc,Sing,Masc,,ADJ,nachbörslichen
-nachdenken,Dat,,,,NOUN,Nachdenken
+nachdenken,Dat,,,,NOUN,nachdenken
 nachfolgen,Dat,Plur,Masc,Pos,ADJ,nachfolgenden
 nachfolgen,Dat,Sing,Fem,Pos,ADJ,nachfolgenden
 nachfolgen,Acc,Sing,Fem,Pos,ADJ,nachfolgende
@@ -108287,7 +108287,7 @@ nah,Dat,Plur,Fem,Sup,ADJ,nächsten
 nah,Dat,Sing,Neut,Sup,ADJ,nächsten
 nah,Acc,Plur,Fem,Cmp,ADJ,nähere
 nah,Dat,Plur,Neut,Sup,ADJ,nächsten
-nah,Dat,Sing,Masc,,PROPN,Nahen
+nah,Dat,Sing,Masc,,PROPN,nahen
 nah,Dat,Sing,Fem,Sup,ADJ,nächsten
 nah,Dat,Sing,Masc,Pos,ADJ,cdu-nahen | nahen | nächsten
 nah,Acc,Plur,Masc,Sup,ADJ,nächsten
@@ -108354,10 +108354,10 @@ nass,Dat,Sing,Fem,Pos,ADJ,nasser
 nass,Acc,Sing,Fem,Pos,ADJ,nasse
 national,Acc,Sing,Masc,Pos,ADJ,nationalen
 national,Acc,Plur,Neut,Pos,ADJ,nationale | nationalen
-national,Dat,Sing,Fem,,PROPN,National | Nationalen
-national,Dat,Sing,Masc,,PROPN,National
-national,Acc,Sing,Neut,,PROPN,National
-national,Acc,Sing,Masc,,PROPN,National
+national,Dat,Sing,Fem,,PROPN,national | nationalen
+national,Dat,Sing,Masc,,PROPN,national
+national,Acc,Sing,Neut,,PROPN,national
+national,Acc,Sing,Masc,,PROPN,national
 national,Acc,Plur,Fem,Pos,ADJ,nationale | nationalen
 national,Acc,Sing,Fem,Pos,ADJ,nationale
 national,Dat,Sing,Neut,Pos,ADJ,nationalem | nationalen
@@ -108516,20 +108516,20 @@ neu,Dat,Sing,Masc,Pos,ADJ,neuem | neuen
 neu,Acc,Plur,Masc,Pos,ADJ,neue | neuen
 neu,Acc,Sing,Neut,Pos,ADJ,neue | neues
 neu,Dat,Sing,Fem,Pos,ADJ,neue | neuen | neuer
-neu,Dat,Sing,Fem,,PROPN,Neue | Neuen | Neuer
+neu,Dat,Sing,Fem,,PROPN,neue | neuen | neuer
 neu,Acc,Plur,Fem,Pos,ADJ,neue | neuen
 neu,Acc,Sing,Fem,,PROPN,neue
 neu,Acc,Plur,,Cmp,ADJ,neuere
 neu,Acc,Plur,Neut,Pos,ADJ,neue | neuen
-neu,Dat,Sing,,,PROPN,Neu
+neu,Dat,Sing,,,PROPN,neu
 neu,Dat,Plur,Fem,Cmp,ADJ,neueren
-neu,Acc,Sing,Neut,,PROPN,Neue | neues
+neu,Acc,Sing,Neut,,PROPN,neue | neues
 neu,Dat,Plur,Fem,Pos,ADJ,neue | neuen
 neu,Acc,Sing,Masc,Sup,ADJ,neuesten
 neu,Dat,Plur,Neut,Cmp,ADJ,neueren
 neu,Acc,Plur,Masc,Sup,ADJ,neuesten
 neu,Dat,Sing,Fem,Cmp,ADJ,neueren | neuerer
-neu,Dat,Sing,Neut,,PROPN,Neuen
+neu,Dat,Sing,Neut,,PROPN,neuen
 neu,Dat,Plur,Masc,Sup,ADJ,neuesten
 neu,Acc,Sing,Fem,Sup,ADJ,neueste
 neu,Dat,Plur,,Pos,ADJ,neuen
@@ -108561,8 +108561,8 @@ neuartig,Acc,Sing,Masc,Pos,ADJ,neuartigen
 neuartig,Acc,Plur,Neut,Pos,ADJ,neuartige
 neuartig,Dat,Plur,Masc,Pos,ADJ,neuartigen
 neuartig,Dat,Sing,Neut,Pos,ADJ,neuartigen
-neue,Acc,,,,NOUN,Neue
-neuer,Dat,,,,NOUN,Neuern
+neue,Acc,,,,NOUN,neue
+neuer,Dat,,,,NOUN,neuern
 neuererem,Dat,Sing,,,ADJ,neuererem
 neuerliche,Acc,Sing,Fem,,ADJ,neuerliche
 neuerlichen,Dat,Sing,Masc,,ADJ,neuerlichen
@@ -108674,11 +108674,11 @@ nichtständigen,Acc,Sing,Masc,,ADJ,nichtständigen
 nichtständigen,Dat,Sing,Masc,,ADJ,nichtständigen
 nichtvernetzte,Acc,Sing,Fem,,ADJ,nichtvernetzte
 nichtübertragbar,Acc,Plur,Fem,Pos,ADJ,nichtübertragbare
-nieder,Acc,Sing,Fem,,PROPN,Niedere
+nieder,Acc,Sing,Fem,,PROPN,niedere
 nieder,Acc,Sing,Fem,Pos,ADJ,niedere
 nieder,Dat,Plur,Fem,Pos,ADJ,niederen
 nieder,Acc,Sing,Masc,Pos,ADJ,niederen
-niederdeutsch,Dat,Sing,Masc,,NOUN,Niederdeutschen
+niederdeutsch,Dat,Sing,Masc,,NOUN,niederdeutschen
 niederdeutsch,Dat,Sing,Masc,Pos,ADJ,niederdeutschen
 niederdeutsch,Acc,Sing,Fem,Pos,ADJ,niederdeutsche
 niederfrequenten,Dat,Plur,Masc,,ADJ,niederfrequenten
@@ -108689,7 +108689,7 @@ niederlegen,Acc,Sing,Masc,Pos,ADJ,niedergelegten
 niederländisch,Dat,Plur,Fem,Pos,ADJ,niederländischen
 niederländisch,Dat,Plur,Masc,Pos,ADJ,niederländischen
 niederländisch,Acc,Sing,Neut,Pos,ADJ,niederländische
-niederländisch,Dat,Sing,Fem,,PROPN,Niederländischen
+niederländisch,Dat,Sing,Fem,,PROPN,niederländischen
 niederländisch,Dat,Sing,Neut,Pos,ADJ,niederländischem | niederländischen
 niederländisch,Dat,Sing,Masc,Pos,ADJ,niederländischen | niederländischer
 niederländisch,Dat,Sing,Fem,Pos,ADJ,deutsch-niederländischen | niederländische | niederländischen | niederländischer
@@ -108780,7 +108780,7 @@ nordamerikanischen,Dat,Sing,Fem,,ADJ,nordamerikanischen
 nordamerikanischen,Dat,Sing,,,ADJ,nordamerikanischen
 nordamerikanischen,Dat,Sing,Masc,,ADJ,nordamerikanischen
 nordamerikanischen,Dat,Plur,Masc,,ADJ,nordamerikanischen
-norddeutsch,Dat,Sing,Masc,,PROPN,Norddeutschen
+norddeutsch,Dat,Sing,Masc,,PROPN,norddeutschen
 norddeutsch,Dat,Sing,Masc,Pos,ADJ,norddeutschen
 norddeutsch,Dat,Sing,Fem,Pos,ADJ,norddeutschen
 norddeutsch,Dat,Plur,Fem,Pos,ADJ,norddeutschen
@@ -108789,8 +108789,8 @@ nordeuropäischen,Dat,Plur,Neut,,ADJ,nordeuropäischen
 nordindisch,Dat,Sing,Fem,Pos,ADJ,nordindischen
 nordirakisch,Dat,Sing,Neut,Pos,ADJ,nordirakischen
 nordirisch,Dat,Sing,Fem,Pos,ADJ,nordirischen
-nordisch,Dat,Sing,Fem,,PROPN,Nordischen
-nordisch,Dat,Plur,,,PROPN,Nordischen
+nordisch,Dat,Sing,Fem,,PROPN,nordischen
+nordisch,Dat,Plur,,,PROPN,nordischen
 nordisch,Dat,Plur,Neut,Pos,ADJ,nordischen
 nordkalifornische,Acc,Sing,Neut,,ADJ,nordkalifornische
 nordkoreanisch,Dat,Sing,Neut,Pos,ADJ,nordkoreanischen
@@ -108941,7 +108941,7 @@ nächste,Acc,Plur,,Sup,ADJ,nächsten
 nächste,Dat,Plur,,Sup,ADJ,nächsten
 nächste,Dat,Sing,,Sup,ADJ,nächstem | nächsten
 nächstegelegenen,Dat,Sing,Fem,,ADJ,nächstegelegenen
-nächster,Acc,,,,NOUN,Nächsten
+nächster,Acc,,,,NOUN,nächsten
 nächstgelegen,Acc,Sing,Fem,Pos,ADJ,nächstgelegene
 nächstgelegene,Acc,Sing,Neut,,ADJ,nächstgelegene
 nächstgelegene,Acc,Sing,Masc,,ADJ,nächstgelegene
@@ -109022,9 +109022,9 @@ ober,Acc,Sing,Fem,Pos,ADJ,obere
 ober,Acc,Sing,Masc,Pos,ADJ,oberen
 ober,Dat,Plur,Fem,,NOUN,oberen
 ober,Dat,Sing,Masc,Sup,ADJ,obersten
-ober,Dat,Sing,Fem,,PROPN,Oberen
+ober,Dat,Sing,Fem,,PROPN,oberen
 ober,Acc,Sing,Masc,Sup,ADJ,oberste
-ober,Dat,Sing,Neut,,PROPN,Oberes
+ober,Dat,Sing,Neut,,PROPN,oberes
 ober,Acc,Sing,Fem,Sup,ADJ,oberste
 obere,Dat,Sing,,Pos,ADJ,oberen
 obere,Dat,Sing,Neut,Pos,ADJ,oberen
@@ -109057,7 +109057,7 @@ obig,Dat,Plur,Masc,Pos,ADJ,obigen
 obig,Dat,Sing,Neut,Pos,ADJ,obigen
 obig,Dat,Sing,Fem,Pos,ADJ,obigen | obiger
 obig,Acc,Sing,Masc,Pos,ADJ,obigen
-objektiv,Dat,Plur,Neut,,NOUN,Objektiven
+objektiv,Dat,Plur,Neut,,NOUN,objektiven
 objektiv,Dat,Plur,Masc,Pos,ADJ,objektiven
 objektiv,Dat,Sing,Fem,Pos,ADJ,objektiven
 objektorientiert,Acc,Sing,Fem,Pos,ADJ,objektorientierte
@@ -109075,8 +109075,8 @@ obskur,Acc,Sing,Neut,Pos,ADJ,obskures
 obskur,Dat,Plur,Neut,Pos,ADJ,obskuren
 obszön,Acc,Sing,Neut,Pos,ADJ,obszönes
 obszön,Dat,Plur,Masc,Pos,ADJ,obszönen
-oder,Acc,Sing,Neut,,NOUN,Oder
-oder,Dat,Sing,Fem,,PROPN,Oder
+oder,Acc,Sing,Neut,,NOUN,oder
+oder,Dat,Sing,Fem,,PROPN,oder
 ofenfrischen,Acc,Plur,Fem,,ADJ,ofenfrischen
 off,Dat,Sing,Neut,,NOUN,off
 off,Acc,Sing,Fem,,NOUN,off
@@ -109085,7 +109085,7 @@ offen,Acc,Plur,Masc,Pos,ADJ,offene | offenen
 offen,Dat,Sing,Neut,Pos,ADJ,offenem | offenen
 offen,Acc,Plur,Neut,Pos,ADJ,offene
 offen,Dat,Sing,Fem,Pos,ADJ,offene | offenen | offener
-offen,Dat,Plur,,,PROPN,Offenen
+offen,Dat,Plur,,,PROPN,offenen
 offen,Acc,Sing,Fem,Pos,ADJ,offene
 offen,Acc,Plur,Fem,Cmp,ADJ,offenere | offeneren
 offen,Acc,Sing,Fem,Cmp,ADJ,offenere
@@ -109146,12 +109146,12 @@ oldenburger,Acc,Sing,Neut,Pos,ADJ,oldenburger
 oldenburger,Acc,Sing,Fem,Pos,ADJ,oldenburger
 oldenburgisch,Acc,Sing,Fem,Pos,ADJ,oldenburgische
 olympiainteressierten,Acc,Sing,Masc,,ADJ,olympiainteressierten
-olympisch,Dat,Plur,Neut,,PROPN,Olympischen
-olympisch,Acc,Sing,Masc,,PROPN,Olympischen
+olympisch,Dat,Plur,Neut,,PROPN,olympischen
+olympisch,Acc,Sing,Masc,,PROPN,olympischen
 olympisch,Acc,Sing,Fem,Pos,ADJ,olympische
-olympisch,Acc,Plur,Neut,,PROPN,Olympischen
-olympisch,Dat,Plur,Neut,,NOUN,Olympischen
-olympisch,Dat,Sing,Fem,,PROPN,Olympischen
+olympisch,Acc,Plur,Neut,,PROPN,olympischen
+olympisch,Dat,Plur,Neut,,NOUN,olympischen
+olympisch,Dat,Sing,Fem,,PROPN,olympischen
 olympisch,Dat,Plur,Neut,Pos,ADJ,olympischen
 olympisch,Acc,Plur,Neut,Pos,ADJ,olympischen
 olympisch,Acc,Sing,Masc,Pos,ADJ,olympischen
@@ -109300,7 +109300,7 @@ organisieren,Acc,Sing,Masc,Pos,ADJ,organisierten
 organisieren,Dat,Plur,Masc,Pos,ADJ,organisierten
 organisiert,Dat,Plur,Masc,Pos,ADJ,organisierten
 orientalisch,Dat,Plur,Fem,Pos,ADJ,orientalischen
-orientalisch,Acc,Sing,Neut,,PROPN,Orientalische
+orientalisch,Acc,Sing,Neut,,PROPN,orientalische
 orientalisch,Dat,Sing,Masc,Pos,ADJ,orientalischen
 orientieren,Dat,Sing,Masc,Pos,ADJ,orientierten
 orientieren,Acc,Sing,Fem,Pos,ADJ,orientierte
@@ -109329,7 +109329,7 @@ orthodox,Acc,Plur,Masc,Pos,ADJ,orthodoxe
 orthodox,Dat,Sing,Neut,Pos,ADJ,orthodoxen
 orthopädisch,Acc,Sing,Fem,Pos,ADJ,orthopädische
 orthopädisch,Acc,Sing,Neut,Pos,ADJ,orthopädisches
-orthopädisch,Acc,Sing,Neut,,PROPN,Orthopädische
+orthopädisch,Acc,Sing,Neut,,PROPN,orthopädische
 orthorhombischen,Dat,Sing,Neut,Pos,ADJ,orthorhombischen
 ortsabhängigen,Dat,Plur,Neut,,ADJ,ortsabhängigen
 ortsansässig,Dat,Sing,Masc,Pos,ADJ,ortsansässigen
@@ -109348,7 +109348,7 @@ ost-,Dat,,,,NOUN,ost-
 ostafrikanisch,Acc,Sing,Masc,Pos,ADJ,ostafrikanischen
 ostasiatischen,Dat,Plur,Masc,,ADJ,ostasiatischen
 ostchinesischen,Dat,Sing,Neut,,ADJ,ostchinesischen
-ostdeutsch,Dat,Sing,Masc,,PROPN,Ostdeutschen
+ostdeutsch,Dat,Sing,Masc,,PROPN,ostdeutschen
 ostdeutsch,Dat,Sing,Neut,Pos,ADJ,ostdeutschen
 ostdeutsch,Dat,Sing,Masc,Pos,ADJ,ostdeutschen
 ostdeutsch,Acc,Sing,Masc,Pos,ADJ,ostdeutschen
@@ -109421,7 +109421,7 @@ papierlos,Dat,Sing,Masc,Pos,ADJ,papierlosen
 papierlos,Acc,Sing,Neut,Pos,ADJ,papierlose | papierloses
 papierloses,Acc,Sing,Neut,Pos,ADJ,papierloses
 papstnahem,Dat,Sing,Neut,Pos,ADJ,papstnahem
-paradoxen,Dat,,,,NOUN,Paradoxen
+paradoxen,Dat,,,,NOUN,paradoxen
 parallel,Dat,,,Pos,ADJ,parallel
 parallel,Dat,Sing,Masc,Pos,ADJ,parallelen
 parallel,Acc,Sing,Fem,Pos,ADJ,parallele
@@ -109430,7 +109430,7 @@ parallel,Dat,Plur,Neut,Pos,ADJ,parallelen
 parallel,Acc,Sing,Masc,Pos,ADJ,parallelen
 parallel,Dat,Sing,Neut,Pos,ADJ,parallelen
 parallel,Dat,Plur,Fem,Pos,ADJ,parallelen
-parallel,Acc,Plur,Fem,,NOUN,Parallelen
+parallel,Acc,Plur,Fem,,NOUN,parallelen
 paramilitärisch,Acc,Plur,Fem,Pos,ADJ,paramilitärische
 paramilitätisch,Acc,Sing,Fem,Pos,ADJ,paramilitätische
 paranoidem,Dat,Sing,,,ADJ,paranoidem
@@ -109447,7 +109447,7 @@ paritätisch,Dat,Plur,Neut,Pos,ADJ,paritätischen
 parken,Dat,Sing,Masc,Pos,ADJ,geparkten
 parken,Dat,Sing,Neut,Pos,ADJ,parkenden
 parlamentarisch,Acc,Sing,Neut,Pos,ADJ,parlamentarische
-parlamentarisch,Acc,Sing,Masc,,PROPN,Parlamentarischen
+parlamentarisch,Acc,Sing,Masc,,PROPN,parlamentarischen
 parlamentarisch,Acc,Sing,Fem,Pos,ADJ,parlamentarische
 parlamentarisch,Dat,Sing,,Pos,ADJ,parlamentarischen
 parlamentarisch,Dat,Sing,Fem,Pos,ADJ,parlamentarische | parlamentarischen
@@ -109677,7 +109677,7 @@ piezoelektrischen,Dat,Sing,Masc,,ADJ,piezoelektrischen
 piezoelektrischen,Dat,Sing,Fem,,ADJ,piezoelektrischen
 piezoelektrischer,Dat,Sing,Fem,,ADJ,piezoelektrischer
 pikante,Acc,Sing,Fem,,ADJ,pikante
-pikante,Acc,,,,NOUN,Pikante
+pikante,Acc,,,,NOUN,pikante
 pikanter,Dat,Sing,Fem,,ADJ,pikanter
 pikantes,Acc,Sing,Neut,,ADJ,pikantes
 pilonidalis,Acc,Sing,Masc,,PROPN,pilonidalis
@@ -109765,7 +109765,7 @@ politisch,Dat,Sing,Fem,Pos,ADJ,politischen | politischer
 politisch,Acc,Plur,,Pos,ADJ,politische
 politisch,Dat,Sing,Neut,Pos,ADJ,politischem | politischen
 politisch,Dat,Plur,Fem,Pos,ADJ,politischen
-politisch,Acc,Sing,Fem,,PROPN,Politische
+politisch,Acc,Sing,Fem,,PROPN,politische
 politisch,Acc,Plur,Neut,Pos,ADJ,politische | politischen
 politisch,Acc,Sing,Neut,Pos,ADJ,politische | politisches
 politisch,Dat,Plur,Masc,Pos,ADJ,politischen
@@ -109786,8 +109786,8 @@ polnisch,Dat,Sing,Neut,Pos,ADJ,polnisch | polnischen
 polnisch,Acc,Sing,Fem,Pos,ADJ,polnische
 polnisch,Dat,Plur,Masc,Pos,ADJ,polnischen
 polnisch,Dat,Plur,Neut,Pos,ADJ,polnischen
-polnisch,Acc,Sing,Neut,,PROPN,Polnische
-polnisch,Dat,Sing,Fem,,PROPN,Polnischen
+polnisch,Acc,Sing,Neut,,PROPN,polnische
+polnisch,Dat,Sing,Fem,,PROPN,polnischen
 polnisch,Dat,Sing,Masc,Pos,ADJ,polnischem | polnischen
 polstern,Acc,Sing,Neut,Pos,ADJ,gepolstertes
 polychloriert,Dat,Plur,Neut,Pos,ADJ,polychlorierten
@@ -109796,7 +109796,7 @@ polyglotten,Acc,Sing,Masc,,ADJ,polyglotten
 polyglotten,Dat,Sing,Masc,,ADJ,polyglotten
 polygonalem,Dat,Sing,Masc,Pos,ADJ,polygonalem
 polynomiellem,Dat,Sing,Masc,,ADJ,polynomiellem
-polytechnisch,Acc,Sing,Neut,,PROPN,Polytechnische
+polytechnisch,Acc,Sing,Neut,,PROPN,polytechnische
 polytechnischen,Dat,Sing,Fem,,ADJ,polytechnischen
 ponceauroter,Dat,Sing,Fem,Pos,ADJ,ponceauroter
 popmusikalisches,Acc,Sing,Neut,Pos,ADJ,popmusikalisches
@@ -109846,7 +109846,7 @@ portabel,Acc,Sing,Neut,Pos,ADJ,portables
 portieren,Acc,Sing,Fem,Pos,ADJ,portierte
 portokassenfreundlicher,Dat,Sing,Fem,,ADJ,portokassenfreundlicher
 portugiesisch,Dat,Sing,Fem,Pos,ADJ,portugiesischen | portugiesischer
-portugiesisch,Acc,Sing,Neut,,PROPN,Portugiesisch
+portugiesisch,Acc,Sing,Neut,,PROPN,portugiesisch
 portugiesisch,Acc,Sing,Neut,Pos,ADJ,portugiesische
 portugiesisch,Acc,Sing,Masc,Pos,ADJ,portugiesischen
 portugiesisch,Dat,Sing,Masc,Pos,ADJ,portugiesischen
@@ -109986,18 +109986,18 @@ prestigeträchtig,Dat,Sing,Neut,Pos,ADJ,prestigeträchtigen
 prestigeträchtig,Acc,Sing,Fem,Pos,ADJ,prestigeträchtige
 preussischen,Dat,Plur,Masc,,ADJ,preussischen
 preußisch,Dat,Sing,Masc,Pos,ADJ,preußischen | preußisches
-preußisch,Acc,Sing,Masc,,PROPN,Preußischen
+preußisch,Acc,Sing,Masc,,PROPN,preußischen
 preußisch,Acc,Plur,Masc,Pos,ADJ,preußische
 preußisch,Acc,Sing,Masc,Pos,ADJ,preußischen
 preußisch,Acc,Sing,Neut,Pos,ADJ,preußisches
 preußisch,Dat,Plur,Fem,Pos,ADJ,preußischen
 preußisch,Acc,Sing,Fem,Pos,ADJ,preußische
-preußisch,Acc,Sing,Fem,,PROPN,Preußische
+preußisch,Acc,Sing,Fem,,PROPN,preußische
 preußisch,Dat,Sing,Neut,Pos,ADJ,preußischen
 preußisch,Dat,Sing,Fem,Pos,ADJ,preußischen | preußischer
-preußisch,Dat,Sing,Neut,,PROPN,Preußischen
-preußisch,Acc,Sing,Neut,,PROPN,Preußische
-preußisch,Dat,Plur,Masc,,PROPN,Preußische
+preußisch,Dat,Sing,Neut,,PROPN,preußischen
+preußisch,Acc,Sing,Neut,,PROPN,preußische
+preußisch,Dat,Plur,Masc,,PROPN,preußische
 priesterkompatible,Acc,Sing,Fem,,ADJ,priesterkompatible
 prima,Dat,Sing,Neut,Pos,ADJ,prima
 prima,Dat,,,,PROPN,prima
@@ -110023,7 +110023,7 @@ privat,Acc,Sing,Neut,Pos,ADJ,private | privates
 privat,Acc,Plur,Masc,Pos,ADJ,private | privaten
 privat,Dat,Plur,Neut,Pos,ADJ,privaten
 privat,Dat,Sing,Fem,Pos,ADJ,privatem | privaten | privater
-privat,Acc,Sing,Neut,,PROPN,Private
+privat,Acc,Sing,Neut,,PROPN,private
 privat,Acc,Plur,Fem,Pos,ADJ,private | privaten
 privat,Dat,Sing,Masc,Pos,ADJ,privatem | privaten
 privat,Dat,Plur,Masc,Pos,ADJ,privaten
@@ -110045,8 +110045,8 @@ privatwirtschaftlich,Acc,Plur,Fem,Pos,ADJ,privatwirtschaftliche
 privatwirtschaftlich,Dat,Sing,Fem,Pos,ADJ,privatwirtschaftlichen
 privilegieren,Dat,Sing,Fem,Pos,ADJ,privilegierten
 privilegiert,Dat,Plur,Neut,Pos,ADJ,privilegierten
-pro,Dat,Sing,,,PROPN,Pro
-pro,Dat,Sing,Fem,,PROPN,Pro
+pro,Dat,Sing,,,PROPN,pro
+pro,Dat,Sing,Fem,,PROPN,pro
 pro,Dat,,,,ADP,pro
 pro-arabischer,Dat,Sing,Fem,,ADJ,pro-arabischer
 pro-palästinensischen,Dat,,,,ADJ,pro-palästinensischen
@@ -110135,8 +110135,8 @@ programmieren,Dat,Plur,Masc,Pos,ADJ,programmierenden
 programmieren,Dat,Sing,Fem,Pos,ADJ,programmierter
 programmieren,Acc,Plur,Neut,Pos,ADJ,programmierte
 programmiertechnische,Acc,Sing,Fem,,ADJ,programmiertechnische
-progressiv,Dat,Sing,Fem,,PROPN,Progressive
-progressiv,Dat,Sing,Neut,,PROPN,Progressive
+progressiv,Dat,Sing,Fem,,PROPN,progressive
+progressiv,Dat,Sing,Neut,,PROPN,progressive
 progressiv,Dat,Sing,,Pos,ADJ,progressivem
 projektieren,Dat,Sing,Fem,Pos,ADJ,projektierten
 projiziert,Dat,Sing,Masc,Pos,ADJ,projizierten
@@ -110268,7 +110268,7 @@ psychoakustischen,Dat,Sing,Neut,,ADJ,psychoakustischen
 psychoakustisches,Acc,Sing,Neut,,ADJ,psychoakustisches
 psychologisch,Acc,Sing,Fem,Pos,ADJ,psychologische
 psychologisch,Dat,Sing,Masc,Pos,ADJ,psychologischem | psychologischen
-psychosozial,Dat,Sing,Neut,,PROPN,Psychosozialen
+psychosozial,Dat,Sing,Neut,,PROPN,psychosozialen
 psychosozial,Acc,Sing,Fem,Pos,ADJ,psychosoziale
 psychosozialen,Dat,Plur,Masc,,ADJ,psychosozialen
 psychotherapeutisch,Dat,Sing,Masc,Pos,ADJ,psychotherapeutischen
@@ -110289,7 +110289,7 @@ punisch,Dat,Sing,Masc,,PROPN,punischen
 punktgenaue,Acc,Sing,Fem,,ADJ,punktgenaue
 punktuell,Acc,Plur,Fem,Pos,ADJ,punktuelle
 pur,Acc,Sing,Masc,Pos,ADJ,puren
-pur,Dat,Sing,Fem,,PROPN,Pure
+pur,Dat,Sing,Fem,,PROPN,pure
 pur,Dat,Sing,Fem,Pos,ADJ,purer
 putzen,Dat,Sing,Neut,Pos,ADJ,geputzten
 pädagogisch,Acc,Sing,Fem,Pos,ADJ,pädagogische
@@ -110297,11 +110297,11 @@ pädagogisch,Dat,Sing,Fem,Pos,ADJ,pädagogischen | pädagogischer
 pädagogisch,Acc,Sing,Neut,Pos,ADJ,pädagogisches
 pädagogisch,Acc,Plur,Neut,Pos,ADJ,pädagogische
 pädophile,Acc,Sing,Masc,,ADJ,pädophile
-päpstlich,Dat,Sing,Fem,,PROPN,Päpstlichen
+päpstlich,Dat,Sing,Fem,,PROPN,päpstlichen
 päpstlich,Dat,Sing,Fem,Pos,ADJ,päpstlichen
-päpstlich,Dat,Plur,Fem,,PROPN,Päpstlichen
+päpstlich,Dat,Plur,Fem,,PROPN,päpstlichen
 päpstlich,Acc,Sing,Masc,Pos,ADJ,päpstlichen
-päpstlich,Acc,Sing,Neut,,PROPN,Päpstliche
+päpstlich,Acc,Sing,Neut,,PROPN,päpstliche
 pünktlich,Dat,Sing,Fem,Pos,ADJ,pünktlichen
 q/depesche,Dat,,,,PROPN,q/depesche
 qua,Dat,,,,ADP,qua
@@ -110672,7 +110672,7 @@ regierungsnahen,Dat,Plur,Fem,,ADJ,regierungsnahen
 regimekritischen,Dat,Plur,Masc,,ADJ,regimekritischen
 regional,Dat,Sing,Masc,Pos,ADJ,regionalen
 regional,Dat,Plur,Fem,Pos,ADJ,regionalen
-regional,Acc,Sing,Neut,,PROPN,Regional
+regional,Acc,Sing,Neut,,PROPN,regional
 regional,Acc,Plur,Fem,Pos,ADJ,regionale | regionalen
 regional,Dat,Sing,Fem,Pos,ADJ,regionalen | regionaler
 regional,Acc,Sing,Fem,Pos,ADJ,regionale
@@ -110752,7 +110752,7 @@ rein,Dat,Sing,Fem,Pos,ADJ,reine | reinen | reiner
 rein,Acc,Plur,Fem,Pos,ADJ,reine
 rein,Dat,Plur,Fem,Pos,ADJ,reinen
 rein,Dat,Sing,Neut,Pos,ADJ,reinem | reinen
-rein,Dat,Sing,Masc,,PROPN,Reine
+rein,Dat,Sing,Masc,,PROPN,reine
 rein,Acc,Plur,Neut,Pos,ADJ,reinen
 rein,Acc,Sing,Fem,Pos,ADJ,reine
 rein,Dat,Sing,Masc,Pos,ADJ,reinem | reinen
@@ -110766,7 +110766,7 @@ reinrassig,Acc,Sing,Masc,Pos,ADJ,reinrassigen
 reisen,Dat,Plur,Masc,Pos,ADJ,reisenden
 reisen,Acc,Plur,,Pos,ADJ,reisende
 reisen,Dat,Plur,,Pos,ADJ,reisenden
-reisen,Acc,Plur,Fem,,NOUN,Reisen
+reisen,Acc,Plur,Fem,,NOUN,reisen
 reisend,Dat,Plur,Masc,Pos,ADJ,reisenden
 reizen,Acc,Sing,Fem,Pos,ADJ,gereizte
 reißen,Acc,Sing,Masc,Pos,ADJ,reißenden
@@ -110837,7 +110837,7 @@ repräsentieren,Dat,Plur,Neut,Pos,ADJ,repräsentierten
 republikanisch,Dat,Sing,Masc,Pos,ADJ,republikanischen
 republikanisch,Dat,Sing,Fem,Pos,ADJ,republikanischen | republikanischer
 republikanisch,Acc,Plur,Fem,Pos,ADJ,republikanische
-republikanisch,Dat,Sing,Masc,,PROPN,Republikanischen
+republikanisch,Dat,Sing,Masc,,PROPN,republikanischen
 republikanisch,Acc,Sing,Masc,Pos,ADJ,republikanischen
 repäsentatives,Acc,Sing,Neut,,ADJ,repäsentatives
 res-Bug,Dat,Sing,Masc,,NOUN,res-Bug
@@ -110980,7 +110980,7 @@ romanisch,Dat,Sing,Fem,Pos,ADJ,romanischen
 romanisch,Acc,Sing,Fem,Pos,ADJ,romanische
 romantisch,Acc,Plur,Fem,Pos,ADJ,romantische
 romantisch,Dat,Plur,Masc,Pos,ADJ,romantischen
-romantisch,Acc,,,,NOUN,Romantische
+romantisch,Acc,,,,NOUN,romantische
 root-Account,Dat,Plur,Masc,,NOUN,root-Accounts
 root-Passwort,Acc,Sing,Neut,,NOUN,root-Passwort
 rosa,Dat,Sing,Masc,Pos,ADJ,rosa
@@ -111005,15 +111005,15 @@ rostocker,Acc,Plur,Masc,Pos,ADJ,rostocker
 rot,Acc,Plur,Fem,Pos,ADJ,rote | roten
 rot,Acc,Sing,Masc,Pos,ADJ,rot | roten
 rot,Dat,Sing,Masc,Pos,ADJ,rotem | roten
-rot,Acc,Sing,Fem,,PROPN,Rote
-rot,Dat,Sing,Masc,,PROPN,Roten
-rot,Acc,Sing,Masc,,PROPN,Roten
+rot,Acc,Sing,Fem,,PROPN,rote
+rot,Dat,Sing,Masc,,PROPN,roten
+rot,Acc,Sing,Masc,,PROPN,roten
 rot,Dat,Sing,Neut,Pos,ADJ,rotem | roten
 rot,Acc,Sing,Fem,Pos,ADJ,rote
 rot,Dat,Plur,Fem,Pos,ADJ,roten
-rot,Dat,Sing,Neut,,PROPN,Roten
+rot,Dat,Sing,Neut,,PROPN,roten
 rot,Acc,Sing,Neut,Pos,ADJ,rote | rotes
-rot,Dat,Sing,Fem,,PROPN,Rote | Roten
+rot,Dat,Sing,Fem,,PROPN,rote | roten
 rot,Dat,Sing,Fem,Pos,ADJ,roten | roter
 rot,Dat,Plur,Masc,Pos,ADJ,roten
 rot,Dat,Plur,Neut,Pos,ADJ,roten
@@ -111033,7 +111033,7 @@ routinemäßig,Dat,Sing,Fem,Pos,ADJ,routinemäßigen
 routinemäßig,Acc,Sing,Masc,Pos,ADJ,routinemäßigen
 routiniert,Dat,Plur,Neut,Pos,ADJ,routinierten
 routiniert,Acc,Plur,Masc,Pos,ADJ,routinierte
-royal,Dat,Sing,Masc,,PROPN,Royal
+royal,Dat,Sing,Masc,,PROPN,royal
 royal,Dat,Sing,Fem,Pos,ADJ,royal
 ruckelige,Acc,Sing,Fem,,ADJ,ruckelige
 ruckeln,Acc,Plur,Neut,Pos,ADJ,ruckelnde
@@ -111085,7 +111085,7 @@ russisch,Dat,Plur,Fem,Pos,ADJ,russischen
 russisch,Acc,Plur,Fem,Pos,ADJ,russische | russischen
 russisch,Acc,Sing,Fem,Pos,ADJ,russische
 russisch,Dat,Sing,Neut,Pos,ADJ,russischen
-russisch,Dat,Sing,Neut,,PROPN,Russischen
+russisch,Dat,Sing,Neut,,PROPN,russischen
 russisch,Dat,Plur,Masc,Pos,ADJ,russische | russischen
 russisch,Acc,Sing,Neut,Pos,ADJ,russische | russisches
 russisch,Acc,Plur,Masc,Pos,ADJ,russischen
@@ -111112,7 +111112,7 @@ römisch,Dat,Sing,Neut,Pos,ADJ,römisch | römischen
 römisch,Acc,Plur,Fem,Pos,ADJ,römische | römischen
 römisch,Dat,,,Pos,ADJ,römisch
 römisch,Acc,Sing,Neut,Pos,ADJ,römische | römisches
-römisch,Dat,Sing,Neut,,PROPN,Römischen
+römisch,Dat,Sing,Neut,,PROPN,römischen
 römisch,Acc,Sing,Fem,Pos,ADJ,römische
 rötlich,Dat,Sing,Fem,Pos,ADJ,rötlichen
 rückgerufene,Acc,Sing,Neut,,ADJ,rückgerufene
@@ -111131,7 +111131,7 @@ rückläufig,Acc,Sing,Masc,Pos,ADJ,rückläufigen
 rückläufig,Dat,Plur,Fem,Pos,ADJ,rückläufigen
 rückseitigen,Dat,Sing,Fem,,ADJ,rückseitigen
 rückständig,Dat,Plur,Fem,Pos,ADJ,rückständigen
-rüde,Dat,Sing,,,PROPN,Rüde
+rüde,Dat,Sing,,,PROPN,rüde
 rüde,Dat,Plur,Fem,Pos,ADJ,rüden
 rüde,Acc,Sing,Neut,Pos,ADJ,rüde
 rühmen,Dat,Plur,Neut,Pos,ADJ,gerühmten
@@ -111147,7 +111147,7 @@ sa,Dat,Sing,Neut,,PROPN,sa
 saarbrücker,Dat,Sing,Fem,,ADJ,saarbrücker
 saarbrücker,Dat,Sing,Masc,,ADJ,saarbrücker
 saarländisch,Dat,Sing,Masc,Pos,ADJ,saarländischen
-saarländisch,Dat,Sing,Masc,,PROPN,Saarländischen
+saarländisch,Dat,Sing,Masc,,PROPN,saarländischen
 saarländisch,Dat,Sing,Fem,Pos,ADJ,saarländischen
 sachgerechte,Acc,Sing,Fem,,ADJ,sachgerechte
 sachkundig,Acc,Sing,Fem,Pos,ADJ,sachkundige
@@ -111507,7 +111507,7 @@ schockieren,Dat,Sing,Fem,Pos,ADJ,schockierten
 schockierend,Acc,Sing,Fem,Pos,ADJ,schockierende
 schonenderen,Acc,Sing,Masc,,ADJ,schonenderen
 schottisch,Dat,Sing,Fem,Pos,ADJ,schottischen
-schottisch,Acc,Sing,Neut,,PROPN,Schottische
+schottisch,Acc,Sing,Neut,,PROPN,schottische
 schottisch,Acc,Plur,Masc,Pos,ADJ,schottische
 schottisch,Acc,Sing,Masc,Pos,ADJ,schottischen
 schottisch,Acc,Sing,Fem,Pos,ADJ,schottische
@@ -111529,7 +111529,7 @@ schreiben,Acc,Sing,Fem,Pos,ADJ,geschriebene
 schreiben,Dat,Sing,Neut,Pos,ADJ,geschriebenen
 schreiben,Acc,Plur,Fem,Pos,ADJ,geschriebene
 schreiben,Dat,Plur,,Pos,ADJ,geschriebenen
-schreiben,Dat,,,,NOUN,Geschriebnen
+schreiben,Dat,,,,NOUN,geschriebnen
 schreibende,Acc,Sing,Fem,Pos,ADJ,schreibende
 schreibgeschützte,Acc,Sing,Fem,,ADJ,schreibgeschützte
 schreibgeschützten,Dat,Sing,Fem,,ADJ,schreibgeschützten
@@ -111599,10 +111599,10 @@ schwach,Dat,Plur,Masc,Cmp,ADJ,schwächeren
 schwach,Acc,Plur,Fem,Sup,ADJ,schwächsten
 schwach,Acc,Plur,Neut,Sup,ADJ,schwächsten
 schwach,Acc,Sing,Neut,Cmp,ADJ,schwächere
-schwach,Acc,,,,NOUN,Schwachen
+schwach,Acc,,,,NOUN,schwachen
 schwach,Dat,,,,ADJ,schwaches
 schwachbrüstigeren,Dat,Plur,Masc,,ADJ,schwachbrüstigeren
-schwache,Acc,,,,NOUN,Schwachen
+schwache,Acc,,,,NOUN,schwachen
 schwachsinnig,Acc,Sing,Masc,Pos,ADJ,schwachsinnigen
 schwammig,Acc,Sing,Fem,Pos,ADJ,schwammige
 schwanger,Acc,Sing,Fem,Pos,ADJ,schwangere
@@ -111610,7 +111610,7 @@ schwanken,Dat,Plur,Neut,Pos,ADJ,schwankenden
 schwanken,Dat,Sing,Fem,Pos,ADJ,schwankenden
 schwanken,Dat,Plur,Masc,Pos,ADJ,schwankenden
 schwanken,Dat,Plur,Fem,Pos,ADJ,schwankenden
-schwarz,Dat,Sing,Neut,,PROPN,Schwarzem | Schwarzen
+schwarz,Dat,Sing,Neut,,PROPN,schwarzem | schwarzen
 schwarz,Dat,Plur,Masc,Pos,ADJ,schwarzen
 schwarz,Dat,Plur,,Pos,ADJ,schwarzen
 schwarz,Dat,Sing,Fem,Pos,ADJ,schwarzen
@@ -111618,7 +111618,7 @@ schwarz,Dat,Sing,Masc,Pos,ADJ,schwarzem | schwarzen
 schwarz,Acc,Sing,Fem,Pos,ADJ,schwarze
 schwarz,Acc,Plur,Fem,Pos,ADJ,schwarze | schwarzen
 schwarz,Dat,Plur,Fem,,NOUN,schwarzen
-schwarz,Acc,Sing,Neut,,PROPN,Schwarze
+schwarz,Acc,Sing,Neut,,PROPN,schwarze
 schwarz,Acc,Plur,Masc,Pos,ADJ,schwarze | schwarzen
 schwarz,Acc,Plur,Neut,Pos,ADJ,schwarze
 schwarz,Dat,Plur,Fem,Pos,ADJ,schwarzen
@@ -111660,8 +111660,8 @@ schweizer,Acc,Sing,Neut,Pos,ADJ,schweizer
 schweizer,Dat,Plur,,Pos,ADJ,schweizer
 schweizerisch,Dat,Sing,Masc,Pos,ADJ,schweizerischen
 schweizerisch,Acc,Sing,Fem,Pos,ADJ,deutsch-schweizerische | schweizerische
-schweizerisch,Acc,Sing,Fem,,PROPN,Schweizerische
-schweizerisch,Dat,Sing,Fem,,PROPN,Schweizerischen
+schweizerisch,Acc,Sing,Fem,,PROPN,schweizerische
+schweizerisch,Dat,Sing,Fem,,PROPN,schweizerischen
 schweizerisch,Dat,Plur,Fem,Pos,ADJ,schweizerischen
 schweizerisch,Dat,Sing,Fem,Pos,ADJ,schweizerischen
 schweizerisch,Dat,Sing,,Pos,ADJ,schweizerischen
@@ -111881,10 +111881,10 @@ sein,Dat,Plur,Fem,,DET,seinen
 sein,Dat,Plur,,,DET,seine | seinen
 sein,Acc,Sing,,,DET,seinen
 sein,Dat,,,,DET,seine | seinem
-sein,Dat,,,,NOUN,Sein
+sein,Dat,,,,NOUN,sein
 seinsmässig,Acc,Sing,Fem,Pos,ADJ,seinsmässige
 seit,Dat,,,,ADP,seit
-seiten,Dat,Plur,Fem,,NOUN,Seiten
+seiten,Dat,Plur,Fem,,NOUN,seiten
 seitig,Dat,Sing,Neut,Pos,ADJ,17-seitigen | 20-seitigen
 seitlich,Dat,Plur,Neut,Pos,ADJ,seitlichen
 seitlich,Acc,Sing,Masc,Pos,ADJ,seitlichen
@@ -111945,7 +111945,7 @@ selbstständig,Dat,Sing,Neut,Pos,ADJ,selbstständigem
 selbstständig,Acc,Sing,Neut,Pos,ADJ,selbstständige
 selbstständig,Acc,Plur,Fem,Pos,ADJ,selbstständige
 selbstständig,Dat,Plur,Masc,Pos,ADJ,selbstständigen
-selbstthätige,Acc,,,,NOUN,Selbstthätigen
+selbstthätige,Acc,,,,NOUN,selbstthätigen
 selbstzerstörerischen,Dat,,,,ADJ,selbstzerstörerischen
 selbständig,Dat,Plur,Masc,Pos,ADJ,selbständigen
 selbständig,Dat,Sing,Fem,Pos,ADJ,selbstständiger
@@ -112155,7 +112155,7 @@ sie,Dat,Plur,,,PRON,ihnen
 sie,Acc,Plur,Neut,,PRON,sie
 sie,Acc,Sing,Fem,,PRON,sie
 sie,Dat,Plur,Masc,,PRON,ihnen
-sieben,Dat,Sing,Neut,,NOUN,Sieben
+sieben,Dat,Sing,Neut,,NOUN,sieben
 siebenbürgisch,Dat,Sing,Fem,Pos,ADJ,siebenbürgisch
 siebenjährig,Dat,Sing,Masc,Pos,ADJ,siebenjährigen
 siebenköpfige,Acc,Sing,Fem,,ADJ,siebenköpfige
@@ -112201,9 +112201,9 @@ silbergrau,Dat,Sing,Neut,Pos,ADJ,silbergrauen
 silbern,Dat,Sing,Neut,Pos,ADJ,silbernen
 silbern,Dat,Plur,Masc,Pos,ADJ,silbernen
 silbern,Acc,Sing,Fem,Pos,ADJ,silberne
-silbern,Acc,Sing,Neut,,PROPN,Silbernes
+silbern,Acc,Sing,Neut,,PROPN,silbernes
 silbern,Dat,Plur,Fem,Pos,ADJ,silbernen
-silbern,Acc,Plur,Masc,,PROPN,Silberner
+silbern,Acc,Plur,Masc,,PROPN,silberner
 silbern,Acc,Sing,Neut,Pos,ADJ,silbernes
 silbern,Dat,Sing,Fem,Pos,ADJ,silbernen
 silbern,Acc,Sing,Masc,Pos,ADJ,silbernen
@@ -112302,7 +112302,7 @@ slawisch,Dat,Plur,Masc,Pos,ADJ,slawischen
 slowakisch,Dat,Sing,Fem,Pos,ADJ,slowakischen
 slowakisch,Acc,Sing,Fem,Pos,ADJ,slowakische
 slowakisch,Acc,Sing,Masc,Pos,ADJ,slowakischen
-smart,Acc,Sing,Masc,,PROPN,Smart
+smart,Acc,Sing,Masc,,PROPN,smart
 smarten,Acc,Plur,Neut,,ADJ,smarten
 smarter,Dat,Sing,Fem,,ADJ,smarter
 smile,Acc,Sing,Neut,,ADJ,smile
@@ -112426,10 +112426,10 @@ sowas,Acc,Sing,Neut,,PRON,sowas
 sowjet,Acc,Sing,Masc,,PROPN,sowjet
 sowjetisch,Dat,Sing,Fem,Pos,ADJ,sowjetischen
 sowjetisch,Dat,Sing,Masc,Pos,ADJ,sowjetischen
-sowjetisch,Dat,Sing,Masc,,PROPN,Sowjetischer
+sowjetisch,Dat,Sing,Masc,,PROPN,sowjetischer
 sowjetisch,Acc,Sing,Masc,Pos,ADJ,sowjetischen
-sowjetisch,Dat,Sing,Fem,,PROPN,Sowjetischen
-sowjetisch,Acc,Sing,Fem,,PROPN,Sowjetische
+sowjetisch,Dat,Sing,Fem,,PROPN,sowjetischen
+sowjetisch,Acc,Sing,Fem,,PROPN,sowjetische
 sowjetisch,Acc,Sing,Neut,Pos,ADJ,sowjetisches
 sowjetisch,Dat,Plur,Masc,Pos,ADJ,sowjetischen
 sozial,Dat,Sing,Neut,Pos,ADJ,sozialen
@@ -112437,20 +112437,20 @@ sozial,Acc,Plur,Fem,Pos,ADJ,soziale | sozialen
 sozial,Acc,Plur,Neut,Pos,ADJ,soziale | sozialen
 sozial,Acc,Sing,Masc,Pos,ADJ,sozialen
 sozial,Acc,Sing,Neut,Pos,ADJ,soziale | soziales
-sozial,Dat,Sing,Fem,,PROPN,Sozialer
+sozial,Dat,Sing,Fem,,PROPN,sozialer
 sozial,Dat,Plur,Fem,Pos,ADJ,sozialen
 sozial,Dat,Sing,Fem,Pos,ADJ,sozialen | sozialer
 sozial,Dat,Plur,Neut,Pos,ADJ,sozialen
-sozial,Acc,Sing,Fem,,PROPN,Soziale
+sozial,Acc,Sing,Fem,,PROPN,soziale
 sozial,Acc,Plur,Fem,,PROPN,soziale
 sozial,Acc,Sing,Fem,Pos,ADJ,soziale
 sozial,Dat,Sing,Masc,Pos,ADJ,sozialen
 sozial,Acc,Plur,Masc,Pos,ADJ,soziale | sozialen
-sozialdemokratisch,Dat,Sing,Fem,,PROPN,Sozialdemokratischen
-sozialistisch,Dat,Sing,Fem,,PROPN,Sozialistischen
+sozialdemokratisch,Dat,Sing,Fem,,PROPN,sozialdemokratischen
+sozialistisch,Dat,Sing,Fem,,PROPN,sozialistischen
 sozialistisch,Dat,Sing,Fem,Pos,ADJ,sozialistischen
 sozialistisch,Acc,Plur,Fem,Pos,ADJ,sozialistischen
-sozialistisch,Acc,Sing,Fem,,PROPN,Sozialistische
+sozialistisch,Acc,Sing,Fem,,PROPN,sozialistische
 sozialpsychologisch,Dat,Sing,Fem,Pos,ADJ,sozialpsychologischen
 sozialpädagogische,Acc,Plur,Neut,,ADJ,sozialpädagogische
 sozialversicherungsrechtlichen,Acc,Sing,Masc,,ADJ,sozialversicherungsrechtlichen
@@ -112469,11 +112469,11 @@ spanisch,Dat,Plur,Fem,Pos,ADJ,spanischen
 spanisch,Acc,Sing,Fem,Pos,ADJ,spanische
 spanisch,Dat,Plur,Masc,Pos,ADJ,spanischen
 spanisch,Acc,Sing,Masc,Pos,ADJ,spanischen
-spanisch,Dat,Sing,Masc,,PROPN,Spanischen
+spanisch,Dat,Sing,Masc,,PROPN,spanischen
 spanisch,Dat,Plur,Neut,Pos,ADJ,spanischen
 spanisch,Acc,Plur,Masc,Pos,ADJ,spanische | spanischen
 spanisch,Acc,Sing,Neut,Pos,ADJ,spanische
-spanisch,Dat,Sing,Neut,,NOUN,Spanisch
+spanisch,Dat,Sing,Neut,,NOUN,spanisch
 spanisch-,Dat,,,,NOUN,spanisch-
 spanisch-sprachigen,Dat,Plur,Neut,,ADJ,spanisch-sprachigen
 spanischsprachigen,Acc,Plur,Neut,Pos,ADJ,spanischsprachigen
@@ -112566,7 +112566,7 @@ spezialisieren,Dat,Plur,Masc,Pos,ADJ,spezialisierten
 spezialisierteren,Dat,Sing,Fem,,ADJ,spezialisierteren
 spezialisierteren,Dat,Plur,Fem,,ADJ,spezialisierteren
 spezialisites,Dat,Sing,Neut,,ADJ,spezialisites
-speziell,Acc,Sing,Fem,,PROPN,Spezielle
+speziell,Acc,Sing,Fem,,PROPN,spezielle
 speziell,Dat,Sing,Masc,Pos,ADJ,speziellen
 speziell,Acc,Sing,Fem,Pos,ADJ,spezielle
 speziell,Acc,Plur,Neut,Pos,ADJ,spezielle | speziellen
@@ -112655,7 +112655,7 @@ sprechen,Dat,Plur,Masc,Pos,ADJ,sprechenden
 sprechen,Acc,Plur,Masc,Pos,ADJ,sprechenden
 sprechen,Acc,Sing,Fem,Pos,ADJ,gesprochene
 sprechen,Acc,Plur,Fem,Pos,ADJ,gesprochene
-sprechen,Dat,,,,NOUN,Gesprochnen
+sprechen,Dat,,,,NOUN,gesprochnen
 sprechend,Dat,Sing,Neut,Pos,ADJ,sprechenden
 sprechend,Dat,Plur,Masc,Pos,ADJ,sprechenden
 sprecherunabhängige,Acc,Plur,Fem,,ADJ,sprecherunabhängige
@@ -112706,8 +112706,8 @@ ssh-Session,Acc,Plur,Fem,,NOUN,ssh-Sessions
 st.,Dat,Sing,Masc,Pos,ADJ,st.
 staatenübergreifende,Acc,Sing,Fem,,ADJ,staatenübergreifende
 staatlich,Dat,Sing,Fem,Pos,ADJ,staatlichen | staatlicher
-staatlich,Dat,Sing,Fem,,PROPN,Staatlichen
-staatlich,Dat,Sing,Neut,,PROPN,Staatlichen
+staatlich,Dat,Sing,Fem,,PROPN,staatlichen
+staatlich,Dat,Sing,Neut,,PROPN,staatlichen
 staatlich,Dat,Sing,Masc,Pos,ADJ,staatlichem | staatlichen
 staatlich,Acc,Plur,Neut,Pos,ADJ,staatliche | staatlichen
 staatlich,Acc,Sing,Fem,Pos,ADJ,staatliche
@@ -112840,14 +112840,14 @@ statisch,Dat,Sing,Masc,Pos,ADJ,statischen
 statisch,Acc,Sing,Neut,Pos,ADJ,statisches
 statisch,Dat,Sing,Neut,Pos,ADJ,statischen
 statistisch,Acc,Plur,Masc,Pos,ADJ,statistische
-statistisch,Dat,Sing,Neut,,PROPN,Statistischen
+statistisch,Dat,Sing,Neut,,PROPN,statistischen
 statistisch,Dat,Plur,Masc,Pos,ADJ,statistischen
 statistisch,Dat,Plur,Fem,Pos,ADJ,statistischen
 statistisch,Dat,Plur,Neut,Pos,ADJ,statistischen
 statistisch,Dat,Sing,Neut,Pos,ADJ,statistischem | statistischen
 statistisch,Acc,Plur,Fem,Pos,ADJ,statistische | statistischen
 statistisch,Acc,Sing,Fem,Pos,ADJ,statistische
-statt,Dat,Sing,Fem,,NOUN,Statt
+statt,Dat,Sing,Fem,,NOUN,statt
 stattfinden,Dat,Sing,Fem,Pos,ADJ,stattfindende | stattfindenden | stattfindender | stattgefundenen
 stattfinden,Dat,Sing,Masc,Pos,ADJ,stattgefundenen
 stattfinden,Dat,Sing,Neut,Pos,ADJ,stattfindenden
@@ -112963,10 +112963,10 @@ stellen,Dat,Sing,Neut,Pos,ADJ,gestellten
 stellen,Dat,Sing,Masc,Pos,ADJ,gestellten
 stellenden,Dat,Sing,Neut,Pos,ADJ,stellenden
 stellvertretend,Dat,Sing,Masc,Pos,ADJ,stellvertretendem | stellvertretenden
-stellvertretend,Dat,Sing,Masc,,PROPN,Stellvertretenden
+stellvertretend,Dat,Sing,Masc,,PROPN,stellvertretenden
 stellvertretend,Acc,Sing,Fem,Pos,ADJ,stellvertretende
 stellvertretend,Acc,Sing,Masc,Pos,ADJ,stellvertretenden
-sterben,Dat,,,,NOUN,Sterben
+sterben,Dat,,,,NOUN,sterben
 stereofonen,Dat,Plur,Fem,,ADJ,stereofonen
 stereoskopischen,Dat,Plur,Neut,,ADJ,stereoskopischen
 stereotaugliche,Acc,Sing,Fem,,ADJ,stereotaugliche
@@ -113086,7 +113086,7 @@ strahlend,Acc,Sing,Fem,Pos,ADJ,strahlende
 stranger,Dat,Plur,,Cmp,ADJ,stranger
 strapazieren,Acc,Sing,Neut,Pos,ADJ,strapazierte
 strapazieren,Dat,Sing,Neut,Pos,ADJ,strapazierten
-strategisch,Dat,Sing,Fem,,PROPN,Strategische
+strategisch,Dat,Sing,Fem,,PROPN,strategische
 strategisch,Dat,Sing,Neut,Pos,ADJ,strategischem | strategischen
 strategisch,Acc,Sing,Fem,Pos,ADJ,strategische
 strategisch,Acc,Plur,Fem,Pos,ADJ,strategische | strategischen
@@ -113180,7 +113180,7 @@ studentisch,Acc,Plur,Masc,Pos,ADJ,studentischen
 stufenweisen,Acc,Sing,Masc,,ADJ,stufenweisen
 stundenweisen,Dat,Plur,Masc,,ADJ,stundenweisen
 stupide,Dat,Plur,Fem,Pos,ADJ,stupiden
-stur,Dat,Sing,Fem,,PROPN,Sture
+stur,Dat,Sing,Fem,,PROPN,sture
 stur,Dat,Sing,Fem,Pos,ADJ,sturen
 stuttgarter,Dat,,,Pos,ADJ,stuttgarter
 stuttgarter,Dat,Sing,Fem,Pos,ADJ,stuttgarter
@@ -113204,7 +113204,7 @@ ständerätlichen,Dat,Plur,Neut,Pos,ADJ,ständerätlichen
 ständig,Acc,Plur,Masc,Pos,ADJ,ständige | ständigen
 ständig,Dat,Sing,Fem,Pos,ADJ,ständigen | ständiger
 ständig,Acc,Plur,Fem,Pos,ADJ,ständige | ständigen
-ständig,Acc,Sing,Fem,,PROPN,Ständige
+ständig,Acc,Sing,Fem,,PROPN,ständige
 ständig,Acc,Sing,Neut,Pos,ADJ,ständige | ständiges
 ständig,Acc,Sing,Masc,Pos,ADJ,nicht-ständigen | ständigen
 ständig,Acc,Sing,Fem,Pos,ADJ,ständige
@@ -113327,7 +113327,7 @@ synmetamorphen,Dat,Plur,Fem,Pos,ADJ,synmetamorphen
 synoptisch,Acc,Plur,Fem,Pos,ADJ,synoptische
 synthetisch,Dat,Sing,Fem,Pos,ADJ,synthetischen
 synthetisch,Dat,Plur,Masc,Pos,ADJ,synthetischen
-syrisch,Acc,Sing,Neut,,PROPN,Syrische
+syrisch,Acc,Sing,Neut,,PROPN,syrische
 syrisch,Dat,Plur,Fem,Pos,ADJ,syrischen
 syrisch,Dat,Sing,Masc,Pos,ADJ,syrischen
 systematisch,Dat,Sing,Fem,Pos,ADJ,systematischen | systematischer
@@ -113337,9 +113337,9 @@ systembedingten,Acc,Sing,Masc,,ADJ,systembedingten
 systemweite,Acc,Sing,Neut,,ADJ,systemweite
 systemübergreifende,Acc,Sing,Fem,,ADJ,systemübergreifende
 sächsisch,Dat,Plur,Fem,Pos,ADJ,sächsischen
-sächsisch,Dat,Sing,Fem,,PROPN,Sächsischen
+sächsisch,Dat,Sing,Fem,,PROPN,sächsischen
 sächsisch,Dat,Sing,Fem,Pos,ADJ,sächsischen
-sächsisch,Dat,Sing,Neut,,PROPN,Sächsischen
+sächsisch,Dat,Sing,Neut,,PROPN,sächsischen
 sächsisch,Dat,Sing,Masc,Pos,ADJ,sächsischen
 sächsisch,Dat,Plur,Masc,Pos,ADJ,sächsischen
 sächsisch,Acc,Plur,Masc,Pos,ADJ,sächsische
@@ -113423,7 +113423,7 @@ sündig,Acc,Plur,,Pos,ADJ,sündige
 süß,Dat,Plur,Fem,Pos,ADJ,süßen
 süß,Acc,Sing,Neut,Pos,ADJ,süße
 süße,Acc,Sing,Neut,,ADJ,süße
-t,Acc,Sing,Neut,,NOUN,T
+t,Acc,Sing,Neut,,NOUN,t
 tadellos,Dat,Sing,Masc,Pos,ADJ,tadellosen
 taditionellen,Acc,Sing,Masc,,ADJ,taditionellen
 tagen,Acc,Sing,Masc,,NOUN,tag
@@ -113531,15 +113531,15 @@ technikverliebten,Dat,Plur,Masc,,ADJ,technikverliebten
 technisch,Dat,Sing,Neut,Pos,ADJ,technischen
 technisch,Dat,Sing,Masc,Pos,ADJ,technischem | technischen | wissenschaftlich-technischem
 technisch,Dat,Plur,Fem,Pos,ADJ,technische | technischen
-technisch,Acc,Sing,Fem,,PROPN,Technische
+technisch,Acc,Sing,Fem,,PROPN,technische
 technisch,Acc,Sing,Fem,,NOUN,technischen
-technisch,Dat,Sing,Fem,,PROPN,Technische | Technischen
+technisch,Dat,Sing,Fem,,PROPN,technische | technischen
 technisch,Dat,Sing,Fem,Pos,ADJ,physikalisch-technische | technische | technischen | technischer
 technisch,Acc,Plur,Masc,Pos,ADJ,it-technischen | pharmazeutisch-technische | technische | technischen
 technisch,Acc,Plur,Fem,Pos,ADJ,technische | technischen | wissenschaftlich-technische
 technisch,Acc,Sing,Fem,Pos,ADJ,technische
 technisch,Acc,Sing,Masc,Pos,ADJ,technischen
-technisch,Acc,Sing,Neut,,PROPN,Technische
+technisch,Acc,Sing,Neut,,PROPN,technische
 technisch,Acc,Plur,Neut,Pos,ADJ,technische | technischen
 technisch,Dat,Plur,Neut,Pos,ADJ,technischen
 technisch,Dat,Sing,,Pos,ADJ,technischem
@@ -113657,7 +113657,7 @@ texanischen,Dat,Sing,Neut,,ADJ,texanischen
 textbasiertem,Dat,Sing,Masc,,ADJ,textbasiertem
 textbasierten,Dat,Plur,Fem,,ADJ,textbasierten
 textbezogene,Acc,Sing,Fem,,ADJ,textbezogene
-textil,Dat,Sing,Masc,,PROPN,Textil
+textil,Dat,Sing,Masc,,PROPN,textil
 textliche,Acc,Sing,Fem,,ADJ,textliche
 textorientierten,Dat,Plur,Fem,,ADJ,textorientierten
 textvergleichenden,Dat,Plur,Fem,,ADJ,textvergleichenden
@@ -113670,7 +113670,7 @@ themenbezogenen,Dat,Plur,Neut,,ADJ,themenbezogenen
 themenverwandten,Dat,Plur,Masc,,ADJ,themenverwandten
 theologisch,Dat,Plur,Masc,Pos,ADJ,theologischen
 theoretisch,Dat,Sing,Fem,Pos,ADJ,theoretischen | theoretischer
-theoretisch,Acc,Sing,Fem,,PROPN,Theoretische
+theoretisch,Acc,Sing,Fem,,PROPN,theoretische
 theoretisch,Dat,Plur,Fem,Pos,ADJ,theoretischen
 theoretisch,Acc,Sing,Fem,Pos,ADJ,theoretische
 theoretisch,Acc,Sing,Masc,Pos,ADJ,theoretischen
@@ -113753,7 +113753,7 @@ ton,Acc,Sing,Masc,,PROPN,ton
 tonig,Dat,Plur,Neut,Pos,ADJ,tonigen
 top,Dat,,,Pos,ADJ,top
 top,Acc,Sing,Masc,Pos,ADJ,top
-tot,Acc,Sing,Masc,,PROPN,Toten
+tot,Acc,Sing,Masc,,PROPN,toten
 tot,Dat,Plur,Fem,Pos,ADJ,toten
 tot,Dat,Plur,Masc,Pos,ADJ,toten
 tot,Dat,Sing,Neut,Pos,ADJ,toten
@@ -113767,7 +113767,7 @@ total,Acc,Sing,Neut,Pos,ADJ,totales
 total,Dat,Sing,Masc,Pos,ADJ,totalen
 totalitär,Acc,Sing,Neut,Pos,ADJ,totalitäres
 totalitär,Dat,Plur,Masc,Pos,ADJ,totalitären
-tote,Dat,,,,NOUN,Toten
+tote,Dat,,,,NOUN,toten
 totsagen,Acc,Sing,Masc,Pos,ADJ,totgesagten
 touristisch,Acc,Sing,Fem,Pos,ADJ,touristische
 touristischen,Acc,Sing,Masc,,ADJ,touristischen
@@ -113945,7 +113945,7 @@ trödelige,Acc,Sing,Fem,,ADJ,trödelige
 trüben,Acc,Plur,Fem,Pos,ADJ,getrübten
 trüben,Dat,Plur,Fem,Pos,ADJ,getrübten
 trügerisch,Dat,Sing,Fem,Pos,ADJ,trügerischen | trügerischer
-tschechisch,Dat,Sing,Fem,,PROPN,Tschechische
+tschechisch,Dat,Sing,Fem,,PROPN,tschechische
 tschechisch,Dat,Sing,Fem,Pos,ADJ,tschechischen | tschechischer
 tschechisch,Acc,Sing,Fem,Pos,ADJ,tschechische
 tschechisch,Acc,Sing,Neut,Pos,ADJ,tschechische
@@ -113956,7 +113956,7 @@ ttarif-Preisübersicht,Acc,Sing,Fem,,NOUN,ttarif-Preisübersicht
 tualatin-unfähigen,Dat,Plur,Masc,,ADJ,tualatin-unfähigen
 tugendhaft,Dat,,,,ADJ,tugendhaft
 tumultiven,Dat,Plur,Neut,,ADJ,tumultiven
-tun,Acc,,,,NOUN,Tun
+tun,Acc,,,,NOUN,tun
 turbulent,Acc,Sing,Fem,Pos,ADJ,turbulente
 turbulent,Dat,Sing,Fem,Pos,ADJ,turbulenten
 turnusmäßige,Acc,Sing,Fem,Pos,ADJ,turnusmäßige
@@ -114029,14 +114029,14 @@ türkischsprachigen,Dat,Sing,Neut,,ADJ,türkischsprachigen
 türkischsprachigen,Dat,Sing,Masc,,ADJ,türkischsprachigen
 türkischsprachigen,Dat,Plur,Masc,,ADJ,türkischsprachigen
 türkischsprachiges,Acc,Sing,Neut,,ADJ,türkischsprachiges
-u,Dat,Sing,Neut,,NOUN,U
+u,Dat,Sing,Neut,,NOUN,u
 u.,Dat,,,,ADP,u.
 u.,Acc,,,,ADP,u.
 ueber,Acc,,,,ADP,ueber
 ukrainisch,Dat,Sing,Fem,Pos,ADJ,ukrainischen | ukrainischer
 ukrainisch,Dat,Plur,Masc,Pos,ADJ,ukrainischen
 ukrainisch,Dat,Sing,Masc,Pos,ADJ,ukrainischem
-ukrainisch,Acc,Sing,Fem,,PROPN,Ukrainische
+ukrainisch,Acc,Sing,Fem,,PROPN,ukrainische
 ukrainisch,Acc,Sing,Masc,Pos,ADJ,ukrainischen
 ulmer,Acc,Sing,Fem,Pos,ADJ,ulmer
 ulmer,Dat,Sing,Fem,Pos,ADJ,ulmer
@@ -114252,8 +114252,8 @@ unbedarft,Acc,Plur,Masc,Pos,ADJ,unbedarfte | unbedarften
 unbedarft,Dat,Plur,Masc,Pos,ADJ,unbedarften
 unbedeutend,Acc,Plur,Fem,Pos,ADJ,unbedeutende
 unbedeutend,Acc,Sing,Fem,Pos,ADJ,unbedeutende
-unbedingt,Acc,,,,NOUN,Unbedingtes
-unbedingt,Dat,,,,NOUN,Unbedingten
+unbedingt,Acc,,,,NOUN,unbedingtes
+unbedingt,Dat,,,,NOUN,unbedingten
 unbefangen,Dat,Sing,Masc,Pos,ADJ,unbefangenen
 unbefangen,Acc,Sing,Masc,Pos,ADJ,unbefangenen
 unbefriedigend,Dat,Sing,Fem,Pos,ADJ,unbefriedigenden
@@ -114370,7 +114370,7 @@ unempfindlich,Dat,Sing,Fem,Pos,ADJ,unempfindlichen
 unendlich,Dat,Plur,Fem,Pos,ADJ,unendlichen
 unendlich,Acc,Plur,Fem,Pos,ADJ,unendlichen
 unendlich,Dat,Sing,Fem,Pos,ADJ,unendlichen
-unendlichen,Dat,,,,NOUN,Unendlichen
+unendlichen,Dat,,,,NOUN,unendlichen
 unentdeckt,Acc,Plur,Fem,Pos,ADJ,unentdeckte
 unentdeckte,Acc,Sing,Fem,,ADJ,unentdeckte
 unentgeltlich,Acc,Sing,Fem,Pos,ADJ,unentgeltliche
@@ -114467,7 +114467,7 @@ ungeahnt,Acc,Sing,Neut,Pos,ADJ,ungeahntes
 ungeahnt,Dat,Plur,Neut,Pos,ADJ,ungeahnten
 ungebeten,Dat,Plur,Fem,Pos,ADJ,ungebetenen
 ungebeten,Dat,Plur,Masc,Pos,ADJ,ungebetenen
-ungebildete,Acc,,,,NOUN,Ungebildete
+ungebildete,Acc,,,,NOUN,ungebildete
 ungeblockt,Acc,Plur,Fem,Pos,ADJ,ungeblockte
 ungebremste,Acc,Sing,Fem,,ADJ,ungebremste
 ungebremstem,Dat,Sing,Neut,,ADJ,ungebremstem
@@ -114654,13 +114654,13 @@ unklar,Acc,Plur,Fem,Pos,ADJ,unklare
 unklar,Dat,Plur,Masc,Pos,ADJ,unklaren
 unklar,Dat,Sing,,Pos,ADJ,unklaren
 unklar,Dat,Sing,Fem,Pos,ADJ,unklarer
-unknown,Dat,,,,NOUN,1133-MHz-Pentium | 3.10a | Backups | Beiteiligten | Beschenkten | Bonnern | Boygroups | Breathe | Browser-Release | CCDs | Celera | Cern | Chattern | Clients | Colorama | Comdirect | Connectivity | Crusoe | Cyber-Entrepeneuren | Dauer-Rennerin | Desktop-Coppermines | Deut | Dot.Com-Companies | E-Commercelern | ECMA | ECommerce | EFF | Einzelnen | Entrechtung | Excite.de | Firmenehe | GFlops | GMD | Gebaren | Gehetzten | Gehörlosen | Guides | Heavyweights | Heise-Ticker | Herstellter | Hightech | ICANN | ISPs | Internet-Appliances | Internetties | Iridium | Itanium | Jüngsten | Krawattis | Kriminellen | Kritischeres | LANL | Lingubot | Lyan | Lüfter | MRJ-Plugin | Matloff | NCs | NSA | Nahost | Navigator | Nicht-Windows-Clients | Nneben | Object | PC-Videobegeisterten | Password-Sniffern | Paybox | Pentium | Philanthropie | Plugin | Rechteverletzer | Registries | Resellern | S/390-Mainframes | Salinger | Schnellebigkeit | Schwerhörigen | Startup-Companies | Symbian | Taiwanern | Text-Mining | Threads | Tumorart | Tux | USB | VRML | Verleiher | Vice-President | W3C | Wang | What's | iCast-Clients | Ältestenrat | Öffentlich-Rechtlichen
-unknown,Dat,Plur,Fem,,NOUN,Milliaren
-unknown,Acc,Sing,Fem,,NOUN,Milliardstel
-unknown,Acc,Sing,Neut,,NOUN,48bittige | COmputergestütztes
-unknown,Dat,Sing,Neut,,NOUN,Wirtschaftswissenschaftlichen
+unknown,Dat,,,,NOUN,1133-MHz-Pentium | 3.10a | backups | beiteiligten | beschenkten | bonnern | boygroups | breathe | browser-Release | cCDs | celera | cern | chattern | clients | colorama | comdirect | connectivity | crusoe | cyber-Entrepeneuren | dauer-Rennerin | desktop-Coppermines | deut | dot.Com-Companies | e-Commercelern | eCMA | eCommerce | eFF | einzelnen | entrechtung | excite.de | firmenehe | gFlops | gMD | gebaren | gehetzten | gehörlosen | guides | heavyweights | heise-Ticker | herstellter | hightech | iCANN | iCast-Clients | iSPs | internet-Appliances | internetties | iridium | itanium | jüngsten | krawattis | kriminellen | kritischeres | lANL | lingubot | lyan | lüfter | mRJ-Plugin | matloff | nCs | nSA | nahost | navigator | nicht-Windows-Clients | nneben | object | pC-Videobegeisterten | password-Sniffern | paybox | pentium | philanthropie | plugin | rechteverletzer | registries | resellern | s/390-Mainframes | salinger | schnellebigkeit | schwerhörigen | startup-Companies | symbian | taiwanern | text-Mining | threads | tumorart | tux | uSB | vRML | verleiher | vice-President | w3C | wang | what's | ältestenrat | öffentlich-Rechtlichen
+unknown,Dat,Plur,Fem,,NOUN,milliaren
+unknown,Acc,Sing,Fem,,NOUN,milliardstel
+unknown,Acc,Sing,Neut,,NOUN,48bittige | cOmputergestütztes
+unknown,Dat,Sing,Neut,,NOUN,wirtschaftswissenschaftlichen
 unknown,Acc,Sing,Masc,,NOUN,256bittigen
-unknown,Acc,,,,NOUN,G3-Minitower | IE | Java-VM | Nachfrager | Newsgroups | Pf./Min. | Pf/Min. | TLD | URL | Zersplitterung
+unknown,Acc,,,,NOUN,g3-Minitower | iE | java-VM | nachfrager | newsgroups | pf./Min. | pf/Min. | tLD | uRL | zersplitterung
 unkomplette,Acc,Plur,Fem,,ADJ,unkomplette
 unkompliziert,Acc,Sing,Masc,Cmp,ADJ,unkomplizierteren
 unkompliziert,Acc,Sing,Neut,Pos,ADJ,unkomplizierte
@@ -114988,7 +114988,7 @@ unverfänglich,Dat,Plur,Fem,Pos,ADJ,unverfänglichen
 unverfänglich,Dat,Plur,Neut,Pos,ADJ,unverfänglichen
 unverfänglich,Dat,Plur,Masc,Pos,ADJ,unverfänglichen
 unvergeßlich,Acc,Sing,Fem,Pos,ADJ,unvergessliche
-unvergängliche,Acc,,,,NOUN,Unvergängliche
+unvergängliche,Acc,,,,NOUN,unvergängliche
 unverhofft,Dat,Plur,Masc,Pos,ADJ,unverhofften
 unverhältnismäßige,Acc,Sing,Fem,,ADJ,unverhältnismäßige
 unverhältnismäßigen,Acc,Sing,Masc,Pos,ADJ,unverhältnismäßigen
@@ -115008,7 +115008,7 @@ unverputzt,Dat,Plur,Masc,Pos,ADJ,unverputzten
 unverschlüsselte,Acc,Sing,Fem,,ADJ,unverschlüsselte
 unverschlüsselten,Acc,Plur,Masc,,ADJ,unverschlüsselten
 unverschämt,Acc,Plur,Masc,Pos,ADJ,unverschämte
-unverständige,Dat,,,,NOUN,Unverständigen
+unverständige,Dat,,,,NOUN,unverständigen
 unverständlich,Acc,Plur,Fem,Pos,ADJ,unverständliche
 unverständlich,Dat,Plur,Masc,Pos,ADJ,unverständlichen
 unverständlich,Dat,Sing,,Pos,ADJ,unverständlichem
@@ -115110,7 +115110,7 @@ uradeligen,Dat,Sing,Neut,Pos,ADJ,uradeligen
 uralt,Dat,Plur,Fem,Pos,ADJ,uralten
 uramerikanische,Acc,Sing,Neut,,ADJ,uramerikanische
 urban,Acc,Sing,Neut,Pos,ADJ,urbane
-ureigen,Acc,Sing,Neut,,NOUN,Ureigene
+ureigen,Acc,Sing,Neut,,NOUN,ureigene
 ureigenes,Acc,Sing,Neut,,ADJ,ureigenes
 ureigensten,Dat,Sing,Neut,,ADJ,ureigensten
 urheberrechtlich,Dat,Plur,Fem,Pos,ADJ,urheberrechtlichen
@@ -115137,7 +115137,7 @@ ursprünglich,Dat,Plur,Masc,Pos,ADJ,ursprünglichen
 urtypischen,Acc,Plur,Fem,Pos,ADJ,urtypischen
 us-amerikansichen,Dat,Sing,Fem,,ADJ,us-amerikansichen
 utopisch,Acc,Plur,Masc,Pos,ADJ,utopischen
-v,Acc,Sing,Neut,,NOUN,V
+v,Acc,Sing,Neut,,NOUN,v
 v.,Dat,Sing,Masc,,X,v.
 vag,Acc,Plur,Fem,Pos,ADJ,vage
 vage,Dat,Plur,Fem,Pos,ADJ,vagen
@@ -115394,9 +115394,9 @@ vereinigen,Acc,Plur,Masc,Pos,ADJ,vereinigten
 vereinigen,Dat,Sing,Neut,Pos,ADJ,vereinigten
 vereinigen,Dat,Plur,Fem,Pos,ADJ,vereinigten
 vereinigen,Acc,Sing,Neut,Pos,ADJ,vereinigte
-vereinigt,Dat,Sing,Neut,,PROPN,Vereinigten | Vereinigtes
-vereinigt,Dat,Plur,Masc,,PROPN,Vereinigten
-vereinigt,Acc,Plur,Masc,,PROPN,Vereinigten
+vereinigt,Dat,Sing,Neut,,PROPN,vereinigten | vereinigtes
+vereinigt,Dat,Plur,Masc,,PROPN,vereinigten
+vereinigt,Acc,Plur,Masc,,PROPN,vereinigten
 vereinigt,Acc,Plur,Masc,Pos,ADJ,vereinigten
 vereinigt,Dat,Sing,Neut,Pos,ADJ,vereinigen | vereinigten
 vereinigt,Acc,Sing,Neut,Pos,ADJ,vereinigte
@@ -115427,7 +115427,7 @@ verfehlen,Acc,Sing,Neut,Pos,ADJ,verfehlte
 verfehlen,Acc,Sing,Fem,Pos,ADJ,verfehlte
 verfehlen,Dat,Sing,Fem,Pos,ADJ,verfehlten
 verfehlen,Dat,Plur,Neut,Pos,ADJ,verfehlten
-verfliegen,Dat,,,,NOUN,Verfliegen
+verfliegen,Dat,,,,NOUN,verfliegen
 verfließen,Dat,Sing,Neut,Pos,ADJ,verflossenen
 verflixt,Acc,Sing,Neut,Pos,ADJ,verflixte
 verflochten,Dat,Sing,Neut,Pos,ADJ,verflochtenen
@@ -115494,7 +115494,7 @@ vergehen,Dat,,,Pos,ADJ,vergangen
 vergessen,Dat,Plur,Fem,Pos,ADJ,vergessenen
 vergessen,Dat,Sing,Masc,Pos,ADJ,vergessenen
 vergessen,Acc,Sing,Neut,Pos,ADJ,vergessene
-vergessen,Acc,,,,NOUN,Vergessen
+vergessen,Acc,,,,NOUN,vergessen
 vergittern,Dat,Plur,Neut,Pos,ADJ,vergitterten
 verglast,Acc,Sing,Fem,Pos,ADJ,verglaste
 verglast,Dat,Sing,Fem,Pos,ADJ,verglasten
@@ -116048,7 +116048,7 @@ vertreten,Dat,Plur,Fem,Pos,ADJ,vertretenen
 vertreten,Acc,Sing,Masc,Pos,ADJ,vertretenden
 vertrieben,Dat,Plur,,Pos,ADJ,vertriebenen
 vertrieben,Dat,Sing,Masc,Pos,ADJ,vertriebenen
-vertrieben,Dat,Plur,,,NOUN,Vertriebenen
+vertrieben,Dat,Plur,,,NOUN,vertriebenen
 vertriebsorientierten,Dat,Plur,Masc,,ADJ,vertriebsorientierten
 verträglich,Dat,Sing,Fem,Pos,ADJ,verträglichen
 verträglich,Acc,Plur,Masc,Pos,ADJ,verträgliche
@@ -116117,7 +116117,7 @@ verwitwet,Acc,Sing,Fem,Pos,ADJ,verwitwete
 verworfenes,Acc,Sing,Neut,Pos,ADJ,verworfenes
 verworren,Dat,Sing,Fem,Pos,ADJ,verworrenen
 verworren,Acc,Sing,Fem,Pos,ADJ,verworrene
-verworrener,Acc,,,,NOUN,Verworrenen
+verworrener,Acc,,,,NOUN,verworrenen
 verwundbar,Dat,Plur,Masc,Pos,ADJ,verwundbaren
 verwundbar,Acc,Sing,Masc,Pos,ADJ,verwundbaren
 verwundet,Dat,Sing,Masc,Pos,ADJ,verwundeten
@@ -116398,7 +116398,7 @@ voluminösen,Dat,Sing,Fem,,ADJ,voluminösen
 voluntaristischen,Dat,Sing,Fem,,ADJ,voluntaristischen
 von,Dat,,,,ADP,von
 von,Acc,,,,ADP,von
-vor,Acc,Plur,Masc,,NOUN,Vor
+vor,Acc,Plur,Masc,,NOUN,vor
 vor,Dat,,,,ADP,vor
 vor,Acc,,,,ADP,vor
 vorallem,Dat,Sing,Neut,,ADV,vorallem
@@ -116726,7 +116726,7 @@ vortragen,Acc,Plur,Fem,Pos,ADJ,vorgetragenen
 vortragen,Dat,Plur,Fem,Pos,ADJ,vorgetragenen
 vortragen,Dat,Plur,Masc,Pos,ADJ,vorgetragenen
 vortrefflich,Dat,Sing,Fem,Pos,ADJ,vortrefflicher
-vortreffliche,Acc,,,,NOUN,Vortreffliche
+vortreffliche,Acc,,,,NOUN,vortreffliche
 vortäuschen,Acc,Sing,Masc,Pos,ADJ,vorgetäuschten
 vorurteilsfrei,Acc,Sing,Fem,Pos,ADJ,vorurteilsfreie
 vorvergangenen,Dat,Sing,Fem,,ADJ,vorvergangenen
@@ -116759,13 +116759,13 @@ väterlich,Dat,Sing,Neut,Pos,ADJ,väterlichen
 väterlich,Dat,Sing,Masc,Pos,ADJ,väterlichen
 väterlich,Dat,Sing,Fem,Pos,ADJ,väterlichen
 völkerrechtswidrig,Acc,Sing,Masc,Pos,ADJ,völkerrechtswidrigen
-völkisch,Dat,Plur,Fem,,PROPN,Völkischen
+völkisch,Dat,Plur,Fem,,PROPN,völkischen
 völlig,Acc,Sing,Fem,Pos,ADJ,völlige
 völlig,Acc,Sing,Masc,Pos,ADJ,völligen
 völlig,Dat,Sing,Fem,Pos,ADJ,völligen | völliger
 völlig,Acc,Sing,Neut,Pos,ADJ,völliges
 völlig,Dat,Sing,Neut,Pos,ADJ,völligem
-w,Dat,Plur,Neut,,NOUN,W
+w,Dat,Plur,Neut,,NOUN,w
 wabernden,Acc,Plur,Masc,,ADJ,wabernden
 wachsam,Acc,Sing,Neut,Pos,ADJ,wachsames
 wachsam,Dat,Sing,Neut,Pos,ADJ,wachsamen
@@ -116895,8 +116895,8 @@ wechselvoll,Acc,Sing,Fem,Pos,ADJ,wechselvolle
 wechselwillige,Acc,Plur,Masc,,ADJ,wechselwillige
 wechselwilligen,Dat,Plur,Masc,,ADJ,wechselwilligen
 wecken,Acc,Plur,Fem,Pos,ADJ,geweckten
-weg,Dat,Sing,Masc,,NOUN,Weg
-wegen,Dat,Plur,Masc,,NOUN,Wegen
+weg,Dat,Sing,Masc,,NOUN,weg
+wegen,Dat,Plur,Masc,,NOUN,wegen
 wegfallen,Acc,Plur,Fem,Pos,ADJ,wegfallenden
 wegklappbaren,Acc,Sing,Masc,Pos,ADJ,wegklappbaren
 wegweisende,Acc,Plur,Fem,,ADJ,wegweisende
@@ -116936,7 +116936,7 @@ weichstrahligen,Dat,Sing,Masc,Pos,ADJ,weichstrahligen
 weihnachtlich,Dat,Sing,Fem,Pos,ADJ,weihnachtlicher
 weihnachtlich,Dat,Sing,Masc,Pos,ADJ,weihnachtlichen
 weihnachtsliche,Acc,Sing,Fem,,ADJ,weihnachtsliche
-weil,Dat,Sing,Neut,,PROPN,Weil
+weil,Dat,Sing,Neut,,PROPN,weil
 weimarer,Dat,,,Pos,ADJ,weimarer
 weimarer,Dat,Sing,Fem,Pos,ADJ,weimarer
 weinen,Dat,Sing,Neut,Pos,ADJ,weinenden
@@ -117003,7 +117003,7 @@ weitergehen,Dat,Plur,Fem,Pos,ADJ,weitergehenden
 weitergehende,Acc,Plur,Fem,Pos,ADJ,weitergehende
 weitergehende,Acc,Sing,Fem,Pos,ADJ,weitergehende
 weitergehenden,Dat,Plur,Neut,Pos,ADJ,weitergehenden
-weiterkommen,Dat,,,,NOUN,Weiterkommen
+weiterkommen,Dat,,,,NOUN,weiterkommen
 weiterleiten,Acc,Plur,Neut,Pos,ADJ,weitergeleiteten
 weiterziehenden,Dat,Sing,Fem,Pos,ADJ,weiterziehenden
 weitestreichend,Dat,Plur,Neut,Pos,ADJ,weitestreichenden
@@ -117029,7 +117029,7 @@ weitreichend,Acc,Sing,Neut,Pos,ADJ,weitreichendes
 weiträumigen,Dat,Sing,Neut,,ADJ,weiträumigen
 weitverbreitet,Acc,Sing,Masc,Pos,ADJ,weitverbreiteten
 weiß,Acc,Plur,Fem,Pos,ADJ,weissen | weiße
-weiß,Acc,Sing,Neut,,PROPN,Weiße
+weiß,Acc,Sing,Neut,,PROPN,weiße
 weiß,Dat,Plur,,Pos,ADJ,weißen
 weiß,Dat,Plur,Masc,Pos,ADJ,weißen
 weiß,Acc,Sing,Masc,Pos,ADJ,weißen
@@ -117038,7 +117038,7 @@ weiß,Acc,Sing,Fem,Pos,ADJ,weiße
 weiß,Acc,Plur,Masc,Pos,ADJ,weiße
 weiß,Dat,Sing,Masc,Pos,ADJ,weissem | weißem | weißen
 weiß,Dat,Sing,Neut,Pos,ADJ,blau-weißen | weißem | weißen
-weiß,Dat,Sing,Neut,,PROPN,Weißen
+weiß,Dat,Sing,Neut,,PROPN,weißen
 weiß,Dat,Sing,Fem,Pos,ADJ,weißen | weißer
 weiß,Acc,Plur,,Pos,ADJ,blau-weißen
 welcher,Acc,Sing,Neut,,DET,welches
@@ -117192,7 +117192,7 @@ wertvoll,Dat,Plur,Masc,Pos,ADJ,wertvollen
 wertvoll,Dat,Sing,Neut,Pos,ADJ,wertvollen
 wertvoll,Acc,Plur,Neut,Sup,ADJ,wertvollsten
 wesentlich,Acc,Sing,Neut,Pos,ADJ,wesentliche | wesentliches
-wesentlich,Dat,Sing,Neut,,NOUN,Wesentlichen
+wesentlich,Dat,Sing,Neut,,NOUN,wesentlichen
 wesentlich,Acc,Sing,Masc,Pos,ADJ,wesentlichen
 wesentlich,Acc,Sing,Fem,Pos,ADJ,wesentliche | wesentlichen
 wesentlich,Acc,Plur,Masc,Pos,ADJ,wesentliche | wesentlichen
@@ -117383,7 +117383,7 @@ wild,Dat,Plur,Masc,Sup,ADJ,wildesten
 wildfremd,Dat,Plur,Fem,Pos,ADJ,wildfremden
 wildromantische,Acc,Sing,Fem,,ADJ,wildromantische
 wilhelminische,Acc,Sing,Fem,,ADJ,wilhelminische
-willen,Acc,Sing,Masc,,NOUN,Willen
+willen,Acc,Sing,Masc,,NOUN,willen
 willenlos,Dat,Plur,Fem,Pos,ADJ,willenlosen
 willkommen,Acc,Sing,Fem,Pos,ADJ,willkommene
 willkommen,Dat,Sing,Masc,Pos,ADJ,willkommenen
@@ -117468,7 +117468,7 @@ wirtschaftspolitisch,Dat,Sing,Masc,Pos,ADJ,wirtschaftspolitischen
 wirtschaftsrechtlichen,Dat,Sing,Fem,Pos,ADJ,wirtschaftsrechtlichen
 wirtschaftswissenschaftlich,Dat,Plur,Fem,Pos,ADJ,wirtschaftswissenschaftlichen
 wirtschaftswissenschaftlichen,Dat,Sing,Fem,,ADJ,wirtschaftswissenschaftlichen
-wissen,Acc,,,,NOUN,Wissen
+wissen,Acc,,,,NOUN,wissen
 wissensbasierten,Dat,Sing,Fem,,ADJ,wissensbasierten
 wissenschaftlich,Acc,Sing,Fem,Pos,ADJ,wissenschaftliche
 wissenschaftlich,Acc,Plur,Fem,Pos,ADJ,technisch-wissenschaftliche | wissenschaftliche | wissenschaftlichen
@@ -117595,11 +117595,11 @@ würdig,Acc,Sing,Neut,Pos,ADJ,würdiges
 würdig,Acc,Sing,Fem,Pos,ADJ,würdige
 würdig,Acc,Sing,Masc,Pos,ADJ,würdigen
 würdig,Dat,,,,ADJ,würdigsten
-würdige,Dat,,,,NOUN,Würdigen
+würdige,Dat,,,,NOUN,würdigen
 würfelförmigen,Acc,Sing,Masc,,ADJ,würfelförmigen
 württembergisch,Dat,Plur,Fem,Pos,ADJ,baden-württembergischen | württembergische
 württembergisch,Dat,Sing,Fem,Pos,ADJ,baden-württembergischen | württembergischen
-württembergisch,Dat,Sing,Fem,,PROPN,Württembergischen
+württembergisch,Dat,Sing,Fem,,PROPN,württembergischen
 württembergisch,Acc,Plur,Masc,Pos,ADJ,württembergische
 württembergisch,Dat,Sing,Masc,Pos,ADJ,baden-württembergischen
 würzburger,Acc,Sing,Masc,,ADJ,würzburger
@@ -117609,7 +117609,7 @@ wüst,Dat,Sing,Neut,Pos,ADJ,wüsten
 wüst,Acc,Plur,Fem,Pos,ADJ,wüste
 wüst,Dat,Plur,Fem,Pos,ADJ,wüsten
 wüten,Acc,Sing,Fem,Pos,ADJ,wütende
-x,Acc,Sing,Neut,,NOUN,X
+x,Acc,Sing,Neut,,NOUN,x
 x-beliebig,Dat,Plur,Masc,Pos,ADJ,x-beliebigen
 x-beliebig,Acc,Sing,Neut,Pos,ADJ,x-beliebige
 x-ten,Dat,,,Pos,ADJ,x-ten
@@ -117803,7 +117803,7 @@ zentral,Dat,Sing,Masc,Pos,ADJ,zentralen
 zentral,Acc,Plur,Masc,Pos,ADJ,zentrale | zentralen
 zentral,Acc,Sing,Neut,Pos,ADJ,zentrale | zentrales
 zentral,Dat,Plur,,Pos,ADJ,zentralen
-zentral,Acc,Sing,Masc,,PROPN,Zentralen
+zentral,Acc,Sing,Masc,,PROPN,zentralen
 zentral,Dat,Plur,Fem,Pos,ADJ,zentralen
 zentral,Acc,Plur,Fem,Pos,ADJ,zentrale | zentralen
 zentral,Dat,Sing,Neut,Pos,ADJ,zentrale | zentralen
@@ -118020,7 +118020,7 @@ zuordnen,Acc,Plur,Fem,Pos,ADJ,zuzuordnende
 zurechnen,Acc,Sing,Masc,Pos,ADJ,zuzurechnenden
 zurechtstutzen,Acc,Plur,Neut,Pos,ADJ,zurechtgestutzte
 zurechtstutzen,Acc,Sing,Masc,Pos,ADJ,zurechtgestutzten
-zurück,Acc,Sing,Neut,,NOUN,Zurück
+zurück,Acc,Sing,Neut,,NOUN,zurück
 zurückbleiben,Acc,Plur,Fem,Pos,ADJ,zurückbleibenden
 zurückbleiben,Acc,Sing,Neut,Pos,ADJ,zurückgebliebene
 zurückerobern,Acc,Sing,Fem,Pos,ADJ,zurückeroberte
@@ -118085,7 +118085,7 @@ zusammensetzen,Acc,Sing,Neut,Pos,ADJ,zusammengesetzte
 zusammensitzen,Dat,Sing,Neut,,NOUN,zusammensitzen
 zusammenstellen,Dat,Sing,Fem,Pos,ADJ,zusammengestellten
 zusammenstellen,Acc,Sing,Fem,Pos,ADJ,zusammengestellte
-zusammentreffen,Dat,,,,NOUN,Zusammentreffen
+zusammentreffen,Dat,,,,NOUN,zusammentreffen
 zuschaltbare,Acc,Sing,Fem,,ADJ,zuschaltbare
 zuschaltbarer,Dat,Sing,Fem,,ADJ,zuschaltbarer
 zuschauen,Acc,Sing,Masc,Pos,ADJ,zuschauenden
@@ -118139,7 +118139,7 @@ zusätzlich,Dat,Plur,,Pos,ADJ,zusätzlichen
 zuteilen,Acc,Plur,Fem,Pos,ADJ,zugeteilten
 zuteilen,Acc,Sing,Fem,Pos,ADJ,zugeteilte
 zuteilen,Dat,Sing,Neut,Pos,ADJ,zugeteilten
-zutrauen,Acc,,,,NOUN,Zutrauen
+zutrauen,Acc,,,,NOUN,zutrauen
 zutreffen,Acc,Sing,Fem,Pos,ADJ,zutreffende
 zuverlässig,Acc,Sing,Masc,Pos,ADJ,zuverlässigen
 zuverlässig,Acc,Sing,Fem,Pos,ADJ,zuverlässige
@@ -118182,7 +118182,7 @@ zweidimensonalen,Acc,Sing,Masc,,ADJ,zweidimensonalen
 zweieinhalbjähriger,Dat,Sing,Fem,,ADJ,zweieinhalbjähriger
 zweien,Dat,Plur,,,NUM,zweien
 zweier,Dat,Sing,Fem,,NUM,zweier
-zweier,Dat,Sing,Neut,,NOUN,Zweier
+zweier,Dat,Sing,Neut,,NOUN,zweier
 zweier,Dat,Plur,Masc,,ADJ,zweier
 zweifach,Acc,Sing,Fem,Pos,ADJ,zweifache
 zweifach,Dat,Sing,Fem,Pos,ADJ,zweifachen | zweifacher
@@ -118268,7 +118268,7 @@ zweithässlichsten,Dat,Sing,Neut,,ADJ,zweithässlichsten
 zweitklassig,Dat,Sing,Fem,Pos,ADJ,zweitklassigen
 zweitklassig,Acc,Sing,Fem,Pos,ADJ,zweitklassige
 zweitplatzierten,Dat,Sing,Neut,,ADJ,zweitplatzierten
-zweitplaziert,Dat,Sing,Fem,,NOUN,Zweitplatzierte
+zweitplaziert,Dat,Sing,Fem,,NOUN,zweitplatzierte
 zweitrangig,Acc,Sing,Neut,Pos,ADJ,zweitrangiges
 zweitstärksten,Acc,Sing,Masc,,ADJ,zweitstärksten
 zweitägig,Dat,Sing,Masc,Pos,ADJ,zweitägigen
@@ -118352,7 +118352,7 @@ züricher,Dat,Sing,Neut,,ADJ,züricher
 Ägypter,Acc,Plur,Masc,,NOUN,Ägypter
 Ägyptologen,Acc,Sing,Masc,,NOUN,Ägyptologen
 Ägyptologischen,Dat,Sing,Neut,,PROPN,Ägyptologischen
-Ähnlich,Acc,Sing,Neut,,NOUN,ähnliches
+Ähnlich,Acc,Sing,Neut,,NOUN,Ähnliches
 Ähnliches,Dat,Sing,Neut,,NOUN,Ähnlichem
 Ähnliches,Acc,Sing,Neut,,NOUN,Ähnliches
 Ähnlichkeit,Acc,Sing,Fem,,NOUN,Ähnlichkeit
@@ -118915,7 +118915,7 @@ züricher,Dat,Sing,Neut,,ADJ,züricher
 Überzeugungsarbeit,Acc,Sing,Fem,,NOUN,Überzeugungsarbeit
 Überzeugungskraft,Dat,Sing,Fem,,NOUN,Überzeugungskraft
 Übetragungstechnik,Acc,Sing,Fem,,NOUN,Übetragungstechnik
-Übrig,Dat,Sing,,,NOUN,Übrigen | übrigen
+Übrig,Dat,Sing,,,NOUN,Übrigen
 Übrig,Acc,Sing,Neut,,NOUN,Übriges
 Übrige,Dat,Sing,Neut,,NOUN,Übrigen
 Übung,Dat,Sing,Fem,,NOUN,Übung
@@ -118974,7 +118974,7 @@ züricher,Dat,Sing,Neut,,ADJ,züricher
 ästhetisch,Dat,Plur,Masc,Pos,ADJ,ästhetischen
 ästhetisch,Dat,,,,ADJ,ästhetischen
 ätherischen,Dat,Plur,Fem,Pos,ADJ,ätherischen
-äthiopisch,Acc,Sing,Neut,,NOUN,Äthiopisch
+äthiopisch,Acc,Sing,Neut,,NOUN,äthiopisch
 ätiologisch,Acc,Sing,Fem,Pos,ADJ,ätiologische
 ätzen,Dat,Plur,,Pos,ADJ,ätzenden
 äußer,Dat,Sing,Masc,Sup,ADJ,äußerstem | äußersten
@@ -119012,7 +119012,7 @@ züricher,Dat,Sing,Neut,,ADJ,züricher
 öffentlich,Acc,Sing,Neut,Pos,ADJ,öffentliche | öffentliches
 öffentlich,Dat,Plur,Fem,Pos,ADJ,öffentlichen
 öffentlich,Acc,Plur,Neut,Pos,ADJ,öffentliche | öffentlichen
-öffentlich,Dat,Sing,Neut,,PROPN,Öffentlichem
+öffentlich,Dat,Sing,Neut,,PROPN,öffentlichem
 öffentlich,Dat,Sing,Neut,Pos,ADJ,öffentlichem | öffentlichen
 öffentlich,Dat,Plur,,Pos,ADJ,öffentlichen
 öffnen,Dat,Plur,Masc,Pos,ADJ,geöffneten
@@ -119296,7 +119296,7 @@ züricher,Dat,Sing,Neut,,ADJ,züricher
 übertragen,Acc,Plur,Fem,Pos,ADJ,übertragene | übertragenen
 übertragen,Dat,Plur,Fem,Pos,ADJ,übertragenen
 übertreffen,Acc,Sing,Masc,Pos,ADJ,übertreffenden
-übertreffen,Acc,Sing,Neut,,NOUN,Übertreffen
+übertreffen,Acc,Sing,Neut,,NOUN,übertreffen
 übertreiben,Dat,Plur,Fem,Pos,ADJ,übertriebenen
 übertreiben,Dat,Sing,Masc,Pos,ADJ,übertriebenem | übertriebenen
 übertreiben,Acc,Plur,Fem,Pos,ADJ,übertriebenen

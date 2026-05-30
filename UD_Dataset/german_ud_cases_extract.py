@@ -8,11 +8,22 @@ from load_ud_dataset import load_ud_dataset, UD_GERMAN_SPLITS
 _GERMAN_ALPHA = frozenset("ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜabcdefghijklmnopqrstuvwxyzäöüß")
 
 
+def _match_first_letter_case(reference: str, word: str) -> str:
+    """Match the first letter case of word to reference."""
+    if not reference or not word:
+        return word
+    if reference[0].isupper():
+        return word[0].upper() + word[1:]
+    return word[0].lower() + word[1:]
+
+
 def _normalize_lemma_form(lemma: str, form: str, upos: str) -> tuple[str, str]:
-    """Lowercase non-nouns so sentence-initial caps do not split entries."""
-    if upos == "NOUN" or upos == "PROPN":
-        return lemma, form
-    return lemma.lower(), form.lower()
+    """Lowercase non-nouns; sync lemma/form first-letter case to avoid duplicates."""
+    if upos != "NOUN" and upos != "PROPN":
+        lemma, form = lemma.lower(), form.lower()
+    form = _match_first_letter_case(lemma, form)
+    lemma = _match_first_letter_case(form, lemma)
+    return lemma, form
 
 
 def main():

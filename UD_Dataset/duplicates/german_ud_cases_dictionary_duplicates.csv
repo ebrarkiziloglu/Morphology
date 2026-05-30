@@ -1,6 +1,4 @@
 Lemma,Case,Number,Gender,Degree,Upos,Forms
-Abbau,Acc,Sing,Masc,,NOUN,Abbau | abbau
-Abendessen,Dat,Sing,Neut,,NOUN,Abendessen | abendessen
 Abschluß,Dat,Sing,Masc,,NOUN,Abschluss | Abschluß
 Abschluß,Acc,Sing,Masc,,NOUN,Abschluss | Abschluß
 Abschuß,Acc,Sing,Masc,,NOUN,Abschuss | Abschuß
@@ -62,7 +60,6 @@ Ausschluß,Dat,Sing,Masc,,NOUN,Ausschluss | Ausschluß
 Ausschluß,Acc,Sing,Masc,,NOUN,Ausschluss | Ausschluß
 Ausschuß,Dat,Sing,Masc,,NOUN,Ausschuss | Ausschuß
 Ausschuß,Acc,Sing,Masc,,NOUN,Ausschuss | Ausschuß
-Autobahn,Dat,Sing,Fem,,NOUN,Autobahn | autobahn
 Autor,Dat,Sing,Masc,,NOUN,Autor | Autoren
 Bad,Dat,Sing,Neut,,NOUN,Bad | Bade
 Band,Dat,Plur,Fem,,NOUN,Bands | Bänden
@@ -198,13 +195,11 @@ Ersatz,Dat,Sing,Masc,,NOUN,Ersatz | Ersatze
 Ersatzteil,Acc,Sing,Neut,,NOUN,Ersatzteil | Ersatzteile
 Erschließung,Dat,Sing,Fem,,NOUN,Erschliessung | Erschließung
 Erwachsene,Acc,Plur,,,NOUN,Erwachsene | Erwachsenen
-Essen,Acc,Sing,Neut,,NOUN,Essen | essen
 Euro,Dat,Plur,Masc,,NOUN,Euro | Euros
 Ex-Monopolist,Dat,Sing,Masc,,NOUN,Ex-Monopolist | Ex-Monopolisten
 Ex-Präsident,Acc,Sing,Masc,,NOUN,Ex-Präsident | Ex-Präsidenten
 Exmonopolist,Dat,Sing,Masc,,NOUN,Exmonopolist | Exmonopolisten
 Export,Acc,Plur,Masc,,NOUN,Export | Exporte
-Fahrrad,Dat,Sing,Neut,,NOUN,Fahrrad | fahrrad
 Fall,Dat,Sing,Masc,,NOUN,Fall | Falle
 Fassade,Dat,Sing,Fem,,NOUN,Fassade | Fassaden
 Fax,Dat,Sing,Neut,,NOUN,Fax | Faxe
@@ -236,7 +231,6 @@ Franc,Dat,Plur,Masc,,NOUN,Franc | Francs
 Freiberufler,Dat,Plur,Masc,,NOUN,Freiberufler | Freiberuflern
 Freude,Acc,,,,NOUN,Freude | Freuden
 Freund,Dat,Sing,Masc,,NOUN,Freund | Freunde
-Freundin,Dat,Sing,Fem,,NOUN,Freundin | freundin
 Fuß,Dat,Sing,Masc,,NOUN,Fuß | Fuße
 Fuß,Dat,Plur,Masc,,NOUN,Fuß | Füßen
 Fuß,Acc,Sing,Masc,,NOUN,Fuss | Fuß
@@ -247,7 +241,6 @@ Gang,Dat,Sing,Masc,,NOUN,Gang | Gange
 Gattung,Acc,,,,NOUN,Gattung | Gattungen
 Gebot,Dat,Sing,Neut,,NOUN,Gebot | Gebote
 Gedicht,Dat,,,,NOUN,Gedicht | Gedichten
-Gefühl,Acc,Sing,Neut,,NOUN,Gefühl | gefühl
 Gegenstand,Dat,,,,NOUN,Gegenstande | Gegenständen
 Gegenstand,Acc,,,,NOUN,Gegenstand | Gegenstände
 Gehalt,Dat,Plur,Neut,,NOUN,Gehälter | Gehältern
@@ -312,7 +305,6 @@ Hinweis,Dat,Sing,Masc,,NOUN,Hinweis | Hinweise
 Hirsch,Dat,Sing,Masc,,NOUN,Hirsch | Hirschen
 Hochschulabschluß,Acc,Sing,Masc,,NOUN,Hochschulabschluss | Hochschulabschluß
 Hof,Dat,Sing,Masc,,NOUN,Hof | Hofe
-Hotel,Acc,Sing,Neut,,NOUN,Hotel | hotel
 Hotel,Acc,Sing,Masc,,PROPN,HOTEL | Hotel
 Hundert,Dat,Sing,Neut,,NOUN,Hundert | Hunderte
 Hypothese,Acc,,,,NOUN,Hypothese | Hypothesen
@@ -353,7 +345,7 @@ Internetprovider,Dat,Plur,Masc,,NOUN,Internetprovider | Internetprovidern
 Irrweg,Dat,Plur,Masc,,NOUN,Irrwege | Irrwegen
 Italienisch,Dat,Sing,Neut,,NOUN,Italienisch | Italienischen
 Jahr,Dat,Plur,Neut,,NOUN,Jahre | Jahren
-Jahr,Acc,Sing,Neut,,NOUN,Jahr | Jahre | jahr
+Jahr,Acc,Sing,Neut,,NOUN,Jahr | Jahre
 Jahr,Acc,Plur,Neut,,NOUN,Jahre | Jahren
 Jahr,Dat,Sing,Neut,,NOUN,Jahr | Jahre
 Jahrestag,Dat,Sing,Masc,,NOUN,Jahrestag | Jahrestage
@@ -418,8 +410,6 @@ Lauf,Dat,Sing,Masc,,NOUN,Lauf | Laufe
 Laufpaß,Acc,Sing,Masc,,NOUN,Laufpass | Laufpaß
 Laufwerk,Dat,Sing,Neut,,NOUN,Laufwerk | Laufwerke
 Lautsprecher,Dat,Plur,Masc,,NOUN,Lautsprecher | Lautsprechern
-Le,Dat,Sing,Neut,,PROPN,Le | le
-Le,Dat,Sing,Masc,,PROPN,Le | le
 Leib,Dat,Sing,Masc,,NOUN,Leib | Leibe
 Leut,Dat,Plur,Masc,,NOUN,Leute | Leuten
 Licht,Dat,Sing,Neut,,NOUN,Licht | Lichte
@@ -427,7 +417,6 @@ Lieferant,Dat,Sing,Masc,,NOUN,Lieferant | Lieferanten
 Linux-Kongreß,Dat,Sing,Masc,,NOUN,Linux-Kongress | Linux-Kongreß
 Live,Dat,Sing,Fem,,NOUN,LIVE | Live
 Lunge,Dat,Sing,Fem,,NOUN,Lunge | Lungen
-Mac,Acc,Sing,Masc,,PROPN,Mac | mac
 Magazin,Dat,Sing,Neut,,NOUN,Magazin | Magazine
 Mal,Acc,Plur,Neut,,NOUN,Mal | Male
 Mal,Dat,Sing,Neut,,NOUN,Mal | Male
@@ -466,7 +455,6 @@ Mindpixel,Dat,Plur,,,NOUN,Mindpixel | Mindpixeln
 Ministerpräsident,Acc,Sing,Masc,,NOUN,Ministerpräsident | Ministerpräsidenten
 Ministerpräsident,Dat,Sing,Masc,,NOUN,Ministerpräsident | Ministerpräsidenten
 Minute,Acc,Sing,Fem,,NOUN,Minute | Minuten
-Minute,Dat,Plur,Fem,,NOUN,Minuten | minuten
 Misserfolg,Dat,Sing,Masc,,NOUN,Misserfolg | Misserfolge
 Mitarbeiter,Dat,Plur,Masc,,NOUN,Mitarbeiter | Mitarbeitern
 Mitglied,Dat,Plur,Neut,,NOUN,Mitglieder | Mitgliedern
@@ -476,7 +464,7 @@ Mobilfunknetz,Dat,Sing,Neut,,NOUN,Mobilfunknetz | Mobilfunknetze
 Mobiltelefon,Dat,Sing,Neut,,NOUN,Mobiltelefon | Mobiltelefone
 Modell,Dat,Sing,Neut,,NOUN,Modell | Modelle
 Modul,Dat,Sing,Neut,,NOUN,Modul | Module
-Monat,Dat,Plur,Masc,,NOUN,Monate | Monaten | monaten
+Monat,Dat,Plur,Masc,,NOUN,Monate | Monaten
 Monat,Dat,Sing,Masc,,NOUN,Monat | Monate
 Motor,Dat,Sing,,,PROPN,Motor | Motors
 Mund,Dat,Sing,Masc,,NOUN,Mund | Munde
@@ -545,14 +533,12 @@ Praktikum,Acc,Plur,Neut,,NOUN,Praktika | Praktiken
 Praktikum,Dat,Plur,Neut,,NOUN,Praktika | Praktiken
 Preis,Dat,Sing,Masc,,NOUN,Preis | Preise
 Preis,Dat,Plur,Masc,,NOUN,Preis | Preisen
-Preis,Acc,Sing,Masc,,NOUN,Preis | preis
 Preisnachlaß,Acc,Sing,Masc,,NOUN,Preisnachlass | Preisnachlaß
 Preisnachlaß,Dat,Plur,Masc,,NOUN,Preisnachlässe | Preisnachlässen
 Preisvergleich,Dat,Sing,Masc,,NOUN,Preisvergleich | Preisvergleiche
 Prinzip,Acc,,,,NOUN,Prinzip | Prinzipien
 Privat,Acc,Plur,,,NOUN,Private | Privaten
 Privatanschluß,Acc,Sing,Masc,,NOUN,Privatanschluss | Privatanschluß
-Problem,Acc,Plur,Neut,,NOUN,Probleme | probleme
 Problem,Dat,Sing,Neut,,NOUN,Problem | Probleme
 Produkt,Dat,Plur,Neut,,NOUN,Produkte | Produkten
 Produkt,Dat,Sing,Neut,,NOUN,Produkt | Produkte
@@ -624,7 +610,6 @@ Satellit,Dat,Sing,Masc,,NOUN,Satellit | Satelliten
 Satellitenverkehr,Dat,Sing,Masc,,NOUN,Satellitenverkehr | Satellitenverkehre
 Satz,Acc,Sing,Masc,,NOUN,Samurai-Chipssatz | Satz
 Satz,Acc,,,,NOUN,Satz | Sätze
-Schaden,Acc,Plur,Masc,,NOUN,Schäden | schäden
 Schaltkreis,Dat,Sing,Masc,,NOUN,Schaltkreis | Schaltkreise
 Schatz,Acc,,,,NOUN,Schatz | Schätze
 Schiff,Dat,Sing,Neut,,NOUN,Schiff | Schiffen
@@ -635,7 +620,7 @@ Schimpferei,Dat,Plur,Fem,,NOUN,Schimpereien | Schimpfereien
 Schlag,Dat,Sing,Masc,,NOUN,Schlag | Schlage
 Schluss,Dat,Sing,Masc,,NOUN,Schluss | Schluß
 Schluss,Acc,Sing,Masc,,NOUN,Schluss | Schluß
-Schluß,Dat,Sing,Masc,,NOUN,Schluss | Schluß | schluss
+Schluß,Dat,Sing,Masc,,NOUN,Schluss | Schluß
 Schluß,Acc,Sing,Masc,,NOUN,Schluss | Schluß
 Schlüsselbegriff,Dat,Sing,Masc,,NOUN,Schlüsselbegriff | Schlüsselbegriffe
 Schlüsselwort,Dat,Sing,Neut,,NOUN,Schlüsselwort | Schlüsselworte
@@ -658,9 +643,7 @@ Selbständigkeit,Acc,Sing,Fem,,NOUN,Selbstständigkeit | Selbständigkeit
 Senat,Dat,Sing,Masc,,NOUN,Senat | Senates
 Senatsauschuß,Dat,Sing,Masc,,NOUN,Senatsauschuss | Senatsauschuß
 Server,Dat,Plur,Masc,,NOUN,Server | Servern
-Service,Acc,Sing,Masc,,NOUN,Service | service
 Service,Dat,Sing,Masc,,NOUN,Service | Services
-Service,Dat,Sing,Fem,,NOUN,Service | service
 Sichtkontakt,Dat,Sing,Masc,,NOUN,Sichtkontakt | Sichtkontakte
 Sinn,Dat,Sing,Masc,,NOUN,Sinn | Sinne
 Sinn,Acc,,,,NOUN,Sinn | Sinns
@@ -689,7 +672,6 @@ Startschuß,Dat,Sing,Masc,,NOUN,Startschuss | Startschuß
 Station,Dat,Sing,Fem,,PROPN,ScoopStation | Station
 Stein,Dat,Sing,Masc,,NOUN,Stein | Steine
 Stelle,Acc,,,,NOUN,Stelle | Stellen
-Stellung,Acc,Sing,Fem,,NOUN,Stellung | stellung
 Stichwort,Dat,Sing,Neut,,NOUN,Stichwort | Stichworte
 Stichwort,Dat,Plur,Neut,,NOUN,Stichworten | Stichwörtern
 Stil,Dat,Sing,Masc,,NOUN,Stil | Stile
@@ -725,7 +707,6 @@ Teil,Dat,Sing,,,NOUN,Teil | Teile
 Teil,Acc,,,,NOUN,Teil | Teile
 Teilbereich,Dat,Plur,Masc,,NOUN,Teilbereiche | Teilbereichen
 Teilnehmeranschluß,Dat,Plur,Masc,,NOUN,Teilnehmeranschlüsse | Teilnehmeranschlüssen
-Telefon,Dat,Sing,Neut,,NOUN,Telefon | telefon
 Telefonanschluß,Dat,Sing,Masc,,NOUN,Telefonanschluss | Telefonanschluß
 Telefonanschluß,Acc,Sing,Masc,,NOUN,Telefonanschluss | Telefonanschluß
 Telefongespräch,Dat,Sing,Neut,,NOUN,Telefongespräch | Telefongespräche
@@ -795,10 +776,8 @@ Version,Dat,Plur,Fem,,NOUN,Version | Versionen
 Verstoß,Acc,Plur,Masc,,NOUN,Verstösse | Verstöße
 Verstoß,Acc,Sing,Masc,,NOUN,Verstoss | Verstoß
 Verstoß,Dat,Plur,Masc,,NOUN,Verstössen | Verstößen
-Verständnis,Acc,Sing,Neut,,NOUN,Verständnis | verständnis
 Versuch,Dat,Sing,Masc,,NOUN,Versteigerugsversuch | Versuch
 Verteilnetz,Dat,Sing,Neut,,NOUN,Verteilnetz | Verteilnetze
-Verteilung,Acc,Sing,Fem,,NOUN,Verteilung | verteilung
 Vertragsabschluß,Dat,Sing,Masc,,NOUN,Vertragsabschluss | Vertragsabschluß
 Vertriebskanal,Dat,Plur,Masc,,NOUN,Vertriebskanäle | Vertriebskanälen
 Verwandte,Acc,Plur,,,NOUN,Verwandte | Verwandten
@@ -829,7 +808,6 @@ Weg,Dat,Sing,Masc,,NOUN,Weg | Wege
 Weg,Dat,Sing,Masc,,PROPN,Weg | Wege
 Weg,Dat,,,,NOUN,Weg | Wege
 Wein,Dat,Sing,Masc,,NOUN,Wein | Weine
-Weiterbildung,Acc,Sing,Fem,,NOUN,Weiterbildung | weiterbildung
 Weiß,Dat,Sing,Neut,,NOUN,Weiss | Weiß | Weiße
 Welt,Dat,Sing,Fem,,NOUN,WELT | Welt
 Welt,Acc,,,,NOUN,Welt | Welten
@@ -841,8 +819,6 @@ Werden,Dat,,,,NOUN,Werden | Würde
 Werk,Dat,Sing,Neut,,NOUN,Werk | Werke
 Werk,Acc,,,,NOUN,Werk | Werke
 Werk,Dat,,,,NOUN,Werk | Werke | Werken
-Werkstatt,Dat,Sing,Fem,,NOUN,Werkstatt | werkstatt
-Werkstatt,Acc,Sing,Fem,,NOUN,Werkstatt | werkstatt
 Werkstoff,Dat,Sing,Masc,,NOUN,Werkstoff | Werkstoffe
 Wert,Dat,Sing,Masc,,NOUN,Wert | Werte
 Wertpapier,Dat,Sing,Neut,,NOUN,Wertpapier | Wertpapiere
@@ -941,7 +917,7 @@ alt,Acc,Plur,Fem,Pos,ADJ,alte | alten
 alt,Dat,Sing,Fem,Pos,ADJ,alten | alter | neu-alten
 alt,Acc,Plur,Neut,Cmp,ADJ,ältere | älteren
 alt,Dat,Sing,Fem,Cmp,ADJ,älteren | älterer
-alt,Dat,Sing,Neut,,PROPN,Altem | Alten
+alt,Dat,Sing,Neut,,PROPN,altem | alten
 alt,Acc,Plur,Neut,Pos,ADJ,alte | alten
 alt,Acc,Plur,Fem,Cmp,ADJ,ältere | älteren
 alternativ,Acc,Sing,Neut,Pos,ADJ,alternativ | alternative | alternatives
@@ -1112,7 +1088,7 @@ basieren,Dat,Sing,Neut,Pos,ADJ,linux-basiertem | stratosphären-basierenden
 basieren,Dat,Plur,Fem,Pos,ADJ,basierenden | cls-basierten | dsp-basierenden | intel-basierten | internet-basierten | java-basierten | smartcard-basierten | web-basierten | xml-basierten
 basieren,Acc,Plur,Fem,Pos,ADJ,basierende | intel-basierte | internet-basierende | internet-basierte | web-basierte
 basieren,Acc,Plur,Neut,Pos,ADJ,celeron-basierten | ip-basierte | libc5-basierte | windows-ce-basierte
-bayerisch,Dat,Sing,Masc,,PROPN,Bayerischen | Bayerischer
+bayerisch,Dat,Sing,Masc,,PROPN,bayerischen | bayerischer
 bayerisch,Dat,Sing,Fem,Pos,ADJ,bayerischen | bayerischer
 bayerisch,Dat,Sing,Neut,Pos,ADJ,bayerischem | bayerischen
 bayerisch,Acc,Plur,Masc,Pos,ADJ,bayerische | bayerischen
@@ -1327,14 +1303,14 @@ deutlich,Dat,Sing,Masc,Pos,ADJ,deutlichem | deutlichen
 deutlich,Acc,Plur,Fem,Pos,ADJ,deutliche | deutlichen
 deutlich,Acc,Sing,Neut,Pos,ADJ,deutliche | deutliches
 deutlich,Acc,Plur,Neut,Pos,ADJ,deutliche | deutlichen
-deutsch,Acc,Sing,Neut,,PROPN,Deutsch | Deutsches
+deutsch,Acc,Sing,Neut,,PROPN,deutsch | deutsches
 deutsch,Dat,Sing,Fem,Pos,ADJ,deutsch | deutsche | deutschen | deutscher
 deutsch,Acc,Plur,Neut,Pos,ADJ,deutsche | deutschen
-deutsch,Acc,Sing,Neut,,NOUN,Deutsch | Deutsche
-deutsch,Dat,Sing,Neut,,PROPN,Deutsch | Deutschen
+deutsch,Acc,Sing,Neut,,NOUN,deutsch | deutsche
+deutsch,Dat,Sing,Neut,,PROPN,deutsch | deutschen
 deutsch,Dat,Sing,Neut,Pos,ADJ,deutsch | deutsche | deutschem | deutschen
 deutsch,Dat,Sing,Masc,Pos,ADJ,deutsch | deutschem | deutschen
-deutsch,Dat,Sing,Masc,,PROPN,Deutsch | Deutschen
+deutsch,Dat,Sing,Masc,,PROPN,deutsch | deutschen
 deutsch,Acc,Sing,Masc,Pos,ADJ,deutsch | deutschen
 deutsch,Acc,Plur,Fem,Pos,ADJ,deutsche | deutschen
 deutsch,Acc,Plur,Masc,Pos,ADJ,deutsch | deutsche | deutschen
@@ -1419,7 +1395,6 @@ durchsichtig,Dat,Sing,Masc,Pos,ADJ,durchsichtigem | matt-durchsichtigen
 dynamisch,Acc,Sing,Neut,Pos,ADJ,dynamische | dynamisches
 dünn,Dat,Sing,Masc,Pos,ADJ,dünnem | dünnen
 dünn,Dat,Sing,Neut,Pos,ADJ,dünnem | dünnen
-e,Dat,Sing,Neut,,NOUN,E | e
 echt,Dat,Sing,Neut,Pos,ADJ,echtem | echten
 echt,Dat,Sing,Fem,Pos,ADJ,echten | echter
 echt,Acc,Plur,Masc,Pos,ADJ,echte | echten
@@ -1762,7 +1737,6 @@ französisch,Acc,Plur,Neut,Pos,ADJ,französische | französischen
 französisch,Acc,Plur,Masc,Pos,ADJ,französische | französischen
 frei,Acc,Sing,Fem,Pos,ADJ,cookie-freie | freie | freier | sony-freie
 frei,Acc,Plur,Masc,Pos,ADJ,freie | freien | regionalcode-freie
-frei,Acc,Sing,Fem,,PROPN,Freie | freie
 frei,Dat,Sing,Masc,Pos,ADJ,freiem | freien
 frei,Dat,Sing,Fem,Pos,ADJ,cookie-freier | freien | freier | patent-freier
 frei,Acc,Sing,Neut,Pos,ADJ,freie | freies
@@ -1829,7 +1803,7 @@ ganz,Acc,Sing,Fem,Pos,ADJ,ganze | ganzen
 ganz,Acc,Plur,Fem,Pos,ADJ,ganze | ganzen
 ganz,Acc,Plur,Neut,Pos,ADJ,ganze | ganzen
 ganz,Acc,Plur,Masc,Pos,ADJ,ganze | ganzen
-ganze,Acc,,,,NOUN,Ganze | Ganzes
+ganze,Acc,,,,NOUN,ganze | ganzes
 geben,Dat,Sing,Masc,Pos,ADJ,gegebenem | gegebenen
 geben,Acc,Sing,Neut,Pos,ADJ,gegebene | gegebenes
 geben,Dat,Sing,Fem,Pos,ADJ,gegebenen | gegebener
@@ -1967,7 +1941,7 @@ groß,Dat,Sing,Fem,Pos,ADJ,großen | großer
 groß,Acc,Plur,Masc,Cmp,ADJ,größere | größeren
 groß,Dat,Sing,Neut,Cmp,ADJ,größerem | größeren
 groß,Dat,Sing,Masc,Cmp,ADJ,größerem | größeren
-groß,Dat,Sing,Masc,,PROPN,Grossen | Großen | großen
+groß,Dat,Sing,Masc,,PROPN,grossen | großen
 groß,Dat,Sing,Masc,Sup,ADJ,größtem | größten
 groß,Acc,Plur,Fem,Pos,ADJ,große | großen
 groß,Acc,Sing,Neut,Pos,ADJ,große | großes
@@ -2002,7 +1976,7 @@ gut,Dat,Sing,Masc,Pos,ADJ,gutem | guten
 gut,Dat,Sing,Neut,Cmp,ADJ,besserem | besseren
 gut,Dat,Sing,Fem,Pos,ADJ,guten | guter
 gut,Acc,Sing,Neut,Pos,ADJ,gute | gutes
-gut,Acc,Sing,Neut,,NOUN,Beste | besseres | gutes
+gut,Acc,Sing,Neut,,NOUN,besseres | beste | gutes
 gut,Dat,Plur,Masc,Pos,ADJ,gute | guten
 gut,Dat,Sing,Masc,Sup,ADJ,bestem | besten
 gut,Acc,Plur,Fem,Sup,ADJ,beste | besten
@@ -2011,7 +1985,7 @@ gut,Acc,Plur,Neut,Pos,ADJ,gute | guten
 gut,Dat,Sing,Neut,Pos,ADJ,gutem | guten
 gut,Acc,Plur,Fem,Cmp,ADJ,bessere | besseren
 gut,Dat,Sing,,Pos,ADJ,gutem | guten
-gut,Acc,,,,NOUN,Beste | Gute | Gutes
+gut,Acc,,,,NOUN,beste | gute | gutes
 gängig,Acc,Plur,Fem,Pos,ADJ,gängige | gängigen
 gängig,Acc,Plur,Neut,Pos,ADJ,gängige | gängigen
 gängig,Dat,Sing,Fem,Pos,ADJ,gängigen | gängiger
@@ -2048,8 +2022,6 @@ heftig,Dat,Plur,Masc,Pos,ADJ,heftige | heftigen
 heftig,Dat,Sing,Fem,Pos,ADJ,heftigen | heftiger
 heftig,Dat,Sing,Masc,Pos,ADJ,heftigem | heftigen
 heikel,Acc,Plur,Neut,Pos,ADJ,heikle | heiklen
-heilig,Dat,Sing,Masc,,PROPN,Heiligen | heiligen
-heilig,Dat,Sing,Fem,,PROPN,Heiligen | heiligen
 heimisch,Dat,Sing,Neut,Pos,ADJ,heimischem | heimischen
 heimisch,Dat,Sing,Fem,Pos,ADJ,heimischen | heimischer
 heiß,Acc,Plur,Neut,Pos,ADJ,heiße | heißen
@@ -2118,7 +2090,6 @@ illegal,Acc,Plur,Masc,Pos,ADJ,illegale | illegalen
 importieren,Acc,Plur,Masc,Pos,ADJ,importierte | importierten
 importieren,Dat,Sing,Fem,Pos,ADJ,importierten | importierter
 indirekt,Dat,Sing,Masc,Pos,ADJ,indirektem | indirekten
-indisch,Dat,Sing,Neut,,PROPN,Indischen | indischen
 indisch,Dat,Sing,Fem,Pos,ADJ,indischen | indischer
 indisch,Dat,Sing,Neut,Pos,ADJ,indischem | indischen
 individuell,Acc,Plur,Fem,Pos,ADJ,individuelle | individuellen
@@ -2247,7 +2218,7 @@ kanadisch,Acc,Sing,Neut,Pos,ADJ,kanadische | kanadisches
 kartellrechtlich,Acc,Plur,Fem,Pos,ADJ,kartellrechtliche | kartellrechtlichen
 kartellrechtlich,Acc,Sing,Neut,Pos,ADJ,kartellrechtliche | kartellrechtliches
 katastrophal,Dat,Sing,Fem,Pos,ADJ,katastrophalen | katastrophaler
-katholisch,Dat,Sing,Fem,,PROPN,Katholische | Katholischen
+katholisch,Dat,Sing,Fem,,PROPN,katholische | katholischen
 katholisch,Dat,Sing,Masc,Pos,ADJ,katholischem | katholischen
 kaufen,Dat,Sing,Fem,Pos,ADJ,gekauften | gekaufter
 kaufmännisch,Dat,Sing,Fem,Pos,ADJ,kaufmännischen | kaufmännischer
@@ -2423,7 +2394,6 @@ leiten,Acc,Sing,Fem,Pos,ADJ,geleitete | leitende
 letzt,Dat,Sing,Fem,Pos,ADJ,letzten | letzter
 letzt,Acc,Sing,Neut,Pos,ADJ,letzte | letztes
 letzt,Dat,Plur,Neut,Pos,ADJ,letzen | letzten
-letzt,Dat,Sing,Fem,,NOUN,Letzt | letzt
 letzte,Dat,Sing,Fem,Pos,ADJ,letzten | letzter
 letzte,Dat,Sing,Neut,Pos,ADJ,letztem | letzten
 letzte,Acc,Sing,Neut,Pos,ADJ,letzte | letztes
@@ -2514,7 +2484,7 @@ mitliefern,Dat,Sing,Masc,Pos,ADJ,mitgeliefertem | mitgelieferten
 mittelständisch,Acc,Plur,Neut,Pos,ADJ,mittelständische | mittelständischen
 mittlere,Dat,Sing,Fem,Pos,ADJ,mittleren | mittlerer
 mittlere,Dat,Sing,Masc,Pos,ADJ,mittlerem | mittleren
-mobil,Dat,Sing,Fem,,PROPN,Mobile | Mobiler
+mobil,Dat,Sing,Fem,,PROPN,mobile | mobiler
 mobil,Dat,Sing,Neut,Pos,ADJ,mobil | mobilem | mobilen
 mobil,Dat,Sing,Fem,Pos,ADJ,mobile | mobilen | mobiler
 mobil,Acc,Sing,Neut,Pos,ADJ,mobile | mobiles
@@ -2558,7 +2528,7 @@ nah,Dat,Sing,,Pos,ADJ,microsoft-nahen | nahen
 naheliegen,Dat,Sing,Masc,Pos,ADJ,nahegelegenen | naheliegenden
 naheliegen,Acc,Sing,Fem,Pos,ADJ,nahegelegene | naheliegende
 national,Acc,Plur,Neut,Pos,ADJ,nationale | nationalen
-national,Dat,Sing,Fem,,PROPN,National | Nationalen
+national,Dat,Sing,Fem,,PROPN,national | nationalen
 national,Acc,Plur,Fem,Pos,ADJ,nationale | nationalen
 national,Dat,Sing,Neut,Pos,ADJ,nationalem | nationalen
 national,Dat,Sing,Fem,Pos,ADJ,nationalen | nationaler
@@ -2590,10 +2560,10 @@ neu,Dat,Sing,Masc,Pos,ADJ,neuem | neuen
 neu,Acc,Plur,Masc,Pos,ADJ,neue | neuen
 neu,Acc,Sing,Neut,Pos,ADJ,neue | neues
 neu,Dat,Sing,Fem,Pos,ADJ,neue | neuen | neuer
-neu,Dat,Sing,Fem,,PROPN,Neue | Neuen | Neuer
+neu,Dat,Sing,Fem,,PROPN,neue | neuen | neuer
 neu,Acc,Plur,Fem,Pos,ADJ,neue | neuen
 neu,Acc,Plur,Neut,Pos,ADJ,neue | neuen
-neu,Acc,Sing,Neut,,PROPN,Neue | neues
+neu,Acc,Sing,Neut,,PROPN,neue | neues
 neu,Dat,Plur,Fem,Pos,ADJ,neue | neuen
 neu,Dat,Sing,Fem,Cmp,ADJ,neueren | neuerer
 neu,Acc,Plur,Neut,Sup,ADJ,neueste | neuesten | neusten
@@ -2894,7 +2864,7 @@ rot,Acc,Sing,Masc,Pos,ADJ,rot | roten
 rot,Dat,Sing,Masc,Pos,ADJ,rotem | roten
 rot,Dat,Sing,Neut,Pos,ADJ,rotem | roten
 rot,Acc,Sing,Neut,Pos,ADJ,rote | rotes
-rot,Dat,Sing,Fem,,PROPN,Rote | Roten
+rot,Dat,Sing,Fem,,PROPN,rote | roten
 rot,Dat,Sing,Fem,Pos,ADJ,roten | roter
 rund,Acc,Sing,Neut,Pos,ADJ,runde | rundes
 russisch,Acc,Plur,Fem,Pos,ADJ,russische | russischen
@@ -2965,7 +2935,7 @@ schwach,Dat,Sing,Fem,Cmp,ADJ,schwächeren | schwächerer
 schwach,Acc,Plur,Fem,Pos,ADJ,schwache | schwachen
 schwach,Acc,Plur,Masc,Pos,ADJ,schwache | schwachen
 schwach,Dat,Sing,Fem,Pos,ADJ,schwachen | schwacher
-schwarz,Dat,Sing,Neut,,PROPN,Schwarzem | Schwarzen
+schwarz,Dat,Sing,Neut,,PROPN,schwarzem | schwarzen
 schwarz,Dat,Sing,Masc,Pos,ADJ,schwarzem | schwarzen
 schwarz,Acc,Plur,Fem,Pos,ADJ,schwarze | schwarzen
 schwarz,Acc,Plur,Masc,Pos,ADJ,schwarze | schwarzen
@@ -3183,7 +3153,7 @@ tauglich,Acc,Sing,Masc,Pos,ADJ,ddr-sdram-tauglichen | ddr-tauglichen | dual-tual
 tauglich,Dat,Plur,Masc,Pos,ADJ,ddr-tauglichen | multimedia-tauglichen | usb-2.0-tauglichen
 technisch,Dat,Sing,Masc,Pos,ADJ,technischem | technischen | wissenschaftlich-technischem
 technisch,Dat,Plur,Fem,Pos,ADJ,technische | technischen
-technisch,Dat,Sing,Fem,,PROPN,Technische | Technischen
+technisch,Dat,Sing,Fem,,PROPN,technische | technischen
 technisch,Dat,Sing,Fem,Pos,ADJ,physikalisch-technische | technische | technischen | technischer
 technisch,Acc,Plur,Masc,Pos,ADJ,it-technischen | pharmazeutisch-technische | technische | technischen
 technisch,Acc,Plur,Fem,Pos,ADJ,technische | technischen | wissenschaftlich-technische
@@ -3277,9 +3247,9 @@ ungenannt,Dat,Sing,Fem,Pos,ADJ,ungenannten | ungenannter
 ungewöhnlich,Acc,Sing,Neut,Pos,ADJ,ungewöhnliche | ungewöhnliches
 ungewöhnlich,Dat,Sing,Fem,Pos,ADJ,ungewöhnliche | ungewöhnlichen | ungewöhnlicher
 ungünstig,Dat,Sing,Fem,Pos,ADJ,ungünstigen | ungünstiger
-unknown,Dat,,,,NOUN,1133-MHz-Pentium | 3.10a | Backups | Beiteiligten | Beschenkten | Bonnern | Boygroups | Breathe | Browser-Release | CCDs | Celera | Cern | Chattern | Clients | Colorama | Comdirect | Connectivity | Crusoe | Cyber-Entrepeneuren | Dauer-Rennerin | Desktop-Coppermines | Deut | Dot.Com-Companies | E-Commercelern | ECMA | ECommerce | EFF | Einzelnen | Entrechtung | Excite.de | Firmenehe | GFlops | GMD | Gebaren | Gehetzten | Gehörlosen | Guides | Heavyweights | Heise-Ticker | Herstellter | Hightech | ICANN | ISPs | Internet-Appliances | Internetties | Iridium | Itanium | Jüngsten | Krawattis | Kriminellen | Kritischeres | LANL | Lingubot | Lyan | Lüfter | MRJ-Plugin | Matloff | NCs | NSA | Nahost | Navigator | Nicht-Windows-Clients | Nneben | Object | PC-Videobegeisterten | Password-Sniffern | Paybox | Pentium | Philanthropie | Plugin | Rechteverletzer | Registries | Resellern | S/390-Mainframes | Salinger | Schnellebigkeit | Schwerhörigen | Startup-Companies | Symbian | Taiwanern | Text-Mining | Threads | Tumorart | Tux | USB | VRML | Verleiher | Vice-President | W3C | Wang | What's | iCast-Clients | Ältestenrat | Öffentlich-Rechtlichen
-unknown,Acc,Sing,Neut,,NOUN,48bittige | COmputergestütztes
-unknown,Acc,,,,NOUN,G3-Minitower | IE | Java-VM | Nachfrager | Newsgroups | Pf./Min. | Pf/Min. | TLD | URL | Zersplitterung
+unknown,Dat,,,,NOUN,1133-MHz-Pentium | 3.10a | backups | beiteiligten | beschenkten | bonnern | boygroups | breathe | browser-Release | cCDs | celera | cern | chattern | clients | colorama | comdirect | connectivity | crusoe | cyber-Entrepeneuren | dauer-Rennerin | desktop-Coppermines | deut | dot.Com-Companies | e-Commercelern | eCMA | eCommerce | eFF | einzelnen | entrechtung | excite.de | firmenehe | gFlops | gMD | gebaren | gehetzten | gehörlosen | guides | heavyweights | heise-Ticker | herstellter | hightech | iCANN | iCast-Clients | iSPs | internet-Appliances | internetties | iridium | itanium | jüngsten | krawattis | kriminellen | kritischeres | lANL | lingubot | lyan | lüfter | mRJ-Plugin | matloff | nCs | nSA | nahost | navigator | nicht-Windows-Clients | nneben | object | pC-Videobegeisterten | password-Sniffern | paybox | pentium | philanthropie | plugin | rechteverletzer | registries | resellern | s/390-Mainframes | salinger | schnellebigkeit | schwerhörigen | startup-Companies | symbian | taiwanern | text-Mining | threads | tumorart | tux | uSB | vRML | verleiher | vice-President | w3C | wang | what's | ältestenrat | öffentlich-Rechtlichen
+unknown,Acc,Sing,Neut,,NOUN,48bittige | cOmputergestütztes
+unknown,Acc,,,,NOUN,g3-Minitower | iE | java-VM | nachfrager | newsgroups | pf./Min. | pf/Min. | tLD | uRL | zersplitterung
 unmittelbar,Dat,Sing,Fem,Pos,ADJ,unmittelbaren | unmittelbarer
 unmittelbar,Dat,Sing,Masc,Pos,ADJ,unmittelbarem | unmittelbaren
 unser,Acc,Sing,Neut,,DET,unser | unsere
@@ -3323,7 +3293,7 @@ verbreiten,Acc,Sing,Neut,Pos,ADJ,verbreitete | verbreitetes
 verbreiten,Acc,Plur,Neut,Pos,ADJ,verbreitete | verbreiteten
 vereinen,Dat,Sing,Fem,Pos,ADJ,vereinten | vereinter
 vereinfachen,Acc,Sing,Neut,Pos,ADJ,vereinfachte | vereinfachtes
-vereinigt,Dat,Sing,Neut,,PROPN,Vereinigten | Vereinigtes
+vereinigt,Dat,Sing,Neut,,PROPN,vereinigten | vereinigtes
 vereinigt,Dat,Sing,Neut,Pos,ADJ,vereinigen | vereinigten
 verfrüht,Dat,Sing,Fem,Pos,ADJ,verfrühten | verfrühter
 verfügbar,Acc,Plur,Masc,Pos,ADJ,verfügbare | verfügbaren
@@ -3654,7 +3624,6 @@ zögerlich,Dat,Sing,Masc,Pos,ADJ,zögerlichem | zögerlichen
 Übernahmekandidat,Dat,Sing,Masc,,NOUN,Übernahmekandidat | Übernahmekandidaten
 Überschuß,Acc,Sing,Masc,,NOUN,Überschuss | Überschuß
 Übersetzung,Dat,,,,NOUN,Übersetzung | Übersetzungen
-Übrig,Dat,Sing,,,NOUN,Übrigen | übrigen
 ähnlich,Acc,Plur,Fem,Pos,ADJ,ähnliche | ähnlichen
 ähnlich,Dat,Sing,Fem,Pos,ADJ,cd-ähnlicher | ebay-ähnlichen | ethernet-ähnlichen | vhs-ähnlicher | ähnlichem | ähnlichen | ähnlicher
 ähnlich,Acc,Sing,Neut,Pos,ADJ,echelon-ähnliches | msdos-ähnliche | ähnliches
