@@ -553,7 +553,7 @@ def env_debug_seed_indices(var_name: str) -> Optional[Set[int]]:
 
 
 # ---------------------------------------------------------------------------
-# Dative subtype (from german_datives_all.csv / UD_German.ipynb taxonomy)
+# Dative subtype (from dative_spans/german_datives_all.csv / UD_German.ipynb taxonomy)
 # ---------------------------------------------------------------------------
 
 DativeTypeKey = Tuple[str, str, str, str]  # split, sent_id, head_lemma, head_form

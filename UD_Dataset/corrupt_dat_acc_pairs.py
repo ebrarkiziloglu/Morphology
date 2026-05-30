@@ -48,7 +48,7 @@ def main(
     """Main entry point for generating dative→accusative pairs."""
 
     if dative_types_csv_path is None:
-        dative_types_csv_path = os.path.join(_SCRIPT_DIR, "german_datives_all.csv")
+        dative_types_csv_path = os.path.join(_SCRIPT_DIR, "dative_spans/german_datives_all.csv")
 
     splits = {
         'train': 'de_gsd-ud-train.conllu',
@@ -88,7 +88,7 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument(
         "--dative-types-csv",
         default=None,
-        help="german_datives_all.csv for dative_type labels on each span",
+        help="dative_spans/german_datives_all.csv for dative_type labels on each span",
     )
     p.add_argument(
         "--duplicates-dictionary",
