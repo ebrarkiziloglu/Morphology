@@ -43,6 +43,7 @@ def main(
     dative_types_csv_path: Optional[str] = None,
     duplicates_dict_csv_path: Optional[str] = None,
     output_group_duplicates_json: Optional[str] = None,
+    output_dative_categories_dir: Optional[str] = None,
 ):
     """Main entry point for generating dative→accusative pairs."""
 
@@ -71,6 +72,7 @@ def main(
         dative_types_csv_path=dative_types_csv_path,
         duplicates_dict_csv_path=duplicates_dict_csv_path,
         output_group_duplicates_json=output_group_duplicates_json,
+        output_dative_categories_dir=output_dative_categories_dir,
     )
 
 
@@ -92,12 +94,17 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument(
         "--duplicates-dictionary",
         default=None,
-        help="duplicates/german_ud_cases_dictionary_duplicates.csv",
+        help="duplicates/german_ud_lookup_dictionary_duplicates.csv",
     )
     p.add_argument(
         "--output-group-duplicates-json",
         default=None,
         help="JSON for pairs containing duplicate-dictionary surface forms",
+    )
+    p.add_argument(
+        "--output-dative-categories-dir",
+        default=None,
+        help="Directory for per-dative_type minimal-pair JSON files (default: testset/dative_categories)",
     )
     return p.parse_args()
 
@@ -116,13 +123,13 @@ if __name__ == "__main__":
             else os.path.join(
                 _SCRIPT_DIR,
                 "testset",
-                "dative_accusative_pairs_group.json",
+                "dative_accusative_pairs.json",
             )
         ),
         dict_csv_path=(
             args.dictionary
             if args.dictionary
-            else os.path.join(_SCRIPT_DIR, "german_ud_cases_dictionary.csv")
+            else os.path.join(_SCRIPT_DIR, "german_ud_lookup_dictionary.csv")
         ),
         log_level=str(args.log_level),
         dative_types_csv_path=args.dative_types_csv,
@@ -130,7 +137,7 @@ if __name__ == "__main__":
             args.duplicates_dictionary
             if args.duplicates_dictionary
             else os.path.join(
-                _SCRIPT_DIR, "duplicates/german_ud_cases_dictionary_duplicates.csv"
+                _SCRIPT_DIR, "duplicates/german_ud_lookup_dictionary_duplicates.csv"
             )
         ),
         output_group_duplicates_json=(
@@ -139,7 +146,12 @@ if __name__ == "__main__":
             else os.path.join(
                 _SCRIPT_DIR,
                 "duplicates",
-                "dative_accusative_pairs_group_duplicates.json",
+                "dative_accusative_pairs_duplicates.json",
             )
+        ),
+        output_dative_categories_dir=(
+            args.output_dative_categories_dir
+            if args.output_dative_categories_dir
+            else os.path.join(_SCRIPT_DIR, "testset", "dative_categories")
         ),
     )

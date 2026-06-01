@@ -2,7 +2,7 @@
 Create Accusative→Dative sentence pairs from UD German-GSD.
 
 - Token-level: for each `Case=Acc` token, surface form is taken only from
-  `german_ud_cases_dictionary.csv`, matching **Lemma, Number, Gender, Upos**
+  `german_ud_lookup_dictionary.csv`, matching **Lemma, Number, Gender, Upos**
   (for Plur, any Gender is used only when no same-Gender row exists).
 - Group-level: accusative NP spans, same rule per Acc token.
 
@@ -91,7 +91,7 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument(
         "--dictionary",
         default=None,
-        help="path to german_ud_cases_dictionary.csv",
+        help="path to german_ud_lookup_dictionary.csv",
     )
     p.add_argument(
         "--output-group-json",
@@ -101,7 +101,7 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument(
         "--duplicates-dictionary",
         default=None,
-        help="duplicates/german_ud_cases_dictionary_duplicates.csv",
+        help="duplicates/german_ud_lookup_dictionary_duplicates.csv",
     )
     p.add_argument(
         "--output-group-duplicates-json",
@@ -129,14 +129,14 @@ if __name__ == "__main__":
         dict_csv_path=(
             args.dictionary
             if args.dictionary
-            else os.path.join(_SCRIPT_DIR, "german_ud_cases_dictionary.csv")
+            else os.path.join(_SCRIPT_DIR, "german_ud_lookup_dictionary.csv")
         ),
         log_level_name=args.log_level,
         duplicates_dict_csv_path=(
             args.duplicates_dictionary
             if args.duplicates_dictionary
             else os.path.join(
-                _SCRIPT_DIR, "duplicates/german_ud_cases_dictionary_duplicates.csv"
+                _SCRIPT_DIR, "duplicates/german_ud_lookup_dictionary_duplicates.csv"
             )
         ),
         output_group_duplicates_json=(

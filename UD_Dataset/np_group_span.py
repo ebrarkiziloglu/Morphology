@@ -18,6 +18,9 @@ _WALK_UP_DEPS = frozenset(
     {"det", "nummod", "amod", "compound", "flat", "fixed", "goeswith", "appos"}
 )
 
+# Coordinated adjectives (*freundlicher und ruhiger Umgebung*): walk ``conj`` up to the noun.
+_WALK_UP_CONJ_CHILD_UPOS = frozenset({"ADJ", "ADV"})
+
 # Dependents we never attach to the NP head (clauses, coordination hooks, …).
 _BLOCKED_DOWN_DEPS = frozenset(
     {
@@ -79,6 +82,9 @@ def walk_np_head_index(tokens: List[Dict[str, Any]], seed_idx: int) -> int:
         pidx = _parent_index(tokens, tok, id_to_idx)
         if pidx is None:
             return idx
+        if drel == "conj" and tok.get("upos") in _WALK_UP_CONJ_CHILD_UPOS:
+            idx = pidx
+            continue
         if drel not in _WALK_UP_DEPS:
             return idx
         idx = pidx
@@ -121,6 +127,13 @@ def _down_edge_ok(
     upos = child.get("upos", "")
     if drel == "case" and upos == "ADP":
         return False
+    if drel == "conj":
+        parent_upos = tokens[parent_idx].get("upos", "")
+        child_upos = child.get("upos", "")
+        return (
+            parent_upos in _WALK_UP_CONJ_CHILD_UPOS
+            and child_upos in _WALK_UP_CONJ_CHILD_UPOS
+        )
     if drel in _BLOCKED_DOWN_DEPS:
         return False
     if drel == "nmod":
