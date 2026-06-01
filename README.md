@@ -54,7 +54,7 @@ For each token with `Case ∈ {Acc, Dat}` and a German-alphabet initial lemma, i
 | `Lemma`      | UD lemma (nouns/proper nouns keep casing; other UPOS lowercased). |
 | `Case`       | `Acc` or `Dat`. |
 | `Number`     | `Sing`, `Plur`, or empty. |
-| `Gender`     | `Masc`, `Fem`, `Neut`, or empty. |
+| `Gender`     | `Masc`, `Fem`, `Neut`, or empty. Empty for all `Number=Plur` rows (forms pooled across genders). |
 | `Degree`     | UD `Degree` when present. |
 | `Upos`       | UPOS tag. |
 | `Inflection` | For `ADJ`: `Strong`, `Weak`, or empty (see `german_adj_inflection.py`). Strong/Weak rows with identical surfaces are merged. |
@@ -78,8 +78,8 @@ Output: [`UD_Dataset/german_ud_lookup_dictionary.csv`](UD_Dataset/german_ud_look
 **Matching at corruption time** (`ud_corruption_utils.select_dict_surface_form`):
 
 1. Normalize lemma for lookup (`dictionary_lookup_lemma`: lowercased unless `NOUN`/`PROPN`).
-2. Find rows with `Case = target_case`, same `Number` and `Upos`, and same `Gender` when available.
-3. For **plural**, if no same-gender row exists, fall back to any gender on that `(Lemma, Case, Number, Upos)` key.
+2. Find rows with `Case = target_case`, same `Number` and `Upos`, and same `Gender` for singular.
+3. For **plural** (`Number=Plur`), match only rows with empty `Gender` (counts summed over Masc/Fem/Neut at build time).
 4. For **adjectives**, prefer rows whose `Inflection` matches Strong/Weak context (`adj_inflection_from_context`).
 5. If several surfaces remain, pick the **most frequent** in the dictionary; apply the gold token’s initial capitalization.
 

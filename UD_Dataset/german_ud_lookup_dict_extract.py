@@ -32,6 +32,24 @@ def _format_forms_cell(form_counts: Counter[str]) -> str:
     return " | ".join(f"{form}:{count}" for form, count in ranked)
 
 
+def _merge_plural_gender_rows(
+    vocab_cases: dict[str, dict[tuple, Counter[str]]],
+) -> dict[str, dict[tuple, Counter[str]]]:
+    """Merge ``Number=Plur`` rows across genders; ``Gender`` is left empty."""
+    out: dict[str, dict[tuple, Counter[str]]] = defaultdict(dict)
+    for lemma, rows in vocab_cases.items():
+        for key, forms in rows.items():
+            case, number, gender, degree, upos, inflection = key
+            if number == "Plur":
+                key = (case, number, "", degree, upos, inflection)
+            bucket = out[lemma].get(key)
+            if bucket is None:
+                out[lemma][key] = forms.copy()
+            else:
+                bucket.update(forms)
+    return out
+
+
 def _collapse_identical_inflection_rows(
     vocab_cases: dict[str, dict[tuple, Counter[str]]],
 ) -> dict[str, dict[tuple, Counter[str]]]:
@@ -91,6 +109,8 @@ def main():
                             lemma, form = _normalize_lemma_form(
                                 lemma, form, upos
                             )
+                            if number == "Plur":
+                                gender = ""
                             inflection = ""
                             if upos == "ADJ":
                                 inflection = adj_inflection_from_context(
@@ -100,6 +120,7 @@ def main():
                                 (case, number, gender, degree, upos, inflection)
                             ][form] += 1
 
+    vocab_cases = _merge_plural_gender_rows(vocab_cases)
     vocab_cases = _collapse_identical_inflection_rows(vocab_cases)
 
     count = 0
