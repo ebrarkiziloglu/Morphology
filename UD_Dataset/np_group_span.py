@@ -21,6 +21,12 @@ _WALK_UP_DEPS = frozenset(
 # Coordinated adjectives (*freundlicher und ruhiger Umgebung*): walk ``conj`` up to the noun.
 _WALK_UP_CONJ_CHILD_UPOS = frozenset({"ADJ", "ADV"})
 
+# Only ascend through ``det`` / ``amod`` / … when the parent can head a nominal phrase.
+# Stops e.g. ``dem`` (``det`` of ``mangelt`` in a parataxis) from climbing to the verb.
+_NOMINAL_WALK_UP_PARENT_UPOS = frozenset(
+    {"NOUN", "PROPN", "PRON", "DET", "ADJ", "NUM"}
+)
+
 # Dependents we never attach to the NP head (clauses, coordination hooks, …).
 _BLOCKED_DOWN_DEPS = frozenset(
     {
@@ -83,9 +89,15 @@ def walk_np_head_index(tokens: List[Dict[str, Any]], seed_idx: int) -> int:
         if pidx is None:
             return idx
         if drel == "conj" and tok.get("upos") in _WALK_UP_CONJ_CHILD_UPOS:
+            parent_upos = tokens[pidx].get("upos", "")
+            if parent_upos not in _NOMINAL_WALK_UP_PARENT_UPOS:
+                return idx
             idx = pidx
             continue
         if drel not in _WALK_UP_DEPS:
+            return idx
+        parent_upos = tokens[pidx].get("upos", "")
+        if parent_upos not in _NOMINAL_WALK_UP_PARENT_UPOS:
             return idx
         idx = pidx
     return idx
@@ -144,27 +156,48 @@ def _down_edge_ok(
 def _collect_np_indices(tokens: List[Dict[str, Any]], head_idx: int) -> Set[int]:
     id_to_idx = _id_to_index(tokens)
     collected: Set[int] = {head_idx}
-    stack = [head_idx]
+    # ``appos_depth``: 0 at phrase head; 1 under a direct ``appos`` dependent.
+    # Do not recurse into nested ``appos`` (e.g. *Film Die Commitments (1991, …)*).
+    stack: List[Tuple[int, int]] = [(head_idx, 0)]
     while stack:
-        p = stack.pop()
+        p, appos_depth = stack.pop()
         for j, t in enumerate(tokens):
             if j in collected:
                 continue
             if not _down_edge_ok(tokens, j, p, id_to_idx):
                 continue
+            drel = _deprel_base(t.get("deprel"))
+            if drel == "appos" and appos_depth >= 1:
+                continue
             collected.add(j)
-            stack.append(j)
+            child_depth = appos_depth + 1 if drel == "appos" else appos_depth
+            stack.append((j, child_depth))
     return collected
+
+
+def find_nominal_group_indices(
+    tokens: List[Dict[str, Any]], seed_idx: int
+) -> Tuple[int, ...]:
+    """
+    Sorted token indices in the nominal phrase containing *seed_idx*.
+
+    Only indices that are linked to the phrase head via internal nominal deps
+    are included (not every token between min and max in linear order).
+    """
+    if not tokens or not (0 <= seed_idx < len(tokens)):
+        return (seed_idx,)
+    h = walk_np_head_index(tokens, seed_idx)
+    cluster = _collect_np_indices(tokens, h)
+    return tuple(sorted(cluster))
 
 
 def find_nominal_group_span(tokens: List[Dict[str, Any]], seed_idx: int) -> Tuple[int, int]:
     """
-    Return inclusive token indices ``(start, end)`` for the nominal phrase
-    containing the token at *seed_idx* (typically a ``Case=Acc`` or ``Case=Dat``
-    word).
+    Return inclusive ``(start, end)`` bounds for :func:`find_nominal_group_indices`.
+
+    When the phrase is a single contiguous chunk, ``start``/``end`` match the
+    usual slice ``tokens[start : end + 1]``. Callers that convert or display the
+    span should iterate :func:`find_nominal_group_indices`, not that range.
     """
-    if not tokens or not (0 <= seed_idx < len(tokens)):
-        return seed_idx, seed_idx
-    h = walk_np_head_index(tokens, seed_idx)
-    cluster = _collect_np_indices(tokens, h)
-    return min(cluster), max(cluster)
+    inds = find_nominal_group_indices(tokens, seed_idx)
+    return inds[0], inds[-1]

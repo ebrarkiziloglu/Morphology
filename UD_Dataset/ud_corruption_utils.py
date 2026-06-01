@@ -10,7 +10,13 @@ from collections import Counter
 from dataclasses import dataclass
 from typing import Any, Callable, Dict, Iterable, List, Optional, Set, Tuple, Mapping
 
-from np_group_span import find_nominal_group_span
+from german_adj_inflection import adj_inflection_from_context
+from german_ud_lookup_dict_load import (
+    attach_preferred_forms,
+    merged_form_counts,
+    preferred_dictionary_form,
+)
+from np_group_span import find_nominal_group_indices, walk_np_head_index
 from span_elimination_report import SpanEliminationReport
 
 _logger = logging.getLogger(__name__)
@@ -54,19 +60,21 @@ def cap_like(orig_form: str, out: str) -> str:
 
 _LEMMA_LOOKUP_TITLECASE_UPOS = frozenset({"NOUN", "PROPN"})
 
-# Must match german_ud_cases_extract._GERMAN_ALPHA (dictionary build filter).
+# Must match german_ud_lookup_dict_extract._GERMAN_ALPHA (dictionary build filter).
 _GERMAN_ALPHA = frozenset(
     "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜabcdefghijklmnopqrstuvwxyzäöüß"
 )
 
 
 def lemma_skipped_by_dictionary_extract(lemma: str) -> bool:
-    """True when *german_ud_cases_extract* omits this lemma (non-German initial)."""
+    """True when *german_ud_lookup_dict_extract* omits this lemma (non-German initial)."""
     return bool(lemma) and lemma[0] not in _GERMAN_ALPHA
 
 
 def dictionary_lookup_lemma(lemma: str, upos: str) -> str:
     """Lemma key for case_dict lookup; lowercased unless UPOS is NOUN or PROPN."""
+    if upos == "NOUN" and lemma.lower() == "beiliegen":
+        return "Beilage"
     if upos in _LEMMA_LOOKUP_TITLECASE_UPOS:
         return lemma
     return lemma.lower()
@@ -102,6 +110,9 @@ def _dictionary_forms_for_token(
     feats: Mapping[str, Any],
     case_dict: dict,
     case: str,
+    *,
+    tokens: Optional[List[Mapping[str, Any]]] = None,
+    token: Optional[Mapping[str, Any]] = None,
 ) -> Set[str]:
     """Surface forms from *case_dict* rows matching this token's morph key."""
     lookup_lemma = dictionary_lookup_lemma(lemma, upos)
@@ -110,12 +121,16 @@ def _dictionary_forms_for_token(
     entries = case_dict[lookup_lemma]
     if isinstance(entries, dict):
         entries = [entries]
+    inflection = None
+    if upos == "ADJ" and tokens is not None and token is not None:
+        inflection = adj_inflection_from_context(token, tokens)
     matches = dict_entries_matching_lookup(
         entries,
         target_case=case,
         number=feats.get("Number"),
         ud_gender=ud_gender_from_feats(feats),
         upos=upos,
+        inflection=inflection,
     )
     forms: Set[str] = set()
     for entry in matches:
@@ -259,6 +274,28 @@ def gold_char_span_for_tokens(
             return char_start, cursor + len(form)
         cursor += len(form)
     return None, None
+
+
+def group_span_surface_text(
+    gold_text: str,
+    tokens: List[Dict[str, Any]],
+    span_indices: Tuple[int, ...],
+) -> str:
+    """Surface text of the span as it appears in *gold_text*.
+
+    Uses the character range from the first to the last index in
+    *span_indices*, so punctuation between cluster tokens (e.g. ``--`` in
+    *US -- Konzerne*) is preserved. Falls back to joining token forms when
+    alignment fails.
+    """
+    if not span_indices:
+        return ""
+    start_idx, end_idx = span_indices[0], span_indices[-1]
+    if gold_text:
+        cs, ce = gold_char_span_for_tokens(gold_text, tokens, start_idx, end_idx)
+        if cs is not None and ce is not None:
+            return gold_text[cs:ce]
+    return tokens_to_text([tokens[i] for i in span_indices])
 
 
 def _token_char_offsets(
@@ -426,6 +463,10 @@ def _is_plural_number(number: Any) -> bool:
     return _normalize_morph_feat_cell(number) == "Plur"
 
 
+def _dict_row_gender_empty(entry: dict) -> bool:
+    return _normalize_morph_feat_cell(entry.get("Gender")) == ""
+
+
 def _dict_entries_filter(
     entries: List[dict],
     *,
@@ -434,6 +475,8 @@ def _dict_entries_filter(
     ud_gender: str,
     upos: str,
     require_gender: bool,
+    require_no_gender: bool = False,
+    inflection: Optional[str] = None,
 ) -> List[dict]:
     out: List[dict] = []
     for e in entries:
@@ -443,10 +486,65 @@ def _dict_entries_filter(
             continue
         if e.get("Upos") != upos:
             continue
+        if require_no_gender and not _dict_row_gender_empty(e):
+            continue
         if require_gender and not gender_matches_dictionary(ud_gender, e.get("Gender")):
             continue
+        if inflection is not None:
+            row_inflection = e.get("Inflection") or ""
+            if row_inflection and row_inflection != inflection:
+                continue
         out.append(e)
     return out
+
+
+def _dict_entries_with_inflection_preference(
+    entries: List[dict],
+    *,
+    target_case: str,
+    number: Any,
+    ud_gender: str,
+    upos: str,
+    require_gender: bool,
+    require_no_gender: bool = False,
+    inflection: Optional[str],
+) -> List[dict]:
+    """Prefer rows tagged with *inflection*, then untagged shared endings."""
+    if inflection:
+        exact = _dict_entries_filter(
+            entries,
+            target_case=target_case,
+            number=number,
+            ud_gender=ud_gender,
+            upos=upos,
+            require_gender=require_gender,
+            require_no_gender=require_no_gender,
+            inflection=inflection,
+        )
+        if exact:
+            return exact
+        shared = _dict_entries_filter(
+            entries,
+            target_case=target_case,
+            number=number,
+            ud_gender=ud_gender,
+            upos=upos,
+            require_gender=require_gender,
+            require_no_gender=require_no_gender,
+            inflection="",
+        )
+        if shared:
+            return shared
+    return _dict_entries_filter(
+        entries,
+        target_case=target_case,
+        number=number,
+        ud_gender=ud_gender,
+        upos=upos,
+        require_gender=require_gender,
+        require_no_gender=require_no_gender,
+        inflection=None,
+    )
 
 
 def dict_entries_matching_lookup(
@@ -456,28 +554,34 @@ def dict_entries_matching_lookup(
     number: Any,
     ud_gender: str,
     upos: str,
+    inflection: Optional[str] = None,
 ) -> List[dict]:
-    """Match (Case, Number, Gender, Upos); for Plur, fall back to any Gender if needed."""
-    strict = _dict_entries_filter(
-        entries,
-        target_case=target_case,
-        number=number,
-        ud_gender=ud_gender,
-        upos=upos,
-        require_gender=True,
-    )
-    if strict:
-        return strict
+    """Match dictionary rows by (Case, Number, Upos) and optional ADJ inflection.
+
+    Singular: require the same ``Gender``. Plural: use only rows with empty
+    ``Gender`` (all genders merged at dictionary build time).
+    """
     if _is_plural_number(number):
-        return _dict_entries_filter(
+        return _dict_entries_with_inflection_preference(
             entries,
             target_case=target_case,
             number=number,
             ud_gender=ud_gender,
             upos=upos,
             require_gender=False,
+            require_no_gender=True,
+            inflection=inflection,
         )
-    return []
+    return _dict_entries_with_inflection_preference(
+        entries,
+        target_case=target_case,
+        number=number,
+        ud_gender=ud_gender,
+        upos=upos,
+        require_gender=True,
+        require_no_gender=False,
+        inflection=inflection,
+    )
 
 
 def select_dict_surface_form(
@@ -489,13 +593,16 @@ def select_dict_surface_form(
     ud_gender: str,
     upos: str,
     orig_form: str,
+    tokens: Optional[List[Mapping[str, Any]]] = None,
+    token: Optional[Mapping[str, Any]] = None,
 ) -> Optional[str]:
     """
     Select a surface form from the case dictionary for
-    (Lemma, target_case, Number, Gender, Upos). For Plur, use any Gender only
-    when no same-Gender row exists. Returns None if no match.
-    Non-NOUN/PROPN lemmas are lowercased for dictionary lookup; the chosen
-    surface form inherits an initial capital from *orig_form* when present.
+    (Lemma, target_case, Number, Gender, Upos). For ``Number=Plur``, only
+    gender-agnostic rows (empty ``Gender`` column) are used. Returns None if no match.
+    When several surfaces match, picks the highest-frequency form from the
+    dictionary (not the gold token spelling). Non-NOUN/PROPN lemmas are
+    lowercased for lookup; the chosen surface inherits initial cap from *orig_form*.
     """
     lookup_lemma = dictionary_lookup_lemma(lemma, upos)
     if lookup_lemma not in case_dict:
@@ -506,28 +613,26 @@ def select_dict_surface_form(
     if isinstance(entries, dict):
         entries = [entries]
 
+    inflection = None
+    if upos == "ADJ" and tokens is not None and token is not None:
+        inflection = adj_inflection_from_context(token, tokens)
+
     matches = dict_entries_matching_lookup(
         entries,
         target_case=target_case,
         number=number,
         ud_gender=ud_gender,
         upos=upos,
+        inflection=inflection,
     )
     if not matches:
         return None
 
-    forms: Set[str] = set()
-    for e in matches:
-        forms.update(e.get("forms") or set())
+    forms, form_counts = merged_form_counts(matches)
     if not forms:
         return None
 
-    forms_lower = {f.lower(): f for f in forms}
-    if orig_form.lower() in forms_lower:
-        return apply_gold_initial_capitalization(
-            orig_form, forms_lower[orig_form.lower()]
-        )
-    selected = sorted(forms)[0]
+    selected = preferred_dictionary_form(forms, form_counts)
     return apply_gold_initial_capitalization(orig_form, selected)
 
 
@@ -551,24 +656,364 @@ def env_debug_seed_indices(var_name: str) -> Optional[Set[int]]:
 # Dative subtype (from dative_spans/german_datives_all.csv / UD_German.ipynb taxonomy)
 # ---------------------------------------------------------------------------
 
-DativeTypeKey = Tuple[str, str, str, str]  # split, sent_id, head_lemma, head_form
+DativeTypeKey = Tuple[str, str, str, str, str]  # split, sent_id, head_lemma, head_form, relation
+
+# Dative-only prepositions (always dative): one ``dative_type`` label per lemma.
+DATIVE_ONLY_PREPS: frozenset[str] = frozenset({
+    "aus", "bei", "mit", "nach", "seit", "von", "zu",
+})
+DATIVE_ONLY_PREP_TYPES: Dict[str, str] = {
+    "aus": "dative_prep_aus",
+    "bei": "dative_prep_bei",
+    "mit": "dative_prep_mit",
+    "nach": "dative_prep_nach",
+    "seit": "dative_prep_seit",
+    "von": "dative_prep_von",
+    "zu": "dative_prep_zu",
+}
+
+# Wechselpräpositionen (dative or accusative): one ``dative_type`` label per lemma.
+TWO_WAY_PREPS: frozenset[str] = frozenset({
+    "an", "auf", "hinter", "in", "neben", "unter", "vor", "zwischen", "über",
+})
+TWO_WAY_PREP_TYPES: Dict[str, str] = {
+    "an": "dative_prep_an",
+    "auf": "dative_prep_auf",
+    "hinter": "dative_prep_hinter",
+    "in": "dative_prep_in",
+    "neben": "dative_prep_neben",
+    "unter": "dative_prep_unter",
+    "vor": "dative_prep_vor",
+    "zwischen": "dative_prep_zwischen",
+    "über": "dative_prep_über",
+}
+
+TARGET_DATIVE_PREPS: frozenset[str] = DATIVE_ONLY_PREPS | TWO_WAY_PREPS
+TARGET_DATIVE_PREP_TYPES: Dict[str, str] = {
+    **DATIVE_ONLY_PREP_TYPES,
+    **TWO_WAY_PREP_TYPES,
+}
 
 DATIVE_TYPE_LABELS: Tuple[str, ...] = (
+    "adverbial_case_dative",
+    "comparative_case_dative",
     "core_dative_argument",
+    "dative_prep_an",
+    "dative_prep_auf",
+    "dative_prep_aus",
+    "dative_prep_bei",
+    "dative_prep_hinter",
+    "dative_prep_in",
+    "dative_prep_mit",
+    "dative_prep_nach",
+    "dative_prep_neben",
+    "dative_prep_seit",
+    "dative_prep_unter",
+    "dative_prep_von",
+    "dative_prep_vor",
+    "dative_prep_zu",
+    "dative_prep_zwischen",
+    "dative_prep_über",
     "nominal_dative_modifier",
     "oblique_dative",
     "other_dative",
-    "prepositional_dative",
+    "other_prepositional_dative",
+)
+
+# UD ``case`` comparators (GSD: ADP + KOKOM), e.g. *höher als in dem Wasser*.
+COMPARATIVE_CASE_MARKERS: frozenset[str] = frozenset({"als", "wie"})
+COMPARATIVE_CASE_DATIVE_TYPE = "comparative_case_dative"
+
+# UD ``case`` lemmas that are not prepositions (directional adverbs, …).
+ADVERBIAL_CASE_MARKERS: frozenset[str] = frozenset({
+    "abseits", "her", "hin", "hinaus", "je", "u.a.", "vorbei", "voll",
+})
+
+# Contracted ``case`` lemmas in treebanks → base preposition for classification.
+_CASE_LEMMA_TO_PREP: Dict[str, str] = {
+    "am": "an",
+    "ans": "an",
+    "aufs": "auf",
+    "beim": "bei",
+    "hinterm": "hinter",
+    "hinters": "hinter",
+    "im": "in",
+    "ins": "in",
+    "vom": "von",
+    "vorm": "vor",
+    "vors": "vor",
+    "zum": "zu",
+    "zur": "zu",
+    "überm": "über",
+    "übers": "über",
+    "unterm": "unter",
+    "unters": "unter",
+}
+
+# Locative/directional *-lich (nordwestlich, nördlich, …).
+_DIRECTIONAL_CASE_RE = re.compile(
+    r"^(?:nord|süd|ost|west|nordost|nordwest|südost|südwest)?"
+    r"(?:östlich|westlich|nördlich|südlich)$",
+    re.IGNORECASE,
 )
 
 
-def classify_dative_type(token: Dict[str, Any], prep: Optional[str]) -> str:
+def normalize_case_prep_lemma(lemma: Optional[str]) -> Optional[str]:
+    if not lemma:
+        return None
+    low = lemma.lower().strip()
+    return _CASE_LEMMA_TO_PREP.get(low, low)
+
+
+def is_comparative_case_marker(lemma: Optional[str]) -> bool:
+    if not lemma:
+        return False
+    low = normalize_case_prep_lemma(lemma) or ""
+    return low in COMPARATIVE_CASE_MARKERS
+
+
+def is_adverbial_case_marker(lemma: Optional[str]) -> bool:
+    if not lemma:
+        return False
+    low = normalize_case_prep_lemma(lemma) or ""
+    return low in ADVERBIAL_CASE_MARKERS or bool(_DIRECTIONAL_CASE_RE.match(low))
+
+
+def is_target_dative_preposition(lemma: Optional[str]) -> bool:
+    """True when ``lemma`` is one of the 16 study prepositions (after normalization)."""
+    base = normalize_case_prep_lemma(lemma)
+    return base in TARGET_DATIVE_PREPS if base else False
+
+
+def is_proper_preposition(lemma: Optional[str]) -> bool:
+    """Alias for :func:`is_target_dative_preposition` (notebook / legacy callers)."""
+    return is_target_dative_preposition(lemma)
+
+
+_COORD_CC_LEMMAS = frozenset({"und", "oder", "sowie", "beziehungsweise"})
+
+
+def _deprel_base(deprel: Any) -> str:
+    if not deprel or deprel == "_":
+        return ""
+    s = str(deprel).lower()
+    return s.split(":")[0] if ":" in s else s
+
+
+def _token_id_key(tid: Any) -> str:
+    return str(tid)
+
+
+def _coordination_partner_indices(
+    tokens: List[Dict[str, Any]], phrase_head_idx: int
+) -> Set[int]:
+    """Token indices in the same coordinated NP as *phrase_head_idx* (``conj`` / shared parent)."""
+    id_to_idx = {_token_id_key(t.get("id")): i for i, t in enumerate(tokens)}
+    partners: Set[int] = set()
+
+    def add_conj_component(idx: int) -> None:
+        cur = idx
+        seen: Set[int] = set()
+        while 0 <= cur < len(tokens) and cur not in seen:
+            seen.add(cur)
+            partners.add(cur)
+            tok = tokens[cur]
+            if _deprel_base(tok.get("deprel")) != "conj":
+                break
+            parent_id = tok.get("head")
+            if not parent_id:
+                break
+            pidx = id_to_idx.get(_token_id_key(parent_id))
+            if pidx is not None:
+                partners.add(pidx)
+            for j, t in enumerate(tokens):
+                if _deprel_base(t.get("deprel")) == "conj" and t.get("head") == parent_id:
+                    partners.add(j)
+            if pidx is None:
+                break
+            cur = pidx
+
+    add_conj_component(phrase_head_idx)
+
+    parent_id = tokens[phrase_head_idx].get("head")
+    window = 12
+    for cc_i, cc_tok in enumerate(tokens):
+        if _deprel_base(cc_tok.get("deprel")) != "cc":
+            continue
+        if (cc_tok.get("lemma") or "").lower() not in _COORD_CC_LEMMAS:
+            continue
+        if cc_i < phrase_head_idx - window or cc_i > phrase_head_idx + window:
+            continue
+        for j, t in enumerate(tokens):
+            if parent_id and t.get("head") != parent_id:
+                continue
+            if _deprel_base(t.get("deprel")) not in {"conj", "nmod"}:
+                continue
+            if j in partners:
+                continue
+            if j < cc_i < phrase_head_idx or phrase_head_idx < cc_i < j:
+                partners.add(j)
+
+    return partners
+
+
+def coordination_case_head_ids(
+    tokens: List[Dict[str, Any]],
+    span_start: int,
+    span_end: int,
+    phrase_head_idx: int,
+) -> Set[Any]:
+    """Token ids whose ``case`` dependents govern this span (incl. coordinated conjuncts)."""
+    _ = span_start, span_end
+    partners = _coordination_partner_indices(tokens, phrase_head_idx)
+    return {
+        tokens[i].get("id")
+        for i in partners
+        if 0 <= i < len(tokens) and tokens[i].get("id")
+    }
+
+
+def _case_lemmas_for_head_ids(
+    tokens: List[Dict[str, Any]], head_ids: Set[Any]
+) -> List[str]:
+    """``case``-dependent lemmas for any of the given head token ids."""
+    case_lemmas: List[str] = []
+    for tok in tokens:
+        if tok.get("head") in head_ids and tok.get("deprel") == "case":
+            lemma = tok.get("lemma")
+            if lemma:
+                case_lemmas.append(lemma)
+    return case_lemmas
+
+
+def _pick_governing_case_lemma(case_lemmas: List[str]) -> Optional[str]:
+    """Choose one ``case`` lemma from several dependents of the same NP head."""
+    if not case_lemmas:
+        return None
+
+    last_target: Optional[str] = None
+    for lemma in case_lemmas:
+        if is_target_dative_preposition(lemma):
+            last_target = lemma
+    if last_target is not None:
+        return last_target
+
+    last_non_adverbial: Optional[str] = None
+    for lemma in case_lemmas:
+        if not is_adverbial_case_marker(lemma):
+            last_non_adverbial = lemma
+    if last_non_adverbial is not None:
+        return last_non_adverbial
+
+    return case_lemmas[-1]
+
+
+def case_marker_lemma_for_head_id(
+    tokens: List[Dict[str, Any]], head_id: Any
+) -> Optional[str]:
+    """Pick the ``case`` lemma governing the NP headed by *head_id*."""
+    return _pick_governing_case_lemma(_case_lemmas_for_head_ids(tokens, {head_id}))
+
+
+def _case_marker_mit_und_list(
+    tokens: List[Dict[str, Any]], span_start: int, span_end: int
+) -> Optional[str]:
+    """``mit X und Y`` — span is *Y*; inherit ``mit`` from the left of ``und``."""
+    for cc_i, cc_tok in enumerate(tokens):
+        if (cc_tok.get("lemma") or "").lower() != "und":
+            continue
+        if _deprel_base(cc_tok.get("deprel")) != "cc":
+            continue
+        if cc_i >= span_start or span_end < cc_i:
+            continue
+        for j in range(cc_i - 1, -1, -1):
+            t = tokens[j]
+            if t.get("deprel") == "case" and t.get("upos") == "ADP":
+                prep = t.get("lemma")
+                if prep and is_target_dative_preposition(prep):
+                    return prep
+                return None
+    return None
+
+
+def _zu_marker_wegen_degree(
+    tokens: List[Dict[str, Any]], span_start: int, span_end: int
+) -> Optional[str]:
+    """``wegen zu geringer Nachfrage`` — ``zu`` is ``advmod`` on the adjective, not ``case``."""
+    span_ids = {
+        tokens[i].get("id") for i in range(span_start, span_end + 1) if tokens[i].get("id")
+    }
+    has_wegen = any(
+        t.get("lemma") == "wegen"
+        and t.get("deprel") == "case"
+        and t.get("head") in span_ids
+        for t in tokens
+    )
+    if not has_wegen:
+        return None
+    for i in range(span_start, span_end + 1):
+        head_id = tokens[i].get("id")
+        for t in tokens:
+            if t.get("lemma") != "zu":
+                continue
+            if _deprel_base(t.get("deprel")) not in ("advmod", "mark"):
+                continue
+            if t.get("head") == head_id:
+                return "zu"
+    return None
+
+
+def case_marker_lemma_for_span(
+    tokens: List[Dict[str, Any]],
+    span_start: int,
+    span_end: int,
+    *,
+    phrase_head_idx: Optional[int] = None,
+) -> Optional[str]:
+    """``case`` lemma for the NP span, including coordinated conjuncts."""
+    head_ids = {
+        tokens[i].get("id")
+        for i in range(span_start, span_end + 1)
+        if tokens[i].get("id")
+    }
+    if phrase_head_idx is not None:
+        head_ids |= coordination_case_head_ids(
+            tokens, span_start, span_end, phrase_head_idx
+        )
+    picked = _pick_governing_case_lemma(_case_lemmas_for_head_ids(tokens, head_ids))
+    if picked is not None:
+        return picked
+    return _case_marker_mit_und_list(tokens, span_start, span_end)
+
+
+def case_marker_lemma_for_head(
+    tokens: List[Dict[str, Any]], head_idx: int
+) -> Optional[str]:
+    return case_marker_lemma_for_head_id(tokens, tokens[head_idx].get("id"))
+
+
+def preposition_lemma_for_head(
+    tokens: List[Dict[str, Any]], head_idx: int
+) -> Optional[str]:
+    """Base lemma of a target preposition (None for other ``case`` markers)."""
+    case_lemma = case_marker_lemma_for_head(tokens, head_idx)
+    if not is_target_dative_preposition(case_lemma):
+        return None
+    return normalize_case_prep_lemma(case_lemma)
+
+
+def classify_dative_type(token: Dict[str, Any], case_lemma: Optional[str]) -> str:
     """Classify a dative head token (same rules as UD_German.ipynb)."""
-    if prep is not None:
-        return "prepositional_dative"
+    if case_lemma is not None:
+        if is_comparative_case_marker(case_lemma):
+            return COMPARATIVE_CASE_DATIVE_TYPE
+        if is_adverbial_case_marker(case_lemma):
+            return "adverbial_case_dative"
+        base = normalize_case_prep_lemma(case_lemma)
+        if base in TARGET_DATIVE_PREP_TYPES:
+            return TARGET_DATIVE_PREP_TYPES[base]
+        return "other_prepositional_dative"
     rel = token.get("deprel") or ""
-    if rel == "iobj":
-        return "indirect_object"
     if rel in {"obj", "obl:arg"}:
         return "core_dative_argument"
     if rel == "obl":
@@ -578,18 +1023,8 @@ def classify_dative_type(token: Dict[str, Any], prep: Optional[str]) -> str:
     return "other_dative"
 
 
-def preposition_lemma_for_head(
-    tokens: List[Dict[str, Any]], head_idx: int
-) -> Optional[str]:
-    head_id = tokens[head_idx].get("id")
-    for tok in tokens:
-        if tok.get("head") == head_id and tok.get("deprel") == "case":
-            return tok.get("lemma")
-    return None
-
-
 def load_dative_type_lookup(csv_path: str) -> Dict[DativeTypeKey, str]:
-    """Build (split, sent_id, head_lemma, head_form) → dative_type from CSV."""
+    """Build (split, sent_id, head_lemma, head_form, relation) → dative_type from CSV."""
     lookup: Dict[DativeTypeKey, str] = {}
     with open(csv_path, encoding="utf-8", newline="") as f:
         for row in csv.DictReader(f):
@@ -598,6 +1033,7 @@ def load_dative_type_lookup(csv_path: str) -> Dict[DativeTypeKey, str]:
                 row["sent_id"],
                 row["head_lemma"],
                 row["head_form"],
+                row.get("relation") or "",
             )
             lookup[key] = row["dative_type"]
     return lookup
@@ -613,7 +1049,21 @@ def dative_nominal_head_index(
     *,
     fallback_idx: int,
 ) -> int:
-    """Index of the NOUN/PROPN/PRON dative head in an NP span (matches UD_German.ipynb)."""
+    """Index of the UD phrase head inside the span (e.g. *Dezember* for *dem 31. Dezember*).
+
+    Walk up from the seed and from each span token via ``det`` / ``amod`` / … so the
+    head is the noun/proper noun that dependents attach to, even when it is tagged
+    ``Case=Nom`` in isolation (dates after *bis zum …*) or the seed is ``dem``.
+    """
+    origins = [fallback_idx] + [
+        i for i in range(span_start, span_end + 1) if i != fallback_idx
+    ]
+    for origin in origins:
+        if not 0 <= origin < len(tokens):
+            continue
+        phrase_head = walk_np_head_index(tokens, origin)
+        if span_start <= phrase_head <= span_end:
+            return phrase_head
     for i in range(span_start, span_end + 1):
         tok = tokens[i]
         feats = tok.get("feats", {}) or {}
@@ -632,17 +1082,23 @@ def resolve_dative_type(
     seed_idx: int,
     lookup: Optional[Dict[DativeTypeKey, str]] = None,
 ) -> str:
+    """Classify the dative NP span from UD structure (live; ``lookup`` ignored)."""
+    _ = lookup, split, sent_id
     head_idx = dative_nominal_head_index(
         tokens, span_start, span_end, fallback_idx=seed_idx
     )
     token = tokens[head_idx]
-    lemma = token.get("lemma", "")
-    form = token.get("form", "")
-    if lookup is not None:
-        hit = lookup.get((split, sent_id, lemma, form))
-        if hit is not None:
-            return hit
-    return classify_dative_type(token, preposition_lemma_for_head(tokens, head_idx))
+    case_lemma = case_marker_lemma_for_head(tokens, head_idx)
+    if case_lemma is None:
+        case_lemma = case_marker_lemma_for_span(
+            tokens, span_start, span_end, phrase_head_idx=head_idx
+        )
+    if case_lemma is None:
+        case_lemma = _case_marker_mit_und_list(tokens, span_start, span_end)
+    zu_wegen = _zu_marker_wegen_degree(tokens, span_start, span_end)
+    if zu_wegen is not None:
+        case_lemma = zu_wegen
+    return classify_dative_type(token, case_lemma)
 
 
 # ---------------------------------------------------------------------------
@@ -690,6 +1146,9 @@ def token_to_target_surface(
     feats: Dict[str, Any],
     case_dict: dict,
     target_case: str,
+    *,
+    tokens: Optional[List[Mapping[str, Any]]] = None,
+    token: Optional[Mapping[str, Any]] = None,
 ) -> Optional[str]:
     """Look up the *target_case* surface form for a token via the case dictionary."""
     number = feats.get("Number")
@@ -702,6 +1161,8 @@ def token_to_target_surface(
         ud_gender=gender,
         upos=upos,
         orig_form=form,
+        tokens=tokens,
+        token=token,
     )
 
 
@@ -759,19 +1220,21 @@ def dropout_reason_for_token(
         and number_matches_dictionary(number, e.get("Number"))
         and gender_matches_dictionary(gender, e.get("Gender"))
     )
-    if g_match == 0:
-        if _is_plural_number(number):
-            loose = _dict_entries_filter(
-                entries_list,
-                target_case=target_case,
-                number=number,
-                ud_gender=gender,
-                upos=upos,
-                require_gender=False,
-            )
-            if loose:
-                return f"no_{target_case}_row_matching_number_gender_upos"
+    if g_match == 0 and not _is_plural_number(number):
         return f"no_{target_case}_row_matching_number_gender"
+    if _is_plural_number(number):
+        plur = _dict_entries_filter(
+            entries_list,
+            target_case=target_case,
+            number=number,
+            ud_gender=gender,
+            upos=upos,
+            require_gender=False,
+            require_no_gender=True,
+        )
+        if not plur:
+            return f"no_{target_case}_row_matching_number_plur"
+        return f"no_{target_case}_row_matching_number_gender_upos"
     return f"no_{target_case}_row_matching_number_gender_upos"
 
 
@@ -781,15 +1244,20 @@ def first_unconverted_token(
     source_case: str,
     target_case: str,
     *,
+    span_indices: Optional[Tuple[int, ...]] = None,
     start: int = 0,
     end: Optional[int] = None,
     allow_missing_for_upos: Optional[Set[str]] = None,
 ) -> Optional[Tuple[int, str, str, str, str, str, str]]:
-    """Return info about the first *source_case* token in ``[start, end]`` that has
-    no *target_case* dictionary match, or ``None`` if every such token is convertible."""
-    if end is None:
-        end = len(tokens) - 1
-    for i in range(start, end + 1):
+    """Return info about the first *source_case* token in the span that has no
+    *target_case* dictionary match, or ``None`` if every such token is convertible."""
+    if span_indices is None:
+        if end is None:
+            end = len(tokens) - 1
+        indices: Tuple[int, ...] = tuple(range(start, end + 1))
+    else:
+        indices = span_indices
+    for i in indices:
         tok = tokens[i]
         if not is_source_case_token(tok, source_case):
             continue
@@ -830,14 +1298,12 @@ def make_group_corrupt(
     target_span_tokens)`` where *target_span_tokens* holds every converted token's
     new surface (and *changed_tokens* is the subset whose form actually changed).
     """
-    start, end = find_nominal_group_span(tokens, head_idx)
+    span_indices = find_nominal_group_indices(tokens, head_idx)
+    start, end = span_indices[0], span_indices[-1]
     base_forms = [t.get("form", "") for t in tokens]
 
     idx_to_new_form: Dict[int, str] = {}
-    # _logger.info(f"\n### Tokens in NP span: {tokens[start:end+1]}\n")
-    # _logger.info(f"\n### NP span start: {start}\n")
-    # _logger.info(f"\n### NP span end: {end}\n")
-    for idx in range(start, end + 1):
+    for idx in span_indices:
         tok = tokens[idx]
         feats = tok.get("feats", {}) or {}
         if feats.get("Case") != source_case:
@@ -845,7 +1311,16 @@ def make_group_corrupt(
         upos = tok.get("upos", "")
         lemma = tok.get("lemma", "")
         form = base_forms[idx]
-        new_form = token_to_target_surface(form, lemma, upos, feats, case_dict, target_case)
+        new_form = token_to_target_surface(
+            form,
+            lemma,
+            upos,
+            feats,
+            case_dict,
+            target_case,
+            tokens=tokens,
+            token=tok,
+        )
         if new_form is None:
             if allow_missing_for_upos and upos in allow_missing_for_upos:
                 continue
@@ -937,6 +1412,24 @@ def iter_case_conversion_pairs(
                 gold_text = tokens_to_text(tokens)
 
             span_unconverted_seen: Set[Tuple[int, int]] = set()
+            emitted_spans: List[Tuple[int, int]] = []
+
+            def _span_is_proper_subset(
+                start: int, end: int, other_start: int, other_end: int
+            ) -> bool:
+                return (
+                    other_start <= start
+                    and end <= other_end
+                    and (other_start, other_end) != (start, end)
+                )
+
+            def _span_dominated_by_emitted(start: int, end: int) -> bool:
+                for os, oe in emitted_spans:
+                    if (os, oe) == (start, end):
+                        return True
+                    if _span_is_proper_subset(start, end, os, oe):
+                        return True
+                return False
 
             # --- per-token iteration ---
             for idx, tok in enumerate(tokens):
@@ -945,6 +1438,9 @@ def iter_case_conversion_pairs(
 
                 if report is not None:
                     report.accusative_seed_tokens_seen += 1
+
+                span_indices = find_nominal_group_indices(tokens, idx)
+                group_start, group_end = span_indices[0], span_indices[-1]
 
                 (
                     corrupt_group_raw,
@@ -968,8 +1464,7 @@ def iter_case_conversion_pairs(
                         case_dict,
                         source_case,
                         target_case,
-                        start=group_start,
-                        end=group_end,
+                        span_indices=span_indices,
                         allow_missing_for_upos=allow_missing,
                     )
                     if bad is not None and span_key not in span_unconverted_seen:
@@ -995,8 +1490,8 @@ def iter_case_conversion_pairs(
                                 "seed_token_index": idx,
                                 "group_start": group_start,
                                 "group_end": group_end,
-                                "group_span_text": tokens_to_text(
-                                    tokens[group_start : group_end + 1]
+                                "group_span_text": group_span_surface_text(
+                                    gold_text, tokens, span_indices
                                 ),
                                 "first_fail_token_index": _ti,
                                 "first_fail_form": form,
@@ -1023,7 +1518,20 @@ def iter_case_conversion_pairs(
                         gold_text, corrupt_group_raw
                     )
 
-                group_span_text = tokens_to_text(tokens[group_start : group_end + 1])
+                if _span_dominated_by_emitted(group_start, group_end):
+                    if report is not None:
+                        report.group_dropped_duplicate_span_key += 1
+                        report._push_sample(
+                            report.sample_group_dedup,
+                            f"SUBSET_SPAN split={split!r} sent_id={sent_id!r} "
+                            f"seed_idx={idx} np_span=[{group_start},{group_end}] "
+                            f"preview={preview!r}",
+                        )
+                    continue
+
+                group_span_text = group_span_surface_text(
+                    gold_text, tokens, span_indices
+                )
                 gch0, gch1 = gold_char_span_for_tokens(
                     gold_text, tokens, group_start, group_end
                 )
@@ -1043,6 +1551,8 @@ def iter_case_conversion_pairs(
                         seed_idx=idx,
                         lookup=dative_type_lookup,
                     )
+
+                emitted_spans.append((group_start, group_end))
 
                 yield CaseConversionPair(
                     direction=direction_label,
@@ -1065,8 +1575,7 @@ def iter_case_conversion_pairs(
                     corrupted_tokens=changed_tokens,
                     target_span_tokens=target_span_tokens,
                     gold_span_tokens=tuple(
-                        _token_morph_snapshot(tokens[i])
-                        for i in range(group_start, group_end + 1)
+                        _token_morph_snapshot(tokens[i]) for i in span_indices
                     ),
                 )
 
@@ -1126,6 +1635,29 @@ def group_record_dedup_key(
     return (pair.split, sid, gs, ge, pair.corrupt_group)
 
 
+def write_dative_category_pair_files(
+    group_records: List[Dict[str, Any]],
+    output_dir: str,
+) -> Dict[str, int]:
+    """Write one minimal-pair JSON per :data:`DATIVE_TYPE_LABELS` entry."""
+    by_type: Dict[str, List[Dict[str, Any]]] = {
+        label: [] for label in DATIVE_TYPE_LABELS
+    }
+    for record in group_records:
+        dt = record.get("dative_type")
+        if dt in by_type:
+            by_type[dt].append(record)
+
+    os.makedirs(output_dir, exist_ok=True)
+    counts: Dict[str, int] = {}
+    for label in DATIVE_TYPE_LABELS:
+        path = os.path.join(output_dir, f"{label}.json")
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(by_type[label], f, ensure_ascii=False, indent=2)
+        counts[label] = len(by_type[label])
+    return counts
+
+
 def run_pair_generation_main(
     *,
     ud_base_path: str,
@@ -1141,6 +1673,7 @@ def run_pair_generation_main(
     dative_types_csv_path: Optional[str] = None,
     duplicates_dict_csv_path: Optional[str] = None,
     output_group_duplicates_json: Optional[str] = None,
+    output_dative_categories_dir: Optional[str] = None,
 ) -> SpanEliminationReport:
     """Shared main-loop: load data → iterate pairs → deduplicate → write JSON.
 
@@ -1153,9 +1686,13 @@ def run_pair_generation_main(
     When *output_group_duplicates_json* is set, pairs where some token in the NP span
     (gold or corrupted) has multiple forms in the main lookup dictionary are also
     written there with ``gold_span_duplicate_forms`` listing those surfaces.
+
+    For Dat→Acc runs with dative typing, minimal pairs are also split into one JSON
+    per :data:`DATIVE_TYPE_LABELS` label under *output_dative_categories_dir*
+    (default: ``<parent of output_group_json>/dative_categories``).
     """
     from load_ud_dataset import load_ud_dataset, UD_GERMAN_GSD_SPLITS
-    from german_ud_cases_load import load_case_dictionary
+    from german_ud_lookup_dict_load import load_case_dictionary
 
     lvl_name = log_level.strip().upper() or "INFO"
     try:
@@ -1175,6 +1712,7 @@ def run_pair_generation_main(
     if not os.path.exists(dict_csv_path):
         raise FileNotFoundError(f"Case dictionary required: {dict_csv_path}")
     case_dict = load_case_dictionary(dict_csv_path)
+    attach_preferred_forms(case_dict)
 
     dative_type_lookup: Optional[Dict[DativeTypeKey, str]] = None
     if dative_types_csv_path:
@@ -1266,6 +1804,20 @@ def run_pair_generation_main(
             f"pairs with multi-form lookup entries to: "
             f"{output_group_duplicates_json}"
         )
+
+    if source_case == "Dat" and dative_type_lookup is not None:
+        categories_dir = output_dative_categories_dir
+        if categories_dir is None:
+            categories_dir = os.path.join(parent or ".", "dative_categories")
+        category_counts = write_dative_category_pair_files(
+            group_records, categories_dir
+        )
+        written = sum(category_counts.values())
+        print(
+            f"✅ Wrote {written} Dat→Acc minimal pairs across "
+            f"{len(DATIVE_TYPE_LABELS)} dative_type files under: {categories_dir}"
+        )
+
     if dative_type_counts:
         total_dt = sum(dative_type_counts.values())
         print(f"--- dative_type counts in corrupted testset ({total_dt} spans) ---")
