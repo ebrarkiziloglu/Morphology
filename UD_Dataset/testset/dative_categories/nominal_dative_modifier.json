@@ -1,0 +1,612 @@
+[
+  {
+    "split": "train",
+    "sent_id": "train-s49",
+    "group_start": 7,
+    "group_end": 8,
+    "group_span_text": "aller Herren",
+    "gold_text": "Ich war schon in vielen Cafés in aller Herren Länder, aber mit diesen herrlichen Torten und Kuchen muss sich das Café am Rosengarten vor keinem davon verstecken.",
+    "corrupted": "Ich war schon in vielen Cafés in alle Herren Länder, aber mit diesen herrlichen Torten und Kuchen muss sich das Café am Rosengarten vor keinem davon verstecken.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s67",
+    "group_start": 12,
+    "group_end": 12,
+    "group_span_text": "mir",
+    "gold_text": "Wie sich so eine Unterkunft als 3 Sterne Unterkunft bezeichnen darf ist mir ein Rätsel.",
+    "corrupted": "Wie sich so eine Unterkunft als 3 Sterne Unterkunft bezeichnen darf ist mich ein Rätsel.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s140",
+    "group_start": 13,
+    "group_end": 13,
+    "group_span_text": "allen",
+    "gold_text": "Allen bekannt, die nicht nur das tragen was andere kaufen, ist allen voran NOA NOA.",
+    "corrupted": "Allen bekannt, die nicht nur das tragen was andere kaufen, ist alle voran NOA NOA.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s847",
+    "group_start": 8,
+    "group_end": 9,
+    "group_span_text": "der Veröffentlichung",
+    "gold_text": "Es ist wirklich ein Geheimtipp; natürlich seit der Veröffentlichung in Google Earth weniger.",
+    "corrupted": "Es ist wirklich ein Geheimtipp; natürlich seit die Veröffentlichung in Google Earth weniger.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s959",
+    "group_start": 7,
+    "group_end": 7,
+    "group_span_text": "der",
+    "gold_text": "Ich hatte jahrelang das Gefühl, bei der VGH auf der sicheren Seite zu sein.",
+    "corrupted": "Ich hatte jahrelang das Gefühl, bei die VGH auf der sicheren Seite zu sein.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s1404",
+    "group_start": 8,
+    "group_end": 8,
+    "group_span_text": "der",
+    "gold_text": "Ich - als ahnungslose Frau - war von der der Beratung und das Angebot sehr zufrieden!!",
+    "corrupted": "Ich - als ahnungslose Frau - war von die der Beratung und das Angebot sehr zufrieden!!",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s1561",
+    "group_start": 12,
+    "group_end": 16,
+    "group_span_text": "denen der Automobil - Hersteller",
+    "gold_text": "Die Anleger reagierten mit Verkäufen vor allem von exportabhängigen Werten wie etwa denen der Automobil-Hersteller.",
+    "corrupted": "Die Anleger reagierten mit Verkäufen vor allem von exportabhängigen Werten wie etwa die der Automobil-Hersteller.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2367",
+    "group_start": 19,
+    "group_end": 27,
+    "group_span_text": "der Church of St James, der heutigen Kathedrale",
+    "gold_text": "Norman Gate datiert von 1120 bis 1148 und war der Zugang zur Klosterkirche und ist noch der Glockenturm der Church of St James, der heutigen Kathedrale.",
+    "corrupted": "Norman Gate datiert von 1120 bis 1148 und war der Zugang zur Klosterkirche und ist noch der Glockenturm der Church of St James, die heutige Kathedrale.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2422",
+    "group_start": 2,
+    "group_end": 2,
+    "group_span_text": "mir",
+    "gold_text": "Es ist mir ein Bedürfnis, von meiner Stelle aus bei dieser Gelegenheit Dank und Anerkennung für die in 4 ½ - jähriger Kriegszeit dem Feldheere geleisteten Dienste auszusprechen.",
+    "corrupted": "Es ist mich ein Bedürfnis, von meiner Stelle aus bei dieser Gelegenheit Dank und Anerkennung für die in 4 ½ - jähriger Kriegszeit dem Feldheere geleisteten Dienste auszusprechen.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2590",
+    "group_start": 15,
+    "group_end": 16,
+    "group_span_text": "nördlicher Breite",
+    "gold_text": "Das Einzugsgebiet erstreckt sich etwa von 36 ° 00 'bis 36 ° 30' nördlicher Breite und von 32 ° 30 'bis 33 ° 00' östlicher Länge, insgesamt mehr als 200 Quadratkilometer.",
+    "corrupted": "Das Einzugsgebiet erstreckt sich etwa von 36 ° 00 'bis 36 ° 30' nördliche Breite und von 32 ° 30 'bis 33 ° 00' östlicher Länge, insgesamt mehr als 200 Quadratkilometer.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2748",
+    "group_start": 10,
+    "group_end": 11,
+    "group_span_text": "der Lage",
+    "gold_text": "Deren Partys liefen so gut, dass jede Organisation in der Lage war, eigene Platten zu produzieren und pressen zu lassen.",
+    "corrupted": "Deren Partys liefen so gut, dass jede Organisation in die Lage war, eigene Platten zu produzieren und pressen zu lassen.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2803",
+    "group_start": 10,
+    "group_end": 12,
+    "group_span_text": "der 1930er Jahren",
+    "gold_text": "Das Unternehmen stellt offene Fahrzeuge her, die optisch Fahrzeugen der 1930er Jahren ähneln.",
+    "corrupted": "Das Unternehmen stellt offene Fahrzeuge her, die optisch Fahrzeugen die 1930er Jahre ähneln.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3296",
+    "group_start": 19,
+    "group_end": 20,
+    "group_span_text": "der Öffentlichkeit",
+    "gold_text": "Beispielsweise wird im Film -- wie dann auch im realen Leben -- über ein privates Unglück das der Öffentlichkeit vergessen.",
+    "corrupted": "Beispielsweise wird im Film -- wie dann auch im realen Leben -- über ein privates Unglück das die Öffentlichkeit vergessen.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3533",
+    "group_start": 9,
+    "group_end": 9,
+    "group_span_text": "dem",
+    "gold_text": "Auch wenn der Name Reinickendorfs auf seinen Gründer, dem niedersächsische Bauer Reinhardt, zurückgeht, so versteht sich das Wappen mit dem Motiv des \"Reinecke Fuchs\" als redendes Wappen.",
+    "corrupted": "Auch wenn der Name Reinickendorfs auf seinen Gründer, den niedersächsische Bauer Reinhardt, zurückgeht, so versteht sich das Wappen mit dem Motiv des \"Reinecke Fuchs\" als redendes Wappen.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3880",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "lokaler Sponsoren",
+    "gold_text": "Dabei können auch Logos lokaler Sponsoren wechseln.",
+    "corrupted": "Dabei können auch Logos lokale Sponsoren wechseln.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4102",
+    "group_start": 7,
+    "group_end": 17,
+    "group_span_text": "des HK Traktor Tscheljabinsk, einem der Eishockeyklubs seiner Geburtsstadt Tscheljabinsk",
+    "gold_text": "Kopot erlernte das Eishockeyspielen in der Nachwuchsabteilung des HK Traktor Tscheljabinsk, einem der Eishockeyklubs seiner Geburtsstadt Tscheljabinsk am Ural.",
+    "corrupted": "Kopot erlernte das Eishockeyspielen in der Nachwuchsabteilung des HK Traktor Tscheljabinsk, einen der Eishockeyklubs seiner Geburtsstadt Tscheljabinsk am Ural.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4270",
+    "group_start": 15,
+    "group_end": 16,
+    "group_span_text": "1,50 Metern",
+    "gold_text": "Über einem Steinmosaik in Form einer Windrose ist auf einer 2,70 Meter hohen Säule mit 1,50 Metern Durchmesser ein dreigeteilter Zylinder angebracht, dessen Grundfläche 24 Ecken und Seiten aufweist.",
+    "corrupted": "Über einem Steinmosaik in Form einer Windrose ist auf einer 2,70 Meter hohen Säule mit 1,50 Meter Durchmesser ein dreigeteilter Zylinder angebracht, dessen Grundfläche 24 Ecken und Seiten aufweist.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4331",
+    "group_start": 14,
+    "group_end": 14,
+    "group_span_text": "den",
+    "gold_text": "So finden sich Brutvorkommen auch auf Island, den Färöern, den Shetlandinseln, den Orkneys und den Hebriden sowie auf dem Festland Norwegens, Schwedens und Finnlands.",
+    "corrupted": "So finden sich Brutvorkommen auch auf Island, den Färöern, den Shetlandinseln, die Orkneys und den Hebriden sowie auf dem Festland Norwegens, Schwedens und Finnlands.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4565",
+    "group_start": 2,
+    "group_end": 12,
+    "group_span_text": "der mittlerweile wieder aufgehobenen \" Lex Balaguer \", einer Verfassungsänderung",
+    "gold_text": "Als Folge der mittlerweile wieder aufgehobenen \"Lex Balaguer\", einer Verfassungsänderung, die dem Präsidenten eine direkte Wiederwahl verbietet, trat dieser 2000 nicht zur Präsidentenwahl an, die Hipólito Mejía -- abermals gegen Balaguer, der im Alter von 93 Jahren zum letzten Mal kandidierte -- gewann.",
+    "corrupted": "Als Folge der mittlerweile wieder aufgehobenen \" Lex Balaguer \", eine Verfassungsänderung, die dem Präsidenten eine direkte Wiederwahl verbietet, trat dieser 2000 nicht zur Präsidentenwahl an, die Hipólito Mejía -- abermals gegen Balaguer, der im Alter von 93 Jahren zum letzten Mal kandidierte -- gewann.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4976",
+    "group_start": 11,
+    "group_end": 12,
+    "group_span_text": "28 Jahren",
+    "gold_text": "Im Sommer 2003 stellte Lotus die Produktion des Esprit nach 28 Jahren Bauzeit und rund 10.500 gebauten Exemplaren ein.",
+    "corrupted": "Im Sommer 2003 stellte Lotus die Produktion des Esprit nach 28 Jahre Bauzeit und rund 10.500 gebauten Exemplaren ein.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4978",
+    "group_start": 12,
+    "group_end": 13,
+    "group_span_text": "25 Jahren",
+    "gold_text": "Der Kommandant der Blue Boys, Colonel Abraham Curtis, hat nach 25 Jahren Alienjagd keine moralischen Skrupel mehr und erklärt das gesamte Gebiet zum militärischen Sperrgebiet.",
+    "corrupted": "Der Kommandant der Blue Boys, Colonel Abraham Curtis, hat nach 25 Jahre Alienjagd keine moralischen Skrupel mehr und erklärt das gesamte Gebiet zum militärischen Sperrgebiet.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5051",
+    "group_start": 7,
+    "group_end": 9,
+    "group_span_text": "Kaiser Karls IV",
+    "gold_text": "Er versah wichtige Ämter am Hofe Kaiser Karls IV, war Marschall der Königin von Böhmen, dann königlich böhmischer Landeshauptmann des Vogtlandes, residierte auf der Burg Mylau und war mit Anna von Seeberg verehelicht.",
+    "corrupted": "Er versah wichtige Ämter am Hofe Kaiser Karl IV, war Marschall der Königin von Böhmen, dann königlich böhmischer Landeshauptmann des Vogtlandes, residierte auf der Burg Mylau und war mit Anna von Seeberg verehelicht.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5084",
+    "group_start": 10,
+    "group_end": 11,
+    "group_span_text": "einer Nation",
+    "gold_text": "Mehr noch: Oft spiegelt die, irrationale Traumarbeit 'einer Nation ihren tatsächlichen Zustand wahrheitsgetreuer wider als ihr' Ich '-- ihre offiziellen Verkündigungen oder diplomatischen Erklärungen.",
+    "corrupted": "Mehr noch: Oft spiegelt die, irrationale Traumarbeit 'eine Nation ihren tatsächlichen Zustand wahrheitsgetreuer wider als ihr' Ich '-- ihre offiziellen Verkündigungen oder diplomatischen Erklärungen.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5346",
+    "group_start": 21,
+    "group_end": 22,
+    "group_span_text": "der Schweiz",
+    "gold_text": "Der Valsoreygletscher (französisch Glacier de Valsorey) ist ein Talgletscher in den südwestlichen Walliser Alpen, im Kanton Wallis der Schweiz.",
+    "corrupted": "Der Valsoreygletscher (französisch Glacier de Valsorey) ist ein Talgletscher in den südwestlichen Walliser Alpen, im Kanton Wallis die Schweiz.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5494",
+    "group_start": 15,
+    "group_end": 20,
+    "group_span_text": "der \" Schöpferin \" allen Lebens",
+    "gold_text": "Aber auch nach seinem Tod dient Rahl dem Hüter der Unterwelt, dem erbitterten Gegner der \"Schöpferin\" allen Lebens, die als Göttin verehrt wird.",
+    "corrupted": "Aber auch nach seinem Tod dient Rahl dem Hüter der Unterwelt, dem erbitterten Gegner die \"Schöpferin\" allen Lebens, die als Göttin verehrt wird.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5750",
+    "group_start": 3,
+    "group_end": 3,
+    "group_span_text": "der",
+    "gold_text": "Sudowol, in der Upper River Region, Distrikt Kantora, liegt am südlichen Ufer des Gambia - Flusses an der South Bank Road zwischen Basse Santa Su und Fatoto.",
+    "corrupted": "Sudowol, in die Upper River Region, Distrikt Kantora, liegt am südlichen Ufer des Gambia - Flusses an der South Bank Road zwischen Basse Santa Su und Fatoto.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5794",
+    "group_start": 28,
+    "group_end": 30,
+    "group_span_text": "einem schmalen Streifen",
+    "gold_text": "Sie war eine der langlebigsten Herrschaften, da sie bis zum endgültigen Zusammenbruch des Königreichs von Jerusalem 1291 bestand, obwohl oder gerade weil sie nur aus einem schmalen Streifen Mittelmeerküste rund um Beirut bestand.",
+    "corrupted": "Sie war eine der langlebigsten Herrschaften, da sie bis zum endgültigen Zusammenbruch des Königreichs von Jerusalem 1291 bestand, obwohl oder gerade weil sie nur aus ein schmalen Streifen Mittelmeerküste rund um Beirut bestand.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5828",
+    "group_start": 6,
+    "group_end": 8,
+    "group_span_text": "der 1970er Jahren",
+    "gold_text": "Die Männerbewegung in Westdeutschland entstand Mitte der 1970er Jahren in der studentischen Sponti - Szene.",
+    "corrupted": "Die Männerbewegung in Westdeutschland entstand Mitte die 1970er Jahre in der studentischen Sponti - Szene.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5851",
+    "group_start": 8,
+    "group_end": 9,
+    "group_span_text": "zehn Jahren",
+    "gold_text": "GISP lief über eine Dauer von mehr als zehn Jahren.",
+    "corrupted": "GISP lief über eine Dauer von mehr als zehn Jahre.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5969",
+    "group_start": 5,
+    "group_end": 7,
+    "group_span_text": "der 1940er Jahren",
+    "gold_text": "Der DS 7 wurde Ende der 1940er Jahren von der Karosseriebaufirma Hermann Spohn in Ravensburg zur Limousine umgebaut und nach dem Zweiten Weltkrieg von den Franzosen beschlagnahmt.",
+    "corrupted": "Der DS 7 wurde Ende die 1940er Jahre von der Karosseriebaufirma Hermann Spohn in Ravensburg zur Limousine umgebaut und nach dem Zweiten Weltkrieg von den Franzosen beschlagnahmt.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6415",
+    "group_start": 18,
+    "group_end": 22,
+    "group_span_text": "seiner fünf Profi - Turniersiege",
+    "gold_text": "Er war in erster Linie ein Sandplatzspieler, was unter anderem darin deutlich wird, dass er vier seiner fünf Profi - Turniersiege auf diesem Belag errang.",
+    "corrupted": "Er war in erster Linie ein Sandplatzspieler, was unter anderem darin deutlich wird, dass er vier seiner fünf Profis - Turniersiege auf diesem Belag errang.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6502",
+    "group_start": 17,
+    "group_end": 20,
+    "group_span_text": "der Hälfte der Wahlberechtigten",
+    "gold_text": "Diese scheiterte mit einer Beteiligung von weniger als 10 %, weit unter der mindestens nötigen Teilnahme der Hälfte der Wahlberechtigten.",
+    "corrupted": "Diese scheiterte mit einer Beteiligung von weniger als 10 %, weit unter der mindestens nötigen Teilnahme die Hälfte der Wahlberechtigten.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6517",
+    "group_start": 23,
+    "group_end": 26,
+    "group_span_text": "dem Präsidenten der Audiencia",
+    "gold_text": "So war beispielsweise der Gouverneur von Santiago de Cuba militärisch dem Generalkapitän von Havanna unterstellt, in seiner Funktion als Justicia Mayor dagegen dem Präsidenten der Audiencia in Santo Domingo auf Hispaniola",
+    "corrupted": "So war beispielsweise der Gouverneur von Santiago de Cuba militärisch dem Generalkapitän von Havanna unterstellt, in seiner Funktion als Justicia Mayor dagegen den Präsidenten der Audiencia in Santo Domingo auf Hispaniola",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6701",
+    "group_start": 15,
+    "group_end": 16,
+    "group_span_text": "seinem Nachfolger",
+    "gold_text": "Nachdem Helena 1458 gestorben war, schien es, Johann wolle Jakob statt Charlotte zu seinem Nachfolger ernennen.",
+    "corrupted": "Nachdem Helena 1458 gestorben war, schien es, Johann wolle Jakob statt Charlotte zu seinen Nachfolger ernennen.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6770",
+    "group_start": 8,
+    "group_end": 8,
+    "group_span_text": "dem",
+    "gold_text": "Im Jahr 856 gab es bereits auf dem die Hafenstadt prägenden Felsen hölzerne Fortanlagen, da sie nach einem Bericht der erste schottische König Kenneth I. niederbrennen ließ.",
+    "corrupted": "Im Jahr 856 gab es bereits aufs die Hafenstadt prägenden Felsen hölzerne Fortanlagen, da sie nach einem Bericht der erste schottische König Kenneth I. niederbrennen ließ.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8570",
+    "group_start": 53,
+    "group_end": 56,
+    "group_span_text": "des Ostens ( PDS",
+    "gold_text": "Gegründet wurde die Bahamas 1992 in Hamburg durch die damals von der Minderheitsfraktion des aufgelösten Kommunistischen Bundes (KB) gebildete Gruppe K. Sie war hervorgegangen aus den 1990 im KB geführten Auseinandersetzungen um das Verhalten zur sich abzeichnenden Wiedervereinigung Deutschlands: Während die Mehrheitsströmung auf ein Zusammengehen mit der Linken des Ostens (PDS) und eine Ausrichtung auf die von ihr erwartete soziale Opposition gegen die Folgen der Wiederherstellung des Kapitalismus setzte, sah die Minderheit angesichts der angeblichen Marginalisierung der Linken eine radikale Opposition gegen die deutsche Einheit, den neuen Nationalismus, das Wiedererstarken von Rassismus, Antisemitismus und Geschichtsrevisionismus und das neue deutsche Großmachtstreben als geboten an.",
+    "corrupted": "Gegründet wurde die Bahamas 1992 in Hamburg durch die damals von der Minderheitsfraktion des aufgelösten Kommunistischen Bundes ( KB) gebildete Gruppe K. Sie war hervorgegangen aus den 1990 im KB geführten Auseinandersetzungen um das Verhalten zur sich abzeichnenden Wiedervereinigung Deutschlands: Während die Mehrheitsströmung auf ein Zusammengehen mit der Linken des Ostens ( PDS) und eine Ausrichtung auf die von ihr erwartete soziale Opposition gegen die Folgen der Wiederherstellung des Kapitalismus setzte, sah die Minderheit angesichts der angeblichen Marginalisierung der Linken eine radikale Opposition gegen die deutsche Einheit, den neuen Nationalismus, das Wiedererstarken von Rassismus, Antisemitismus und Geschichtsrevisionismus und das neue deutsche Großmachtstreben als geboten an.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9345",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "12 Metern",
+    "gold_text": "Sechs Wasserräder von jeweils 12 Metern Durchmesser und 4 Metern Breite trieben die Pumpen an, die in der Lage waren, 18.000 bis 20.000 Kubikmeter Wasser pro Tag aus der Seine bergauf zu pumpen.",
+    "corrupted": "Sechs Wasserräder von jeweils 12 Meter Durchmesser und 4 Metern Breite trieben die Pumpen an, die in der Lage waren, 18.000 bis 20.000 Kubikmeter Wasser pro Tag aus der Seine bergauf zu pumpen.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9896",
+    "group_start": 2,
+    "group_end": 3,
+    "group_span_text": "drei Monaten",
+    "gold_text": "Nach nur drei Monaten Lehrzeit wurde die einzige Frau in der etwa zehnköpfigen Redaktion ausgewählt, um vom Nürnberger Prozess gegen die Hauptkriegsverbrecher zu berichten.",
+    "corrupted": "Nach nur drei Monate Lehrzeit wurde die einzige Frau in der etwa zehnköpfigen Redaktion ausgewählt, um vom Nürnberger Prozess gegen die Hauptkriegsverbrecher zu berichten.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10012",
+    "group_start": 18,
+    "group_end": 18,
+    "group_span_text": "den",
+    "gold_text": "Im Jahr darauf (1971) erschien die umfangreiche Erstveröffentlichung des Ökumenischen Verzeichnisses der biblischen Eigennamen nach den Loccumer Richtlinien (ÖVBE).",
+    "corrupted": "Im Jahr darauf (1971) erschien die umfangreiche Erstveröffentlichung des Ökumenischen Verzeichnisses der biblischen Eigennamen nach die Loccumer Richtlinien (ÖVBE).",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10056",
+    "group_start": 18,
+    "group_end": 18,
+    "group_span_text": "dem",
+    "gold_text": "Steinstatuen aus Raivavae befinden sich heute im Bernice P. Bishop Museum, Honolulu, Hawaii, im Musée de Tahiti et des Îles bei Papeete und im Pitt Rivers Museum, Oxford.",
+    "corrupted": "Steinstatuen aus Raivavae befinden sich heute im Bernice P. Bishop Museum, Honolulu, Hawaii, ins Musée de Tahiti et des Îles bei Papeete und im Pitt Rivers Museum, Oxford.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10581",
+    "group_start": 8,
+    "group_end": 8,
+    "group_span_text": "der",
+    "gold_text": "Verwaltet wird das Projekt von Tarus Balog, der OpenNMS Group und \"The Order of the Green Polo\".",
+    "corrupted": "Verwaltet wird das Projekt von Tarus Balog, den OpenNMS Group und \"The Order of the Green Polo\".",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10717",
+    "group_start": 18,
+    "group_end": 19,
+    "group_span_text": "fünf Jahren",
+    "gold_text": "Karpis 'schwangere Frau Dolores Delaney und Campbells' Frau Wynona Burdette wurden dort festgenommen und später zu fünf Jahren Gefängnis für das Beherbergen von Flüchtlingen verurteilt.",
+    "corrupted": "Karpis 'schwangere Frau Dolores Delaney und Campbells' Frau Wynona Burdette wurden dort festgenommen und später zu fünf Jahre Gefängnis für das Beherbergen von Flüchtlingen verurteilt.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10784",
+    "group_start": 7,
+    "group_end": 11,
+    "group_span_text": "einer Filiale der Sowjetischen Eisenbahnen",
+    "gold_text": "Somit wurde die Oktjabrskaja schelesnaja doroga zu einer Filiale der Sowjetischen Eisenbahnen.",
+    "corrupted": "Somit wurde die Oktjabrskaja schelesnaja doroga zu eine Filiale der Sowjetischen Eisenbahnen.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10848",
+    "group_start": 10,
+    "group_end": 10,
+    "group_span_text": "dem",
+    "gold_text": "In einem Nebengebäude wurde Anselm Schott 1843 geboren, im heute \"Anselm - Schott - Haus\" genannten Gebäude.",
+    "corrupted": "In einem Nebengebäude wurde Anselm Schott 1843 geboren, ins heute \"Anselm - Schott - Haus\" genannten Gebäude.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10868",
+    "group_start": 3,
+    "group_end": 3,
+    "group_span_text": "ihm",
+    "gold_text": "Das Mittelalter galt ihm als Ideal.",
+    "corrupted": "Das Mittelalter galt ihn als Ideal.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11288",
+    "group_start": 14,
+    "group_end": 15,
+    "group_span_text": "drei Längen",
+    "gold_text": "Er gewann 1975 den» Prix de l'Arc de Triomphe «überlegen mit drei Längen Vorsprung als bislang größter Außenseiter (Siegquote 1197:10).",
+    "corrupted": "Er gewann 1975 den» Prix de l'Arc de Triomphe «überlegen mit drei Länge Vorsprung als bislang größter Außenseiter (Siegquote 1197:10).",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11526",
+    "group_start": 23,
+    "group_end": 24,
+    "group_span_text": "einem Kilometer",
+    "gold_text": "Der Mühlbach, ein in 135 Metern über NN entstehender Zusammenfluss mehrerer auf dem Lohrberg in Seckbach entspringender Quellen, mündet nach etwa einem Kilometer überwiegend verrohrtem Bachlauf in das Seckbacher Ried und sorgt dort für die nötige Feuchte des Areals.",
+    "corrupted": "Der Mühlbach, ein in 135 Metern über NN entstehender Zusammenfluss mehrerer auf dem Lohrberg in Seckbach entspringender Quellen, mündet nach etwa einen Kilometer überwiegend verrohrtem Bachlauf in das Seckbacher Ried und sorgt dort für die nötige Feuchte des Areals.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11752",
+    "group_start": 18,
+    "group_end": 19,
+    "group_span_text": "einem Jahr",
+    "gold_text": "Aufgrund der oft chaotischen politischen Lage lag bei vielen Päpsten eine längere Zeitspanne, bis zu mehr als einem Jahr, zwischen Wahl und Inthronisation.",
+    "corrupted": "Aufgrund der oft chaotischen politischen Lage lag bei vielen Päpsten eine längere Zeitspanne, bis zu mehr als ein Jahr, zwischen Wahl und Inthronisation.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11917",
+    "group_start": 18,
+    "group_end": 18,
+    "group_span_text": "der",
+    "gold_text": "Die Domäne gehörte zu jener Zeit, in die auch die Wurzeln des heutigen Schloss Talcy zurückreichen, der aus Beaugency stammenden Familie St. Lazare.",
+    "corrupted": "Die Domäne gehörte zu jener Zeit, in die auch die Wurzeln des heutigen Schloss Talcy zurückreichen, die aus Beaugency stammenden Familie St. Lazare.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12914",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "der Aktualität",
+    "gold_text": "Um der Aktualität Willen ist das aber nicht zwingend vorgeschrieben.",
+    "corrupted": "Um die Aktualität Willen ist das aber nicht zwingend vorgeschrieben.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13056",
+    "group_start": 14,
+    "group_end": 15,
+    "group_span_text": "nördlicher Breite",
+    "gold_text": "Charlotte, das Zentrum der Waterford Township, liegt auf 41 ° 57'36 \"nördlicher Breite und 90 ° 27'54\" westlicher Länge und erstreckt sich über 1,49 km².",
+    "corrupted": "Charlotte, das Zentrum der Waterford Township, liegt auf 41 ° 57'36 \"nördliche Breite und 90 ° 27'54\" westlicher Länge und erstreckt sich über 1,49 km².",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13063",
+    "group_start": 10,
+    "group_end": 11,
+    "group_span_text": "vielen Millionen",
+    "gold_text": "Der Photoschutz - Mechanismus der DNA hat sich bereits vor vielen Millionen Jahren evolutionär entwickelt.",
+    "corrupted": "Der Photoschutz - Mechanismus der DNA hat sich bereits vor viele Millionen Jahren evolutionär entwickelt.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13131",
+    "group_start": 6,
+    "group_end": 16,
+    "group_span_text": "des Georg Friedrich Laemmlin, eines knapp 27 Wochen alten Knaben",
+    "gold_text": "Ebenfalls dort befindet sich der Grabstein des Georg Friedrich Laemmlin, eines knapp 27 Wochen alten Knaben, der als letzter Nachkömmling der Familie im Jahr 1605 starb.",
+    "corrupted": "Ebenfalls dort befindet sich der Grabstein des Georg Friedrich Laemmlin, einen knapp 27 Wochen ältere Knaben, der als letzter Nachkömmling der Familie im Jahr 1605 starb.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13132",
+    "group_start": 12,
+    "group_end": 13,
+    "group_span_text": "weißem Bier",
+    "gold_text": "Er braute von März 1852 bis Dezember 1854 49 Schäffel Malz zu weißem Bier, 136 Schäffel zu braunem Sommerbier und 56 Schäffel zu braunem Winterbier.",
+    "corrupted": "Er braute von März 1852 bis Dezember 1854 49 Schäffel Malz zu weißen Bier, 136 Schäffel zu braunem Sommerbier und 56 Schäffel zu braunem Winterbier.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13179",
+    "group_start": 20,
+    "group_end": 20,
+    "group_span_text": "der",
+    "gold_text": "Die Nordgrenze zu den Germanen, etwa im Bereich der deutschen Mittelgebirge, ist nicht sicher bestimmt, südlich der Alpen bis in die Po - Ebene.",
+    "corrupted": "Die Nordgrenze zu den Germanen, etwa im Bereich der deutschen Mittelgebirge, ist nicht sicher bestimmt, südlich die Alpen bis in die Po - Ebene.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13394",
+    "group_start": 12,
+    "group_end": 14,
+    "group_span_text": "ihren vier Jahren",
+    "gold_text": "In der ewigen Tabelle der Bundesliga belegt die SG Wattenscheid 09 mit ihren vier Jahren Zugehörigkeit Rang 34.",
+    "corrupted": "In der ewigen Tabelle der Bundesliga belegt die SG Wattenscheid 09 mit ihre vier Jahre Zugehörigkeit Rang 34.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13678",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "der Vergangenheit",
+    "gold_text": "Stalinismus und die SPÖ der Vergangenheit hatten mit Sozialismus nichts zu tun.\"",
+    "corrupted": "Stalinismus und die SPÖ die Vergangenheit hatten mit Sozialismus nichts zu tun.\"",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13988",
+    "group_start": 27,
+    "group_end": 27,
+    "group_span_text": "dem",
+    "gold_text": "Als Prinzessin Helene Luise Elisabeth von Mecklenburg - Schwerin auf dem Weg nach Fontainebleau zu ihrem Verlobten, dem französischen Thronfolger Herzog Ferdinand von Orléans, am 25.",
+    "corrupted": "Als Prinzessin Helene Luise Elisabeth von Mecklenburg - Schwerin auf dem Weg nach Fontainebleau zu ihrem Verlobten, dem französischen Thronfolger Herzog Ferdinand von Orléans, an den 25.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s14001",
+    "group_start": 17,
+    "group_end": 17,
+    "group_span_text": "dem",
+    "gold_text": "So hatten sich beispielsweise schon um 1628 schottische Siedler, angezogen von den reichen Fischgründen, im französisch beanspruchten Gebiet Akadiens, dem heutigen New Brunswick, niedergelassen.",
+    "corrupted": "So hatten sich beispielsweise schon um 1628 schottische Siedler, angezogen von den reichen Fischgründen, ins französisch beanspruchten Gebiet Akadiens, dem heutigen New Brunswick, niedergelassen.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s279",
+    "group_start": 6,
+    "group_end": 6,
+    "group_span_text": "mir",
+    "gold_text": "Warum die wieder aufmachen durften ist mir ein Rätsel!",
+    "corrupted": "Warum die wieder aufmachen durften ist mich ein Rätsel!",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s935",
+    "group_start": 18,
+    "group_end": 25,
+    "group_span_text": "der Wehrdienstzeit des jungen Berger ( Christoph Dostal",
+    "gold_text": "Ebenfalls aus Österreich eine Überraschung: Ich gelobe von Wolfgang Murnberger, auf den ersten Blick die Chronik der Wehrdienstzeit des jungen Berger (Christoph Dostal), in Wahrheit das vielschichtige Psychogramm eines Menschen auf der Schwelle zum Leben als Erwachsener, eine hoch literarische und zugleich durch und durch filmische Musil-Paraphrase, lyrisch, wagemutig, überzeugend.",
+    "corrupted": "Ebenfalls aus Österreich eine Überraschung: Ich gelobe von Wolfgang Murnberger, auf den ersten Blick die Chronik die Wehrdienstzeit des jungen Berger ( Christoph Dostal), in Wahrheit das vielschichtige Psychogramm eines Menschen auf der Schwelle zum Leben als Erwachsener, eine hoch literarische und zugleich durch und durch filmische Musil - Paraphrase, lyrisch, wagemutig, überzeugend.",
+    "dative_type": "nominal_dative_modifier"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "split": "train",
+    "sent_id": "train-s610",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "der Uni",
+    "gold_text": "Liegt quasi direkt neben der Uni.",
+    "corrupted": "Liegt quasi direkt neben die Uni.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s1087",
+    "group_start": 14,
+    "group_end": 18,
+    "group_span_text": "einem netten Praxis - Team",
+    "gold_text": "Der erste Eindruck setzte sich fort, denn neben der modern eingerichteten Praxis und einem netten Praxis-Team lernte ich Dr. Kämpgen als sehr freundlichen und kompetenten Zahnarzt kennen, der gleichzeitig einen ausgeglichenen Eindruck macht und nicht gestresst wirkt.",
+    "corrupted": "Der erste Eindruck setzte sich fort, denn neben der modern eingerichteten Praxis und einen netten Praxis-Team lernte ich Dr. Kämpgen als sehr freundlichen und kompetenten Zahnarzt kennen, der gleichzeitig einen ausgeglichenen Eindruck macht und nicht gestresst wirkt.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2406",
+    "group_start": 11,
+    "group_end": 12,
+    "group_span_text": "dem Handel",
+    "gold_text": "Wenige Jahre vor dem Ersten Weltkrieg war das Bankhaus Schoeller neben dem Handel, der Verwahrung und Finanzierung von Wertpapieren auch sehr aktiv bei Börseneinführungen und Kapitalerhöhungen von Aktiengesellschaften an der Wiener Börse.",
+    "corrupted": "Wenige Jahre vor dem Ersten Weltkrieg war das Bankhaus Schoeller neben den Handel, der Verwahrung und Finanzierung von Wertpapieren auch sehr aktiv bei Börseneinführungen und Kapitalerhöhungen von Aktiengesellschaften an der Wiener Börse.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3188",
+    "group_start": 1,
+    "group_end": 7,
+    "group_span_text": "den oben genannten Varianten des traditionellen Jeansstoffes",
+    "gold_text": "Neben den oben genannten Varianten des traditionellen Jeansstoffes wurden und werden Hosen im Schnitt von Jeans auch aus anderen Materialien gefertigt.",
+    "corrupted": "Neben die oben genannten Varianten des traditionellen Jeansstoffes wurden und werden Hosen im Schnitt von Jeans auch aus anderen Materialien gefertigt.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3214",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "der Schale",
+    "gold_text": "Neben der Schale liegen Holzäpfel und ein Kürbis.",
+    "corrupted": "Neben die Schale liegen Holzäpfel und ein Kürbis.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3354",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "seiner Eigenschaft",
+    "gold_text": "Neben seiner Eigenschaft, Werterfahrungen zu konstituieren, hat das Fühlen weitere Funktionen:",
+    "corrupted": "Neben seine Eigenschaft, Werterfahrungen zu konstituieren, hat das Fühlen weitere Funktionen:",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4136",
+    "group_start": 9,
+    "group_end": 10,
+    "group_span_text": "ihrem Ehemann",
+    "gold_text": "Sie wurde auf dem Friedhof Stuttgart - Plieningen neben ihrem Ehemann beigesetzt.",
+    "corrupted": "Sie wurde auf dem Friedhof Stuttgart - Plieningen neben ihren Ehemann beigesetzt.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4234",
+    "group_start": 1,
+    "group_end": 3,
+    "group_span_text": "den 113 Folgen",
+    "gold_text": "Neben den 113 Folgen entstanden drei Specials, die aus anderen Folgen zusammengeschnitten wurden oder eine lange Version einer Folge darstellen.",
+    "corrupted": "Neben die 113 Folgen entstanden drei Specials, die aus anderen Folgen zusammengeschnitten wurden oder eine lange Version einer Folge darstellen.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4245",
+    "group_start": 6,
+    "group_end": 7,
+    "group_span_text": "bekannten Rechtsextremisten",
+    "gold_text": "Dem DSG - Führungsgremium gehören neben bekannten Rechtsextremisten auch ehemalige NPD - Spitzenfunktionäre an.",
+    "corrupted": "Dem DSG - Führungsgremium gehören neben bekannte Rechtsextremisten auch ehemalige NPD - Spitzenfunktionäre an.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5058",
+    "group_start": 5,
+    "group_end": 7,
+    "group_span_text": "dem alten Ortskern",
+    "gold_text": "Zu diesem Bezirksteil gehören neben dem alten Ortskern auch Neu - Albern und der Alberner Hafen.",
+    "corrupted": "Zu diesem Bezirksteil gehören neben den alten Ortskern auch Neu - Albern und der Alberner Hafen.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5430",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "seiner Tätigkeit",
+    "gold_text": "Neben seiner Tätigkeit als Lehrer übte Siebenmorgen künstlerische und wissenschaftliche Tätigkeiten aus.",
+    "corrupted": "Neben seine Tätigkeit als Lehrer übte Siebenmorgen künstlerische und wissenschaftliche Tätigkeiten aus.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5464",
+    "group_start": 4,
+    "group_end": 7,
+    "group_span_text": "ihrem nicht heiliggesprochenen Gemahl",
+    "gold_text": "Sie ist hier neben ihrem nicht heiliggesprochenen Gemahl abgebildet, da er gemeinsam mit ihr das Bistum Meißen gründete.",
+    "corrupted": "Sie ist hier neben ihren nicht heiliggesprochenen Gemahl abgebildet, da er gemeinsam mit ihr das Bistum Meißen gründete.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5514",
+    "group_start": 3,
+    "group_end": 3,
+    "group_span_text": "Konzerten",
+    "gold_text": "Sie wird neben Konzerten und andere Veranstaltungen hauptsächlich für Handball und Basketball genutzt.",
+    "corrupted": "Sie wird neben Konzerte und andere Veranstaltungen hauptsächlich für Handball und Basketball genutzt.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6261",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "weiteren Funden",
+    "gold_text": "Neben der Typlokalität und weiteren Funden im Bushveld - Komplex Südafrikas zählen hierzu Marathon in Kanada, Midu in China, der Lemmenjoki in Finnland, Norilsk und weitere Fundorte in Russland sowie der Stillwater - Komplex im US - Bundesstaat Montana.",
+    "corrupted": "Neben der Typlokalität und weitere Funde im Bushveld - Komplex Südafrikas zählen hierzu Marathon in Kanada, Midu in China, der Lemmenjoki in Finnland, Norilsk und weitere Fundorte in Russland sowie der Stillwater - Komplex im US - Bundesstaat Montana.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6448",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "der Interessenvertretung",
+    "gold_text": "Neben der Interessenvertretung von Maschinenbau - Studentinnen und - Studenten dient die FaTaMa auch zur Kontaktpflege der Maschinenbau - Fachschaften untereinander.",
+    "corrupted": "Neben die Interessenvertretung von Maschinenbau - Studentinnen und - Studenten dient die FaTaMa auch zur Kontaktpflege der Maschinenbau - Fachschaften untereinander.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6509",
+    "group_start": 3,
+    "group_end": 4,
+    "group_span_text": "der Vermietung",
+    "gold_text": "VTG bietet neben der Vermietung von Eisenbahngüterwagen auch die Bewirtschaftung, technische Betreuung, Verwaltung und Instandhaltung fremder Waggonparks an.",
+    "corrupted": "VTG bietet neben die Vermietung von Eisenbahngüterwagen auch die Bewirtschaftung, technische Betreuung, Verwaltung und Instandhaltung fremder Waggonparks an.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6637",
+    "group_start": 1,
+    "group_end": 4,
+    "group_span_text": "einer Bewertung des Albums",
+    "gold_text": "Neben einer Bewertung des Albums beschäftigte sich die Juice - Redaktion auch mit der beigelegten DVD Bei Nacht.",
+    "corrupted": "Neben eine Bewertung des Albums beschäftigte sich die Juice - Redaktion auch mit der beigelegten DVD Bei Nacht.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7889",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "dem Kochen",
+    "gold_text": "Neben dem Kochen sitzt er oft im Kurcafé und beobachtet Frauen.",
+    "corrupted": "Neben das Kochen sitzt er oft im Kurcafé und beobachtet Frauen.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8798",
+    "group_start": 5,
+    "group_end": 8,
+    "group_span_text": "den Bauten der Antike",
+    "gold_text": "Scamozzi erwähnt als erster neben den Bauten der Antike und der Renaissance auch solche des Mittelalters.",
+    "corrupted": "Scamozzi erwähnt als erster neben die Bauten der Antike und der Renaissance auch solche des Mittelalters.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8981",
+    "group_start": 18,
+    "group_end": 18,
+    "group_span_text": "dem",
+    "gold_text": "Der Verteidiger ist bis heute neben Bernie Parent, Wayne Gretzky und Mario Lemieux der einzige Spieler, dem dies gelang.",
+    "corrupted": "Der Verteidiger ist bis heute neben Bernie Parent, Wayne Gretzky und Mario Lemieux der einzige Spieler, den dies gelang.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9239",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "einer Einführung",
+    "gold_text": "Neben einer Einführung zur \"Zigeunerplage\" war für die behördliche Praxis vor allem der Personenteil inklusive Lichtbildern von Interesse.",
+    "corrupted": "Neben eine Einführung zur \" Zigeunerplage \" war für die behördliche Praxis vor allem der Personenteil inklusive Lichtbildern von Interesse.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9248",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "der Basis",
+    "gold_text": "Neben der Basis gibt es auch noch die Ausstattungen Independence und Impression.",
+    "corrupted": "Neben die Basis gibt es auch noch die Ausstattungen Independence und Impression.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9528",
+    "group_start": 18,
+    "group_end": 19,
+    "group_span_text": "jener Straße",
+    "gold_text": "Es liegt in der Provinz Blekinge län auf einer Weide westlich von Karlskrona auf einer schmalen Landzunge neben jener Straße, die nach Hasslö führt.",
+    "corrupted": "Es liegt in der Provinz Blekinge län auf einer Weide westlich von Karlskrona auf einer schmalen Landzunge neben jene Straße, die nach Hasslö führt.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9531",
+    "group_start": 39,
+    "group_end": 45,
+    "group_span_text": "der Beschreibung der feststellbaren Tatsachen der Vergangenheit",
+    "gold_text": "Die Tendenz (lat. tendere -- ausstrecken) (Adj.: tendenziös, eine Tendenz erkennen lassend, parteilich gefärbt) beschreibt ein Streben, eine Neigung und eine Häufung von Ereignissen in eine bestimmte Richtung und suggeriert neben der Beschreibung der feststellbaren Tatsachen der Vergangenheit häufig auch den Ausblick in die unbestimmte Zukunft.",
+    "corrupted": "Die Tendenz (lat. tendere -- ausstrecken) (Adj.: tendenziös, eine Tendenz erkennen lassend, parteilich gefärbt) beschreibt ein Streben, eine Neigung und eine Häufung von Ereignissen in eine bestimmte Richtung und suggeriert neben die Beschreibung der feststellbaren Tatsachen der Vergangenheit häufig auch den Ausblick in die unbestimmte Zukunft.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9746",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "zahlreichen Auftritten",
+    "gold_text": "Neben zahlreichen Auftritten in Fernsehserien wie in Lou Grant, Dallas und Hotel, war Potts 1983 neben Brooke Shields und John Rhys - Davies in dem Abenteuerfilm Sahara zu sehen.",
+    "corrupted": "Neben zahlreiche Auftritte in Fernsehserien wie in Lou Grant, Dallas und Hotel, war Potts 1983 neben Brooke Shields und John Rhys - Davies in dem Abenteuerfilm Sahara zu sehen.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10336",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "einer Änderung",
+    "gold_text": "Neben einer Änderung in der Karosseriefront entfallen die auffälligen Blinker an der Frontseite der Elise, es werden neue Scheinwerfer mit LED - Tagfahrlicht verwendet, die Plastiklamellen der Belüfungsöffnungen wurden gegen schlichtere Gitter ersetzt, die Zierlamellen am Heck des Fahrzeugs entfiel, die Motorhaube wurde geändert und der Diffusor am Heck überarbeitet.",
+    "corrupted": "Neben eine Änderung in der Karosseriefront entfallen die auffälligen Blinker an der Frontseite der Elise, es werden neue Scheinwerfer mit LED - Tagfahrlicht verwendet, die Plastiklamellen der Belüfungsöffnungen wurden gegen schlichtere Gitter ersetzt, die Zierlamellen am Heck des Fahrzeugs entfiel, die Motorhaube wurde geändert und der Diffusor am Heck überarbeitet.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10482",
+    "group_start": 50,
+    "group_end": 51,
+    "group_span_text": "einer Reihe",
+    "gold_text": "Weitere wichtige Gruppen waren die die Independent Communist Labor League (ICLL) um Jay Lovestone in den USA und die örtlich starken, ebenfalls KPO genannten Gruppen in Schaffhausen (Schweiz) um Walther Bringolf, Aš (Tschechoslowakei) und Straßburg (Frankreich), ferner gehörte neben einer Reihe kleiner Zirkel in verschiedenen Ländern auch die Gruppe um den bekannten indischen Marxisten Manabendra Nath Roy zeitweise zur IVKO.",
+    "corrupted": "Weitere wichtige Gruppen waren die die Independent Communist Labor League ( ICLL) um Jay Lovestone in den USA und die örtlich starken, ebenfalls KPO genannten Gruppen in Schaffhausen ( Schweiz) um Walther Bringolf, Aš ( Tschechoslowakei) und Straßburg ( Frankreich), ferner gehörte neben eine Reihe kleiner Zirkel in verschiedenen Ländern auch die Gruppe um den bekannten indischen Marxisten Manabendra Nath Roy zeitweise zur IVKO.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10548",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "ihrer Funktion",
+    "gold_text": "Neben ihrer Funktion als Ansitze und Stützpunkte des Feudaladels sollten die neuen Burgen das Land auch gegen Angriffe aus England und Überfälle der Wikinger schützen.",
+    "corrupted": "Neben ihre Funktion als Ansitze und Stützpunkte des Feudaladels sollten die neuen Burgen das Land auch gegen Angriffe aus England und Überfälle der Wikinger schützen.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10870",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "dem Hauptsitz",
+    "gold_text": "Neben dem Hauptsitz in Hamburg befinden sich weitere Standorte in Berlin, Dresden, Düsseldorf und Stuttgart.",
+    "corrupted": "Neben den Hauptsitz in Hamburg befinden sich weitere Standorte in Berlin, Dresden, Düsseldorf und Stuttgart.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10986",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "der Konkurrenz",
+    "gold_text": "Neben der Konkurrenz durch andere Freizeitangebote existieren weitere Probleme, darunter die nach Ansicht der Veranstalter mangelnde Unterstützung durch die Hansestadt Lübeck, die das Volksfest nicht in den offiziellen Veranstaltungskalendern und auf der Tourismus - Webseite erwähnt, den über Jahre angebotenen Buszubringer zum Volksfestplatz eingestellt hat und die Busse des Stadtverkehrs während der zwei Festwochen nicht mehr, wie früher üblich, beflaggen lässt und so das Volksfest aus der Wahrnehmung verdrängt.",
+    "corrupted": "Neben die Konkurrenz durch andere Freizeitangebote existieren weitere Probleme, darunter die nach Ansicht der Veranstalter mangelnde Unterstützung durch die Hansestadt Lübeck, die das Volksfest nicht in den offiziellen Veranstaltungskalendern und auf der Tourismus - Webseite erwähnt, den über Jahre angebotenen Buszubringer zum Volksfestplatz eingestellt hat und die Busse des Stadtverkehrs während der zwei Festwochen nicht mehr, wie früher üblich, beflaggen lässt und so das Volksfest aus der Wahrnehmung verdrängt.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11173",
+    "group_start": 16,
+    "group_end": 17,
+    "group_span_text": "der Politik",
+    "gold_text": "Nachdem er aus gesundheitlichen Gründen immer weniger als Arzt arbeiten konnte, widmete er sich neben der Politik auch den Rechtswissenschaften.",
+    "corrupted": "Nachdem er aus gesundheitlichen Gründen immer weniger als Arzt arbeiten konnte, widmete er sich neben die Politik auch den Rechtswissenschaften.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11202",
+    "group_start": 11,
+    "group_end": 12,
+    "group_span_text": "deutschen Sportlern",
+    "gold_text": "Da es sich um eine offene Meisterschaft handelt, nehmen neben deutschen Sportlern unter anderem Aktive aus Österreich, der Schweiz, Italien, Skandinavien und Osteuropa teil.",
+    "corrupted": "Da es sich um eine offene Meisterschaft handelt, nehmen neben deutsche Sportler unter anderem Aktive aus Österreich, der Schweiz, Italien, Skandinavien und Osteuropa teil.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11253",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "der Landwirtschaft",
+    "gold_text": "Neben der Landwirtschaft machte ihn seine Lage direkt am Handelsweg nach Böhmen für Kaufleute, Eisen - und Erztransporte zur Zwischenstation.",
+    "corrupted": "Neben die Landwirtschaft machte ihn seine Lage direkt am Handelsweg nach Böhmen für Kaufleute, Eisen - und Erztransporte zur Zwischenstation.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11399",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "seiner Trainertätigkeit",
+    "gold_text": "Neben seiner Trainertätigkeit im Verein war er von 1998 bis 2000 für die inoffizielle Fußballauswahl von Andalusien tätig.",
+    "corrupted": "Neben seine Trainertätigkeit im Verein war er von 1998 bis 2000 für die inoffizielle Fußballauswahl von Andalusien tätig.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11608",
+    "group_start": 1,
+    "group_end": 3,
+    "group_span_text": "einem großen Gebäudekomplex",
+    "gold_text": "Neben einem großen Gebäudekomplex entstand die Fußball - und Veranstaltungshalle Telenor Arena, in der der Eurovision Song Contest 2010 stattfand.",
+    "corrupted": "Neben einen großen Gebäudekomplex entstand die Fußball - und Veranstaltungshalle Telenor Arena, in der der Eurovision Song Contest 2010 stattfand.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11868",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "seiner Tätigkeit",
+    "gold_text": "Neben seiner Tätigkeit als Redakteur gehörte er auch zu den Mitbegründern der Roten Hilfe in Österreich.",
+    "corrupted": "Neben seine Tätigkeit als Redakteur gehörte er auch zu den Mitbegründern der Roten Hilfe in Österreich.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11903",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "anderen Geschäftstätigkeiten",
+    "gold_text": "Vorgesehen war dabei neben anderen Geschäftstätigkeiten auch die Herausgabe von Banknoten.",
+    "corrupted": "Vorgesehen war dabei neben andere Geschäftstätigkeiten auch die Herausgabe von Banknoten.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12602",
+    "group_start": 1,
+    "group_end": 9,
+    "group_span_text": "den heute populären Soap - Elementen ( also Liebe",
+    "gold_text": "Neben den heute populären Soap - Elementen (also Liebe, Seitensprünge, Familienkonflikte, Tod des Hausdrachens...) stellt Donjon auch ethische und philosophische Problemansätze vor.",
+    "corrupted": "Neben die heute populärsten Soap - Elemente (also Liebe, Seitensprünge, Familienkonflikte, Tod des Hausdrachens...) stellt Donjon auch ethische und philosophische Problemansätze vor.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12799",
+    "group_start": 1,
+    "group_end": 1,
+    "group_span_text": "Kreuzfahrtschiffen",
+    "gold_text": "Neben Kreuzfahrtschiffen sind Spezialschiffe wie Schlepper, Schwimmbagger oder Kabelleger weitere Einsatzgebiete.",
+    "corrupted": "Neben Kreuzfahrtschiffe sind Spezialschiffe wie Schlepper, Schwimmbagger oder Kabelleger weitere Einsatzgebiete.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13232",
+    "group_start": 4,
+    "group_end": 4,
+    "group_span_text": "Vögeln",
+    "gold_text": "Die Hauptnahrung besteht neben Vögeln auch aus kleinen Säugetieren.",
+    "corrupted": "Die Hauptnahrung besteht neben Vögel auch aus kleinen Säugetieren.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13403",
+    "group_start": 1,
+    "group_end": 3,
+    "group_span_text": "seinem wichtigen Einfluss",
+    "gold_text": "Neben seinem wichtigen Einfluss auf die frühe US - amerikanische Gesellschaft ist Rush berühmt als der Mann, der 1812 half, zwei der größten Geister der jungen Republik wieder miteinander zu versöhnen: Thomas Jefferson und John Adams.",
+    "corrupted": "Neben seinen wichtigen Einfluss auf die frühe US - amerikanische Gesellschaft ist Rush berühmt als der Mann, der 1812 half, zwei der größten Geister der jungen Republik wieder miteinander zu versöhnen: Thomas Jefferson und John Adams.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13534",
+    "group_start": 1,
+    "group_end": 4,
+    "group_span_text": "dem Inhalt seiner Werke",
+    "gold_text": "Neben dem Inhalt seiner Werke wurde vor allem auch sein Spiel mit den Farben gelobt.",
+    "corrupted": "Neben den Inhalt seiner Werke wurde vor allem auch sein Spiel mit den Farben gelobt.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13823",
+    "group_start": 1,
+    "group_end": 7,
+    "group_span_text": "der Dorfkirche Neu Schadow, einer Backsteinkirche",
+    "gold_text": "Neben der Dorfkirche Neu Schadow, einer Backsteinkirche aus dem Jahr 1856, stehen auch die um 1750 entstandenen Kolonistenhöfe in der Dorfstraße 16 und 17 unter Denkmalschutz.",
+    "corrupted": "Neben die Dorfkirche Neu Schadow, einer Backsteinkirche aus dem Jahr 1856, stehen auch die um 1750 entstandenen Kolonistenhöfe in der Dorfstraße 16 und 17 unter Denkmalschutz.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13940",
+    "group_start": 5,
+    "group_end": 10,
+    "group_span_text": "der prinzipiellen ökologischen Gestaltung der Produkte",
+    "gold_text": "Darin betont die Kommission neben der prinzipiellen ökologischen Gestaltung der Produkte die besondere Bedeutung der Preisbildung und der kritischen Wahl des Verbrauchers.",
+    "corrupted": "Darin betont die Kommission neben die prinzipielle ökologische Gestaltung der Produkte die besondere Bedeutung der Preisbildung und der kritischen Wahl des Verbrauchers.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s234",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "erstklassigem Unterricht",
+    "gold_text": "Neben erstklassigem Unterricht kann man bei Burtaris Yoga erfahren, dass es möglich ist, auch im Kontext einer professionell geführten \"Dienstleistung\" den Regeln der Zwischenmenschlichkeit zu folgen und damit ein starkes Zeichen zu setzen.",
+    "corrupted": "Neben erstklassigen Unterricht kann man bei Burtaris Yoga erfahren, dass es möglich ist, auch im Kontext einer professionell geführten \"Dienstleistung\" den Regeln der Zwischenmenschlichkeit zu folgen und damit ein starkes Zeichen zu setzen.",
+    "dative_type": "dative_prep_neben"
+  }
+]

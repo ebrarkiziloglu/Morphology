@@ -1,0 +1,32 @@
+[
+  {
+    "split": "train",
+    "sent_id": "train-s11676",
+    "group_start": 0,
+    "group_end": 0,
+    "group_span_text": "B.",
+    "gold_text": "B. Türen oder Stühle, die sich auf dieser Seite befinden, er isst nur eine Hälfte seines Tellers leer, rasiert sich nur eine Gesichtshälfte, überspringt beim Lesen einzelne Wörter und kann Dinge, die er sucht, nicht oder nur schwer finden, wenn sie auf der kontraläsionalen Seite liegen.",
+    "corrupted": "Beispiel Türen oder Stühle, die sich auf dieser Seite befinden, er isst nur eine Hälfte seines Tellers leer, rasiert sich nur eine Gesichtshälfte, überspringt beim Lesen einzelne Wörter und kann Dinge, die er sucht, nicht oder nur schwer finden, wenn sie auf der kontraläsionalen Seite liegen.",
+    "dative_type": "oblique_dative"
+  },
+  {
+    "split": "dev",
+    "sent_id": "dev-s741",
+    "group_start": 15,
+    "group_end": 18,
+    "group_span_text": "der Hälfte der Staaten",
+    "gold_text": "Die Inflation hat ihr niedrigstes Niveau seit den siebziger Jahren errreicht, in mehr als der Hälfte der Staaten ist die Rate einstellig.",
+    "corrupted": "Die Inflation hat ihr niedrigstes Niveau seit den siebziger Jahren errreicht, in mehr als die Hälfte der Staaten ist die Rate einstellig.",
+    "dative_type": "oblique_dative"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s142",
+    "group_start": 12,
+    "group_end": 13,
+    "group_span_text": "meiner Mobilität",
+    "gold_text": "Es gibt von meiner Seite nur zu bemängeln, dass ich nicht meiner Mobilität gefragt wurde und auf die Strassenbahn angewiesen war.",
+    "corrupted": "Es gibt von meiner Seite nur zu bemängeln, dass ich nicht meine Mobilität gefragt wurde und auf die Strassenbahn angewiesen war.",
+    "dative_type": "oblique_dative"
+  }
+]

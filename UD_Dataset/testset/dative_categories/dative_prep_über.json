@@ -1,0 +1,242 @@
+[
+  {
+    "split": "train",
+    "sent_id": "train-s705",
+    "group_start": 2,
+    "group_end": 3,
+    "group_span_text": "einer Stunde",
+    "gold_text": "Nach über einer Stunde musste ich noch einmal anrufen, da man mich nicht zurück gerufen hatte.",
+    "corrupted": "Nach über eine Stunde musste ich noch einmal anrufen, da man mich nicht zurück gerufen hatte.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s1704",
+    "group_start": 8,
+    "group_end": 9,
+    "group_span_text": "den Serben",
+    "gold_text": "``Das Damoklesschwert einer militärischen Intervention wird über den Serben hängen'', hieß es in der deutschen Delegation.",
+    "corrupted": "``Das Damoklesschwert einer militärischen Intervention wird über die Serben hängen'', hieß es in der deutschen Delegation.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2144",
+    "group_start": 7,
+    "group_end": 8,
+    "group_span_text": "offenem Feuer",
+    "gold_text": "Das Spektrum reicht vom Brutzeln über offenem Feuer bis zu modernen Küchengeräten.",
+    "corrupted": "Das Spektrum reicht vom Brutzeln über offenes Feuer bis zu modernen Küchengeräten.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2206",
+    "group_start": 14,
+    "group_end": 15,
+    "group_span_text": "dem Wasser",
+    "gold_text": "Sie hat eine Länge von 38 Metern, eine Höhe von 7 Metern über dem Wasser und von dort eine Höhe von 3,8 Metern, eine Breite von 5,2 Metern und eine Spannweite von 36,71 Metern.",
+    "corrupted": "Sie hat eine Länge von 38 Metern, eine Höhe von 7 Metern übers Wasser und von dort eine Höhe von 3,8 Metern, eine Breite von 5,2 Metern und eine Spannweite von 36,71 Metern.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2604",
+    "group_start": 5,
+    "group_end": 6,
+    "group_span_text": "dem Budget",
+    "gold_text": "Da jedoch der Baupreis über dem Budget lag und die Brücke zudem die Schifffahrt beeinträchtigt hätte, wurde der Plan verschoben.",
+    "corrupted": "Da jedoch der Baupreis übers Budget lag und die Brücke zudem die Schifffahrt beeinträchtigt hätte, wurde der Plan verschoben.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4247",
+    "group_start": 8,
+    "group_end": 10,
+    "group_span_text": "den Mississippi River",
+    "gold_text": "Der Abfluss erfolgt über den Ohio River und den Mississippi River in den Golf von Mexiko.",
+    "corrupted": "Der Abfluss erfolgt über den Ohio River und die Mississippi River in den Golf von Mexiko.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4737",
+    "group_start": 18,
+    "group_end": 18,
+    "group_span_text": "diesem",
+    "gold_text": "Die Sitzungen sind nicht öffentlich, allerdings informiert der Ratspräsident das Europäische Parlament über die Ergebnisse und legt diesem einen schriftlichen Bericht vor.",
+    "corrupted": "Die Sitzungen sind nicht öffentlich, allerdings informiert der Ratspräsident das Europäische Parlament über die Ergebnisse und legt diesen einen schriftlichen Bericht vor.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4970",
+    "group_start": 8,
+    "group_end": 9,
+    "group_span_text": "den Gleisen",
+    "gold_text": "Das Empfangsgebäude liegt als Reiterbahnhof auf Straßenniveau über den Gleisen.",
+    "corrupted": "Das Empfangsgebäude liegt als Reiterbahnhof auf Straßenniveau über die Gleise.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6370",
+    "group_start": 14,
+    "group_end": 15,
+    "group_span_text": "dem Winde",
+    "gold_text": "Sie liegen nicht unter dem Einfluss des Nordost - Passats wie die Inseln über dem Winde und weisen daher ein weitaus trockeneres Klima auf.",
+    "corrupted": "Sie liegen nicht unter dem Einfluss des Nordost - Passats wie die Inseln über den Wind und weisen daher ein weitaus trockeneres Klima auf.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6671",
+    "group_start": 17,
+    "group_end": 18,
+    "group_span_text": "dem Altar",
+    "gold_text": "An den Kapellenmauern befinden sich außerdem zwei tragbare Reliquiare der Heiligen Marcellus und Agricola, und über dem Altar die ehemaligen Wappen des Priorats, mit einer Holzschnitzerei (Kreuzesabnahme).",
+    "corrupted": "An den Kapellenmauern befinden sich außerdem zwei tragbare Reliquiare der Heiligen Marcellus und Agricola, und über den Altar die ehemaligen Wappen des Priorats, mit einer Holzschnitzerei (Kreuzesabnahme).",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7653",
+    "group_start": 6,
+    "group_end": 8,
+    "group_span_text": "dem des Meeres",
+    "gold_text": "Der Wasserspiegel liegt 71,2 Meter über dem des Meeres.",
+    "corrupted": "Der Wasserspiegel liegt 71,2 Meter übers des Meeres.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7981",
+    "group_start": 13,
+    "group_end": 14,
+    "group_span_text": "ihrem Eingang",
+    "gold_text": "Hierzu führte er autorisierte Händler ein, die eine Agfa - Strahlkrone über ihrem Eingang mit der Aufschrift \"autorisierter Agfa - Verkauf\" anbringen durften.",
+    "corrupted": "Hierzu führte er autorisierte Händler ein, die eine Agfa - Strahlkrone über ihren Eingang mit der Aufschrift \"autorisierter Agfa - Verkauf\" anbringen durften.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8563",
+    "group_start": 23,
+    "group_end": 24,
+    "group_span_text": "dem Ortskern",
+    "gold_text": "Eine Reihe dieser in Barcelona ansässigen deutschen Familien bewohnt in Castelldefels Sommerhäuser, vorzugsweise auf dem Hügel, der südlich der Burg über dem Ortskern liegt und sich Montemar nennt, sowie im Stadtteil \"Bellamar\".",
+    "corrupted": "Eine Reihe dieser in Barcelona ansässigen deutschen Familien bewohnt in Castelldefels Sommerhäuser, vorzugsweise auf dem Hügel, der südlich der Burg über den Ortskern liegt und sich Montemar nennt, sowie im Stadtteil \"Bellamar\".",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9252",
+    "group_start": 9,
+    "group_end": 10,
+    "group_span_text": "den Früchten",
+    "gold_text": "Während bei einfachen Obsttorten der Tortenguss meist löffelweise über den Früchten verteilt wird und dadurch eine unebene Oberfläche entsteht, aus welcher oft einzelne Früchte herausragen, können mit einem Tortenring dickere Tortengussschichten mit ebener Oberfläche hergestellt werden.",
+    "corrupted": "Während bei einfachen Obsttorten der Tortenguss meist löffelweise über die Früchte verteilt wird und dadurch eine unebene Oberfläche entsteht, aus welcher oft einzelne Früchte herausragen, können mit einem Tortenring dickere Tortengussschichten mit ebener Oberfläche hergestellt werden.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11128",
+    "group_start": 18,
+    "group_end": 18,
+    "group_span_text": "Warschau",
+    "gold_text": "Auflage dieses Radrennens bestand aus 14 Einzeletappen und führte auf einer Gesamtlänge von 1942 km von Prag über Warschau nach Berlin.",
+    "corrupted": "Auflage dieses Radrennens bestand aus 14 Einzeletappen und führte auf einer Gesamtlänge von 1942 km von Prag über Warschaus nach Berlin.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11407",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "dem Sturz",
+    "gold_text": "Über dem Sturz folgt eine glatte Leiste, die ein beperltes Flechtband darüber abtrennt.",
+    "corrupted": "Über den Sturz folgt eine glatte Leiste, die ein beperltes Flechtband darüber abtrennt.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11788",
+    "group_start": 11,
+    "group_end": 12,
+    "group_span_text": "dem Motor",
+    "gold_text": "Die Konstruktion der XF 650 mit Kastenschwinge, Kettenantrieb und über dem Motor angeordnetem Tank ist konventionell.",
+    "corrupted": "Die Konstruktion der XF 650 mit Kastenschwinge, Kettenantrieb und über den Motor angeordnetem Tank ist konventionell.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13143",
+    "group_start": 12,
+    "group_end": 13,
+    "group_span_text": "der Burg",
+    "gold_text": "Damit war Elisabeth alleinige Herrin über Prozelten, die dazugehörenden Ländereien und der Burg.",
+    "corrupted": "Damit war Elisabeth alleinige Herrin über Prozelten, die dazugehörenden Ländereien und die Burg.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13322",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "dem Portal",
+    "gold_text": "Über dem Portal lag ein wulstartig hervortretender Sturz, darüber ein profilierter Entlastungsbogen.",
+    "corrupted": "Übers Portal lag ein wulstartig hervortretender Sturz, darüber ein profilierter Entlastungsbogen.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13981",
+    "group_start": 14,
+    "group_end": 21,
+    "group_span_text": "Mobil - Telefon übermittelt ( SAPOS - Vernetzung",
+    "gold_text": "Hier werden mehrere Referenzstationen vernetzt und Korrekturdaten an den Rover im Vermessungsgebiet über Mobil - Telefon übermittelt (SAPOS - Vernetzung).",
+    "corrupted": "Hier werden mehrere Referenzstationen vernetzt und Korrekturdaten an den Rover im Vermessungsgebiet über Mobiles - Telefon übermittelt (SAPOS - Vernetzung).",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "dev",
+    "sent_id": "dev-s314",
+    "group_start": 4,
+    "group_end": 8,
+    "group_span_text": "meine \" alten \" Ansichten",
+    "gold_text": "Heute kann ich über meine \"alten\" Ansichten schmunzeln.",
+    "corrupted": "Heute kann ich über meine \"alte\" Ansichten schmunzeln.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "dev",
+    "sent_id": "dev-s682",
+    "group_start": 12,
+    "group_end": 13,
+    "group_span_text": "seinem Endstand",
+    "gold_text": "Der Dax schloß mit 2192,82 Punkten und lag damit 20,52 Zähler über seinem Endstand vom Mittwoch.",
+    "corrupted": "Der Dax schloß mit 2192,82 Punkten und lag damit 20,52 Zähler über seinen Endstand vom Mittwoch.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s368",
+    "group_start": 8,
+    "group_end": 9,
+    "group_span_text": "den Serben",
+    "gold_text": "``Das Damoklesschwert einer militärischen Intervention wird über den Serben hängen'', hieß es in der deutschen Delegation.",
+    "corrupted": "``Das Damoklesschwert einer militärischen Intervention wird über die Serben hängen'', hieß es in der deutschen Delegation.",
+    "dative_type": "dative_prep_über"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s377",
+    "group_start": 9,
+    "group_end": 10,
+    "group_span_text": "dem Kopf",
+    "gold_text": "Die Leute brauchen doch auch privat ein Dach über dem Kopf.",
+    "corrupted": "Die Leute brauchen doch auch privat ein Dach über den Kopf.",
+    "dative_type": "dative_prep_über"
+  }
+]

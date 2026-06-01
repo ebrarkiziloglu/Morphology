@@ -1,0 +1,772 @@
+[
+  {
+    "split": "train",
+    "sent_id": "train-s74",
+    "group_start": 0,
+    "group_end": 2,
+    "group_span_text": "Vielen Vielen Dank",
+    "gold_text": "Vielen Vielen Dank für die super professionelle Arbeit.",
+    "corrupted": "Viele Vielen Dank für die super professionelle Arbeit.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s532",
+    "group_start": 6,
+    "group_end": 6,
+    "group_span_text": "ihr",
+    "gold_text": "Bitte mit Taxi kommen, wenn ihr den Original \"Italienischen Wein genießen wollt!",
+    "corrupted": "Bitte mit Taxi kommen, wenn sie den Original \"Italienischen Wein genießen wollt!",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s731",
+    "group_start": 3,
+    "group_end": 10,
+    "group_span_text": "mangelt es hier nicht, eher in dem",
+    "gold_text": "Auch an Sauberkeit mangelt es hier nicht, eher im gegenteil!",
+    "corrupted": "Auch an Sauberkeit mangelt es hier nicht, eher in den gegenteil!",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s1108",
+    "group_start": 6,
+    "group_end": 6,
+    "group_span_text": "Musikern",
+    "gold_text": "Die vier Levels bieten Musikerinnen und Musikern aller Instrumente einen gut durchdachten und spielerischen Einstieg in die Grundlagen der Musik.",
+    "corrupted": "Die vier Levels bieten Musikerinnen und Musiker aller Instrumente einen gut durchdachten und spielerischen Einstieg in die Grundlagen der Musik.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s1116",
+    "group_start": 3,
+    "group_end": 4,
+    "group_span_text": "guter Service",
+    "gold_text": "Nettes Personal und guter Service sprechen für sich...",
+    "corrupted": "Nettes Personal und gute Service sprechen für sich...",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s1991",
+    "group_start": 5,
+    "group_end": 5,
+    "group_span_text": "einem",
+    "gold_text": "Die Abgeordneten der Grünen und einem von den Grünen benannten Experten werde die Einreise in die Türkei auf gar keinen Fall gestattet, teilte das Außenministerium mit.",
+    "corrupted": "Die Abgeordneten der Grünen und einen von den Grünen benannten Experten werde die Einreise in die Türkei auf gar keinen Fall gestattet, teilte das Außenministerium mit.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2051",
+    "group_start": 28,
+    "group_end": 28,
+    "group_span_text": "Steuerzahlern",
+    "gold_text": "5. Es muß mit der Illusion aufgeräumt werden, unter den multinationalen Konzernen gäbe es noch ``nationale'' Unternehmen, die in besonderer Weise den Arbeitnehmern, Steuerzahlern oder sonst irgendwem in ``ihrem'' Land verpflichtet wären.",
+    "corrupted": "5. Es muß mit der Illusion aufgeräumt werden, unter den multinationalen Konzernen gäbe es noch ``nationale'' Unternehmen, die in besonderer Weise den Arbeitnehmern, Steuerzahler oder sonst irgendwem in ``ihrem'' Land verpflichtet wären.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2471",
+    "group_start": 13,
+    "group_end": 14,
+    "group_span_text": "der Nähe",
+    "gold_text": "Begünstigt wurde dies durch die geografische Lage unmittelbar nördlich der Stadt Braunschweig, der Nähe zur Industriestadt Wolfsburg und dem nahen Anschluss zur Bundesautobahn 2.",
+    "corrupted": "Begünstigt wurde dies durch die geografische Lage unmittelbar nördlich der Stadt Braunschweig, die Nähe zur Industriestadt Wolfsburg und dem nahen Anschluss zur Bundesautobahn 2.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2896",
+    "group_start": 10,
+    "group_end": 11,
+    "group_span_text": "der Entwicklung",
+    "gold_text": "Er war eine der bedeutendsten Persönlichkeiten des politischen Lebens und der Entwicklung des damals jungen griechischen Staates.",
+    "corrupted": "Er war eine der bedeutendsten Persönlichkeiten des politischen Lebens und die Entwicklung des damals jungen griechischen Staates.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2988",
+    "group_start": 5,
+    "group_end": 12,
+    "group_span_text": "der Ludwig - Donau - Main - Kanal",
+    "gold_text": "Nach zehnjährigen Bauarbeiten wurde 1846 der Ludwig - Donau - Main - Kanal eröffnet, eine 172,4 km lange Wasserstraße zwischen Kelheim und Bamberg.",
+    "corrupted": "Nach zehnjährigen Bauarbeiten wurde 1846 die Ludwig - Donau - Main - Kanal eröffnet, eine 172,4 km lange Wasserstraße zwischen Kelheim und Bamberg.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3157",
+    "group_start": 15,
+    "group_end": 19,
+    "group_span_text": "Trichophyton mentagrophytes ( 27 %",
+    "gold_text": "Die häufigsten Krankheitserreger beim Menschen sind Trichophyton rubrum (fast 60 %), Trichophyton mentagrophytes (27 %), Trichophyton verrucosum (7 %) und Trichophyton tonsurans (3 %).",
+    "corrupted": "Die häufigsten Krankheitserreger beim Menschen sind Trichophyton rubrum ( fast 60 %), Trichophyton mentagrophytes ( 27 %), Trichophyton verrucosum ( 7 %) und Trichophyton tonsurans ( 3 %).",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3244",
+    "group_start": 13,
+    "group_end": 14,
+    "group_span_text": "der Ansicht",
+    "gold_text": "Die meisten Forscher der vergleichenden Linguistik -- nicht nur die Amerikanisten -- sind der Ansicht, dass phonetische, grammatische und lexikalische Gemeinsamkeiten nach so langer Zeit nicht mehr nachweisbar sind.",
+    "corrupted": "Die meisten Forscher der vergleichenden Linguistik -- nicht nur die Amerikanisten -- sind die Ansicht, dass phonetische, grammatische und lexikalische Gemeinsamkeiten nach so langer Zeit nicht mehr nachweisbar sind.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3330",
+    "group_start": 5,
+    "group_end": 5,
+    "group_span_text": "dem",
+    "gold_text": "Gerhard von Rennenberg schenkte 1270 dem von ihm Anfang des 13.",
+    "corrupted": "Gerhard von Rennenberg schenkte 1270 den von ihm Anfang des 13.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3371",
+    "group_start": 31,
+    "group_end": 31,
+    "group_span_text": "dem",
+    "gold_text": "Dezember 1903 zum Minister für Landwirtschaft, Industrie, Handel und öffentliche Arbeiten (Ministro de Agricultura, Industria, Comercio y Obras Públicas) in seinem ersten Kabinett, dem er ein Jahr bis zum 5.",
+    "corrupted": "Dezember 1903 zum Minister für Landwirtschaft, Industrie, Handel und öffentliche Arbeiten ( Ministro de Agricultura, Industria, Comercio y Obras Públicas) in seinem ersten Kabinett, den er ein Jahr bis zum 5.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3397",
+    "group_start": 2,
+    "group_end": 6,
+    "group_span_text": "hatte seine Weltpremiere an dem",
+    "gold_text": "Der Film hatte seine Weltpremiere am 18.",
+    "corrupted": "Der Film hatte seine Weltpremiere ans 18.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3537",
+    "group_start": 0,
+    "group_end": 3,
+    "group_span_text": "Račice ( deutsch Ratschitz",
+    "gold_text": "Račice (deutsch Ratschitz) ist ein Ortsteil der Gemeinde Račice - Pístovice in Tschechien.",
+    "corrupted": "Račice (deutsches Ratschitz) ist ein Ortsteil der Gemeinde Račice - Pístovice in Tschechien.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3546",
+    "group_start": 0,
+    "group_end": 0,
+    "group_span_text": "Jahrhunderts",
+    "gold_text": "Jahrhunderts erarbeitete.",
+    "corrupted": "Jahrhunderte erarbeitete.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3549",
+    "group_start": 7,
+    "group_end": 9,
+    "group_span_text": "wurde an dem",
+    "gold_text": "Der ehrenamtliche Bürgermeister Hans - Peter Sölter wurde am 27.",
+    "corrupted": "Der ehrenamtliche Bürgermeister Hans - Peter Sölter wurde ans 27.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3564",
+    "group_start": 6,
+    "group_end": 9,
+    "group_span_text": "entstand möglicherweise in dem",
+    "gold_text": "Der spitze Rundturm im Südwesten entstand möglicherweise im 14.",
+    "corrupted": "Der spitze Rundturm im Südwesten entstand möglicherweise ins 14.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3658",
+    "group_start": 28,
+    "group_end": 29,
+    "group_span_text": "den Klöstern",
+    "gold_text": "Eine weitere Missionsreise nach Rothreußen (Dominikanerkonvent Przemyśl um 1240) wurde durch den Einfall der Goldenen Horde beendet, der nicht nur dem Land, sondern auch den Klöstern schwere Zerstörungen brachte.",
+    "corrupted": "Eine weitere Missionsreise nach Rothreußen (Dominikanerkonvent Przemyśl um 1240) wurde durch den Einfall der Goldenen Horde beendet, der nicht nur dem Land, sondern auch die Klöster schwere Zerstörungen brachte.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3791",
+    "group_start": 7,
+    "group_end": 7,
+    "group_span_text": "mehreren",
+    "gold_text": "Die Umformung selber wird in einer oder mehreren Prozessstufen durchgeführt.",
+    "corrupted": "Die Umformung selber wird in einer oder mehrere Prozessstufen durchgeführt.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3796",
+    "group_start": 7,
+    "group_end": 9,
+    "group_span_text": "diese einfacherer Form",
+    "gold_text": "Trotz realer Vielfalt wird in der Heraldik diese einfacherer Form gewählt.",
+    "corrupted": "Trotz realer Vielfalt wird in der Heraldik diese einfache Form gewählt.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3798",
+    "group_start": 1,
+    "group_end": 6,
+    "group_span_text": "liegt Langeneß allerdings näher an dem",
+    "gold_text": "Tatsächlich liegt Langeneß allerdings näher am 9.",
+    "corrupted": "Tatsächlich liegt Langeneß allerdings näher ans 9.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3876",
+    "group_start": 5,
+    "group_end": 7,
+    "group_span_text": "erhielt in dem",
+    "gold_text": "Das Eingangsportal mit seinen Säulen erhielt im 17.",
+    "corrupted": "Das Eingangsportal mit seinen Säulen erhielt ins 17.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3883",
+    "group_start": 18,
+    "group_end": 21,
+    "group_span_text": "evangelische und katholische Gottesdienste",
+    "gold_text": "Um 1685 wurde die Kirche St. Laurentius auf Verlangen der Franzosen in ein Simultaneum umgewandelt, in dem evangelische und katholische Gottesdienste gefeiert wurden.",
+    "corrupted": "Um 1685 wurde die Kirche St. Laurentius auf Verlangen der Franzosen in ein Simultaneum umgewandelt, in dem evangelischen und katholische Gottesdienste gefeiert wurden.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4149",
+    "group_start": 0,
+    "group_end": 0,
+    "group_span_text": "Jahrhunderts",
+    "gold_text": "Jahrhunderts an Christoph Ludwig von Seckendorf zu verkaufen.",
+    "corrupted": "Jahrhunderte an Christoph Ludwig von Seckendorf zu verkaufen.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4152",
+    "group_start": 3,
+    "group_end": 3,
+    "group_span_text": "welcher",
+    "gold_text": "Die Frage, welcher der beobachteten Sterne den Transit zeigt, ist Gegenstand laufender Untersuchungen (Stand Frühling 2010).",
+    "corrupted": "Die Frage, welche der beobachteten Sterne den Transit zeigt, ist Gegenstand laufender Untersuchungen (Stand Frühling 2010).",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4525",
+    "group_start": 4,
+    "group_end": 4,
+    "group_span_text": "spanisch",
+    "gold_text": "Dieser suchte nach einem spanisch sprechenden Interpreten für eine Neuaufnahme der berühmten Hymne Hasta Siempre von Carlos Puebla.",
+    "corrupted": "Dieser suchte nach einem spanische sprechenden Interpreten für eine Neuaufnahme der berühmten Hymne Hasta Siempre von Carlos Puebla.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4929",
+    "group_start": 6,
+    "group_end": 12,
+    "group_span_text": "Electus familiaris \" ( seinen lieben Vertrauten",
+    "gold_text": "1296 nenn ihn Herzog Rudolf I. Electus familiaris \"(seinen lieben Vertrauten).",
+    "corrupted": "1296 nenn ihn Herzog Rudolf I. Electus familiaris \"(seinen lieben Vertraute).",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5508",
+    "group_start": 14,
+    "group_end": 15,
+    "group_span_text": "betrieblicher Erweiterungen",
+    "gold_text": "Die einsetzenden heftigen Konkurrenzkämpfe innerhalb der chemischen Industrie -- nach Jahren florierender Produktion, betrieblicher Erweiterungen und stetiger Wachstumszahlen -- gingen nicht spurlos an seiner Gesundheit vorbei und verstärkten sein mittlerweile chronisches Lungenleiden.",
+    "corrupted": "Die einsetzenden heftigen Konkurrenzkämpfe innerhalb der chemischen Industrie -- nach Jahren florierender Produktion, betriebliche Erweiterungen und stetiger Wachstumszahlen -- gingen nicht spurlos an seiner Gesundheit vorbei und verstärkten sein mittlerweile chronisches Lungenleiden.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5542",
+    "group_start": 8,
+    "group_end": 10,
+    "group_span_text": "dem gemeinsamen Sohn",
+    "gold_text": "Diesem gelang es auch nicht, ihr und dem gemeinsamen Sohn einen russischen Adelstitel zu verschaffen.",
+    "corrupted": "Diesem gelang es auch nicht, ihr und den gemeinsamen Sohn einen russischen Adelstitel zu verschaffen.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5895",
+    "group_start": 21,
+    "group_end": 24,
+    "group_span_text": "kürt sich zu dem",
+    "gold_text": "Beim Austria Triathlon wird die österreichische Staatsmeisterschaft im Langdistanz - Triathlon ausgetragen, der erste Österreicher im Ziel kürt sich zum Staatsmeister.",
+    "corrupted": "Beim Austria Triathlon wird die österreichische Staatsmeisterschaft im Langdistanz - Triathlon ausgetragen, der erste Österreicher im Ziel kürt sich zu den Staatsmeister.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5931",
+    "group_start": 1,
+    "group_end": 1,
+    "group_span_text": "der",
+    "gold_text": "In der von Martin Luther in seinen beiden Katechismen (1529) gewählten Reihenfolge stehen der Dekalog vor dem Symbolum und das Vaterunser vor den zwei Sakramenten.",
+    "corrupted": "In die von Martin Luther in seinen beiden Katechismen (1529) gewählten Reihenfolge stehen der Dekalog vor dem Symbolum und das Vaterunser vor den zwei Sakramenten.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6613",
+    "group_start": 17,
+    "group_end": 17,
+    "group_span_text": "der",
+    "gold_text": "1474 verkaufte das Kloster Sinsheim die Niederlassung in St. Ilgen an Kurfürst Friedrich von der Pfalz, der sie zwei Jahre später dem Dominikanerkloster Heidelberg schenkte.",
+    "corrupted": "1474 verkaufte das Kloster Sinsheim die Niederlassung in St. Ilgen an Kurfürst Friedrich von der Pfalz, die sie zwei Jahre später dem Dominikanerkloster Heidelberg schenkte.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6686",
+    "group_start": 18,
+    "group_end": 25,
+    "group_span_text": "aufschöben ( der sogenannte \" Tempo - Effekt",
+    "gold_text": "Dieser unterschätze wiederum die endgültige Kinderzahl, wenn Frauen die Geburt ihrer Kinder in ein immer höheres Alter aufschöben (der sogenannte \"Tempo - Effekt\"), was in Deutschland der Fall ist.",
+    "corrupted": "Dieser unterschätze wiederum die endgültige Kinderzahl, wenn Frauen die Geburt ihrer Kinder in ein immer höheres Alter aufschöben (den sogenannten \"Tempo - Effekt\"), was in Deutschland der Fall ist.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7170",
+    "group_start": 6,
+    "group_end": 8,
+    "group_span_text": "hob an dem",
+    "gold_text": "Aero Asia wurde 1993 gegründet und hob am 4.",
+    "corrupted": "Aero Asia wurde 1993 gegründet und hob ans 4.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7694",
+    "group_start": 13,
+    "group_end": 14,
+    "group_span_text": "weiteren Aktionären",
+    "gold_text": "Das Unternehmen befindet sich mehrheitlich im Besitz der Tessiner Familie Resinelli sowie weiteren Aktionären aus dem Raum Bellinzona.",
+    "corrupted": "Das Unternehmen befindet sich mehrheitlich im Besitz der Tessiner Familie Resinelli sowie weitere Aktionäre aus dem Raum Bellinzona.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7852",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "größerer Bedeutung",
+    "gold_text": "Umso größerer Bedeutung wurde daher dem aktuellen, auf zwei Jahre angelegten LfM - Projekt zum Qualitätsmanagement Bürgerfunk (QMB) beigemessen.",
+    "corrupted": "Umso große Bedeutung wurde daher dem aktuellen, auf zwei Jahre angelegten LfM - Projekt zum Qualitätsmanagement Bürgerfunk ( QMB) beigemessen.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7928",
+    "group_start": 21,
+    "group_end": 22,
+    "group_span_text": "der Chancengleichheit",
+    "gold_text": "Für ihn bedeutet Männerpolitik (en) die Anerkennung der Gleichwertigkeit der Geschlechter als Prämisse, der Gleichberechtigung als Bedingung, der Chancengleichheit als Vision und des Geschlechterdialogs auf Augenhöhe.",
+    "corrupted": "Für ihn bedeutet Männerpolitik (en) die Anerkennung der Gleichwertigkeit der Geschlechter als Prämisse, der Gleichberechtigung als Bedingung, die Chancengleichheit als Vision und des Geschlechterdialogs auf Augenhöhe.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7987",
+    "group_start": 18,
+    "group_end": 21,
+    "group_span_text": "dem Kaiser zu erheben",
+    "gold_text": ", der vielleicht sogar Latein bei Avitus gelernt hatte, drängte diesen nun angeblich dazu, sich zum Kaiser zu erheben, und versprach die Unterstützung seines Volkes.",
+    "corrupted": ", der vielleicht sogar Latein bei Avitus gelernt hatte, drängte diesen nun angeblich dazu, sich zu den Kaiser zu erheben, und versprach die Unterstützung seines Volkes.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8108",
+    "group_start": 12,
+    "group_end": 13,
+    "group_span_text": "dieser Bereich",
+    "gold_text": "Lediglich die Vorschriften über die Freistellung der Helfer haben noch Fortgeltung bis dieser Bereich jeweils landesrechtlich geregelt ist.",
+    "corrupted": "Lediglich die Vorschriften über die Freistellung der Helfer haben noch Fortgeltung bis diese Bereich jeweils landesrechtlich geregelt ist.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8116",
+    "group_start": 15,
+    "group_end": 21,
+    "group_span_text": "des Schlüterhofs, einem der beiden Schlosshöfe",
+    "gold_text": "Festgelegt wurden schon 2002 der Wiederaufbau der Nord -, West - und Südfassade sowie des Schlüterhofs, einem der beiden Schlosshöfe.",
+    "corrupted": "Festgelegt wurden schon 2002 der Wiederaufbau der Nord -, West - und Südfassade sowie des Schlüterhofs, einen der beiden Schlosshöfe.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8576",
+    "group_start": 16,
+    "group_end": 20,
+    "group_span_text": "dem Abschluss und Druck brachte",
+    "gold_text": "Ein Unternehmen, welches sein Schwiegersohn Frantisek Ladislav (Franz Ladislaus) Freiherr von Rieger zum Abschluss und Druck brachte.",
+    "corrupted": "Ein Unternehmen, welches sein Schwiegersohn Frantisek Ladislav ( Franz Ladislaus) Freiherr von Rieger zu den Abschluss und Druck brachte.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8642",
+    "group_start": 23,
+    "group_end": 26,
+    "group_span_text": "den Anforderungen zeitgenössischer Ausstellungen",
+    "gold_text": "Die Vorgabe hierfür war, den alten Glanz des Gebäudes zu erhalten und es gleichzeitig auf den neuesten Stand zu bringen, um den Anforderungen zeitgenössischer Ausstellungen gerecht zu werden.",
+    "corrupted": "Die Vorgabe hierfür war, den alten Glanz des Gebäudes zu erhalten und es gleichzeitig auf den neuesten Stand zu bringen, um die Anforderungen zeitgenössischer Ausstellungen gerecht zu werden.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9005",
+    "group_start": 0,
+    "group_end": 0,
+    "group_span_text": "Jahrhunderts",
+    "gold_text": "Jahrhunderts wurde die Marke von 2 Millionen Einwohnern überschritten, und wenige Jahre vor der Wirtschaftskrise 1929 erreichte die Stadt eine Bevölkerungszahl von 3 Millionen Einwohnern.",
+    "corrupted": "Jahrhunderte wurde die Marke von 2 Millionen Einwohnern überschritten, und wenige Jahre vor der Wirtschaftskrise 1929 erreichte die Stadt eine Bevölkerungszahl von 3 Millionen Einwohnern.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9624",
+    "group_start": 25,
+    "group_end": 29,
+    "group_span_text": "den Parlamentarischen Staatssekretär Karl Ravens",
+    "gold_text": "Er selbst nannte neben Wehner als Anwesende Finanzminister Helmut Schmidt, den SPD - Schatzmeister Alfred Nau, den SPD - Bundesgeschäftsführer Holger Börner und den Parlamentarischen Staatssekretär Karl Ravens.",
+    "corrupted": "Er selbst nannte neben Wehner als Anwesende Finanzminister Helmut Schmidt, den SPD - Schatzmeister Alfred Nau, den SPD - Bundesgeschäftsführer Holger Börner und die Parlamentarischen Staatssekretär Karl Ravens.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9839",
+    "group_start": 6,
+    "group_end": 7,
+    "group_span_text": "neuen Alben",
+    "gold_text": "Bis 1990 erschienen im Jahresrhythmus neuen Alben.",
+    "corrupted": "Bis 1990 erschienen im Jahresrhythmus neues Album.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9898",
+    "group_start": 0,
+    "group_end": 0,
+    "group_span_text": "Jahren",
+    "gold_text": "Jahren definiert, das anschließende Eruptionsalter der Crown - Lava - Formation wird mit 2,91 Mrd.",
+    "corrupted": "Jahre definiert, das anschließende Eruptionsalter der Crown - Lava - Formation wird mit 2,91 Mrd.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10187",
+    "group_start": 7,
+    "group_end": 10,
+    "group_span_text": "nahm es an dem",
+    "gold_text": "Den Namen, Apostolisches Vikariat Nordgansu, nahm es am 28.",
+    "corrupted": "Den Namen, Apostolisches Vikariat Nordgansu, nahm es ans 28.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10315",
+    "group_start": 1,
+    "group_end": 6,
+    "group_span_text": "wurde das Album zuerst an dem",
+    "gold_text": "Letztlich wurde das Album zuerst am 30.",
+    "corrupted": "Letztlich wurde das Album zuerst ans 30.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10454",
+    "group_start": 2,
+    "group_end": 2,
+    "group_span_text": "späten",
+    "gold_text": "In den späten fünfziger und beginnenden sechziger Jahren wurde das Cuarteto auch in der Stadt langsam vom Publikum angenommen.",
+    "corrupted": "In den späteren fünfziger und beginnenden sechziger Jahren wurde das Cuarteto auch in der Stadt langsam vom Publikum angenommen.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10878",
+    "group_start": 19,
+    "group_end": 21,
+    "group_span_text": "der evangelischen Kirche",
+    "gold_text": "Unter Wiederverwendung von Teilen der alten Haerpfer - Orgel, sowie der Orgeln der evangelischen Kirche in Saarlouis, der evangelischen Kirche in Bad Schwalbach / Taunus und weiterer Orgeln wurde von dem Orgelbauer Thomas Gaida (Wemmetsweiler) im Zeitraum von Februar 2001 bis Juli 2002 ein neues Instrument erbaut, das über 35 Register verfügt, die auf zwei Manuale und Pedal verteilt sind.",
+    "corrupted": "Unter Wiederverwendung von Teilen der alten Haerpfer - Orgel, sowie der Orgeln der evangelischen Kirche in Saarlouis, die evangelische Kirche in Bad Schwalbach / Taunus und weiterer Orgeln wurde von dem Orgelbauer Thomas Gaida (Wemmetsweiler) im Zeitraum von Februar 2001 bis Juli 2002 ein neues Instrument erbaut, das über 35 Register verfügt, die auf zwei Manuale und Pedal verteilt sind.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10894",
+    "group_start": 14,
+    "group_end": 17,
+    "group_span_text": "diesem ein wesentliches Anliegen",
+    "gold_text": "Die Sicherung des ungeteilten Fortbestandes des durch Fürst Johann Anton wesentlich erweiterten Familienbesitzes war diesem ein wesentliches Anliegen, um den Rang des Hauses ungeschmälert wahren zu können.",
+    "corrupted": "Die Sicherung des ungeteilten Fortbestandes des durch Fürst Johann Anton wesentlich erweiterten Familienbesitzes war diesen ein wesentliches Anliegen, um den Rang des Hauses ungeschmälert wahren zu können.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11054",
+    "group_start": 1,
+    "group_end": 9,
+    "group_span_text": "krönte danach seinen Bruder ein zweites Mal zu dem",
+    "gold_text": "Sava krönte danach seinen Bruder ein zweites Mal zum König, diesmal nach orthodoxem Ritus.",
+    "corrupted": "Sava krönte danach seinen Bruder ein zweites Mal zu den König, diesmal nach orthodoxem Ritus.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11085",
+    "group_start": 11,
+    "group_end": 12,
+    "group_span_text": "neueren Sprachen",
+    "gold_text": "Er gehörte als Student (Studium der Geschichte, Germanistik und neueren Sprachen an der Universität Gießen) der \"Landsmannschaft Chattia Gießen\" an und war schon im Wilhelminischen Reich ein radikaler Antisemit.",
+    "corrupted": "Er gehörte als Student (Studium der Geschichte, Germanistik und neue Sprachen an der Universität Gießen) der \"Landsmannschaft Chattia Gießen\" an und war schon im Wilhelminischen Reich ein radikaler Antisemit.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11088",
+    "group_start": 3,
+    "group_end": 4,
+    "group_span_text": "1500 Mitarbeitern",
+    "gold_text": "800 Betten und 1500 Mitarbeitern, 21 Kliniken und Abteilungen, zudem kommen zwei Belegabteilungen, das Institut für Radiologie und das Institut für Laboratoriumsdiagnostik hinzu.",
+    "corrupted": "800 Betten und 1500 Mitarbeiter, 21 Kliniken und Abteilungen, zudem kommen zwei Belegabteilungen, das Institut für Radiologie und das Institut für Laboratoriumsdiagnostik hinzu.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11318",
+    "group_start": 11,
+    "group_end": 12,
+    "group_span_text": "einer Vertrags",
+    "gold_text": "Diese Aufgabe wird von zivilen oder militärischen Organisationen eines Landes oder einer Vertrags - oder Staatengemeinschaft wahrgenommen.",
+    "corrupted": "Diese Aufgabe wird von zivilen oder militärischen Organisationen eines Landes oder eine Vertrags - oder Staatengemeinschaft wahrgenommen.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11621",
+    "group_start": 12,
+    "group_end": 15,
+    "group_span_text": "der zwei relevanten Spulenabschnitte",
+    "gold_text": "In der nebenstehenden Animation ist ausschließlich die Verschiebung des Leiters (oder der zwei relevanten Spulenabschnitte) quer senkrecht zum Magnetfeld relevant.",
+    "corrupted": "In der nebenstehenden Animation ist ausschließlich die Verschiebung des Leiters ( oder die zwei relevanten Spulenabschnitte) quer senkrecht zum Magnetfeld relevant.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11762",
+    "group_start": 10,
+    "group_end": 13,
+    "group_span_text": "wurde es an dem",
+    "gold_text": "Erst nachdem das Gerät zum Patent angemeldet war, wurde es am 14.",
+    "corrupted": "Erst nachdem das Gerät zum Patent angemeldet war, wurde es ans 14.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11855",
+    "group_start": 5,
+    "group_end": 10,
+    "group_span_text": "machten das Paar schnell zu der",
+    "gold_text": "Zwei Töchter und ein Sohn machten das Paar schnell zur Familie, die es zu ernähren galt.",
+    "corrupted": "Zwei Töchter und ein Sohn machten das Paar schnell zu die Familie, die es zu ernähren galt.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11962",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "den Annales",
+    "gold_text": "Der Historia Brittonum und den Annales Cambriae folgend fiel auch Pendas Bruder Eowa bei dieser Schlacht.",
+    "corrupted": "Der Historia Brittonum und die Annales Cambriae folgend fiel auch Pendas Bruder Eowa bei dieser Schlacht.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11968",
+    "group_start": 5,
+    "group_end": 6,
+    "group_span_text": "einer Kirche",
+    "gold_text": "Nebst Überresten diverser Häuser, einer Kirche und Moscheen sowie dem Wehrturm am oberen Ende gibt es noch ein türkisches Bad und eine Tekke der Bektaschi am unteren Ende zu besichtigen.",
+    "corrupted": "Nebst Überresten diverser Häuser, eine Kirche und Moscheen sowie dem Wehrturm am oberen Ende gibt es noch ein türkisches Bad und eine Tekke der Bektaschi am unteren Ende zu besichtigen.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12318",
+    "group_start": 28,
+    "group_end": 31,
+    "group_span_text": "der Feiern zu der",
+    "gold_text": "1992-1995 wurde das Cinematograph - Kino zur Austragungsstätte des America Film Festival, das unter dem Eindruck der internationalen Feiern zum \"Columbusjahr\" 1992, der Feiern zur 500.",
+    "corrupted": "1992-1995 wurde das Cinematograph - Kino zur Austragungsstätte des America Film Festival, das unter dem Eindruck der internationalen Feiern zum \" Columbusjahr \" 1992, der Feiern zu die 500.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12332",
+    "group_start": 1,
+    "group_end": 6,
+    "group_span_text": "machte zuerst eine Ausbildung zu dem",
+    "gold_text": "Er machte zuerst eine Ausbildung zum Industriekaufmann und besuchte später in Stuttgart eine Schauspielschule.",
+    "corrupted": "Er machte zuerst eine Ausbildung zu den Industriekaufmann und besuchte später in Stuttgart eine Schauspielschule.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12370",
+    "group_start": 8,
+    "group_end": 13,
+    "group_span_text": "der nun 29 - jährige Frenzel",
+    "gold_text": "Von der Saison 1971 / 72 an wechselte der nun 29 - jährige Frenzel vom Angriff in das Mittelfeld.",
+    "corrupted": "Von der Saison 1971 / 72 an wechselte die nun 29 - jährige Frenzel vom Angriff in das Mittelfeld.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12382",
+    "group_start": 0,
+    "group_end": 1,
+    "group_span_text": "1000 Jahren",
+    "gold_text": "1000 Jahren wird das Sternsystem ins benachbarte Sternbild Tukan hinüberwechseln.",
+    "corrupted": "1000 Jahre wird das Sternsystem ins benachbarte Sternbild Tukan hinüberwechseln.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12443",
+    "group_start": 17,
+    "group_end": 20,
+    "group_span_text": "dass er an dem",
+    "gold_text": "Von ihm zu verantwortende Verfahrensverzögerungen führten dazu, dass erst im September 2008 bekannt wurde, dass er am 5.",
+    "corrupted": "Von ihm zu verantwortende Verfahrensverzögerungen führten dazu, dass erst im September 2008 bekannt wurde, dass er ans 5.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12449",
+    "group_start": 10,
+    "group_end": 12,
+    "group_span_text": "erfolgte an dem",
+    "gold_text": "Die Vereidigung der neuen Stadtverwaltung, nun Magistrat genannt, erfolgte am 8.",
+    "corrupted": "Die Vereidigung der neuen Stadtverwaltung, nun Magistrat genannt, erfolgte ans 8.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12857",
+    "group_start": 8,
+    "group_end": 8,
+    "group_span_text": "Verbunden",
+    "gold_text": "Bruno Pezzey blieb allerdings weiterhin mit dem Fußball Verbunden, vom ÖFB wurde ihm die Leitung der Nachwuchsarbeit übergeben.",
+    "corrupted": "Bruno Pezzey blieb allerdings weiterhin mit dem Fußball Verbundenen, vom ÖFB wurde ihm die Leitung der Nachwuchsarbeit übergeben.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12953",
+    "group_start": 10,
+    "group_end": 14,
+    "group_span_text": "machte sich selbst zu dem",
+    "gold_text": "Er ignorierte die Rechte der ersten Entdecker und Eroberer und machte sich selbst zum Herren über das Land.",
+    "corrupted": "Er ignorierte die Rechte der ersten Entdecker und Eroberer und machte sich selbst zu das Herren über das Land.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13281",
+    "group_start": 20,
+    "group_end": 22,
+    "group_span_text": "rückte an dem",
+    "gold_text": "Napoleon, der über zu wenig Kavallerie für die Aufklärung verfügte, vermutete die Hauptkräfte der Verbündeten bei Leipzig und rückte am 2.",
+    "corrupted": "Napoleon, der über zu wenig Kavallerie für die Aufklärung verfügte, vermutete die Hauptkräfte der Verbündeten bei Leipzig und rückte ans 2.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13406",
+    "group_start": 9,
+    "group_end": 12,
+    "group_span_text": "debütierte er an dem",
+    "gold_text": "Beim 1:1 - Unentschieden gegen eine südafrikanische Auswahl debütierte er am 22.",
+    "corrupted": "Beim 1:1 - Unentschieden gegen eine südafrikanische Auswahl debütierte er ans 22.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13996",
+    "group_start": 7,
+    "group_end": 7,
+    "group_span_text": "zweiter",
+    "gold_text": "Mika Häkkinen war nach der ersten Runde zweiter, vor Heinz - Harald Frentzen und Ralf Schumacher.",
+    "corrupted": "Mika Häkkinen war nach der ersten Runde zweite, vor Heinz - Harald Frentzen und Ralf Schumacher.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s14093",
+    "group_start": 1,
+    "group_end": 8,
+    "group_span_text": "verbesserte die damals verwendeten mechanischen Webstühle zu dem",
+    "gold_text": "Er verbesserte die damals verwendeten mechanischen Webstühle zum bekannten \"Honegger - Webstuhl\" und wurde als \"Weberkönig\" bekannt.",
+    "corrupted": "Er verbesserte die damals verwendeten mechanischen Webstühle zu das bekannten \" Honegger - Webstuhl \" und wurde als \" Weberkönig \" bekannt.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "dev",
+    "sent_id": "dev-s192",
+    "group_start": 2,
+    "group_end": 2,
+    "group_span_text": "ihr",
+    "gold_text": "Gleich wenn ihr das Studio betretet findet Ihr ein tolles Ambiente mit neuen Ledercouches, einer tollen Theke, passenden Tischchen mit aufwendiger Deko und schöne leuchtende Farben vor!",
+    "corrupted": "Gleich wenn sie das Studio betretet findet Ihr ein tolles Ambiente mit neuen Ledercouches, einer tollen Theke, passenden Tischchen mit aufwendiger Deko und schöne leuchtende Farben vor!",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s514",
+    "group_start": 18,
+    "group_end": 18,
+    "group_span_text": "Männern",
+    "gold_text": "Sagen Sie, daß Sie sich das nicht mehr gefallen lassen'', ruft er den Frauen und Männern zu.",
+    "corrupted": "Sagen Sie, daß Sie sich das nicht mehr gefallen lassen'', ruft er den Frauen und Männer zu.",
+    "dative_type": "other_dative"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s774",
+    "group_start": 0,
+    "group_end": 1,
+    "group_span_text": "Einem Umstand",
+    "gold_text": "Einem Umstand, dem Wüstenrot-Geschäftsführer Otto Schäfer allerdings nicht zu große Bedeutung beigemessen haben möchte.",
+    "corrupted": "Einen Umstand, dem Wüstenrot-Geschäftsführer Otto Schäfer allerdings nicht zu große Bedeutung beigemessen haben möchte.",
+    "dative_type": "other_dative"
+  }
+]
