@@ -371,16 +371,6 @@
   },
   {
     "split": "train",
-    "sent_id": "train-s1549",
-    "group_start": 11,
-    "group_end": 16,
-    "group_span_text": "dem Aus - oder Umschalten abzuhalten",
-    "gold_text": "Der Hauptzweck fast jeder Fernsehsendung besteht darin, den Zuschauer vom Aus- oder Umschalten abzuhalten.",
-    "corrupted": "Der Hauptzweck fast jeder Fernsehsendung besteht darin, den Zuschauer von den Aus- oder Umschalten abzuhalten.",
-    "dative_type": "dative_prep_von"
-  },
-  {
-    "split": "train",
     "sent_id": "train-s1566",
     "group_start": 9,
     "group_end": 10,
@@ -624,7 +614,7 @@
     "sent_id": "train-s2060",
     "group_start": 14,
     "group_end": 18,
-    "group_span_text": "der Herstellung des `` Eurofighters",
+    "group_span_text": "der Herstellung des ``Eurofighters",
     "gold_text": "Die Bundesregierung halte auch weiter an ihrer Forderung fest, mit 30 Prozent von der Herstellung des ``Eurofighters'' zu profitieren.",
     "corrupted": "Die Bundesregierung halte auch weiter an ihrer Forderung fest, mit 30 Prozent von die Herstellung des ``Eurofighters'' zu profitieren.",
     "dative_type": "dative_prep_von"
@@ -664,7 +654,7 @@
     "sent_id": "train-s2173",
     "group_start": 6,
     "group_end": 10,
-    "group_span_text": "Kampfflugzeugen ( ECR - Tornados",
+    "group_span_text": "Kampfflugzeugen (ECR-Tornados",
     "gold_text": "``Das schließt den Einsatz von Kampfflugzeugen (ECR-Tornados) aus'', heißt es dazu in einer ergänzenden Formulierung, die der neue Parteichef Oskar Lafontaine durchgesetzt hat.",
     "corrupted": "``Das schließt den Einsatz von Kampfflugzeuge (ECR-Tornados) aus'', heißt es dazu in einer ergänzenden Formulierung, die der neue Parteichef Oskar Lafontaine durchgesetzt hat.",
     "dative_type": "dative_prep_von"
@@ -764,7 +754,7 @@
     "sent_id": "train-s2299",
     "group_start": 40,
     "group_end": 45,
-    "group_span_text": "ihrem meist erfreulich klar definierten Ausgangspunkt",
+    "group_span_text": "ihrem definierten Ausgangspunkt",
     "gold_text": "Im Zusammenwirken mit anderen stilistischen Eigenheiten: sperrigen Parenthesen, überflüssigen Reihungen, Parallelismen, mehrfachen Attribuierungen, führt die Tendenz zur Metaphorisierung zu einer 'Poetisierung' des Themas, wodurch sich die Texte fast zwangsläufig von ihrem meist erfreulich klar definierten Ausgangspunkt entfernen.",
     "corrupted": "Im Zusammenwirken mit anderen stilistischen Eigenheiten: sperrigen Parenthesen, überflüssigen Reihungen, Parallelismen, mehrfachen Attribuierungen, führt die Tendenz zur Metaphorisierung zu einer' Poetisierung' des Themas, wodurch sich die Texte fast zwangsläufig von ihren meist erfreulich klar definierten Ausgangspunkt entfernen.",
     "dative_type": "dative_prep_von"
@@ -1034,7 +1024,7 @@
     "sent_id": "train-s2804",
     "group_start": 14,
     "group_end": 20,
-    "group_span_text": "betrieblichen Immobilien ( engl. corporate real estate",
+    "group_span_text": "betrieblichen Immobilien (engl. corporate real estate",
     "gold_text": "Betriebliches Immobilienmanagement bezeichnet die erfolgs - und wertorientierte Beschaffung, Verwaltung und Vermarktung von betrieblichen Immobilien (engl. corporate real estate).",
     "corrupted": "Betriebliches Immobilienmanagement bezeichnet die erfolgs - und wertorientierte Beschaffung, Verwaltung und Vermarktung von betriebliche Immobilien (engl. corporate real estate).",
     "dative_type": "dative_prep_von"
@@ -1274,7 +1264,7 @@
     "sent_id": "train-s3110",
     "group_start": 7,
     "group_end": 10,
-    "group_span_text": "US - amerikanischen Truppen",
+    "group_span_text": "US amerikanischen Truppen",
     "gold_text": "Im März 1945 wurde Simmern von US - amerikanischen Truppen besetzt, wurde dann mit der Pfalz der französischen Besatzungszone zugeschlagen und gehört seit 1946 dem Land Rheinland - Pfalz an.",
     "corrupted": "Im März 1945 wurde Simmern von US - amerikanische Truppen besetzt, wurde dann mit der Pfalz der französischen Besatzungszone zugeschlagen und gehört seit 1946 dem Land Rheinland - Pfalz an.",
     "dative_type": "dative_prep_von"
@@ -1307,6 +1297,16 @@
     "group_span_text": "der Hölle",
     "gold_text": "Vor seinem Abschied von der Hölle spielt Schwanda den Teufeln einen Gruß und kehrt dann geheilt von seiner Abenteuerlust zufrieden zu seiner Dorota in sein Heim zurück.",
     "corrupted": "Vor seinem Abschied von die Hölle spielt Schwanda den Teufeln einen Gruß und kehrt dann geheilt von seiner Abenteuerlust zufrieden zu seiner Dorota in sein Heim zurück.",
+    "dative_type": "dative_prep_von"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3259",
+    "group_start": 14,
+    "group_end": 22,
+    "group_span_text": "der fachlichen Qualität und dem gesellschaftlichen Wert ihrer Forschungen",
+    "gold_text": "Diese präsentieren ihre Ergebnisse mündlich vor den Juroren des Wettbewerbs, um diese von der fachlichen Qualität und dem gesellschaftlichen Wert ihrer Forschungen zu überzeugen.",
+    "corrupted": "Diese präsentieren ihre Ergebnisse mündlich vor den Juroren des Wettbewerbs, um diese von die fachliche Qualität und dem gesellschaftlichen Wert ihrer Forschungen zu überzeugen.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -1533,10 +1533,10 @@
     "split": "train",
     "sent_id": "train-s3584",
     "group_start": 7,
-    "group_end": 15,
-    "group_span_text": "den beiden Geschäftsführern Michaela Hueber und Wolf Dieter Eggert",
+    "group_end": 11,
+    "group_span_text": "den beiden Geschäftsführern Michaela Hueber",
     "gold_text": "Die Leitung von Verlag und Auslieferung obliegt den beiden Geschäftsführern Michaela Hueber und Wolf Dieter Eggert.",
-    "corrupted": "Die Leitung von Verlag und Auslieferung obliegt die beiden Geschäftsführer Michaela Hueber und Wolf Dieter Eggert.",
+    "corrupted": "Die Leitung von Verlag und Auslieferung obliegt die beide Geschäftsführer Michaela Hueber und Wolf Dieter Eggert.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -1724,7 +1724,7 @@
     "sent_id": "train-s3855",
     "group_start": 7,
     "group_end": 12,
-    "group_span_text": "dem März bis November eines Jahres",
+    "group_span_text": "dem März eines Jahres",
     "gold_text": "Der Roman handelt in einem Alpendorf vom März bis November eines Jahres -- etwa zehn Jahre nach dem Ende des Ersten Weltkrieges.",
     "corrupted": "Der Roman handelt in einem Alpendorf von den März bis November eines Jahres -- etwa zehn Jahre nach dem Ende des Ersten Weltkrieges.",
     "dative_type": "dative_prep_von"
@@ -1976,7 +1976,7 @@
     "group_end": 10,
     "group_span_text": "anderen sozialen Einrichtungen",
     "gold_text": "Sie ist Trägerin von Krankenhäusern, Altenheimen und anderen sozialen Einrichtungen.",
-    "corrupted": "Sie ist Trägerin von Krankenhäusern, Altenheimen und andere sozialen Einrichtungen.",
+    "corrupted": "Sie ist Trägerin von Krankenhäusern, Altenheimen und andere soziale Einrichtungen.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -2444,7 +2444,7 @@
     "sent_id": "train-s5293",
     "group_start": 4,
     "group_end": 11,
-    "group_span_text": "dem Leiter des Erzbischöflichen Bauamtes, Ludwig Maier",
+    "group_span_text": "dem Leiter des Erzbischöflichen Bauamtes Ludwig Maier",
     "gold_text": "Der Bau wurde vom Leiter des Erzbischöflichen Bauamtes, Ludwig Maier geplant, der in Heidelberg auch für St. Bonifatius in der Weststadt und St. Peter in Kirchheim verantwortlich war.",
     "corrupted": "Der Bau wurde von den Leiter des Erzbischöflichen Bauamtes, Ludwig Maier geplant, der in Heidelberg auch für St. Bonifatius in der Weststadt und St. Peter in Kirchheim verantwortlich war.",
     "dative_type": "dative_prep_von"
@@ -2561,6 +2561,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s5686",
+    "group_start": 11,
+    "group_end": 25,
+    "group_span_text": "den beiden Höfen Surakartas dem Königshof",
+    "gold_text": "Geschichtlich umfasst das Gebiet Solo Raya annähernd alle Ländereien die von den beiden Höfen Surakartas bis zur Unabhängigkeit Indonesiens 1945 beherrscht wurden, dem Königshof Kasunahan und dem Fürstenhof Mangkunegaren.",
+    "corrupted": "Geschichtlich umfasst das Gebiet Solo Raya annähernd alle Ländereien die von die beide Höfe Surakartas bis zur Unabhängigkeit Indonesiens 1945 beherrscht wurden, den Königshof Kasunahan und dem Fürstenhof Mangkunegaren.",
+    "dative_type": "dative_prep_von"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s5706",
     "group_start": 4,
     "group_end": 4,
@@ -2607,16 +2617,6 @@
     "group_span_text": "fünf Kilometern",
     "gold_text": "Die Insel soll ziemlich bergig gewesen sein, mit einer Länge von etwa acht und einer Breite von fünf Kilometern (heute nur noch 1,7 km²).",
     "corrupted": "Die Insel soll ziemlich bergig gewesen sein, mit einer Länge von etwa acht und einer Breite von fünf Kilometer (heute nur noch 1,7 km²).",
-    "dative_type": "dative_prep_von"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s5733",
-    "group_start": 0,
-    "group_end": 26,
-    "group_span_text": "Die Insel soll ziemlich bergig gewesen sein, mit einer Länge von etwa acht und einer Breite von fünf Kilometern ( heute nur noch 1,7 km ²",
-    "gold_text": "Die Insel soll ziemlich bergig gewesen sein, mit einer Länge von etwa acht und einer Breite von fünf Kilometern (heute nur noch 1,7 km²).",
-    "corrupted": "Die Insel soll ziemlich bergig gewesen sein, mit eine Länge von etwa acht und eine Breite von fünf Kilometer (heute nur noch 1,7 km²).",
     "dative_type": "dative_prep_von"
   },
   {
@@ -2851,6 +2851,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s6233",
+    "group_start": 7,
+    "group_end": 13,
+    "group_span_text": "den Bauten und architekturtheoretischen Schriften Andrea Palladios",
+    "gold_text": "Als Architekt war Knobelsdorff stark beeinflusst von den Bauten und architekturtheoretischen Schriften Andrea Palladios.",
+    "corrupted": "Als Architekt war Knobelsdorff stark beeinflusst von die Bauten und architekturtheoretischen Schriften Andrea Palladios.",
+    "dative_type": "dative_prep_von"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s6259",
     "group_start": 4,
     "group_end": 6,
@@ -2874,7 +2884,7 @@
     "sent_id": "train-s6262",
     "group_start": 16,
     "group_end": 22,
-    "group_span_text": "dem späteren US - Präsidenten Barack Obama",
+    "group_span_text": "dem späteren US Präsidenten Barack Obama",
     "gold_text": "Der Republikaner Kirk gewann im November 2010 die Nachwahl um das bis Ende 2008 vom späteren US - Präsidenten Barack Obama gehaltene Mandat und trat daraufhin die Nachfolge des vom ehemaligen Gouverneur Rod Blagojevich unter zweifelhaften Begleitumständen ernannten Senators Roland Burris an.",
     "corrupted": "Der Republikaner Kirk gewann im November 2010 die Nachwahl um das bis Ende 2008 von den späteren US - Präsidenten Barack Obama gehaltene Mandat und trat daraufhin die Nachfolge des vom ehemaligen Gouverneur Rod Blagojevich unter zweifelhaften Begleitumständen ernannten Senators Roland Burris an.",
     "dative_type": "dative_prep_von"
@@ -3004,7 +3014,7 @@
     "sent_id": "train-s6487",
     "group_start": 22,
     "group_end": 27,
-    "group_span_text": "64 Byte ( 14 Byte Header",
+    "group_span_text": "64 Byte (14 Byte Header",
     "gold_text": "Bei einer Übertragungsrate von 10 Mbit / s und einer maximalen Entfernung von 2,5 km zwischen zwei Stationen ist eine Mindestlänge von 64 Byte (14 Byte Header, 46 Byte Nutzdaten, 4 Byte CRC) vorgeschrieben.",
     "corrupted": "Bei einer Übertragungsrate von 10 Mbit / s und einer maximalen Entfernung von 2,5 km zwischen zwei Stationen ist eine Mindestlänge von 64 Bytes (14 Byte Header, 46 Byte Nutzdaten, 4 Byte CRC) vorgeschrieben.",
     "dative_type": "dative_prep_von"
@@ -3154,9 +3164,9 @@
     "sent_id": "train-s6666",
     "group_start": 12,
     "group_end": 19,
-    "group_span_text": "Schiffen für die Kriegsmarine ( vor allem Zerstörer",
+    "group_span_text": "Schiffen Zerstörer",
     "gold_text": "Ab 1935 erhielt das Unternehmen dann umfangreiche Aufträge zum Bau von Schiffen für die Kriegsmarine (vor allem Zerstörer und U - Boote), so dass die Produktion bis 1939 komplett auf den Kriegsschiffbau umgestellt wurde.",
-    "corrupted": "Ab 1935 erhielt das Unternehmen dann umfangreiche Aufträge zum Bau von Schiffe für die Kriegsmarine ( vor alles Zerstörer und U - Boote), so dass die Produktion bis 1939 komplett auf den Kriegsschiffbau umgestellt wurde.",
+    "corrupted": "Ab 1935 erhielt das Unternehmen dann umfangreiche Aufträge zum Bau von Schiffe für die Kriegsmarine ( vor allem Zerstörer und U - Boote), so dass die Produktion bis 1939 komplett auf den Kriegsschiffbau umgestellt wurde.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -3275,16 +3285,6 @@
     "group_start": 7,
     "group_end": 7,
     "group_span_text": "Wörtern",
-    "gold_text": "Des Weiteren kann auch das Weglassen von Wörtern (Ellipse) einer Beschönigung oder Milderung dienen.",
-    "corrupted": "Des Weiteren kann auch das Weglassen von Worte (Ellipse) einer Beschönigung oder Milderung dienen.",
-    "dative_type": "dative_prep_von"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s6980",
-    "group_start": 4,
-    "group_end": 9,
-    "group_span_text": "das Weglassen von Wörtern ( Ellipse",
     "gold_text": "Des Weiteren kann auch das Weglassen von Wörtern (Ellipse) einer Beschönigung oder Milderung dienen.",
     "corrupted": "Des Weiteren kann auch das Weglassen von Worte (Ellipse) einer Beschönigung oder Milderung dienen.",
     "dative_type": "dative_prep_von"
@@ -3651,6 +3651,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s7681",
+    "group_start": 10,
+    "group_end": 42,
+    "group_span_text": "dem schwedischen Präsidenten der Firma IMP Fredrik Johnsson privat ein Paar",
+    "gold_text": "Das Race of Champions ist eine Autosportveranstaltung, die vom schwedischen Präsidenten der Firma IMP (International Media Production), Fredrik Johnsson und seiner Partnerin, der ehemaligen französischen Rallye - Werksfahrerin Michèle Mouton (bis 2006 auch privat ein Paar) ins Leben gerufen wurde und seit 1988 am Ende eines jeden Jahres als Einladungsturnier durchgeführt wird.",
+    "corrupted": "Das Race of Champions ist eine Autosportveranstaltung, die von den schwedischen Präsidenten der Firma IMP ( International Media Production), Fredrik Johnsson und seiner Partnerin, der ehemaligen französischen Rallye - Werksfahrerin Michèle Mouton ( bis 2006 auch privat ein Paar) ins Leben gerufen wurde und seit 1988 am Ende eines jeden Jahres als Einladungsturnier durchgeführt wird.",
+    "dative_type": "dative_prep_von"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s7735",
     "group_start": 3,
     "group_end": 6,
@@ -3664,7 +3674,7 @@
     "sent_id": "train-s7735",
     "group_start": 17,
     "group_end": 24,
-    "group_span_text": "dem elektronischen Handel ( bzw. E - Commerce",
+    "group_span_text": "dem elektronischen Handel E Commerce",
     "gold_text": "In Abhängigkeit vom Standort der Handelstätigkeit ist der stationäre Handel vom ambulanten Handel und vom elektronischen Handel (bzw. E - Commerce) zu unterscheiden.",
     "corrupted": "In Abhängigkeit vom Standort der Handelstätigkeit ist der stationäre Handel vom ambulanten Handel und von den elektronischen Handel (bzw. E - Commerce) zu unterscheiden.",
     "dative_type": "dative_prep_von"
@@ -3804,7 +3814,7 @@
     "sent_id": "train-s8091",
     "group_start": 1,
     "group_end": 6,
-    "group_span_text": "dem Ruisseau de Saint - Nicolas",
+    "group_span_text": "dem Ruisseau de Saint Nicolas",
     "gold_text": "Vom Ruisseau de Saint - Nicolas erstreckt sich das Gemeindeareal nach Nordwesten über die Talaue auf das angrenzende Plateau, das nur rund 10 bis 15 m höher liegt als der Talboden.",
     "corrupted": "Von den Ruisseau de Saint - Nicolas erstreckt sich das Gemeindeareal nach Nordwesten über die Talaue auf das angrenzende Plateau, das nur rund 10 bis 15 m höher liegt als der Talboden.",
     "dative_type": "dative_prep_von"
@@ -3867,6 +3877,16 @@
     "group_span_text": "der Oberfläche des Bodengrundes",
     "gold_text": "Die Nahrung besteht aus Wirbellosen die von der Oberfläche des Bodengrundes abgesammelt werden sowie kleinen Jungfischen.",
     "corrupted": "Die Nahrung besteht aus Wirbellosen die von die Oberfläche des Bodengrundes abgesammelt werden sowie kleinen Jungfischen.",
+    "dative_type": "dative_prep_von"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8162",
+    "group_start": 11,
+    "group_end": 21,
+    "group_span_text": "deren Exekution der sogenannten Aktion",
+    "gold_text": "Seck wurde für die Selektion von 1.600 bis 1.700 Juden sowie deren Exekution im Wald von Biķernieki, der sogenannten Aktion Dünamünde durch das Landgericht Hamburg am 29.",
+    "corrupted": "Seck wurde für die Selektion von 1.600 bis 1.700 Juden sowie deren Exekution im Wald von Biķernieki, die sogenannte Aktion Dünamünde durch das Landgericht Hamburg am 29.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -4136,7 +4156,7 @@
     "group_end": 8,
     "group_span_text": "zwei russischen Mönchen",
     "gold_text": "Auf seiner Flucht wurde Rastko von zwei russischen Mönchen unterstützt, die durch Zahumlje reisten.",
-    "corrupted": "Auf seiner Flucht wurde Rastko von zwei russischen Mönche unterstützt, die durch Zahumlje reisten.",
+    "corrupted": "Auf seiner Flucht wurde Rastko von zwei russische Mönche unterstützt, die durch Zahumlje reisten.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -4454,7 +4474,7 @@
     "sent_id": "train-s9308",
     "group_start": 19,
     "group_end": 23,
-    "group_span_text": "8 - Rad - Fahrzeugen",
+    "group_span_text": "8 Rad Fahrzeugen",
     "gold_text": "Die 6 - Rad - Fahrzeuge erreichten nicht die notwendige Geländegängigkeit, so dass man zur Produktion von 8 - Rad - Fahrzeugen überging.",
     "corrupted": "Die 6 - Rad - Fahrzeuge erreichten nicht die notwendige Geländegängigkeit, so dass man zur Produktion von 8 - Rad - Fahrzeuge überging.",
     "dative_type": "dative_prep_von"
@@ -4506,7 +4526,7 @@
     "group_end": 5,
     "group_span_text": "allen unabhängigen Staaten der Welt",
     "gold_text": "Von allen unabhängigen Staaten der Welt ist deshalb die Mongolei das Land mit der geringsten Bevölkerungsdichte.",
-    "corrupted": "Von alle unabhängige Staaten der Welt ist deshalb die Mongolei das Land mit der geringsten Bevölkerungsdichte.",
+    "corrupted": "Von alle unabhängigen Staaten der Welt ist deshalb die Mongolei das Land mit der geringsten Bevölkerungsdichte.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -4743,8 +4763,8 @@
     "split": "train",
     "sent_id": "train-s9794",
     "group_start": 6,
-    "group_end": 10,
-    "group_span_text": "373.008 Einwohnern ( Stand Juli",
+    "group_end": 9,
+    "group_span_text": "373.008 Einwohnern (Stand",
     "gold_text": "Die Bevölkerung des Gebiets Westsahara von 373.008 Einwohnern (Stand Juli 2005) besteht vor allem aus Arabern und arabisierten Berbern.",
     "corrupted": "Die Bevölkerung des Gebiets Westsahara von 373.008 Einwohner (Stand Juli 2005) besteht vor allem aus Arabern und arabisierten Berbern.",
     "dative_type": "dative_prep_von"
@@ -4861,16 +4881,6 @@
   },
   {
     "split": "train",
-    "sent_id": "train-s10000",
-    "group_start": 25,
-    "group_end": 30,
-    "group_span_text": "die von ihm betreuten jungen Spieler",
-    "gold_text": "In den Jahren 1974 bis 1982 war er als Jugendtrainer beim Münchner TSV Forstenried aktiv, wo er seine Fähigkeiten an seinen Sohn und die von ihm betreuten jungen Spieler weitervermitteln konnte.",
-    "corrupted": "In den Jahren 1974 bis 1982 war er als Jugendtrainer beim Münchner TSV Forstenried aktiv, wo er seine Fähigkeiten an seinen Sohn und die von ihn betreuten jungen Spieler weitervermitteln konnte.",
-    "dative_type": "dative_prep_von"
-  },
-  {
-    "split": "train",
     "sent_id": "train-s10043",
     "group_start": 7,
     "group_end": 8,
@@ -4914,7 +4924,7 @@
     "sent_id": "train-s10136",
     "group_start": 3,
     "group_end": 10,
-    "group_span_text": "dem Wasser des Mittlere - Isar - Kanals",
+    "group_span_text": "dem Wasser des Mittlere Isar Kanals",
     "gold_text": "Sie werden vom Wasser des Mittlere-Isar-Kanals über ein nominales Gefälle von 11,50 m mit einem Durchfluss von je 23 m³ / s angetrieben.",
     "corrupted": "Sie werden von das Wasser des Mittlere-Isar-Kanals über ein nominales Gefälle von 11,50 m mit einem Durchfluss von je 23 m³ / s angetrieben.",
     "dative_type": "dative_prep_von"
@@ -4974,7 +4984,7 @@
     "sent_id": "train-s10251",
     "group_start": 6,
     "group_end": 9,
-    "group_span_text": "9,9 km ² Größe",
+    "group_span_text": "9,9 km² Größe",
     "gold_text": "Der Schmiedbach entwässert ein Gebiet von 9,9 km² Größe am morphologisch sehr ausgeprägten Ostabfall der Waldenburger Berge zwischen Hebsack / Altem Hau im Norden und dem Wartwald im Süden sowie einen diesem vorgelagerten Teil der Haller Ebene nach Osten zum Kocher an dessen Knie bei Ober-/Untermünkheim.",
     "corrupted": "Der Schmiedbach entwässert ein Gebiet von 9,9 km ² Größe am morphologisch sehr ausgeprägten Ostabfall der Waldenburger Berge zwischen Hebsack / Altem Hau im Norden und dem Wartwald im Süden sowie einen diesem vorgelagerten Teil der Haller Ebene nach Osten zum Kocher an dessen Knie bei Ober-/Untermünkheim.",
     "dative_type": "dative_prep_von"
@@ -5104,9 +5114,9 @@
     "sent_id": "train-s10455",
     "group_start": 5,
     "group_end": 11,
-    "group_span_text": "den beiden ( oder mehreren) Massen",
+    "group_span_text": "den beiden (oder mehreren) Massen",
     "gold_text": "Das Gravitationsfeld, das von den beiden (oder mehreren) Massen ausgeht, ist nicht kugelsymmetrisch auf das gemeinsame Baryzentrum ausgerichtet, da es nicht dem Schwerpunkt folgt, sondern von \"nahen Massen\" dominiert wird.",
-    "corrupted": "Das Gravitationsfeld, das von die beide (oder mehrere) Massen ausgeht, ist nicht kugelsymmetrisch auf das gemeinsame Baryzentrum ausgerichtet, da es nicht dem Schwerpunkt folgt, sondern von \"nahen Massen\" dominiert wird.",
+    "corrupted": "Das Gravitationsfeld, das von die beide (oder mehreren) Massen ausgeht, ist nicht kugelsymmetrisch auf das gemeinsame Baryzentrum ausgerichtet, da es nicht dem Schwerpunkt folgt, sondern von \"nahen Massen\" dominiert wird.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -5234,9 +5244,9 @@
     "sent_id": "train-s10622",
     "group_start": 17,
     "group_end": 20,
-    "group_span_text": "feindlichen U - Booten",
+    "group_span_text": "feindlichen U Booten",
     "gold_text": "Damit wurde sofort das Interesse der Militärs geweckt, die so ein Fahrzeug zum Abfangen von feindlichen U - Booten einsetzen wollten.",
-    "corrupted": "Damit wurde sofort das Interesse der Militärs geweckt, die so ein Fahrzeug zum Abfangen von us-feindliche U - Boote einsetzen wollten.",
+    "corrupted": "Damit wurde sofort das Interesse der Militärs geweckt, die so ein Fahrzeug zum Abfangen von feindliche U - Boote einsetzen wollten.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -5254,7 +5264,7 @@
     "sent_id": "train-s10637",
     "group_start": 9,
     "group_end": 14,
-    "group_span_text": "gewisser ( siehe unten) Bedeutung",
+    "group_span_text": "gewisser (siehe unten) Bedeutung",
     "gold_text": "Für das Aktionspotential sind davon nur noch zwei von gewisser (siehe unten) Bedeutung.",
     "corrupted": "Für das Aktionspotential sind davon nur noch zwei von gewisse (siehe unten) Bedeutung.",
     "dative_type": "dative_prep_von"
@@ -5483,8 +5493,8 @@
     "split": "train",
     "sent_id": "train-s11020",
     "group_start": 8,
-    "group_end": 14,
-    "group_span_text": "dem Heer des französischen Königs Ludwig IX",
+    "group_end": 13,
+    "group_span_text": "dem Heer des französischen Königs Ludwig",
     "gold_text": "Der Sage nach wurden die Nelken 1270 vom Heer des französischen Königs Ludwig IX.",
     "corrupted": "Der Sage nach wurden die Nelken 1270 von das Heer des französischen Königs Ludwig IX.",
     "dative_type": "dative_prep_von"
@@ -5614,7 +5624,7 @@
     "sent_id": "train-s11298",
     "group_start": 11,
     "group_end": 19,
-    "group_span_text": "dem damaligen Chef des FBI, J. Edgar Hoover",
+    "group_span_text": "dem damaligen Chef des FBI J. Edgar Hoover",
     "gold_text": "Aufgrund eines Verfahrens wegen \"subversiver Tätigkeiten\", angestrengt vom damaligen Chef des FBI, J. Edgar Hoover, wurde ihm die Rückkehr in die USA verboten.",
     "corrupted": "Aufgrund eines Verfahrens wegen \"subversiver Tätigkeiten\", angestrengt von den damaligen Chef des FBI, J. Edgar Hoover, wurde ihm die Rückkehr in die USA verboten.",
     "dative_type": "dative_prep_von"
@@ -5643,8 +5653,8 @@
     "split": "train",
     "sent_id": "train-s11321",
     "group_start": 12,
-    "group_end": 20,
-    "group_span_text": "1.400 Parkplätzen: Rosengarten - Tiefgarage ( 700 Parkplätze",
+    "group_end": 17,
+    "group_span_text": "1.400 Parkplätzen: Rosengarten - Tiefgarage",
     "gold_text": "Direkt an das Gebäude angeschlossen sind drei Tiefgaragen mit einer Gesamtkapazität von 1.400 Parkplätzen: Rosengarten - Tiefgarage (700 Parkplätze), Wasserturm - Tiefgarage (450) und Dorint - Tiefgarage (250).",
     "corrupted": "Direkt an das Gebäude angeschlossen sind drei Tiefgaragen mit einer Gesamtkapazität von 1.400 Parkplätze: Rosengarten - Tiefgarage (700 Parkplätze), Wasserturm - Tiefgarage (450) und Dorint - Tiefgarage (250).",
     "dative_type": "dative_prep_von"
@@ -5724,7 +5734,7 @@
     "sent_id": "train-s11473",
     "group_start": 26,
     "group_end": 31,
-    "group_span_text": "der Familie der Grundeln ( Gobiidae",
+    "group_span_text": "der Familie der Grundeln (Gobiidae",
     "gold_text": "Ozeanische, niemals mit dem Festland in Verbindung stehende Inseln haben, wenn überhaupt, ebenfalls eine Fauna aus sekundären Süßwasserfischen, die hier hauptsächlich von der Familie der Grundeln (Gobiidae) gestellt wird.",
     "corrupted": "Ozeanische, niemals mit dem Festland in Verbindung stehende Inseln haben, wenn überhaupt, ebenfalls eine Fauna aus sekundären Süßwasserfischen, die hier hauptsächlich von die Familie der Grundeln (Gobiidae) gestellt wird.",
     "dative_type": "dative_prep_von"
@@ -5837,6 +5847,16 @@
     "group_span_text": "Nahrungsmitteln",
     "gold_text": "Insbesondere der I.G. - Farben - Konzern engagierte sich auf dem Gebiet der Beschaffung und Synthetisierung von rüstungs - und kriegsrelevanten Rohstoffen und Nahrungsmitteln.",
     "corrupted": "Insbesondere der I.G. - Farben - Konzern engagierte sich auf dem Gebiet der Beschaffung und Synthetisierung von rüstungs - und kriegsrelevanten Rohstoffen und Nahrungsmittel.",
+    "dative_type": "dative_prep_von"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11744",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "beiden Seiten",
+    "gold_text": "Des Weiteren müssen von beiden Seiten akzeptierte Schlichtungsinstanzen und - verfahren vorhanden sein, um die Aufrechterhaltung des Arbeitsfriedens zu sichern.",
+    "corrupted": "Des Weiteren müssen von beide Seiten akzeptierte Schlichtungsinstanzen und - verfahren vorhanden sein, um die Aufrechterhaltung des Arbeitsfriedens zu sichern.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -5982,9 +6002,9 @@
   {
     "split": "train",
     "sent_id": "train-s11966",
-    "group_start": 5,
+    "group_start": 7,
     "group_end": 8,
-    "group_span_text": "ist von der Zweiten",
+    "group_span_text": "der Zweiten",
     "gold_text": "Die \"Hill School\" ist von der Zweiten bis zur vierten Klasse, die \"Three River School\" bis zur achten Klasse und die \"Pembroke Academy\" für die restlichen Klassen.",
     "corrupted": "Die \" Hill School \" ist von die Zweite bis zur vierten Klasse, die \" Three River School \" bis zur achten Klasse und die \" Pembroke Academy \" für die restlichen Klassen.",
     "dative_type": "dative_prep_von"
@@ -6081,12 +6101,32 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s12110",
+    "group_start": 12,
+    "group_end": 16,
+    "group_span_text": "die von Pompeius übernommenen Truppen",
+    "gold_text": "Dieser Behauptung widerspricht die Feststellung des antiken Kriegshistorikers Appian, dass sich die von Pompeius übernommenen Truppen in gutem Zustand befunden hätten.",
+    "corrupted": "Dieser Behauptung widerspricht die Feststellung des antiken Kriegshistorikers Appian, dass sich die von Pompeius übernommen Truppen in gutem Zustand befunden hätten.",
+    "dative_type": "dative_prep_von"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s12116",
     "group_start": 26,
     "group_end": 26,
     "group_span_text": "Hochwassern",
     "gold_text": "Die Auenböden weisen in der Regel die Horizontierung aAh / aC / aG auf, wobei das \"a\" für Auendynamik steht (Sedimentationsschichten von Hochwassern).",
     "corrupted": "Die Auenböden weisen in der Regel die Horizontierung aAh / aC / aG auf, wobei das \"a\" für Auendynamik steht (Sedimentationsschichten von Hochwasser).",
+    "dative_type": "dative_prep_von"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12120",
+    "group_start": 35,
+    "group_end": 36,
+    "group_span_text": "beiden Frauen",
+    "gold_text": "Eva, Mary Lou und der Bootsmann verbringen ungeplant eine Nacht zu dritt in einer Schiffskajüte, doch eröffnet der Bootsmann dem Kapitän und dem Obermeier am nächsten Morgen, dass er keine von beiden Frauen heiraten wolle.",
+    "corrupted": "Eva, Mary Lou und der Bootsmann verbringen ungeplant eine Nacht zu dritt in einer Schiffskajüte, doch eröffnet der Bootsmann dem Kapitän und dem Obermeier am nächsten Morgen, dass er keine von beide Frauen heiraten wolle.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -6203,8 +6243,8 @@
     "split": "train",
     "sent_id": "train-s12298",
     "group_start": 19,
-    "group_end": 26,
-    "group_span_text": "zwei Filmen, Living at Risk, 1985",
+    "group_end": 24,
+    "group_span_text": "zwei Filmen, Living at Risk",
     "gold_text": "Neben Richard P. Rogers und Alfred Guzzetti fungierte sie auch als Co - Regisseurin und Co - Produzentin von zwei Filmen, Living at Risk, 1985 und Pictures from a Revolution, 1991.",
     "corrupted": "Neben Richard P. Rogers und Alfred Guzzetti fungierte sie auch als Co - Regisseurin und Co - Produzentin von zwei Filme, Living at Risk, 1985 und Pictures from a Revolution, 1991.",
     "dative_type": "dative_prep_von"
@@ -6244,7 +6284,7 @@
     "sent_id": "train-s12421",
     "group_start": 21,
     "group_end": 26,
-    "group_span_text": "Tonträgern weiterer Labels wie Holy Records",
+    "group_span_text": "Tonträgern weiterer Labels Holy Records",
     "gold_text": "Cyclone Empire wurde 1996 als Handelsplattform für Veröffentlichungen im Bereich Metal gegründet, zudem gehörte der Exklusiv - Vertrieb von Tonträgern weiterer Labels wie Holy Records, Diehard Music und Vic Records in Zusammenarbeit mit dem Intercord Record Service in Deutschland, Österreich und der Schweiz zum Geschäftsfeld.",
     "corrupted": "Cyclone Empire wurde 1996 als Handelsplattform für Veröffentlichungen im Bereich Metal gegründet, zudem gehörte der Exklusiv - Vertrieb von Tonträger weiterer Labels wie Holy Records, Diehard Music und Vic Records in Zusammenarbeit mit dem Intercord Record Service in Deutschland, Österreich und der Schweiz zum Geschäftsfeld.",
     "dative_type": "dative_prep_von"
@@ -6432,11 +6472,11 @@
   {
     "split": "train",
     "sent_id": "train-s12682",
-    "group_start": 8,
-    "group_end": 9,
-    "group_span_text": "zahlreichen Gruppen",
+    "group_start": 6,
+    "group_end": 18,
+    "group_span_text": "demjenigen von zahlreichen Gruppen der ursprünglicheren hemimetabolen Insekten, z.B. dem der Heuschrecken",
     "gold_text": "Der Legebohrer entspricht in seinem Bau demjenigen von zahlreichen Gruppen der ursprünglicheren hemimetabolen Insekten, z.B. dem der Heuschrecken, er wird deshalb als \"orthopteroid\" bezeichnet.",
-    "corrupted": "Der Legebohrer entspricht in seinem Bau demjenigen von zahlreiche Gruppen der ursprünglicheren hemimetabolen Insekten, z.B. dem der Heuschrecken, er wird deshalb als \"orthopteroid\" bezeichnet.",
+    "corrupted": "Der Legebohrer entspricht in seinem Bau denjenigen von zahlreichen Gruppen der ursprünglicheren hemimetabolen Insekten, z.B. das der Heuschrecken, er wird deshalb als \"orthopteroid\" bezeichnet.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -6564,7 +6604,7 @@
     "sent_id": "train-s12978",
     "group_start": 13,
     "group_end": 22,
-    "group_span_text": "50 bis 200 ( oder sogar bis 1000) Teilnehmern",
+    "group_span_text": "50 bis 200 (oder sogar bis 1000) Teilnehmern",
     "gold_text": "Großgruppenmoderation ist eine sozialpsychologische Methode, um große Planungs - und Entscheidungsgruppen von 50 bis 200 (oder sogar bis 1000) Teilnehmern in einem großen Versammlungsraum so zu steuern (Moderation), dass sie in kurzer Zeit, typisch sind 2 bis 3 Tage, zu umsetzbaren Ergebnissen kommen.",
     "corrupted": "Großgruppenmoderation ist eine sozialpsychologische Methode, um große Planungs - und Entscheidungsgruppen von 50 bis 200 (oder sogar bis 1000) Teilnehmer in einem großen Versammlungsraum so zu steuern (Moderation), dass sie in kurzer Zeit, typisch sind 2 bis 3 Tage, zu umsetzbaren Ergebnissen kommen.",
     "dative_type": "dative_prep_von"
@@ -6774,7 +6814,7 @@
     "sent_id": "train-s13276",
     "group_start": 12,
     "group_end": 17,
-    "group_span_text": "anderen chemischen Verbindungen ( z.B. Natriumborhydrid",
+    "group_span_text": "anderen chemischen Verbindungen (z.B. Natriumborhydrid",
     "gold_text": "Triethylborat wird als Lösungsmittel und Katalysator bei der Herstellung von Farben und anderen chemischen Verbindungen (z.B. Natriumborhydrid) verwendet.",
     "corrupted": "Triethylborat wird als Lösungsmittel und Katalysator bei der Herstellung von Farben und andere chemische Verbindungen (z.B. Natriumborhydrid) verwendet.",
     "dative_type": "dative_prep_von"
@@ -6796,7 +6836,7 @@
     "group_end": 23,
     "group_span_text": "ein und derselben Kultur",
     "gold_text": "Es zeigte sich, dass die Kulturen von Bonu Ighinu und Ozieri, eventuell verbunden über San Ciriaco, Phasen ein und derselben Kultur darstellen.",
-    "corrupted": "Es zeigte sich, dass die Kulturen von Bonu Ighinu und Ozieri, eventuell verbunden über San Ciriaco, Phasen einen und dieselbe Kultur darstellen.",
+    "corrupted": "Es zeigte sich, dass die Kulturen von Bonu Ighinu und Ozieri, eventuell verbunden über San Ciriaco, Phasen einen und derselben Kultur darstellen.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -7154,7 +7194,7 @@
     "sent_id": "train-s13833",
     "group_start": 7,
     "group_end": 12,
-    "group_span_text": "mehreren internationalen Zeitungen ( LA Times",
+    "group_span_text": "mehreren internationalen Zeitungen (LA Times",
     "gold_text": "Es wurde als Buch des Jahres von mehreren internationalen Zeitungen (LA Times, Washington Post, Independent, ELLE, Wallstreet Journal, Lire) gewürdigt.",
     "corrupted": "Es wurde als Buch des Jahres von mehrere internationale Zeitungen (LA Times, Washington Post, Independent, ELLE, Wallstreet Journal, Lire) gewürdigt.",
     "dative_type": "dative_prep_von"
@@ -7244,7 +7284,7 @@
     "sent_id": "train-s13959",
     "group_start": 35,
     "group_end": 40,
-    "group_span_text": "25.000 Fuß ( etwa 6.720 m",
+    "group_span_text": "25.000 Fuß (etwa 6.720 m",
     "gold_text": "Zwischen 1969 und 1978 wurde er für die Entwicklung des Abfangjägers YF - 12 eingesetzt, mit dem er Geschwindigkeiten über 2.000 Meilen pro Stunde (etwa 3.220 km / h) und Höhen von 25.000 Fuß (etwa 6.720 m) und mehr erreichte, um Flugdaten für die Entwicklung künftiger Flugzeuge zu sammeln.",
     "corrupted": "Zwischen 1969 und 1978 wurde er für die Entwicklung des Abfangjägers YF - 12 eingesetzt, mit dem er Geschwindigkeiten über 2.000 Meilen pro Stunde (etwa 3.220 km / h) und Höhen von 25.000 Füße (etwa 6.720 m) und mehr erreichte, um Flugdaten für die Entwicklung künftiger Flugzeuge zu sammeln.",
     "dative_type": "dative_prep_von"
@@ -7546,7 +7586,7 @@
     "group_end": 8,
     "group_span_text": "den gesellschaftlichen Feldern",
     "gold_text": "Die Zahl der Kammern hängt von den gesellschaftlichen Feldern ab, für die die Gesellschaft bereit ist, eine Kammer einzurichten.",
-    "corrupted": "Die Zahl der Kammern hängt von die gesellschaftliche Felder ab, für die die Gesellschaft bereit ist, eine Kammer einzurichten.",
+    "corrupted": "Die Zahl der Kammern hängt von die gesellschaftlichen Felder ab, für die die Gesellschaft bereit ist, eine Kammer einzurichten.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -7577,6 +7617,16 @@
     "group_span_text": "dem 13. November",
     "gold_text": "Die Frankfurter Rundschau machte mit dieser Nachricht die Ausgabe vom 13. November 1945 auf.",
     "corrupted": "Die Frankfurter Rundschau machte mit dieser Nachricht die Ausgabe von das 13. November 1945 auf.",
+    "dative_type": "dative_prep_von"
+  },
+  {
+    "split": "dev",
+    "sent_id": "dev-s611",
+    "group_start": 32,
+    "group_end": 32,
+    "group_span_text": "dem",
+    "gold_text": "``Darauf haben wir so lange gewartet'', entschuldigen die royalen Reporter ihren Überschwang, der sich in Tausenden von Zeitungs- und Illustriertenseiten niederschlug, seit Joachim und Alexandra am 31. Mai aus heiterem Himmel ihre Verlobung bekanntgaben.",
+    "corrupted": "``Darauf haben wir so lange gewartet'', entschuldigen die royalen Reporter ihren Überschwang, der sich in Tausenden von Zeitungs- und Illustriertenseiten niederschlug, seit Joachim und Alexandra ans 31. Mai aus heiterem Himmel ihre Verlobung bekanntgaben.",
     "dative_type": "dative_prep_von"
   },
   {
@@ -8024,7 +8074,7 @@
     "sent_id": "test-s788",
     "group_start": 5,
     "group_end": 15,
-    "group_span_text": "dem Image der `` umweltfreundlichen und sauberen '' Verbrennung ihrer Energie",
+    "group_span_text": "dem Image der umweltfreundlichen sauberen Verbrennung ihrer Energie",
     "gold_text": "Zudem profitieren die Essener vom Image der ``umweltfreundlichen und sauberen'' Verbrennung ihrer Energie.",
     "corrupted": "Zudem profitieren die Essener von das Image der ``umweltfreundlichen und sauberen'' Verbrennung ihrer Energie.",
     "dative_type": "dative_prep_von"
@@ -8046,7 +8096,7 @@
     "group_end": 22,
     "group_span_text": "israelischen Reportern",
     "gold_text": "``Ich weiß nicht'', suchte der sonst so Eloquente nicht einmal eine Erklärung oder Ausrede, als er von israelischen Reportern auf eine mögliche ``Mitschuld'' des Likud angesprochen wurde.",
-    "corrupted": "``Ich weiß nicht'', suchte der sonst so Eloquente nicht einmal eine Erklärung oder Ausrede, als er von pro-israelische Reporter auf eine mögliche ``Mitschuld'' des Likud angesprochen wurde.",
+    "corrupted": "``Ich weiß nicht'', suchte der sonst so Eloquente nicht einmal eine Erklärung oder Ausrede, als er von israelische Reporter auf eine mögliche ``Mitschuld'' des Likud angesprochen wurde.",
     "dative_type": "dative_prep_von"
   },
   {

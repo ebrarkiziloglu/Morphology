@@ -14,7 +14,7 @@
     "sent_id": "train-s1087",
     "group_start": 14,
     "group_end": 18,
-    "group_span_text": "einem netten Praxis - Team",
+    "group_span_text": "einem netten Praxis-Team",
     "gold_text": "Der erste Eindruck setzte sich fort, denn neben der modern eingerichteten Praxis und einem netten Praxis-Team lernte ich Dr. Kämpgen als sehr freundlichen und kompetenten Zahnarzt kennen, der gleichzeitig einen ausgeglichenen Eindruck macht und nicht gestresst wirkt.",
     "corrupted": "Der erste Eindruck setzte sich fort, denn neben der modern eingerichteten Praxis und einen netten Praxis-Team lernte ich Dr. Kämpgen als sehr freundlichen und kompetenten Zahnarzt kennen, der gleichzeitig einen ausgeglichenen Eindruck macht und nicht gestresst wirkt.",
     "dative_type": "dative_prep_neben"
@@ -221,6 +221,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s9494",
+    "group_start": 7,
+    "group_end": 38,
+    "group_span_text": "der gleichnamigen Halle beide",
+    "gold_text": "Die Haupthalle Taeungbo - jŏn zählt neben der gleichnamigen Halle im Tempel Pŏpchu - sa (Beopjusa) und der Halle Kakhwang - jŏn (Gakhwangjeon) im Tempel Hwaŏm - sa (Hwaeomsa) (beide in Südkorea) zu den größten Tempelhallen Koreas.",
+    "corrupted": "Die Haupthalle Taeungbo - jŏn zählt neben die gleichnamige Halle im Tempel Pŏpchu - sa (Beopjusa) und der Halle Kakhwang - jŏn (Gakhwangjeon) im Tempel Hwaŏm - sa (Hwaeomsa) (beide in Südkorea) zu den größten Tempelhallen Koreas.",
+    "dative_type": "dative_prep_neben"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s9528",
     "group_start": 18,
     "group_end": 19,
@@ -374,7 +384,7 @@
     "sent_id": "train-s12602",
     "group_start": 1,
     "group_end": 9,
-    "group_span_text": "den heute populären Soap - Elementen ( also Liebe",
+    "group_span_text": "den heute populären Soap - Elementen (also Liebe",
     "gold_text": "Neben den heute populären Soap - Elementen (also Liebe, Seitensprünge, Familienkonflikte, Tod des Hausdrachens...) stellt Donjon auch ethische und philosophische Problemansätze vor.",
     "corrupted": "Neben die heute populärsten Soap - Elemente (also Liebe, Seitensprünge, Familienkonflikte, Tod des Hausdrachens...) stellt Donjon auch ethische und philosophische Problemansätze vor.",
     "dative_type": "dative_prep_neben"

@@ -111,6 +111,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s751",
+    "group_start": 6,
+    "group_end": 8,
+    "group_span_text": "ein paar Tagen",
+    "gold_text": "Meistens hat man sein Rad nach ein paar Tagen wieder.",
+    "corrupted": "Meistens hat man sein Rad nach ein paar Tage wieder.",
+    "dative_type": "dative_prep_nach"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s778",
     "group_start": 3,
     "group_end": 3,
@@ -681,6 +691,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s2900",
+    "group_start": 1,
+    "group_end": 7,
+    "group_span_text": "heftigen Auseinandersetzungen mit Morrison wegen ihres Heroinkonsums",
+    "gold_text": "Nach heftigen Auseinandersetzungen mit Morrison wegen ihres Heroinkonsums war sie Ende September 1970 nach Paris verreist und kehrte dorthin erneut im Februar 1971 zurück.",
+    "corrupted": "Nach heftige Auseinandersetzungen mit Morrison wegen ihres Heroinkonsums war sie Ende September 1970 nach Paris verreist und kehrte dorthin erneut im Februar 1971 zurück.",
+    "dative_type": "dative_prep_nach"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s3003",
     "group_start": 4,
     "group_end": 9,
@@ -926,7 +946,7 @@
     "group_end": 8,
     "group_span_text": "den alten Grenzen",
     "gold_text": "Auch andere Verbände sind noch nach den alten Grenzen getrennt.",
-    "corrupted": "Auch andere Verbände sind noch nach die älteren Grenzen getrennt.",
+    "corrupted": "Auch andere Verbände sind noch nach die ältere Grenzen getrennt.",
     "dative_type": "dative_prep_nach"
   },
   {
@@ -1137,6 +1157,16 @@
     "group_span_text": "anderen Quellen",
     "gold_text": "Nach anderen Quellen kommt der Name aus der indianischen Sprache und bedeutet \"green leaf, good to smoke\".",
     "corrupted": "Nach andere Quellen kommt der Name aus der indianischen Sprache und bedeutet \"green leaf, good to smoke\".",
+    "dative_type": "dative_prep_nach"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4118",
+    "group_start": 37,
+    "group_end": 44,
+    "group_span_text": "ihn dem",
+    "gold_text": "Da Heinrich aber nicht als Gebannter nach Augsburg reisen wollte und der Papst sich mit der Reise nach Norden Zeit ließ, reiste er direkt nach Italien, wo der Papst den gebannten König willkommen hieß und ihn nach einem rein formellen Bußakt am 25.",
+    "corrupted": "Da Heinrich aber nicht als Gebannter nach Augsburg reisen wollte und der Papst sich mit der Reise nach Norden Zeit ließ, reiste er direkt nach Italien, wo der Papst den gebannten König willkommen hieß und ihn nach einem rein formellen Bußakt ans 25.",
     "dative_type": "dative_prep_nach"
   },
   {
@@ -1402,9 +1432,9 @@
   {
     "split": "train",
     "sent_id": "train-s4978",
-    "group_start": 20,
+    "group_start": 25,
     "group_end": 25,
-    "group_span_text": "erklärt das gesamte Gebiet zu dem",
+    "group_span_text": "dem",
     "gold_text": "Der Kommandant der Blue Boys, Colonel Abraham Curtis, hat nach 25 Jahren Alienjagd keine moralischen Skrupel mehr und erklärt das gesamte Gebiet zum militärischen Sperrgebiet.",
     "corrupted": "Der Kommandant der Blue Boys, Colonel Abraham Curtis, hat nach 25 Jahren Alienjagd keine moralischen Skrupel mehr und erklärt das gesamte Gebiet zu das militärischen Sperrgebiet.",
     "dative_type": "dative_prep_nach"
@@ -2121,6 +2151,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s7330",
+    "group_start": 11,
+    "group_end": 20,
+    "group_span_text": "theoretischen (in Unterrichtsform an Berufsschulen) und praktischen Inhalten",
+    "gold_text": "Die Vermittlung des Wissens erfolgt dabei in der klassischen Aufteilung nach theoretischen (in Unterrichtsform an Berufsschulen) und praktischen Inhalten (bei Luftfahrtunternehmen).",
+    "corrupted": "Die Vermittlung des Wissens erfolgt dabei in der klassischen Aufteilung nach theoretische (in Unterrichtsform an Berufsschulen) und praktische Inhalte (bei Luftfahrtunternehmen).",
+    "dative_type": "dative_prep_nach"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s7359",
     "group_start": 1,
     "group_end": 2,
@@ -2404,7 +2444,7 @@
     "sent_id": "train-s8000",
     "group_start": 3,
     "group_end": 10,
-    "group_span_text": "dem Putsch durch Oberst Georgios Papadopoulos an dem",
+    "group_span_text": "dem Putsch dem",
     "gold_text": "Einen Tag nach dem Putsch durch Oberst Georgios Papadopoulos am 22.",
     "corrupted": "Einen Tag nach den Putsch durch Oberst Georgios Papadopoulos ans 22.",
     "dative_type": "dative_prep_nach"
@@ -2914,7 +2954,7 @@
     "sent_id": "train-s9639",
     "group_start": 4,
     "group_end": 10,
-    "group_span_text": "den heutigen Inhabern der Markenrechte ( Stand",
+    "group_span_text": "den heutigen Inhabern der Markenrechte (Stand",
     "gold_text": "Die Liste ist nach den heutigen Inhabern der Markenrechte (Stand 2009) gegliedert.",
     "corrupted": "Die Liste ist nach die heutigen Inhaber der Markenrechte (Stand 2009) gegliedert.",
     "dative_type": "dative_prep_nach"
@@ -3461,6 +3501,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s11270",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "beiden Autoren",
+    "gold_text": "Nach beiden Autoren ist es ein Original von der Hand Leonardo da Vincis, das zwischen 1503 und 1505 entstand.",
+    "corrupted": "Nach beide Autoren ist es ein Original von der Hand Leonardo da Vincis, das zwischen 1503 und 1505 entstand.",
+    "dative_type": "dative_prep_nach"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s11463",
     "group_start": 1,
     "group_end": 2,
@@ -3784,7 +3834,7 @@
     "sent_id": "train-s12330",
     "group_start": 4,
     "group_end": 10,
-    "group_span_text": "den Entwürfen der Architekten KMSP ( Kaplan",
+    "group_span_text": "den Entwürfen der Architekten KMSP (Kaplan",
     "gold_text": "Das Gebäude wurde nach den Entwürfen der Architekten KMSP (Kaplan, Matzke, Schöler + Partner) von 2000 bis 2001 gebaut.",
     "corrupted": "Das Gebäude wurde nach die Entwürfe der Architekten KMSP (Kaplan, Matzke, Schöler + Partner) von 2000 bis 2001 gebaut.",
     "dative_type": "dative_prep_nach"
@@ -4124,7 +4174,7 @@
     "sent_id": "train-s13367",
     "group_start": 4,
     "group_end": 7,
-    "group_span_text": "einer Periode ( t",
+    "group_span_text": "einer Periode (t",
     "gold_text": "Dies ändert sich nach einer Periode (t = 1), dann herrscht wieder symmetrische Informationverteilung;",
     "corrupted": "Dies ändert sich nach eine Periode (t = 1), dann herrscht wieder symmetrische Informationverteilung;",
     "dative_type": "dative_prep_nach"
@@ -4681,16 +4731,6 @@
   },
   {
     "split": "test",
-    "sent_id": "test-s336",
-    "group_start": 16,
-    "group_end": 17,
-    "group_span_text": "dem Massaker",
-    "gold_text": "Den Angriff führte die Regierung vor allem auf dem Feld, auf dem sie selbst nach dem Massaker in Boipatong am ärgsten in Bedrängnis geraten war: der anhaltenden Gewalt.",
-    "corrupted": "Den Angriff führte die Regierung vor allem auf dem Feld, auf dem sie selbst nach das Massaker in Boipatong am ärgsten in Bedrängnis geraten war: der anhaltenden Gewalt.",
-    "dative_type": "dative_prep_nach"
-  },
-  {
-    "split": "test",
     "sent_id": "test-s337",
     "group_start": 9,
     "group_end": 10,
@@ -4744,7 +4784,7 @@
     "sent_id": "test-s836",
     "group_start": 1,
     "group_end": 8,
-    "group_span_text": "einer Tagung des Länderrats der Bündnis - Grünen",
+    "group_span_text": "einer Tagung des Länderrats der Bündnis-Grünen",
     "gold_text": "Nach einer Tagung des Länderrats der Bündnis-Grünen sagte deren Vorstandssprecher Jürgen Trittin am Sonntag in Erfurt, die SPD-Spitze wolle sich mit ihren Vorbehalten gegen die Währungsunion aus der Verantwortung stehlen.",
     "corrupted": "Nach eine Tagung des Länderrats der Bündnis-Grünen sagte deren Vorstandssprecher Jürgen Trittin am Sonntag in Erfurt, die SPD-Spitze wolle sich mit ihren Vorbehalten gegen die Währungsunion aus der Verantwortung stehlen.",
     "dative_type": "dative_prep_nach"

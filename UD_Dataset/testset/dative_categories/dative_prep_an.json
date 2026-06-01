@@ -103,8 +103,8 @@
     "split": "train",
     "sent_id": "train-s472",
     "group_start": 1,
-    "group_end": 3,
-    "group_span_text": "dem besten gefällt",
+    "group_end": 2,
+    "group_span_text": "dem besten",
     "gold_text": "Am besten gefällt mir die sehr nette, auch persönliche Betreuung.",
     "corrupted": "Ans gutes gefällt mir die sehr nette, auch persönliche Betreuung.",
     "dative_type": "dative_prep_an"
@@ -204,7 +204,7 @@
     "sent_id": "train-s788",
     "group_start": 24,
     "group_end": 27,
-    "group_span_text": "dem jeweils nächsten Tag",
+    "group_span_text": "dem nächsten Tag",
     "gold_text": "Auf das Ergebnis der Laborwerte musste ich wochenlang warten und Dr. Trapp bellte mich täglich am Telefon an, dass ich es am jeweils nächsten Tag nochmal versuchen sollte.",
     "corrupted": "Auf das Ergebnis der Laborwerte musste ich wochenlang warten und Dr. Trapp bellte mich täglich am Telefon an, dass ich es an den jeweils nahen Tag nochmal versuchen sollte.",
     "dative_type": "dative_prep_an"
@@ -267,6 +267,16 @@
     "group_span_text": "dem Strand",
     "gold_text": "Auch wenn man nicht so wie im Sommer am Strand liegen kann, gibt es auf dem Darß genug Ausflugsmöglichkeiten.",
     "corrupted": "Auch wenn man nicht so wie im Sommer an den Strand liegen kann, gibt es auf dem Darß genug Ausflugsmöglichkeiten.",
+    "dative_type": "dative_prep_an"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s994",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "dem besten",
+    "gold_text": "Am besten rein ins Auto und ab in den Urlaub.",
+    "corrupted": "Ans gutes rein ins Auto und ab in den Urlaub.",
     "dative_type": "dative_prep_an"
   },
   {
@@ -343,8 +353,8 @@
     "split": "train",
     "sent_id": "train-s1486",
     "group_start": 15,
-    "group_end": 19,
-    "group_span_text": "dem besten mein Geld lasse",
+    "group_end": 16,
+    "group_span_text": "dem besten",
     "gold_text": "Nach ca. 15 Minuten bin ich gegangen und überlege nun wo ich wohl am besten mein Geld lasse.",
     "corrupted": "Nach ca. 15 Minuten bin ich gegangen und überlege nun wo ich wohl an den gutes mein Geld lasse.",
     "dative_type": "dative_prep_an"
@@ -374,7 +384,7 @@
     "sent_id": "train-s1511",
     "group_start": 1,
     "group_end": 3,
-    "group_span_text": "dem 12. Dezember",
+    "group_span_text": "dem Dezember",
     "gold_text": "Am 12. Dezember 1969 explodierte in der Mailänder Landwirtschaftsbank, unweit des Doms und mitten in jenem Quartier, in dem Baj zu Hause war, eine Bombe, die sechzehn Menschen in den Tod riß und über hundert schwer verletzte.",
     "corrupted": "Ans 12. Dezember 1969 explodierte in der Mailänder Landwirtschaftsbank, unweit des Doms und mitten in jenem Quartier, in dem Baj zu Hause war, eine Bombe, die sechzehn Menschen in den Tod riß und über hundert schwer verletzte.",
     "dative_type": "dative_prep_an"
@@ -704,7 +714,7 @@
     "sent_id": "train-s1967",
     "group_start": 12,
     "group_end": 19,
-    "group_span_text": "dem Rande der Generalversammlung der Europa -- Organisation",
+    "group_span_text": "dem Rande der Generalversammlung der Europa Organisation",
     "gold_text": "Der Vorsitzende der Armutskonferenz in Potsdam, Ruth Brand, sagte am Rande der Generalversammlung der Europa -- Organisation, zwischen 1983 und 1993 habe sich die Zahl der Sozialhilfeempfänger in Deutschland vervierfacht.",
     "corrupted": "Der Vorsitzende der Armutskonferenz in Potsdam, Ruth Brand, sagte an den Rand der Generalversammlung der Europa -- Organisation, zwischen 1983 und 1993 habe sich die Zahl der Sozialhilfeempfänger in Deutschland vervierfacht.",
     "dative_type": "dative_prep_an"
@@ -914,7 +924,7 @@
     "sent_id": "train-s2334",
     "group_start": 13,
     "group_end": 22,
-    "group_span_text": "dem Institut d' études politiques de Paris ( Sciences Po",
+    "group_span_text": "dem Institut d' études politiques de Paris Sciences Po",
     "gold_text": "Nach einem Abschluss in Wirtschaftswissenschaften an der Universität Paris absolvierte Camdessus Studien am Institut d'études politiques de Paris (Sciences Po) und an der ENA in Straßburg.",
     "corrupted": "Nach einem Abschluss in Wirtschaftswissenschaften an der Universität Paris absolvierte Camdessus Studien ans Institut d'études politiques de Paris (Sciences Po) und an der ENA in Straßburg.",
     "dative_type": "dative_prep_an"
@@ -1144,7 +1154,7 @@
     "sent_id": "train-s2976",
     "group_start": 28,
     "group_end": 35,
-    "group_span_text": "dem Aufbau der syrischen Geheimpolizei \" Deuxieme Bureau",
+    "group_span_text": "dem Aufbau der syrischen Geheimpolizei Deuxieme Bureau",
     "gold_text": "Rauff hatte noch in Rom derartige \"Experten\" angeworben und spielte innerhalb der \"Expertengruppe\" eine führende Rolle: Nach den amerikanischen Geheimdienstberichten war Rauff am Aufbau der syrischen Geheimpolizei \"Deuxieme Bureau\" beteiligt, ebenso soll er enge Kontakte zum Chef des syrischen Militärgeheimdienstes unterhalten haben.",
     "corrupted": "Rauff hatte noch in Rom derartige \" Experten \" angeworben und spielte innerhalb der \" Expertengruppe \" eine führende Rolle: Nach den amerikanischen Geheimdienstberichten war Rauff an den Aufbau der syrischen Geheimpolizei \" Deuxieme Bureau \" beteiligt, ebenso soll er enge Kontakte zum Chef des syrischen Militärgeheimdienstes unterhalten haben.",
     "dative_type": "dative_prep_an"
@@ -1194,7 +1204,7 @@
     "sent_id": "train-s3054",
     "group_start": 10,
     "group_end": 18,
-    "group_span_text": "der Herausgabe der verbotenen KPI - Zeitung L' Unità",
+    "group_span_text": "der Herausgabe der verbotenen KPI Zeitung L' Unità",
     "gold_text": "Ab 1943 arbeitete er im Untergrund in Mailand an der Herausgabe der verbotenen KPI - Zeitung L'Unità mit und nahm am antifaschistischen Widerstand in Mailand und Rom teil.",
     "corrupted": "Ab 1943 arbeitete er im Untergrund in Mailand an die Herausgabe der verbotenen KPI - Zeitung L'Unità mit und nahm am antifaschistischen Widerstand in Mailand und Rom teil.",
     "dative_type": "dative_prep_an"
@@ -1214,7 +1224,7 @@
     "sent_id": "train-s3130",
     "group_start": 12,
     "group_end": 15,
-    "group_span_text": "den Junioren - Weltmeisterschaften",
+    "group_span_text": "den Junioren Weltmeisterschaften",
     "gold_text": "Zwei Schülerinnen nahmen als Mitglieder des Rudervereins im Jahr 1988 an den Junioren - Weltmeisterschaften in Mailand in Italien teil und belegten dort einen dritten Platz.",
     "corrupted": "Zwei Schülerinnen nahmen als Mitglieder des Rudervereins im Jahr 1988 an die Junioren - Weltmeisterschaften in Mailand in Italien teil und belegten dort einen dritten Platz.",
     "dative_type": "dative_prep_an"
@@ -1514,7 +1524,7 @@
     "sent_id": "train-s3809",
     "group_start": 21,
     "group_end": 27,
-    "group_span_text": "dem letzten Tag ihres USA - Aufenthaltes",
+    "group_span_text": "dem letzten Tag ihres USA Aufenthaltes",
     "gold_text": "Vor und nach dem Festival spielten Japanische Kampfhörspiele je zwei weitere Konzerte in Richmond und New York, bevor sie am letzten Tag ihres USA - Aufenthaltes noch eine Session beim Radiosender WFMU in Jersey City, New Jersey aufnahmen.",
     "corrupted": "Vor und nach dem Festival spielten Japanische Kampfhörspiele je zwei weitere Konzerte in Richmond und New York, bevor sie an den letzten Tag ihres USA - Aufenthaltes noch eine Session beim Radiosender WFMU in Jersey City, New Jersey aufnahmen.",
     "dative_type": "dative_prep_an"
@@ -1714,7 +1724,7 @@
     "sent_id": "train-s4359",
     "group_start": 2,
     "group_end": 9,
-    "group_span_text": "dem Anfang und / oder Ende eines Buchs",
+    "group_span_text": "dem Anfang eines Buchs",
     "gold_text": "Jeweils am Anfang und / oder Ende eines Buchs bieten masoretische Handschriften zum Teil umfangreiche Listen, etwa für \"offene\" (Paraschen) und \"geschlossene\" (Verse) Einteilungen, für die Unterschiede in der Punktation zwischen Ben Naftali und Ben Ascher und die mittleren Verse, Worte und mittleren Buchstaben jedes Buchs.",
     "corrupted": "Jeweils an den Anfang und / oder Ende eines Buchs bieten masoretische Handschriften zum Teil umfangreiche Listen, etwa für \" offene \" ( Paraschen) und \" geschlossene \" ( Verse) Einteilungen, für die Unterschiede in der Punktation zwischen Ben Naftali und Ben Ascher und die mittleren Verse, Worte und mittleren Buchstaben jedes Buchs.",
     "dative_type": "dative_prep_an"
@@ -1804,7 +1814,7 @@
     "sent_id": "train-s4714",
     "group_start": 10,
     "group_end": 14,
-    "group_span_text": "der Harvard University ( USA",
+    "group_span_text": "der Harvard University (USA",
     "gold_text": "Er lehrt seit 1986 als Wales Professor of Sanskrit an der Harvard University (USA).",
     "corrupted": "Er lehrt seit 1986 als Wales Professor of Sanskrit an die Harvard University (USA).",
     "dative_type": "dative_prep_an"
@@ -1834,7 +1844,7 @@
     "sent_id": "train-s4840",
     "group_start": 15,
     "group_end": 18,
-    "group_span_text": "dem UEFA - Pokal",
+    "group_span_text": "dem UEFA Pokal",
     "gold_text": "Außerdem setzte sich Rosenborg mit diesem Sieg an die zweite Stelle und nahm dafür am UEFA - Pokal teil.",
     "corrupted": "Außerdem setzte sich Rosenborg mit diesem Sieg an die zweite Stelle und nahm dafür ans UEFA - Pokal teil.",
     "dative_type": "dative_prep_an"
@@ -1934,7 +1944,7 @@
     "sent_id": "train-s5003",
     "group_start": 10,
     "group_end": 21,
-    "group_span_text": "dem \" Conjunto de Asociaciones Cívicas \" ( Zusammenschluss der zivilgesellschaftlichen Verbände",
+    "group_span_text": "dem Conjunto de Asociaciones Cívicas Zusammenschluss der zivilgesellschaftlichen Verbände",
     "gold_text": "Nachdem seine diesbezüglichen Anstrengungen scheiterten, beteiligte er sich am \"Conjunto de Asociaciones Cívicas\" (Zusammenschluss der zivilgesellschaftlichen Verbände), der den von Castro ausgerufenen bewaffneten Widerstandskampf aktiv unterstützte.",
     "corrupted": "Nachdem seine diesbezüglichen Anstrengungen scheiterten, beteiligte er sich ans \"Conjunto de Asociaciones Cívicas\" (Zusammenschluss der zivilgesellschaftlichen Verbände), der den von Castro ausgerufenen bewaffneten Widerstandskampf aktiv unterstützte.",
     "dative_type": "dative_prep_an"
@@ -2204,9 +2214,9 @@
     "sent_id": "train-s5688",
     "group_start": 4,
     "group_end": 17,
-    "group_span_text": "der Galerie dell'Accademia, die an dem Campo della Carità liegende bedeutendste Gemäldesammlung Venedigs",
+    "group_span_text": "der Galerie dell'Accademia liegende bedeutendste Gemäldesammlung Venedigs",
     "gold_text": "Ihren Namen verdankt sie der Galerie dell'Accademia, die am Campo della Carità liegende bedeutendste Gemäldesammlung Venedigs.",
-    "corrupted": "Ihren Namen verdankt sie die Galerie dell'Accademia, die an den Campo della Carità liegende bedeutendste Gemäldesammlung Venedigs.",
+    "corrupted": "Ihren Namen verdankt sie die Galerie dell'Accademia, die am Campo della Carità liegende bedeutendste Gemäldesammlung Venedigs.",
     "dative_type": "dative_prep_an"
   },
   {
@@ -2234,7 +2244,7 @@
     "sent_id": "train-s5723",
     "group_start": 11,
     "group_end": 17,
-    "group_span_text": "der \" Academie voor Beelden de Kunsten",
+    "group_span_text": "der \"Academie voor Beelden de Kunsten",
     "gold_text": "Nach dem Abitur studierte Angenelle Thijssen von 1980 bis 1985 an der \"Academie voor Beelden de Kunsten\" in Tilburg.",
     "corrupted": "Nach dem Abitur studierte Angenelle Thijssen von 1980 bis 1985 an die \"Academie voor Beelden de Kunsten\" in Tilburg.",
     "dative_type": "dative_prep_an"
@@ -2272,9 +2282,9 @@
   {
     "split": "train",
     "sent_id": "train-s5764",
-    "group_start": 18,
+    "group_start": 21,
     "group_end": 22,
-    "group_span_text": "gezogen, an dem schlimmsten",
+    "group_span_text": "dem schlimmsten",
     "gold_text": "Im Laufe der Zeit wurde das Kirchenhaus immer wieder durch Ereignisse wie Hochwasser und Kriege in Mitleidenschaft gezogen, am schlimmsten während der beiden Türkenbelagerungen von Wien in den Jahren 1529 und 1683.",
     "corrupted": "Im Laufe der Zeit wurde das Kirchenhaus immer wieder durch Ereignisse wie Hochwasser und Kriege in Mitleidenschaft gezogen, ans schlimmsten während der beiden Türkenbelagerungen von Wien in den Jahren 1529 und 1683.",
     "dative_type": "dative_prep_an"
@@ -2512,6 +2522,16 @@
   {
     "split": "train",
     "sent_id": "train-s6383",
+    "group_start": 5,
+    "group_end": 13,
+    "group_span_text": "den Stränden in der Buzzard 's Bay, Massachusetts",
+    "gold_text": "Sie trainierte mehrere Monate an den Stränden in der Buzzard 's Bay, Massachusetts, am Onslow Beach, New River, North Carolina und anderen Stränden.",
+    "corrupted": "Sie trainierte mehrere Monate an die Strände in die Buzzard 's Bay, Massachusetts, am Onslow Beach, New River, North Carolina und anderen Stränden.",
+    "dative_type": "dative_prep_an"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6383",
     "group_start": 26,
     "group_end": 27,
     "group_span_text": "anderen Stränden",
@@ -2654,7 +2674,7 @@
     "sent_id": "train-s6797",
     "group_start": 4,
     "group_end": 8,
-    "group_span_text": "dem Prinzip \" low skills",
+    "group_span_text": "dem Prinzip low skills",
     "gold_text": "Das Gestalten ist am Prinzip \"low skills, high sensitivity\" orientiert.",
     "corrupted": "Das Gestalten ist ans Prinzip \"low skills, high sensitivity\" orientiert.",
     "dative_type": "dative_prep_an"
@@ -2664,7 +2684,7 @@
     "sent_id": "train-s6830",
     "group_start": 10,
     "group_end": 19,
-    "group_span_text": "den Game - Boy - Advance - Spielen Sabre Wulf",
+    "group_span_text": "den Game-Boy-Advance-Spielen Sabre Wulf",
     "gold_text": "Rare arbeitete damals neben Diddy Kong Pilot zeitgleich auch an den Game-Boy-Advance-Spielen Sabre Wulf und Banjo - Kazooie: Grunty 's Rache und an einem Heimkonsolen - Pendant zu Diddy Kong Pilot, Donkey Kong Racing, das für den GameCube hätte erscheinen sollen.",
     "corrupted": "Rare arbeitete damals neben Diddy Kong Pilot zeitgleich auch an die Game-Boy-Advance-Spiele Sabre Wulf und Banjo - Kazooie: Grunty 's Rache und an einem Heimkonsolen - Pendant zu Diddy Kong Pilot, Donkey Kong Racing, das für den GameCube hätte erscheinen sollen.",
     "dative_type": "dative_prep_an"
@@ -2704,7 +2724,7 @@
     "sent_id": "train-s6917",
     "group_start": 5,
     "group_end": 12,
-    "group_span_text": "die verbreitetste und an dem intensivsten betriebene Sonderkultur",
+    "group_span_text": "die verbreitetste dem intensivsten betriebene Sonderkultur",
     "gold_text": "In Mittelfranken ist der Hopfen die verbreitetste und am intensivsten betriebene Sonderkultur.",
     "corrupted": "In Mittelfranken ist der Hopfen die verbreitetste und an den intensiven betriebene Sonderkultur.",
     "dative_type": "dative_prep_an"
@@ -2773,8 +2793,8 @@
     "split": "train",
     "sent_id": "train-s7099",
     "group_start": 13,
-    "group_end": 15,
-    "group_span_text": "dem nächsten stehen",
+    "group_end": 14,
+    "group_span_text": "dem nächsten",
     "gold_text": "Stephen Jay Gould sieht Indizien dafür, dass Menschen und Schimpansen sich am nächsten stehen und sich die Gorillas in der Entwicklungsgeschichte früher abgespalten haben.",
     "corrupted": "Stephen Jay Gould sieht Indizien dafür, dass Menschen und Schimpansen sich an den nächsten stehen und sich die Gorillas in der Entwicklungsgeschichte früher abgespalten haben.",
     "dative_type": "dative_prep_an"
@@ -2954,7 +2974,7 @@
     "sent_id": "train-s7728",
     "group_start": 8,
     "group_end": 13,
-    "group_span_text": "dem Fuß des Chauvet - Berges",
+    "group_span_text": "dem Fuß des Chauvet Berges",
     "gold_text": "Jedenfalls fanden zahlreiche Pilgerzüge zur Kirche am Fuß des Chauvet - Berges statt.",
     "corrupted": "Jedenfalls fanden zahlreiche Pilgerzüge zur Kirche an den Fuß des Chauvet - Berges statt.",
     "dative_type": "dative_prep_an"
@@ -3094,7 +3114,7 @@
     "sent_id": "train-s8228",
     "group_start": 12,
     "group_end": 23,
-    "group_span_text": "der Mündung der Regnitz in den Main ( Main - km 384,07",
+    "group_span_text": "der Mündung der Regnitz in den Main (Main - km 384,07",
     "gold_text": "Der Kilometer Null des Main - Donau - Kanals befindet sich an der Mündung der Regnitz in den Main (Main - km 384,07) bei Bischberg im Landkreis Bamberg.",
     "corrupted": "Der Kilometer Null des Main - Donau - Kanals befindet sich an die Mündung der Regnitz in den Main (Main - km 384,07) bei Bischberg im Landkreis Bamberg.",
     "dative_type": "dative_prep_an"
@@ -3273,8 +3293,8 @@
     "split": "train",
     "sent_id": "train-s8691",
     "group_start": 14,
-    "group_end": 16,
-    "group_span_text": "dem stärksten modernisiert",
+    "group_end": 15,
+    "group_span_text": "dem stärksten",
     "gold_text": "Die HMS Queen Elizabeth, die HMS Valiant und die HMS Warspite wurden am stärksten modernisiert und erhielten den neuen, \"Queen Anne's castle\" genannten, Aufbau der Brücke und eine Mehrzweck - Sekundärbewaffnung in Türmen.",
     "corrupted": "Die HMS Queen Elizabeth, die HMS Valiant und die HMS Warspite wurden an den starken modernisiert und erhielten den neuen, \"Queen Anne's castle\" genannten, Aufbau der Brücke und eine Mehrzweck - Sekundärbewaffnung in Türmen.",
     "dative_type": "dative_prep_an"
@@ -4133,8 +4153,8 @@
     "split": "train",
     "sent_id": "train-s11102",
     "group_start": 1,
-    "group_end": 3,
-    "group_span_text": "dem bekanntesten wurde",
+    "group_end": 2,
+    "group_span_text": "dem bekanntesten",
     "gold_text": "Am bekanntesten wurde sie jedoch 1983 in der US - Soap Springfield Story.",
     "corrupted": "Ans bekannte wurde sie jedoch 1983 in der US - Soap Springfield Story.",
     "dative_type": "dative_prep_an"
@@ -4144,7 +4164,7 @@
     "sent_id": "train-s11110",
     "group_start": 1,
     "group_end": 3,
-    "group_span_text": "dieser \" Weltmeisterschaft",
+    "group_span_text": "dieser \"Weltmeisterschaft",
     "gold_text": "An dieser \"Weltmeisterschaft\" können diejenigen Jungköche teilnehmen, welche sich zuvor an einem der nationalen Wettbewerbe, welche durch die Chaîne des Rôtisseurs Landesverbände organisiert und durchgeführt werden.",
     "corrupted": "An diese \"Weltmeisterschaft\" können diejenigen Jungköche teilnehmen, welche sich zuvor an einem der nationalen Wettbewerbe, welche durch die Chaîne des Rôtisseurs Landesverbände organisiert und durchgeführt werden.",
     "dative_type": "dative_prep_an"
@@ -4174,7 +4194,7 @@
     "sent_id": "train-s11118",
     "group_start": 17,
     "group_end": 22,
-    "group_span_text": "einem 8 - Zylinder - Motor",
+    "group_span_text": "einem 8 Zylinder Motor",
     "gold_text": "Gleichzeitig beschäftigte er sich mit der neuen Luftfahrt und arbeitete im Labor von Gustave Eiffel an einem 8 - Zylinder - Motor.",
     "corrupted": "Gleichzeitig beschäftigte er sich mit der neuen Luftfahrt und arbeitete im Labor von Gustave Eiffel an einen 8 - Zylinder - Motor.",
     "dative_type": "dative_prep_an"
@@ -4254,7 +4274,7 @@
     "sent_id": "train-s11286",
     "group_start": 2,
     "group_end": 8,
-    "group_span_text": "dem Institut für Planetenforschung des Deutschen Zentrums",
+    "group_span_text": "dem Institut des Deutschen Zentrums",
     "gold_text": "Die am Institut für Planetenforschung des Deutschen Zentrums für Luft- und Raumfahrt entwickelte HRSC ermöglicht es, Details mit einer Größe von 10 bis 30 m dreidimensional zu analysieren.",
     "corrupted": "Die ans Institut für Planetenforschung des Deutschen Zentrums für Luft- und Raumfahrt entwickelte HRSC ermöglicht es, Details mit einer Größe von 10 bis 30 m dreidimensional zu analysieren.",
     "dative_type": "dative_prep_an"
@@ -4522,9 +4542,9 @@
   {
     "split": "train",
     "sent_id": "train-s12025",
-    "group_start": 15,
+    "group_start": 17,
     "group_end": 17,
-    "group_span_text": "floh an dem",
+    "group_span_text": "dem",
     "gold_text": "Er gab sein Einverständnis für ein Funkspiel, gab an die Zentrale ein Alarmsignal und floh am 18.",
     "corrupted": "Er gab sein Einverständnis für ein Funkspiel, gab an die Zentrale ein Alarmsignal und floh ans 18.",
     "dative_type": "dative_prep_an"
@@ -4554,9 +4574,19 @@
     "sent_id": "train-s12102",
     "group_start": 6,
     "group_end": 10,
-    "group_span_text": "dem UEFA - Pokal 1971",
+    "group_span_text": "dem UEFA Pokal 1971",
     "gold_text": "Platz berechtigte zur Teilnahme am UEFA - Pokal 1971 / 72, wo man sogar den Hamburger SV aus dem Wettbewerb werfen konnte, über die dritte Runde aber nicht hinaus kam.",
     "corrupted": "Platz berechtigte zur Teilnahme ans UEFA - Pokal 1971 / 72, wo man sogar den Hamburger SV aus dem Wettbewerb werfen konnte, über die dritte Runde aber nicht hinaus kam.",
+    "dative_type": "dative_prep_an"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12108",
+    "group_start": 17,
+    "group_end": 34,
+    "group_span_text": "eine erbaute geweihte römisch katholische Pfarrkirche dem",
+    "gold_text": "Die Kirche zum heiligen Franz von Assisi (auch: Kaiserjubiläumskirche oder umgangssprachlich Mexikokirche) ist eine von 1898 bis 1910 erbaute und 1913 geweihte römisch - katholische Pfarrkirche am Mexikoplatz im 2.",
+    "corrupted": "Die Kirche zum heiligen Franz von Assisi ( auch: Kaiserjubiläumskirche oder umgangssprachlich Mexikokirche) ist eine von 1898 bis 1910 erbaute und 1913 geweihte römisch - katholische Pfarrkirche am Mexikoplatz ins 2.",
     "dative_type": "dative_prep_an"
   },
   {
@@ -4954,7 +4984,7 @@
     "sent_id": "train-s13255",
     "group_start": 4,
     "group_end": 8,
-    "group_span_text": "dem St John's College",
+    "group_span_text": "dem College",
     "gold_text": "Er war Stipendiat am St John 's College in Oxford, wo er sich schnell durch seine herausragenden wissenschaftlichen Leistungen einen Namen machte.",
     "corrupted": "Er war Stipendiat an den St John 's College in Oxford, wo er sich schnell durch seine herausragenden wissenschaftlichen Leistungen einen Namen machte.",
     "dative_type": "dative_prep_an"
@@ -5254,7 +5284,7 @@
     "sent_id": "train-s13955",
     "group_start": 7,
     "group_end": 14,
-    "group_span_text": "der Taste - Of - Chaos - Tour",
+    "group_span_text": "der Taste Of Chaos Tour",
     "gold_text": "Im November folgte die Teilnahme an der Taste - Of - Chaos - Tour mit international erfolgreichen Bands wie Rise Against und Killswitch Engage.",
     "corrupted": "Im November folgte die Teilnahme an die Taste - Of - Chaos - Tour mit international erfolgreichen Bands wie Rise Against und Killswitch Engage.",
     "dative_type": "dative_prep_an"
@@ -5307,6 +5337,16 @@
     "group_span_text": "den Verhandlungen",
     "gold_text": "Weiter war er als Gesandter beteiligt an den Verhandlungen im Zusammenhang mit dem Schonischen Krieg zwischen Dänemark und Schweden sowie an der Rückgabe der als Pfand in Lübecker Besitz befindlichen Stadt Mölln an das Herzogtum Sachsen - Lauenburg.",
     "corrupted": "Weiter war er als Gesandter beteiligt an die Verhandlungen im Zusammenhang mit dem Schonischen Krieg zwischen Dänemark und Schweden sowie an der Rückgabe der als Pfand in Lübecker Besitz befindlichen Stadt Mölln an das Herzogtum Sachsen - Lauenburg.",
+    "dative_type": "dative_prep_an"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s14072",
+    "group_start": 22,
+    "group_end": 32,
+    "group_span_text": "der Rückgabe der befindlichen Stadt Mölln",
+    "gold_text": "Weiter war er als Gesandter beteiligt an den Verhandlungen im Zusammenhang mit dem Schonischen Krieg zwischen Dänemark und Schweden sowie an der Rückgabe der als Pfand in Lübecker Besitz befindlichen Stadt Mölln an das Herzogtum Sachsen - Lauenburg.",
+    "corrupted": "Weiter war er als Gesandter beteiligt an den Verhandlungen im Zusammenhang mit dem Schonischen Krieg zwischen Dänemark und Schweden sowie an die Rückgabe der als Pfand in Lübecker Besitz befindlichen Stadt Mölln an das Herzogtum Sachsen - Lauenburg.",
     "dative_type": "dative_prep_an"
   },
   {
@@ -5654,7 +5694,7 @@
     "sent_id": "dev-s786",
     "group_start": 10,
     "group_end": 13,
-    "group_span_text": "der SPD - Spitze",
+    "group_span_text": "der SPD-Spitze",
     "gold_text": "CSU-Generalsekretär Bernd Protzner betonte, der Machtwechsel an der SPD-Spitze stelle ``einen personellen und inhaltlichen Linksruck dar''.",
     "corrupted": "CSU-Generalsekretär Bernd Protzner betonte, der Machtwechsel an die SPD-Spitze stelle ``einen personellen und inhaltlichen Linksruck dar''.",
     "dative_type": "dative_prep_an"
@@ -6016,7 +6056,7 @@
     "group_end": 24,
     "group_span_text": "anderen deutschen Universitäten",
     "gold_text": "In Passau existiert seit gut 20 Jahren eine Universität, wo so gut oder so schlecht gelehrt und geforscht wird wie an anderen deutschen Universitäten auch.",
-    "corrupted": "In Passau existiert seit gut 20 Jahren eine Universität, wo so gut oder so schlecht gelehrt und geforscht wird wie an andere deutschen Universitäten auch.",
+    "corrupted": "In Passau existiert seit gut 20 Jahren eine Universität, wo so gut oder so schlecht gelehrt und geforscht wird wie an andere deutsche Universitäten auch.",
     "dative_type": "dative_prep_an"
   },
   {
@@ -6194,7 +6234,7 @@
     "sent_id": "test-s776",
     "group_start": 6,
     "group_end": 13,
-    "group_span_text": "dem Rande des G - 7 - Gipfels",
+    "group_span_text": "dem Rande des G 7 Gipfels",
     "gold_text": "Während Premierminister John Major gestern am Rande des G-7-Gipfels in München Bundeskanzler Helmut Kohl und den italienischen Regierungschef Giuliano Amato zur weiteren Kooperation am ``Jäger90''-Projekt zu bewegen suchte, erörterte in London Verteidigungsminister Malcolm Rifkind mit seinem deutschen Kollegen Volker Rühe die Konsequenzen des deutschen Rückziehers.",
     "corrupted": "Während Premierminister John Major gestern an den Rand des G - 7 - Gipfels in München Bundeskanzler Helmut Kohl und den italienischen Regierungschef Giuliano Amato zur weiteren Kooperation am `` Jäger90 '' - Projekt zu bewegen suchte, erörterte in London Verteidigungsminister Malcolm Rifkind mit seinem deutschen Kollegen Volker Rühe die Konsequenzen des deutschen Rückziehers.",
     "dative_type": "dative_prep_an"
@@ -6273,8 +6313,8 @@
     "split": "test",
     "sent_id": "test-s850",
     "group_start": 10,
-    "group_end": 14,
-    "group_span_text": "dem liebsten den Brocken hingeworfen",
+    "group_end": 11,
+    "group_span_text": "dem liebsten",
     "gold_text": "Gab es schon mal eine Situation, wo Sie am liebsten den Brocken hingeworfen hätten?",
     "corrupted": "Gab es schon mal eine Situation, wo Sie an den liebsten den Brocken hingeworfen hätten?",
     "dative_type": "dative_prep_an"

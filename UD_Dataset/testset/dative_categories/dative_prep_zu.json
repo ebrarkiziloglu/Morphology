@@ -4,7 +4,7 @@
     "sent_id": "train-s4",
     "group_start": 6,
     "group_end": 10,
-    "group_span_text": "der Behandlung verschiedenster \" Leiden",
+    "group_span_text": "der Behandlung verschiedenster Leiden",
     "gold_text": "Ich bin seit längerer Zeit zur Behandlung verschiedenster \"Leiden\" in der Physiotherapieraxis \"Gaby Montag\" im Vital Center und kann ausschließlich Positives berichten!",
     "corrupted": "Ich bin seit längerer Zeit zu die Behandlung verschiedenster \" Leiden \" in der Physiotherapieraxis \" Gaby Montag \" im Vital Center und kann ausschließlich Positives berichten!",
     "dative_type": "dative_prep_zu"
@@ -154,7 +154,7 @@
     "sent_id": "train-s267",
     "group_start": 8,
     "group_end": 13,
-    "group_span_text": "der Behandlung ( 2 Monate Wartezeit",
+    "group_span_text": "der Behandlung 2 Monate Wartezeit",
     "gold_text": "Ich war bei Frau Dr.Röder - Dischinger zur Behandlung (2 Monate Wartezeit) meiner Akne, die ich seit 13 Jahre habe.",
     "corrupted": "Ich war bei Frau Dr.Röder - Dischinger zu die Behandlung ( 2 Monate Wartezeit) meiner Akne, die ich seit 13 Jahre habe.",
     "dative_type": "dative_prep_zu"
@@ -226,7 +226,7 @@
     "group_end": 9,
     "group_span_text": "den neusten Geräten",
     "gold_text": "Vom Klettern über sauna bis zu den neusten Geräten alles da was man braucht!",
-    "corrupted": "Vom Klettern über sauna bis zu die neuen Geräte alles da was man braucht!",
+    "corrupted": "Vom Klettern über sauna bis zu die neue Geräte alles da was man braucht!",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -784,7 +784,7 @@
     "sent_id": "train-s1638",
     "group_start": 12,
     "group_end": 16,
-    "group_span_text": "dem Schicksal Saro - Wiwas",
+    "group_span_text": "dem Schicksal Saro Wiwas",
     "gold_text": "Außenminister Tomi Ikimi weigerte sich am Freitag in Auckland, zum Schicksal Saro-Wiwas Stellung zu nehmen.",
     "corrupted": "Außenminister Tomi Ikimi weigerte sich am Freitag in Auckland, zu das Schicksal Saro - Wiwas Stellung zu nehmen.",
     "dative_type": "dative_prep_zu"
@@ -872,11 +872,11 @@
   {
     "split": "train",
     "sent_id": "train-s1799",
-    "group_start": 2,
+    "group_start": 7,
     "group_end": 8,
-    "group_span_text": "gehört mit 4,6 Prozent zu den niedrigsten",
+    "group_span_text": "den niedrigsten",
     "gold_text": "Die Arbeitslosenrate gehört mit 4,6 Prozent zu den niedrigsten auf dem Kontinent.",
-    "corrupted": "Die Arbeitslosenrate gehört mit 4,6 Prozent zu die niedrige auf dem Kontinent.",
+    "corrupted": "Die Arbeitslosenrate gehört mit 4,6 Prozent zu die niedrigere auf dem Kontinent.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -1114,9 +1114,9 @@
     "sent_id": "train-s2264",
     "group_start": 4,
     "group_end": 11,
-    "group_span_text": "den ehemaligen Kollegen in dem Aufsichtsrat, Brandi",
+    "group_span_text": "den ehemaligen Kollegen Brandi",
     "gold_text": "Seine guten Kontakte zu den ehemaligen Kollegen im Aufsichtsrat, Brandi, Haniel und Reusch, verschafften ihm lukrative Anzeigenaufträge, die für einen reinen Anzeigenverkäufer unerreichbar gewesen wären.",
-    "corrupted": "Seine guten Kontakte zu die ehemaligen Kollegen in den Aufsichtsrat, Brandi, Haniel und Reusch, verschafften ihm lukrative Anzeigenaufträge, die für einen reinen Anzeigenverkäufer unerreichbar gewesen wären.",
+    "corrupted": "Seine guten Kontakte zu die ehemaligen Kollegen im Aufsichtsrat, Brandi, Haniel und Reusch, verschafften ihm lukrative Anzeigenaufträge, die für einen reinen Anzeigenverkäufer unerreichbar gewesen wären.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -1334,9 +1334,9 @@
     "sent_id": "train-s2549",
     "group_start": 14,
     "group_end": 23,
-    "group_span_text": "den Resten des in dem Zweiten Weltkrieg zerstörten Weißenburger Tores",
+    "group_span_text": "den Resten des zerstörten Weißenburger Tores",
     "gold_text": "Von ihm aus führt der letzte noch begehbare Teil des Ellinger Wehrganges bis zu den Resten des im Zweiten Weltkrieg zerstörten Weißenburger Tores.",
-    "corrupted": "Von ihm aus führt der letzte noch begehbare Teil des Ellinger Wehrganges bis zu die Reste des in den Zweiten Weltkrieg zerstörten Weißenburger Tores.",
+    "corrupted": "Von ihm aus führt der letzte noch begehbare Teil des Ellinger Wehrganges bis zu die Reste des im Zweiten Weltkrieg zerstörten Weißenburger Tores.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -1534,7 +1534,7 @@
     "sent_id": "train-s2768",
     "group_start": 8,
     "group_end": 13,
-    "group_span_text": "dem General - Motors - Konzern",
+    "group_span_text": "dem General Motors Konzern",
     "gold_text": "Ab der Saison 2000 war es die zum General - Motors - Konzern gehörende Automarke Chevrolet, die den Platz des Hauptsponsors einnahm.",
     "corrupted": "Ab der Saison 2000 war es die zu den General - Motors - Konzern gehörende Automarke Chevrolet, die den Platz des Hauptsponsors einnahm.",
     "dative_type": "dative_prep_zu"
@@ -1611,10 +1611,20 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s2807",
+    "group_start": 7,
+    "group_end": 16,
+    "group_span_text": "2004 dem Technischen Berater",
+    "gold_text": "Nach dem Seebeben im Indischen Ozean 2004 wurde er von der FIFA zum Technischen Berater für das Aufbauprogramm in Sri Lanka ernannt und war dort auch direkt vor Ort tätig.",
+    "corrupted": "Nach dem Seebeben im Indischen Ozean 2004 wurde er von der FIFA zu den Technischen Berater für das Aufbauprogramm in Sri Lanka ernannt und war dort auch direkt vor Ort tätig.",
+    "dative_type": "dative_prep_zu"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s2808",
     "group_start": 2,
     "group_end": 3,
-    "group_span_text": "der Notation",
+    "group_span_text": "der Violinschlüssel benutzt, ist die Notation",
     "gold_text": "Wird zur Notation der Violinschlüssel benutzt, ist die Notation \"in F\", die Töne klingen also eine Quinte tiefer als notiert.",
     "corrupted": "Wird zu die Notation der Violinschlüssel benutzt, ist die Notation \" in F \", die Töne klingen also eine Quinte tiefer als notiert.",
     "dative_type": "dative_prep_zu"
@@ -1634,7 +1644,7 @@
     "sent_id": "train-s2825",
     "group_start": 49,
     "group_end": 52,
-    "group_span_text": "deren \" positiven Werten",
+    "group_span_text": "deren \"positiven Werten",
     "gold_text": "Der \"Opportunismus von Gewerkschaftsfunktionären und Sozialdemokraten\", deren Fixierung auf eine rein materielle Besserung der Arbeiterlage über Forderungen nach mehr Freiheit stehe, wird ebenso schonungslos kritisiert, wie der in seinen Augen \"Ungeist der Bourgeoisie\", der er sich selbst zugehörig fühlte und zu deren \"positiven Werten, Leistungs - und Bildungswillen\" er sich auch bekannte.",
     "corrupted": "Der \"Opportunismus von Gewerkschaftsfunktionären und Sozialdemokraten\", deren Fixierung auf eine rein materielle Besserung der Arbeiterlage über Forderungen nach mehr Freiheit stehe, wird ebenso schonungslos kritisiert, wie der in seinen Augen \"Ungeist der Bourgeoisie\", der er sich selbst zugehörig fühlte und zu deren \"positiven Werte, Leistungs - und Bildungswillen\" er sich auch bekannte.",
     "dative_type": "dative_prep_zu"
@@ -1911,6 +1921,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s3200",
+    "group_start": 10,
+    "group_end": 15,
+    "group_span_text": "dem League Finale",
+    "gold_text": "Obwohl er seit Monaten nicht spielte, wurde er zum Champions - League - Finale 2005 in Istanbul mitgenommen, dass Liverpool furios nach 0:3 - Rückstand im Elfmeterschießen gegen den AC Mailand gewann.",
+    "corrupted": "Obwohl er seit Monaten nicht spielte, wurde er zu das Champions - League - Finale 2005 in Istanbul mitgenommen, dass Liverpool furios nach 0:3 - Rückstand im Elfmeterschießen gegen den AC Mailand gewann.",
+    "dative_type": "dative_prep_zu"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s3216",
     "group_start": 3,
     "group_end": 4,
@@ -1984,7 +2004,7 @@
     "sent_id": "train-s3332",
     "group_start": 38,
     "group_end": 43,
-    "group_span_text": "dem Vorteil der US - Industrie",
+    "group_span_text": "dem Vorteil der US Industrie",
     "gold_text": "Das CFR - Projekt sah vor, im Namen von Demokratie, Freiheit und Menschenrechten sich für die Befreiung von \"unterdrückten Kolonialvölkern\" einzusetzen und das \"freie Unternehmertum\" sowie \"offene Märkte\" zum Vorteil der US - Industrie zu unterstützen (Grand Area).",
     "corrupted": "Das CFR - Projekt sah vor, im Namen von Demokratie, Freiheit und Menschenrechten sich für die Befreiung von \" unterdrückten Kolonialvölkern \" einzusetzen und das \" freie Unternehmertum \" sowie \" offene Märkte \" zu den Vorteil der US - Industrie zu unterstützen ( Grand Area).",
     "dative_type": "dative_prep_zu"
@@ -2203,8 +2223,8 @@
     "split": "train",
     "sent_id": "train-s3660",
     "group_start": 19,
-    "group_end": 25,
-    "group_span_text": "dem Bau der heutigen Autobahn E 45",
+    "group_end": 24,
+    "group_span_text": "dem Bau der heutigen Autobahn E",
     "gold_text": "Die Abtrennung des Innerdamms entstand in den 1950er Jahren, als die damalige Fernstraße A 10, bis zum Bau der heutigen Autobahn E 45 wichtigste Nord - Süd - Verbindung zwischen Deutschland und Dänemark, westlich der Haderslebener Altstadt verlegt wurde.",
     "corrupted": "Die Abtrennung des Innerdamms entstand in den 1950er Jahren, als die damalige Fernstraße A 10, bis zu den Bau der heutigen Autobahn E 45 wichtigste Nord - Süd - Verbindung zwischen Deutschland und Dänemark, westlich der Haderslebener Altstadt verlegt wurde.",
     "dative_type": "dative_prep_zu"
@@ -2254,7 +2274,7 @@
     "sent_id": "train-s3687",
     "group_start": 2,
     "group_end": 13,
-    "group_span_text": "dem Anderen waren die Mennoniten er defensiv und die Quäker sehr offensiv",
+    "group_span_text": "dem Anderen defensiv die offensiv",
     "gold_text": "Und zum Anderen waren die Mennoniten er defensiv und die Quäker sehr offensiv in dem sie mit gezielten Provokationen die Verfolgung geradezu herausforderten.",
     "corrupted": "Und zu das Anderes waren die Mennoniten er defensiv und die Quäker sehr offensiv in dem sie mit gezielten Provokationen die Verfolgung geradezu herausforderten.",
     "dative_type": "dative_prep_zu"
@@ -2444,7 +2464,7 @@
     "sent_id": "train-s3951",
     "group_start": 1,
     "group_end": 2,
-    "group_span_text": "der Visualisierung",
+    "group_span_text": "der Netzplänen dienen Visualisierung",
     "gold_text": "Zur Visualisierung von Unternehmensdaten in Form von Diagrammen (zum Beispiel Gantt - Diagramme, Fluss - Diagramme) oder Netzplänen dienen Visualisierungsprogramme.",
     "corrupted": "Zu die Visualisierung von Unternehmensdaten in Form von Diagrammen ( zum Beispiel Gantt - Diagramme, Fluss - Diagramme) oder Netzplänen dienen Visualisierungsprogramme.",
     "dative_type": "dative_prep_zu"
@@ -2871,6 +2891,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s4531",
+    "group_start": 9,
+    "group_end": 11,
+    "group_span_text": "dem Nachbarn FC",
+    "gold_text": "Vor allem wurde diese von der gemeinsamen Abneigung zum Nachbarn FC Schalke 04 geprägt.",
+    "corrupted": "Vor allem wurde diese von der gemeinsamen Abneigung zu den Nachbarn FC Schalke 04 geprägt.",
+    "dative_type": "dative_prep_zu"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s4564",
     "group_start": 3,
     "group_end": 6,
@@ -3154,7 +3184,7 @@
     "sent_id": "train-s5032",
     "group_start": 16,
     "group_end": 19,
-    "group_span_text": "dem doppelt magischen 208Pb",
+    "group_span_text": "dem magischen 208Pb",
     "gold_text": "Der sehr langsame Zerfall des 209Bi in 205Tl begründet sich einerseits durch die unmittelbare Nähe zum doppelt magischen 208Pb im Isotopenschema, und der Tatsache, dass 209Bi selbst einfach magisch ist.",
     "corrupted": "Der sehr langsame Zerfall des 209Bi in 205Tl begründet sich einerseits durch die unmittelbare Nähe zu das doppelt magischen 208Pb im Isotopenschema, und der Tatsache, dass 209Bi selbst einfach magisch ist.",
     "dative_type": "dative_prep_zu"
@@ -3247,6 +3277,16 @@
     "group_span_text": "der Verfügung",
     "gold_text": "Seine Übersetzung \"Sechzig Upanishads des Veda\" (1897) stellte Forschern auch anderer Fachbereiche wertvolles Quellenmaterial zur Verfügung.",
     "corrupted": "Seine Übersetzung \" Sechzig Upanishads des Veda \" ( 1897) stellte Forschern auch anderer Fachbereiche wertvolles Quellenmaterial zu die Verfügung.",
+    "dative_type": "dative_prep_zu"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5211",
+    "group_start": 16,
+    "group_end": 19,
+    "group_span_text": "dem Thema Die Sozialversicherung",
+    "gold_text": "Er promovierte im November 1933 mit der ausgesprochen seltenen Note \"sehr gut\" zum Thema Die Sozialversicherung im nationalsozialistischen Staat: Grundsätzliches zur Streitfrage: Versicherung oder Versorgung?",
+    "corrupted": "Er promovierte im November 1933 mit der ausgesprochen seltenen Note \" sehr gut \" zu das Thema Die Sozialversicherung im nationalsozialistischen Staat: Grundsätzliches zur Streitfrage: Versicherung oder Versorgung?",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -3344,7 +3384,7 @@
     "sent_id": "train-s5333",
     "group_start": 34,
     "group_end": 37,
-    "group_span_text": "dem 3:2 - Sieg",
+    "group_span_text": "dem 3:2 Sieg",
     "gold_text": "Im Finale gegen Deutschland erzielte er, nachdem Deutschland einen 0:2 - Rückstand aufgeholt hatte und das Spiel zu kippen drohte, nach einem Pass von Diego Maradona das entscheidende dritte Tor zum 3:2 - Sieg und wurde neben Maradona zum großen Helden des Turniers.",
     "corrupted": "Im Finale gegen Deutschland erzielte er, nachdem Deutschland einen 0:2 - Rückstand aufgeholt hatte und das Spiel zu kippen drohte, nach einem Pass von Diego Maradona das entscheidende dritte Tor zu das 3:2 - Sieg und wurde neben Maradona zum großen Helden des Turniers.",
     "dative_type": "dative_prep_zu"
@@ -3526,7 +3566,7 @@
     "group_end": 10,
     "group_span_text": "den bedeutendsten japanischen Space Operas",
     "gold_text": "Jason Thompson zählt Galaxy Express zu den bedeutendsten japanischen Space Operas.",
-    "corrupted": "Jason Thompson zählt Galaxy Express zu die bedeutendsten japanische Space Operas.",
+    "corrupted": "Jason Thompson zählt Galaxy Express zu die bedeutendsten japanischen Space Operas.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -3651,16 +3691,6 @@
   },
   {
     "split": "train",
-    "sent_id": "train-s5686",
-    "group_start": 17,
-    "group_end": 19,
-    "group_span_text": "der Unabhängigkeit Indonesiens",
-    "gold_text": "Geschichtlich umfasst das Gebiet Solo Raya annähernd alle Ländereien die von den beiden Höfen Surakartas bis zur Unabhängigkeit Indonesiens 1945 beherrscht wurden, dem Königshof Kasunahan und dem Fürstenhof Mangkunegaren.",
-    "corrupted": "Geschichtlich umfasst das Gebiet Solo Raya annähernd alle Ländereien die von den beiden Höfen Surakartas bis zu die Unabhängigkeit Indonesiens 1945 beherrscht wurden, dem Königshof Kasunahan und dem Fürstenhof Mangkunegaren.",
-    "dative_type": "dative_prep_zu"
-  },
-  {
-    "split": "train",
     "sent_id": "train-s5690",
     "group_start": 4,
     "group_end": 6,
@@ -3764,7 +3794,7 @@
     "sent_id": "train-s5893",
     "group_start": 18,
     "group_end": 25,
-    "group_span_text": "dem Commander of the British Empire ( CBE",
+    "group_span_text": "dem Commander of the British Empire CBE",
     "gold_text": "Roland Penrose wurde nach der erfolgreichen Picasso - Ausstellung in der Tate 1958 im Jahr 1960 zum Commander of the British Empire (CBE) erhoben.",
     "corrupted": "Roland Penrose wurde nach der erfolgreichen Picasso - Ausstellung in der Tate 1958 im Jahr 1960 zu den Commander of the British Empire ( CBE) erhoben.",
     "dative_type": "dative_prep_zu"
@@ -4104,7 +4134,7 @@
     "sent_id": "train-s6448",
     "group_start": 15,
     "group_end": 20,
-    "group_span_text": "der Kontaktpflege der Maschinenbau - Fachschaften",
+    "group_span_text": "der Kontaktpflege der Maschinenbau Fachschaften",
     "gold_text": "Neben der Interessenvertretung von Maschinenbau - Studentinnen und - Studenten dient die FaTaMa auch zur Kontaktpflege der Maschinenbau - Fachschaften untereinander.",
     "corrupted": "Neben der Interessenvertretung von Maschinenbau - Studentinnen und - Studenten dient die FaTaMa auch zu die Kontaktpflege der Maschinenbau - Fachschaften untereinander.",
     "dative_type": "dative_prep_zu"
@@ -5414,7 +5444,7 @@
     "sent_id": "train-s8231",
     "group_start": 41,
     "group_end": 47,
-    "group_span_text": "der Gründung einer so genannten Vierten Partei",
+    "group_span_text": "der Gründung einer genannten Vierten Partei",
     "gold_text": "Tatsächlich resultierte der Kreuther Trennungsbeschluss aus heftigen Auseinandersetzungen und einem Machtkampf zwischen den beiden Parteivorsitzenden Helmut Kohl (CDU) und Franz Josef Strauß (CSU), die vor allem das gemeinsame Verhältnis zur FDP und strategische Überlegungen zur Gründung einer so genannten Vierten Partei zum Inhalt hatten.",
     "corrupted": "Tatsächlich resultierte der Kreuther Trennungsbeschluss aus heftigen Auseinandersetzungen und einem Machtkampf zwischen den beiden Parteivorsitzenden Helmut Kohl ( CDU) und Franz Josef Strauß ( CSU), die vor allem das gemeinsame Verhältnis zur FDP und strategische Überlegungen zu die Gründung einer so genannten Vierten Partei zum Inhalt hatten.",
     "dative_type": "dative_prep_zu"
@@ -5614,7 +5644,7 @@
     "sent_id": "train-s8485",
     "group_start": 53,
     "group_end": 62,
-    "group_span_text": "der Katastrophe samt Lösung des Konflikts, der Konfrontation Freytags",
+    "group_span_text": "der Katastrophe der Konfrontation Freytags",
     "gold_text": "Der Aufbau erinnert auch an ein klassisches Drama mit der Präsentation von Ort und Zeit in einer Exposition, der Komplikation mit der Aufnahme der Schiffbrüchigen, dem Höhepunkt und der Peripetie mit der Weigerung Freytags, den Forderungen der Gangster nachzugeben, dem retardierendem Moment der verschiedenen Auseinandersetzungen an Bord bis zur Katastrophe samt Lösung des Konflikts, der Konfrontation Freytags mit den Banditen sowie deren Überwältigung.",
     "corrupted": "Der Aufbau erinnert auch an ein klassisches Drama mit der Präsentation von Ort und Zeit in einer Exposition, der Komplikation mit der Aufnahme der Schiffbrüchigen, dem Höhepunkt und der Peripetie mit der Weigerung Freytags, den Forderungen der Gangster nachzugeben, dem retardierendem Moment der verschiedenen Auseinandersetzungen an Bord bis zu die Katastrophe samt Lösung des Konflikts, die Konfrontation Freytags mit den Banditen sowie deren Überwältigung.",
     "dative_type": "dative_prep_zu"
@@ -5624,7 +5654,7 @@
     "sent_id": "train-s8507",
     "group_start": 3,
     "group_end": 14,
-    "group_span_text": "dem Sitz der Countyverwaltung ( County Seat) des Kern Countys 1874",
+    "group_span_text": "dem Sitz der Countyverwaltung County Seat des Kern Countys 1874",
     "gold_text": "Bakersfield wurde zum Sitz der Countyverwaltung (County Seat) des Kern Countys 1874 gewählt.",
     "corrupted": "Bakersfield wurde zu den Sitz der Countyverwaltung ( County Seat) des Kern Countys 1874 gewählt.",
     "dative_type": "dative_prep_zu"
@@ -5954,7 +5984,7 @@
     "sent_id": "train-s8893",
     "group_start": 13,
     "group_end": 29,
-    "group_span_text": "dem ansonsten nach 1995 auf den Schlachthof - Areal neu erbauten Sitz des Mitteldeutschen Rundfunks ( MDR",
+    "group_span_text": "dem ansonsten nach 1995 auf den Schlachthof - Areal neu erbauten Sitz des Mitteldeutschen Rundfunks (MDR",
     "gold_text": "Die Anlage wurde später mehrfach erweitert, einige erhaltene Bauten gehören heute zu dem ansonsten nach 1995 auf den Schlachthof - Areal neu erbauten Sitz des Mitteldeutschen Rundfunks (MDR).",
     "corrupted": "Die Anlage wurde später mehrfach erweitert, einige erhaltene Bauten gehören heute zu das ansonsten nach 1995 auf den Schlachthof - Areal neu erbauten Sitz des Mitteldeutschen Rundfunks (MDR).",
     "dative_type": "dative_prep_zu"
@@ -6116,7 +6146,7 @@
     "group_end": 21,
     "group_span_text": "den älteren Brüdern",
     "gold_text": "Obgleich der väterliche Besitz schon 1035 auf den Sohn Gottfried überging, blieb Robert (im Gegensatz zu den älteren Brüdern) bis etwa 1045 in der Normandie.",
-    "corrupted": "Obgleich der väterliche Besitz schon 1035 auf den Sohn Gottfried überging, blieb Robert (im Gegensatz zu die alten Brüder) bis etwa 1045 in der Normandie.",
+    "corrupted": "Obgleich der väterliche Besitz schon 1035 auf den Sohn Gottfried überging, blieb Robert (im Gegensatz zu die ältere Brüder) bis etwa 1045 in der Normandie.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -6174,7 +6204,7 @@
     "sent_id": "train-s9078",
     "group_start": 8,
     "group_end": 16,
-    "group_span_text": "der zweiten Einheit der Santa - Maria - Supersequenz",
+    "group_span_text": "der zweiten Einheit der Santa Maria Supersequenz",
     "gold_text": "Die Sedimente der Caturrita - Formation gehören zur zweiten Einheit der Santa - Maria - Supersequenz und überlagern das Alemoa - Member der Santa - Maria - Formation, wobei ein allmählicher fazieller Übergang von den tonigen Sedimenten des Alemoa - Members zu den sandigeren Sedimenten der Caturrita - Formation stattfindet.",
     "corrupted": "Die Sedimente der Caturrita - Formation gehören zu die zweite Einheit der Santa - Maria - Supersequenz und überlagern das Alemoa - Member der Santa - Maria - Formation, wobei ein allmählicher fazieller Übergang von den tonigen Sedimenten des Alemoa - Members zu den sandigeren Sedimenten der Caturrita - Formation stattfindet.",
     "dative_type": "dative_prep_zu"
@@ -6184,7 +6214,7 @@
     "sent_id": "train-s9085",
     "group_start": 13,
     "group_end": 14,
-    "group_span_text": "der Entwicklung",
+    "group_span_text": "der Preis - Absatz - Funktion und der Bestimmung des Gewinnmaximums eines Angebotsmonopolisten (Cournotscher Punkt), während der deutsche Ökonom Hermann Heinrich Gossen es zur Erforschung der Bedürfnisbefriedigung und damit zur Entwicklung",
     "gold_text": "Dem französischen Wirtschaftstheoretiker Antoine - Augustin Cournot diente das Prinzip als Basis zur Entwicklung der Preis - Absatz - Funktion und der Bestimmung des Gewinnmaximums eines Angebotsmonopolisten (Cournotscher Punkt), während der deutsche Ökonom Hermann Heinrich Gossen es zur Erforschung der Bedürfnisbefriedigung und damit zur Entwicklung der Gossenschen Gesetze nutzte.",
     "corrupted": "Dem französischen Wirtschaftstheoretiker Antoine - Augustin Cournot diente das Prinzip als Basis zu die Entwicklung der Preis - Absatz - Funktion und der Bestimmung des Gewinnmaximums eines Angebotsmonopolisten ( Cournotscher Punkt), während der deutsche Ökonom Hermann Heinrich Gossen es zur Erforschung der Bedürfnisbefriedigung und damit zur Entwicklung der Gossenschen Gesetze nutzte.",
     "dative_type": "dative_prep_zu"
@@ -6321,16 +6351,6 @@
   },
   {
     "split": "train",
-    "sent_id": "train-s9217",
-    "group_start": 12,
-    "group_end": 21,
-    "group_span_text": "geplanten aber nicht zu der Ausführung gekommenen Dante - Fresken",
-    "gold_text": "Ferner fertigte er mehrere Lithografien nach den von Cornelius entworfenen Zeichnungen zu geplanten aber nicht zur Ausführung gekommenen Dante - Fresken für das Casino Massimo in Rom an.",
-    "corrupted": "Ferner fertigte er mehrere Lithografien nach den von Cornelius entworfenen Zeichnungen zu geplanten aber nicht zu die Ausführung gekommenen Dante - Fresken für das Casino Massimo in Rom an.",
-    "dative_type": "dative_prep_zu"
-  },
-  {
-    "split": "train",
     "sent_id": "train-s9222",
     "group_start": 7,
     "group_end": 10,
@@ -6454,7 +6474,7 @@
     "sent_id": "train-s9444",
     "group_start": 5,
     "group_end": 14,
-    "group_span_text": "der Erzeugung eines Zufallsvektors X einer N - dimensionalen Normalverteilung",
+    "group_span_text": "der Erzeugung eines Zufallsvektors X einer N dimensionalen Normalverteilung",
     "gold_text": "Eine oft verwendete Methode zur Erzeugung eines Zufallsvektors X einer N - dimensionalen Normalverteilung mit Mittelwertvektor μ und (symmetrischer und positiv definiter) Kovarianzmatrix Σ kann wie folgt angegeben werden:",
     "corrupted": "Eine oft verwendete Methode zu die Erzeugung eines Zufallsvektors X einer N - dimensionalen Normalverteilung mit Mittelwertvektor μ und ( symmetrischer und positiv definiter) Kovarianzmatrix Σ kann wie folgt angegeben werden:",
     "dative_type": "dative_prep_zu"
@@ -6581,6 +6601,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s9544",
+    "group_start": 26,
+    "group_end": 27,
+    "group_span_text": "dem anderen",
+    "gold_text": "Tatsache ist, dass der Honda früher auf den Markt kam -- was zum einen an der längeren Entwicklungszeit des Volvo 480 lag und zum anderen daran, dass Volvo eine völlig andere Zielgruppe ansprechen wollte.",
+    "corrupted": "Tatsache ist, dass der Honda früher auf den Markt kam -- was zum einen an der längeren Entwicklungszeit des Volvo 480 lag und zu das anderes daran, dass Volvo eine völlig andere Zielgruppe ansprechen wollte.",
+    "dative_type": "dative_prep_zu"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s9557",
     "group_start": 3,
     "group_end": 4,
@@ -6624,7 +6654,7 @@
     "sent_id": "train-s9633",
     "group_start": 32,
     "group_end": 36,
-    "group_span_text": "dem « Sein des Bildes",
+    "group_span_text": "dem Sein des Bildes",
     "gold_text": "Im Anschluss an die dekonstruktivistische Kritik an der philosophischen Tradition, für die ein Bild immer eine seinsmässige Abschwächung war, vollzieht Marin eine Wendung vom Bild des Seins zum «Sein des Bildes».",
     "corrupted": "Im Anschluss an die dekonstruktivistische Kritik an der philosophischen Tradition, für die ein Bild immer eine seinsmässige Abschwächung war, vollzieht Marin eine Wendung vom Bild des Seins zu das « Sein des Bildes».",
     "dative_type": "dative_prep_zu"
@@ -6694,7 +6724,7 @@
     "sent_id": "train-s9737",
     "group_start": 19,
     "group_end": 24,
-    "group_span_text": "der Therapie myelodysplastischer Syndrome ( MDS",
+    "group_span_text": "der Therapie myelodysplastischer Syndrome MDS",
     "gold_text": "Im Dezember des Jahres 2008 hat die Europäische Kommission Azacitidin (Vidaza ®) als Orphan Drug zur Therapie myelodysplastischer Syndrome (MDS) zugelassen.",
     "corrupted": "Im Dezember des Jahres 2008 hat die Europäische Kommission Azacitidin ( Vidaza ®) als Orphan Drug zu die Therapie myelodysplastischer Syndrome ( MDS) zugelassen.",
     "dative_type": "dative_prep_zu"
@@ -6834,9 +6864,9 @@
     "sent_id": "train-s9920",
     "group_start": 11,
     "group_end": 17,
-    "group_span_text": "der Herstellung des von ihm entwickelten Webstuhls",
+    "group_span_text": "der Herstellung des entwickelten Webstuhls",
     "gold_text": "Er erweiterte den Betrieb in Siebnen um eine mechanische Werkstatt zur Herstellung des von ihm entwickelten Webstuhls.",
-    "corrupted": "Er erweiterte den Betrieb in Siebnen um eine mechanische Werkstatt zu die Herstellung des von ihn entwickelten Webstuhls.",
+    "corrupted": "Er erweiterte den Betrieb in Siebnen um eine mechanische Werkstatt zu die Herstellung des von ihm entwickelten Webstuhls.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -6874,7 +6904,7 @@
     "sent_id": "train-s10040",
     "group_start": 26,
     "group_end": 32,
-    "group_span_text": "dem gleichnamigen Fluss, dem Victoria River",
+    "group_span_text": "dem gleichnamigen Fluss dem Victoria River",
     "gold_text": "Von hier gelangt man über den Victoria Highway zunächst in den kleineren Teil des Parks, die sogenannte Victoria - River - Sektion mit Zugang zum gleichnamigen Fluss, dem Victoria River.",
     "corrupted": "Von hier gelangt man über den Victoria Highway zunächst in den kleineren Teil des Parks, die sogenannte Victoria - River - Sektion mit Zugang zu den gleichnamigen Fluss, den Victoria River.",
     "dative_type": "dative_prep_zu"
@@ -6884,7 +6914,7 @@
     "sent_id": "train-s10041",
     "group_start": 11,
     "group_end": 18,
-    "group_span_text": "dem Erstaunen der Franzosen der Champlain - Expeditionen",
+    "group_span_text": "dem Erstaunen der Franzosen der Champlain Expeditionen",
     "gold_text": "Irokesen hatten dort die Siedlung Hochelaga errichtet, die aber zum Erstaunen der Franzosen der Champlain - Expeditionen einige Jahrzehnte später vollständig verschwunden war.",
     "corrupted": "Irokesen hatten dort die Siedlung Hochelaga errichtet, die aber zu das Erstaunen der Franzosen der Champlain - Expeditionen einige Jahrzehnte später vollständig verschwunden war.",
     "dative_type": "dative_prep_zu"
@@ -6896,7 +6926,7 @@
     "group_end": 15,
     "group_span_text": "den kleineren chemisch - physikalischen Instituten der AdW",
     "gold_text": "Das IcT zählte 1989 mit 158 Mitarbeitern zu den kleineren chemisch - physikalischen Instituten der AdW.",
-    "corrupted": "Das IcT zählte 1989 mit 158 Mitarbeitern zu die kleinen chemische - physikalische Institute der AdW.",
+    "corrupted": "Das IcT zählte 1989 mit 158 Mitarbeitern zu die kleinen chemische - physikalischen Institute der AdW.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -7143,8 +7173,8 @@
     "split": "train",
     "sent_id": "train-s10473",
     "group_start": 1,
-    "group_end": 6,
-    "group_span_text": "der Darstellung des Falschfahrsignales Zg 2",
+    "group_end": 5,
+    "group_span_text": "der Darstellung des Falschfahrsignales Zg",
     "gold_text": "Zur Darstellung des Falschfahrsignales Zg 2 für Fahrten auf dem \"falschen Gleis\" (heutige Bezeichnung \"Gegengleis\") besaßen die Züge zusätzlich noch ein kleines rotes Signallicht unter dem weißen Frontsignal, das aber in den Nachkriegsjahren entfernt wurde.",
     "corrupted": "Zu die Darstellung des Falschfahrsignales Zg 2 für Fahrten auf dem \" falschen Gleis \" ( heutige Bezeichnung \" Gegengleis \") besaßen die Züge zusätzlich noch ein kleines rotes Signallicht unter dem weißen Frontsignal, das aber in den Nachkriegsjahren entfernt wurde.",
     "dative_type": "dative_prep_zu"
@@ -7244,7 +7274,7 @@
     "sent_id": "train-s10610",
     "group_start": 11,
     "group_end": 16,
-    "group_span_text": "der Stadt - und Landgemeinde Polanów",
+    "group_span_text": "der Stadt Polanów",
     "gold_text": "Der Ort erhielt den polnischen Namen Chocimino und gehört heute zur Stadt - und Landgemeinde Polanów im Powiat Koszaliński.",
     "corrupted": "Der Ort erhielt den polnischen Namen Chocimino und gehört heute zu die Stadt - und Landgemeinde Polanów im Powiat Koszaliński.",
     "dative_type": "dative_prep_zu"
@@ -7316,7 +7346,7 @@
     "group_end": 11,
     "group_span_text": "den großen Veränderungen der Kultur",
     "gold_text": "Symbol dafür ist ein sich analog zu den großen Veränderungen der Kultur sowie dem weitreichenden Einzelbeitrag eines Menschen architektonisch variabler, nie fertiger Turm oder Tempel.",
-    "corrupted": "Symbol dafür ist ein sich analog zu die größten Veränderungen der Kultur sowie dem weitreichenden Einzelbeitrag eines Menschen architektonisch variabler, nie fertiger Turm oder Tempel.",
+    "corrupted": "Symbol dafür ist ein sich analog zu die großen Veränderungen der Kultur sowie dem weitreichenden Einzelbeitrag eines Menschen architektonisch variabler, nie fertiger Turm oder Tempel.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -7452,9 +7482,9 @@
   {
     "split": "train",
     "sent_id": "train-s11005",
-    "group_start": 23,
+    "group_start": 37,
     "group_end": 37,
-    "group_span_text": "You have to realize, we live in a crazy world \" ( zu deutsch",
+    "group_span_text": "deutsch",
     "gold_text": "Als jedoch Schlagzeuger Herman Rarebell recht kurz vor Produktionsschluss des Albums US - Präsident George H. W. Bush im amerikanischen Fernsehen \"You have to realize, we live in a crazy world\" (zu deutsch: \"Ihr müsst einsehen, dass wir in einer verrückten Welt leben\") ausrufen sah, erkannte dieser das Potential der letzten beiden Wörter Bushs und so wurde das Album schließlich unter dem Titel Crazy World veröffentlicht.",
     "corrupted": "Als jedoch Schlagzeuger Herman Rarebell recht kurz vor Produktionsschluss des Albums US - Präsident George H. W. Bush im amerikanischen Fernsehen \"You have to realize, we live in a crazy world\" (zu deutsches: \"Ihr müsst einsehen, dass wir in einer verrückten Welt leben\") ausrufen sah, erkannte dieser das Potential der letzten beiden Wörter Bushs und so wurde das Album schließlich unter dem Titel Crazy World veröffentlicht.",
     "dative_type": "dative_prep_zu"
@@ -7494,7 +7524,7 @@
     "sent_id": "train-s11055",
     "group_start": 6,
     "group_end": 11,
-    "group_span_text": "der Auflösung oder Vertagung der Landesversammlung",
+    "group_span_text": "der Auflösung der Landesversammlung",
     "gold_text": "Ausgenommen davon war das Recht zur Auflösung oder Vertagung der Landesversammlung.",
     "corrupted": "Ausgenommen davon war das Recht zu die Auflösung oder Vertagung der Landesversammlung.",
     "dative_type": "dative_prep_zu"
@@ -7544,7 +7574,7 @@
     "sent_id": "train-s11136",
     "group_start": 4,
     "group_end": 13,
-    "group_span_text": "der Gründung der Inter - American Development Bank ( IDB",
+    "group_span_text": "der Gründung der Inter American Development Bank IDB",
     "gold_text": "Der Gipfel führte zur Gründung der Inter - American Development Bank (IDB).",
     "corrupted": "Der Gipfel führte zu die Gründung der Inter - American Development Bank ( IDB).",
     "dative_type": "dative_prep_zu"
@@ -7614,7 +7644,7 @@
     "sent_id": "train-s11199",
     "group_start": 12,
     "group_end": 17,
-    "group_span_text": "der Familie der Ebenholzgewächse ( Ebenaceae",
+    "group_span_text": "der Familie der Ebenholzgewächse Ebenaceae",
     "gold_text": "Die Gattung der Ebenholzbäume (Diospyros) (Dattelpflaume) gehört zur Familie der Ebenholzgewächse (Ebenaceae).",
     "corrupted": "Die Gattung der Ebenholzbäume ( Diospyros) ( Dattelpflaume) gehört zu die Familie der Ebenholzgewächse ( Ebenaceae).",
     "dative_type": "dative_prep_zu"
@@ -7684,7 +7714,7 @@
     "sent_id": "train-s11292",
     "group_start": 9,
     "group_end": 15,
-    "group_span_text": "dem Lösen großer, dünnbesetzter linearer Gleichungssysteme",
+    "group_span_text": "dem Lösen großer dünnbesetzter linearer Gleichungssysteme",
     "gold_text": "Krylow - Unterraum - Verfahren sind iterative Verfahren zum Lösen großer, dünnbesetzter linearer Gleichungssysteme, wie sie bei der Diskretisierung von partiellen Differentialgleichungen entstehen oder von Eigenwertproblemen.",
     "corrupted": "Krylow - Unterraum - Verfahren sind iterative Verfahren zu das Lösen großer, dünnbesetzter linearer Gleichungssysteme, wie sie bei der Diskretisierung von partiellen Differentialgleichungen entstehen oder von Eigenwertproblemen.",
     "dative_type": "dative_prep_zu"
@@ -8016,7 +8046,7 @@
     "group_end": 3,
     "group_span_text": "den neuen Verfahren",
     "gold_text": "Zu den neuen Verfahren gehörte es, kleinere Fahrzeuge, in diesem Falle Schnellboote, nicht auf eigenem Kiel sondern an Bord eines Dockschiffs in das Einsatzgebiet zu transportieren, um das Material zu schonen.",
-    "corrupted": "Zu die neuen Verfahren gehörte es, kleinere Fahrzeuge, in diesem Falle Schnellboote, nicht auf eigenem Kiel sondern an Bord eines Dockschiffs in das Einsatzgebiet zu transportieren, um das Material zu schonen.",
+    "corrupted": "Zu die neue Verfahren gehörte es, kleinere Fahrzeuge, in diesem Falle Schnellboote, nicht auf eigenem Kiel sondern an Bord eines Dockschiffs in das Einsatzgebiet zu transportieren, um das Material zu schonen.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -8084,7 +8114,7 @@
     "sent_id": "train-s11816",
     "group_start": 6,
     "group_end": 11,
-    "group_span_text": "dem Neubau des Humboldt - Forums",
+    "group_span_text": "dem Neubau des Humboldt Forums",
     "gold_text": "November 2007 startete der Architektenwettbewerb zum Neubau des Humboldt - Forums am Standort des früheren Berliner Stadtschlosses, dessen Außenbau laut Wettbewerbsbedingungen Repliken der Nord -, West -, und Südfassade des ehemaligen Stadtschlosses erhalten sollte.",
     "corrupted": "November 2007 startete der Architektenwettbewerb zu den Neubau des Humboldt - Forums am Standort des früheren Berliner Stadtschlosses, dessen Außenbau laut Wettbewerbsbedingungen Repliken der Nord -, West -, und Südfassade des ehemaligen Stadtschlosses erhalten sollte.",
     "dative_type": "dative_prep_zu"
@@ -8624,7 +8654,7 @@
     "sent_id": "train-s12458",
     "group_start": 17,
     "group_end": 20,
-    "group_span_text": "der heute evangelischen Pfarrkirche",
+    "group_span_text": "der evangelischen Pfarrkirche",
     "gold_text": "Aagtekerke wurde nach der Heiligen Agatha benannt, die bis zur Reformation Schutzpatronin des Ortes und der heute evangelischen Pfarrkirche war.",
     "corrupted": "Aagtekerke wurde nach der Heiligen Agatha benannt, die bis zur Reformation Schutzpatronin des Ortes und der heute evangelische Pfarrkirche war.",
     "dative_type": "dative_prep_zu"
@@ -9041,10 +9071,20 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s12977",
+    "group_start": 0,
+    "group_end": 9,
+    "group_span_text": "Die Bezeichnung \"Rainforest Alliance Certified\" (zu deutsch",
+    "gold_text": "Die Bezeichnung \"Rainforest Alliance Certified\" (zu deutsch \"Rainforest Alliance zertifiziert\") findet sich auf einer Reihe von Produkten im Lebensmittelhandel und der Gastronomie.",
+    "corrupted": "Die Bezeichnung \"Rainforest Alliance Certified\" (zu deutsches \"Rainforest Alliance zertifiziert\") findet sich auf einer Reihe von Produkten im Lebensmittelhandel und der Gastronomie.",
+    "dative_type": "dative_prep_zu"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s12984",
     "group_start": 17,
     "group_end": 21,
-    "group_span_text": "dem Thema \" gute Form",
+    "group_span_text": "dem Thema gute Form",
     "gold_text": "Max Bill, ihr Architekt und erster Direktor, hatte es 1949 fertiggebracht, eine Ausstellung zum Thema \"gute Form\" auf die Beine zu stellen.",
     "corrupted": "Max Bill, ihr Architekt und erster Direktor, hatte es 1949 fertiggebracht, eine Ausstellung zu das Thema \" gute Form \" auf die Beine zu stellen.",
     "dative_type": "dative_prep_zu"
@@ -9483,8 +9523,8 @@
     "split": "train",
     "sent_id": "train-s13549",
     "group_start": 8,
-    "group_end": 11,
-    "group_span_text": "dem Eingang West 1",
+    "group_end": 10,
+    "group_span_text": "dem Eingang West",
     "gold_text": "Durch einen wettergeschützten Skywalk besteht eine Verbindung zum Eingang West 1.",
     "corrupted": "Durch einen wettergeschützten Skywalk besteht eine Verbindung zu den Eingang West 1.",
     "dative_type": "dative_prep_zu"
@@ -9876,7 +9916,7 @@
     "group_end": 12,
     "group_span_text": "seinen musikalischen Wurzeln",
     "gold_text": "Davis kehrt bei dem in diesem Album dokumentierten Auftritt zu seinen musikalischen Wurzeln zurück, die zum Teil über vierzig Jahre zurückliegen und.",
-    "corrupted": "Davis kehrt bei dem in diesem Album dokumentierten Auftritt zu seine musikalischen Wurzeln zurück, die zum Teil über vierzig Jahre zurückliegen und.",
+    "corrupted": "Davis kehrt bei dem in diesem Album dokumentierten Auftritt zu seine musikalische Wurzeln zurück, die zum Teil über vierzig Jahre zurückliegen und.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -10024,7 +10064,7 @@
     "sent_id": "dev-s244",
     "group_start": 18,
     "group_end": 20,
-    "group_span_text": "dem Fußball schauen",
+    "group_span_text": "dem schauen",
     "gold_text": "Der Fernseher läuft eigentlich nur für uns Gäste bei einer LIVE Übertragung (WELTMEISTERSCHAFT ect.) zum Fußball schauen.",
     "corrupted": "Der Fernseher läuft eigentlich nur für uns Gäste bei einer LIVE Übertragung ( WELTMEISTERSCHAFT ect.) zu den Fußball schauen.",
     "dative_type": "dative_prep_zu"
@@ -10067,6 +10107,16 @@
     "group_span_text": "ihm",
     "gold_text": "Ich hatte sofort Vertrauen zu ihm.",
     "corrupted": "Ich hatte sofort Vertrauen zu ihn.",
+    "dative_type": "dative_prep_zu"
+  },
+  {
+    "split": "dev",
+    "sent_id": "dev-s363",
+    "group_start": 11,
+    "group_end": 12,
+    "group_span_text": "fairen Beiträge",
+    "gold_text": "Hier wird wirklich gut beraten, freundlich und zuvorkommend und zu fairen Beiträge.",
+    "corrupted": "Hier wird wirklich gut beraten, freundlich und zuvorkommend und zu faire Beiträge.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -10374,7 +10424,7 @@
     "sent_id": "dev-s776",
     "group_start": 6,
     "group_end": 11,
-    "group_span_text": "der Lösung und Identifizierung komplexer Probleme",
+    "group_span_text": "der Lösung komplexer Probleme",
     "gold_text": "Eine ausländische Firma, die zur Lösung und Identifizierung komplexer Probleme eine vertragliche Abmachung mit Amerikanern trifft, ist dem amerikanischen Volk viel nützlicher als eine amerikanische Firma, die zum gleichen Zweck mit Ausländern eine Vereinbarung trifft.",
     "corrupted": "Eine ausländische Firma, die zu die Lösung und Identifizierung komplexer Probleme eine vertragliche Abmachung mit Amerikanern trifft, ist dem amerikanischen Volk viel nützlicher als eine amerikanische Firma, die zum gleichen Zweck mit Ausländern eine Vereinbarung trifft.",
     "dative_type": "dative_prep_zu"
@@ -10486,7 +10536,7 @@
     "group_end": 17,
     "group_span_text": "den kleineren Filialen",
     "gold_text": "Ich war sichtlich enttäuscht: der \"XXL\" - Laden nimmt sich nichts zu den kleineren Filialen (außer der lebenden Exemplare), die Mitarbeiter waren inkompetent, sofern sie überhaupt aufzufinden waren.",
-    "corrupted": "Ich war sichtlich enttäuscht: der \"XXL\" - Laden nimmt sich nichts zu die kleineren Filialen (außer der lebenden Exemplare), die Mitarbeiter waren inkompetent, sofern sie überhaupt aufzufinden waren.",
+    "corrupted": "Ich war sichtlich enttäuscht: der \"XXL\" - Laden nimmt sich nichts zu die kleinen Filialen (außer der lebenden Exemplare), die Mitarbeiter waren inkompetent, sofern sie überhaupt aufzufinden waren.",
     "dative_type": "dative_prep_zu"
   },
   {
@@ -10604,7 +10654,7 @@
     "sent_id": "test-s335",
     "group_start": 11,
     "group_end": 19,
-    "group_span_text": "der Vorbereitung der für Ende 1992 geplanten freien Wahlen",
+    "group_span_text": "der Vorbereitung der geplanten freien Wahlen",
     "gold_text": "Angola erhält von der Europäischen Gemeinschaft rund vier Millionen Mark zur Vorbereitung der für Ende 1992 geplanten freien Wahlen.",
     "corrupted": "Angola erhält von der Europäischen Gemeinschaft rund vier Millionen Mark zu die Vorbereitung der für Ende 1992 geplanten freien Wahlen.",
     "dative_type": "dative_prep_zu"
@@ -10664,7 +10714,7 @@
     "sent_id": "test-s382",
     "group_start": 6,
     "group_end": 11,
-    "group_span_text": "der Freude der Kompromiß - Gegner",
+    "group_span_text": "der Freude der Kompromiß Gegner",
     "gold_text": "Diese und andere Argumente kamen zur Freude der Kompromiß-Gegner offenbar ziemlich gut an.",
     "corrupted": "Diese und andere Argumente kamen zu die Freude der Kompromiß - Gegner offenbar ziemlich gut an.",
     "dative_type": "dative_prep_zu"
@@ -10774,7 +10824,7 @@
     "sent_id": "test-s472",
     "group_start": 9,
     "group_end": 20,
-    "group_span_text": "einer `` europäischen '' Position -- abzüglich der offenkundig nachbarschaftlich befangenen Skandinavier",
+    "group_span_text": "einer ``europäischen'' Position -- abzüglich der offenkundig nachbarschaftlich befangenen Skandinavier",
     "gold_text": "Diese Mischung aus schlechten und etwas besseren Motiven zu einer ``europäischen'' Position -- abzüglich der offenkundig nachbarschaftlich befangenen Skandinavier -- zu adeln, hieß nun freilich, die Rechnung auf stoffelige Weise ohne den Wirt zu machen.",
     "corrupted": "Diese Mischung aus schlechten und etwas besseren Motiven zu eine ``europäische'' Position -- abzüglich der offenkundig nachbarschaftlich befangenen Skandinavier -- zu adeln, hieß nun freilich, die Rechnung auf stoffelige Weise ohne den Wirt zu machen.",
     "dative_type": "dative_prep_zu"
@@ -10804,7 +10854,7 @@
     "sent_id": "test-s500",
     "group_start": 14,
     "group_end": 22,
-    "group_span_text": "der Vorbereitung der für Ende 1992 geplanten freien Wahlen",
+    "group_span_text": "der Vorbereitung der geplanten freien Wahlen",
     "gold_text": "Die Regierung von Angola erhält von der Europäischen Gemeinschaft rund vier Millionen Mark zur Vorbereitung der für Ende 1992 geplanten freien Wahlen.",
     "corrupted": "Die Regierung von Angola erhält von der Europäischen Gemeinschaft rund vier Millionen Mark zu die Vorbereitung der für Ende 1992 geplanten freien Wahlen.",
     "dative_type": "dative_prep_zu"
@@ -10843,8 +10893,8 @@
     "split": "test",
     "sent_id": "test-s519",
     "group_start": 23,
-    "group_end": 25,
-    "group_span_text": "seinen besten gehören",
+    "group_end": 24,
+    "group_span_text": "seinen besten",
     "gold_text": "Wole Soyinka bringt gern Festbräuche auf die Bühne, und trotz seiner bitteren Erfahrungen gibt er der lächelnden Komödie, die nicht zu seinen besten gehören mag, einen hoffnungsvollen, fast märchenhaften Schluß.",
     "corrupted": "Wole Soyinka bringt gern Festbräuche auf die Bühne, und trotz seiner bitteren Erfahrungen gibt er der lächelnden Komödie, die nicht zu seine gute gehören mag, einen hoffnungsvollen, fast märchenhaften Schluß.",
     "dative_type": "dative_prep_zu"
@@ -10964,7 +11014,7 @@
     "sent_id": "test-s694",
     "group_start": 13,
     "group_end": 20,
-    "group_span_text": "dem Rückzug aller schwer bewaffneten Mudjaheddin - Kämpfer",
+    "group_span_text": "dem Rückzug aller bewaffneten Mudjaheddin Kämpfer",
     "gold_text": "Hekmatyar hatte sich geweigert, der Aufforderung des neuen Präsidenten Burhanuddin Rabbani zum Rückzug aller schwer bewaffneten Mudjaheddin-Kämpfer aus Kabul nachzukommen.",
     "corrupted": "Hekmatyar hatte sich geweigert, der Aufforderung des neuen Präsidenten Burhanuddin Rabbani zu den Rückzug aller schwer bewaffneten Mudjaheddin - Kämpfer aus Kabul nachzukommen.",
     "dative_type": "dative_prep_zu"
@@ -11144,7 +11194,7 @@
     "sent_id": "test-s970",
     "group_start": 6,
     "group_end": 9,
-    "group_span_text": "dem `` technologischen Sprung",
+    "group_span_text": "dem technologischen Sprung",
     "gold_text": "Zugleich lockt er die Wirtschaft zum ``technologischen Sprung nach vorn'', etwa die Weltmärkte mit Benzinsparautos ``Made in Germany'' zu erobern.",
     "corrupted": "Zugleich lockt er die Wirtschaft zu den `` technologischen Sprung nach vorn '', etwa die Weltmärkte mit Benzinsparautos `` Made in Germany '' zu erobern.",
     "dative_type": "dative_prep_zu"

@@ -524,7 +524,7 @@
     "sent_id": "train-s10066",
     "group_start": 21,
     "group_end": 24,
-    "group_span_text": "den 1970er - Jahren",
+    "group_span_text": "den 1970er Jahren",
     "gold_text": "Die den Hauptkamm des Kolymagebirges kreuzende Straße zur Pjostraja - Dreswa - Bucht am Ochotskischen Meer wurde bereits seit den 1970er - Jahren nicht mehr durchgehend unterhalten und wird auch in ihrem Nordabschnitt nach Aufgabe der Ortschaften Galimy und Merenga in den letzten Jahren nicht mehr befahren.",
     "corrupted": "Die den Hauptkamm des Kolymagebirges kreuzende Straße zur Pjostraja - Dreswa - Bucht am Ochotskischen Meer wurde bereits seit die 1970er - Jahre nicht mehr durchgehend unterhalten und wird auch in ihrem Nordabschnitt nach Aufgabe der Ortschaften Galimy und Merenga in den letzten Jahren nicht mehr befahren.",
     "dative_type": "dative_prep_seit"
@@ -613,8 +613,8 @@
     "split": "train",
     "sent_id": "train-s11466",
     "group_start": 20,
-    "group_end": 31,
-    "group_span_text": "dem Film Die Commitments ( 1991, der erste Teil der Trilogie",
+    "group_end": 23,
+    "group_span_text": "dem Film Die Commitments",
     "gold_text": "Im Film lautet der Name der Familie statt Rabitte allerdings Curley, da 20th Century Fox die Namensrechte seit dem Film Die Commitments (1991, der erste Teil der Trilogie) besaß.",
     "corrupted": "Im Film lautet der Name der Familie statt Rabitte allerdings Curley, da 20th Century Fox die Namensrechte seit den Film Die Commitments (1991, der erste Teil der Trilogie) besaß.",
     "dative_type": "dative_prep_seit"
@@ -856,7 +856,7 @@
     "group_end": 6,
     "group_span_text": "Dem seit nunmehr zwei Jahrzehnten währenden Rechtsstreit",
     "gold_text": "Dem seit nunmehr zwei Jahrzehnten währenden Rechtsstreit um das Atomkraftwerk Mülheim -- Kärlich steht am kommenden Dienstag eine weitere Entscheidung bevor:",
-    "corrupted": "Den seit nunmehr zwei Jahrzehnte währende Rechtsstreit um das Atomkraftwerk Mülheim -- Kärlich steht am kommenden Dienstag eine weitere Entscheidung bevor:",
+    "corrupted": "Den seit nunmehr zwei Jahrzehnten währende Rechtsstreit um das Atomkraftwerk Mülheim -- Kärlich steht am kommenden Dienstag eine weitere Entscheidung bevor:",
     "dative_type": "dative_prep_seit"
   },
   {

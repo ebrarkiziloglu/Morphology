@@ -94,19 +94,9 @@
     "sent_id": "train-s2976",
     "group_start": 13,
     "group_end": 15,
-    "group_span_text": "der \" Expertengruppe",
+    "group_span_text": "der \"Expertengruppe",
     "gold_text": "Rauff hatte noch in Rom derartige \"Experten\" angeworben und spielte innerhalb der \"Expertengruppe\" eine führende Rolle: Nach den amerikanischen Geheimdienstberichten war Rauff am Aufbau der syrischen Geheimpolizei \"Deuxieme Bureau\" beteiligt, ebenso soll er enge Kontakte zum Chef des syrischen Militärgeheimdienstes unterhalten haben.",
     "corrupted": "Rauff hatte noch in Rom derartige \" Experten \" angeworben und spielte innerhalb die \" Expertengruppe \" eine führende Rolle: Nach den amerikanischen Geheimdienstberichten war Rauff am Aufbau der syrischen Geheimpolizei \" Deuxieme Bureau \" beteiligt, ebenso soll er enge Kontakte zum Chef des syrischen Militärgeheimdienstes unterhalten haben.",
-    "dative_type": "other_prepositional_dative"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s3056",
-    "group_start": 4,
-    "group_end": 14,
-    "group_span_text": "erklärte der Kaiser die Gewässer um die britischen Inseln zu dem",
-    "gold_text": "Im Februar 1915 erklärte der Kaiser die Gewässer um die britischen Inseln zum Kriegsgebiet.",
-    "corrupted": "Im Februar 1915 erklärte der Kaiser die Gewässer um die britischen Inseln zu das Kriegsgebiet.",
     "dative_type": "other_prepositional_dative"
   },
   {
@@ -144,7 +134,7 @@
     "sent_id": "train-s3587",
     "group_start": 11,
     "group_end": 15,
-    "group_span_text": "dem einen für die Organisation",
+    "group_span_text": "dem einen die Organisation",
     "gold_text": "Zu dieser Zeit war G - 2 ein Synonym, zum einen für die Organisation, die Auflärungstätigkeiten für SCAP durchführte, zum anderen auch für die Person des Chefs Charles Willoughby, der seine faschistische Einstellung nie verbarg.",
     "corrupted": "Zu dieser Zeit war G - 2 ein Synonym, zu das ein für die Organisation, die Auflärungstätigkeiten für SCAP durchführte, zum anderen auch für die Person des Chefs Charles Willoughby, der seine faschistische Einstellung nie verbarg.",
     "dative_type": "other_prepositional_dative"
@@ -154,7 +144,7 @@
     "sent_id": "train-s3587",
     "group_start": 24,
     "group_end": 33,
-    "group_span_text": "dem anderen auch für die Person des Chefs Charles Willoughby",
+    "group_span_text": "dem anderen die Person des Chefs Charles Willoughby",
     "gold_text": "Zu dieser Zeit war G - 2 ein Synonym, zum einen für die Organisation, die Auflärungstätigkeiten für SCAP durchführte, zum anderen auch für die Person des Chefs Charles Willoughby, der seine faschistische Einstellung nie verbarg.",
     "corrupted": "Zu dieser Zeit war G - 2 ein Synonym, zum einen für die Organisation, die Auflärungstätigkeiten für SCAP durchführte, zu das anderes auch für die Person des Chefs Charles Willoughby, der seine faschistische Einstellung nie verbarg.",
     "dative_type": "other_prepositional_dative"
@@ -214,7 +204,7 @@
     "sent_id": "train-s3936",
     "group_start": 7,
     "group_end": 10,
-    "group_span_text": "das Hausarbeitsgesetz von dem",
+    "group_span_text": "das Hausarbeitsgesetz dem",
     "gold_text": "Die Heimarbeit wurde in Deutschland erstmals durch das Hausarbeitsgesetz vom 20.",
     "corrupted": "Die Heimarbeit wurde in Deutschland erstmals durch das Hausarbeitsgesetz von den 20.",
     "dative_type": "other_prepositional_dative"
@@ -287,6 +277,16 @@
     "group_span_text": "dem Bahnhof",
     "gold_text": "Nach dem Umzug der LBE - Hauptverwaltung in das neue Gebäude gegenüber dem Bahnhof wurden die alten Bahnanlagen sukzessive abgerissen.",
     "corrupted": "Nach dem Umzug der LBE - Hauptverwaltung in das neue Gebäude gegenüber den Bahnhof wurden die alten Bahnanlagen sukzessive abgerissen.",
+    "dative_type": "other_prepositional_dative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5539",
+    "group_start": 1,
+    "group_end": 6,
+    "group_span_text": "der bei Funkamateuren vorhandenen umfangreichen Erfahrungen",
+    "gold_text": "Wegen der bei Funkamateuren vorhandenen umfangreichen Erfahrungen und Literatur zu diesem Antennentyp, werden sie von Funkamateuren meist selbst gebaut und bis heute weiterentwickelt.",
+    "corrupted": "Wegen die bei Funkamateuren vorhandenen umfangreichen Erfahrungen und Literatur zu diesem Antennentyp, werden sie von Funkamateuren meist selbst gebaut und bis heute weiterentwickelt.",
     "dative_type": "other_prepositional_dative"
   },
   {
@@ -536,7 +536,7 @@
     "group_end": 18,
     "group_span_text": "der ihrer Ansicht nach einseitigen Kritik",
     "gold_text": "Die ALBA - Staaten Venezuela, Bolivien und Nicaragua versagten ihre Zustimmung wegen der ihrer Ansicht nach einseitigen Kritik an Kuba in diesem Papier.",
-    "corrupted": "Die ALBA - Staaten Venezuela, Bolivien und Nicaragua versagten ihre Zustimmung wegen die ihre Ansicht nach einseitige Kritik an Kuba in diesem Papier.",
+    "corrupted": "Die ALBA - Staaten Venezuela, Bolivien und Nicaragua versagten ihre Zustimmung wegen die ihrer Ansicht nach einseitige Kritik an Kuba in diesem Papier.",
     "dative_type": "other_prepositional_dative"
   },
   {
@@ -654,7 +654,7 @@
     "sent_id": "train-s9193",
     "group_start": 24,
     "group_end": 29,
-    "group_span_text": "den \" Behauptungen moderner liberaler Theologen",
+    "group_span_text": "den \"Behauptungen moderner liberaler Theologen",
     "gold_text": "ProGenesis vertritt den Standpunkt, dass \"die Evolutionslehre nach wie vor eine unbewiesene Theorie\" sei, die \"Heilige Schrift\" entgegen den \"Behauptungen moderner liberaler Theologen und evolutionsgläubigen Wissenschaftlern\" auch historisch relevant sei und Gott \"weder ein mythologisches Märchen\" noch eine \"mystische Erfahrung und auch kein der Natur innewohnendes Urprinzip\" sei, sondern eine \"erfahrbare Realität\".",
     "corrupted": "ProGenesis vertritt den Standpunkt, dass \"die Evolutionslehre nach wie vor eine unbewiesene Theorie\" sei, die \"Heilige Schrift\" entgegen die \"Behauptungen moderner liberaler Theologen und evolutionsgläubigen Wissenschaftlern\" auch historisch relevant sei und Gott \"weder ein mythologisches Märchen\" noch eine \"mystische Erfahrung und auch kein der Natur innewohnendes Urprinzip\" sei, sondern eine \"erfahrbare Realität\".",
     "dative_type": "other_prepositional_dative"
@@ -771,16 +771,6 @@
   },
   {
     "split": "train",
-    "sent_id": "train-s9872",
-    "group_start": 3,
-    "group_end": 24,
-    "group_span_text": "griffen sie hierbei auf die landschaftlich geprägten Bauglieder der dorischen und der ionischen Ordnung zurück, zu denen ab dem späten 3",
-    "gold_text": "Für die Gestaltung griffen sie hierbei auf die landschaftlich geprägten Bauglieder der dorischen und der ionischen Ordnung zurück, zu denen ab dem späten 3.",
-    "corrupted": "Für die Gestaltung griffen sie hierbei auf die landschaftlich geprägten Bauglieder der dorischen und der ionischen Ordnung zurück, zu die ab das späteres 3.",
-    "dative_type": "other_prepositional_dative"
-  },
-  {
-    "split": "train",
     "sent_id": "train-s10096",
     "group_start": 9,
     "group_end": 12,
@@ -821,20 +811,10 @@
   },
   {
     "split": "train",
-    "sent_id": "train-s10313",
-    "group_start": 5,
-    "group_end": 17,
-    "group_span_text": "nahm Antoine den Kampf um das Herzogtum wieder auf, und an dem",
-    "gold_text": "Nach dem Eintreten des Erbfalls nahm Antoine den Kampf um das Herzogtum wieder auf, und am 2.",
-    "corrupted": "Nach dem Eintreten des Erbfalls nahm Antoine den Kampf um das Herzogtum wieder auf, und ans 2.",
-    "dative_type": "other_prepositional_dative"
-  },
-  {
-    "split": "train",
     "sent_id": "train-s10447",
     "group_start": 35,
     "group_end": 38,
-    "group_span_text": "die Landräte von dem",
+    "group_span_text": "die Landräte dem",
     "gold_text": "In Schwedisch - Pommern, zu dem Anfangs Vorpommern und ein Landstreifen Hinterpommerns östlich von Oder und Dievenow gehörten, wurde die Anzahl der Landräte in der Regimentsform von 1663 und in der Instruktion für die Landräte vom 10.",
     "corrupted": "In Schwedisch - Pommern, zu dem Anfangs Vorpommern und ein Landstreifen Hinterpommerns östlich von Oder und Dievenow gehörten, wurde die Anzahl der Landräte in der Regimentsform von 1663 und in der Instruktion für die Landräte von das 10.",
     "dative_type": "other_prepositional_dative"
@@ -926,7 +906,7 @@
     "group_end": 15,
     "group_span_text": "der auf der Oberfläche des Wirtes hervortretenden Sporenlager",
     "gold_text": "Puccinia agropyri ist mit bloßem Auge nur anhand der auf der Oberfläche des Wirtes hervortretenden Sporenlager zu erkennen.",
-    "corrupted": "Puccinia agropyri ist mit bloßem Auge nur anhand die auf die Oberfläche des Wirtes hervortretenden Sporenlager zu erkennen.",
+    "corrupted": "Puccinia agropyri ist mit bloßem Auge nur anhand die auf der Oberfläche des Wirtes hervortretenden Sporenlager zu erkennen.",
     "dative_type": "other_prepositional_dative"
   },
   {
@@ -1036,7 +1016,7 @@
     "group_end": 9,
     "group_span_text": "einem oder mehreren Pinseln",
     "gold_text": "Es kommt kein weiteres Werkzeug außer einem oder mehreren Pinseln zum Einsatz.",
-    "corrupted": "Es kommt kein weiteres Werkzeug außer einen oder mehrere Pinsel zum Einsatz.",
+    "corrupted": "Es kommt kein weiteres Werkzeug außer einen oder mehreren Pinsel zum Einsatz.",
     "dative_type": "other_prepositional_dative"
   },
   {
@@ -1093,8 +1073,8 @@
     "split": "train",
     "sent_id": "train-s12350",
     "group_start": 13,
-    "group_end": 20,
-    "group_span_text": "der N - 1 des OKB - 1",
+    "group_end": 18,
+    "group_span_text": "der N 1 des OKB",
     "gold_text": "Tschelomei versuchte im Jahr 1966 erneut, die UR - 700 gegenüber der N - 1 des OKB - 1 durchzusetzen, jedoch ohne Erfolg.",
     "corrupted": "Tschelomei versuchte im Jahr 1966 erneut, die UR - 700 gegenüber die N - 1 des OKB - 1 durchzusetzen, jedoch ohne Erfolg.",
     "dative_type": "other_prepositional_dative"
@@ -1271,6 +1251,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s14038",
+    "group_start": 19,
+    "group_end": 27,
+    "group_span_text": "der führenden Straße",
+    "gold_text": "H. Schopps vermutet aufgrund von Ziegelstempeln die hier gefunden wurden, zumindest in zweien dieser villae ursprüngliche Straßenposten entlang der von Wiesbaden zum Kastell Zugmantel führenden Straße (Schoppa 1974, 79).",
+    "corrupted": "H. Schopps vermutet aufgrund von Ziegelstempeln die hier gefunden wurden, zumindest in zweien dieser villae ursprüngliche Straßenposten entlang die von Wiesbaden zum Kastell Zugmantel führende Straße ( Schoppa 1974, 79).",
+    "dative_type": "other_prepositional_dative"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s14063",
     "group_start": 1,
     "group_end": 4,
@@ -1286,7 +1276,7 @@
     "group_end": 3,
     "group_span_text": "den neuen TV's",
     "gold_text": "Nebst den neuen TV's wird die Fassade total renoviert.",
-    "corrupted": "Nebst die neuen TV wird die Fassade total renoviert.",
+    "corrupted": "Nebst die neue TV wird die Fassade total renoviert.",
     "dative_type": "other_prepositional_dative"
   },
   {
@@ -1387,6 +1377,16 @@
     "group_span_text": "Der Tradition",
     "gold_text": "Der Tradition entsprechend haben beide Seiten Geschenke an Bord.",
     "corrupted": "Die Tradition entsprechend haben beide Seiten Geschenke an Bord.",
+    "dative_type": "other_prepositional_dative"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s764",
+    "group_start": 35,
+    "group_end": 38,
+    "group_span_text": "der folgenden Hauptverhandlung",
+    "gold_text": "Fürwahr ein stolzes Sortiment, für das es sich womöglich gelohnt hätte, ein Stück Gleichheit vor dem Recht aufs Spiel zu setzen und demjenigen Strafrabatt zu gewähren, der diese Wundertaten während einer der Strafprozeßordnung folgenden Hauptverhandlung vollbringt, wenn....",
+    "corrupted": "Fürwahr ein stolzes Sortiment, für das es sich womöglich gelohnt hätte, ein Stück Gleichheit vor dem Recht aufs Spiel zu setzen und demjenigen Strafrabatt zu gewähren, der diese Wundertaten während einer die Strafprozeßordnung folgenden Hauptverhandlung vollbringt, wenn ....",
     "dative_type": "other_prepositional_dative"
   },
   {

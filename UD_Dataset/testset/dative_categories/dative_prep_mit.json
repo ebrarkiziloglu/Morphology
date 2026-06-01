@@ -26,7 +26,7 @@
     "group_end": 18,
     "group_span_text": "einer mir bis dahin unbekannten Arroganz",
     "gold_text": "Leider kam ich überhaupt nicht zu Wort, sondern Frau Dr. dozierte mit einer mir bis dahin unbekannten Arroganz weiter.",
-    "corrupted": "Leider kam ich überhaupt nicht zu Wort, sondern Frau Dr. dozierte mit eine mich bis dahin unbekannte Arroganz weiter.",
+    "corrupted": "Leider kam ich überhaupt nicht zu Wort, sondern Frau Dr. dozierte mit eine mir bis dahin unbekannte Arroganz weiter.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -137,6 +137,16 @@
     "group_span_text": "hellem Zimmer",
     "gold_text": "Die Zimmer sind neu und liebevoll renoviert, mit großem Balkon, hellem Zimmer und wunderschönem Bad mit Whirlwanne!",
     "corrupted": "Die Zimmer sind neu und liebevoll renoviert, mit großem Balkon, helles Zimmer und wunderschönem Bad mit Whirlwanne!",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s337",
+    "group_start": 7,
+    "group_end": 15,
+    "group_span_text": "Lautsprechern, Endstufen und Subwoofern der deutschen Marke AMPIRE",
+    "gold_text": "Ich habe hier meinen Alfa GT mit Lautsprechern, Endstufen und Subwoofern der deutschen Marke AMPIRE ausstatten lassen.",
+    "corrupted": "Ich habe hier meinen Alfa GT mit Lautsprecher, Endstufen und Subwoofern der deutschen Marke AMPIRE ausstatten lassen.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -586,7 +596,7 @@
     "group_end": 5,
     "group_span_text": "unseren beiden Katzen",
     "gold_text": "Wir waren mit unseren beiden Katzen dort.",
-    "corrupted": "Wir waren mit unsere beiden Katzen dort.",
+    "corrupted": "Wir waren mit unsere beide Katzen dort.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -647,6 +657,16 @@
     "group_span_text": "ihrer Entscheidung",
     "gold_text": "Die Richter gaben mit ihrer Entscheidung der Klage der Gewerkschaftsvertreter gegen Renault statt.",
     "corrupted": "Die Richter gaben mit ihre Entscheidung der Klage der Gewerkschaftsvertreter gegen Renault statt.",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s1605",
+    "group_start": 11,
+    "group_end": 18,
+    "group_span_text": "dem Konzert der populären Sängerin",
+    "gold_text": "Nach Ansicht der Polizei könnte die Tat im Zusammenhang mit dem Konzert der in Libanon sehr populären Sängerin stehen.",
+    "corrupted": "Nach Ansicht der Polizei könnte die Tat im Zusammenhang mit das Konzert der in Libanon sehr populären Sängerin stehen.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -1034,7 +1054,7 @@
     "sent_id": "train-s2306",
     "group_start": 13,
     "group_end": 19,
-    "group_span_text": "dem Mitglied einer \" feindlichen \" Bande",
+    "group_span_text": "dem Mitglied einer \"feindlichen\" Bande",
     "gold_text": "Spirit war früher mit Foxy zusammen und ist verärgert, dass diese mit dem Mitglied einer \"feindlichen\" Bande etwas anfängt.",
     "corrupted": "Spirit war früher mit Foxy zusammen und ist verärgert, dass diese mit das Mitglied einer \"feindlichen\" Bande etwas anfängt.",
     "dative_type": "dative_prep_mit"
@@ -1064,7 +1084,7 @@
     "sent_id": "train-s2338",
     "group_start": 27,
     "group_end": 31,
-    "group_span_text": "dem Vermerk \" Bereits erledigt",
+    "group_span_text": "dem Vermerk \"Bereits erledigt",
     "gold_text": "Sie überlebte die Judenverfolgung, weil der mit dem Ehepaar Maertens befreundete Präsident der Reichstheaterkammer die Anfrage nach der \"arischen\" Abstammung von Frau Kramm mit dem Vermerk \"Bereits erledigt\" versah.",
     "corrupted": "Sie überlebte die Judenverfolgung, weil der mit dem Ehepaar Maertens befreundete Präsident der Reichstheaterkammer die Anfrage nach der \"arischen\" Abstammung von Frau Kramm mit den Vermerk \"Bereits erledigt\" versah.",
     "dative_type": "dative_prep_mit"
@@ -1164,7 +1184,7 @@
     "sent_id": "train-s2468",
     "group_start": 17,
     "group_end": 19,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern Stand",
     "gold_text": "Scerni (im lokalen Dialekt: Scirne) ist eine italienische Gemeinde (comune) mit Einwohnern (Stand) in der Provinz Chieti in den Abruzzen.",
     "corrupted": "Scerni (im lokalen Dialekt: Scirne) ist eine italienische Gemeinde (comune) mit Einwohner (Stand) in der Provinz Chieti in den Abruzzen.",
     "dative_type": "dative_prep_mit"
@@ -1214,7 +1234,7 @@
     "sent_id": "train-s2486",
     "group_start": 22,
     "group_end": 25,
-    "group_span_text": "200 bis 400 Plätzen",
+    "group_span_text": "200 Plätzen",
     "gold_text": "Die Tonhalle umfasst einen großen Saal mit 1.854 Plätzen, einen Kammermusiksaal mit 300 Plätzen und eine Rotunde im Foyer mit 200 bis 400 Plätzen je nach Veranstaltung.",
     "corrupted": "Die Tonhalle umfasst einen großen Saal mit 1.854 Plätzen, einen Kammermusiksaal mit 300 Plätzen und eine Rotunde im Foyer mit 200 bis 400 Plätze je nach Veranstaltung.",
     "dative_type": "dative_prep_mit"
@@ -1254,7 +1274,7 @@
     "sent_id": "train-s2504",
     "group_start": 6,
     "group_end": 8,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Canchy ist eine französische Gemeinde mit Einwohnern (Stand) im Département Somme in der Region Picardie;",
     "corrupted": "Canchy ist eine französische Gemeinde mit Einwohner (Stand) im Département Somme in der Region Picardie;",
     "dative_type": "dative_prep_mit"
@@ -1394,7 +1414,7 @@
     "sent_id": "train-s2798",
     "group_start": 10,
     "group_end": 14,
-    "group_span_text": "der Zusatzbezeichnung \" Suchtmedizinische Grundversorgung",
+    "group_span_text": "der Zusatzbezeichnung Suchtmedizinische Grundversorgung",
     "gold_text": "Zur Substitution sind in der Regel nur Fachärzte mit der Zusatzbezeichnung \"Suchtmedizinische Grundversorgung\" (d.h. keine Tier - oder Zahnärzte) berechtigt.",
     "corrupted": "Zur Substitution sind in der Regel nur Fachärzte mit die Zusatzbezeichnung \" Suchtmedizinische Grundversorgung \" ( d.h. keine Tier - oder Zahnärzte) berechtigt.",
     "dative_type": "dative_prep_mit"
@@ -1411,10 +1431,20 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s2810",
+    "group_start": 27,
+    "group_end": 33,
+    "group_span_text": "dem Freizeit - und Tagungshaus Maria Buck",
+    "gold_text": "Darüber hinaus werden sogenannte Schulvermeider, in diesem Falle Jungen, die nicht in die Schule gehen wollen, über den Fahrradpark Tenever, angesprochen, mit dem Freizeit - und Tagungshaus Maria Buck in Seebergen steht ein Haus für Freizeiten, Tagungen und Fortbildungen bereit.",
+    "corrupted": "Darüber hinaus werden sogenannte Schulvermeider, in diesem Falle Jungen, die nicht in die Schule gehen wollen, über den Fahrradpark Tenever, angesprochen, mit das Freizeit - und Tagungshaus Maria Buck in Seebergen steht ein Haus für Freizeiten, Tagungen und Fortbildungen bereit.",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s2820",
     "group_start": 6,
     "group_end": 8,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Farbus ist eine französische Gemeinde mit Einwohnern (Stand) im Département Pas - de - Calais in der Region Nord - Pas - de - Calais;",
     "corrupted": "Farbus ist eine französische Gemeinde mit Einwohner (Stand) im Département Pas - de - Calais in der Region Nord - Pas - de - Calais;",
     "dative_type": "dative_prep_mit"
@@ -1624,7 +1654,7 @@
     "sent_id": "train-s3271",
     "group_start": 4,
     "group_end": 12,
-    "group_span_text": "der industriellen Produktion des Chapeau Claque ( klappbarer Zylinderhut",
+    "group_span_text": "der industriellen Produktion des Chapeau Claque (klappbarer Zylinderhut",
     "gold_text": "Seine Vorfahren hatten mit der industriellen Produktion des Chapeau Claque (klappbarer Zylinderhut) ein immenses Vermögen verdient, aber die Firma ging in Konkurs.",
     "corrupted": "Seine Vorfahren hatten mit die industrielle Produktion des Chapeau Claque (klappbarer Zylinderhut) ein immenses Vermögen verdient, aber die Firma ging in Konkurs.",
     "dative_type": "dative_prep_mit"
@@ -1794,7 +1824,7 @@
     "sent_id": "train-s3533",
     "group_start": 22,
     "group_end": 27,
-    "group_span_text": "dem Motiv des \" Reinecke Fuchs",
+    "group_span_text": "dem Motiv des \"Reinecke Fuchs",
     "gold_text": "Auch wenn der Name Reinickendorfs auf seinen Gründer, dem niedersächsische Bauer Reinhardt, zurückgeht, so versteht sich das Wappen mit dem Motiv des \"Reinecke Fuchs\" als redendes Wappen.",
     "corrupted": "Auch wenn der Name Reinickendorfs auf seinen Gründer, dem niedersächsische Bauer Reinhardt, zurückgeht, so versteht sich das Wappen mit das Motiv des \"Reinecke Fuchs\" als redendes Wappen.",
     "dative_type": "dative_prep_mit"
@@ -2084,7 +2114,7 @@
     "sent_id": "train-s4009",
     "group_start": 20,
     "group_end": 31,
-    "group_span_text": "einer Arbeit über den Wiener Dichter Peter Altenberg ( Potentiale der Subjektivität",
+    "group_span_text": "einer Arbeit Potentiale der Subjektivität",
     "gold_text": "Nach ihrem Philosophiestudium bei Theodor W. Adorno in Frankfurt am Main promovierte sie zum Doktor der Philosophie mit einer Arbeit über den Wiener Dichter Peter Altenberg (Potentiale der Subjektivität im irrationalistischen Denken, zunächst bei Adorno begonnen, später bei Alfred Schmidt in Frankfurt zum Abschluss gebracht und im Jahr 1979 im Hanser Verlag erschienen).",
     "corrupted": "Nach ihrem Philosophiestudium bei Theodor W. Adorno in Frankfurt am Main promovierte sie zum Doktor der Philosophie mit eine Arbeit über den Wiener Dichter Peter Altenberg ( Potentiale der Subjektivität im irrationalistischen Denken, zunächst bei Adorno begonnen, später bei Alfred Schmidt in Frankfurt zum Abschluss gebracht und im Jahr 1979 im Hanser Verlag erschienen).",
     "dative_type": "dative_prep_mit"
@@ -2197,6 +2227,16 @@
     "group_span_text": "dem Gas",
     "gold_text": "Er identifizierte diese Nahrung des Lebens korrekt mit dem Gas, welches bei der Erhitzung von Kaliumnitrat freigesetzt wird.",
     "corrupted": "Er identifizierte diese Nahrung des Lebens korrekt mit das Gas, welches bei der Erhitzung von Kaliumnitrat freigesetzt wird.",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4267",
+    "group_start": 11,
+    "group_end": 18,
+    "group_span_text": "seinem Nachbarn und Verbündeten, dem serbischen König",
+    "gold_text": "Auf Geheiß des osmanischen Sultans Bayezid I. nahm er zusammen mit seinem Nachbarn und Verbündeten, dem serbischen König von Prilep Marko Kraljević, am Feldzug gegen den walachischen Woiwoden Mircea cel Bătrân teil und wurde 1395 in der Schlacht bei Rovine getötet.",
+    "corrupted": "Auf Geheiß des osmanischen Sultans Bayezid I. nahm er zusammen mit seinen Nachbarn und Verbündeten, den serbischen König von Prilep Marko Kraljević, am Feldzug gegen den walachischen Woiwoden Mircea cel Bătrân teil und wurde 1395 in der Schlacht bei Rovine getötet.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -2454,7 +2494,7 @@
     "sent_id": "train-s4802",
     "group_start": 8,
     "group_end": 10,
-    "group_span_text": "einem \" L",
+    "group_span_text": "einem \"L",
     "gold_text": "Diese Expedition fand einige Bäume, die mit einem \"L\" markiert waren.",
     "corrupted": "Diese Expedition fand einige Bäume, die mit ein \"L\" markiert waren.",
     "dative_type": "dative_prep_mit"
@@ -2494,7 +2534,7 @@
     "sent_id": "train-s4876",
     "group_start": 5,
     "group_end": 7,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Polling ist eine Gemeinde mit Einwohnern (Stand) im Bezirk Innsbruck Land in Tirol (Österreich).",
     "corrupted": "Polling ist eine Gemeinde mit Einwohner (Stand) im Bezirk Innsbruck Land in Tirol (Österreich).",
     "dative_type": "dative_prep_mit"
@@ -2681,10 +2721,20 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s5207",
+    "group_start": 1,
+    "group_end": 8,
+    "group_span_text": "dem braunen, in Slawuta gezogenen Hengst Dardziling",
+    "gold_text": "Mit dem braunen, in Slawuta gezogenen Hengst Dardziling, der im Tausch gegen den braunen Hengst Sonntag (geboren 1908) 1913 von dem Landgestüt Gudvallen nach Weil kam, wurde zur Blutauffrischung erstmals Fremdblut eingeführt.",
+    "corrupted": "Mit den braunen, in Slawuta gezogenen Hengst Dardziling, der im Tausch gegen den braunen Hengst Sonntag ( geboren 1908) 1913 von dem Landgestüt Gudvallen nach Weil kam, wurde zur Blutauffrischung erstmals Fremdblut eingeführt.",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s5211",
     "group_start": 7,
     "group_end": 13,
-    "group_span_text": "der ausgesprochen seltenen Note \" sehr gut",
+    "group_span_text": "der seltenen Note gut",
     "gold_text": "Er promovierte im November 1933 mit der ausgesprochen seltenen Note \"sehr gut\" zum Thema Die Sozialversicherung im nationalsozialistischen Staat: Grundsätzliches zur Streitfrage: Versicherung oder Versorgung?",
     "corrupted": "Er promovierte im November 1933 mit die ausgesprochen seltene Note \" sehr gut \" zum Thema Die Sozialversicherung im nationalsozialistischen Staat: Grundsätzliches zur Streitfrage: Versicherung oder Versorgung?",
     "dative_type": "dative_prep_mit"
@@ -2714,7 +2764,7 @@
     "sent_id": "train-s5254",
     "group_start": 2,
     "group_end": 6,
-    "group_span_text": "hohen Zahlen ( z.B. BLOSUM80",
+    "group_span_text": "hohen Zahlen (z.B. BLOSUM80",
     "gold_text": "BLOSUM mit hohen Zahlen (z.B. BLOSUM80) werden für den Vergleich von nahe verwandten Sequenzen verwendet während BLOSUM mit tiefen Zahlen für den Vergleich von entfernt verwandten Proteinen verwendet wird.",
     "corrupted": "BLOSUM mit hohe Zahlen (z.B. BLOSUM80) werden für den Vergleich von nahe verwandten Sequenzen verwendet während BLOSUM mit tiefen Zahlen für den Vergleich von entfernt verwandten Proteinen verwendet wird.",
     "dative_type": "dative_prep_mit"
@@ -2874,7 +2924,7 @@
     "sent_id": "train-s5535",
     "group_start": 13,
     "group_end": 18,
-    "group_span_text": "elektrischen Lichtern ( kein offenes Feuer",
+    "group_span_text": "elektrischen Lichtern (kein offenes Feuer",
     "gold_text": "Dieser Karnevalsumzug ist in Deutschland einzigartig, da die Wagen und Gruppen mit elektrischen Lichtern (kein offenes Feuer) geschmückt werden.",
     "corrupted": "Dieser Karnevalsumzug ist in Deutschland einzigartig, da die Wagen und Gruppen mit elektrische Lichter (kein offenes Feuer) geschmückt werden.",
     "dative_type": "dative_prep_mit"
@@ -2934,7 +2984,7 @@
     "sent_id": "train-s5702",
     "group_start": 12,
     "group_end": 14,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Rylsk ist eine Stadt in der Oblast Kursk (Russland) mit Einwohnern (Stand).",
     "corrupted": "Rylsk ist eine Stadt in der Oblast Kursk (Russland) mit Einwohner (Stand).",
     "dative_type": "dative_prep_mit"
@@ -2964,7 +3014,7 @@
     "sent_id": "train-s5768",
     "group_start": 5,
     "group_end": 7,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Tillmitsch ist eine Gemeinde mit Einwohnern (Stand) im Bezirk Leibnitz im österreichischen Bundesland Steiermark.",
     "corrupted": "Tillmitsch ist eine Gemeinde mit Einwohner (Stand) im Bezirk Leibnitz im österreichischen Bundesland Steiermark.",
     "dative_type": "dative_prep_mit"
@@ -3084,7 +3134,7 @@
     "sent_id": "train-s5970",
     "group_start": 7,
     "group_end": 11,
-    "group_span_text": "dem Slogan « És rodó",
+    "group_span_text": "dem Slogan «És rodó",
     "gold_text": "Das erste Marketing war das Logo mit dem Slogan «És rodó i dura molt, Chupa Chups», was aus dem Katalanischen übersetzt \"Es ist rund und langanhaltend\" heißt.",
     "corrupted": "Das erste Marketing war das Logo mit den Slogan «És rodó i dura molt, Chupa Chups», was aus dem Katalanischen übersetzt \"Es ist rund und langanhaltend\" heißt.",
     "dative_type": "dative_prep_mit"
@@ -3294,7 +3344,7 @@
     "sent_id": "train-s6257",
     "group_start": 24,
     "group_end": 27,
-    "group_span_text": "den Buchstaben \" AHOL",
+    "group_span_text": "den Buchstaben \"AHOL",
     "gold_text": "Die verbündeten Österreicher benutzten als Feldpoststempel einen Einkreisstempel mit zwei A für \"Armée Autrichienne\", das niederländische Kontingent verwendete einen Rahmenstempel mit den Buchstaben \"AHOL\" für \"Armée hollandaise\".",
     "corrupted": "Die verbündeten Österreicher benutzten als Feldpoststempel einen Einkreisstempel mit zwei A für \"Armée Autrichienne\", das niederländische Kontingent verwendete einen Rahmenstempel mit die Buchstaben \"AHOL\" für \"Armée hollandaise\".",
     "dative_type": "dative_prep_mit"
@@ -3454,9 +3504,9 @@
     "sent_id": "train-s6496",
     "group_start": 6,
     "group_end": 13,
-    "group_span_text": "den meisten Einsätzen in offiziellen Spielen ( 450",
+    "group_span_text": "den meisten Einsätzen in offiziellen Spielen (450",
     "gold_text": "Er ist der Spieler Valladolids mit den meisten Einsätzen in offiziellen Spielen (450), den meisten Liga-Spielen (417) und den meisten Spielen in der Primera División (342).",
-    "corrupted": "Er ist der Spieler Valladolids mit die meisten Einsätze in offiziellen Spiele (450), den meisten Liga-Spielen (417) und den meisten Spielen in der Primera División (342).",
+    "corrupted": "Er ist der Spieler Valladolids mit die meisten Einsätze in offiziellen Spielen (450), den meisten Liga-Spielen (417) und den meisten Spielen in der Primera División (342).",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -3614,7 +3664,7 @@
     "sent_id": "train-s6691",
     "group_start": 16,
     "group_end": 21,
-    "group_span_text": "einem signifikant tieferen Wachstum des Rollmaterialbestandes",
+    "group_span_text": "einem tieferen Wachstum des Rollmaterialbestandes",
     "gold_text": "Das Wachstum des Bahnangebots von rund 30 % soll durch gesteigerte Effizienz beim Rollmaterialeinsatz mit einem signifikant tieferen Wachstum des Rollmaterialbestandes getragen werden können.",
     "corrupted": "Das Wachstum des Bahnangebots von rund 30 % soll durch gesteigerte Effizienz beim Rollmaterialeinsatz mit ein signifikant tiefes Wachstum des Rollmaterialbestandes getragen werden können.",
     "dative_type": "dative_prep_mit"
@@ -3683,8 +3733,8 @@
     "split": "train",
     "sent_id": "train-s6779",
     "group_start": 18,
-    "group_end": 26,
-    "group_span_text": "dem Sieg des Franzosen Michel Hazanavicius ( The Artist",
+    "group_end": 23,
+    "group_span_text": "dem Sieg des Franzosen Michel Hazanavicius",
     "gold_text": "23 Mal gelang es der Filmkritikervereinigung vorab den Oscar - Gewinner zu präsentieren, zuletzt 2011 geschehen mit dem Sieg des Franzosen Michel Hazanavicius (The Artist).",
     "corrupted": "23 Mal gelang es der Filmkritikervereinigung vorab den Oscar - Gewinner zu präsentieren, zuletzt 2011 geschehen mit den Sieg des Franzosen Michel Hazanavicius (The Artist).",
     "dative_type": "dative_prep_mit"
@@ -3774,7 +3824,7 @@
     "sent_id": "train-s6881",
     "group_start": 7,
     "group_end": 10,
-    "group_span_text": "dem Titel \" Fachanwalt",
+    "group_span_text": "dem Titel \"Fachanwalt",
     "gold_text": "So hat das LG Hamburg Anwaltswerbung mit dem Titel \"Fachanwalt für Markenrecht\" oder \"Fachanwalt: Markenrecht\" als irreführende Werbung eingestuft und für unzulässig erklärt.",
     "corrupted": "So hat das LG Hamburg Anwaltswerbung mit den Titel \"Fachanwalt für Markenrecht\" oder \"Fachanwalt: Markenrecht\" als irreführende Werbung eingestuft und für unzulässig erklärt.",
     "dative_type": "dative_prep_mit"
@@ -3924,7 +3974,7 @@
     "sent_id": "train-s7151",
     "group_start": 6,
     "group_end": 8,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Reggiolo ist eine italienische Gemeinde mit Einwohnern (Stand) in der Provinz Reggio Emilia in der Region Emilia - Romagna.",
     "corrupted": "Reggiolo ist eine italienische Gemeinde mit Einwohner (Stand) in der Provinz Reggio Emilia in der Region Emilia - Romagna.",
     "dative_type": "dative_prep_mit"
@@ -3984,7 +4034,7 @@
     "sent_id": "train-s7187",
     "group_start": 11,
     "group_end": 13,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "San Zenone al Po ist eine Gemeinde (comune) mit Einwohnern (Stand) in der südwestlichen Lombardei, im Norden Italiens.",
     "corrupted": "San Zenone al Po ist eine Gemeinde (comune) mit Einwohner (Stand) in der südwestlichen Lombardei, im Norden Italiens.",
     "dative_type": "dative_prep_mit"
@@ -4164,7 +4214,7 @@
     "sent_id": "train-s7551",
     "group_start": 7,
     "group_end": 9,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Ascoli Piceno ist eine italienische Stadt mit Einwohnern (Stand) in der Region Marken.",
     "corrupted": "Ascoli Piceno ist eine italienische Stadt mit Einwohner (Stand) in der Region Marken.",
     "dative_type": "dative_prep_mit"
@@ -4223,8 +4273,8 @@
     "split": "train",
     "sent_id": "train-s7637",
     "group_start": 22,
-    "group_end": 28,
-    "group_span_text": "dem Titel \" Lieutenant \" ( Stellvertreter",
+    "group_end": 25,
+    "group_span_text": "dem Titel \"Lieutenant",
     "gold_text": "Als der König von 1270 bis 1271 den siebten Kreuzzug nach Tunis führte, übte Simon zusammen mit Matthäus von Vendôme mit dem Titel \"Lieutenant\" (Stellvertreter) die Regentschaft in Frankreich aus.",
     "corrupted": "Als der König von 1270 bis 1271 den siebten Kreuzzug nach Tunis führte, übte Simon zusammen mit Matthäus von Vendôme mit den Titel \"Lieutenant\" (Stellvertreter) die Regentschaft in Frankreich aus.",
     "dative_type": "dative_prep_mit"
@@ -4311,6 +4361,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s7781",
+    "group_start": 17,
+    "group_end": 17,
+    "group_span_text": "dem",
+    "gold_text": "2004 formiert sich Brötzmann mit Michael Wertmüller (dr) und Marino Pliakas (b) zum Trio Full Blast.",
+    "corrupted": "2004 formiert sich Brötzmann mit Michael Wertmüller ( dr) und Marino Pliakas ( b) zu das Trio Full Blast.",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s7783",
     "group_start": 14,
     "group_end": 15,
@@ -4354,9 +4414,19 @@
     "sent_id": "train-s7831",
     "group_start": 16,
     "group_end": 18,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Saint - Étienne - du - Gué - de - l'Isle ist eine französische Gemeinde mit Einwohnern (Stand) im Département Côtes - d'Armor in der Region Bretagne;",
     "corrupted": "Saint - Étienne - du - Gué - de - l'Isle ist eine französische Gemeinde mit Einwohner (Stand) im Département Côtes - d'Armor in der Region Bretagne;",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7856",
+    "group_start": 43,
+    "group_end": 55,
+    "group_span_text": "dem zentralen Satz der Motette Singet BWV",
+    "gold_text": "John Eliot Gardiner bewundert besonders den vierstimmigen Satz des zwölfzeiligen Schlusschorals für seine Tonmalerei zu den herbstlichen Worten \"Gleichwie das Gras vom Rechen, ein Blum und fallendes Laub, der Wind nur drüber wehet\", und vergleicht ihn mit dem zentralen Satz der Motette Singet dem Herrn ein neues Lied, BWV 225.",
+    "corrupted": "John Eliot Gardiner bewundert besonders den vierstimmigen Satz des zwölfzeiligen Schlusschorals für seine Tonmalerei zu den herbstlichen Worten \"Gleichwie das Gras vom Rechen, ein Blum und fallendes Laub, der Wind nur drüber wehet\", und vergleicht ihn mit den zentralen Satz der Motette Singet dem Herrn ein neues Lied, BWV 225.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -4364,7 +4434,7 @@
     "sent_id": "train-s7867",
     "group_start": 11,
     "group_end": 17,
-    "group_span_text": "dem Gewinn des Kaiserpokals ( japanischer Pokal",
+    "group_span_text": "dem Gewinn des Kaiserpokals (japanischer Pokal",
     "gold_text": "Nach zwei Vizemeisterschaften 2004 und 2005 gelang seinem Team 2005 mit dem Gewinn des Kaiserpokals (japanischer Pokal) ein lange erhoffter Titelgewinn.",
     "corrupted": "Nach zwei Vizemeisterschaften 2004 und 2005 gelang seinem Team 2005 mit den Gewinn des Kaiserpokals (japanischer Pokal) ein lange erhoffter Titelgewinn.",
     "dative_type": "dative_prep_mit"
@@ -4386,7 +4456,7 @@
     "group_end": 16,
     "group_span_text": "sämtlichen verfügbaren Materialien",
     "gold_text": "Bereits in frühen Jahren entdeckte er seinen Hang zur Malerei und experimentierte mit sämtlichen verfügbaren Materialien und Zeichengrundlagen.",
-    "corrupted": "Bereits in frühen Jahren entdeckte er seinen Hang zur Malerei und experimentierte mit sämtliche verfügbare Materialien und Zeichengrundlagen.",
+    "corrupted": "Bereits in frühen Jahren entdeckte er seinen Hang zur Malerei und experimentierte mit sämtliche verfügbaren Materialien und Zeichengrundlagen.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -4394,9 +4464,9 @@
     "sent_id": "train-s7897",
     "group_start": 26,
     "group_end": 35,
-    "group_span_text": "einem Wert ungleich 0x8100 ( in dem Bild beispielsweise 0x0800",
+    "group_span_text": "einem Wert 0x0800",
     "gold_text": "An diesen VLAN - Tag schließt das ursprünglich an der Position des VLAN - Tags stehende Typ - Feld (EtherType) des eigentlichen Frames mit einem Wert ungleich 0x8100 (im Bild beispielsweise 0x0800 für ein IPv4 - Paket) an.",
-    "corrupted": "An diesen VLAN - Tag schließt das ursprünglich an der Position des VLAN - Tags stehende Typ - Feld (EtherType) des eigentlichen Frames mit einen Wert ungleich 0x8100 (ins Bild beispielsweise 0x0800 für ein IPv4 - Paket) an.",
+    "corrupted": "An diesen VLAN - Tag schließt das ursprünglich an der Position des VLAN - Tags stehende Typ - Feld (EtherType) des eigentlichen Frames mit einen Wert ungleich 0x8100 (im Bild beispielsweise 0x0800 für ein IPv4 - Paket) an.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -4534,7 +4604,7 @@
     "sent_id": "train-s8063",
     "group_start": 9,
     "group_end": 11,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Paupisi ist eine italienische Gemeinde (comune) mit Einwohnern (Stand) in der Provinz Benevento in Kampanien.",
     "corrupted": "Paupisi ist eine italienische Gemeinde (comune) mit Einwohner (Stand) in der Provinz Benevento in Kampanien.",
     "dative_type": "dative_prep_mit"
@@ -4657,6 +4727,16 @@
     "group_span_text": "der Feststellung",
     "gold_text": "Cassiodor überschreibt einige Auszüge aus Priscian mit der Feststellung, dass er in Konstantinopel zu seiner (Cassiodors) Zeit gelehrt habe (Keil, Gr.",
     "corrupted": "Cassiodor überschreibt einige Auszüge aus Priscian mit die Feststellung, dass er in Konstantinopel zu seiner (Cassiodors) Zeit gelehrt habe (Keil, Gr.",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8344",
+    "group_start": 9,
+    "group_end": 9,
+    "group_span_text": "Bands",
+    "gold_text": "Im folgenden Jahr spielte die Band Konzerte mit Bands wie Exodus, Pro - Pain und Undertow.",
+    "corrupted": "Im folgenden Jahr spielte die Band Konzerte mit Bänder wie Exodus, Pro - Pain und Undertow.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -4886,7 +4966,7 @@
     "group_end": 21,
     "group_span_text": "den japanischen Militärs",
     "gold_text": "Victor Trimondi postulierte in seinem Buch Hitler -- Buddha -- Krishna, Suzuki habe während des Zweiten Weltkriegs mit den japanischen Militärs kooperiert und in mehreren Veröffentlichungen zur \"Ausformulierung eines faschistisch - buddhistischen Kriegerethos\" beigetragen.",
-    "corrupted": "Victor Trimondi postulierte in seinem Buch Hitler -- Buddha -- Krishna, Suzuki habe während des Zweiten Weltkriegs mit die japanische Militärs kooperiert und in mehreren Veröffentlichungen zur \" Ausformulierung eines faschistisch - buddhistischen Kriegerethos \" beigetragen.",
+    "corrupted": "Victor Trimondi postulierte in seinem Buch Hitler -- Buddha -- Krishna, Suzuki habe während des Zweiten Weltkriegs mit die japanischen Militärs kooperiert und in mehreren Veröffentlichungen zur \" Ausformulierung eines faschistisch - buddhistischen Kriegerethos \" beigetragen.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -5084,7 +5164,7 @@
     "sent_id": "train-s8953",
     "group_start": 23,
     "group_end": 35,
-    "group_span_text": "dem erst kurz zuvor in das Amt gekommenen US - Präsidenten Barack Obama",
+    "group_span_text": "dem gekommenen US Präsidenten Barack Obama",
     "gold_text": "Verstärkte Aufmerksamkeit wurde der Veranstaltung unter anderem deshalb zu Teil, da es sich für viele der Beteiligten um das erste Aufeinandertreffen mit dem erst kurz zuvor ins Amt gekommenen US - Präsidenten Barack Obama handelte.",
     "corrupted": "Verstärkte Aufmerksamkeit wurde der Veranstaltung unter anderem deshalb zu Teil, da es sich für viele der Beteiligten um das erste Aufeinandertreffen mit den erst kurz zuvor ins Amt gekommenen US - Präsidenten Barack Obama handelte.",
     "dative_type": "dative_prep_mit"
@@ -5221,6 +5301,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s9272",
+    "group_start": 59,
+    "group_end": 64,
+    "group_span_text": "der herrschenden Gesellschaftsstruktur",
+    "gold_text": "Er stellt hierbei aber weniger auf konkrete Benimmregeln, als allgemein auf Höflichkeit mit den Mitmenschen ab und fördert somit das allgemein verbreitete Fehlverständnis der Schriften des berühmten Knigge, der zwar über den Umgang mit Menschen schrieb, damit aber keineswegs Benimm im Sinn hatte, sondern viel mehr eine kritische, politisch - aufklärerische Auseinandersetzung mit der zu seinen Lebzeiten herrschenden Gesellschaftsstruktur.",
+    "corrupted": "Er stellt hierbei aber weniger auf konkrete Benimmregeln, als allgemein auf Höflichkeit mit den Mitmenschen ab und fördert somit das allgemein verbreitete Fehlverständnis der Schriften des berühmten Knigge, der zwar über den Umgang mit Menschen schrieb, damit aber keineswegs Benimm im Sinn hatte, sondern viel mehr eine kritische, politisch - aufklärerische Auseinandersetzung mit die zu seinen Lebzeiten herrschenden Gesellschaftsstruktur.",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s9284",
     "group_start": 1,
     "group_end": 2,
@@ -5314,7 +5404,7 @@
     "sent_id": "train-s9390",
     "group_start": 8,
     "group_end": 12,
-    "group_span_text": "dem deutschen Wort \" Geschichte",
+    "group_span_text": "dem deutschen Wort \"Geschichte",
     "gold_text": "Die neu entstandenen Werke wurden dabei häufig mit dem deutschen Wort \"Geschichte\" bezeichnet, manchmal auch -- trotz der A - cappella - Besetzung -- als \"Oratorium\".",
     "corrupted": "Die neu entstandenen Werke wurden dabei häufig mit das deutsche Wort \"Geschichte\" bezeichnet, manchmal auch -- trotz der A - cappella - Besetzung -- als \"Oratorium\".",
     "dative_type": "dative_prep_mit"
@@ -5724,7 +5814,7 @@
     "sent_id": "train-s10052",
     "group_start": 6,
     "group_end": 8,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Gassin ist eine französische Gemeinde mit Einwohnern (Stand), die dem Département Var und der Region Provence - Alpes - Côte d'Azur angehört.",
     "corrupted": "Gassin ist eine französische Gemeinde mit Einwohner (Stand), die dem Département Var und der Region Provence - Alpes - Côte d'Azur angehört.",
     "dative_type": "dative_prep_mit"
@@ -5796,7 +5886,7 @@
     "group_end": 28,
     "group_span_text": "dem Befehl ihnen gleichgestellter Würdenträger",
     "gold_text": "Die Machtausübung durch die drei Regenten führte schon bald zu offenen Auseinandersetzungen mit den anderen Machthabern und Würdenträgern des Reiches, die sich nicht dem Befehl ihnen gleichgestellter Würdenträger unterstellen wollten.",
-    "corrupted": "Die Machtausübung durch die drei Regenten führte schon bald zu offenen Auseinandersetzungen mit den anderen Machthabern und Würdenträgern des Reiches, die sich nicht den Befehl sie gleichgestellter Würdenträger unterstellen wollten.",
+    "corrupted": "Die Machtausübung durch die drei Regenten führte schon bald zu offenen Auseinandersetzungen mit den anderen Machthabern und Würdenträgern des Reiches, die sich nicht den Befehl ihnen gleichgestellter Würdenträger unterstellen wollten.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -5817,6 +5907,16 @@
     "group_span_text": "einem Webbrowser",
     "gold_text": "Als Webmail werden Dienste im World Wide Web bezeichnet, die die Verwaltung von E - Mails mit einem Webbrowser ermöglichen.",
     "corrupted": "Als Webmail werden Dienste im World Wide Web bezeichnet, die die Verwaltung von E - Mails mit einen Webbrowser ermöglichen.",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10160",
+    "group_start": 15,
+    "group_end": 16,
+    "group_span_text": "beiden Mannschaften",
+    "gold_text": "Auf Vereinsebene spielte er hauptsächlich für die beiden Moskauer Rivalen Spartak und Torpedo, mit beiden Mannschaften gewann er je einmal den Pokal, wie die Meisterschaft der UdSSR.",
+    "corrupted": "Auf Vereinsebene spielte er hauptsächlich für die beiden Moskauer Rivalen Spartak und Torpedo, mit beide Mannschaften gewann er je einmal den Pokal, wie die Meisterschaft der UdSSR.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -5904,7 +6004,7 @@
     "sent_id": "train-s10263",
     "group_start": 17,
     "group_end": 19,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Aiello del Friuli (furlanisch Daèl) ist eine Gemeinde in der Provinz Udine, Italien mit Einwohnern (Stand).",
     "corrupted": "Aiello del Friuli (furlanisch Daèl) ist eine Gemeinde in der Provinz Udine, Italien mit Einwohner (Stand).",
     "dative_type": "dative_prep_mit"
@@ -5924,7 +6024,7 @@
     "sent_id": "train-s10300",
     "group_start": 11,
     "group_end": 18,
-    "group_span_text": "dem Ritterkreuz des Maria - Theresia - Ordens",
+    "group_span_text": "dem Ritterkreuz des Maria Theresia Ordens",
     "gold_text": "Bis hier hin im Felde ungeschlagen, wurde Dönhoff mit dem Ritterkreuz des Maria - Theresia - Ordens ausgezeichnet.",
     "corrupted": "Bis hier hin im Felde ungeschlagen, wurde Dönhoff mit den Ritterkreuz des Maria - Theresia - Ordens ausgezeichnet.",
     "dative_type": "dative_prep_mit"
@@ -6251,6 +6351,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s10980",
+    "group_start": 7,
+    "group_end": 11,
+    "group_span_text": "seinem Bruder dem Bassisten",
+    "gold_text": "Levin arbeitete auch im Trio mit seinem Bruder, dem Bassisten Tony Levin, und Drummer Danny Gottlieb;",
+    "corrupted": "Levin arbeitete auch im Trio mit seinen Bruder, den Bassisten Tony Levin, und Drummer Danny Gottlieb;",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s10997",
     "group_start": 15,
     "group_end": 16,
@@ -6364,7 +6474,7 @@
     "sent_id": "train-s11172",
     "group_start": 14,
     "group_end": 22,
-    "group_span_text": "einem einzelnen \" Durchgang \" eines Ski - Rennens",
+    "group_span_text": "einem einzelnen \"Durchgang\" eines Ski - Rennens",
     "gold_text": "Eine sogenannte \"Stage\" ist ein Teil eines Fights, vergleichbar mit beispielsweise einem einzelnen \"Durchgang\" eines Ski - Rennens.",
     "corrupted": "Eine sogenannte \"Stage\" ist ein Teil eines Fights, vergleichbar mit beispielsweise einen einzelnen \"Durchgang\" eines Ski - Rennens.",
     "dative_type": "dative_prep_mit"
@@ -6516,7 +6626,7 @@
     "group_end": 8,
     "group_span_text": "einer kleineren als der kritischen Größe",
     "gold_text": "Diese können mit einer kleineren als der kritischen Größe durch thermische Fluktuation schrittweise wachsen.",
-    "corrupted": "Diese können mit eine kleine als die kritische Größe durch thermische Fluktuation schrittweise wachsen.",
+    "corrupted": "Diese können mit eine kleine als der kritischen Größe durch thermische Fluktuation schrittweise wachsen.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -6576,7 +6686,7 @@
     "group_end": 8,
     "group_span_text": "den beiden Kleinen Kreuzern",
     "gold_text": "Das Flaggschiff lief dann mit den beiden Kleinen Kreuzern nach Friedrich - Wilhelm - Hafen, wo das Vermessungsschiff SMS Planet mit Maschinenhavarie lag.",
-    "corrupted": "Das Flaggschiff lief dann mit die beiden Kleineren Kreuzer nach Friedrich - Wilhelm - Hafen, wo das Vermessungsschiff SMS Planet mit Maschinenhavarie lag.",
+    "corrupted": "Das Flaggschiff lief dann mit die beide Kleinen Kreuzer nach Friedrich - Wilhelm - Hafen, wo das Vermessungsschiff SMS Planet mit Maschinenhavarie lag.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -6714,7 +6824,7 @@
     "sent_id": "train-s11514",
     "group_start": 12,
     "group_end": 14,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Borowski ist eine Siedlung in der Oblast Tjumen (Russland) mit Einwohnern (Stand).",
     "corrupted": "Borowski ist eine Siedlung in der Oblast Tjumen (Russland) mit Einwohner (Stand).",
     "dative_type": "dative_prep_mit"
@@ -6734,7 +6844,7 @@
     "sent_id": "train-s11585",
     "group_start": 5,
     "group_end": 7,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Bretstein ist eine Gemeinde mit Einwohnern (Stand) im Bezirk Murtal in der Steiermark.",
     "corrupted": "Bretstein ist eine Gemeinde mit Einwohner (Stand) im Bezirk Murtal in der Steiermark.",
     "dative_type": "dative_prep_mit"
@@ -6804,9 +6914,9 @@
     "sent_id": "train-s11723",
     "group_start": 16,
     "group_end": 20,
-    "group_span_text": "den \" Gebräuchen der Alten",
+    "group_span_text": "den Gebräuchen der Alten",
     "gold_text": "Als Wissenschaft der Altertümer oder auch Antiquitäten verstand man zur damaligen Zeit die Auseinandersetzung mit den \"Gebräuchen der Alten\".",
-    "corrupted": "Als Wissenschaft der Altertümer oder auch Antiquitäten verstand man zur damaligen Zeit die Auseinandersetzung mit die \" Gebräuche die Alte \".",
+    "corrupted": "Als Wissenschaft der Altertümer oder auch Antiquitäten verstand man zur damaligen Zeit die Auseinandersetzung mit die \" Gebräuche die Ältere \".",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -6814,7 +6924,7 @@
     "sent_id": "train-s11738",
     "group_start": 8,
     "group_end": 10,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Ville - d'Avray ist eine französische Stadt mit Einwohnern (Stand) im Département Hauts - de - Seine in der Region Île - de - France.",
     "corrupted": "Ville - d'Avray ist eine französische Stadt mit Einwohner (Stand) im Département Hauts - de - Seine in der Region Île - de - France.",
     "dative_type": "dative_prep_mit"
@@ -6954,7 +7064,7 @@
     "sent_id": "train-s12007",
     "group_start": 14,
     "group_end": 16,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Muespach - le - Haut (deutsch Obermüspach) ist eine französische Gemeinde mit Einwohnern (Stand) im Département Haut - Rhin in der Region Elsass.",
     "corrupted": "Muespach - le - Haut (deutsch Obermüspach) ist eine französische Gemeinde mit Einwohner (Stand) im Département Haut - Rhin in der Region Elsass.",
     "dative_type": "dative_prep_mit"
@@ -6987,6 +7097,16 @@
     "group_span_text": "einer Beweisführung",
     "gold_text": "Erhalten sind außerdem Glossen zu den ersten fünf Büchern der Elemente Euklids und eine Schrift Hibbur hokhmat ha - tishboret (Über die Wissenschaft der Geometrie) mit einer Beweisführung zum fünften Postulat (Parallelenpostulat) Euklids, ferner als astrologische Schrift ein Prognostikon über die Konjunktion des Jahres 1345.",
     "corrupted": "Erhalten sind außerdem Glossen zu den ersten fünf Büchern der Elemente Euklids und eine Schrift Hibbur hokhmat ha - tishboret ( Über die Wissenschaft der Geometrie) mit eine Beweisführung zum fünften Postulat ( Parallelenpostulat) Euklids, ferner als astrologische Schrift ein Prognostikon über die Konjunktion des Jahres 1345.",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12039",
+    "group_start": 3,
+    "group_end": 8,
+    "group_span_text": "einem von Karl Lendrich entwickelten Verfahren",
+    "gold_text": "Er wurde mit einem von Karl Lendrich entwickelten Verfahren hergestellt.",
+    "corrupted": "Er wurde mit einen von Karl Lendrich entwickelten Verfahren hergestellt.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -7034,7 +7154,7 @@
     "sent_id": "train-s12139",
     "group_start": 12,
     "group_end": 16,
-    "group_span_text": "dem Zusatz \" die tageszeitung",
+    "group_span_text": "dem Zusatz \"die tageszeitung",
     "gold_text": "Zudem darf sie die Tatze auf eigenen Produkten nur in Verbindung mit dem Zusatz \"die tageszeitung\" nutzen.",
     "corrupted": "Zudem darf sie die Tatze auf eigenen Produkten nur in Verbindung mit den Zusatz \"die tageszeitung\" nutzen.",
     "dative_type": "dative_prep_mit"
@@ -7134,7 +7254,7 @@
     "sent_id": "train-s12336",
     "group_start": 13,
     "group_end": 19,
-    "group_span_text": "dem Aufbau des Casino - Hotels Flamingo",
+    "group_span_text": "dem Aufbau des Casino Hotels Flamingo",
     "gold_text": "Ein Jahr später wurde Cohen im Film Bugsy, der sich mit dem Aufbau des Casino - Hotels Flamingo durch Bugsy Siegel befasst, von Harvey Keitel dargestellt.",
     "corrupted": "Ein Jahr später wurde Cohen im Film Bugsy, der sich mit den Aufbau des Casino - Hotels Flamingo durch Bugsy Siegel befasst, von Harvey Keitel dargestellt.",
     "dative_type": "dative_prep_mit"
@@ -7144,7 +7264,7 @@
     "sent_id": "train-s12342",
     "group_start": 5,
     "group_end": 7,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Poworino ist eine Stadt mit Einwohnern (Stand) und Rajon - Verwaltungszentrum im östlichen Teil der Oblast Woronesch in Russland.",
     "corrupted": "Poworino ist eine Stadt mit Einwohner (Stand) und Rajon - Verwaltungszentrum im östlichen Teil der Oblast Woronesch in Russland.",
     "dative_type": "dative_prep_mit"
@@ -7371,6 +7491,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s12672",
+    "group_start": 1,
+    "group_end": 9,
+    "group_span_text": "der dem Andenken von Johann Peter Hebel gewidmeten Plakete",
+    "gold_text": "Mit der dem Andenken von Johann Peter Hebel gewidmeten Plakete werden Menschen aus der Oberrhein - Region geehrt, die \"die sich besondere Verdienste um die Landschaft erworben haben, sei es durch künstlerisches Schaffen (Schriftsteller, Dichter, Maler) oder auf dem Gebiet der Denkmal - und Heimatpflege.\"",
+    "corrupted": "Mit die dem Andenken von Johann Peter Hebel gewidmeten Plakete werden Menschen aus der Oberrhein - Region geehrt, die \"die sich besondere Verdienste um die Landschaft erworben haben, sei es durch künstlerisches Schaffen (Schriftsteller, Dichter, Maler) oder auf dem Gebiet der Denkmal - und Heimatpflege.\"",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s12679",
     "group_start": 26,
     "group_end": 27,
@@ -7494,7 +7624,7 @@
     "sent_id": "train-s12897",
     "group_start": 4,
     "group_end": 11,
-    "group_span_text": "der 1823 in das Leben gerufenen Catholic Association",
+    "group_span_text": "der gerufenen Catholic Association",
     "gold_text": "Der zweite Versuch mit der 1823 ins Leben gerufenen Catholic Association war erfolgreicher.",
     "corrupted": "Der zweite Versuch mit die 1823 ins Leben gerufene Catholic Association war erfolgreicher.",
     "dative_type": "dative_prep_mit"
@@ -7513,8 +7643,8 @@
     "split": "train",
     "sent_id": "train-s12954",
     "group_start": 6,
-    "group_end": 17,
-    "group_span_text": "führenden Vertretern des damaligen deutschen Pfadfindertums, besonders Amtsgerichtsrat Dr. Eberhard Plewe",
+    "group_end": 14,
+    "group_span_text": "führenden Vertretern des damaligen deutschen Pfadfindertums, besonders Amtsgerichtsrat",
     "gold_text": "In dieser Eigenschaft arbeitete er mit führenden Vertretern des damaligen deutschen Pfadfindertums, besonders Amtsgerichtsrat Dr. Eberhard Plewe vom Deutschen Pfadfinderbund (DPB), zusammen.",
     "corrupted": "In dieser Eigenschaft arbeitete er mit führende Vertreter des damaligen deutschen Pfadfindertums, besonders Amtsgerichtsrat Dr. Eberhard Plewe vom Deutschen Pfadfinderbund (DPB), zusammen.",
     "dative_type": "dative_prep_mit"
@@ -7544,7 +7674,7 @@
     "sent_id": "train-s13009",
     "group_start": 22,
     "group_end": 29,
-    "group_span_text": "einem \" Premier Prix de Virtuosité avec félicitations",
+    "group_span_text": "einem Premier Prix de Virtuosité avec félicitations",
     "gold_text": "Die Konzertklasse von Christian Favre am Conservatoire de Lausanne beendete er 1996 mit dem \"diplôme supérieur\" und 1998 mit einem \"Premier Prix de Virtuosité avec félicitations\".",
     "corrupted": "Die Konzertklasse von Christian Favre am Conservatoire de Lausanne beendete er 1996 mit dem \"diplôme supérieur\" und 1998 mit einen \"Premier Prix de Virtuosité avec félicitations\".",
     "dative_type": "dative_prep_mit"
@@ -7564,9 +7694,9 @@
     "sent_id": "train-s13052",
     "group_start": 53,
     "group_end": 62,
-    "group_span_text": "der ersten israelischen Botschafterin in der Sowjetunion, Golda Meir",
+    "group_span_text": "der ersten israelischen Botschafterin Golda Meir",
     "gold_text": "Zu dieser Zeit zog sie Stalins Ungnade auf sich, die auf drei Vorfälle zurückgeführt wird, nämlich ihre Teilnahme an einer Feier in der Moskauer Synagoge im Jahr 1945, ihre Anwesenheit an der Trauerfeier für den (auf Stalins Befehl ermordeten) jüdischen Schauspieler Solomon Michoels und ihr Zusammentreffen mit der ersten israelischen Botschafterin in der Sowjetunion, Golda Meir, mit der sie sich auf Jiddisch unterhielt.",
-    "corrupted": "Zu dieser Zeit zog sie Stalins Ungnade auf sich, die auf drei Vorfälle zurückgeführt wird, nämlich ihre Teilnahme an einer Feier in der Moskauer Synagoge im Jahr 1945, ihre Anwesenheit an der Trauerfeier für den (auf Stalins Befehl ermordeten) jüdischen Schauspieler Solomon Michoels und ihr Zusammentreffen mit die erste israelische Botschafterin in die Sowjetunion, Golda Meir, mit der sie sich auf Jiddisch unterhielt.",
+    "corrupted": "Zu dieser Zeit zog sie Stalins Ungnade auf sich, die auf drei Vorfälle zurückgeführt wird, nämlich ihre Teilnahme an einer Feier in der Moskauer Synagoge im Jahr 1945, ihre Anwesenheit an der Trauerfeier für den (auf Stalins Befehl ermordeten) jüdischen Schauspieler Solomon Michoels und ihr Zusammentreffen mit die erste israelische Botschafterin in der Sowjetunion, Golda Meir, mit der sie sich auf Jiddisch unterhielt.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -7586,7 +7716,7 @@
     "group_end": 19,
     "group_span_text": "dem von ihm und Christian Walter 1999 gegründeten Fagott - Duo satyros",
     "gold_text": "Diese grenzüberschreitenden Projekte realisiert er meist zusammen mit dem von ihm und Christian Walter 1999 gegründeten Fagott - Duo satyros.",
-    "corrupted": "Diese grenzüberschreitenden Projekte realisiert er meist zusammen mit den von ihn und Christian Walter 1999 gegründeten Fagott - Duo satyros.",
+    "corrupted": "Diese grenzüberschreitenden Projekte realisiert er meist zusammen mit den von ihm und Christian Walter 1999 gegründeten Fagott - Duo satyros.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -7604,7 +7734,7 @@
     "sent_id": "train-s13161",
     "group_start": 5,
     "group_end": 7,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Aureille ist eine Gemeinde mit Einwohnern (Stand) im Süden Frankreichs im Département Bouches - du - Rhône (13) der Region Provence - Alpes - Côte d'Azur.",
     "corrupted": "Aureille ist eine Gemeinde mit Einwohner (Stand) im Süden Frankreichs im Département Bouches - du - Rhône (13) der Region Provence - Alpes - Côte d'Azur.",
     "dative_type": "dative_prep_mit"
@@ -7944,7 +8074,7 @@
     "sent_id": "train-s13760",
     "group_start": 16,
     "group_end": 18,
-    "group_span_text": "Einwohnern ( Stand",
+    "group_span_text": "Einwohnern (Stand",
     "gold_text": "Claviere (piemontesisch Claviè, okzitanisch las Clavieras, französisch Clavières) ist eine Gemeinde mit Einwohnern (Stand) in der italienischen Provinz Turin (TO), Region Piemont.",
     "corrupted": "Claviere (piemontesisch Claviè, okzitanisch las Clavieras, französisch Clavières) ist eine Gemeinde mit Einwohner (Stand) in der italienischen Provinz Turin (TO), Region Piemont.",
     "dative_type": "dative_prep_mit"
@@ -8026,7 +8156,7 @@
     "group_end": 18,
     "group_span_text": "erfolgreichen Bands",
     "gold_text": "Im November folgte die Teilnahme an der Taste - Of - Chaos - Tour mit international erfolgreichen Bands wie Rise Against und Killswitch Engage.",
-    "corrupted": "Im November folgte die Teilnahme an der Taste - Of - Chaos - Tour mit international erfolgreiche Bands wie Rise Against und Killswitch Engage.",
+    "corrupted": "Im November folgte die Teilnahme an der Taste - Of - Chaos - Tour mit international erfolgreiche Bänder wie Rise Against und Killswitch Engage.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -8197,6 +8327,16 @@
     "group_span_text": "einem Premium - Hotel",
     "gold_text": "Die Ausstattung kann durchaus mit einem Premium - Hotel mithalten, die Preise sind moderat.",
     "corrupted": "Die Ausstattung kann durchaus mit ein Premium - Hotel mithalten, die Preise sind moderat.",
+    "dative_type": "dative_prep_mit"
+  },
+  {
+    "split": "dev",
+    "sent_id": "dev-s127",
+    "group_start": 6,
+    "group_end": 7,
+    "group_span_text": "tollen Ideen",
+    "gold_text": "Super Beratung -- Schöne Ausstellung mit tollen Ideen.",
+    "corrupted": "Super Beratung -- Schöne Ausstellung mit tolle Ideen.",
     "dative_type": "dative_prep_mit"
   },
   {
@@ -8877,16 +9017,6 @@
     "group_span_text": "der Klarheit",
     "gold_text": "\"Aber das Gericht hat dies nicht mit der Eindeutigkeit und der Klarheit getan, die wir uns gewünscht hätten'', sagte er.\"",
     "corrupted": "\"Aber das Gericht hat dies nicht mit der Eindeutigkeit und die Klarheit getan, die wir uns gewünscht hätten'', sagte er.\"",
-    "dative_type": "dative_prep_mit"
-  },
-  {
-    "split": "test",
-    "sent_id": "test-s313",
-    "group_start": 2,
-    "group_end": 8,
-    "group_span_text": "Hilfe der aus anderen Orten herbeigeeilten Militäreinheiten",
-    "gold_text": "\"mit Hilfe der aus anderen Orten herbeigeeilten Militäreinheiten und mit Verhängung des Ausnahmezustandes gelang es den lokalen Machthabern, der Lage Herr zu werden.\"",
-    "corrupted": "\"mit Hilfe der aus andere Orte herbeigeeilten Militäreinheiten und mit Verhängung des Ausnahmezustandes gelang es den lokalen Machthabern, der Lage Herr zu werden.\"",
     "dative_type": "dative_prep_mit"
   },
   {

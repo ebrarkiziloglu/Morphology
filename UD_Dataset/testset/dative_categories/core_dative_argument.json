@@ -36,7 +36,7 @@
     "group_end": 1,
     "group_span_text": "Beiden Zahnärzten",
     "gold_text": "Beiden Zahnärzten verdanke ich einen neuen Biss und dadurch endlich keine Rückenschmerzen mehr.",
-    "corrupted": "Beiden Zahnärzte verdanke ich einen neuen Biss und dadurch endlich keine Rückenschmerzen mehr.",
+    "corrupted": "Beide Zahnärzte verdanke ich einen neuen Biss und dadurch endlich keine Rückenschmerzen mehr.",
     "dative_type": "core_dative_argument"
   },
   {
@@ -86,7 +86,7 @@
     "group_end": 9,
     "group_span_text": "den älteren Patienten",
     "gold_text": "Daher haben hier immer die jüngeren Patienten den älteren Patienten Platz gemacht, damit diese bei den Temperaturen keinen Kreislaufkollaps bekamen.",
-    "corrupted": "Daher haben hier immer die jüngeren Patienten die alten Patienten Platz gemacht, damit diese bei den Temperaturen keinen Kreislaufkollaps bekamen.",
+    "corrupted": "Daher haben hier immer die jüngeren Patienten die ältere Patienten Platz gemacht, damit diese bei den Temperaturen keinen Kreislaufkollaps bekamen.",
     "dative_type": "core_dative_argument"
   },
   {
@@ -534,7 +534,7 @@
     "sent_id": "train-s796",
     "group_start": 5,
     "group_end": 10,
-    "group_span_text": "dem gesamtem Team der \" Hauptstadtschwestern",
+    "group_span_text": "dem gesamtem Team der \"Hauptstadtschwestern",
     "gold_text": "Ich möchte auf diesem Wege dem gesamtem Team der \"Hauptstadtschwestern\" für die tatkräftige Hilfe und die aufmunternden Worte danken.",
     "corrupted": "Ich möchte auf diesem Wege das gesamte Team der \"Hauptstadtschwestern\" für die tatkräftige Hilfe und die aufmunternden Worte danken.",
     "dative_type": "core_dative_argument"
@@ -1454,7 +1454,7 @@
     "sent_id": "train-s2169",
     "group_start": 5,
     "group_end": 9,
-    "group_span_text": "der neuen SPD - Führung",
+    "group_span_text": "der neuen SPD-Führung",
     "gold_text": "Niedersachsens Ministerpräsident Gerhard Schröder gehört der neuen SPD-Führung unter Parteichef Oskar Lafontaine an.",
     "corrupted": "Niedersachsens Ministerpräsident Gerhard Schröder gehört die neue SPD-Führung unter Parteichef Oskar Lafontaine an.",
     "dative_type": "core_dative_argument"
@@ -1487,6 +1487,16 @@
     "group_span_text": "Den Unterzeichnern",
     "gold_text": "Den Unterzeichnern auf Seiten KHD war es offenkundig um ungewöhnlich hohe vereinbarte Anzahlungen der arabischen Kunden gegangen, die Löcher in der ständig notleidenden Motoren - Branche stopfen helfen sollten.",
     "corrupted": "Die Unterzeichner auf Seiten KHD war es offenkundig um ungewöhnlich hohe vereinbarte Anzahlungen der arabischen Kunden gegangen, die Löcher in der ständig notleidenden Motoren - Branche stopfen helfen sollten.",
+    "dative_type": "core_dative_argument"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2218",
+    "group_start": 0,
+    "group_end": 3,
+    "group_span_text": "Diese frei beweglichen Elektronen",
+    "gold_text": "Diese frei beweglichen Elektronen kann man sich als Teilchen eines Gases vorstellen, das den Platz zwischen den Atomrümpfen ausfüllt.",
+    "corrupted": "Diese frei bewegliche Elektronen kann man sich als Teilchen eines Gases vorstellen, das den Platz zwischen den Atomrümpfen ausfüllt.",
     "dative_type": "core_dative_argument"
   },
   {
@@ -2183,8 +2193,8 @@
     "split": "train",
     "sent_id": "train-s4501",
     "group_start": 3,
-    "group_end": 6,
-    "group_span_text": "den Landesregierungen Jonas I",
+    "group_end": 5,
+    "group_span_text": "den Landesregierungen Jonas",
     "gold_text": "Dabei gehörte er den Landesregierungen Jonas I, II und III an.",
     "corrupted": "Dabei gehörte er die Landesregierungen Jonas I, II und III an.",
     "dative_type": "core_dative_argument"
@@ -2383,8 +2393,8 @@
     "split": "train",
     "sent_id": "train-s5065",
     "group_start": 10,
-    "group_end": 13,
-    "group_span_text": "dem FC Schalke 04",
+    "group_end": 12,
+    "group_span_text": "dem FC Schalke",
     "gold_text": "Kurz darauf wechselte er nach Gelsenkirchen, wo er sich dem FC Schalke 04 anschloss.",
     "corrupted": "Kurz darauf wechselte er nach Gelsenkirchen, wo er sich den FC Schalke 04 anschloss.",
     "dative_type": "core_dative_argument"
@@ -2734,7 +2744,7 @@
     "sent_id": "train-s6027",
     "group_start": 5,
     "group_end": 11,
-    "group_span_text": "den \" 50 Perlen des schmerzhaften Gebetsrosenkranzes",
+    "group_span_text": "den \"50 Perlen des schmerzhaften Gebetsrosenkranzes",
     "gold_text": "Die Zahl der Strophen entspricht den \"50 Perlen des schmerzhaften Gebetsrosenkranzes\".",
     "corrupted": "Die Zahl der Strophen entspricht die \"50 Perlen des schmerzhaften Gebetsrosenkranzes\".",
     "dative_type": "core_dative_argument"
@@ -3063,8 +3073,8 @@
     "split": "train",
     "sent_id": "train-s7165",
     "group_start": 24,
-    "group_end": 31,
-    "group_span_text": "Medienforschung, die Erforschung des Themenfeldes öffentliche Kommunikation",
+    "group_end": 29,
+    "group_span_text": "Medienforschung, die Erforschung des Themenfeldes",
     "gold_text": "Das Hans - Bredow - Institut für Medienforschung an der Universität Hamburg (HBI) ist eine eigenständige gemeinnützige Stiftung mit dem Ziel, Medienforschung, die Erforschung des Themenfeldes öffentliche Kommunikation, insbesondere auf dem Gebiet des Hörfunks und des Fernsehens sowie anderer elektronischer Medien, in interdisziplinärer Weise zu betreiben und die Ergebnisse der Wissenschaft, Praxis und Öffentlichkeit zur Verfügung zu stellen.",
     "corrupted": "Das Hans - Bredow - Institut für Medienforschung an der Universität Hamburg ( HBI) ist eine eigenständige gemeinnützige Stiftung mit dem Ziel, Medienforschung, die Erforschung des Themenfeldes öffentliche Kommunikation, insbesondere auf dem Gebiet des Hörfunks und des Fernsehens sowie anderer elektronischer Medien, in interdisziplinärer Weise zu betreiben und die Ergebnisse der Wissenschaft, Praxis und Öffentlichkeit zur Verfügung zu stellen.",
     "dative_type": "core_dative_argument"
@@ -3104,7 +3114,7 @@
     "sent_id": "train-s7257",
     "group_start": 0,
     "group_end": 11,
-    "group_span_text": "Den Abmessungen der Schiffe ( 26,67 m lang, 3,11 m breit",
+    "group_span_text": "Den Abmessungen der Schiffe (26,67 m lang, 3,11 m breit",
     "gold_text": "Den Abmessungen der Schiffe (26,67 m lang, 3,11 m breit) waren die Schleusen in Kesselform angepasst.",
     "corrupted": "Die Abmessungen der Schiffe (26,67 m lang, 3,11 m breit) waren die Schleusen in Kesselform angepasst.",
     "dative_type": "core_dative_argument"
@@ -4153,8 +4163,8 @@
     "split": "train",
     "sent_id": "train-s10636",
     "group_start": 0,
-    "group_end": 8,
-    "group_span_text": "Dem Bau eines Ruhr - Tunnels ( B 1",
+    "group_end": 7,
+    "group_span_text": "Dem Bau eines Ruhr - Tunnels (B",
     "gold_text": "Dem Bau eines Ruhr - Tunnels (B 1 / A 40) stand er kritisch gegenüber.",
     "corrupted": "Den Bau eines Ruhr - Tunnels (B 1 / A 40) stand er kritisch gegenüber.",
     "dative_type": "core_dative_argument"
@@ -4564,7 +4574,7 @@
     "sent_id": "train-s11770",
     "group_start": 2,
     "group_end": 8,
-    "group_span_text": "der New York County Lawyers' Association",
+    "group_span_text": "der New York County Lawyers 'Association",
     "gold_text": "Er stand der New York County Lawyers 'Association vor und wurde 1934 zum amtlichen Schlichter am New York Supreme Court ernannt, was er bis zu seinem Tod im Mai 1843 blieb.",
     "corrupted": "Er stand den New York County Lawyers' Association vor und wurde 1934 zum amtlichen Schlichter am New York Supreme Court ernannt, was er bis zu seinem Tod im Mai 1843 blieb.",
     "dative_type": "core_dative_argument"
@@ -4617,6 +4627,16 @@
     "group_span_text": "ihm",
     "gold_text": "Dies brachte ihm polizeiliche Ermittlungen wegen Wahlbehinderung ein.",
     "corrupted": "Dies brachte ihn polizeiliche Ermittlungen wegen Wahlbehinderung ein.",
+    "dative_type": "core_dative_argument"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11836",
+    "group_start": 2,
+    "group_end": 4,
+    "group_span_text": "dem Palmer Ort",
+    "gold_text": "Landseitig ist dem Palmer Ort ein kleiner Küstenschutzwald vorgelagert.",
+    "corrupted": "Landseitig ist den Palmer Ort ein kleiner Küstenschutzwald vorgelagert.",
     "dative_type": "core_dative_argument"
   },
   {
@@ -5704,7 +5724,7 @@
     "sent_id": "test-s454",
     "group_start": 17,
     "group_end": 22,
-    "group_span_text": "der `` zentralen Rolle der Sicherheitskräfte",
+    "group_span_text": "der ``zentralen Rolle der Sicherheitskräfte",
     "gold_text": "De Klerk versuche die Gewalt in den Schwarzensiedlungen als internen Machtkampf unter Schwarzen darzustellen, statt sich der ``zentralen Rolle der Sicherheitskräfte'' bei den Unruhen zuzuwenden, denen in drei Jahren 8000 Menschen zum Opfer fielen.",
     "corrupted": "De Klerk versuche die Gewalt in den Schwarzensiedlungen als internen Machtkampf unter Schwarzen darzustellen, statt sich die `` zentrale Rolle der Sicherheitskräfte '' bei den Unruhen zuzuwenden, denen in drei Jahren 8000 Menschen zum Opfer fielen.",
     "dative_type": "core_dative_argument"

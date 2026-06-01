@@ -191,6 +191,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s3776",
+    "group_start": 26,
+    "group_end": 26,
+    "group_span_text": "dem",
+    "gold_text": "Nachdem der Nachbarbahnhof Brandenburger Tor Mitte 2009 fertiggestellt worden war, konnte die BVG den Drei - Stationen - Betrieb zwischen Hauptbahnhof und Brandenburger Tor am 8.",
+    "corrupted": "Nachdem der Nachbarbahnhof Brandenburger Tor Mitte 2009 fertiggestellt worden war, konnte die BVG den Drei - Stationen - Betrieb zwischen Hauptbahnhof und Brandenburger Tor ans 8.",
+    "dative_type": "dative_prep_zwischen"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s3824",
     "group_start": 18,
     "group_end": 19,
@@ -264,7 +274,7 @@
     "sent_id": "train-s6161",
     "group_start": 5,
     "group_end": 11,
-    "group_span_text": "der Geometrie ( den Koordinaten der Knoten",
+    "group_span_text": "der Geometrie (den Koordinaten der Knoten",
     "gold_text": "Dadurch wird eine Trennung zwischen der Geometrie (den Koordinaten der Knoten) und der Topologie (welche Knoten verbinden welche Kanten, welche Kanten begrenzen welche Flächen) realisiert.",
     "corrupted": "Dadurch wird eine Trennung zwischen die Geometrie (die Koordinaten der Knoten) und der Topologie (welche Knoten verbinden welche Kanten, welche Kanten begrenzen welche Flächen) realisiert.",
     "dative_type": "dative_prep_zwischen"
@@ -392,9 +402,9 @@
   {
     "split": "train",
     "sent_id": "train-s8593",
-    "group_start": 1,
+    "group_start": 3,
     "group_end": 4,
-    "group_span_text": "unterscheidet zwischen einem kurzen",
+    "group_span_text": "einem kurzen",
     "gold_text": "Man unterscheidet zwischen einem kurzen und einem langen Generationszyklus.",
     "corrupted": "Man unterscheidet zwischen einen kurzen und einem langen Generationszyklus.",
     "dative_type": "dative_prep_zwischen"
@@ -426,7 +436,7 @@
     "group_end": 21,
     "group_span_text": "den englischen Gebieten",
     "gold_text": "Die Franzosen stimmten zu, ermöglichte ihnen diese Entwicklung doch auch, die Irokesen als Puffer zwischen ihren und den englischen Gebieten sehen zu können.",
-    "corrupted": "Die Franzosen stimmten zu, ermöglichte ihnen diese Entwicklung doch auch, die Irokesen als Puffer zwischen ihren und die englische Gebiete sehen zu können.",
+    "corrupted": "Die Franzosen stimmten zu, ermöglichte ihnen diese Entwicklung doch auch, die Irokesen als Puffer zwischen ihren und die englischen Gebiete sehen zu können.",
     "dative_type": "dative_prep_zwischen"
   },
   {
@@ -456,7 +466,7 @@
     "group_end": 11,
     "group_span_text": "gegensätzlichen philosophischen und religiösen Auffassungen",
     "gold_text": "Häufig suchten sie nach einem Ausgleich zwischen gegensätzlichen philosophischen und religiösen Auffassungen und neigten zum Synkretismus.",
-    "corrupted": "Häufig suchten sie nach einem Ausgleich zwischen gegensätzlichen philosophische und religiöse Auffassungen und neigten zum Synkretismus.",
+    "corrupted": "Häufig suchten sie nach einem Ausgleich zwischen gegensätzlichen philosophische und religiösen Auffassungen und neigten zum Synkretismus.",
     "dative_type": "dative_prep_zwischen"
   },
   {
@@ -662,9 +672,9 @@
   {
     "split": "train",
     "sent_id": "train-s13316",
-    "group_start": 8,
+    "group_start": 11,
     "group_end": 11,
-    "group_span_text": "produziert und an dem",
+    "group_span_text": "dem",
     "gold_text": "Das Album wurde zwischen Frühling und Sommer 2005 produziert und am 4.",
     "corrupted": "Das Album wurde zwischen Frühling und Sommer 2005 produziert und ans 4.",
     "dative_type": "dative_prep_zwischen"
@@ -711,12 +721,22 @@
   },
   {
     "split": "test",
+    "sent_id": "test-s346",
+    "group_start": 16,
+    "group_end": 17,
+    "group_span_text": "beiden Staaten",
+    "gold_text": "Positive Aussagen des japanischen Verwaltungsministers Takami Eto zur Kolonialherrschaft in Südkorea belasten die Beziehungen zwischen beiden Staaten.",
+    "corrupted": "Positive Aussagen des japanischen Verwaltungsministers Takami Eto zur Kolonialherrschaft in Südkorea belasten die Beziehungen zwischen beide Staaten.",
+    "dative_type": "dative_prep_zwischen"
+  },
+  {
+    "split": "test",
     "sent_id": "test-s451",
     "group_start": 7,
     "group_end": 12,
     "group_span_text": "den beiden Spitzenreitern des ersten Wahlgangs",
     "gold_text": "Die Kampagne mag in der Stichwahl zwischen den beiden Spitzenreitern des ersten Wahlgangs erbittert sein;",
-    "corrupted": "Die Kampagne mag in der Stichwahl zwischen die beiden Spitzenreiter des ersten Wahlgangs erbittert sein;",
+    "corrupted": "Die Kampagne mag in der Stichwahl zwischen die beide Spitzenreiter des ersten Wahlgangs erbittert sein;",
     "dative_type": "dative_prep_zwischen"
   },
   {
@@ -744,7 +764,7 @@
     "sent_id": "test-s947",
     "group_start": 27,
     "group_end": 30,
-    "group_span_text": "dem Kanzler - Besuch",
+    "group_span_text": "dem Kanzler Besuch",
     "gold_text": "Mitglieder der Delegation von Jörg Schönbohm, Staatssekretär im Verteidigungsministerium und ``Pfadfinder'' für Kohl, behaupten, es bestehe ``kein Zusammenhang'' zwischen dem Kanzler-Besuch und der Wiederaufnahme der Militärbeziehungen.",
     "corrupted": "Mitglieder der Delegation von Jörg Schönbohm, Staatssekretär im Verteidigungsministerium und ``Pfadfinder'' für Kohl, behaupten, es bestehe ``kein Zusammenhang'' zwischen den Kanzler-Besuch und der Wiederaufnahme der Militärbeziehungen.",
     "dative_type": "dative_prep_zwischen"

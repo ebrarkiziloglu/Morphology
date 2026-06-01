@@ -153,8 +153,8 @@
     "split": "train",
     "sent_id": "train-s598",
     "group_start": 13,
-    "group_end": 16,
-    "group_span_text": "dem bisher besten gelandet",
+    "group_end": 15,
+    "group_span_text": "dem besten",
     "gold_text": "Wir haben schon einige Tierärzte \"durchgemacht\" und sind hier eindeutig beim bisher besten gelandet.",
     "corrupted": "Wir haben schon einige Tierärzte \" durchgemacht \" und sind hier eindeutig bei das bisher besten gelandet.",
     "dative_type": "dative_prep_bei"
@@ -174,9 +174,9 @@
     "sent_id": "train-s636",
     "group_start": 4,
     "group_end": 6,
-    "group_span_text": "dem Geschenke finden",
+    "group_span_text": "dem finden",
     "gold_text": "Jetzt ist man beim Geschenke finden nicht mehr überfragt.",
-    "corrupted": "Jetzt ist man bei das Geschenk finden nicht mehr überfragt.",
+    "corrupted": "Jetzt ist man bei das Geschenke finden nicht mehr überfragt.",
     "dative_type": "dative_prep_bei"
   },
   {
@@ -574,7 +574,7 @@
     "sent_id": "train-s1943",
     "group_start": 27,
     "group_end": 32,
-    "group_span_text": "der Erarbeitung neuer Mathematik - Lehrpläne",
+    "group_span_text": "der Erarbeitung neuer Mathematik-Lehrpläne",
     "gold_text": "Es sei wichtig, daß sich ein breiter Kreis mit den von Heymann vorgelegten Thesen beschäftigt, meint Ringel, denn immerhin sei dieser offizieller Berater bei der Erarbeitung neuer Mathematik-Lehrpläne in Nordrhein-Westfalen.",
     "corrupted": "Es sei wichtig, daß sich ein breiter Kreis mit den von Heymann vorgelegten Thesen beschäftigt, meint Ringel, denn immerhin sei dieser offizieller Berater bei die Erarbeitung neuer Mathematik-Lehrpläne in Nordrhein-Westfalen.",
     "dative_type": "dative_prep_bei"
@@ -786,7 +786,7 @@
     "group_end": 12,
     "group_span_text": "der in einem Fiasko endenden Uraufführung",
     "gold_text": "September 1840 die Giulietta di Kelbar bei der in einem Fiasko endenden Uraufführung von Un giorno di regno von Giuseppe Verdi.",
-    "corrupted": "September 1840 die Giulietta di Kelbar bei die in ein Fiasko endenden Uraufführung von Un giorno di regno von Giuseppe Verdi.",
+    "corrupted": "September 1840 die Giulietta di Kelbar bei die in einem Fiasko endenden Uraufführung von Un giorno di regno von Giuseppe Verdi.",
     "dative_type": "dative_prep_bei"
   },
   {
@@ -827,6 +827,16 @@
     "group_span_text": "der ersten",
     "gold_text": "Bei der ersten brach der Elbdeich bei Hetlingen und die Haseldorfer Marsch wurde überflutet.",
     "corrupted": "Bei die erste brach der Elbdeich bei Hetlingen und die Haseldorfer Marsch wurde überflutet.",
+    "dative_type": "dative_prep_bei"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2949",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "beiden Waffen",
+    "gold_text": "Bei beiden Waffen hebt der Rückstoß die Mündung an, bei der Querflinte wird sie jedoch auch zur Seite bewegt, da hier die Achse der Waffe zwischen den Laufachsen liegt.",
+    "corrupted": "Bei beide Waffen hebt der Rückstoß die Mündung an, bei der Querflinte wird sie jedoch auch zur Seite bewegt, da hier die Achse der Waffe zwischen den Laufachsen liegt.",
     "dative_type": "dative_prep_bei"
   },
   {
@@ -971,6 +981,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s3391",
+    "group_start": 5,
+    "group_end": 11,
+    "group_span_text": "der ersten Zwischenzeit in Pugey (Kilometer",
+    "gold_text": "Die ersten fünf Fahrer bei der ersten Zwischenzeit in Pugey (Kilometer 18 km)",
+    "corrupted": "Die ersten fünf Fahrer bei die erste Zwischenzeit in Pugey (Kilometer 18 km)",
+    "dative_type": "dative_prep_bei"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s3441",
     "group_start": 15,
     "group_end": 16,
@@ -1034,7 +1054,7 @@
     "sent_id": "train-s3602",
     "group_start": 1,
     "group_end": 8,
-    "group_span_text": "dem 2:2 gegen den FK Teplice an dem",
+    "group_span_text": "dem 2:2 dem",
     "gold_text": "Beim 2:2 gegen den FK Teplice am 17.",
     "corrupted": "Bei das 2:2 gegen den FK Teplice ans 17.",
     "dative_type": "dative_prep_bei"
@@ -1532,9 +1552,19 @@
   {
     "split": "train",
     "sent_id": "train-s5856",
+    "group_start": 14,
+    "group_end": 16,
+    "group_span_text": "geringen intermolekularen Wechselwirkungen",
+    "gold_text": "Generell gilt, dass die allgemeine Gasgleichung als Näherungslösung für schwach reale Gase bei geringen intermolekularen Wechselwirkungen, kleinen Drücken und hohen Temperaturen (großen Molvolumina) geeignet ist.",
+    "corrupted": "Generell gilt, dass die allgemeine Gasgleichung als Näherungslösung für schwach reale Gase bei geringere intermolekularen Wechselwirkungen, kleinen Drücken und hohen Temperaturen (großen Molvolumina) geeignet ist.",
+    "dative_type": "dative_prep_bei"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5856",
     "group_start": 21,
     "group_end": 25,
-    "group_span_text": "hohen Temperaturen ( großen Molvolumina",
+    "group_span_text": "hohen Temperaturen (großen Molvolumina",
     "gold_text": "Generell gilt, dass die allgemeine Gasgleichung als Näherungslösung für schwach reale Gase bei geringen intermolekularen Wechselwirkungen, kleinen Drücken und hohen Temperaturen (großen Molvolumina) geeignet ist.",
     "corrupted": "Generell gilt, dass die allgemeine Gasgleichung als Näherungslösung für schwach reale Gase bei geringen intermolekularen Wechselwirkungen, kleinen Drücken und hohe Temperaturen (großen Molvolumina) geeignet ist.",
     "dative_type": "dative_prep_bei"
@@ -1607,6 +1637,16 @@
     "group_span_text": "dem",
     "gold_text": "Im Zuge eines eskalierenden Konflikts, bei dem eine Funkwagenbesatzung hinzukam, soll Motte die Ordnungshüter als \"Blockwarte\" beschimpft und \"Heil Hitler\" gerufen haben.",
     "corrupted": "Im Zuge eines eskalierenden Konflikts, bei den eine Funkwagenbesatzung hinzukam, soll Motte die Ordnungshüter als \"Blockwarte\" beschimpft und \"Heil Hitler\" gerufen haben.",
+    "dative_type": "dative_prep_bei"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6368",
+    "group_start": 11,
+    "group_end": 17,
+    "group_span_text": "einigen von der Kreisstadt Winsen ausgehenden Linien",
+    "gold_text": "Ein Grundangebot besteht in allen Teilen der Gemeinde Seevetal, bei einigen von der Kreisstadt Winsen ausgehenden Linien und in der Anbindung von Hollenstedt.",
+    "corrupted": "Ein Grundangebot besteht in allen Teilen der Gemeinde Seevetal, bei einige von der Kreisstadt Winsen ausgehenden Linien und in der Anbindung von Hollenstedt.",
     "dative_type": "dative_prep_bei"
   },
   {
@@ -1973,8 +2013,8 @@
     "split": "train",
     "sent_id": "train-s7296",
     "group_start": 41,
-    "group_end": 45,
-    "group_span_text": "größeren Winkeln ( Bild 3c",
+    "group_end": 44,
+    "group_span_text": "größeren Winkeln Bild",
     "gold_text": "Im Spezialfall der Verwendung von Wasser als Flüssigkeit bezeichnet man bei geringen Kontaktwinkeln (ca. 0 °, Bild 3a) die Oberfläche als hydrophil, bei Winkeln um 90 ° (Bild 3b) als hydrophob und bei noch größeren Winkeln (Bild 3c) als superhydrophob.",
     "corrupted": "Im Spezialfall der Verwendung von Wasser als Flüssigkeit bezeichnet man bei geringen Kontaktwinkeln (ca. 0 °, Bild 3a) die Oberfläche als hydrophil, bei Winkeln um 90 ° (Bild 3b) als hydrophob und bei noch große Winkel (Bild 3c) als superhydrophob.",
     "dative_type": "dative_prep_bei"
@@ -2621,6 +2661,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s9365",
+    "group_start": 4,
+    "group_end": 14,
+    "group_span_text": "ein etwa 10 ha großer Wildpark bei Dodenau, einem Stadtteil",
+    "gold_text": "Das Wildgehege Dodenau ist ein etwa 10 ha großer Wildpark bei Dodenau, einem Stadtteil von Battenberg (Eder) im Landkreis Waldeck - Frankenberg in Hessen (Deutschland).",
+    "corrupted": "Das Wildgehege Dodenau ist ein etwa 10 ha großer Wildpark bei Dodenau, einen Stadtteil von Battenberg (Eder) im Landkreis Waldeck - Frankenberg in Hessen (Deutschland).",
+    "dative_type": "dative_prep_bei"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s9391",
     "group_start": 1,
     "group_end": 4,
@@ -2814,7 +2864,7 @@
     "sent_id": "train-s9976",
     "group_start": 6,
     "group_end": 12,
-    "group_span_text": "der \" Nokia Night of the Proms",
+    "group_span_text": "der \"Nokia Night of the Proms",
     "gold_text": "In Deutschland war er 2006 bei der \"Nokia Night of the Proms\" live zu sehen.",
     "corrupted": "In Deutschland war er 2006 bei die \"Nokia Night of the Proms\" live zu sehen.",
     "dative_type": "dative_prep_bei"
@@ -2844,7 +2894,7 @@
     "sent_id": "train-s10063",
     "group_start": 1,
     "group_end": 4,
-    "group_span_text": "dem 2:0 - Sieg",
+    "group_span_text": "dem 2:0 Sieg",
     "gold_text": "Beim 2:0 - Sieg bildete er zusammen mit Kurt Sommerlatt und Alfred Post die Läuferreihe und überzeugte so nachdrücklich, dass er in das endgültige Olympiaaufgebot aufgenommen wurde.",
     "corrupted": "Bei den 2:0 - Sieg bildete er zusammen mit Kurt Sommerlatt und Alfred Post die Läuferreihe und überzeugte so nachdrücklich, dass er in das endgültige Olympiaaufgebot aufgenommen wurde.",
     "dative_type": "dative_prep_bei"
@@ -3114,7 +3164,7 @@
     "sent_id": "train-s10951",
     "group_start": 5,
     "group_end": 10,
-    "group_span_text": "dem ersten in Deutschland ausgerichteten Weltcup",
+    "group_span_text": "dem ersten ausgerichteten Weltcup",
     "gold_text": "Seifert bezeichnete seine Leistung beim ersten in Deutschland ausgerichteten Weltcup als positive Überraschung, er fühle sich aber noch nicht richtig in guter Form.",
     "corrupted": "Seifert bezeichnete seine Leistung bei den erste in Deutschland ausgerichteten Weltcup als positive Überraschung, er fühle sich aber noch nicht richtig in guter Form.",
     "dative_type": "dative_prep_bei"
@@ -3164,9 +3214,19 @@
     "sent_id": "train-s11154",
     "group_start": 2,
     "group_end": 7,
-    "group_span_text": "der Klasse der Egel ( Hirudinea",
+    "group_span_text": "der Klasse der Egel (Hirudinea",
     "gold_text": "Insbesondere bei der Klasse der Egel (Hirudinea) ist molekulare Phylogenetik und DNA - Barcoding eine wichtige Vertiefungsrichtung seiner Arbeit (z. B. Entdeckung / Beschreibung des \"Freiburger Bächle - Egels\" und des \"Golden Gate Egels\" von San Francisco).",
     "corrupted": "Insbesondere bei die Klasse der Egel (Hirudinea) ist molekulare Phylogenetik und DNA - Barcoding eine wichtige Vertiefungsrichtung seiner Arbeit (z. B. Entdeckung / Beschreibung des \"Freiburger Bächle - Egels\" und des \"Golden Gate Egels\" von San Francisco).",
+    "dative_type": "dative_prep_bei"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11170",
+    "group_start": 12,
+    "group_end": 16,
+    "group_span_text": "dem Best 10K",
+    "gold_text": "Ihren bislang größten Erfolg im Straßenlauf erzielte sie Anfang 2009 beim World 's Best 10K, wo sie in 31:12 min die Siegesserie von Lornah Kiplagat beendete.",
+    "corrupted": "Ihren bislang größten Erfolg im Straßenlauf erzielte sie Anfang 2009 bei den World's Best 10K, wo sie in 31:12 min die Siegesserie von Lornah Kiplagat beendete.",
     "dative_type": "dative_prep_bei"
   },
   {
@@ -3341,6 +3401,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s11831",
+    "group_start": 2,
+    "group_end": 6,
+    "group_span_text": "den bei Probsteizella versammelten Bauern",
+    "gold_text": "April 1525 den bei Probsteizella versammelten Bauern zur Teilnahme am Bauernkrieg aufgerufen haben.",
+    "corrupted": "April 1525 die bei Probsteizella versammelten Bauern zur Teilnahme am Bauernkrieg aufgerufen haben.",
+    "dative_type": "dative_prep_bei"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s11849",
     "group_start": 10,
     "group_end": 13,
@@ -3374,7 +3444,7 @@
     "sent_id": "train-s11951",
     "group_start": 6,
     "group_end": 14,
-    "group_span_text": "dem Finale der Fußball - Europameisterschaft 2004 an dem",
+    "group_span_text": "dem Finale der Fußball Europameisterschaft 2004 dem",
     "gold_text": "Im selben Jahr, beim Finale der Fußball - Europameisterschaft 2004 am 4.",
     "corrupted": "Im selben Jahr, bei das Finale der Fußball - Europameisterschaft 2004 ans 4.",
     "dative_type": "dative_prep_bei"
@@ -3911,6 +3981,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s13929",
+    "group_start": 8,
+    "group_end": 15,
+    "group_span_text": "einer in ihrem Haus in Malmö einberufenen Verhandlung",
+    "gold_text": "Doch Leonora Christina verteidigte ihren kranken Gemahl bei einer in ihrem Haus in Malmö einberufenen Verhandlung geschickt, wie zeitgenössische Dokumente belegen.",
+    "corrupted": "Doch Leonora Christina verteidigte ihren kranken Gemahl bei eine in ihrem Haus in Malmö einberufene Verhandlung geschickt, wie zeitgenössische Dokumente belegen.",
+    "dative_type": "dative_prep_bei"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s13931",
     "group_start": 5,
     "group_end": 9,
@@ -3964,7 +4044,7 @@
     "sent_id": "train-s14027",
     "group_start": 21,
     "group_end": 26,
-    "group_span_text": "dem 24 - Stunden - Rennen",
+    "group_span_text": "dem 24 Stunden Rennen",
     "gold_text": "Eines der zwei am Heckflügel modifizierten und von Jules unterstützten Fahrzeuge (936-003 von 1978) errang den Sieg beim 24 - Stunden - Rennen von Le Mans, wo Übergangsregeln galten.",
     "corrupted": "Eines der zwei am Heckflügel modifizierten und von Jules unterstützten Fahrzeuge ( 936-003 von 1978) errang den Sieg bei das 24 - Stunden - Rennen von Le Mans, wo Übergangsregeln galten.",
     "dative_type": "dative_prep_bei"
@@ -3986,7 +4066,7 @@
     "group_end": 8,
     "group_span_text": "dem in diesem Album dokumentierten Auftritt",
     "gold_text": "Davis kehrt bei dem in diesem Album dokumentierten Auftritt zu seinen musikalischen Wurzeln zurück, die zum Teil über vierzig Jahre zurückliegen und.",
-    "corrupted": "Davis kehrt bei das in dies Album dokumentierten Auftritt zu seinen musikalischen Wurzeln zurück, die zum Teil über vierzig Jahre zurückliegen und.",
+    "corrupted": "Davis kehrt bei das in diesem Album dokumentierten Auftritt zu seinen musikalischen Wurzeln zurück, die zum Teil über vierzig Jahre zurückliegen und.",
     "dative_type": "dative_prep_bei"
   },
   {
@@ -4184,7 +4264,7 @@
     "sent_id": "dev-s559",
     "group_start": 21,
     "group_end": 24,
-    "group_span_text": "jedem SPD - Parteitag",
+    "group_span_text": "jedem SPD Parteitag",
     "gold_text": "Die Genossinnen und Genossen, die Scharping anspricht, sind im Foyer der Halle anzutreffen, wo, wie bei jedem SPD-Parteitag, die Ausstellung ``Lebendiger Ortsverein'' aufgebaut ist.",
     "corrupted": "Die Genossinnen und Genossen, die Scharping anspricht, sind im Foyer der Halle anzutreffen, wo, wie bei jeden SPD-Parteitag, die Ausstellung ``Lebendiger Ortsverein'' aufgebaut ist.",
     "dative_type": "dative_prep_bei"
@@ -4364,7 +4444,7 @@
     "sent_id": "test-s321",
     "group_start": 26,
     "group_end": 30,
-    "group_span_text": "38 ( 27) Millionen",
+    "group_span_text": "38 Millionen",
     "gold_text": "Die ``sehr unbefriedigende'' Schadensentwicklung auch beim Haftpflicht- und Transportschutz hatte schon 1991 die versicherungstechnische Rechnung der Schaden- und Unfallzweige mit minus 38 (27) Millionen Mark tiefer in die rote Zone gedrückt.",
     "corrupted": "Die `` sehr unbefriedigende '' Schadensentwicklung auch beim Haftpflicht - und Transportschutz hatte schon 1991 die versicherungstechnische Rechnung der Schaden - und Unfallzweige mit minus 38 ( 27) Millionen Mark tiefer in die rote Zone gedrückt.",
     "dative_type": "dative_prep_bei"

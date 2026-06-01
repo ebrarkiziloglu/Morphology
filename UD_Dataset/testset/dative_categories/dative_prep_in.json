@@ -254,7 +254,7 @@
     "sent_id": "train-s265",
     "group_start": 8,
     "group_end": 10,
-    "group_span_text": "erbärmlicher \" Verfassung",
+    "group_span_text": "erbärmlicher \"Verfassung",
     "gold_text": "Gekaufter Strauß war schon nach zwei Tagen in erbärmlicher \"Verfassung\".",
     "corrupted": "Gekaufter Strauß war schon nach zwei Tagen in erbärmliche \"Verfassung\".",
     "dative_type": "dative_prep_in"
@@ -466,7 +466,7 @@
     "group_end": 6,
     "group_span_text": "beiden Zimmern",
     "gold_text": "Der Fernseher hatte leider in beiden Zimmern ein schlechtes Bild.",
-    "corrupted": "Der Fernseher hatte leider in beiden Zimmer ein schlechtes Bild.",
+    "corrupted": "Der Fernseher hatte leider in beide Zimmer ein schlechtes Bild.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -577,16 +577,6 @@
     "group_span_text": "dieser Zeit",
     "gold_text": "In dieser Zeit hat sich das Unternehmen als zuverlässiger Partner herausgestellt.",
     "corrupted": "In diese Zeit hat sich das Unternehmen als zuverlässiger Partner herausgestellt.",
-    "dative_type": "dative_prep_in"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s752",
-    "group_start": 1,
-    "group_end": 3,
-    "group_span_text": "dem Laden findet",
-    "gold_text": "Im Laden findet man eine sehr große Auswahl von Fahrrädern aller Preisklassen.",
-    "corrupted": "In den Laden findet man eine sehr große Auswahl von Fahrrädern aller Preisklassen.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -771,16 +761,6 @@
   },
   {
     "split": "train",
-    "sent_id": "train-s994",
-    "group_start": 1,
-    "group_end": 8,
-    "group_span_text": "dem besten rein in das Auto und ab",
-    "gold_text": "Am besten rein ins Auto und ab in den Urlaub.",
-    "corrupted": "Ans gutes rein ins Auto und ab in den Urlaub.",
-    "dative_type": "dative_prep_in"
-  },
-  {
-    "split": "train",
     "sent_id": "train-s1008",
     "group_start": 17,
     "group_end": 18,
@@ -906,7 +886,7 @@
     "group_end": 6,
     "group_span_text": "den nächsten Tagen",
     "gold_text": "Wir haben uns in den nächsten Tagen noch ein paar mal massieren lassen und uns jedes Mal hinterher wie neu geboren gefühlt!",
-    "corrupted": "Wir haben uns in die näheren Tage noch ein paar mal massieren lassen und uns jedes Mal hinterher wie neu geboren gefühlt!",
+    "corrupted": "Wir haben uns in die nächsten Tage noch ein paar mal massieren lassen und uns jedes Mal hinterher wie neu geboren gefühlt!",
     "dative_type": "dative_prep_in"
   },
   {
@@ -1036,7 +1016,7 @@
     "group_end": 17,
     "group_span_text": "den nächsten Wochen",
     "gold_text": "Für so wenig Rückgrad gebe ich noch einen Stern weniger, aber der verschwindet in den nächsten Wochen sicher auch wieder von selbst.",
-    "corrupted": "Für so wenig Rückgrad gebe ich noch einen Stern weniger, aber der verschwindet in die nähere Wochen sicher auch wieder von selbst.",
+    "corrupted": "Für so wenig Rückgrad gebe ich noch einen Stern weniger, aber der verschwindet in die nächsten Wochen sicher auch wieder von selbst.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -1214,7 +1194,7 @@
     "sent_id": "train-s1501",
     "group_start": 10,
     "group_end": 16,
-    "group_span_text": "einer starken Nachfrage sowohl in dem Passagier",
+    "group_span_text": "einer starken Nachfrage dem Passagier",
     "gold_text": "Firmenchef Sir Colin Marshall zufolge erfreut sich British Airways weiterhin einer starken Nachfrage sowohl im Passagier- als auch im Frachtverkehr.",
     "corrupted": "Firmenchef Sir Colin Marshall zufolge erfreut sich British Airways weiterhin eine starke Nachfrage sowohl in den Passagier- als auch im Frachtverkehr.",
     "dative_type": "dative_prep_in"
@@ -1386,7 +1366,7 @@
     "group_end": 4,
     "group_span_text": "den neuen Bundesländern",
     "gold_text": "``In den neuen Bundesländern reduziert sich der bisherige Preisvorteil -- wie angekündigt -- gegenüber Westdeutschland auf 10 Prozent'', heißt es in der offiziellen Mitteilung.",
-    "corrupted": "``In die neuen Bundesländer reduziert sich der bisherige Preisvorteil -- wie angekündigt -- gegenüber Westdeutschland auf 10 Prozent'', heißt es in der offiziellen Mitteilung.",
+    "corrupted": "``In die neue Bundesländer reduziert sich der bisherige Preisvorteil -- wie angekündigt -- gegenüber Westdeutschland auf 10 Prozent'', heißt es in der offiziellen Mitteilung.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -1732,11 +1712,11 @@
   {
     "split": "train",
     "sent_id": "train-s1798",
-    "group_start": 20,
-    "group_end": 24,
-    "group_span_text": "findet in dem Ausland statt",
+    "group_start": 23,
+    "group_end": 23,
+    "group_span_text": "Ausland",
     "gold_text": "``Die Region wird damit zum Entwicklungsland, die Bodenschätze vor Ort geschürft, die Veredlung und Wertschöpfung jedoch findet im Ausland statt'', ärgert sich der Abgeordnete Meyer.",
-    "corrupted": "`` Die Region wird damit zum Entwicklungsland, die Bodenschätze vor Ort geschürft, die Veredlung und Wertschöpfung jedoch findet ins Ausland statt '', ärgert sich der Abgeordnete Meyer.",
+    "corrupted": "`` Die Region wird damit zum Entwicklungsland, die Bodenschätze vor Ort geschürft, die Veredlung und Wertschöpfung jedoch findet im Ausland statt '', ärgert sich der Abgeordnete Meyer.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -2154,7 +2134,7 @@
     "sent_id": "train-s2029",
     "group_start": 13,
     "group_end": 18,
-    "group_span_text": "dem Zug der Zeit -- Zügig",
+    "group_span_text": "dem Zug der Zeit Zügig",
     "gold_text": "Gemeinsam mit der Deutschen Bahn wurde ein Ferienzugkonzept mit dem Titel'' im Zug der Zeit -- Zügig in den Schwarzwald ``geschaffen.",
     "corrupted": "Gemeinsam mit der Deutschen Bahn wurde ein Ferienzugkonzept mit dem Titel'' in den Zug der Zeit -- Zügig in den Schwarzwald ``geschaffen.",
     "dative_type": "dative_prep_in"
@@ -2234,7 +2214,7 @@
     "sent_id": "train-s2051",
     "group_start": 34,
     "group_end": 36,
-    "group_span_text": "ihrem '' Land",
+    "group_span_text": "ihrem'' Land",
     "gold_text": "5. Es muß mit der Illusion aufgeräumt werden, unter den multinationalen Konzernen gäbe es noch ``nationale'' Unternehmen, die in besonderer Weise den Arbeitnehmern, Steuerzahlern oder sonst irgendwem in ``ihrem'' Land verpflichtet wären.",
     "corrupted": "5. Es muß mit der Illusion aufgeräumt werden, unter den multinationalen Konzernen gäbe es noch ``nationale'' Unternehmen, die in besonderer Weise den Arbeitnehmern, Steuerzahlern oder sonst irgendwem in ``ihr'' Land verpflichtet wären.",
     "dative_type": "dative_prep_in"
@@ -2514,7 +2494,7 @@
     "sent_id": "train-s2212",
     "group_start": 7,
     "group_end": 12,
-    "group_span_text": "dem französischen Département Haute - Savoie",
+    "group_span_text": "dem französischen Département Haute Savoie",
     "gold_text": "Saint - Eusèbe ist eine Gemeinde im französischen Département Haute - Savoie in der Region Rhône - Alpes.",
     "corrupted": "Saint - Eusèbe ist eine Gemeinde ins französische Département Haute - Savoie in der Region Rhône - Alpes.",
     "dative_type": "dative_prep_in"
@@ -2694,7 +2674,7 @@
     "sent_id": "train-s2281",
     "group_start": 2,
     "group_end": 8,
-    "group_span_text": "dem östlichen und nördlichen Bereich der Burganlage",
+    "group_span_text": "dem östlichen nördlichen Bereich der Burganlage",
     "gold_text": "Die im östlichen und nördlichen Bereich der Burganlage vorhandenen Wälle und Gräben sind von einem Gehölz bedeckt und so weitgehend vor Abtragung geschützt, aber unzugänglich.",
     "corrupted": "Die in den östlichen und nördlichen Bereich der Burganlage vorhandenen Wälle und Gräben sind von einem Gehölz bedeckt und so weitgehend vor Abtragung geschützt, aber unzugänglich.",
     "dative_type": "dative_prep_in"
@@ -3034,7 +3014,7 @@
     "sent_id": "train-s2441",
     "group_start": 14,
     "group_end": 17,
-    "group_span_text": "der Kategorie \" Fernsehserie",
+    "group_span_text": "der Kategorie \"Fernsehserie",
     "gold_text": "Sie gewann in den Jahren 1999 und 2000 den renommierten polnischen Fernsehpreis Telekamera in der Kategorie \"Fernsehserie\".",
     "corrupted": "Sie gewann in den Jahren 1999 und 2000 den renommierten polnischen Fernsehpreis Telekamera in die Kategorie \"Fernsehserie\".",
     "dative_type": "dative_prep_in"
@@ -3114,7 +3094,7 @@
     "sent_id": "train-s2468",
     "group_start": 3,
     "group_end": 7,
-    "group_span_text": "dem lokalen Dialekt: Scirne",
+    "group_span_text": "dem lokalen Dialekt Scirne",
     "gold_text": "Scerni (im lokalen Dialekt: Scirne) ist eine italienische Gemeinde (comune) mit Einwohnern (Stand) in der Provinz Chieti in den Abruzzen.",
     "corrupted": "Scerni (in den lokalen Dialekt: Scirne) ist eine italienische Gemeinde (comune) mit Einwohnern (Stand) in der Provinz Chieti in den Abruzzen.",
     "dative_type": "dative_prep_in"
@@ -3194,7 +3174,7 @@
     "sent_id": "train-s2487",
     "group_start": 8,
     "group_end": 14,
-    "group_span_text": "dem Bereich der künstlerischen Entwicklung ( Künstler",
+    "group_span_text": "dem Bereich der künstlerischen Entwicklung Künstler",
     "gold_text": "Die ebenfalls mögliche Bedeutung vom Coaching im Bereich der künstlerischen Entwicklung (Künstler, Kunstunterricht) wird hier nicht behandelt, sondern bei Impresario sowie Kunstagent.",
     "corrupted": "Die ebenfalls mögliche Bedeutung vom Coaching in den Bereich der künstlerischen Entwicklung (Künstler, Kunstunterricht) wird hier nicht behandelt, sondern bei Impresario sowie Kunstagent.",
     "dative_type": "dative_prep_in"
@@ -3214,7 +3194,7 @@
     "sent_id": "train-s2489",
     "group_start": 7,
     "group_end": 12,
-    "group_span_text": "dem Bereich der UNIX - Betriebssysteme",
+    "group_span_text": "dem Bereich der UNIX Betriebssysteme",
     "gold_text": "DEC selbst versuchte dann, auch im Bereich der UNIX - Betriebssysteme Fuß zu fassen, und vermarktete neben dem proprietären \"OpenVMS\" das eigene UNIX \"OSF / 1\" zunächst als \"Digital Unix\" und später als \"Tru64 UNIX\".",
     "corrupted": "DEC selbst versuchte dann, auch in den Bereich der UNIX - Betriebssysteme Fuß zu fassen, und vermarktete neben dem proprietären \"OpenVMS\" das eigene UNIX \"OSF / 1\" zunächst als \"Digital Unix\" und später als \"Tru64 UNIX\".",
     "dative_type": "dative_prep_in"
@@ -3294,7 +3274,7 @@
     "sent_id": "train-s2529",
     "group_start": 3,
     "group_end": 18,
-    "group_span_text": "dem Vale do Sinos, dem Tal des Rio dos Sinos, etwa 45 km nördlich",
+    "group_span_text": "dem Vale do Sinos dem Tal nördlich",
     "gold_text": "Sie liegt im Vale do Sinos, dem Tal des Rio dos Sinos, etwa 45 km nördlich von Porto Alegre an der Rota Romântica.",
     "corrupted": "Sie liegt ins Vale do Sinos, das Tal des Rio dos Sinos, etwa 45 km nördlich von Porto Alegre an der Rota Romântica.",
     "dative_type": "dative_prep_in"
@@ -3636,7 +3616,7 @@
     "group_end": 30,
     "group_span_text": "den nächsten Wochen",
     "gold_text": "Da Yes in London eine große Fangemeinde hatte, erreichte The Yes Album auf diese Weise von Beginn an eine hohe Chartplatzierung, was die landesweiten Verkäufe in den nächsten Wochen merklich steigerte.",
-    "corrupted": "Da Yes in London eine große Fangemeinde hatte, erreichte The Yes Album auf diese Weise von Beginn an eine hohe Chartplatzierung, was die landesweiten Verkäufe in die nähere Wochen merklich steigerte.",
+    "corrupted": "Da Yes in London eine große Fangemeinde hatte, erreichte The Yes Album auf diese Weise von Beginn an eine hohe Chartplatzierung, was die landesweiten Verkäufe in die nächsten Wochen merklich steigerte.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -3727,16 +3707,6 @@
     "group_span_text": "seinem Wahlkampf",
     "gold_text": "In seinem Wahlkampf sprach er sich für eine engere Zusammenarbeit mit Russland und die Anerkennung des Russischen als zweite Amtssprache aus.",
     "corrupted": "In seinen Wahlkampf sprach er sich für eine engere Zusammenarbeit mit Russland und die Anerkennung des Russischen als zweite Amtssprache aus.",
-    "dative_type": "dative_prep_in"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s2691",
-    "group_start": 4,
-    "group_end": 8,
-    "group_span_text": "haben ihren Ursprung in dem",
-    "gold_text": "Die modernen evangelischen Posaunenchöre haben ihren Ursprung im.",
-    "corrupted": "Die modernen evangelischen Posaunenchöre haben ihren Ursprung in den.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -3844,7 +3814,7 @@
     "sent_id": "train-s2751",
     "group_start": 8,
     "group_end": 13,
-    "group_span_text": "der Kategorie \" Bester animierter Kurzfilm",
+    "group_span_text": "der Kategorie \"Bester animierter Kurzfilm",
     "gold_text": "Donalds Verbrechen wurde 1946 für einen Oscar in der Kategorie \"Bester animierter Kurzfilm\" nominiert, konnte sich jedoch nicht gegen Tom der Nachtwächter durchsetzen.",
     "corrupted": "Donalds Verbrechen wurde 1946 für einen Oscar in die Kategorie \"Bester animierter Kurzfilm\" nominiert, konnte sich jedoch nicht gegen Tom der Nachtwächter durchsetzen.",
     "dative_type": "dative_prep_in"
@@ -3854,7 +3824,7 @@
     "sent_id": "train-s2775",
     "group_start": 1,
     "group_end": 6,
-    "group_span_text": "dem Rahmen kultureller und wirtschaftlicher Austauschprogramme",
+    "group_span_text": "dem Rahmen kultureller wirtschaftlicher Austauschprogramme",
     "gold_text": "Im Rahmen kultureller und wirtschaftlicher Austauschprogramme zwischen der Bundesrepublik Deutschland und anderen Staaten organisierte Pielen landwirtschaftliche Studienreisen und veröffentlichte darüber Berichte.",
     "corrupted": "In den Rahmen kultureller und wirtschaftlicher Austauschprogramme zwischen der Bundesrepublik Deutschland und anderen Staaten organisierte Pielen landwirtschaftliche Studienreisen und veröffentlichte darüber Berichte.",
     "dative_type": "dative_prep_in"
@@ -4054,7 +4024,7 @@
     "sent_id": "train-s2875",
     "group_start": 5,
     "group_end": 10,
-    "group_span_text": "dem Besitz der Disconto - Gesellschaft",
+    "group_span_text": "dem Besitz der Disconto Gesellschaft",
     "gold_text": "Die Aktien selbst waren im Besitz der Disconto - Gesellschaft.",
     "corrupted": "Die Aktien selbst waren in den Besitz der Disconto - Gesellschaft.",
     "dative_type": "dative_prep_in"
@@ -4194,7 +4164,7 @@
     "sent_id": "train-s2938",
     "group_start": 1,
     "group_end": 12,
-    "group_span_text": "dem Gebäude des 1884 / 1885 errichteten ehemaligen Kronprinzessin Stephanie - Spitals",
+    "group_span_text": "dem Gebäude des errichteten ehemaligen Kronprinzessin Stephanie Spitals",
     "gold_text": "Im Gebäude des 1884 / 1885 errichteten ehemaligen Kronprinzessin Stephanie - Spitals in Neulerchenfeld befindet sich eine Musikschule der Stadt Wien.",
     "corrupted": "Ins Gebäude des 1884 / 1885 errichteten ehemaligen Kronprinzessin Stephanie - Spitals in Neulerchenfeld befindet sich eine Musikschule der Stadt Wien.",
     "dative_type": "dative_prep_in"
@@ -4406,15 +4376,15 @@
     "group_end": 23,
     "group_span_text": "den unterschiedlichen Regionen der Slowakei",
     "gold_text": "Ein weiteres bekanntes Gericht sind \"Sauerkrautnocken\" (strapačky oder kapustové halušky), von denen es in den unterschiedlichen Regionen der Slowakei etliche Varianten gibt.",
-    "corrupted": "Ein weiteres bekanntes Gericht sind \"Sauerkrautnocken\" (strapačky oder kapustové halušky), von denen es in die unterschiedlichen Regionen der Slowakei etliche Varianten gibt.",
+    "corrupted": "Ein weiteres bekanntes Gericht sind \"Sauerkrautnocken\" (strapačky oder kapustové halušky), von denen es in die unterschiedliche Regionen der Slowakei etliche Varianten gibt.",
     "dative_type": "dative_prep_in"
   },
   {
     "split": "train",
     "sent_id": "train-s3024",
     "group_start": 4,
-    "group_end": 15,
-    "group_span_text": "dem vierten Teil der Terminator - Filmreihe, Terminator: Die Erlösung",
+    "group_end": 12,
+    "group_span_text": "dem vierten Teil Terminator",
     "gold_text": "2009 war sie im vierten Teil der Terminator - Filmreihe, Terminator: Die Erlösung, in der Rolle der Kate Connor zu sehen.",
     "corrupted": "2009 war sie in den vierten Teil der Terminator - Filmreihe, Terminator: Die Erlösung, in der Rolle der Kate Connor zu sehen.",
     "dative_type": "dative_prep_in"
@@ -4954,7 +4924,7 @@
     "sent_id": "train-s3210",
     "group_start": 6,
     "group_end": 11,
-    "group_span_text": "dem sauren bis stark sauren Bereich",
+    "group_span_text": "dem sauren Bereich",
     "gold_text": "Der pH - Wert sollte im sauren bis stark sauren Bereich liegen.",
     "corrupted": "Der pH - Wert sollte in den sauren bis stark sauren Bereich liegen.",
     "dative_type": "dative_prep_in"
@@ -5044,7 +5014,7 @@
     "sent_id": "train-s3266",
     "group_start": 19,
     "group_end": 24,
-    "group_span_text": "der Familie der Storchschnabelgewächse ( Geraniaceae",
+    "group_span_text": "der Familie der Storchschnabelgewächse (Geraniaceae",
     "gold_text": "Der Graue Storchschnabel (Geranium cinereum) ist eine Pflanzenart aus der Gattung der Storchschnäbel (Geranium) in der Familie der Storchschnabelgewächse (Geraniaceae).",
     "corrupted": "Der Graue Storchschnabel (Geranium cinereum) ist eine Pflanzenart aus der Gattung der Storchschnäbel (Geranium) in die Familie der Storchschnabelgewächse (Geraniaceae).",
     "dative_type": "dative_prep_in"
@@ -5134,7 +5104,7 @@
     "sent_id": "train-s3296",
     "group_start": 3,
     "group_end": 12,
-    "group_span_text": "dem Film -- wie dann auch in dem realen Leben",
+    "group_span_text": "dem Film dem realen Leben",
     "gold_text": "Beispielsweise wird im Film -- wie dann auch im realen Leben -- über ein privates Unglück das der Öffentlichkeit vergessen.",
     "corrupted": "Beispielsweise wird in den Film -- wie dann auch ins reales Leben -- über ein privates Unglück das der Öffentlichkeit vergessen.",
     "dative_type": "dative_prep_in"
@@ -5294,7 +5264,7 @@
     "sent_id": "train-s3362",
     "group_start": 5,
     "group_end": 10,
-    "group_span_text": "der Familie der Fuchsschwanzgewächse ( Amaranthaceae",
+    "group_span_text": "der Familie der Fuchsschwanzgewächse (Amaranthaceae",
     "gold_text": "Anabasis ist eine Pflanzengattung in der Familie der Fuchsschwanzgewächse (Amaranthaceae).",
     "corrupted": "Anabasis ist eine Pflanzengattung in die Familie der Fuchsschwanzgewächse (Amaranthaceae).",
     "dative_type": "dative_prep_in"
@@ -5961,6 +5931,26 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s3696",
+    "group_start": 10,
+    "group_end": 11,
+    "group_span_text": "dem zweiten",
+    "gold_text": "Im ersten Theile glüht sie vor Freiheitssehnen, im zweiten vor Kunstempfinden, im dritten vor Brunst.",
+    "corrupted": "Im ersten Theile glüht sie vor Freiheitssehnen, in den zweiten vor Kunstempfinden, im dritten vor Brunst.",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3696",
+    "group_start": 16,
+    "group_end": 17,
+    "group_span_text": "dem dritten",
+    "gold_text": "Im ersten Theile glüht sie vor Freiheitssehnen, im zweiten vor Kunstempfinden, im dritten vor Brunst.",
+    "corrupted": "Im ersten Theile glüht sie vor Freiheitssehnen, im zweiten vor Kunstempfinden, in den dritten vor Brunst.",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s3698",
     "group_start": 3,
     "group_end": 4,
@@ -6134,7 +6124,7 @@
     "sent_id": "train-s3761",
     "group_start": 22,
     "group_end": 25,
-    "group_span_text": "der Nacht von dem",
+    "group_span_text": "der Nacht dem",
     "gold_text": "Befana (italienisch: von Epifania) ist die Benennung eines weiblichen Dämons oder einer Hexe des italienischen Volksglaubens, welche in der Nacht vom 5.",
     "corrupted": "Befana (italienisch: von Epifania) ist die Benennung eines weiblichen Dämons oder einer Hexe des italienischen Volksglaubens, welche in die Nacht von das 5.",
     "dative_type": "dative_prep_in"
@@ -6234,7 +6224,7 @@
     "sent_id": "train-s3811",
     "group_start": 14,
     "group_end": 22,
-    "group_span_text": "der Sierra de Gredos ( 700 bis 1300 Meter",
+    "group_span_text": "der Sierra de Gredos (700 bis 1300 Meter",
     "gold_text": "Die Unterart Pyrgus sidae occiduus (Verity, 1925) kommt in Spanien in der Sierra de Gredos (700 bis 1300 Meter), im Südosten Frankreichs, in den nordwestlichen Küstengebieten Italiens und in Kroatien auf der istrischen Halbinsel (100 bis 1400 Meter) vor.",
     "corrupted": "Die Unterart Pyrgus sidae occiduus (Verity, 1925) kommt in Spanien in die Sierra de Gredos (700 bis 1300 Meter), im Südosten Frankreichs, in den nordwestlichen Küstengebieten Italiens und in Kroatien auf der istrischen Halbinsel (100 bis 1400 Meter) vor.",
     "dative_type": "dative_prep_in"
@@ -6264,7 +6254,7 @@
     "sent_id": "train-s3815",
     "group_start": 12,
     "group_end": 15,
-    "group_span_text": "dem Arrondissement Le Raincy",
+    "group_span_text": "dem Arrondissement Raincy",
     "gold_text": "Der Kanton Tremblay - en - France ist eine französische Verwaltungseinheit im Arrondissement Le Raincy im Département Seine - Saint - Denis und in der Region Île - de - France;",
     "corrupted": "Der Kanton Tremblay - en - France ist eine französische Verwaltungseinheit in den Arrondissement Le Raincy im Département Seine - Saint - Denis und in der Region Île - de - France;",
     "dative_type": "dative_prep_in"
@@ -6274,7 +6264,7 @@
     "sent_id": "train-s3815",
     "group_start": 17,
     "group_end": 23,
-    "group_span_text": "dem Département Seine - Saint - Denis",
+    "group_span_text": "dem Département Seine Saint Denis",
     "gold_text": "Der Kanton Tremblay - en - France ist eine französische Verwaltungseinheit im Arrondissement Le Raincy im Département Seine - Saint - Denis und in der Region Île - de - France;",
     "corrupted": "Der Kanton Tremblay - en - France ist eine französische Verwaltungseinheit im Arrondissement Le Raincy ins Département Seine - Saint - Denis und in der Region Île - de - France;",
     "dative_type": "dative_prep_in"
@@ -6284,7 +6274,7 @@
     "sent_id": "train-s3815",
     "group_start": 26,
     "group_end": 32,
-    "group_span_text": "der Region Île - de - France",
+    "group_span_text": "der Region Île de France",
     "gold_text": "Der Kanton Tremblay - en - France ist eine französische Verwaltungseinheit im Arrondissement Le Raincy im Département Seine - Saint - Denis und in der Region Île - de - France;",
     "corrupted": "Der Kanton Tremblay - en - France ist eine französische Verwaltungseinheit im Arrondissement Le Raincy im Département Seine - Saint - Denis und in die Region Île - de - France;",
     "dative_type": "dative_prep_in"
@@ -6296,7 +6286,7 @@
     "group_end": 3,
     "group_span_text": "den folgenden Romanen",
     "gold_text": "In den folgenden Romanen nimmt Askildsen zumeist \"die Perspektive eines Ich-Erzählers ein, der in einem existenzialistisch angehauchten Monolog -- ganz in der Tradition von Albert Camus 'Der Fremde oder Jean - Paul Sartres Der Ekel -- lakonisch seinen Alltag Revue passieren lässt.\"",
-    "corrupted": "In die folgende Romane nimmt Askildsen zumeist \"die Perspektive eines Ich-Erzählers ein, der in einem existenzialistisch angehauchten Monolog -- ganz in der Tradition von Albert Camus 'Der Fremde oder Jean - Paul Sartres Der Ekel -- lakonisch seinen Alltag Revue passieren lässt.\"",
+    "corrupted": "In die folgenden Romane nimmt Askildsen zumeist \"die Perspektive eines Ich-Erzählers ein, der in einem existenzialistisch angehauchten Monolog -- ganz in der Tradition von Albert Camus 'Der Fremde oder Jean - Paul Sartres Der Ekel -- lakonisch seinen Alltag Revue passieren lässt.\"",
     "dative_type": "dative_prep_in"
   },
   {
@@ -6411,20 +6401,10 @@
   },
   {
     "split": "train",
-    "sent_id": "train-s3886",
-    "group_start": 4,
-    "group_end": 12,
-    "group_span_text": "begann in dem Jahr 1894, als an dem",
-    "gold_text": "Die Geschichte der Festspiele begann im Jahr 1894, als am 12.",
-    "corrupted": "Die Geschichte der Festspiele begann ins Jahr 1894, als ans 12.",
-    "dative_type": "dative_prep_in"
-  },
-  {
-    "split": "train",
     "sent_id": "train-s3893",
     "group_start": 12,
     "group_end": 18,
-    "group_span_text": "den NHL - Kader der Edmonton Oilers",
+    "group_span_text": "den NHL Kader der Edmonton Oilers",
     "gold_text": "Zur Saison 2010 / 11 gelang ihm der sofortige Sprung in den NHL - Kader der Edmonton Oilers und er debütierte am 7.",
     "corrupted": "Zur Saison 2010 / 11 gelang ihm der sofortige Sprung in die NHL - Kader der Edmonton Oilers und er debütierte am 7.",
     "dative_type": "dative_prep_in"
@@ -6432,9 +6412,9 @@
   {
     "split": "train",
     "sent_id": "train-s3893",
-    "group_start": 21,
+    "group_start": 23,
     "group_end": 23,
-    "group_span_text": "debütierte an dem",
+    "group_span_text": "dem",
     "gold_text": "Zur Saison 2010 / 11 gelang ihm der sofortige Sprung in den NHL - Kader der Edmonton Oilers und er debütierte am 7.",
     "corrupted": "Zur Saison 2010 / 11 gelang ihm der sofortige Sprung in den NHL - Kader der Edmonton Oilers und er debütierte ans 7.",
     "dative_type": "dative_prep_in"
@@ -6664,9 +6644,9 @@
     "sent_id": "train-s3977",
     "group_start": 5,
     "group_end": 11,
-    "group_span_text": "seiner in dem Jahr 1873 erfolgten Zulassung",
+    "group_span_text": "seiner erfolgten Zulassung",
     "gold_text": "Nach einem anschließenden Jurastudium und seiner im Jahr 1873 erfolgten Zulassung als Rechtsanwalt begann er in Terre Haute in seinem neuen Beruf zu arbeiten.",
-    "corrupted": "Nach einem anschließenden Jurastudium und seine ins Jahr 1873 erfolgte Zulassung als Rechtsanwalt begann er in Terre Haute in seinem neuen Beruf zu arbeiten.",
+    "corrupted": "Nach einem anschließenden Jurastudium und seine im Jahr 1873 erfolgte Zulassung als Rechtsanwalt begann er in Terre Haute in seinem neuen Beruf zu arbeiten.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -6694,7 +6674,7 @@
     "sent_id": "train-s3983",
     "group_start": 9,
     "group_end": 21,
-    "group_span_text": "dem Standing Committee for the Humanities der European Science Foundation' ( ESF",
+    "group_span_text": "dem Standing Committee for the Humanities der European Science Foundation ESF",
     "gold_text": "Seit Sommer 2002 ist er zudem österreichischer Vertreter im Standing Committee for the Humanities der European Science Foundation '(ESF) sowie Delegierter in der General Assembly der ESF.",
     "corrupted": "Seit Sommer 2002 ist er zudem österreichischer Vertreter in den Standing Committee for the Humanities der European Science Foundation '(ESF) sowie Delegierter in der General Assembly der ESF.",
     "dative_type": "dative_prep_in"
@@ -6716,7 +6696,7 @@
     "group_end": 3,
     "group_span_text": "den beiden Jahren",
     "gold_text": "In den beiden Jahren, in denen Bester von 1991 bis 1993 in Detroit unter Vertrag stand, stand er hauptsächlich für deren Farmteam aus der American Hockey League, die Adirondack Red Wings, auf dem Eis.",
-    "corrupted": "In die beiden Jahre, in denen Bester von 1991 bis 1993 in Detroit unter Vertrag stand, stand er hauptsächlich für deren Farmteam aus der American Hockey League, die Adirondack Red Wings, auf dem Eis.",
+    "corrupted": "In die beide Jahre, in denen Bester von 1991 bis 1993 in Detroit unter Vertrag stand, stand er hauptsächlich für deren Farmteam aus der American Hockey League, die Adirondack Red Wings, auf dem Eis.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -7394,7 +7374,7 @@
     "sent_id": "train-s4260",
     "group_start": 16,
     "group_end": 23,
-    "group_span_text": "dem südwestlichen Teil des Kantons Wallis ( Schweiz",
+    "group_span_text": "dem südwestlichen Teil des Kantons Wallis Schweiz",
     "gold_text": "Les Crosets ist ein Weiler und Feriendorf / Skistation in der Gemeinde Val - d'Illiez im südwestlichen Teil des Kantons Wallis (Schweiz).",
     "corrupted": "Les Crosets ist ein Weiler und Feriendorf / Skistation in der Gemeinde Val - d'Illiez in den südwestlichen Teil des Kantons Wallis (Schweiz).",
     "dative_type": "dative_prep_in"
@@ -7427,6 +7407,16 @@
     "group_span_text": "dem Februar",
     "gold_text": "Im Februar 2008 war der Wiederaufbau durch private Spender, und damit auch der Spielbetrieb für mindestens zehn Jahre gesichert.",
     "corrupted": "In den Februar 2008 war der Wiederaufbau durch private Spender, und damit auch der Spielbetrieb für mindestens zehn Jahre gesichert.",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4275",
+    "group_start": 1,
+    "group_end": 8,
+    "group_span_text": "dem orientierten nördlichen Teil der Gemeinde",
+    "gold_text": "Im nach Segringen orientierten nördlichen Teil der Gemeinde wurde vom Haus Oettingen die lutherische Konfession eingeführt, der südliche Ortsteil -- nach Stödtlen eingepfarrt -- blieb römisch - katholisch, weil zur Fürstpropstei Ellwangen gehörig.",
+    "corrupted": "In den nach Segringen e-commerce-orientierten nördlichen Teil der Gemeinde wurde vom Haus Oettingen die lutherische Konfession eingeführt, der südliche Ortsteil -- nach Stödtlen eingepfarrt -- blieb römisch - katholisch, weil zur Fürstpropstei Ellwangen gehörig.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -7706,7 +7696,7 @@
     "group_end": 10,
     "group_span_text": "acht Bänden",
     "gold_text": "Seit 2011 erscheinen die zweiten Auflagen des Gesamtwerkes in acht Bänden.",
-    "corrupted": "Seit 2011 erscheinen die zweiten Auflagen des Gesamtwerkes in acht Bands.",
+    "corrupted": "Seit 2011 erscheinen die zweiten Auflagen des Gesamtwerkes in acht Bänder.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -7964,7 +7954,7 @@
     "sent_id": "train-s4484",
     "group_start": 10,
     "group_end": 15,
-    "group_span_text": "der Familie der Nachtschattengewächse ( Solanaceae",
+    "group_span_text": "der Familie der Nachtschattengewächse Solanaceae",
     "gold_text": "Sie gehört zur Gattung Paprika (Capsicum) in der Familie der Nachtschattengewächse (Solanaceae).",
     "corrupted": "Sie gehört zur Gattung Paprika ( Capsicum) in die Familie der Nachtschattengewächse ( Solanaceae).",
     "dative_type": "dative_prep_in"
@@ -8204,7 +8194,7 @@
     "sent_id": "train-s4578",
     "group_start": 6,
     "group_end": 13,
-    "group_span_text": "dem Buch Collected Works / Gesammelte Werke Heisenbergs",
+    "group_span_text": "dem Buch Collected Works Heisenbergs",
     "gold_text": "Ein großer Teil ist auch im Buch Collected Works / Gesammelte Werke Heisenbergs abgedruckt.",
     "corrupted": "Ein großer Teil ist auch ins Buch Collected Works / Gesammelte Werke Heisenbergs abgedruckt.",
     "dative_type": "dative_prep_in"
@@ -8554,7 +8544,7 @@
     "sent_id": "train-s4777",
     "group_start": 6,
     "group_end": 11,
-    "group_span_text": "der Gattung der Opuntien ( Opuntia",
+    "group_span_text": "der Gattung der Opuntien (Opuntia",
     "gold_text": "Opuntia bisetosa ist eine Pflanzenart in der Gattung der Opuntien (Opuntia) aus der Familie der Kakteengewächse (Cactaceae).",
     "corrupted": "Opuntia bisetosa ist eine Pflanzenart in die Gattung der Opuntien (Opuntia) aus der Familie der Kakteengewächse (Cactaceae).",
     "dative_type": "dative_prep_in"
@@ -8847,6 +8837,16 @@
     "group_span_text": "den folgenden Jahren",
     "gold_text": "Nach der Saison beendete er im Alter von 34 Jahren seine Spielerkarriere, war jedoch in den folgenden Jahren noch für verschiedene Amateurvereine aktiv.",
     "corrupted": "Nach der Saison beendete er im Alter von 34 Jahren seine Spielerkarriere, war jedoch in die folgenden Jahre noch für verschiedene Amateurvereine aktiv.",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4903",
+    "group_start": 7,
+    "group_end": 25,
+    "group_span_text": "der Bestimmung des Sammellagers für Ausländer in Zirndorf (Krs. Fürth) (1955) des Bundesministerium des Innern",
+    "gold_text": "Die Bezeichnung als Gendarmerie - Kaserne in der Bestimmung des Sammellagers für Ausländer in Zirndorf (Krs. Fürth) (1955) des Bundesministerium des Innern.",
+    "corrupted": "Die Bezeichnung als Gendarmerie - Kaserne in die Bestimmung des Sammellagers für Ausländer in Zirndorf (Krs. Fürth) (1955) des Bundesministerium des Innern.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -9554,7 +9554,7 @@
     "sent_id": "train-s5272",
     "group_start": 14,
     "group_end": 18,
-    "group_span_text": "dem professionellen GT - Modus",
+    "group_span_text": "dem professionellen GT Modus",
     "gold_text": "Im Arcade - Modus gehört es zur Gattung der Rennspiele, im professionellen GT - Modus ist es eine Rennsimulation.",
     "corrupted": "Im Arcade - Modus gehört es zur Gattung der Rennspiele, in den professionellen GT - Modus ist es eine Rennsimulation.",
     "dative_type": "dative_prep_in"
@@ -9644,7 +9644,7 @@
     "sent_id": "train-s5298",
     "group_start": 7,
     "group_end": 11,
-    "group_span_text": "dem deutschen Wort \" Atem",
+    "group_span_text": "dem deutschen Wort Atem",
     "gold_text": "Die indogermanische Sprachwurzel von Atman ist im deutschen Wort \"Atem\" wiedererkennbar (von ēt - men, siehe auch altenglisch æthm).",
     "corrupted": "Die indogermanische Sprachwurzel von Atman ist ins deutsche Wort \"Atem\" wiedererkennbar (von ēt - men, siehe auch altenglisch æthm).",
     "dative_type": "dative_prep_in"
@@ -9854,7 +9854,7 @@
     "sent_id": "train-s5384",
     "group_start": 6,
     "group_end": 14,
-    "group_span_text": "der neu in das Leben gerufenen A - League",
+    "group_span_text": "der gerufenen A League",
     "gold_text": "Ab 2004 kümmerte er sich in der neu ins Leben gerufenen A - League um den Sydney FC, mit dem er im März 2006 den australischen Meistertitel gewann.",
     "corrupted": "Ab 2004 kümmerte er sich in die neu ins Leben gerufenen A - League um den Sydney FC, mit dem er im März 2006 den australischen Meistertitel gewann.",
     "dative_type": "dative_prep_in"
@@ -9907,6 +9907,16 @@
     "group_span_text": "der Regel",
     "gold_text": "Klassische Theaterstücke stehen in der Regel nur einmal jährlich auf dem Programm.",
     "corrupted": "Klassische Theaterstücke stehen in die Regel nur einmal jährlich auf dem Programm.",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5407",
+    "group_start": 4,
+    "group_end": 9,
+    "group_span_text": "einigen Ländern (z. B. Deutschland",
+    "gold_text": "Dieser Anwendungsfall unterliegt in einigen Ländern (z. B. Deutschland) gesetzlichen Regelungen.",
+    "corrupted": "Dieser Anwendungsfall unterliegt in einige Länder (z. B. Deutschland) gesetzlichen Regelungen.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -10014,9 +10024,9 @@
     "sent_id": "train-s5467",
     "group_start": 7,
     "group_end": 13,
-    "group_span_text": "der Bedeutung \" seiner Arbeit nicht nachgehen",
+    "group_span_text": "der Bedeutung \"seiner Arbeit nicht nachgehen",
     "gold_text": "Die Herkunft der Redewendung blau machen in der Bedeutung \"seiner Arbeit nicht nachgehen, der Arbeit oder Schule ohne triftigen Grund fernbleiben\" ist nicht gesichert, es existieren dazu unterschiedliche Hypothesen:",
-    "corrupted": "Die Herkunft der Redewendung blau machen in die Bedeutung \"seine Arbeit nicht nachgehen, der Arbeit oder Schule ohne triftigen Grund fernbleiben\" ist nicht gesichert, es existieren dazu unterschiedliche Hypothesen:",
+    "corrupted": "Die Herkunft der Redewendung blau machen in die Bedeutung \"seiner Arbeit nicht nachgehen, der Arbeit oder Schule ohne triftigen Grund fernbleiben\" ist nicht gesichert, es existieren dazu unterschiedliche Hypothesen:",
     "dative_type": "dative_prep_in"
   },
   {
@@ -10154,7 +10164,7 @@
     "sent_id": "train-s5512",
     "group_start": 11,
     "group_end": 14,
-    "group_span_text": "dem US - Repräsentantenhaus",
+    "group_span_text": "dem US Repräsentantenhaus",
     "gold_text": "Zwischen 1811 und 1813 vertrat er den Bundesstaat New Hampshire im US - Repräsentantenhaus.",
     "corrupted": "Zwischen 1811 und 1813 vertrat er den Bundesstaat New Hampshire in den US - Repräsentantenhaus.",
     "dative_type": "dative_prep_in"
@@ -10354,7 +10364,7 @@
     "sent_id": "train-s5676",
     "group_start": 3,
     "group_end": 12,
-    "group_span_text": "dem Tal des Radreng Rongchu ( rwa sgreng rong chu",
+    "group_span_text": "dem Tal des Radreng Rongchu rwa sgreng rong chu",
     "gold_text": "Es liegt im Tal des Radreng Rongchu (rwa sgreng rong chu) nördlich der Stadt Lhasa im Kreis Lhünzhub im Autonomen Gebiet Tibet der Volksrepublik China.",
     "corrupted": "Es liegt ins Tal des Radreng Rongchu (rwa sgreng rong chu) nördlich der Stadt Lhasa im Kreis Lhünzhub im Autonomen Gebiet Tibet der Volksrepublik China.",
     "dative_type": "dative_prep_in"
@@ -10624,7 +10634,7 @@
     "sent_id": "train-s5802",
     "group_start": 8,
     "group_end": 13,
-    "group_span_text": "dem Ausruf \" ni hagna ha",
+    "group_span_text": "dem Ausruf \"ni hagna ha",
     "gold_text": "Der Name der Gemeinde soll seinen Ursprung in dem Ausruf \"ni hagna ha\" haben.",
     "corrupted": "Der Name der Gemeinde soll seinen Ursprung in den Ausruf \"ni hagna ha\" haben.",
     "dative_type": "dative_prep_in"
@@ -10664,7 +10674,7 @@
     "sent_id": "train-s5832",
     "group_start": 4,
     "group_end": 9,
-    "group_span_text": "dem Besitz eines Edlen namens Diemar",
+    "group_span_text": "dem Besitz eines Edlen Diemar",
     "gold_text": "Damals war sie im Besitz eines Edlen namens Diemar, der im Investiturstreit auf der Seite der Kaisergegner stand.",
     "corrupted": "Damals war sie in den Besitz eines Edlen namens Diemar, der im Investiturstreit auf der Seite der Kaisergegner stand.",
     "dative_type": "dative_prep_in"
@@ -10754,7 +10764,7 @@
     "sent_id": "train-s5873",
     "group_start": 10,
     "group_end": 13,
-    "group_span_text": "dem US - Repräsentantenhaus",
+    "group_span_text": "dem US Repräsentantenhaus",
     "gold_text": "Zwischen 1826 und 1827 vertrat er den Bundesstaat Kentucky im US - Repräsentantenhaus.",
     "corrupted": "Zwischen 1826 und 1827 vertrat er den Bundesstaat Kentucky ins US - Repräsentantenhaus.",
     "dative_type": "dative_prep_in"
@@ -11014,7 +11024,7 @@
     "sent_id": "train-s5977",
     "group_start": 6,
     "group_end": 10,
-    "group_span_text": "dem Distrikt Val - de",
+    "group_span_text": "dem Distrikt Val de",
     "gold_text": "Valangin ist eine politische Gemeinde im Distrikt Val - de - Ruz des Kantons Neuenburg in der Schweiz.",
     "corrupted": "Valangin ist eine politische Gemeinde in den Distrikt Val - de - Ruz des Kantons Neuenburg in der Schweiz.",
     "dative_type": "dative_prep_in"
@@ -11044,7 +11054,7 @@
     "sent_id": "train-s5984",
     "group_start": 5,
     "group_end": 7,
-    "group_span_text": "Mitglied in dem",
+    "group_span_text": "Mitglied dem",
     "gold_text": "Die Stiftung ist hier auch Mitglied im MedienCampus Bayern, dem Dachverband für die Medienaus-und-weiterbildung in Bayern.",
     "corrupted": "Die Stiftung ist hier auch Mitglied in den MedienCampus Bayern, dem Dachverband für die Medienaus-und-weiterbildung in Bayern.",
     "dative_type": "dative_prep_in"
@@ -11114,7 +11124,7 @@
     "sent_id": "train-s6003",
     "group_start": 12,
     "group_end": 18,
-    "group_span_text": "dem Gebiet der Ohrspeicheldrüse ( Regio parotidea",
+    "group_span_text": "dem Gebiet der Ohrspeicheldrüse Regio parotidea",
     "gold_text": "Der Musculus sphincter colli profundus der Raubtiere liegt unter dem Platysma im Gebiet der Ohrspeicheldrüse (Regio parotidea).",
     "corrupted": "Der Musculus sphincter colli profundus der Raubtiere liegt unter dem Platysma ins Gebiet der Ohrspeicheldrüse (Regio parotidea).",
     "dative_type": "dative_prep_in"
@@ -11494,7 +11504,7 @@
     "sent_id": "train-s6228",
     "group_start": 14,
     "group_end": 18,
-    "group_span_text": "dem Bündnis \" Keine A14",
+    "group_span_text": "dem Bündnis Keine A14",
     "gold_text": "Seit dem Herbst 2004 sammeln sich die Gegner des Ausbaus der A 14 im Bündnis \"Keine A14\".",
     "corrupted": "Seit dem Herbst 2004 sammeln sich die Gegner des Ausbaus der A 14 ins Bündnis \"Kein A14\".",
     "dative_type": "dative_prep_in"
@@ -11594,7 +11604,7 @@
     "sent_id": "train-s6267",
     "group_start": 12,
     "group_end": 17,
-    "group_span_text": "dem Sinn einer \" bewohnbaren Stadtlandschaft",
+    "group_span_text": "dem Sinn einer bewohnbaren Stadtlandschaft",
     "gold_text": "Durch die Umgestaltung des Mehringplatzes nach den Plänen von Hans Scharoun im Sinn einer \"bewohnbaren Stadtlandschaft\" wurden der Mehringplatz und der Blücherplatz vom Verkehr der Durchgangsstraßen befreit und wesentlich verkehrsberuhigt.",
     "corrupted": "Durch die Umgestaltung des Mehringplatzes nach den Plänen von Hans Scharoun in den Sinn einer \"bewohnbaren Stadtlandschaft\" wurden der Mehringplatz und der Blücherplatz vom Verkehr der Durchgangsstraßen befreit und wesentlich verkehrsberuhigt.",
     "dative_type": "dative_prep_in"
@@ -11624,7 +11634,7 @@
     "sent_id": "train-s6274",
     "group_start": 10,
     "group_end": 13,
-    "group_span_text": "2 Mannschaften ( Parteien",
+    "group_span_text": "2 Mannschaften Parteien",
     "gold_text": "Beim Kugelschlagen werden die anwesenden Spieler per Los in 2 Mannschaften (Parteien) gewählt.",
     "corrupted": "Beim Kugelschlagen werden die anwesenden Spieler per Los in 2 Mannschaften ( Parteien) gewählt.",
     "dative_type": "dative_prep_in"
@@ -12084,9 +12094,9 @@
     "sent_id": "train-s6496",
     "group_start": 25,
     "group_end": 33,
-    "group_span_text": "den meisten Spielen in der Primera División ( 342",
+    "group_span_text": "den meisten Spielen in der Primera División (342",
     "gold_text": "Er ist der Spieler Valladolids mit den meisten Einsätzen in offiziellen Spielen (450), den meisten Liga-Spielen (417) und den meisten Spielen in der Primera División (342).",
-    "corrupted": "Er ist der Spieler Valladolids mit den meisten Einsätzen in offiziellen Spielen (450), den meisten Liga-Spielen (417) und die meisten Spiele in die Primera División (342).",
+    "corrupted": "Er ist der Spieler Valladolids mit den meisten Einsätzen in offiziellen Spielen (450), den meisten Liga-Spielen (417) und die meisten Spiele in der Primera División (342).",
     "dative_type": "dative_prep_in"
   },
   {
@@ -12544,7 +12554,7 @@
     "sent_id": "train-s6713",
     "group_start": 12,
     "group_end": 17,
-    "group_span_text": "dem Besitz der Humboldt - Universität",
+    "group_span_text": "dem Besitz der Humboldt Universität",
     "gold_text": "Sein Porträt von Karl Möbius aus dem Jahr 1895 befindet sich im Besitz der Humboldt - Universität in Berlin.",
     "corrupted": "Sein Porträt von Karl Möbius aus dem Jahr 1895 befindet sich in den Besitz der Humboldt - Universität in Berlin.",
     "dative_type": "dative_prep_in"
@@ -12584,7 +12594,7 @@
     "sent_id": "train-s6728",
     "group_start": 13,
     "group_end": 22,
-    "group_span_text": "dem Kreis der sechs metropolen Aids - Hilfen ( Berlin",
+    "group_span_text": "dem Kreis der sechs metropolen Aids Hilfen Berlin",
     "gold_text": "Sie ist eine der großen Aids - Hilfen in Deutschland, die im Kreis der sechs metropolen Aids - Hilfen (Berlin, Düsseldorf, Frankfurt am Main, Hamburg, Köln und München) vertreten ist.",
     "corrupted": "Sie ist eine der großen Aids - Hilfen in Deutschland, die in den Kreis der sechs metropolen Aids - Hilfen (Berlin, Düsseldorf, Frankfurt am Main, Hamburg, Köln und München) vertreten ist.",
     "dative_type": "dative_prep_in"
@@ -12594,7 +12604,7 @@
     "sent_id": "train-s6732",
     "group_start": 23,
     "group_end": 26,
-    "group_span_text": "dem EG - Vertrag",
+    "group_span_text": "dem EG Vertrag",
     "gold_text": "Bereits 1974 stellte der Europäische Gerichtshof (EuGH) im Fall Walrave und Koch fest, dass der Berufssport als wirtschaftliche Tätigkeit dem EG - Vertrag unterliegt.",
     "corrupted": "Bereits 1974 stellte der Europäische Gerichtshof (EuGH) im Fall Walrave und Koch fest, dass der Berufssport als wirtschaftliche Tätigkeit den EG - Vertrag unterliegt.",
     "dative_type": "dative_prep_in"
@@ -12653,8 +12663,8 @@
     "split": "train",
     "sent_id": "train-s6769",
     "group_start": 3,
-    "group_end": 8,
-    "group_span_text": "den Kategorien Bester Film ( Drama",
+    "group_end": 6,
+    "group_span_text": "den Kategorien Bester Film",
     "gold_text": "Er gewann in den Kategorien Bester Film (Drama), Bester Nebendarsteller (Stephen Boyd), Bester Regisseur und der Second Unit Regisseur Andrew Marton erhielt für seine Inszenierung des Wagenrennens einen Spezialpreis.",
     "corrupted": "Er gewann in die Kategorien Bester Film (Drama), Bester Nebendarsteller (Stephen Boyd), Bester Regisseur und der Second Unit Regisseur Andrew Marton erhielt für seine Inszenierung des Wagenrennens einen Spezialpreis.",
     "dative_type": "dative_prep_in"
@@ -12904,7 +12914,7 @@
     "sent_id": "train-s6865",
     "group_start": 1,
     "group_end": 8,
-    "group_span_text": "dem Februar 1937, während des Spanischen Bürgerkrieges",
+    "group_span_text": "dem Februar des Spanischen Bürgerkrieges",
     "gold_text": "Im Februar 1937, während des Spanischen Bürgerkrieges, beschoss die Admiral Graf Spee während der Schlacht von Malaga Malaga.. Mit Seestreitkräften Großbritanniens, Italiens und Frankreichs beteiligte sich die Admiral Graf Spee zudem an der internationalen Seeblockade zur Durchsetzung eines Waffenembargos gegen Spanien, wobei der Kriegsmarine ein Küstenbereich im Mittelmeer etwa zwischen Almería und Valencia zugewiesen war.",
     "corrupted": "In den Februar 1937, während des Spanischen Bürgerkrieges, beschoss die Admiral Graf Spee während der Schlacht von Malaga Malaga .. Mit Seestreitkräften Großbritanniens, Italiens und Frankreichs beteiligte sich die Admiral Graf Spee zudem an der internationalen Seeblockade zur Durchsetzung eines Waffenembargos gegen Spanien, wobei der Kriegsmarine ein Küstenbereich im Mittelmeer etwa zwischen Almería und Valencia zugewiesen war.",
     "dative_type": "dative_prep_in"
@@ -13024,7 +13034,7 @@
     "sent_id": "train-s6904",
     "group_start": 44,
     "group_end": 52,
-    "group_span_text": "dem Sinne einer einfacheren und schnelleren Wieder - Aktivierung",
+    "group_span_text": "dem Sinne einer einfacheren schnelleren Wieder Aktivierung",
     "gold_text": "Mit den Studien von Eric Kandel (um 1976) an der Meeresschnecke Aplysia, bei denen er feststellte, dass vermutlich kein zentrales Langzeitgedächtnis im Gehirn existiert, vielmehr die Veränderung an den Synapsen der beteiligten Nervenzellen einmal vollzogene Bewegungen unterstützen im Sinne einer einfacheren und schnelleren Wieder - Aktivierung, waren die Untersuchungen zu Verhalten und Bewegungen von der Ebene der neuralen Zentren zum Studium der einzelnen Nervenzellen und ihren molekularen Veränderungen übergegangen.",
     "corrupted": "Mit den Studien von Eric Kandel ( um 1976) an der Meeresschnecke Aplysia, bei denen er feststellte, dass vermutlich kein zentrales Langzeitgedächtnis im Gehirn existiert, vielmehr die Veränderung an den Synapsen der beteiligten Nervenzellen einmal vollzogene Bewegungen unterstützen in den Sinn einer einfacheren und schnelleren Wieder - Aktivierung, waren die Untersuchungen zu Verhalten und Bewegungen von der Ebene der neuralen Zentren zum Studium der einzelnen Nervenzellen und ihren molekularen Veränderungen übergegangen.",
     "dative_type": "dative_prep_in"
@@ -13514,7 +13524,7 @@
     "sent_id": "train-s7157",
     "group_start": 14,
     "group_end": 21,
-    "group_span_text": "dem Landkreis Mecklenburgische Seenplatte, Mecklenburg - Vorpommern",
+    "group_span_text": "dem Landkreis Mecklenburgische Seenplatte Mecklenburg Vorpommern",
     "gold_text": "Der Leppinsee ist ein südöstlich der Müritz in der Mecklenburgischen Seenplatte liegender See im Landkreis Mecklenburgische Seenplatte, Mecklenburg - Vorpommern.",
     "corrupted": "Der Leppinsee ist ein südöstlich der Müritz in der Mecklenburgischen Seenplatte liegender See in den Landkreis Mecklenburgische Seenplatte, Mecklenburg - Vorpommern.",
     "dative_type": "dative_prep_in"
@@ -13903,8 +13913,8 @@
     "split": "train",
     "sent_id": "train-s7363",
     "group_start": 9,
-    "group_end": 18,
-    "group_span_text": "dem Nordwesten des Campus', 859 Rue Sherbrooke Ouest",
+    "group_end": 16,
+    "group_span_text": "dem Nordwesten des Campus 859 Rue",
     "gold_text": "Es ist Teil der McGill University und liegt im Nordwesten des Campus ', 859 Rue Sherbrooke Ouest.",
     "corrupted": "Es ist Teil der McGill University und liegt in den Nordwesten des Campus ', 859 Rue Sherbrooke Ouest.",
     "dative_type": "dative_prep_in"
@@ -13984,7 +13994,7 @@
     "sent_id": "train-s7389",
     "group_start": 46,
     "group_end": 55,
-    "group_span_text": "dem Sinne des Law - und - Order - Gedankens",
+    "group_span_text": "dem Sinne Gedankens",
     "gold_text": "Gleichwohl verschaffte sich Hoover damals landesweite Bekanntheit, als der Mann, der den \"Staatsfeind Nummer 1\" verhaftet hatte, und sein Name galt fortan, bis zu seinem Tod 1972, als Synonym für hemdsärmelige, durchgreifende, \"aufräumende\" Polizeiarbeit im Sinne des Law-und-Order-Gedankens.",
     "corrupted": "Gleichwohl verschaffte sich Hoover damals landesweite Bekanntheit, als der Mann, der den \"Staatsfeind Nummer 1\" verhaftet hatte, und sein Name galt fortan, bis zu seinem Tod 1972, als Synonym für hemdsärmelige, durchgreifende, \"aufräumende\" Polizeiarbeit in den Sinn des Law-und-Order-Gedankens.",
     "dative_type": "dative_prep_in"
@@ -14034,7 +14044,7 @@
     "sent_id": "train-s7415",
     "group_start": 11,
     "group_end": 14,
-    "group_span_text": "dem heute gebräuchlichen Sinn",
+    "group_span_text": "dem gebräuchlichen Sinn",
     "gold_text": "Den Ausdruck Bar - Mizwa (Sohn der Pflicht) im heute gebräuchlichen Sinn findet man erstmals bei Mordechai ben Hillel, einem Rabbiner und liturgischen Dichter, der 1298 in Nürnberg während des Rintfleisch - Pogroms ermordet wurde.",
     "corrupted": "Den Ausdruck Bar - Mizwa (Sohn der Pflicht) in den heute gebräuchlichen Sinn findet man erstmals bei Mordechai ben Hillel, einem Rabbiner und liturgischen Dichter, der 1298 in Nürnberg während des Rintfleisch - Pogroms ermordet wurde.",
     "dative_type": "dative_prep_in"
@@ -14714,7 +14724,7 @@
     "sent_id": "train-s7780",
     "group_start": 15,
     "group_end": 22,
-    "group_span_text": "dem Osten des US - amerikanischen Bundesstaates Missouri",
+    "group_span_text": "dem Osten des US amerikanischen Bundesstaates Missouri",
     "gold_text": "Die Spanish Lake Township ist eine von 28 Townships im St. Louis County im Osten des US - amerikanischen Bundesstaates Missouri und Bestandteil der Metropolregion Greater St. Louis.",
     "corrupted": "Die Spanish Lake Township ist eine von 28 Townships im St. Louis County in den Osten des US - amerikanischen Bundesstaates Missouri und Bestandteil der Metropolregion Greater St. Louis.",
     "dative_type": "dative_prep_in"
@@ -14814,7 +14824,7 @@
     "sent_id": "train-s7831",
     "group_start": 21,
     "group_end": 25,
-    "group_span_text": "dem Département Côtes - d'Armor",
+    "group_span_text": "dem Département Côtes d'Armor",
     "gold_text": "Saint - Étienne - du - Gué - de - l'Isle ist eine französische Gemeinde mit Einwohnern (Stand) im Département Côtes - d'Armor in der Region Bretagne;",
     "corrupted": "Saint - Étienne - du - Gué - de - l'Isle ist eine französische Gemeinde mit Einwohnern (Stand) ins Département Côtes - d'Armor in der Region Bretagne;",
     "dative_type": "dative_prep_in"
@@ -14916,7 +14926,7 @@
     "group_end": 3,
     "group_span_text": "frühen Jahren",
     "gold_text": "Bereits in frühen Jahren entdeckte er seinen Hang zur Malerei und experimentierte mit sämtlichen verfügbaren Materialien und Zeichengrundlagen.",
-    "corrupted": "Bereits in früheren Jahre entdeckte er seinen Hang zur Malerei und experimentierte mit sämtlichen verfügbaren Materialien und Zeichengrundlagen.",
+    "corrupted": "Bereits in frühere Jahre entdeckte er seinen Hang zur Malerei und experimentierte mit sämtlichen verfügbaren Materialien und Zeichengrundlagen.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -14924,7 +14934,7 @@
     "sent_id": "train-s7883",
     "group_start": 28,
     "group_end": 31,
-    "group_span_text": "einer \" praktischen Ästhetik",
+    "group_span_text": "einer \"praktischen Ästhetik",
     "gold_text": "Der aus Deutschland emigrierte Architekt Gottfried Semper, der wie andere das Gros der Exponate der \"Great Exhibition\" für missraten hielt, fasste seine Eindrücke in einer \"praktischen Ästhetik\" zusammen, in der er eine \"neue Kunst\" proklamierte, die die Mechanisierung akzeptieren und auf \"reinen Formen\" beruhen müsse.",
     "corrupted": "Der aus Deutschland emigrierte Architekt Gottfried Semper, der wie andere das Gros der Exponate der \"Great Exhibition\" für missraten hielt, fasste seine Eindrücke in eine \"praktische Ästhetik\" zusammen, in der er eine \"neue Kunst\" proklamierte, die die Mechanisierung akzeptieren und auf \"reinen Formen\" beruhen müsse.",
     "dative_type": "dative_prep_in"
@@ -14964,7 +14974,7 @@
     "sent_id": "train-s7917",
     "group_start": 28,
     "group_end": 34,
-    "group_span_text": "der Form A - B - A",
+    "group_span_text": "der Form A B A",
     "gold_text": "Eine weitere Variante des Themas des ersten Satzes, diesmal nicht so verfremdet, leitet zum letzten, überraschenden Abschnitt der Sinfonie über: Einem Trauermarsch in der Form A - B - A.",
     "corrupted": "Eine weitere Variante des Themas des ersten Satzes, diesmal nicht so verfremdet, leitet zum letzten, überraschenden Abschnitt der Sinfonie über: Einem Trauermarsch in die Form A - B - A.",
     "dative_type": "dative_prep_in"
@@ -15726,7 +15736,7 @@
     "group_end": 40,
     "group_span_text": "anderen in der Filmindustrie tätige Persönlichkeiten",
     "gold_text": "Diese von ihm in Leben gerufene Sendung mit dem anfänglichen Titel Inside the Movies, später in The A - List umbenannt, beschäftigte sich mit der Filmindustrie und konnte zahlreiche Schauspieler, Drehbuchautoren und anderen in der Filmindustrie tätige Persönlichkeiten als Gäste begrüßen.",
-    "corrupted": "Diese von ihm in Leben gerufene Sendung mit dem anfänglichen Titel Inside the Movies, später in The A - List umbenannt, beschäftigte sich mit der Filmindustrie und konnte zahlreiche Schauspieler, Drehbuchautoren und andere in die Filmindustrie tätige Persönlichkeiten als Gäste begrüßen.",
+    "corrupted": "Diese von ihm in Leben gerufene Sendung mit dem anfänglichen Titel Inside the Movies, später in The A - List umbenannt, beschäftigte sich mit der Filmindustrie und konnte zahlreiche Schauspieler, Drehbuchautoren und andere in der Filmindustrie tätige Persönlichkeiten als Gäste begrüßen.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -15776,7 +15786,7 @@
     "group_end": 6,
     "group_span_text": "den ersten beiden Fällen",
     "gold_text": "Während er in den ersten beiden Fällen Stammspieler war, der in allen Begegnungen mitwirkte, kam er 1970 bei der WM im eigenen Land nicht mehr zum Einsatz.",
-    "corrupted": "Während er in die ersten beiden Fälle Stammspieler war, der in allen Begegnungen mitwirkte, kam er 1970 bei der WM im eigenen Land nicht mehr zum Einsatz.",
+    "corrupted": "Während er in die ersten beide Fälle Stammspieler war, der in allen Begegnungen mitwirkte, kam er 1970 bei der WM im eigenen Land nicht mehr zum Einsatz.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -16284,7 +16294,7 @@
     "sent_id": "train-s8563",
     "group_start": 33,
     "group_end": 36,
-    "group_span_text": "dem Stadtteil \" Bellamar",
+    "group_span_text": "dem Stadtteil Bellamar",
     "gold_text": "Eine Reihe dieser in Barcelona ansässigen deutschen Familien bewohnt in Castelldefels Sommerhäuser, vorzugsweise auf dem Hügel, der südlich der Burg über dem Ortskern liegt und sich Montemar nennt, sowie im Stadtteil \"Bellamar\".",
     "corrupted": "Eine Reihe dieser in Barcelona ansässigen deutschen Familien bewohnt in Castelldefels Sommerhäuser, vorzugsweise auf dem Hügel, der südlich der Burg über dem Ortskern liegt und sich Montemar nennt, sowie in den Stadtteil \"Bellamar\".",
     "dative_type": "dative_prep_in"
@@ -16444,7 +16454,7 @@
     "sent_id": "train-s8651",
     "group_start": 7,
     "group_end": 11,
-    "group_span_text": "dem deutschen Wort \" Atem",
+    "group_span_text": "dem deutschen Wort Atem",
     "gold_text": "Die indogermanische Sprachwurzel von Atman ist im deutschen Wort \"Atem\" wiedererkennbar (von et - men, siehe auch altenglisch æthm).",
     "corrupted": "Die indogermanische Sprachwurzel von Atman ist ins deutsche Wort \"Atem\" wiedererkennbar (von et - men, siehe auch altenglisch æthm).",
     "dative_type": "dative_prep_in"
@@ -16521,10 +16531,20 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s8694",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "musikalischen Traditionen",
+    "gold_text": "Vocal Percussion kommt in musikalischen Traditionen weltweit vor.",
+    "corrupted": "Vocal Percussion kommt in musikalische Traditionen weltweit vor.",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s8703",
     "group_start": 4,
     "group_end": 9,
-    "group_span_text": "dem Rahmen des Polaris - Projektes",
+    "group_span_text": "dem Rahmen des Polaris Projektes",
     "gold_text": "Sie wurde 1958 im Rahmen des Polaris - Projektes entwickelt.",
     "corrupted": "Sie wurde 1958 in den Rahmen des Polaris - Projektes entwickelt.",
     "dative_type": "dative_prep_in"
@@ -16714,7 +16734,7 @@
     "sent_id": "train-s8826",
     "group_start": 9,
     "group_end": 12,
-    "group_span_text": "dem Hip - Hop",
+    "group_span_text": "dem Hip Hop",
     "gold_text": "Er zählt zu den stilprägenden Figuren der Anfangszeiten im Hip - Hop, welches jedoch nicht das einzige Genre ist, in dem er sich musikalisch betätigt.",
     "corrupted": "Er zählt zu den stilprägenden Figuren der Anfangszeiten in den Hip - Hop, welches jedoch nicht das einzige Genre ist, in dem er sich musikalisch betätigt.",
     "dative_type": "dative_prep_in"
@@ -16904,7 +16924,7 @@
     "sent_id": "train-s8903",
     "group_start": 4,
     "group_end": 7,
-    "group_span_text": "dem UEFA - Pokal",
+    "group_span_text": "dem UEFA Pokal",
     "gold_text": "NK Osijek verlor im UEFA - Pokal in der Vorrunde zweimal gegen Slovan Bratislava.",
     "corrupted": "NK Osijek verlor ins UEFA - Pokal in der Vorrunde zweimal gegen Slovan Bratislava.",
     "dative_type": "dative_prep_in"
@@ -16912,9 +16932,9 @@
   {
     "split": "train",
     "sent_id": "train-s8907",
-    "group_start": 44,
+    "group_start": 47,
     "group_end": 47,
-    "group_span_text": "wo er an dem",
+    "group_span_text": "dem",
     "gold_text": "Er besuchte die Schule in Schwerin, Stade und Arnstadt und studierte ab 1666 Pharmazie und Medizin an den Universitäten Erfurt, Jena und -- nach einer durch eine Verletzung seines Vaters bedingten Unterbrechung -- ab 1670 in Kiel und 1671 in Leiden, wo er am 9.",
     "corrupted": "Er besuchte die Schule in Schwerin, Stade und Arnstadt und studierte ab 1666 Pharmazie und Medizin an den Universitäten Erfurt, Jena und -- nach einer durch eine Verletzung seines Vaters bedingten Unterbrechung -- ab 1670 in Kiel und 1671 in Leiden, wo er ans 9.",
     "dative_type": "dative_prep_in"
@@ -18141,16 +18161,6 @@
   },
   {
     "split": "train",
-    "sent_id": "train-s9494",
-    "group_start": 20,
-    "group_end": 26,
-    "group_span_text": "der Halle Kakhwang - jŏn ( Gakhwangjeon",
-    "gold_text": "Die Haupthalle Taeungbo - jŏn zählt neben der gleichnamigen Halle im Tempel Pŏpchu - sa (Beopjusa) und der Halle Kakhwang - jŏn (Gakhwangjeon) im Tempel Hwaŏm - sa (Hwaeomsa) (beide in Südkorea) zu den größten Tempelhallen Koreas.",
-    "corrupted": "Die Haupthalle Taeungbo - jŏn zählt neben der gleichnamigen Halle im Tempel Pŏpchu - sa (Beopjusa) und die Halle Kakhwang - jŏn (Gakhwangjeon) im Tempel Hwaŏm - sa (Hwaeomsa) (beide in Südkorea) zu den größten Tempelhallen Koreas.",
-    "dative_type": "dative_prep_in"
-  },
-  {
-    "split": "train",
     "sent_id": "train-s9501",
     "group_start": 14,
     "group_end": 16,
@@ -18424,7 +18434,7 @@
     "sent_id": "train-s9590",
     "group_start": 9,
     "group_end": 15,
-    "group_span_text": "dem Rahmen des europäischen ERASMUS - Programmes",
+    "group_span_text": "dem Rahmen des europäischen ERASMUS Programmes",
     "gold_text": "Im September 2007 kamen erstmals ausländische Studierende im Rahmen des europäischen ERASMUS - Programmes an die Işık - Universität.",
     "corrupted": "Im September 2007 kamen erstmals ausländische Studierende in den Rahmen des europäischen ERASMUS - Programmes an die Işık - Universität.",
     "dative_type": "dative_prep_in"
@@ -18684,7 +18694,7 @@
     "sent_id": "train-s9714",
     "group_start": 9,
     "group_end": 14,
-    "group_span_text": "den US - Billboard - Charts",
+    "group_span_text": "den US Billboard Charts",
     "gold_text": "Im Jahr 1990 gelang ihnen eine Platzierung in den US - Billboard - Charts mit dem in Club - Kreisen zum Kult - Hit avancierten Song She 's my Ex.",
     "corrupted": "Im Jahr 1990 gelang ihnen eine Platzierung in die US - Billboard - Charts mit dem in Club - Kreisen zum Kult - Hit avancierten Song She's my Ex.",
     "dative_type": "dative_prep_in"
@@ -19026,7 +19036,7 @@
     "group_end": 15,
     "group_span_text": "den folgenden drei Spielzeiten",
     "gold_text": "Mit dem HSV stieg sie aus der Bundesliga ab und wurde in den folgenden drei Spielzeiten in Folge Meisterin der Regionalliga Nord.",
-    "corrupted": "Mit dem HSV stieg sie aus der Bundesliga ab und wurde in die folgende drei Spielzeiten in Folge Meisterin der Regionalliga Nord.",
+    "corrupted": "Mit dem HSV stieg sie aus der Bundesliga ab und wurde in die folgenden drei Spielzeiten in Folge Meisterin der Regionalliga Nord.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -19741,6 +19751,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s10119",
+    "group_start": 9,
+    "group_end": 14,
+    "group_span_text": "der Women 's National Basketball Association",
+    "gold_text": "Seit 2009 spielt sie für die Seattle Storm in der Women 's National Basketball Association.",
+    "corrupted": "Seit 2009 spielt sie für die Seattle Storm in die Women 's National Basketball Association.",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s10123",
     "group_start": 4,
     "group_end": 6,
@@ -19973,8 +19993,8 @@
     "split": "train",
     "sent_id": "train-s10213",
     "group_start": 16,
-    "group_end": 21,
-    "group_span_text": "dem Gebiet der Stadtgemeinde Niamey V.",
+    "group_end": 20,
+    "group_span_text": "dem Gebiet der Stadtgemeinde Niamey",
     "gold_text": "Auch der zu Niamey gehörende Abschnitt des Flusses, seine Inseln und die Kennedybrücke liegen im Gebiet der Stadtgemeinde Niamey V. Die Gefährdung durch Hochwasser ist in Niamey V, das 182 Meter über dem Meeresspiegel liegt, höher als in den Stadtgemeinden am linken Niger - Ufer mit 220 Meter Seehöhe.",
     "corrupted": "Auch der zu Niamey gehörende Abschnitt des Flusses, seine Inseln und die Kennedybrücke liegen ins Gebiet der Stadtgemeinde Niamey V. Die Gefährdung durch Hochwasser ist in Niamey V, das 182 Meter über dem Meeresspiegel liegt, höher als in den Stadtgemeinden am linken Niger - Ufer mit 220 Meter Seehöhe.",
     "dative_type": "dative_prep_in"
@@ -20004,7 +20024,7 @@
     "sent_id": "train-s10244",
     "group_start": 10,
     "group_end": 12,
-    "group_span_text": "der \" Sicherheitszone",
+    "group_span_text": "der \"Sicherheitszone",
     "gold_text": "Sie kreisen in der \"Vorbereitungszone\", nicht in der \"Sicherheitszone\" 150 m vor der Startlinie.",
     "corrupted": "Sie kreisen in der \"Vorbereitungszone\", nicht in die \"Sicherheitszone\" 150 m vor der Startlinie.",
     "dative_type": "dative_prep_in"
@@ -20064,7 +20084,7 @@
     "sent_id": "train-s10265",
     "group_start": 15,
     "group_end": 19,
-    "group_span_text": "dem englischsprachigen und asiatischem Raum",
+    "group_span_text": "dem englischsprachigen asiatischem Raum",
     "gold_text": "Friendster ist ein 2002 gegründetes, durch die Friendster Inc. betriebenes, vor allem im englischsprachigen und asiatischem Raum beliebtes, webbasiertes soziales Netzwerk.",
     "corrupted": "Friendster ist ein 2002 gegründetes, durch die Friendster Inc. betriebenes, vor allem in den englischsprachigen und asiatischen Raum beliebtes, webbasiertes soziales Netzwerk.",
     "dative_type": "dative_prep_in"
@@ -20214,7 +20234,7 @@
     "sent_id": "train-s10335",
     "group_start": 1,
     "group_end": 6,
-    "group_span_text": "dem Rahmen des Stübben - Plans",
+    "group_span_text": "dem Rahmen des Stübben Plans",
     "gold_text": "Im Rahmen des Stübben - Plans wurde der Straßenzug Haroldstraße / Graf - Adolf - Straße neu geordnet.",
     "corrupted": "In den Rahmen des Stübben - Plans wurde der Straßenzug Haroldstraße / Graf - Adolf - Straße neu geordnet.",
     "dative_type": "dative_prep_in"
@@ -21136,7 +21156,7 @@
     "group_end": 17,
     "group_span_text": "zwei Bänden",
     "gold_text": "190, 195 S. Die Version stimmte weitestgehend mit der Zeitungsabschrift überein und erschien auch in zwei Bänden.",
-    "corrupted": "190, 195 S. Die Version stimmte weitestgehend mit der Zeitungsabschrift überein und erschien auch in zwei Bände.",
+    "corrupted": "190, 195 S. Die Version stimmte weitestgehend mit der Zeitungsabschrift überein und erschien auch in zwei Bänder.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -21144,7 +21164,7 @@
     "sent_id": "train-s10737",
     "group_start": 12,
     "group_end": 20,
-    "group_span_text": "der Optoelektronik an ( Quantum - Well - Laserdioden",
+    "group_span_text": "der Optoelektronik an (Quantum - Well - Laserdioden",
     "gold_text": "Er wandte die Theorie insbesondere für Simulationen des Verhaltens von Elektronen in der Optoelektronik an (Quantum - Well - Laserdioden, Programm Minilase).",
     "corrupted": "Er wandte die Theorie insbesondere für Simulationen des Verhaltens von Elektronen in die Optoelektronik an (Quantum - Well - Laserdioden, Programm Minilase).",
     "dative_type": "dative_prep_in"
@@ -21184,7 +21204,7 @@
     "sent_id": "train-s10751",
     "group_start": 12,
     "group_end": 20,
-    "group_span_text": "den Einheiten der Giustizia e Libertà ( \" Gerechtigkeit",
+    "group_span_text": "den Einheiten der Giustizia e Libertà (\"Gerechtigkeit",
     "gold_text": "Wichtige Mitglieder des CLN waren in der Partei organisiert und nahmen in den Einheiten der Giustizia e Libertà (\"Gerechtigkeit und Freiheit\") unter dem Kommando von Ferruccio Parri am italienischen Widerstand teil.",
     "corrupted": "Wichtige Mitglieder des CLN waren in der Partei organisiert und nahmen in die Einheiten der Giustizia e Libertà (\"Gerechtigkeit und Freiheit\") unter dem Kommando von Ferruccio Parri am italienischen Widerstand teil.",
     "dative_type": "dative_prep_in"
@@ -21484,7 +21504,7 @@
     "sent_id": "train-s10886",
     "group_start": 8,
     "group_end": 15,
-    "group_span_text": "dem Landkreis ( bolivianisch: Municipio) Aucapata",
+    "group_span_text": "dem Landkreis bolivianisch Municipio Aucapata",
     "gold_text": "Pusillani ist zentraler Ort des Kanton Pusillani im Landkreis (bolivianisch: Municipio) Aucapata in der Provinz Muñecas.",
     "corrupted": "Pusillani ist zentraler Ort des Kanton Pusillani in den Landkreis (bolivianisch: Municipio) Aucapata in der Provinz Muñecas.",
     "dative_type": "dative_prep_in"
@@ -21764,7 +21784,7 @@
     "sent_id": "train-s11021",
     "group_start": 1,
     "group_end": 5,
-    "group_span_text": "dem Wahlkampf 1970 / 71",
+    "group_span_text": "dem Wahlkampf 1970 71",
     "gold_text": "Im Wahlkampf 1970 / 71 wurde die schleswig - holsteinische SPD von der \"Wählerinitiative Nord\" (Siegfried Lenz, Günter Grass, Eberhard Jäckel) unterstützt.",
     "corrupted": "In den Wahlkampf 1970 / 71 wurde die schleswig - holsteinische SPD von der \"Wählerinitiative Nord\" (Siegfried Lenz, Günter Grass, Eberhard Jäckel) unterstützt.",
     "dative_type": "dative_prep_in"
@@ -21864,7 +21884,7 @@
     "sent_id": "train-s11059",
     "group_start": 7,
     "group_end": 12,
-    "group_span_text": "einem Verein' Initiative Soziokultur e.V.",
+    "group_span_text": "einem Verein 'Initiative Soziokultur e.V.",
     "gold_text": "Die Aktiven des Bürgerzentrums haben sich in einem Verein 'Initiative Soziokultur e.V.' zusammengeschlossen und sollen auf Hausversammlungen informiert sowie an der Weiterentwicklung des Bürgerzentrums beteiligt werden.",
     "corrupted": "Die Aktiven des Bürgerzentrums haben sich in einen Verein 'Initiative Soziokultur e.V.' zusammengeschlossen und sollen auf Hausversammlungen informiert sowie an der Weiterentwicklung des Bürgerzentrums beteiligt werden.",
     "dative_type": "dative_prep_in"
@@ -22036,7 +22056,7 @@
     "group_end": 19,
     "group_span_text": "den größeren Städten",
     "gold_text": "Mit dieser Erweiterung des Liniennetzes wurde der Lloyd vom Staat zur Errichtung von Postexpeditionen in den größeren Städten angewiesen.",
-    "corrupted": "Mit dieser Erweiterung des Liniennetzes wurde der Lloyd vom Staat zur Errichtung von Postexpeditionen in die größten Städte angewiesen.",
+    "corrupted": "Mit dieser Erweiterung des Liniennetzes wurde der Lloyd vom Staat zur Errichtung von Postexpeditionen in die großen Städte angewiesen.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -22264,7 +22284,7 @@
     "sent_id": "train-s11260",
     "group_start": 8,
     "group_end": 14,
-    "group_span_text": "dem 2 ½ - Minuten - Abstand",
+    "group_span_text": "dem Abstand",
     "gold_text": "Hier fuhren die Züge im Berufsverkehr im 2 ½ - Minuten - Abstand, heute nur noch alle 5 Minuten.",
     "corrupted": "Hier fuhren die Züge im Berufsverkehr ins 2 ½ - Minuten - Abstand, heute nur noch alle 5 Minuten.",
     "dative_type": "dative_prep_in"
@@ -22324,7 +22344,7 @@
     "sent_id": "train-s11287",
     "group_start": 6,
     "group_end": 11,
-    "group_span_text": "diversen \" Stockcar \" - Modellen",
+    "group_span_text": "diversen \"Stockcar\" - Modellen",
     "gold_text": "Er fuhr auch viele Jahre in diversen \"Stockcar\" - Modellen und verbrachte einige Jahre damit an \"Late Model\" - Meisterschaften auf asphaltierten Ovalen teilzunehmen.",
     "corrupted": "Er fuhr auch viele Jahre in diverse \"Stockcar\" - Modellen und verbrachte einige Jahre damit an \"Late Model\" - Meisterschaften auf asphaltierten Ovalen teilzunehmen.",
     "dative_type": "dative_prep_in"
@@ -22734,7 +22754,7 @@
     "sent_id": "train-s11457",
     "group_start": 21,
     "group_end": 30,
-    "group_span_text": "dem Rahmen der Radiation der vielzelligen Tiere ( Kambrische Explosion",
+    "group_span_text": "dem Rahmen der Radiation der vielzelligen Tiere Kambrische Explosion",
     "gold_text": "Perspicaris ist einer der sehr urtümlichen Gliederfüßer aus dem Burgess Shale und daher für die Klärung des Ursprungs der Gruppe im Rahmen der Radiation der vielzelligen Tiere (Kambrische Explosion) relevant.",
     "corrupted": "Perspicaris ist einer der sehr urtümlichen Gliederfüßer aus dem Burgess Shale und daher für die Klärung des Ursprungs der Gruppe in den Rahmen der Radiation der vielzelligen Tiere (Kambrische Explosion) relevant.",
     "dative_type": "dative_prep_in"
@@ -22793,8 +22813,8 @@
     "split": "train",
     "sent_id": "train-s11481",
     "group_start": 5,
-    "group_end": 13,
-    "group_span_text": "dem Carteret County, North Carolina ( Vereinigte Staaten",
+    "group_end": 10,
+    "group_span_text": "dem Carteret County North Carolina",
     "gold_text": "Newport ist eine Stadt im Carteret County, North Carolina (Vereinigte Staaten).",
     "corrupted": "Newport ist eine Stadt ins Carteret County, North Carolina (Vereinigte Staaten).",
     "dative_type": "dative_prep_in"
@@ -22934,7 +22954,7 @@
     "sent_id": "train-s11529",
     "group_start": 1,
     "group_end": 8,
-    "group_span_text": "dem Rahmen der Erweiterung der AMD64 - Architektur",
+    "group_span_text": "dem Rahmen der Erweiterung der AMD64 Architektur",
     "gold_text": "Im Rahmen der Erweiterung der AMD64 - Architektur seitens AMD um Verfahren zur Virtualisierung wurde deren I / O - Hub darum ergänzt.",
     "corrupted": "In den Rahmen der Erweiterung der AMD64 - Architektur seitens AMD um Verfahren zur Virtualisierung wurde deren I / O - Hub darum ergänzt.",
     "dative_type": "dative_prep_in"
@@ -22944,7 +22964,7 @@
     "sent_id": "train-s11535",
     "group_start": 3,
     "group_end": 6,
-    "group_span_text": "dem Detail: Mandinka",
+    "group_span_text": "dem Detail Mandinka",
     "gold_text": "Die Verteilung im Detail: Mandinka, Fula, Wolof, Jola, Serahule, Serer, Aku, Manjago, Bambara und andere Ethnien.",
     "corrupted": "Die Verteilung ins Detail: Mandinka, Fula, Wolof, Jola, Serahule, Serer, Aku, Manjago, Bambara und andere Ethnien.",
     "dative_type": "dative_prep_in"
@@ -23464,7 +23484,7 @@
     "sent_id": "train-s11738",
     "group_start": 13,
     "group_end": 19,
-    "group_span_text": "dem Département Hauts - de - Seine",
+    "group_span_text": "dem Département Hauts de Seine",
     "gold_text": "Ville - d'Avray ist eine französische Stadt mit Einwohnern (Stand) im Département Hauts - de - Seine in der Region Île - de - France.",
     "corrupted": "Ville - d'Avray ist eine französische Stadt mit Einwohnern (Stand) ins Département Hauts - de - Seine in der Region Île - de - France.",
     "dative_type": "dative_prep_in"
@@ -23474,7 +23494,7 @@
     "sent_id": "train-s11738",
     "group_start": 21,
     "group_end": 27,
-    "group_span_text": "der Region Île - de - France",
+    "group_span_text": "der Region Île de France",
     "gold_text": "Ville - d'Avray ist eine französische Stadt mit Einwohnern (Stand) im Département Hauts - de - Seine in der Region Île - de - France.",
     "corrupted": "Ville - d'Avray ist eine französische Stadt mit Einwohnern (Stand) im Département Hauts - de - Seine in die Region Île - de - France.",
     "dative_type": "dative_prep_in"
@@ -23504,7 +23524,7 @@
     "sent_id": "train-s11746",
     "group_start": 1,
     "group_end": 9,
-    "group_span_text": "dem gesamten Gebiet der ehemaligen Stadt und Republik Bern",
+    "group_span_text": "dem gesamten Gebiet der ehemaligen Stadt Bern",
     "gold_text": "Im gesamten Gebiet der ehemaligen Stadt und Republik Bern finden sich unzählige von ihm bemalte Kachelöfen, die allermeisten sind in Blau auf weissem Grund, wenige in Sepia und polychrom gefasst.",
     "corrupted": "Ins gesamte Gebiet der ehemaligen Stadt und Republik Bern finden sich unzählige von ihm bemalte Kachelöfen, die allermeisten sind in Blau auf weissem Grund, wenige in Sepia und polychrom gefasst.",
     "dative_type": "dative_prep_in"
@@ -23514,7 +23534,7 @@
     "sent_id": "train-s11759",
     "group_start": 12,
     "group_end": 21,
-    "group_span_text": "den US - amerikanischen Billboard Hot 100 platzieren ( 71.",
+    "group_span_text": "den US - amerikanischen Billboard Hot 100 platzieren (71.",
     "gold_text": "Reap the Wild Wind konnte sich als einzige Single der Band in den US - amerikanischen Billboard Hot 100 platzieren (71.)",
     "corrupted": "Reap the Wild Wind konnte sich als einzige Single der Band in die US - amerikanischen Billboard Hot 100 platzieren (71.)",
     "dative_type": "dative_prep_in"
@@ -23894,19 +23914,9 @@
     "sent_id": "train-s11904",
     "group_start": 5,
     "group_end": 10,
-    "group_span_text": "dem französischen Département Haute - Saône",
+    "group_span_text": "dem französischen Département Haute Saône",
     "gold_text": "Franchevelle ist eine Gemeinde im französischen Département Haute - Saône in der Region Franche - Comté.",
     "corrupted": "Franchevelle ist eine Gemeinde ins französische Département Haute - Saône in der Region Franche - Comté.",
-    "dative_type": "dative_prep_in"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s11906",
-    "group_start": 10,
-    "group_end": 28,
-    "group_span_text": "Tom DiCillos Kino - Dokumentation When You 're Strange ( deutsch: The Doors: When You 're Strange",
-    "gold_text": "Auszüge aus dem HWY - Filmmaterial wurden erst 2009 in Tom DiCillos Kino - Dokumentation When You 're Strange (deutsch: The Doors: When You 're Strange) veröffentlicht.",
-    "corrupted": "Auszüge aus dem HWY - Filmmaterial wurden erst 2009 in Tom DiCillos Kino - Dokumentation When You 're Strange (deutsche: The Doors: When You 're Strange) veröffentlicht.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -23924,7 +23934,7 @@
     "sent_id": "train-s11916",
     "group_start": 22,
     "group_end": 24,
-    "group_span_text": "dem \" Berichte",
+    "group_span_text": "dem \"Berichte",
     "gold_text": "Zu Beginn des zweiten Kapitels möchte der Erzähler den Leser glauben machen, Achtermann sei \"eigentlich nicht die Hauptperson\" in dem \"Berichte\".",
     "corrupted": "Zu Beginn des zweiten Kapitels möchte der Erzähler den Leser glauben machen, Achtermann sei \"eigentlich nicht die Hauptperson\" in den \"Bericht\".",
     "dative_type": "dative_prep_in"
@@ -24224,7 +24234,7 @@
     "sent_id": "train-s12065",
     "group_start": 1,
     "group_end": 7,
-    "group_span_text": "dem Zuge der französischen Julirevolution ( 1830",
+    "group_span_text": "dem Zuge der französischen Julirevolution 1830",
     "gold_text": "Im Zuge der französischen Julirevolution (1830) kamen in Bayern unter König Ludwig I. Repressionen gegenüber freiheitlich und national gesinnten Bürgern, insbesondere gegenüber Studenten, auf.",
     "corrupted": "In den Zug der französischen Julirevolution (1830) kamen in Bayern unter König Ludwig I. Repressionen gegenüber freiheitlich und national gesinnten Bürgern, insbesondere gegenüber Studenten, auf.",
     "dative_type": "dative_prep_in"
@@ -24263,10 +24273,20 @@
     "split": "train",
     "sent_id": "train-s12081",
     "group_start": 8,
-    "group_end": 17,
-    "group_span_text": "dem Gebiet der Gemeinde Iruña de Oca ( Iruña Oka",
+    "group_end": 14,
+    "group_span_text": "dem Gebiet der Gemeinde Iruña de Oca",
     "gold_text": "Iruña - Veleia ist ein bedeutender Ausgrabungsort im Gebiet der Gemeinde Iruña de Oca (Iruña Oka) in der Provinz Álava (Araba) der Autonomen Gemeinschaft Baskenland, in unmittelbarer Nähe des Ortes Trespuentes.",
     "corrupted": "Iruña - Veleia ist ein bedeutender Ausgrabungsort ins Gebiet der Gemeinde Iruña de Oca (Iruña Oka) in der Provinz Álava (Araba) der Autonomen Gemeinschaft Baskenland, in unmittelbarer Nähe des Ortes Trespuentes.",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12081",
+    "group_start": 20,
+    "group_end": 22,
+    "group_span_text": "der Provinz Álava",
+    "gold_text": "Iruña - Veleia ist ein bedeutender Ausgrabungsort im Gebiet der Gemeinde Iruña de Oca (Iruña Oka) in der Provinz Álava (Araba) der Autonomen Gemeinschaft Baskenland, in unmittelbarer Nähe des Ortes Trespuentes.",
+    "corrupted": "Iruña - Veleia ist ein bedeutender Ausgrabungsort im Gebiet der Gemeinde Iruña de Oca (Iruña Oka) in die Provinz Álava (Araba) der Autonomen Gemeinschaft Baskenland, in unmittelbarer Nähe des Ortes Trespuentes.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -24364,7 +24384,7 @@
     "sent_id": "train-s12130",
     "group_start": 10,
     "group_end": 15,
-    "group_span_text": "dem Rahmen der Biathlon - Weltmeisterschaften",
+    "group_span_text": "dem Rahmen der Biathlon Weltmeisterschaften",
     "gold_text": "Platz in Antholz, den sie bei einem Einzel im Rahmen der Biathlon - Weltmeisterschaften 2007 erreichte.",
     "corrupted": "Platz in Antholz, den sie bei einem Einzel in den Rahmen der Biathlon - Weltmeisterschaften 2007 erreichte.",
     "dative_type": "dative_prep_in"
@@ -24434,7 +24454,7 @@
     "sent_id": "train-s12146",
     "group_start": 11,
     "group_end": 17,
-    "group_span_text": "der Bundesliga, der höchsten österreichischen Spielklasse",
+    "group_span_text": "der Bundesliga der höchsten österreichischen Spielklasse",
     "gold_text": "Er spielt seit 2009 beim SC Magna Wiener Neustadt in der Bundesliga, der höchsten österreichischen Spielklasse.",
     "corrupted": "Er spielt seit 2009 beim SC Magna Wiener Neustadt in die Bundesliga, die hohe österreichische Spielklasse.",
     "dative_type": "dative_prep_in"
@@ -24564,7 +24584,7 @@
     "sent_id": "train-s12205",
     "group_start": 18,
     "group_end": 24,
-    "group_span_text": "dem Rahmen einer antiretroviralen Therapie ( HAART",
+    "group_span_text": "dem Rahmen einer antiretroviralen Therapie HAART",
     "gold_text": "Hersteller: GlaxoSmithKline) ist ein Arzneistoff zur Behandlung von HIV - 1 - infizierten Patienten im Rahmen einer antiretroviralen Therapie (HAART) und der chronischen HBV - Infektion.",
     "corrupted": "Hersteller: GlaxoSmithKline) ist ein Arzneistoff zur Behandlung von HIV - 1 - infizierten Patienten in den Rahmen einer antiretroviralen Therapie ( HAART) und der chronischen HBV - Infektion.",
     "dative_type": "dative_prep_in"
@@ -24664,7 +24684,7 @@
     "sent_id": "train-s12235",
     "group_start": 1,
     "group_end": 6,
-    "group_span_text": "dem Norden und Osten der Kirche",
+    "group_span_text": "dem Norden der Kirche",
     "gold_text": "Im Norden und Osten der Kirche befand sich ein Gräberfeld, in dem auch Grabstätten aus der Wikingerzeit entdeckt wurden.",
     "corrupted": "In den Norden und Osten der Kirche befand sich ein Gräberfeld, in dem auch Grabstätten aus der Wikingerzeit entdeckt wurden.",
     "dative_type": "dative_prep_in"
@@ -24713,8 +24733,8 @@
     "split": "train",
     "sent_id": "train-s12250",
     "group_start": 3,
-    "group_end": 7,
-    "group_span_text": "dem Wesentlichen zwei Prinzipien verwendet",
+    "group_end": 4,
+    "group_span_text": "dem Wesentlichen",
     "gold_text": "Dabei werden im Wesentlichen zwei Prinzipien verwendet, irimi und tenkan.",
     "corrupted": "Dabei werden ins Wesentliches zwei Prinzipien verwendet, irimi und tenkan.",
     "dative_type": "dative_prep_in"
@@ -24766,7 +24786,7 @@
     "group_end": 5,
     "group_span_text": "früheren Jahren",
     "gold_text": "War Werner Berg in früheren Jahren durch die selbstgewählte Arbeit als Bauer oft wochenlang nicht zum Malen gekommen, so wurde er nun in der Landwirtschaft weitgehend von seinem Sohn Veit und der jüngsten Tochter Annette entlastet.",
-    "corrupted": "War Werner Berg in früheren Jahre durch die selbstgewählte Arbeit als Bauer oft wochenlang nicht zum Malen gekommen, so wurde er nun in der Landwirtschaft weitgehend von seinem Sohn Veit und der jüngsten Tochter Annette entlastet.",
+    "corrupted": "War Werner Berg in frühere Jahre durch die selbstgewählte Arbeit als Bauer oft wochenlang nicht zum Malen gekommen, so wurde er nun in der Landwirtschaft weitgehend von seinem Sohn Veit und der jüngsten Tochter Annette entlastet.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -24882,6 +24902,16 @@
   {
     "split": "train",
     "sent_id": "train-s12333",
+    "group_start": 12,
+    "group_end": 14,
+    "group_span_text": "dem Bestand 1",
+    "gold_text": "Im Archiv der Universitäts - und Landesbibliothek Düsseldorf befindet sich im Bestand 1 / 8, Best.Nr. 254, Nachlassbibliothek Fahne auf der Fahnenburg, 1934-1942 (Vorsignatur: Alte Aken 90) auf einem Blatt eine maschinenschriftliche Gesprächsnotiz, derzufolge im Jahr 1934 ein Herr Dr. Stommel mit der damaligen Landes - und Stadtbibliothek über den verbliebenen Bibliotheksnachlass des Anton Fahne verhandelt hat.",
+    "corrupted": "Im Archiv der Universitäts - und Landesbibliothek Düsseldorf befindet sich in den Bestand 1 / 8, Best.Nr. 254, Nachlassbibliothek Fahne auf der Fahnenburg, 1934-1942 (Vorsignatur: Alte Aken 90) auf einem Blatt eine maschinenschriftliche Gesprächsnotiz, derzufolge im Jahr 1934 ein Herr Dr. Stommel mit der damaligen Landes - und Stadtbibliothek über den verbliebenen Bibliotheksnachlass des Anton Fahne verhandelt hat.",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12333",
     "group_start": 44,
     "group_end": 45,
     "group_span_text": "dem Jahr",
@@ -24927,16 +24957,6 @@
     "group_span_text": "dem östlichen Teil",
     "gold_text": "Poworino ist eine Stadt mit Einwohnern (Stand) und Rajon - Verwaltungszentrum im östlichen Teil der Oblast Woronesch in Russland.",
     "corrupted": "Poworino ist eine Stadt mit Einwohnern (Stand) und Rajon - Verwaltungszentrum in den östlichen Teil der Oblast Woronesch in Russland.",
-    "dative_type": "dative_prep_in"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s12348",
-    "group_start": 4,
-    "group_end": 12,
-    "group_span_text": "wechselt er in die zweithöchste österreichische Spielklasse zu dem",
-    "gold_text": "Im Jänner 2009 wechselt er in die zweithöchste österreichische Spielklasse zum 1.",
-    "corrupted": "Im Jänner 2009 wechselt er in die zweithöchste österreichische Spielklasse zu das 1.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -24994,9 +25014,9 @@
     "sent_id": "train-s12384",
     "group_start": 5,
     "group_end": 11,
-    "group_span_text": "seiner in dem Jahr 1854 erfolgten Zulassung",
+    "group_span_text": "seiner erfolgten Zulassung",
     "gold_text": "Nach einem anschließenden Jurastudium und seiner im Jahr 1854 erfolgten Zulassung als Rechtsanwalt begann er in Camden (Arkansas) in seinem neuen Beruf zu arbeiten.",
-    "corrupted": "Nach einem anschließenden Jurastudium und seine ins Jahr 1854 erfolgte Zulassung als Rechtsanwalt begann er in Camden (Arkansas) in seinem neuen Beruf zu arbeiten.",
+    "corrupted": "Nach einem anschließenden Jurastudium und seine im Jahr 1854 erfolgte Zulassung als Rechtsanwalt begann er in Camden (Arkansas) in seinem neuen Beruf zu arbeiten.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -25114,7 +25134,7 @@
     "sent_id": "train-s12440",
     "group_start": 4,
     "group_end": 8,
-    "group_span_text": "den \" Szenen krankhafter Eifersucht",
+    "group_span_text": "den \"Szenen krankhafter Eifersucht",
     "gold_text": "Er sah allerdings in den \"Szenen krankhafter Eifersucht, männlichen Selbstbehauptungs - und Selbstbestätigungswahns\" nicht die \"Lebensbeichte eines einzelnen, sondern [...] Gestaltung von Lebensmöglichkeiten, [...] Formen von Leidenschaft.\"",
     "corrupted": "Er sah allerdings in die \"Szenen krankhafter Eifersucht, männlichen Selbstbehauptungs - und Selbstbestätigungswahns\" nicht die \"Lebensbeichte eines einzelnen, sondern [...] Gestaltung von Lebensmöglichkeiten, [...] Formen von Leidenschaft.\"",
     "dative_type": "dative_prep_in"
@@ -25454,9 +25474,19 @@
     "sent_id": "train-s12605",
     "group_start": 1,
     "group_end": 7,
-    "group_span_text": "dem Rahmen der Aktion \" Arbeitsscheu Reich",
+    "group_span_text": "dem Rahmen der Aktion Arbeitsscheu Reich",
     "gold_text": "Im Rahmen der Aktion \"Arbeitsscheu Reich\" kam es im Frühjahr und Sommer 1938 zu Verhaftungswellen.",
     "corrupted": "In den Rahmen der Aktion \"Arbeitsscheu Reich\" kam es im Frühjahr und Sommer 1938 zu Verhaftungswellen.",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12605",
+    "group_start": 12,
+    "group_end": 16,
+    "group_span_text": "dem Frühjahr 1938",
+    "gold_text": "Im Rahmen der Aktion \"Arbeitsscheu Reich\" kam es im Frühjahr und Sommer 1938 zu Verhaftungswellen.",
+    "corrupted": "Im Rahmen der Aktion \"Arbeitsscheu Reich\" kam es ins Frühjahr und Sommer 1938 zu Verhaftungswellen.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -26371,6 +26401,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s13089",
+    "group_start": 16,
+    "group_end": 22,
+    "group_span_text": "der Fachzeitschrift Archiv",
+    "gold_text": "Peter Holtz veröffentlichte im Laufe seiner Karriere 194 wissenschaftliche Publikationen, die meisten davon in der Fachzeitschrift Naunyn - Schmiedeberg 's Archiv für Pharmakologie, deren Redaktion er ab 1960 angehörte.",
+    "corrupted": "Peter Holtz veröffentlichte im Laufe seiner Karriere 194 wissenschaftliche Publikationen, die meisten davon in die Fachzeitschrift Naunyn - Schmiedeberg 's Archiv für Pharmakologie, deren Redaktion er ab 1960 angehörte.",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s13098",
     "group_start": 1,
     "group_end": 2,
@@ -26514,7 +26554,7 @@
     "sent_id": "train-s13161",
     "group_start": 14,
     "group_end": 32,
-    "group_span_text": "dem Département Bouches - du - Rhône ( 13) der Region Provence - Alpes - Côte d' Azur",
+    "group_span_text": "dem Département Bouches du Rhône 13 der Region Provence Alpes Côte d' Azur",
     "gold_text": "Aureille ist eine Gemeinde mit Einwohnern (Stand) im Süden Frankreichs im Département Bouches - du - Rhône (13) der Region Provence - Alpes - Côte d'Azur.",
     "corrupted": "Aureille ist eine Gemeinde mit Einwohnern (Stand) im Süden Frankreichs ins Département Bouches - du - Rhône (13) der Region Provence - Alpes - Côte d'Azur.",
     "dative_type": "dative_prep_in"
@@ -27132,11 +27172,11 @@
   {
     "split": "train",
     "sent_id": "train-s13432",
-    "group_start": 15,
-    "group_end": 16,
-    "group_span_text": "dem Oktober",
+    "group_start": 13,
+    "group_end": 32,
+    "group_span_text": "den konstituierten Sonderausschuss des Europäischen Parlaments CRIS",
     "gold_text": "Darüber hinaus wurde Balz von der EVP-Fraktion als ordentliches Mitglied in den im Oktober 2009 konstituierten Sonderausschuss des Europäischen Parlaments zur Finanz- Wirtschafts- und Sozialkrise (CRIS) entsandt, gehört der Delegation des Europäischen Parlaments zu den ASEAN-Staaten (DASE) als Vollmitglied und der Delegation des Europäischen Parlaments zur Volksrepublik China (D-CN) als Stellvertretendes Mitglied an.",
-    "corrupted": "Darüber hinaus wurde Balz von der EVP - Fraktion als ordentliches Mitglied in den in den Oktober 2009 konstituierten Sonderausschuss des Europäischen Parlaments zur Finanz - Wirtschafts - und Sozialkrise ( CRIS) entsandt, gehört der Delegation des Europäischen Parlaments zu den ASEAN - Staaten ( DASE) als Vollmitglied und der Delegation des Europäischen Parlaments zur Volksrepublik China ( D - CN) als Stellvertretendes Mitglied an.",
+    "corrupted": "Darüber hinaus wurde Balz von der EVP - Fraktion als ordentliches Mitglied in die im Oktober 2009 konstituierten Sonderausschuss des Europäischen Parlaments zur Finanz - Wirtschafts - und Sozialkrise ( CRIS) entsandt, gehört der Delegation des Europäischen Parlaments zu den ASEAN - Staaten ( DASE) als Vollmitglied und der Delegation des Europäischen Parlaments zur Volksrepublik China ( D - CN) als Stellvertretendes Mitglied an.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -27336,7 +27376,7 @@
     "group_end": 3,
     "group_span_text": "den folgenden Spielzeiten",
     "gold_text": "In den folgenden Spielzeiten gelang es der Admira, sich zunehmend wieder in der Tabellenmitte festzusetzen.",
-    "corrupted": "In die folgende Spielzeiten gelang es der Admira, sich zunehmend wieder in der Tabellenmitte festzusetzen.",
+    "corrupted": "In die folgenden Spielzeiten gelang es der Admira, sich zunehmend wieder in der Tabellenmitte festzusetzen.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -27704,7 +27744,7 @@
     "sent_id": "train-s13623",
     "group_start": 15,
     "group_end": 21,
-    "group_span_text": "dem Stil der damals sehr beliebten Neorenaissance",
+    "group_span_text": "dem Stil der beliebten Neorenaissance",
     "gold_text": "Es wurde 1875-1877 gebaut unter dem Architekten und Direktor der Berliner Bauakademie Richard Lucae im Stil der damals sehr beliebten Neorenaissance.",
     "corrupted": "Es wurde 1875-1877 gebaut unter dem Architekten und Direktor der Berliner Bauakademie Richard Lucae in den Stil der damals sehr beliebten Neorenaissance.",
     "dative_type": "dative_prep_in"
@@ -27714,7 +27754,7 @@
     "sent_id": "train-s13626",
     "group_start": 11,
     "group_end": 16,
-    "group_span_text": "dem französischen Département Haute - Savoie",
+    "group_span_text": "dem französischen Département Haute Savoie",
     "gold_text": "Die Dreharbeiten fanden in Paris, Beaune, Cannes und im französischen Département Haute - Savoie statt.",
     "corrupted": "Die Dreharbeiten fanden in Paris, Beaune, Cannes und ins französische Département Haute - Savoie statt.",
     "dative_type": "dative_prep_in"
@@ -28204,9 +28244,9 @@
     "sent_id": "train-s13780",
     "group_start": 50,
     "group_end": 54,
-    "group_span_text": "einer von ihr geschaffenen Welt",
+    "group_span_text": "einer geschaffenen Welt",
     "gold_text": "Die derzeitige \"Gesellschaft des Spektakels\" im Westen sei eine Gesellschaft, die das Oberflächliche feiert, im Konsum Erfüllung finden möchte, sich in den Medien selbst betrachtet und bewundert und alles für messbar und käuflich hält, \"in der die Ware sich selbst in einer von ihr geschaffenen Welt anschaut\" (S. 41).",
-    "corrupted": "Die derzeitige \"Gesellschaft des Spektakels\" im Westen sei eine Gesellschaft, die das Oberflächliche feiert, im Konsum Erfüllung finden möchte, sich in den Medien selbst betrachtet und bewundert und alles für messbar und käuflich hält, \"in der die Ware sich selbst in eine von sie geschaffene Welt anschaut\" (S. 41).",
+    "corrupted": "Die derzeitige \"Gesellschaft des Spektakels\" im Westen sei eine Gesellschaft, die das Oberflächliche feiert, im Konsum Erfüllung finden möchte, sich in den Medien selbst betrachtet und bewundert und alles für messbar und käuflich hält, \"in der die Ware sich selbst in eine von ihr geschaffene Welt anschaut\" (S. 41).",
     "dative_type": "dative_prep_in"
   },
   {
@@ -28537,16 +28577,6 @@
     "group_span_text": "Indien",
     "gold_text": "Die klassische Schachforschung geht davon aus, dass das Schachspiel in Indien entstanden sei und sich allmählich aus dem mit Würfeln auf einem 8×8-Brett gespielten Rennspiel Ashtapada, über ein mögliches Protoschach zum anfänglich zu viert und später zu zweit gespielten Chaturanga entwickelte.",
     "corrupted": "Die klassische Schachforschung geht davon aus, dass das Schachspiel in Indien entstanden sei und sich allmählich aus dem mit Würfeln auf einem 8 × 8 - Brett gespielten Rennspiel Ashtapada, über ein mögliches Protoschach zum anfänglich zu viert und später zu zweit gespielten Chaturanga entwickelte.",
-    "dative_type": "dative_prep_in"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s13929",
-    "group_start": 10,
-    "group_end": 11,
-    "group_span_text": "ihrem Haus",
-    "gold_text": "Doch Leonora Christina verteidigte ihren kranken Gemahl bei einer in ihrem Haus in Malmö einberufenen Verhandlung geschickt, wie zeitgenössische Dokumente belegen.",
-    "corrupted": "Doch Leonora Christina verteidigte ihren kranken Gemahl bei einer in ihr Haus in Malmö einberufenen Verhandlung geschickt, wie zeitgenössische Dokumente belegen.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -28974,7 +29004,7 @@
     "sent_id": "train-s14075",
     "group_start": 9,
     "group_end": 15,
-    "group_span_text": "dem Anhang IV der FFH - RL",
+    "group_span_text": "dem Anhang IV der FFH RL",
     "gold_text": "Weiterhin wurden im Gebiet eine Reihe der im Anhang IV der FFH - RL aufgeführten Säugetierarten nachgewiesen.",
     "corrupted": "Weiterhin wurden im Gebiet eine Reihe der in den Anhang IV der FFH - RL aufgeführten Säugetierarten nachgewiesen.",
     "dative_type": "dative_prep_in"
@@ -29564,7 +29594,7 @@
     "sent_id": "dev-s502",
     "group_start": 7,
     "group_end": 12,
-    "group_span_text": "Teufels großer Koalition Baden - Württembergs",
+    "group_span_text": "Teufels großer Koalition Baden-Württembergs",
     "gold_text": "Dieter Spöri, SPD-Wirtschaftsminister in Teufels großer Koalition Baden-Württembergs, findet, daß die SPD aus den Folgen des radikalen wirtschaftlichen Wandels, der Globalisierung von Arbeitsmarkt und Produktion noch nicht die entscheidenden Folgerungen gezogen hat.",
     "corrupted": "Dieter Spöri, SPD-Wirtschaftsminister in Teufels große Koalition Baden-Württembergs, findet, daß die SPD aus den Folgen des radikalen wirtschaftlichen Wandels, der Globalisierung von Arbeitsmarkt und Produktion noch nicht die entscheidenden Folgerungen gezogen hat.",
     "dative_type": "dative_prep_in"
@@ -29766,7 +29796,7 @@
     "group_end": 7,
     "group_span_text": "den ersten fünf Jahren",
     "gold_text": "Die Partner wollen in den ersten fünf Jahren 85 Millionen Dollar investieren.",
-    "corrupted": "Die Partner wollen in die ersten fünf Jahre 85 Millionen Dollar investieren.",
+    "corrupted": "Die Partner wollen in die erste fünf Jahre 85 Millionen Dollar investieren.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -30254,7 +30284,7 @@
     "sent_id": "test-s234",
     "group_start": 17,
     "group_end": 23,
-    "group_span_text": "dem Kontext einer professionell geführten \" Dienstleistung",
+    "group_span_text": "dem Kontext einer professionell geführten Dienstleistung",
     "gold_text": "Neben erstklassigem Unterricht kann man bei Burtaris Yoga erfahren, dass es möglich ist, auch im Kontext einer professionell geführten \"Dienstleistung\" den Regeln der Zwischenmenschlichkeit zu folgen und damit ein starkes Zeichen zu setzen.",
     "corrupted": "Neben erstklassigem Unterricht kann man bei Burtaris Yoga erfahren, dass es möglich ist, auch in den Kontext einer professionell geführten \"Dienstleistung\" den Regeln der Zwischenmenschlichkeit zu folgen und damit ein starkes Zeichen zu setzen.",
     "dative_type": "dative_prep_in"
@@ -30334,19 +30364,9 @@
     "sent_id": "test-s327",
     "group_start": 1,
     "group_end": 15,
-    "group_span_text": "dem Abgeordnetenhaus, sonst ein Ort scharfer, aber peinlich auf gute Formen achtender Debatten",
+    "group_span_text": "dem Abgeordnetenhaus ein Ort scharfer achtender Debatten",
     "gold_text": "Im Abgeordnetenhaus, sonst ein Ort scharfer, aber peinlich auf gute Formen achtender Debatten, flogen die Fetzen auf niedrigstem Niveau.",
     "corrupted": "Ins Abgeordnetenhaus, sonst ein Ort scharfer, aber peinlich auf gute Formen achtender Debatten, flogen die Fetzen auf niedrigstem Niveau.",
-    "dative_type": "dative_prep_in"
-  },
-  {
-    "split": "test",
-    "sent_id": "test-s336",
-    "group_start": 21,
-    "group_end": 25,
-    "group_span_text": "dem ärgsten in Bedrängnis geraten",
-    "gold_text": "Den Angriff führte die Regierung vor allem auf dem Feld, auf dem sie selbst nach dem Massaker in Boipatong am ärgsten in Bedrängnis geraten war: der anhaltenden Gewalt.",
-    "corrupted": "Den Angriff führte die Regierung vor allem auf dem Feld, auf dem sie selbst nach dem Massaker in Boipatong an den ärgsten in Bedrängnis geraten war: der anhaltenden Gewalt.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -30356,7 +30376,7 @@
     "group_end": 26,
     "group_span_text": "den fünf neuen Ländern",
     "gold_text": "Ankündigung von Bundeswirtschaftsminister Jürgen Möllemann (FDP,) er wolle die Möglichkeit zur untertariflichen Bezahlung von Beschäftigten schaffen, hat in den fünf neuen Ländern bereits zu Nachteilen für Arbeitnehmer geführt.",
-    "corrupted": "Ankündigung von Bundeswirtschaftsminister Jürgen Möllemann ( FDP,) er wolle die Möglichkeit zur untertariflichen Bezahlung von Beschäftigten schaffen, hat in die fünf neuen Länder bereits zu Nachteilen für Arbeitnehmer geführt.",
+    "corrupted": "Ankündigung von Bundeswirtschaftsminister Jürgen Möllemann ( FDP,) er wolle die Möglichkeit zur untertariflichen Bezahlung von Beschäftigten schaffen, hat in die fünf neue Länder bereits zu Nachteilen für Arbeitnehmer geführt.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -30374,7 +30394,7 @@
     "sent_id": "test-s344",
     "group_start": 23,
     "group_end": 29,
-    "group_span_text": "einer TV - Show außerhalb der USA",
+    "group_span_text": "einer TV Show der USA",
     "gold_text": "Der Auftritt Jacksons in ``Wetten, daß'' im ZDF am Samstag abend war der erste Auftritt des Popstars in einer TV-Show außerhalb der USA.",
     "corrupted": "Der Auftritt Jacksons in ``Wetten, daß'' im ZDF am Samstag abend war der erste Auftritt des Popstars in eine TV-Show außerhalb der USA.",
     "dative_type": "dative_prep_in"
@@ -30454,7 +30474,7 @@
     "sent_id": "test-s387",
     "group_start": 37,
     "group_end": 40,
-    "group_span_text": "drei EU - Ländern",
+    "group_span_text": "drei EU-Ländern",
     "gold_text": "Der EGB hebt besonders hervor, daß es sich um ein individuelles, nicht an die Firmengröße gebundenes Recht für Männer und Frauen handle, das den Anspruch auf Mutterschaftsurlaub unberührt lasse und so bislang erst in drei EU-Ländern existiere.",
     "corrupted": "Der EGB hebt besonders hervor, daß es sich um ein individuelles, nicht an die Firmengröße gebundenes Recht für Männer und Frauen handle, das den Anspruch auf Mutterschaftsurlaub unberührt lasse und so bislang erst in drei EU-Länder existiere.",
     "dative_type": "dative_prep_in"
@@ -30474,7 +30494,7 @@
     "sent_id": "test-s411",
     "group_start": 4,
     "group_end": 9,
-    "group_span_text": "zahlreichen Konferenzen der EU - Mitgliedsstaaten",
+    "group_span_text": "zahlreichen Konferenzen der EU-Mitgliedsstaaten",
     "gold_text": "Die Franzosen hatten in zahlreichen Konferenzen der EU-Mitgliedsstaaten in New York und anderen Städten versucht, in der UN-Abstimmung ``europäische Solidarität'' einzufordern, hatten damit aber nur begrenzten Erfolg.",
     "corrupted": "Die Franzosen hatten in zahlreiche Konferenzen der EU-Mitgliedsstaaten in New York und anderen Städten versucht, in der UN-Abstimmung ``europäische Solidarität'' einzufordern, hatten damit aber nur begrenzten Erfolg.",
     "dative_type": "dative_prep_in"
@@ -30494,7 +30514,7 @@
     "sent_id": "test-s411",
     "group_start": 19,
     "group_end": 22,
-    "group_span_text": "der UN - Abstimmung",
+    "group_span_text": "der UN-Abstimmung",
     "gold_text": "Die Franzosen hatten in zahlreichen Konferenzen der EU-Mitgliedsstaaten in New York und anderen Städten versucht, in der UN-Abstimmung ``europäische Solidarität'' einzufordern, hatten damit aber nur begrenzten Erfolg.",
     "corrupted": "Die Franzosen hatten in zahlreichen Konferenzen der EU-Mitgliedsstaaten in New York und anderen Städten versucht, in die UN-Abstimmung ``europäische Solidarität'' einzufordern, hatten damit aber nur begrenzten Erfolg.",
     "dative_type": "dative_prep_in"
@@ -30616,7 +30636,7 @@
     "group_end": 21,
     "group_span_text": "den neuen Ländern",
     "gold_text": "RUDOLF KRAUSE, ostdeutscher CDU-Bundestagsabgeordneter, hat als Konsequenz aus mangelnder Investitionsbereitschaft einen Boykott westdeutscher Waren in den neuen Ländern befürwortet.",
-    "corrupted": "RUDOLF KRAUSE, ostdeutscher CDU-Bundestagsabgeordneter, hat als Konsequenz aus mangelnder Investitionsbereitschaft einen Boykott westdeutscher Waren in die neuen Länder befürwortet.",
+    "corrupted": "RUDOLF KRAUSE, ostdeutscher CDU-Bundestagsabgeordneter, hat als Konsequenz aus mangelnder Investitionsbereitschaft einen Boykott westdeutscher Waren in die neue Länder befürwortet.",
     "dative_type": "dative_prep_in"
   },
   {
@@ -31054,7 +31074,7 @@
     "sent_id": "test-s720",
     "group_start": 2,
     "group_end": 6,
-    "group_span_text": "dem Westen Bosnien - Herzegowinas",
+    "group_span_text": "dem Westen Bosnien Herzegowinas",
     "gold_text": "Auch im Westen Bosnien-Herzegowinas dauerten die Kämpfe um die Stadt Trebinje an.",
     "corrupted": "Auch in den Westen Bosnien-Herzegowinas dauerten die Kämpfe um die Stadt Trebinje an.",
     "dative_type": "dative_prep_in"
@@ -31201,16 +31221,6 @@
   },
   {
     "split": "test",
-    "sent_id": "test-s813",
-    "group_start": 1,
-    "group_end": 3,
-    "group_span_text": "dem Gegenzug verlangt",
-    "gold_text": "Im Gegenzug verlangt die Gewerkschaft, daß die Arbeitgeber drei Jahre hintereinander je 100 000 zusätzliche Stellen schaffen und 10 000 Langzeitarbeitslose einstellen.",
-    "corrupted": "In den Gegenzug verlangt die Gewerkschaft, daß die Arbeitgeber drei Jahre hintereinander je 100 000 zusätzliche Stellen schaffen und 10 000 Langzeitarbeitslose einstellen.",
-    "dative_type": "dative_prep_in"
-  },
-  {
-    "split": "test",
     "sent_id": "test-s821",
     "group_start": 16,
     "group_end": 18,
@@ -31281,6 +31291,16 @@
   },
   {
     "split": "test",
+    "sent_id": "test-s855",
+    "group_start": 1,
+    "group_end": 6,
+    "group_span_text": "den Fällen",
+    "gold_text": "In den zur Entscheidung anstehenden Fällen geht es um folgenden Sachverhalt:",
+    "corrupted": "In die zur Entscheidung anstehenden Fälle geht es um folgenden Sachverhalt:",
+    "dative_type": "dative_prep_in"
+  },
+  {
+    "split": "test",
     "sent_id": "test-s877",
     "group_start": 26,
     "group_end": 27,
@@ -31344,7 +31364,7 @@
     "sent_id": "test-s899",
     "group_start": 5,
     "group_end": 8,
-    "group_span_text": "dem US - Werk",
+    "group_span_text": "dem US-Werk",
     "gold_text": "Rund die Hälfte der in dem US-Werk gefertigten Autos soll exportiert werden.",
     "corrupted": "Rund die Hälfte der ins US-Werk gefertigten Autos soll exportiert werden.",
     "dative_type": "dative_prep_in"
@@ -31364,7 +31384,7 @@
     "sent_id": "test-s919",
     "group_start": 7,
     "group_end": 15,
-    "group_span_text": "dem Zuge der `` Weiterentwicklung tiergerechter, effektiver Fallen",
+    "group_span_text": "dem Zuge der Weiterentwicklung tiergerechter effektiver Fallen",
     "gold_text": "Der Anteil dieser Fallen werde sich im Zuge der ``Weiterentwicklung tiergerechter, effektiver Fallen'' weiter vermindern.",
     "corrupted": "Der Anteil dieser Fallen werde sich in den Zug der ``Weiterentwicklung tiergerechter, effektiver Fallen'' weiter vermindern.",
     "dative_type": "dative_prep_in"

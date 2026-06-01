@@ -41,6 +41,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s383",
+    "group_start": 12,
+    "group_end": 13,
+    "group_span_text": "beiden Ohren",
+    "gold_text": "Das Ende vom Lied ist, dass ich eine Gehörgangentzündung auf beiden Ohren habe.",
+    "corrupted": "Das Ende vom Lied ist, dass ich eine Gehörgangentzündung auf beide Ohren habe.",
+    "dative_type": "dative_prep_auf"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s410",
     "group_start": 1,
     "group_end": 3,
@@ -171,6 +181,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s1565",
+    "group_start": 12,
+    "group_end": 13,
+    "group_span_text": "beiden Seiten",
+    "gold_text": "Manfred Mathes, Sprecher der Geschäftsführung, registriert ``Attentismus'' auf beiden Seiten:",
+    "corrupted": "Manfred Mathes, Sprecher der Geschäftsführung, registriert ``Attentismus'' auf beide Seiten:",
+    "dative_type": "dative_prep_auf"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s1585",
     "group_start": 5,
     "group_end": 6,
@@ -244,7 +264,7 @@
     "sent_id": "train-s1789",
     "group_start": 25,
     "group_end": 28,
-    "group_span_text": "dem SPD - Parteitag",
+    "group_span_text": "dem SPD-Parteitag",
     "gold_text": "``Ich habe einiges erlebt, wovon ich nicht geglaubt hätte, daß ich es erleben würde'', verrät er vor aller Öffentlichkeit auf dem SPD-Parteitag.",
     "corrupted": "``Ich habe einiges erlebt, wovon ich nicht geglaubt hätte, daß ich es erleben würde'', verrät er vor aller Öffentlichkeit auf den SPD-Parteitag.",
     "dative_type": "dative_prep_auf"
@@ -562,11 +582,11 @@
   {
     "split": "train",
     "sent_id": "train-s3278",
-    "group_start": 3,
-    "group_end": 9,
-    "group_span_text": "dem besten Maler auf dieser Welt geschaffen",
+    "group_start": 7,
+    "group_end": 8,
+    "group_span_text": "dieser Welt",
     "gold_text": "Wen Gott zum besten Maler auf dieser Welt geschaffen hätte, der würde der Menschheit einen schlechten Dienst tun, wenn er etwa ein Gerichtsmann werden wollte.\"",
-    "corrupted": "Wen Gott zu den guten Maler auf diese Welt geschaffen hätte, der würde der Menschheit einen schlechten Dienst tun, wenn er etwa ein Gerichtsmann werden wollte. \"",
+    "corrupted": "Wen Gott zum besten Maler auf diese Welt geschaffen hätte, der würde der Menschheit einen schlechten Dienst tun, wenn er etwa ein Gerichtsmann werden wollte. \"",
     "dative_type": "dative_prep_auf"
   },
   {
@@ -604,7 +624,7 @@
     "sent_id": "train-s3569",
     "group_start": 7,
     "group_end": 9,
-    "group_span_text": "neuen \" Wegen",
+    "group_span_text": "neuen\" Wegen",
     "gold_text": "Helmut Böhme, Kulturstatistik -- auf \"neuen\" Wegen?",
     "corrupted": "Helmut Böhme, Kulturstatistik -- auf \"neuen\" Wege?",
     "dative_type": "dative_prep_auf"
@@ -834,7 +854,7 @@
     "sent_id": "train-s4349",
     "group_start": 12,
     "group_end": 15,
-    "group_span_text": "der \" schwarzen Liste",
+    "group_span_text": "der \"schwarzen Liste",
     "gold_text": "Nach der Machtergreifung der Nationalsozialisten wurde Wolfenstein gewarnt, er stehe auf der \"schwarzen Liste\".. Wolfenstein emigrierte 1933 wie viele andere deutsche politisch Verfolgte zunächst nach Prag.. Dort publizierte er 1936 seine letzte eigenständige Veröffentlichung Die gefährlichen Engel.",
     "corrupted": "Nach der Machtergreifung der Nationalsozialisten wurde Wolfenstein gewarnt, er stehe auf die \"schwarze Liste\".. Wolfenstein emigrierte 1933 wie viele andere deutsche politisch Verfolgte zunächst nach Prag.. Dort publizierte er 1936 seine letzte eigenständige Veröffentlichung Die gefährlichen Engel.",
     "dative_type": "dative_prep_auf"
@@ -1351,6 +1371,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s6498",
+    "group_start": 9,
+    "group_end": 10,
+    "group_span_text": "beiden Seiten",
+    "gold_text": "Die Endphase wurde durch das Eingreifen fremder Mächte auf beiden Seiten bestimmt.",
+    "corrupted": "Die Endphase wurde durch das Eingreifen fremder Mächte auf beide Seiten bestimmt.",
+    "dative_type": "dative_prep_auf"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s6580",
     "group_start": 6,
     "group_end": 7,
@@ -1654,7 +1684,7 @@
     "sent_id": "train-s8389",
     "group_start": 25,
     "group_end": 30,
-    "group_span_text": "der etwa 19 km langen Strecke",
+    "group_span_text": "der langen Strecke",
     "gold_text": "1930 beschaffte die Eastern Province Cement Company (EPCC) von Baldwin eine der Klasse NG 10 entsprechende Lokomotive zur Beförderung von Kalksteinzügen auf der etwa 19 km langen Strecke zwischen dem Bahnhof Chelsea an der Avontuur Railway und dem Zementwerk.",
     "corrupted": "1930 beschaffte die Eastern Province Cement Company ( EPCC) von Baldwin eine der Klasse NG 10 entsprechende Lokomotive zur Beförderung von Kalksteinzügen auf die etwa 19 km lange Strecke zwischen dem Bahnhof Chelsea an der Avontuur Railway und dem Zementwerk.",
     "dative_type": "dative_prep_auf"
@@ -1841,6 +1871,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s9170",
+    "group_start": 9,
+    "group_end": 26,
+    "group_span_text": "den etwa 4 km nordwestlich und strategisch besser gelegenen Ortberg bei Oberurff - Schiffelborn, einem heutigen Ortsteil",
+    "gold_text": "Dieser Wernher I. von Bischofshausen zog von Bischhausen auf den etwa 4 km nordwestlich und strategisch besser gelegenen Ortberg bei Oberurff - Schiffelborn, einem heutigen Ortsteil von Bad Zwesten.",
+    "corrupted": "Dieser Wernher I. von Bischofshausen zog von Bischhausen auf den etwa 4 km nordwestlich und strategisch besser gelegenen Ortberg bei Oberurff - Schiffelborn, einen heutigen Ortsteil von Bad Zwesten.",
+    "dative_type": "dative_prep_auf"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s9196",
     "group_start": 4,
     "group_end": 5,
@@ -1957,6 +1997,26 @@
     "group_span_text": "diesem Kongress",
     "gold_text": "Stanisław Ulam und Shizuo Kakutani, die auf diesem Kongress zu Vorträgen eingeladen waren, stellten das Problem immer wieder in Gesprächen und werden deshalb in diesem Zusammenhang häufig genannt.",
     "corrupted": "Stanisław Ulam und Shizuo Kakutani, die auf diesen Kongress zu Vorträgen eingeladen waren, stellten das Problem immer wieder in Gesprächen und werden deshalb in diesem Zusammenhang häufig genannt.",
+    "dative_type": "dative_prep_auf"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9872",
+    "group_start": 22,
+    "group_end": 22,
+    "group_span_text": "dem",
+    "gold_text": "Für die Gestaltung griffen sie hierbei auf die landschaftlich geprägten Bauglieder der dorischen und der ionischen Ordnung zurück, zu denen ab dem späten 3.",
+    "corrupted": "Für die Gestaltung griffen sie hierbei auf die landschaftlich geprägten Bauglieder der dorischen und der ionischen Ordnung zurück, zu denen ab das späten 3.",
+    "dative_type": "dative_prep_auf"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9872",
+    "group_start": 23,
+    "group_end": 23,
+    "group_span_text": "späten",
+    "gold_text": "Für die Gestaltung griffen sie hierbei auf die landschaftlich geprägten Bauglieder der dorischen und der ionischen Ordnung zurück, zu denen ab dem späten 3.",
+    "corrupted": "Für die Gestaltung griffen sie hierbei auf die landschaftlich geprägten Bauglieder der dorischen und der ionischen Ordnung zurück, zu denen ab dem späteres 3.",
     "dative_type": "dative_prep_auf"
   },
   {
@@ -2093,8 +2153,8 @@
     "split": "train",
     "sent_id": "train-s10473",
     "group_start": 10,
-    "group_end": 19,
-    "group_span_text": "dem \" falschen Gleis \" ( heutige Bezeichnung \" Gegengleis",
+    "group_end": 17,
+    "group_span_text": "dem falschen Gleis heutige Bezeichnung",
     "gold_text": "Zur Darstellung des Falschfahrsignales Zg 2 für Fahrten auf dem \"falschen Gleis\" (heutige Bezeichnung \"Gegengleis\") besaßen die Züge zusätzlich noch ein kleines rotes Signallicht unter dem weißen Frontsignal, das aber in den Nachkriegsjahren entfernt wurde.",
     "corrupted": "Zur Darstellung des Falschfahrsignales Zg 2 für Fahrten aufs \" falsche Gleis \" ( heutige Bezeichnung \" Gegengleis \") besaßen die Züge zusätzlich noch ein kleines rotes Signallicht unter dem weißen Frontsignal, das aber in den Nachkriegsjahren entfernt wurde.",
     "dative_type": "dative_prep_auf"
@@ -2256,7 +2316,7 @@
     "group_end": 16,
     "group_span_text": "dem von ihr selbst produzierten Album",
     "gold_text": "Geprägt von den Einflüssen ihrer Jugend, waren überwiegend Jazztracks auf dem von ihr selbst produzierten Album zu finden.",
-    "corrupted": "Geprägt von den Einflüssen ihrer Jugend, waren überwiegend Jazztracks auf den von sie selbst produzierte Album zu finden.",
+    "corrupted": "Geprägt von den Einflüssen ihrer Jugend, waren überwiegend Jazztracks auf den von ihr selbst produzierte Album zu finden.",
     "dative_type": "dative_prep_auf"
   },
   {
@@ -2582,6 +2642,16 @@
   {
     "split": "train",
     "sent_id": "train-s12622",
+    "group_start": 4,
+    "group_end": 18,
+    "group_span_text": "der rund 26 Hektar großen Fläche (einschließlich der Fleete) der ehemaligen Elbinseln Kehrwieder",
+    "gold_text": "Die Speicherstadt steht auf der rund 26 Hektar großen Fläche (einschließlich der Fleete) der ehemaligen Elbinseln Kehrwieder und Wandrahm, auf einer Länge von etwa 1,5 Kilometer und 150 bis 250 Metern Breite im nordöstlichen Hamburger Hafen.",
+    "corrupted": "Die Speicherstadt steht auf die rund 26 Hektar größere Fläche (einschließlich der Fleete) der ehemaligen Elbinseln Kehrwieder und Wandrahm, auf einer Länge von etwa 1,5 Kilometer und 150 bis 250 Metern Breite im nordöstlichen Hamburger Hafen.",
+    "dative_type": "dative_prep_auf"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12622",
     "group_start": 23,
     "group_end": 24,
     "group_span_text": "einer Länge",
@@ -2774,7 +2844,7 @@
     "sent_id": "train-s13658",
     "group_start": 52,
     "group_end": 55,
-    "group_span_text": "den Business - Markt",
+    "group_span_text": "den Business Markt",
     "gold_text": "Nach den durchschlagenden Erfolgen im Bereich Prozessrechentechnik, die DEC nach IBM auf den zweiten Platz der Computererzeuger katapultierte, kamen um 1978 neu konzipierte Rechner auf den Markt (PDP 11 / 34, 11 / 70, 11 / 44, VAX 11 / 750), die auf den Business - Markt abzielten, was damals die Domäne von IBM war.",
     "corrupted": "Nach den durchschlagenden Erfolgen im Bereich Prozessrechentechnik, die DEC nach IBM auf den zweiten Platz der Computererzeuger katapultierte, kamen um 1978 neu konzipierte Rechner auf den Markt (PDP 11 / 34, 11 / 70, 11 / 44, VAX 11 / 750), die auf die Business - Markt abzielten, was damals die Domäne von IBM war.",
     "dative_type": "dative_prep_auf"
@@ -2794,7 +2864,7 @@
     "sent_id": "train-s13696",
     "group_start": 19,
     "group_end": 22,
-    "group_span_text": "dem Studioalbum \" Love",
+    "group_span_text": "dem Studioalbum \"Love",
     "gold_text": "In dieser Zeit war Campbell nicht nur wichtiger Teil von Dylans Live - Band, sondern auch Musiker auf dem Studioalbum \"Love and Theft\" aus dem Jahr 2001 und dem Dylan - Film Masked and Anonymous aus dem Jahr 2003.",
     "corrupted": "In dieser Zeit war Campbell nicht nur wichtiger Teil von Dylans Live - Band, sondern auch Musiker aufs Studioalbum \"Love and Theft\" aus dem Jahr 2001 und dem Dylan - Film Masked and Anonymous aus dem Jahr 2003.",
     "dative_type": "dative_prep_auf"
@@ -2956,7 +3026,7 @@
     "group_end": 21,
     "group_span_text": "den internationalen Finanzmärkten",
     "gold_text": "``Der Stabilitätspakt für Europa ist ein wichtiger zusätzlicher Impuls für die Glaubwürdigkeit und Stabilität der europäischen Währung auf den internationalen Finanzmärkten'', versicherte Waigel.",
-    "corrupted": "``Der Stabilitätspakt für Europa ist ein wichtiger zusätzlicher Impuls für die Glaubwürdigkeit und Stabilität der europäischen Währung auf die internationalen Finanzmärkte'', versicherte Waigel.",
+    "corrupted": "``Der Stabilitätspakt für Europa ist ein wichtiger zusätzlicher Impuls für die Glaubwürdigkeit und Stabilität der europäischen Währung auf die internationale Finanzmärkte'', versicherte Waigel.",
     "dative_type": "dative_prep_auf"
   },
   {
@@ -3024,7 +3094,7 @@
     "sent_id": "test-s107",
     "group_start": 18,
     "group_end": 20,
-    "group_span_text": "dem \" Posten",
+    "group_span_text": "dem \"Posten",
     "gold_text": "Die Küche ist gut, wenn nicht der Koch, oder die Köche, manchmal nicht immer auf dem \"Posten\" sind.",
     "corrupted": "Die Küche ist gut, wenn nicht der Koch, oder die Köche, manchmal nicht immer auf den \"Posten\" sind.",
     "dative_type": "dative_prep_auf"
@@ -3082,11 +3152,11 @@
   {
     "split": "test",
     "sent_id": "test-s336",
-    "group_start": 12,
-    "group_end": 12,
-    "group_span_text": "dem",
+    "group_start": 8,
+    "group_end": 30,
+    "group_span_text": "dem Feld der anhaltenden Gewalt",
     "gold_text": "Den Angriff führte die Regierung vor allem auf dem Feld, auf dem sie selbst nach dem Massaker in Boipatong am ärgsten in Bedrängnis geraten war: der anhaltenden Gewalt.",
-    "corrupted": "Den Angriff führte die Regierung vor allem auf dem Feld, aufs sie selbst nach dem Massaker in Boipatong am ärgsten in Bedrängnis geraten war: der anhaltenden Gewalt.",
+    "corrupted": "Den Angriff führte die Regierung vor allem aufs Feld, auf dem sie selbst nach dem Massaker in Boipatong am ärgsten in Bedrängnis geraten war: der anhaltenden Gewalt.",
     "dative_type": "dative_prep_auf"
   },
   {
@@ -3114,7 +3184,7 @@
     "sent_id": "test-s408",
     "group_start": 27,
     "group_end": 35,
-    "group_span_text": "der Halbinsel Jaffna, der Hochburg der aufständischen Tamilen",
+    "group_span_text": "der Halbinsel Jaffna der Hochburg der aufständischen Tamilen",
     "gold_text": "Das Flugzeug mit sechs Offizieren und 13 Soldaten der Luftwaffe an Bord transportierte Treibstoff, Waffen und Munition von der Hauptstadt Colombo zum Stützpunkt Palay auf der Halbinsel Jaffna, der Hochburg der aufständischen Tamilen.",
     "corrupted": "Das Flugzeug mit sechs Offizieren und 13 Soldaten der Luftwaffe an Bord transportierte Treibstoff, Waffen und Munition von der Hauptstadt Colombo zum Stützpunkt Palay auf die Halbinsel Jaffna, die Hochburg der aufständischen Tamilen.",
     "dative_type": "dative_prep_auf"

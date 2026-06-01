@@ -81,16 +81,6 @@
   },
   {
     "split": "train",
-    "sent_id": "train-s1273",
-    "group_start": 4,
-    "group_end": 5,
-    "group_span_text": "dem dort",
-    "gold_text": "Und man kommt vom dort aus auch zu Fuß über die Josef-Kardinal-Frings Brück nach Düsseldorf.",
-    "corrupted": "Und man kommt von den dort aus auch zu Fuß über die Josef-Kardinal-Frings Brück nach Düsseldorf.",
-    "dative_type": "dative_prep_aus"
-  },
-  {
-    "split": "train",
     "sent_id": "train-s1323",
     "group_start": 1,
     "group_end": 2,
@@ -346,7 +336,7 @@
     "group_end": 9,
     "group_span_text": "feinen weißen Linien",
     "gold_text": "Der Rücken ist mit einem Muster aus feinen weißen Linien und Ringen versehen.",
-    "corrupted": "Der Rücken ist mit einem Muster aus feine blau-weißen Linien und Ringen versehen.",
+    "corrupted": "Der Rücken ist mit einem Muster aus feine weiße Linien und Ringen versehen.",
     "dative_type": "dative_prep_aus"
   },
   {
@@ -364,7 +354,7 @@
     "sent_id": "train-s2619",
     "group_start": 16,
     "group_end": 21,
-    "group_span_text": "der Gattung der Myrobalanen ( Terminalia",
+    "group_span_text": "der Gattung der Myrobalanen (Terminalia",
     "gold_text": "Der Limbabaum (Terminalia superba), auch Weiße Myrobalane genannt, ist eine Pflanzenart aus der Gattung der Myrobalanen (Terminalia).",
     "corrupted": "Der Limbabaum (Terminalia superba), auch Weiße Myrobalane genannt, ist eine Pflanzenart aus die Gattung der Myrobalanen (Terminalia).",
     "dative_type": "dative_prep_aus"
@@ -486,7 +476,7 @@
     "group_end": 17,
     "group_span_text": "ehemaligen Klöstern",
     "gold_text": "Urkunden, Amtsbücher und Akten wurden aus dem Hauptarchiv des Sachsen - Ernestinischen Gesamthauses Weimar und ehemaligen Klöstern übernommen.",
-    "corrupted": "Urkunden, Amtsbücher und Akten wurden aus dem Hauptarchiv des Sachsen - Ernestinischen Gesamthauses Weimar und ehemaligen Klöster übernommen.",
+    "corrupted": "Urkunden, Amtsbücher und Akten wurden aus dem Hauptarchiv des Sachsen - Ernestinischen Gesamthauses Weimar und ehemalige Klöster übernommen.",
     "dative_type": "dative_prep_aus"
   },
   {
@@ -494,7 +484,7 @@
     "sent_id": "train-s3122",
     "group_start": 15,
     "group_end": 20,
-    "group_span_text": "der Familie der Zahnspinner ( Notodontidae",
+    "group_span_text": "der Familie der Zahnspinner (Notodontidae",
     "gold_text": "Der Palpen - Zahnspinner (Pterostoma palpina) ist ein Schmetterling (Nachtfalter) aus der Familie der Zahnspinner (Notodontidae).",
     "corrupted": "Der Palpen - Zahnspinner (Pterostoma palpina) ist ein Schmetterling (Nachtfalter) aus die Familie der Zahnspinner (Notodontidae).",
     "dative_type": "dative_prep_aus"
@@ -574,7 +564,7 @@
     "sent_id": "train-s3266",
     "group_start": 11,
     "group_end": 16,
-    "group_span_text": "der Gattung der Storchschnäbel ( Geranium",
+    "group_span_text": "der Gattung der Storchschnäbel (Geranium",
     "gold_text": "Der Graue Storchschnabel (Geranium cinereum) ist eine Pflanzenart aus der Gattung der Storchschnäbel (Geranium) in der Familie der Storchschnabelgewächse (Geraniaceae).",
     "corrupted": "Der Graue Storchschnabel (Geranium cinereum) ist eine Pflanzenart aus die Gattung der Storchschnäbel (Geranium) in der Familie der Storchschnabelgewächse (Geraniaceae).",
     "dative_type": "dative_prep_aus"
@@ -584,7 +574,7 @@
     "sent_id": "train-s3281",
     "group_start": 11,
     "group_end": 23,
-    "group_span_text": "den Resten Riff bildender Stromatoporen ( hier Hauptriffbildner), eine ausgestorbene Tiergruppe",
+    "group_span_text": "den Resten Riff bildender Stromatoporen (hier Hauptriffbildner), eine ausgestorbene Tiergruppe",
     "gold_text": "Das 380 Millionen Jahre alte biogene Sedimentgestein ist ein Massenkalk aus den Resten Riff bildender Stromatoporen (hier Hauptriffbildner), eine ausgestorbene Tiergruppe, die systematisch zumeist zu den Schwämmen gestellt wird.",
     "corrupted": "Das 380 Millionen Jahre alte biogene Sedimentgestein ist ein Massenkalk aus die Reste Riff bildender Stromatoporen (hier Hauptriffbildner), eine ausgestorbene Tiergruppe, die systematisch zumeist zu den Schwämmen gestellt wird.",
     "dative_type": "dative_prep_aus"
@@ -843,8 +833,8 @@
     "split": "train",
     "sent_id": "train-s4665",
     "group_start": 7,
-    "group_end": 20,
-    "group_span_text": "dem Stadtteil Padrão da Légua der portugiesischen Stadt Senhora da Hora ( Distrikt Porto",
+    "group_end": 19,
+    "group_span_text": "dem Stadtteil Padrão da Légua der portugiesischen Stadt Senhora da Hora (Distrikt",
     "gold_text": "Der Padroense FC ist ein Sportverein aus dem Stadtteil Padrão da Légua der portugiesischen Stadt Senhora da Hora (Distrikt Porto).",
     "corrupted": "Der Padroense FC ist ein Sportverein aus den Stadtteil Padrão da Légua der portugiesischen Stadt Senhora da Hora (Distrikt Porto).",
     "dative_type": "dative_prep_aus"
@@ -864,7 +854,7 @@
     "sent_id": "train-s4777",
     "group_start": 14,
     "group_end": 19,
-    "group_span_text": "der Familie der Kakteengewächse ( Cactaceae",
+    "group_span_text": "der Familie der Kakteengewächse (Cactaceae",
     "gold_text": "Opuntia bisetosa ist eine Pflanzenart in der Gattung der Opuntien (Opuntia) aus der Familie der Kakteengewächse (Cactaceae).",
     "corrupted": "Opuntia bisetosa ist eine Pflanzenart in der Gattung der Opuntien (Opuntia) aus die Familie der Kakteengewächse (Cactaceae).",
     "dative_type": "dative_prep_aus"
@@ -1184,7 +1174,7 @@
     "sent_id": "train-s6035",
     "group_start": 19,
     "group_end": 27,
-    "group_span_text": "aller Messwerte ( also nicht nur der ursprünglich ausgewählten",
+    "group_span_text": "aller Messwerte (also nicht nur der ursprünglich ausgewählten",
     "gold_text": "Diese Annahme wird überprüft, indem zuerst das Modell aus den zufällig gewählten Werten berechnet und danach die Distanz aller Messwerte (also nicht nur der ursprünglich ausgewählten) zu diesem Modell bestimmt wird.",
     "corrupted": "Diese Annahme wird überprüft, indem zuerst das Modell aus den zufällig gewählten Werten berechnet und danach die Distanz aller Messwerte (also nicht nur die ursprünglich ausgewählten) zu diesem Modell bestimmt wird.",
     "dative_type": "dative_prep_aus"
@@ -1204,7 +1194,7 @@
     "sent_id": "train-s6174",
     "group_start": 1,
     "group_end": 5,
-    "group_span_text": "der \" Bunker Hill Mine",
+    "group_span_text": "der \"Bunker Hill Mine",
     "gold_text": "Aus der \"Bunker Hill Mine\" bei Kellogg im Shoshone County (Idaho, USA) kennt man Anglesitfunde von bis zu 7,5 cm Länge und in der \"Tsumeb Mine\" in Namibia konnten Kristalle bis etwa 4 cm Größe gefunden werden.",
     "corrupted": "Aus die \"Bunker Hill Mine\" bei Kellogg im Shoshone County (Idaho, USA) kennt man Anglesitfunde von bis zu 7,5 cm Länge und in der \"Tsumeb Mine\" in Namibia konnten Kristalle bis etwa 4 cm Größe gefunden werden.",
     "dative_type": "dative_prep_aus"
@@ -1544,7 +1534,7 @@
     "sent_id": "train-s7290",
     "group_start": 12,
     "group_end": 17,
-    "group_span_text": "der Gattung der Laubsänger ( Phylloscopus",
+    "group_span_text": "der Gattung der Laubsänger (Phylloscopus",
     "gold_text": "Der Goldscheitel - Laubsänger (Phylloscopus ricketti) ist ein Singvogel aus der Gattung der Laubsänger (Phylloscopus).",
     "corrupted": "Der Goldscheitel - Laubsänger (Phylloscopus ricketti) ist ein Singvogel aus die Gattung der Laubsänger (Phylloscopus).",
     "dative_type": "dative_prep_aus"
@@ -1701,10 +1691,20 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s7815",
+    "group_start": 9,
+    "group_end": 14,
+    "group_span_text": "städtischem als auch aus ländlichem Umfeld",
+    "gold_text": "Viele Menschen aus allen sozialen Schichten, sowohl aus städtischem als auch aus ländlichem Umfeld, suchten Leonids Rat, er wurde weit über Optina hinaus berühmt.",
+    "corrupted": "Viele Menschen aus allen sozialen Schichten, sowohl aus städtische als auch aus ländlichem Umfeld, suchten Leonids Rat, er wurde weit über Optina hinaus berühmt.",
+    "dative_type": "dative_prep_aus"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s7818",
     "group_start": 7,
     "group_end": 11,
-    "group_span_text": "dem nicht - deutschsprachigen Ausland",
+    "group_span_text": "dem nicht-deutschsprachigen Ausland",
     "gold_text": "Clark ist damit der erste Preisträger aus dem nicht-deutschsprachigen Ausland.",
     "corrupted": "Clark ist damit der erste Preisträger aus das nicht-deutschsprachige Ausland.",
     "dative_type": "dative_prep_aus"
@@ -1891,6 +1891,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s8570",
+    "group_start": 27,
+    "group_end": 33,
+    "group_span_text": "den geführten Auseinandersetzungen",
+    "gold_text": "Gegründet wurde die Bahamas 1992 in Hamburg durch die damals von der Minderheitsfraktion des aufgelösten Kommunistischen Bundes (KB) gebildete Gruppe K. Sie war hervorgegangen aus den 1990 im KB geführten Auseinandersetzungen um das Verhalten zur sich abzeichnenden Wiedervereinigung Deutschlands: Während die Mehrheitsströmung auf ein Zusammengehen mit der Linken des Ostens (PDS) und eine Ausrichtung auf die von ihr erwartete soziale Opposition gegen die Folgen der Wiederherstellung des Kapitalismus setzte, sah die Minderheit angesichts der angeblichen Marginalisierung der Linken eine radikale Opposition gegen die deutsche Einheit, den neuen Nationalismus, das Wiedererstarken von Rassismus, Antisemitismus und Geschichtsrevisionismus und das neue deutsche Großmachtstreben als geboten an.",
+    "corrupted": "Gegründet wurde die Bahamas 1992 in Hamburg durch die damals von der Minderheitsfraktion des aufgelösten Kommunistischen Bundes ( KB) gebildete Gruppe K. Sie war hervorgegangen aus die 1990 im KB geführten Auseinandersetzungen um das Verhalten zur sich abzeichnenden Wiedervereinigung Deutschlands: Während die Mehrheitsströmung auf ein Zusammengehen mit der Linken des Ostens ( PDS) und eine Ausrichtung auf die von ihr erwartete soziale Opposition gegen die Folgen der Wiederherstellung des Kapitalismus setzte, sah die Minderheit angesichts der angeblichen Marginalisierung der Linken eine radikale Opposition gegen die deutsche Einheit, den neuen Nationalismus, das Wiedererstarken von Rassismus, Antisemitismus und Geschichtsrevisionismus und das neue deutsche Großmachtstreben als geboten an.",
+    "dative_type": "dative_prep_aus"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s8613",
     "group_start": 4,
     "group_end": 5,
@@ -1944,7 +1954,7 @@
     "sent_id": "train-s8971",
     "group_start": 14,
     "group_end": 17,
-    "group_span_text": "der DDR - Liga",
+    "group_span_text": "der DDR Liga",
     "gold_text": "Mannschaften der Oberligateams (nachfolgend mit * gekennzeichnet) wurden zum Saisonende aus der DDR - Liga ausgegliedert.",
     "corrupted": "Mannschaften der Oberligateams ( nachfolgend mit * gekennzeichnet) wurden zum Saisonende aus die DDR - Liga ausgegliedert.",
     "dative_type": "dative_prep_aus"
@@ -1967,6 +1977,16 @@
     "group_span_text": "dem Jahr",
     "gold_text": "Der Wechselstromgenerator der Gesellschaft Alliance (siehe Galerie) nach einer Anregung von Floris Nollet (Brüssel) aus dem Jahr 1849 war der erste Generator, der in der Industrie nennenswerten Einsatz fand.",
     "corrupted": "Der Wechselstromgenerator der Gesellschaft Alliance (siehe Galerie) nach einer Anregung von Floris Nollet (Brüssel) aus das Jahr 1849 war der erste Generator, der in der Industrie nennenswerten Einsatz fand.",
+    "dative_type": "dative_prep_aus"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9011",
+    "group_start": 8,
+    "group_end": 11,
+    "group_span_text": "mehreren DIN A4 Seiten",
+    "gold_text": "Die Abbildung eins komplexen Wartungsprotokolls, dass aus mehreren DIN A4 Seiten besteht ist so nur unter großen Mühen für den Ausfüllenden möglich.",
+    "corrupted": "Die Abbildung eins komplexen Wartungsprotokolls, dass aus mehrere DIN A4 Seiten besteht ist so nur unter großen Mühen für den Ausfüllenden möglich.",
     "dative_type": "dative_prep_aus"
   },
   {
@@ -2006,7 +2026,7 @@
     "group_end": 13,
     "group_span_text": "ehemaligen Mitgliedern",
     "gold_text": "Der brasilianische Jugendchor Santa Cecilia setzt sich zur einen Hälfte aus ehemaligen Mitgliedern des seit 1954 bestehenden Erwachsenenchores Choral Santa Cecilia aus Riversul und zur anderen Hälfte aus Jugendlichen der Region Riversul zusammen.",
-    "corrupted": "Der brasilianische Jugendchor Santa Cecilia setzt sich zur einen Hälfte aus ehemaligen Mitglieder des seit 1954 bestehenden Erwachsenenchores Choral Santa Cecilia aus Riversul und zur anderen Hälfte aus Jugendlichen der Region Riversul zusammen.",
+    "corrupted": "Der brasilianische Jugendchor Santa Cecilia setzt sich zur einen Hälfte aus ehemalige Mitglieder des seit 1954 bestehenden Erwachsenenchores Choral Santa Cecilia aus Riversul und zur anderen Hälfte aus Jugendlichen der Region Riversul zusammen.",
     "dative_type": "dative_prep_aus"
   },
   {
@@ -2077,6 +2097,16 @@
     "group_span_text": "dem Jahr",
     "gold_text": "Chocolate Cosmos (jap., Chokorēto Kosumosu) ist ein Manga der japanischen Mangaka Nana Haruta aus dem Jahr 2007.",
     "corrupted": "Chocolate Cosmos (jap., Chokorēto Kosumosu) ist ein Manga der japanischen Mangaka Nana Haruta aus das Jahr 2007.",
+    "dative_type": "dative_prep_aus"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9331",
+    "group_start": 8,
+    "group_end": 25,
+    "group_span_text": "einer von ihrem Vater Johnny Cash 1973 erstellten, 100 Titel umfassenden Liste der wichtigsten Country - Songs",
+    "gold_text": "Nach ihren Angaben enthält es zwölf Titel aus einer von ihrem Vater Johnny Cash 1973 erstellten, 100 Titel umfassenden Liste der wichtigsten Country - Songs.",
+    "corrupted": "Nach ihren Angaben enthält es zwölf Titel aus eine von ihrem Vater Johnny Cash 1973 erstellte, 100 Titel umfassende Liste der wichtigsten Country - Songs.",
     "dative_type": "dative_prep_aus"
   },
   {
@@ -2343,10 +2373,20 @@
     "split": "train",
     "sent_id": "train-s10255",
     "group_start": 3,
-    "group_end": 11,
-    "group_span_text": "inneren Formen, den Prinzipien des Aikidō ( Ki",
+    "group_end": 9,
+    "group_span_text": "inneren Formen, den Prinzipien des Aikidō",
     "gold_text": "Aikidō besteht aus inneren Formen, den Prinzipien des Aikidō (Ki, Aiki, Kokyū, Hara, Shin), und äußeren Formen, den Techniken (Waza), wobei erst beide Formen zusammen Aikidō bilden.",
     "corrupted": "Aikidō besteht aus inneren Formen, die Prinzipien des Aikidō (Ki, Aiki, Kokyū, Hara, Shin), und äußeren Formen, den Techniken (Waza), wobei erst beide Formen zusammen Aikidō bilden.",
+    "dative_type": "dative_prep_aus"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10255",
+    "group_start": 23,
+    "group_end": 27,
+    "group_span_text": "äußeren Formen, den Techniken",
+    "gold_text": "Aikidō besteht aus inneren Formen, den Prinzipien des Aikidō (Ki, Aiki, Kokyū, Hara, Shin), und äußeren Formen, den Techniken (Waza), wobei erst beide Formen zusammen Aikidō bilden.",
+    "corrupted": "Aikidō besteht aus inneren Formen, den Prinzipien des Aikidō (Ki, Aiki, Kokyū, Hara, Shin), und äußere Formen, die Techniken (Waza), wobei erst beide Formen zusammen Aikidō bilden.",
     "dative_type": "dative_prep_aus"
   },
   {
@@ -2604,7 +2644,7 @@
     "sent_id": "train-s10979",
     "group_start": 10,
     "group_end": 16,
-    "group_span_text": "der Familie der Echten Schweine ( Suidae",
+    "group_span_text": "der Familie der Echten Schweine (Suidae",
     "gold_text": "Das Wüstenwarzenschwein (Phacochoerus aethiopicus) ist eine Säugetierart aus der Familie der Echten Schweine (Suidae).",
     "corrupted": "Das Wüstenwarzenschwein (Phacochoerus aethiopicus) ist eine Säugetierart aus die Familie der Echten Schweine (Suidae).",
     "dative_type": "dative_prep_aus"
@@ -2956,7 +2996,7 @@
     "group_end": 12,
     "group_span_text": "einer bis vielen Blüten",
     "gold_text": "Die Blüten stehen meist achselständig in dichasialen Blütenständen aus einer bis vielen Blüten, selten sind die Blütenstände rispig.",
-    "corrupted": "Die Blüten stehen meist achselständig in dichasialen Blütenständen aus eine bis viele Blüten, selten sind die Blütenstände rispig.",
+    "corrupted": "Die Blüten stehen meist achselständig in dichasialen Blütenständen aus eine bis vielen Blüten, selten sind die Blütenstände rispig.",
     "dative_type": "dative_prep_aus"
   },
   {
@@ -3354,7 +3394,7 @@
     "sent_id": "train-s13797",
     "group_start": 21,
     "group_end": 30,
-    "group_span_text": "der in alle Winde verkauften Klosterbibliothek ( \" Bibliotheca Minoraugiensis",
+    "group_span_text": "der verkauften Klosterbibliothek Bibliotheca Minoraugiensis",
     "gold_text": "Sie bestand größtenteils aus alten Drucken und Handschriften, die nach der Auflösung des Klosters im Zuge der Säkularisation aus der in alle Winde verkauften Klosterbibliothek (\"Bibliotheca Minoraugiensis\") gerettet wurden.",
     "corrupted": "Sie bestand größtenteils aus alten Drucken und Handschriften, die nach der Auflösung des Klosters im Zuge der Säkularisation aus die in alle Winde verkauften Klosterbibliothek (\"Bibliotheca Minoraugiensis\") gerettet wurden.",
     "dative_type": "dative_prep_aus"
@@ -3651,16 +3691,6 @@
   },
   {
     "split": "test",
-    "sent_id": "test-s563",
-    "group_start": 5,
-    "group_end": 8,
-    "group_span_text": "dem `` translated Bottom",
-    "gold_text": "August Wilhelm Schlegel hatte aus dem ``translated Bottom'' einen ``transferierten Zettel'' gemacht.",
-    "corrupted": "August Wilhelm Schlegel hatte aus den ``translated Bottom'' einen ``transferierten Zettel'' gemacht.",
-    "dative_type": "dative_prep_aus"
-  },
-  {
-    "split": "test",
     "sent_id": "test-s644",
     "group_start": 22,
     "group_end": 23,
@@ -3684,7 +3714,7 @@
     "sent_id": "test-s667",
     "group_start": 21,
     "group_end": 26,
-    "group_span_text": "der Vorstellung des `` leidenden Gottes",
+    "group_span_text": "der Vorstellung des ``leidenden Gottes",
     "gold_text": "Eine solche tiefverankerte Gesinnung speise sich aus der Erinnerung an die Geschichte des Leidens und der Befreiung des Menschen, aus der Vorstellung des ``leidenden Gottes''.",
     "corrupted": "Eine solche tiefverankerte Gesinnung speise sich aus der Erinnerung an die Geschichte des Leidens und der Befreiung des Menschen, aus die Vorstellung des ``leidenden Gottes''.",
     "dative_type": "dative_prep_aus"

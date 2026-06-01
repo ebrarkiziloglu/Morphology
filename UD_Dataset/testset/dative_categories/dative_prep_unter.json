@@ -66,7 +66,7 @@
     "group_end": 32,
     "group_span_text": "den besten 20",
     "gold_text": "Nach ersten Siegen bei FIS - Rennen im März 2010 erreichte er im Nor - am Cup in der Saison 2010 / 2011 zunächst erstmals Platzierungen unter den besten 20 und gegen Saisonende mit Platz acht im Riesenslalom von Whistler das erste Top - 10 - Ergebnis.",
-    "corrupted": "Nach ersten Siegen bei FIS - Rennen im März 2010 erreichte er im Nor - am Cup in der Saison 2010 / 2011 zunächst erstmals Platzierungen unter die guten 20 und gegen Saisonende mit Platz acht im Riesenslalom von Whistler das erste Top - 10 - Ergebnis.",
+    "corrupted": "Nach ersten Siegen bei FIS - Rennen im März 2010 erreichte er im Nor - am Cup in der Saison 2010 / 2011 zunächst erstmals Platzierungen unter die besten 20 und gegen Saisonende mit Platz acht im Riesenslalom von Whistler das erste Top - 10 - Ergebnis.",
     "dative_type": "dative_prep_unter"
   },
   {
@@ -174,7 +174,7 @@
     "sent_id": "train-s3400",
     "group_start": 38,
     "group_end": 43,
-    "group_span_text": "dem Titel \" Castrol Austria Trophy",
+    "group_span_text": "dem Titel \"Castrol Austria Trophy",
     "gold_text": "So lief der Automobilteil unter dem Titel \"Mercedes - Benz - Cup\", später dann umbenannt in \"Mercedes - Benz - Trophäe Alfred Neubauer\", gesponsert von Mercedes Benz Österreich und der Motorradteil unter dem Titel \"Castrol Austria Trophy\", gesponsert von Castrol Austria.",
     "corrupted": "So lief der Automobilteil unter dem Titel \"Mercedes - Benz - Cup\", später dann umbenannt in \"Mercedes - Benz - Trophäe Alfred Neubauer\", gesponsert von Mercedes Benz Österreich und der Motorradteil unter den Titel \"Castrol Austria Trophy\", gesponsert von Castrol Austria.",
     "dative_type": "dative_prep_unter"
@@ -326,7 +326,7 @@
     "group_end": 17,
     "group_span_text": "hohen Kosten",
     "gold_text": "Allerdings wurde die Kirche 90 Jahre nach ihrer Erbauung so schwer baufällig, dass sie unter hohen Kosten saniert werden musste.",
-    "corrupted": "Allerdings wurde die Kirche 90 Jahre nach ihrer Erbauung so schwer baufällig, dass sie unter höhere Kosten saniert werden musste.",
+    "corrupted": "Allerdings wurde die Kirche 90 Jahre nach ihrer Erbauung so schwer baufällig, dass sie unter hohe Kosten saniert werden musste.",
     "dative_type": "dative_prep_unter"
   },
   {
@@ -344,7 +344,7 @@
     "sent_id": "train-s5001",
     "group_start": 1,
     "group_end": 10,
-    "group_span_text": "der Dreiteilung des Winkels ( auch: Trisektion des Winkels",
+    "group_span_text": "der Dreiteilung des Winkels (auch: Trisektion des Winkels",
     "gold_text": "Unter der Dreiteilung des Winkels (auch: Trisektion des Winkels) versteht man in der Geometrie das Problem, ob man einen beliebigen Winkel nur mit Hilfe von Zirkel und Lineal (den euklidischen Werkzeugen) konstruktiv und präzise in drei gleich große Winkel unterteilen kann.",
     "corrupted": "Unter die Dreiteilung des Winkels (auch: Trisektion des Winkels) versteht man in der Geometrie das Problem, ob man einen beliebigen Winkel nur mit Hilfe von Zirkel und Lineal (den euklidischen Werkzeugen) konstruktiv und präzise in drei gleich große Winkel unterteilen kann.",
     "dative_type": "dative_prep_unter"
@@ -444,7 +444,7 @@
     "sent_id": "train-s5573",
     "group_start": 6,
     "group_end": 12,
-    "group_span_text": "der Verwaltung der Hudson's Bay Company",
+    "group_span_text": "der Verwaltung der Hudson 's Bay Company",
     "gold_text": "Die Region stand de facto unter der Verwaltung der Hudson 's Bay Company und dessen Filialleiter James Douglas, der gleichzeitig Gouverneur von Vancouver Island war.",
     "corrupted": "Die Region stand de facto unter die Verwaltung der Hudson 's Bay Company und dessen Filialleiter James Douglas, der gleichzeitig Gouverneur von Vancouver Island war.",
     "dative_type": "dative_prep_unter"
@@ -493,8 +493,8 @@
     "split": "train",
     "sent_id": "train-s5839",
     "group_start": 8,
-    "group_end": 11,
-    "group_span_text": "dem Namen Gruppe G",
+    "group_end": 10,
+    "group_span_text": "dem Namen Gruppe",
     "gold_text": "1899 formierte sich eine weitere separatistische Künstlervereinigung unter dem Namen Gruppe G, die sich kurz darauf in Scholle umbenannte und 1913 gründete sich die Münchner Neue Secession.",
     "corrupted": "1899 formierte sich eine weitere separatistische Künstlervereinigung unter den Namen Gruppe G, die sich kurz darauf in Scholle umbenannte und 1913 gründete sich die Münchner Neue Secession.",
     "dative_type": "dative_prep_unter"
@@ -613,8 +613,8 @@
     "split": "train",
     "sent_id": "train-s6663",
     "group_start": 9,
-    "group_end": 13,
-    "group_span_text": "dem Titel \" Intoleranz 2",
+    "group_end": 12,
+    "group_span_text": "dem Titel \"Intoleranz",
     "gold_text": "Die jüngste und aktuelle Geschichte wurde 1919 nochmals unter dem Titel \"Intoleranz 2.",
     "corrupted": "Die jüngste und aktuelle Geschichte wurde 1919 nochmals unter den Titel \"Intoleranz 2.",
     "dative_type": "dative_prep_unter"
@@ -764,7 +764,7 @@
     "sent_id": "train-s7484",
     "group_start": 9,
     "group_end": 13,
-    "group_span_text": "dem Beinamen \" River Rats",
+    "group_span_text": "dem Beinamen \"River Rats",
     "gold_text": "Dort konnte das Team unter Trainer Josef Capla und dem Beinamen \"River Rats\" den Klassenverbleib erst durch einen dritten Platz in der Qualifikationsrunde sichern.",
     "corrupted": "Dort konnte das Team unter Trainer Josef Capla und den Beinamen \"River Rats\" den Klassenverbleib erst durch einen dritten Platz in der Qualifikationsrunde sichern.",
     "dative_type": "dative_prep_unter"
@@ -904,7 +904,7 @@
     "sent_id": "train-s8443",
     "group_start": 6,
     "group_end": 13,
-    "group_span_text": "dem Titel \" Le rudiment de la musique",
+    "group_span_text": "dem Titel \"Le rudiment de la musique",
     "gold_text": "Cardon veröffentlichte 1786 ein Traktat unter dem Titel \"Le rudiment de la musique, ou Principes de cet art à la portée de tout le monde, par questions et réponses\".",
     "corrupted": "Cardon veröffentlichte 1786 ein Traktat unter den Titel \"Le rudiment de la musique, ou Principes de cet art à la portée de tout le monde, par questions et réponses\".",
     "dative_type": "dative_prep_unter"
@@ -1033,8 +1033,8 @@
     "split": "train",
     "sent_id": "train-s9779",
     "group_start": 14,
-    "group_end": 19,
-    "group_span_text": "verschiedenen Namen bekannt: Torre Clavel",
+    "group_end": 18,
+    "group_span_text": "verschiedenen Namen bekannt: Torre",
     "gold_text": "Der ehemalige Wachturm in Positano, den Gilbert Clavel ausbauen liess, ist unter verschiedenen Namen bekannt: Torre Clavel, Castel Clavel, Torre di Fornillo, Torre di Positano.",
     "corrupted": "Der ehemalige Wachturm in Positano, den Gilbert Clavel ausbauen liess, ist unter verschiedene Namen bekannt: Torre Clavel, Castel Clavel, Torre di Fornillo, Torre di Positano.",
     "dative_type": "dative_prep_unter"
@@ -1214,7 +1214,7 @@
     "sent_id": "train-s10675",
     "group_start": 1,
     "group_end": 7,
-    "group_span_text": "dem \" Dach \" des Örebro SK",
+    "group_span_text": "dem \"Dach\" des Örebro SK",
     "gold_text": "Unter dem \"Dach\" des Örebro SK gibt es mehrere eigenständige Vereine, welche jeweils eine Sportart vertreten.",
     "corrupted": "Unters \"Dach\" des Örebro SK gibt es mehrere eigenständige Vereine, welche jeweils eine Sportart vertreten.",
     "dative_type": "dative_prep_unter"
@@ -1456,7 +1456,7 @@
     "group_end": 16,
     "group_span_text": "den besten zehn",
     "gold_text": "Platz erstmals der Gewinn von Weltcup - Punkten und zudem erstmals eine Platzierung unter den besten zehn.",
-    "corrupted": "Platz erstmals der Gewinn von Weltcup - Punkten und zudem erstmals eine Platzierung unter die guten zehn.",
+    "corrupted": "Platz erstmals der Gewinn von Weltcup - Punkten und zudem erstmals eine Platzierung unter die besten zehn.",
     "dative_type": "dative_prep_unter"
   },
   {
@@ -1474,7 +1474,7 @@
     "sent_id": "train-s11934",
     "group_start": 7,
     "group_end": 11,
-    "group_span_text": "dem Titel \" Die Langoliers",
+    "group_span_text": "dem Titel \"Die Langoliers",
     "gold_text": "Die Kurzgeschichte wurde als zweiteiliger Spielfilm unter dem Titel \"Die Langoliers\" verfilmt.",
     "corrupted": "Die Kurzgeschichte wurde als zweiteiliger Spielfilm unter den Titel \"Die Langoliers\" verfilmt.",
     "dative_type": "dative_prep_unter"
@@ -1914,7 +1914,7 @@
     "sent_id": "test-s767",
     "group_start": 13,
     "group_end": 19,
-    "group_span_text": "dem Schirm der Westeuropäischen Union ( WEU",
+    "group_span_text": "dem Schirm der Westeuropäischen Union (WEU",
     "gold_text": "Es müsse absolute Klarheit über die Befehlsstruktur herrschen, das Eurokorps müßte unter dem Schirm der Westeuropäischen Union (WEU) operieren.",
     "corrupted": "Es müsse absolute Klarheit über die Befehlsstruktur herrschen, das Eurokorps müßte unter den Schirm der Westeuropäischen Union (WEU) operieren.",
     "dative_type": "dative_prep_unter"

@@ -221,6 +221,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s1798",
+    "group_start": 22,
+    "group_end": 22,
+    "group_span_text": "dem",
+    "gold_text": "``Die Region wird damit zum Entwicklungsland, die Bodenschätze vor Ort geschürft, die Veredlung und Wertschöpfung jedoch findet im Ausland statt'', ärgert sich der Abgeordnete Meyer.",
+    "corrupted": "`` Die Region wird damit zum Entwicklungsland, die Bodenschätze vor Ort geschürft, die Veredlung und Wertschöpfung jedoch findet ins Ausland statt '', ärgert sich der Abgeordnete Meyer.",
+    "dative_type": "dative_prep_vor"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s1858",
     "group_start": 34,
     "group_end": 35,
@@ -264,7 +274,7 @@
     "sent_id": "train-s2009",
     "group_start": 3,
     "group_end": 13,
-    "group_span_text": "dem Beginn des Forums der Asiatisch - Pazifischen Wirtschaftskooperation ( Apec",
+    "group_span_text": "dem Beginn des Forums der Asiatisch-Pazifischen Wirtschaftskooperation (Apec",
     "gold_text": "Wenige Tage vor dem Beginn des Forums der Asiatisch-Pazifischen Wirtschaftskooperation (Apec) im japanischen Osaka machen die asiatischen Staatschefs keinen Hehl aus ihrem Ärger über das Gastgeberland.",
     "corrupted": "Wenige Tage vor den Beginn des Forums der Asiatisch-Pazifischen Wirtschaftskooperation (Apec) im japanischen Osaka machen die asiatischen Staatschefs keinen Hehl aus ihrem Ärger über das Gastgeberland.",
     "dative_type": "dative_prep_vor"
@@ -674,7 +684,7 @@
     "sent_id": "train-s4480",
     "group_start": 4,
     "group_end": 9,
-    "group_span_text": "einem weiteren Wirbel ( erste Urale",
+    "group_span_text": "einem weiteren Wirbel (erste Urale",
     "gold_text": "Dieser Wirbel liegt vor einem weiteren Wirbel (erste Urale), der bei allen Heringsartigen mit der zweiten Hypuralia verwachsen ist.",
     "corrupted": "Dieser Wirbel liegt vor einen weiteren Wirbel (erste Urale), der bei allen Heringsartigen mit der zweiten Hypuralia verwachsen ist.",
     "dative_type": "dative_prep_vor"
@@ -1824,7 +1834,7 @@
     "sent_id": "train-s13559",
     "group_start": 3,
     "group_end": 8,
-    "group_span_text": "den Folgen des Erdbebens von dem",
+    "group_span_text": "den Folgen des Erdbebens dem",
     "gold_text": "Als Flüchtling vor den Folgen des Erdbebens vom 1.",
     "corrupted": "Als Flüchtling vor die Folgen des Erdbebens von das 1.",
     "dative_type": "dative_prep_vor"
@@ -2124,7 +2134,7 @@
     "sent_id": "test-s150",
     "group_start": 12,
     "group_end": 17,
-    "group_span_text": "meiner kleinen Tochter ( 2 Jahre",
+    "group_span_text": "meiner kleinen Tochter 2 Jahre",
     "gold_text": "Fr. Dr. Berndt hat mich ins Behandlungszimmer gerufen und vor meiner kleinen Tochter (2 Jahre) die Tür vor der Nase zugemacht und gesagt \"Du wartest draussen!\"",
     "corrupted": "Fr. Dr. Berndt hat mich ins Behandlungszimmer gerufen und vor meine kleine Tochter ( 2 Jahre) die Tür vor der Nase zugemacht und gesagt \" Du wartest draussen! \"",
     "dative_type": "dative_prep_vor"

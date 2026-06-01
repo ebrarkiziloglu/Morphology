@@ -11,16 +11,6 @@
   },
   {
     "split": "train",
-    "sent_id": "train-s3279",
-    "group_start": 13,
-    "group_end": 16,
-    "group_span_text": "entwickelte sich zu der",
-    "gold_text": "Die Straße wurde als Frankford Pike, später als Frankford Avenue bekannt und entwickelte sich zur Hauptstraße des Ortes.",
-    "corrupted": "Die Straße wurde als Frankford Pike, später als Frankford Avenue bekannt und entwickelte sich zu die Hauptstraße des Ortes.",
-    "dative_type": "comparative_case_dative"
-  },
-  {
-    "split": "train",
     "sent_id": "train-s3506",
     "group_start": 11,
     "group_end": 12,
@@ -47,16 +37,6 @@
     "group_span_text": "den Wolverhampton Wanderers",
     "gold_text": "Nach einer überzeugenden Saison 2006 / 07 wurde er von zahlreichen Vereinen, wie den Wolverhampton Wanderers, FC Hibernian, oder FC Aberdeen umworben, entschied sich aber für einen Wechsel zu den Glasgow Rangers.",
     "corrupted": "Nach einer überzeugenden Saison 2006 / 07 wurde er von zahlreichen Vereinen, wie die Wolverhampton Wanderers, FC Hibernian, oder FC Aberdeen umworben, entschied sich aber für einen Wechsel zu den Glasgow Rangers.",
-    "dative_type": "comparative_case_dative"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s6827",
-    "group_start": 17,
-    "group_end": 18,
-    "group_span_text": "den von",
-    "gold_text": "In ihm lebten viele Angehörige adeliger Familien der näheren Umgebung, wie z.B. den von Nesselröden oder den von Hundelshausen.",
-    "corrupted": "In ihm lebten viele Angehörige adeliger Familien der näheren Umgebung, wie z.B. den von Nesselröden oder die von Hundelshausen.",
     "dative_type": "comparative_case_dative"
   },
   {
@@ -94,7 +74,7 @@
     "sent_id": "train-s9468",
     "group_start": 53,
     "group_end": 59,
-    "group_span_text": "frühestem Reit - und Lasttier des Menschen",
+    "group_span_text": "frühestem Reit des Menschen",
     "gold_text": "Ausgehend von der Enharmonik der Griechen mit ihren Vierteltönen und einer sicher frühen Mehrstimmigkeit gelangte Vogel durch älteste Felszeichnungen im Jemen und in Eritrea zu der Erkenntnis, dass entscheidende frühe kulturelle Errungenschaften wie Metallverarbeitung, Fernhandel, Tierzucht und eben unsere Musik auf das engste mit der Domestizierung des Esels als frühestem Reit - und Lasttier des Menschen verknüpft waren.",
     "corrupted": "Ausgehend von der Enharmonik der Griechen mit ihren Vierteltönen und einer sicher frühen Mehrstimmigkeit gelangte Vogel durch älteste Felszeichnungen im Jemen und in Eritrea zu der Erkenntnis, dass entscheidende frühe kulturelle Errungenschaften wie Metallverarbeitung, Fernhandel, Tierzucht und eben unsere Musik auf das engste mit der Domestizierung des Esels als früheres Reit - und Lasttier des Menschen verknüpft waren.",
     "dative_type": "comparative_case_dative"

@@ -64,7 +64,7 @@
     "sent_id": "train-s1561",
     "group_start": 12,
     "group_end": 16,
-    "group_span_text": "denen der Automobil - Hersteller",
+    "group_span_text": "denen der Automobil-Hersteller",
     "gold_text": "Die Anleger reagierten mit Verkäufen vor allem von exportabhängigen Werten wie etwa denen der Automobil-Hersteller.",
     "corrupted": "Die Anleger reagierten mit Verkäufen vor allem von exportabhängigen Werten wie etwa die der Automobil-Hersteller.",
     "dative_type": "nominal_dative_modifier"
@@ -74,7 +74,7 @@
     "sent_id": "train-s2367",
     "group_start": 19,
     "group_end": 27,
-    "group_span_text": "der Church of St James, der heutigen Kathedrale",
+    "group_span_text": "der Church of St James der heutigen Kathedrale",
     "gold_text": "Norman Gate datiert von 1120 bis 1148 und war der Zugang zur Klosterkirche und ist noch der Glockenturm der Church of St James, der heutigen Kathedrale.",
     "corrupted": "Norman Gate datiert von 1120 bis 1148 und war der Zugang zur Klosterkirche und ist noch der Glockenturm der Church of St James, die heutige Kathedrale.",
     "dative_type": "nominal_dative_modifier"
@@ -121,6 +121,16 @@
   },
   {
     "split": "train",
+    "sent_id": "train-s3278",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "besten Maler",
+    "gold_text": "Wen Gott zum besten Maler auf dieser Welt geschaffen hätte, der würde der Menschheit einen schlechten Dienst tun, wenn er etwa ein Gerichtsmann werden wollte.\"",
+    "corrupted": "Wen Gott zum guten Maler auf dieser Welt geschaffen hätte, der würde der Menschheit einen schlechten Dienst tun, wenn er etwa ein Gerichtsmann werden wollte. \"",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
     "sent_id": "train-s3296",
     "group_start": 19,
     "group_end": 20,
@@ -153,8 +163,8 @@
     "split": "train",
     "sent_id": "train-s4102",
     "group_start": 7,
-    "group_end": 17,
-    "group_span_text": "des HK Traktor Tscheljabinsk, einem der Eishockeyklubs seiner Geburtsstadt Tscheljabinsk",
+    "group_end": 16,
+    "group_span_text": "des HK Traktor Tscheljabinsk, einem der Eishockeyklubs seiner Geburtsstadt",
     "gold_text": "Kopot erlernte das Eishockeyspielen in der Nachwuchsabteilung des HK Traktor Tscheljabinsk, einem der Eishockeyklubs seiner Geburtsstadt Tscheljabinsk am Ural.",
     "corrupted": "Kopot erlernte das Eishockeyspielen in der Nachwuchsabteilung des HK Traktor Tscheljabinsk, einen der Eishockeyklubs seiner Geburtsstadt Tscheljabinsk am Ural.",
     "dative_type": "nominal_dative_modifier"
@@ -184,7 +194,7 @@
     "sent_id": "train-s4565",
     "group_start": 2,
     "group_end": 12,
-    "group_span_text": "der mittlerweile wieder aufgehobenen \" Lex Balaguer \", einer Verfassungsänderung",
+    "group_span_text": "der mittlerweile wieder aufgehobenen \"Lex Balaguer\", einer Verfassungsänderung",
     "gold_text": "Als Folge der mittlerweile wieder aufgehobenen \"Lex Balaguer\", einer Verfassungsänderung, die dem Präsidenten eine direkte Wiederwahl verbietet, trat dieser 2000 nicht zur Präsidentenwahl an, die Hipólito Mejía -- abermals gegen Balaguer, der im Alter von 93 Jahren zum letzten Mal kandidierte -- gewann.",
     "corrupted": "Als Folge der mittlerweile wieder aufgehobenen \" Lex Balaguer \", eine Verfassungsänderung, die dem Präsidenten eine direkte Wiederwahl verbietet, trat dieser 2000 nicht zur Präsidentenwahl an, die Hipólito Mejía -- abermals gegen Balaguer, der im Alter von 93 Jahren zum letzten Mal kandidierte -- gewann.",
     "dative_type": "nominal_dative_modifier"
@@ -244,7 +254,7 @@
     "sent_id": "train-s5494",
     "group_start": 15,
     "group_end": 20,
-    "group_span_text": "der \" Schöpferin \" allen Lebens",
+    "group_span_text": "der \"Schöpferin\" allen Lebens",
     "gold_text": "Aber auch nach seinem Tod dient Rahl dem Hüter der Unterwelt, dem erbitterten Gegner der \"Schöpferin\" allen Lebens, die als Göttin verehrt wird.",
     "corrupted": "Aber auch nach seinem Tod dient Rahl dem Hüter der Unterwelt, dem erbitterten Gegner die \"Schöpferin\" allen Lebens, die als Göttin verehrt wird.",
     "dative_type": "nominal_dative_modifier"
@@ -354,9 +364,19 @@
     "sent_id": "train-s8570",
     "group_start": 53,
     "group_end": 56,
-    "group_span_text": "des Ostens ( PDS",
+    "group_span_text": "des Ostens PDS",
     "gold_text": "Gegründet wurde die Bahamas 1992 in Hamburg durch die damals von der Minderheitsfraktion des aufgelösten Kommunistischen Bundes (KB) gebildete Gruppe K. Sie war hervorgegangen aus den 1990 im KB geführten Auseinandersetzungen um das Verhalten zur sich abzeichnenden Wiedervereinigung Deutschlands: Während die Mehrheitsströmung auf ein Zusammengehen mit der Linken des Ostens (PDS) und eine Ausrichtung auf die von ihr erwartete soziale Opposition gegen die Folgen der Wiederherstellung des Kapitalismus setzte, sah die Minderheit angesichts der angeblichen Marginalisierung der Linken eine radikale Opposition gegen die deutsche Einheit, den neuen Nationalismus, das Wiedererstarken von Rassismus, Antisemitismus und Geschichtsrevisionismus und das neue deutsche Großmachtstreben als geboten an.",
     "corrupted": "Gegründet wurde die Bahamas 1992 in Hamburg durch die damals von der Minderheitsfraktion des aufgelösten Kommunistischen Bundes ( KB) gebildete Gruppe K. Sie war hervorgegangen aus den 1990 im KB geführten Auseinandersetzungen um das Verhalten zur sich abzeichnenden Wiedervereinigung Deutschlands: Während die Mehrheitsströmung auf ein Zusammengehen mit der Linken des Ostens ( PDS) und eine Ausrichtung auf die von ihr erwartete soziale Opposition gegen die Folgen der Wiederherstellung des Kapitalismus setzte, sah die Minderheit angesichts der angeblichen Marginalisierung der Linken eine radikale Opposition gegen die deutsche Einheit, den neuen Nationalismus, das Wiedererstarken von Rassismus, Antisemitismus und Geschichtsrevisionismus und das neue deutsche Großmachtstreben als geboten an.",
+    "dative_type": "nominal_dative_modifier"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8576",
+    "group_start": 17,
+    "group_end": 17,
+    "group_span_text": "Abschluss",
+    "gold_text": "Ein Unternehmen, welches sein Schwiegersohn Frantisek Ladislav (Franz Ladislaus) Freiherr von Rieger zum Abschluss und Druck brachte.",
+    "corrupted": "Ein Unternehmen, welches sein Schwiegersohn Frantisek Ladislav ( Franz Ladislaus) Freiherr von Rieger zum Abschluss und Druck brachte.",
     "dative_type": "nominal_dative_modifier"
   },
   {
@@ -447,16 +467,6 @@
     "group_span_text": "ihm",
     "gold_text": "Das Mittelalter galt ihm als Ideal.",
     "corrupted": "Das Mittelalter galt ihn als Ideal.",
-    "dative_type": "nominal_dative_modifier"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s11288",
-    "group_start": 14,
-    "group_end": 15,
-    "group_span_text": "drei Längen",
-    "gold_text": "Er gewann 1975 den» Prix de l'Arc de Triomphe «überlegen mit drei Längen Vorsprung als bislang größter Außenseiter (Siegquote 1197:10).",
-    "corrupted": "Er gewann 1975 den» Prix de l'Arc de Triomphe «überlegen mit drei Länge Vorsprung als bislang größter Außenseiter (Siegquote 1197:10).",
     "dative_type": "nominal_dative_modifier"
   },
   {
@@ -604,7 +614,7 @@
     "sent_id": "test-s935",
     "group_start": 18,
     "group_end": 25,
-    "group_span_text": "der Wehrdienstzeit des jungen Berger ( Christoph Dostal",
+    "group_span_text": "der Wehrdienstzeit des jungen Berger (Christoph Dostal",
     "gold_text": "Ebenfalls aus Österreich eine Überraschung: Ich gelobe von Wolfgang Murnberger, auf den ersten Blick die Chronik der Wehrdienstzeit des jungen Berger (Christoph Dostal), in Wahrheit das vielschichtige Psychogramm eines Menschen auf der Schwelle zum Leben als Erwachsener, eine hoch literarische und zugleich durch und durch filmische Musil-Paraphrase, lyrisch, wagemutig, überzeugend.",
     "corrupted": "Ebenfalls aus Österreich eine Überraschung: Ich gelobe von Wolfgang Murnberger, auf den ersten Blick die Chronik die Wehrdienstzeit des jungen Berger ( Christoph Dostal), in Wahrheit das vielschichtige Psychogramm eines Menschen auf der Schwelle zum Leben als Erwachsener, eine hoch literarische und zugleich durch und durch filmische Musil - Paraphrase, lyrisch, wagemutig, überzeugend.",
     "dative_type": "nominal_dative_modifier"
