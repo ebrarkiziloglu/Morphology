@@ -658,75 +658,99 @@ def env_debug_seed_indices(var_name: str) -> Optional[Set[int]]:
 
 DativeTypeKey = Tuple[str, str, str, str, str]  # split, sent_id, head_lemma, head_form, relation
 
+# Accusative-only prepositions (always accusative).
+ACCUSATIVE_ONLY_PREPS: frozenset[str] = frozenset({
+    "bis", "betreffend", "durch", "entlang", "für", "gegen", "gen", "je",
+    "kontra", "längst", "ohne", "per", "pro", "um", "versus", "via", "wider",
+})
+
 # Dative-only prepositions (always dative): one ``dative_type`` label per lemma.
 DATIVE_ONLY_PREPS: frozenset[str] = frozenset({
-    "aus", "bei", "mit", "nach", "seit", "von", "zu",
+    "ab", "aus", "außer", "bei", "binnen", "dank", "entgegen", "entsprechend",
+    "fern", "gegenüber", "gemäß", "getreu", "laut", "mit", "mitsamt", "nebst",
+    "nach", "nah", "nahe", "samt", "seit", "von", "zu", "zufolge", "zuliebe",
 })
-DATIVE_ONLY_PREP_TYPES: Dict[str, str] = {
-    "aus": "dative_prep_aus",
-    "bei": "dative_prep_bei",
-    "mit": "dative_prep_mit",
-    "nach": "dative_prep_nach",
-    "seit": "dative_prep_seit",
-    "von": "dative_prep_von",
-    "zu": "dative_prep_zu",
-}
 
 # Wechselpräpositionen (dative or accusative): one ``dative_type`` label per lemma.
 TWO_WAY_PREPS: frozenset[str] = frozenset({
-    "an", "auf", "hinter", "in", "neben", "unter", "vor", "zwischen", "über",
+    "an", "auf", "hinter", "in", "neben", "über", "unter", "vor", "zwischen",
 })
-TWO_WAY_PREP_TYPES: Dict[str, str] = {
-    "an": "dative_prep_an",
-    "auf": "dative_prep_auf",
-    "hinter": "dative_prep_hinter",
-    "in": "dative_prep_in",
-    "neben": "dative_prep_neben",
-    "unter": "dative_prep_unter",
-    "vor": "dative_prep_vor",
-    "zwischen": "dative_prep_zwischen",
-    "über": "dative_prep_über",
-}
+
+# Genitive prepositions — excluded from Acc/Dat test-set generation when not also
+# listed as accusative, dative, or two-way study prepositions.
+_GENITIVE_PREPS_RAW: frozenset[str] = frozenset({
+    "abseits", "abzüglich", "anfangs", "angelegentlich", "angesichts", "anhand",
+    "anlässlich", "anstelle", "anstatt", "aufgrund", "aufseiten", "ausgangs",
+    "ausschließlich", "außerhalb", "beiderseits", "beidseits", "betreffs",
+    "bezüglich", "dank", "diesseits", "einbezüglich", "eingangs", "eingedenk",
+    "einschließlich", "exklusive", "fern", "fernab", "gelegentlich", "halber",
+    "hinsichtlich", "infolge", "inklusive", "inmitten", "innerhalb", "jenseits",
+    "kraft", "längs", "längsseits", "laut", "links", "mangels", "mithilfe",
+    "mittels", "namens", "nördlich", "oberhalb", "östlich", "rechts",
+    "rücksichtlich", "seitens", "seitlich", "seitwärts", "statt", "südlich",
+    "trotz", "unbeschadet", "unerachtet", "unfern", "ungeachtet", "ungerechnet",
+    "unterhalb", "unweit", "vonseiten", "vermittels", "vermöge", "vis-à-vis",
+    "vorbehaltlich", "während", "wegen", "weitab", "westlich", "zeit",
+    "zugunsten", "zulasten", "zuliebe", "zuzüglich", "zwecks",
+})
+GENITIVE_PREPS: frozenset[str] = (
+    _GENITIVE_PREPS_RAW - DATIVE_ONLY_PREPS - ACCUSATIVE_ONLY_PREPS - TWO_WAY_PREPS
+)
+
+
+def _prep_type_labels(preps: Iterable[str], prefix: str) -> Dict[str, str]:
+    return {prep: f"{prefix}_{prep}" for prep in sorted(preps)}
+
+
+DATIVE_ONLY_PREP_TYPES: Dict[str, str] = _prep_type_labels(
+    DATIVE_ONLY_PREPS, "dative_prep"
+)
+TWO_WAY_PREP_TYPES: Dict[str, str] = _prep_type_labels(TWO_WAY_PREPS, "dative_prep")
+ACCUSATIVE_ONLY_PREP_TYPES: Dict[str, str] = _prep_type_labels(
+    ACCUSATIVE_ONLY_PREPS, "accusative_prep"
+)
 
 TARGET_DATIVE_PREPS: frozenset[str] = DATIVE_ONLY_PREPS | TWO_WAY_PREPS
+TARGET_ACCUSATIVE_PREPS: frozenset[str] = ACCUSATIVE_ONLY_PREPS | TWO_WAY_PREPS
 TARGET_DATIVE_PREP_TYPES: Dict[str, str] = {
     **DATIVE_ONLY_PREP_TYPES,
     **TWO_WAY_PREP_TYPES,
 }
 
-DATIVE_TYPE_LABELS: Tuple[str, ...] = (
+# ``dative_prep_*`` labels with fewer pairs are merged into
+# ``dative_prep_remaining.json`` (with a ``preposition`` field per row).
+_MIN_DATIVE_PREP_CATEGORY_SIZE = 10
+
+# Non-lemma ``dative_prep_*`` bucket labels (not individual preposition types).
+_DATIVE_PREP_BUCKET_LABELS: frozenset[str] = frozenset({
+    "dative_prep_remaining",
+    "ignore_dative_other_prep",
+})
+
+_NON_PREP_DATIVE_TYPE_LABELS: Tuple[str, ...] = (
     "adverbial_case_dative",
-    "comparative_case_dative",
-    "core_dative_argument",
-    "dative_prep_an",
-    "dative_prep_auf",
-    "dative_prep_aus",
-    "dative_prep_bei",
-    "dative_prep_hinter",
-    "dative_prep_in",
-    "dative_prep_mit",
-    "dative_prep_nach",
-    "dative_prep_neben",
-    "dative_prep_seit",
-    "dative_prep_unter",
-    "dative_prep_von",
-    "dative_prep_vor",
-    "dative_prep_zu",
-    "dative_prep_zwischen",
-    "dative_prep_über",
-    "nominal_dative_modifier",
-    "oblique_dative",
-    "other_dative",
-    "other_prepositional_dative",
+    "dative_comparative",
+    "kill_dative_obj",
+    "dative_indirect_obl_arg",
+    "kill_dative_nmod_nominal",
+    "dative_oblique",
+    "ignore_dative_other",
+    "ignore_dative_other_prep",
+    "dative_prep_remaining",
+)
+DATIVE_TYPE_LABELS: Tuple[str, ...] = (
+    _NON_PREP_DATIVE_TYPE_LABELS[:4]
+    + tuple(sorted(TARGET_DATIVE_PREP_TYPES.values()))
+    + _NON_PREP_DATIVE_TYPE_LABELS[4:]
 )
 
-# UD ``case`` comparators (GSD: ADP + KOKOM), e.g. *höher als in dem Wasser*.
-COMPARATIVE_CASE_MARKERS: frozenset[str] = frozenset({"als", "wie"})
-COMPARATIVE_CASE_DATIVE_TYPE = "comparative_case_dative"
+# UD ``case`` comparator for degree/role comparisons (GSD: ADP + KOKOM).
+# Exemplificatory *wie* is intentionally excluded — it falls through to deprel labels.
+COMPARATIVE_CASE_MARKERS: frozenset[str] = frozenset({"als"})
 
 # UD ``case`` lemmas that are not prepositions (directional adverbs, …).
 ADVERBIAL_CASE_MARKERS: frozenset[str] = frozenset({
-    "abseits", "her", "hin", "hinaus", "je", "u.a.", "vorbei", "voll",
+    "her", "hin", "hinaus", "u.a.", "vorbei", "voll",
 })
 
 # Contracted ``case`` lemmas in treebanks → base preposition for classification.
@@ -748,6 +772,26 @@ _CASE_LEMMA_TO_PREP: Dict[str, str] = {
     "übers": "über",
     "unterm": "unter",
     "unters": "unter",
+    # Alternative spellings (Swiss ``ss``, ``ae``/``oe``/``ue``) → canonical lemma.
+    "ausser": "außer",
+    "gemäss": "gemäß",
+    "gemass": "gemäß",
+    "gemaess": "gemäß",
+    "gegenueber": "gegenüber",
+    "ueber": "über",
+    "ueberm": "über",
+    "uebers": "über",
+    "fuer": "für",
+    "ausserhalb": "außerhalb",
+    "ausschliesslich": "ausschließlich",
+    "einschliesslich": "einschließlich",
+    "bezueglich": "bezüglich",
+    "zuzueglich": "zuzüglich",
+    "abzueglich": "abzüglich",
+    "anlaesslich": "anlässlich",
+    "noerdlich": "nördlich",
+    "suedlich": "südlich",
+    "oestlich": "östlich",
 }
 
 # Locative/directional *-lich (nordwestlich, nördlich, …).
@@ -780,9 +824,30 @@ def is_adverbial_case_marker(lemma: Optional[str]) -> bool:
 
 
 def is_target_dative_preposition(lemma: Optional[str]) -> bool:
-    """True when ``lemma`` is one of the 16 study prepositions (after normalization)."""
+    """True when ``lemma`` is a study dative or two-way preposition (after normalization)."""
     base = normalize_case_prep_lemma(lemma)
     return base in TARGET_DATIVE_PREPS if base else False
+
+
+def is_target_accusative_preposition(lemma: Optional[str]) -> bool:
+    """True when ``lemma`` is a study accusative or two-way preposition (after normalization)."""
+    base = normalize_case_prep_lemma(lemma)
+    return base in TARGET_ACCUSATIVE_PREPS if base else False
+
+
+def is_genitive_preposition(lemma: Optional[str]) -> bool:
+    """True when ``lemma`` is a genitive-only preposition (excluded from test sets)."""
+    base = normalize_case_prep_lemma(lemma)
+    return base in GENITIVE_PREPS if base else False
+
+
+def is_target_preposition_for_case(lemma: Optional[str], case: str) -> bool:
+    """True when ``lemma`` is a study preposition for ``case`` (``Acc`` or ``Dat``)."""
+    if case == "Dat":
+        return is_target_dative_preposition(lemma)
+    if case == "Acc":
+        return is_target_accusative_preposition(lemma)
+    return False
 
 
 def is_proper_preposition(lemma: Optional[str]) -> bool:
@@ -791,6 +856,8 @@ def is_proper_preposition(lemma: Optional[str]) -> bool:
 
 
 _COORD_CC_LEMMAS = frozenset({"und", "oder", "sowie", "beziehungsweise"})
+_COORD_NP_CONJUNCT_UPOS = frozenset({"NOUN", "PROPN", "PRON"})
+CONJUNCTION_WITH_COMMA_REASON = "conjunction_with_comma"
 
 
 def _deprel_base(deprel: Any) -> str:
@@ -873,6 +940,119 @@ def coordination_case_head_ids(
     }
 
 
+def _nominal_conjunct_anchor_idx(
+    tokens: List[Dict[str, Any]], phrase_head_idx: int
+) -> Optional[int]:
+    """Coordination anchor for nominal ``und``/``oder`` lists, or ``None``."""
+    if not 0 <= phrase_head_idx < len(tokens):
+        return None
+    tok = tokens[phrase_head_idx]
+    if tok.get("upos") not in _COORD_NP_CONJUNCT_UPOS:
+        return None
+    drel = _deprel_base(tok.get("deprel"))
+    if drel == "conj":
+        id_to_idx = {_token_id_key(t.get("id")): i for i, t in enumerate(tokens)}
+        parent_id = tok.get("head")
+        if not parent_id:
+            return None
+        return id_to_idx.get(_token_id_key(parent_id))
+    head_id = tok.get("id")
+    if not head_id:
+        return None
+    for t in tokens:
+        if (
+            _deprel_base(t.get("deprel")) == "conj"
+            and t.get("head") == head_id
+            and t.get("upos") in _COORD_NP_CONJUNCT_UPOS
+        ):
+            return phrase_head_idx
+    return None
+
+
+def _nominal_conjunct_head_indices(
+    tokens: List[Dict[str, Any]], anchor_idx: int
+) -> Tuple[int, ...]:
+    """Sorted head indices of all nominal conjuncts sharing one anchor."""
+    anchor_id = tokens[anchor_idx].get("id")
+    heads = [anchor_idx]
+    for j, t in enumerate(tokens):
+        if (
+            _deprel_base(t.get("deprel")) == "conj"
+            and t.get("head") == anchor_id
+            and t.get("upos") in _COORD_NP_CONJUNCT_UPOS
+        ):
+            heads.append(j)
+    return tuple(sorted(heads))
+
+
+def _span_has_coordination_comma(
+    tokens: List[Dict[str, Any]], span_indices: Tuple[int, ...]
+) -> bool:
+    """True when a comma appears anywhere in the coordinated token range."""
+    if not span_indices:
+        return False
+    lo, hi = span_indices[0], span_indices[-1]
+    for i in range(lo, hi + 1):
+        if tokens[i].get("form") == ",":
+            return True
+    return False
+
+
+def expand_coordination_group_span(
+    tokens: List[Dict[str, Any]],
+    span_indices: Tuple[int, ...],
+    phrase_head_idx: int,
+    source_case: str,
+) -> Tuple[Tuple[int, ...], Optional[str]]:
+    """Merge ``und``/``oder`` nominal conjuncts into one NP span.
+
+    Returns ``(indices, drop_reason)``. *drop_reason* is
+    :data:`CONJUNCTION_WITH_COMMA_REASON` when comma coordination blocks conversion.
+    """
+    anchor_idx = _nominal_conjunct_anchor_idx(tokens, phrase_head_idx)
+    if anchor_idx is None:
+        return span_indices, None
+
+    conj_heads = _nominal_conjunct_head_indices(tokens, anchor_idx)
+    if len(conj_heads) < 2:
+        return span_indices, None
+
+    conj_spans: List[Tuple[int, ...]] = []
+    for head_idx in conj_heads:
+        conj_span = find_nominal_group_indices(tokens, head_idx)
+        if not any(is_source_case_token(tokens[i], source_case) for i in conj_span):
+            return span_indices, None
+        conj_spans.append(conj_span)
+
+    merged: Set[int] = set(span_indices)
+    for conj_span in conj_spans:
+        merged.update(conj_span)
+
+    lo, hi = min(merged), max(merged)
+    for i in range(lo, hi + 1):
+        tok = tokens[i]
+        if (
+            _deprel_base(tok.get("deprel")) == "cc"
+            and (tok.get("lemma") or "").lower() in _COORD_CC_LEMMAS
+        ):
+            merged.add(i)
+        elif tok.get("upos") == "PUNCT" and tok.get("form") != ",":
+            merged.add(i)
+
+    expanded = tuple(sorted(merged))
+    if _span_has_coordination_comma(tokens, expanded):
+        return expanded, CONJUNCTION_WITH_COMMA_REASON
+
+    has_cc = any(
+        _deprel_base(tokens[i].get("deprel")) == "cc"
+        and (tokens[i].get("lemma") or "").lower() in _COORD_CC_LEMMAS
+        for i in expanded
+    )
+    if not has_cc:
+        return span_indices, None
+    return expanded, None
+
+
 def _case_lemmas_for_head_ids(
     tokens: List[Dict[str, Any]], head_ids: Set[Any]
 ) -> List[str]:
@@ -936,6 +1116,22 @@ def _case_marker_mit_und_list(
     return None
 
 
+def _case_marker_from_span_adp(
+    tokens: List[Dict[str, Any]], span_start: int, span_end: int
+) -> Optional[str]:
+    """Return a ``case``/``parataxis`` ADP lemma inside the span (*im Gegenteil*, …)."""
+    for i in range(span_start, span_end + 1):
+        tok = tokens[i]
+        if tok.get("upos") != "ADP":
+            continue
+        if _deprel_base(tok.get("deprel")) not in {"case", "parataxis"}:
+            continue
+        lemma = tok.get("lemma")
+        if lemma:
+            return lemma
+    return None
+
+
 def _zu_marker_wegen_degree(
     tokens: List[Dict[str, Any]], span_start: int, span_end: int
 ) -> Optional[str]:
@@ -983,7 +1179,54 @@ def case_marker_lemma_for_span(
     picked = _pick_governing_case_lemma(_case_lemmas_for_head_ids(tokens, head_ids))
     if picked is not None:
         return picked
+    span_adp = _case_marker_from_span_adp(tokens, span_start, span_end)
+    if span_adp is not None:
+        return span_adp
     return _case_marker_mit_und_list(tokens, span_start, span_end)
+
+
+_ENCLOSING_PP_WALK_UP_DEPS = frozenset(
+    {"det", "amod", "nummod", "compound", "flat", "fixed", "appos", "nmod", "conj"}
+)
+
+
+def case_marker_lemma_from_enclosing_pp(
+    tokens: List[Dict[str, Any]], phrase_head_idx: int
+) -> Optional[str]:
+    """ADP ``case``/``parataxis`` on an ancestor phrase (*bei der VGH*, *seit der …*).
+
+    GSD often attaches the dative ``det``/``nmod`` inside the PP without a direct
+  ``case`` edge on the seed token; walk up to the governing preposition.
+    """
+    if not 0 <= phrase_head_idx < len(tokens):
+        return None
+    id_to_idx = {_token_id_key(t.get("id")): i for i, t in enumerate(tokens)}
+    cur = phrase_head_idx
+    seen: Set[int] = set()
+    for _ in range(10):
+        if cur in seen:
+            break
+        seen.add(cur)
+        head_id = tokens[cur].get("id")
+        if head_id is not None:
+            picked = case_marker_lemma_for_head_id(tokens, head_id)
+            if picked is not None:
+                return picked
+        parent_id = tokens[cur].get("head")
+        if not parent_id:
+            break
+        pidx = id_to_idx.get(_token_id_key(parent_id))
+        if pidx is None:
+            break
+        parent = tokens[pidx]
+        if parent.get("upos") == "ADP":
+            lemma = parent.get("lemma")
+            if lemma:
+                return lemma
+        if _deprel_base(tokens[cur].get("deprel")) not in _ENCLOSING_PP_WALK_UP_DEPS:
+            break
+        cur = pidx
+    return None
 
 
 def case_marker_lemma_for_head(
@@ -1002,25 +1245,53 @@ def preposition_lemma_for_head(
     return normalize_case_prep_lemma(case_lemma)
 
 
-def classify_dative_type(token: Dict[str, Any], case_lemma: Optional[str]) -> str:
+def is_prepositional_dative_type(dtype: str) -> bool:
+    """True for preposition-tagged dative labels (incl. comparative *als*)."""
+    return (
+        dtype.startswith("dative_prep_")
+        and dtype not in _DATIVE_PREP_BUCKET_LABELS
+    ) or dtype in {
+        "ignore_dative_other_prep",
+        "dative_prep_remaining",
+        "adverbial_case_dative",
+        "dative_comparative",
+    }
+
+
+def classify_dative_type(
+    token: Dict[str, Any],
+    case_lemma: Optional[str],
+    *,
+    tokens: Optional[List[Dict[str, Any]]] = None,
+    head_idx: Optional[int] = None,
+    span_start: Optional[int] = None,
+    span_end: Optional[int] = None,
+) -> str:
     """Classify a dative head token (same rules as UD_German.ipynb)."""
+    _ = tokens, head_idx, span_start, span_end
     if case_lemma is not None:
         if is_comparative_case_marker(case_lemma):
-            return COMPARATIVE_CASE_DATIVE_TYPE
+            return "dative_comparative"
+        # *wie* (KOKOM) is not a preposition class — ignore for labelling.
+        if normalize_case_prep_lemma(case_lemma) == "wie":
+            case_lemma = None
+    if case_lemma is not None:
         if is_adverbial_case_marker(case_lemma):
             return "adverbial_case_dative"
         base = normalize_case_prep_lemma(case_lemma)
         if base in TARGET_DATIVE_PREP_TYPES:
             return TARGET_DATIVE_PREP_TYPES[base]
-        return "other_prepositional_dative"
+        return "ignore_dative_other_prep"
     rel = token.get("deprel") or ""
-    if rel in {"obj", "obl:arg"}:
-        return "core_dative_argument"
+    if rel == "obj":
+        return "kill_dative_obj"
+    if rel == "obl:arg":
+        return "dative_indirect_obl_arg"
     if rel == "obl":
-        return "oblique_dative"
+        return "dative_oblique"
     if rel == "nmod":
-        return "nominal_dative_modifier"
-    return "other_dative"
+        return "kill_dative_nmod_nominal"
+    return "ignore_dative_other"
 
 
 def load_dative_type_lookup(csv_path: str) -> Dict[DativeTypeKey, str]:
@@ -1055,6 +1326,13 @@ def dative_nominal_head_index(
     head is the noun/proper noun that dependents attach to, even when it is tagged
     ``Case=Nom`` in isolation (dates after *bis zum …*) or the seed is ``dem``.
     """
+    for i in range(span_start, span_end + 1):
+        tok = tokens[i]
+        feats = tok.get("feats") or {}
+        if tok.get("upos") in _DAT_HEAD_UPOS and feats.get("Case") == "Dat":
+            phrase_head = walk_np_head_index(tokens, i)
+            if span_start <= phrase_head <= span_end:
+                return phrase_head
     origins = [fallback_idx] + [
         i for i in range(span_start, span_end + 1) if i != fallback_idx
     ]
@@ -1064,12 +1342,44 @@ def dative_nominal_head_index(
         phrase_head = walk_np_head_index(tokens, origin)
         if span_start <= phrase_head <= span_end:
             return phrase_head
-    for i in range(span_start, span_end + 1):
-        tok = tokens[i]
-        feats = tok.get("feats", {}) or {}
-        if tok.get("upos") in _DAT_HEAD_UPOS and feats.get("Case") == "Dat":
-            return i
     return fallback_idx
+
+
+def _resolve_raw_case_marker_lemma(
+    tokens: List[Dict[str, Any]],
+    span_start: int,
+    span_end: int,
+    seed_idx: int,
+) -> Optional[str]:
+    """Raw ``case``/governing ADP lemma for a dative NP span."""
+    head_idx = dative_nominal_head_index(
+        tokens, span_start, span_end, fallback_idx=seed_idx
+    )
+    case_lemma = case_marker_lemma_for_head(tokens, head_idx)
+    if case_lemma is None:
+        case_lemma = case_marker_lemma_for_span(
+            tokens, span_start, span_end, phrase_head_idx=head_idx
+        )
+    if case_lemma is None:
+        case_lemma = _case_marker_mit_und_list(tokens, span_start, span_end)
+    if case_lemma is None:
+        case_lemma = case_marker_lemma_from_enclosing_pp(tokens, head_idx)
+    zu_wegen = _zu_marker_wegen_degree(tokens, span_start, span_end)
+    if zu_wegen is not None:
+        case_lemma = zu_wegen
+    return case_lemma
+
+
+def resolve_case_marker_lemma(
+    tokens: List[Dict[str, Any]],
+    span_start: int,
+    span_end: int,
+    seed_idx: int,
+) -> Optional[str]:
+    """Normalized base preposition lemma for a dative NP span."""
+    return normalize_case_prep_lemma(
+        _resolve_raw_case_marker_lemma(tokens, span_start, span_end, seed_idx)
+    )
 
 
 def resolve_dative_type(
@@ -1088,17 +1398,17 @@ def resolve_dative_type(
         tokens, span_start, span_end, fallback_idx=seed_idx
     )
     token = tokens[head_idx]
-    case_lemma = case_marker_lemma_for_head(tokens, head_idx)
-    if case_lemma is None:
-        case_lemma = case_marker_lemma_for_span(
-            tokens, span_start, span_end, phrase_head_idx=head_idx
-        )
-    if case_lemma is None:
-        case_lemma = _case_marker_mit_und_list(tokens, span_start, span_end)
-    zu_wegen = _zu_marker_wegen_degree(tokens, span_start, span_end)
-    if zu_wegen is not None:
-        case_lemma = zu_wegen
-    return classify_dative_type(token, case_lemma)
+    case_lemma = _resolve_raw_case_marker_lemma(
+        tokens, span_start, span_end, seed_idx
+    )
+    return classify_dative_type(
+        token,
+        case_lemma,
+        tokens=tokens,
+        head_idx=head_idx,
+        span_start=span_start,
+        span_end=span_end,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -1128,6 +1438,7 @@ class CaseConversionPair:
     group_span_char_start: Optional[int]
     group_span_char_end: Optional[int]
     dative_type: Optional[str] = None
+    preposition: Optional[str] = None
     corrupted_tokens: Tuple[Dict[str, Any], ...] = ()
     target_span_tokens: Tuple[Dict[str, Any], ...] = ()
     gold_span_tokens: Tuple[Dict[str, Any], ...] = ()
@@ -1284,6 +1595,7 @@ def make_group_corrupt(
     target_case: str,
     *,
     allow_missing_for_upos: Optional[Set[str]] = None,
+    span_indices: Optional[Tuple[int, ...]] = None,
 ) -> Tuple[
     Optional[str],
     int,
@@ -1298,7 +1610,8 @@ def make_group_corrupt(
     target_span_tokens)`` where *target_span_tokens* holds every converted token's
     new surface (and *changed_tokens* is the subset whose form actually changed).
     """
-    span_indices = find_nominal_group_indices(tokens, head_idx)
+    if span_indices is None:
+        span_indices = find_nominal_group_indices(tokens, head_idx)
     start, end = span_indices[0], span_indices[-1]
     base_forms = [t.get("form", "") for t in tokens]
 
@@ -1412,7 +1725,7 @@ def iter_case_conversion_pairs(
                 gold_text = tokens_to_text(tokens)
 
             span_unconverted_seen: Set[Tuple[int, int]] = set()
-            emitted_spans: List[Tuple[int, int]] = []
+            processed_spans: List[Tuple[int, int]] = []
 
             def _span_is_proper_subset(
                 start: int, end: int, other_start: int, other_end: int
@@ -1423,24 +1736,153 @@ def iter_case_conversion_pairs(
                     and (other_start, other_end) != (start, end)
                 )
 
-            def _span_dominated_by_emitted(start: int, end: int) -> bool:
-                for os, oe in emitted_spans:
+            def _span_dominated_by_processed(start: int, end: int) -> bool:
+                for os, oe in processed_spans:
                     if (os, oe) == (start, end):
                         return True
                     if _span_is_proper_subset(start, end, os, oe):
                         return True
                 return False
 
-            # --- per-token iteration ---
-            for idx, tok in enumerate(tokens):
-                if not is_source_case_token(tok, source_case):
-                    continue
+            def _record_unconverted_span(
+                span_key: Tuple[int, int],
+                span_inds: Tuple[int, ...],
+                reason: str,
+                *,
+                fail_idx: Optional[int] = None,
+                fail_form: str = "",
+                fail_lemma: str = "",
+                fail_upos: str = "",
+                fail_num: str = "",
+                fail_gender: str = "",
+            ) -> None:
+                if span_key in span_unconverted_seen:
+                    return
+                span_unconverted_seen.add(span_key)
+                gs, ge = span_key
+                if report is not None:
+                    report.group_dropped_span_unconverted += 1
+                    report.dropout_by_reason[reason] += 1
+                    report._push_sample(
+                        report.sample_group_np_substituted_gold,
+                        f"SPAN_SKIP_UNCONVERTED split={split!r} "
+                        f"sent_id={sent_id!r} seed_idx={idx} "
+                        f"np_span=[{gs},{ge}] reason={reason!r} "
+                        f"preview={preview!r}",
+                    )
+                if unconverted_records is None:
+                    return
+                unconverted: Dict[str, Any] = {
+                    "split": split,
+                    "sent_id": sent_id,
+                    "gold_text": gold_text,
+                    "seed_token_index": idx,
+                    "group_start": gs,
+                    "group_end": ge,
+                    "group_span_text": group_span_surface_text(
+                        gold_text, tokens, span_inds
+                    ),
+                    "reason": reason,
+                }
+                if fail_idx is not None:
+                    unconverted.update(
+                        {
+                            "first_fail_token_index": fail_idx,
+                            "first_fail_form": fail_form,
+                            "first_fail_lemma": fail_lemma,
+                            "first_fail_upos": fail_upos,
+                            "first_fail_number": fail_num,
+                            "first_fail_gender": fail_gender,
+                        }
+                    )
+                if source_case == "Dat":
+                    unconverted["dative_type"] = resolve_dative_type(
+                        split=split,
+                        sent_id=sent_id,
+                        tokens=tokens,
+                        span_start=gs,
+                        span_end=ge,
+                        seed_idx=idx,
+                        lookup=dative_type_lookup,
+                    )
+                unconverted_records.append(unconverted)
 
+            def _seed_processing_order(idx: int) -> Tuple[int, int]:
+                """Prepositional dative spans before nominal ``nmod`` spans; wider first."""
+                span_indices = find_nominal_group_indices(tokens, idx)
+                gs, ge = span_indices[0], span_indices[-1]
+                phrase_head_idx = dative_nominal_head_index(
+                    tokens, gs, ge, fallback_idx=idx
+                )
+                dtype = ""
+                if source_case == "Dat":
+                    dtype = resolve_dative_type(
+                        split=split,
+                        sent_id=sent_id,
+                        tokens=tokens,
+                        span_start=gs,
+                        span_end=ge,
+                        seed_idx=idx,
+                        lookup=dative_type_lookup,
+                    )
+                prep_rank = 0 if is_prepositional_dative_type(dtype) else 1
+                return (prep_rank, -(ge - gs))
+
+            seed_indices = sorted(
+                (
+                    i
+                    for i, tok in enumerate(tokens)
+                    if is_source_case_token(tok, source_case)
+                ),
+                key=_seed_processing_order,
+            )
+
+            # --- per-token iteration ---
+            for idx in seed_indices:
+                tok = tokens[idx]
                 if report is not None:
                     report.accusative_seed_tokens_seen += 1
 
                 span_indices = find_nominal_group_indices(tokens, idx)
                 group_start, group_end = span_indices[0], span_indices[-1]
+                phrase_head_idx = dative_nominal_head_index(
+                    tokens, group_start, group_end, fallback_idx=idx
+                )
+                governing_lemma = case_marker_lemma_for_span(
+                    tokens,
+                    group_start,
+                    group_end,
+                    phrase_head_idx=phrase_head_idx,
+                )
+                if is_genitive_preposition(governing_lemma):
+                    continue
+
+                span_indices, coord_drop_reason = expand_coordination_group_span(
+                    tokens,
+                    span_indices,
+                    phrase_head_idx,
+                    source_case,
+                )
+                group_start, group_end = span_indices[0], span_indices[-1]
+                if _span_dominated_by_processed(group_start, group_end):
+                    if report is not None:
+                        report.group_dropped_duplicate_span_key += 1
+                        report._push_sample(
+                            report.sample_group_dedup,
+                            f"SUBSET_SPAN split={split!r} sent_id={sent_id!r} "
+                            f"seed_idx={idx} np_span=[{group_start},{group_end}] "
+                            f"preview={preview!r}",
+                        )
+                    continue
+
+                if coord_drop_reason == CONJUNCTION_WITH_COMMA_REASON:
+                    _record_unconverted_span(
+                        (group_start, group_end),
+                        span_indices,
+                        CONJUNCTION_WITH_COMMA_REASON,
+                    )
+                    processed_spans.append((group_start, group_end))
+                    continue
 
                 (
                     corrupt_group_raw,
@@ -1456,6 +1898,7 @@ def iter_case_conversion_pairs(
                     source_case,
                     target_case,
                     allow_missing_for_upos=allow_missing,
+                    span_indices=span_indices,
                 )
                 if corrupt_group_raw is None:
                     span_key = (group_start, group_end)
@@ -1467,67 +1910,25 @@ def iter_case_conversion_pairs(
                         span_indices=span_indices,
                         allow_missing_for_upos=allow_missing,
                     )
-                    if bad is not None and span_key not in span_unconverted_seen:
-                        span_unconverted_seen.add(span_key)
+                    if bad is not None:
                         _ti, form, lemma, upos, num, gender, reason = bad
-                        if report is not None:
-                            report.group_dropped_span_unconverted += 1
-                            report.dropout_by_reason[reason] += 1
-                            report._push_sample(
-                                report.sample_group_np_substituted_gold,
-                                f"SPAN_SKIP_UNCONVERTED split={split!r} "
-                                f"sent_id={sent_id!r} seed_idx={idx} "
-                                f"np_span=[{group_start},{group_end}] "
-                                f"first_fail_idx={_ti} form={form!r} "
-                                f"lemma={lemma!r} reason={reason!r} "
-                                f"preview={preview!r}",
-                            )
-                        if unconverted_records is not None:
-                            unconverted: Dict[str, Any] = {
-                                "split": split,
-                                "sent_id": sent_id,
-                                "gold_text": gold_text,
-                                "seed_token_index": idx,
-                                "group_start": group_start,
-                                "group_end": group_end,
-                                "group_span_text": group_span_surface_text(
-                                    gold_text, tokens, span_indices
-                                ),
-                                "first_fail_token_index": _ti,
-                                "first_fail_form": form,
-                                "first_fail_lemma": lemma,
-                                "first_fail_upos": upos,
-                                "first_fail_number": num,
-                                "first_fail_gender": gender,
-                                "reason": reason,
-                            }
-                            if source_case == "Dat":
-                                unconverted["dative_type"] = resolve_dative_type(
-                                    split=split,
-                                    sent_id=sent_id,
-                                    tokens=tokens,
-                                    span_start=group_start,
-                                    span_end=group_end,
-                                    seed_idx=idx,
-                                    lookup=dative_type_lookup,
-                                )
-                            unconverted_records.append(unconverted)
+                        _record_unconverted_span(
+                            span_key,
+                            span_indices,
+                            reason,
+                            fail_idx=_ti,
+                            fail_form=form,
+                            fail_lemma=lemma,
+                            fail_upos=upos,
+                            fail_num=num,
+                            fail_gender=gender,
+                        )
+                        processed_spans.append(span_key)
                     continue
                 else:
                     corrupt_group = fix_unmerged_contractions(
                         gold_text, corrupt_group_raw
                     )
-
-                if _span_dominated_by_emitted(group_start, group_end):
-                    if report is not None:
-                        report.group_dropped_duplicate_span_key += 1
-                        report._push_sample(
-                            report.sample_group_dedup,
-                            f"SUBSET_SPAN split={split!r} sent_id={sent_id!r} "
-                            f"seed_idx={idx} np_span=[{group_start},{group_end}] "
-                            f"preview={preview!r}",
-                        )
-                    continue
 
                 group_span_text = group_span_surface_text(
                     gold_text, tokens, span_indices
@@ -1541,6 +1942,7 @@ def iter_case_conversion_pairs(
                     report.pairs_yielded_from_iterator += 1
 
                 dative_type: Optional[str] = None
+                preposition: Optional[str] = None
                 if source_case == "Dat":
                     dative_type = resolve_dative_type(
                         split=split,
@@ -1551,8 +1953,21 @@ def iter_case_conversion_pairs(
                         seed_idx=idx,
                         lookup=dative_type_lookup,
                     )
+                    if dative_type is not None and (
+                        dative_type == "ignore_dative_other_prep"
+                        or (
+                            dative_type.startswith("dative_prep_")
+                            and dative_type not in _DATIVE_PREP_BUCKET_LABELS
+                        )
+                    ):
+                        prep_from_label = _prep_lemma_from_dative_prep_label(
+                            dative_type
+                        )
+                        preposition = prep_from_label or resolve_case_marker_lemma(
+                            tokens, group_start, group_end, idx
+                        )
 
-                emitted_spans.append((group_start, group_end))
+                processed_spans.append((group_start, group_end))
 
                 yield CaseConversionPair(
                     direction=direction_label,
@@ -1572,6 +1987,7 @@ def iter_case_conversion_pairs(
                     group_span_char_start=gch0,
                     group_span_char_end=gch1,
                     dative_type=dative_type,
+                    preposition=preposition,
                     corrupted_tokens=changed_tokens,
                     target_span_tokens=target_span_tokens,
                     gold_span_tokens=tuple(
@@ -1602,6 +2018,8 @@ def pair_to_group_record(pair: CaseConversionPair) -> Optional[Dict[str, Any]]:
     }
     if pair.dative_type is not None:
         record["dative_type"] = pair.dative_type
+    if pair.preposition is not None:
+        record["preposition"] = pair.preposition
     return record
 
 
@@ -1635,13 +2053,29 @@ def group_record_dedup_key(
     return (pair.split, sid, gs, ge, pair.corrupt_group)
 
 
+def _prep_lemma_from_dative_prep_label(label: str) -> Optional[str]:
+    """Extract base preposition from ``dative_prep_zu`` → ``zu``."""
+    if label in _DATIVE_PREP_BUCKET_LABELS:
+        return None
+    if not label.startswith("dative_prep_"):
+        return None
+    return label[len("dative_prep_") :]
+
+
 def write_dative_category_pair_files(
     group_records: List[Dict[str, Any]],
     output_dir: str,
 ) -> Dict[str, int]:
-    """Write one minimal-pair JSON per :data:`DATIVE_TYPE_LABELS` entry."""
+    """Write minimal-pair JSON per :data:`DATIVE_TYPE_LABELS` entry.
+
+    Target ``dative_prep_<lemma>`` labels with fewer than
+    :data:`_MIN_DATIVE_PREP_CATEGORY_SIZE` pairs are merged into
+    ``dative_prep_remaining.json`` (each row keeps a ``preposition`` field).
+    Non-target prepositional datives live in ``ignore_dative_other_prep.json``.
+    """
     by_type: Dict[str, List[Dict[str, Any]]] = {
-        label: [] for label in DATIVE_TYPE_LABELS
+        label: []
+        for label in DATIVE_TYPE_LABELS
     }
     for record in group_records:
         dt = record.get("dative_type")
@@ -1650,11 +2084,47 @@ def write_dative_category_pair_files(
 
     os.makedirs(output_dir, exist_ok=True)
     counts: Dict[str, int] = {}
+    merged_prep_records: List[Dict[str, Any]] = []
+    merged_prep_labels: List[str] = []
+
+    for label in sorted(TARGET_DATIVE_PREP_TYPES.values()):
+        rows = by_type[label]
+        if len(rows) >= _MIN_DATIVE_PREP_CATEGORY_SIZE:
+            continue
+        if not rows:
+            continue
+        prep = _prep_lemma_from_dative_prep_label(label)
+        for record in rows:
+            merged = dict(record)
+            merged["dative_type"] = "dative_prep_remaining"
+            merged["preposition"] = record.get("preposition") or prep
+            merged_prep_records.append(merged)
+        merged_prep_labels.append(label)
+
     for label in DATIVE_TYPE_LABELS:
+        if label == "dative_prep_remaining":
+            continue
+        if label in merged_prep_labels:
+            stale = os.path.join(output_dir, f"{label}.json")
+            if os.path.exists(stale):
+                os.remove(stale)
+            continue
         path = os.path.join(output_dir, f"{label}.json")
+        if by_type[label]:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(by_type[label], f, ensure_ascii=False, indent=2)
+            counts[label] = len(by_type[label])
+
+    if merged_prep_records:
+        path = os.path.join(output_dir, "dative_prep_remaining.json")
         with open(path, "w", encoding="utf-8") as f:
-            json.dump(by_type[label], f, ensure_ascii=False, indent=2)
-        counts[label] = len(by_type[label])
+            json.dump(merged_prep_records, f, ensure_ascii=False, indent=2)
+        counts["dative_prep_remaining"] = len(merged_prep_records)
+    else:
+        stale = os.path.join(output_dir, "dative_prep_remaining.json")
+        if os.path.exists(stale):
+            os.remove(stale)
+
     return counts
 
 
@@ -1815,7 +2285,7 @@ def run_pair_generation_main(
         written = sum(category_counts.values())
         print(
             f"✅ Wrote {written} Dat→Acc minimal pairs across "
-            f"{len(DATIVE_TYPE_LABELS)} dative_type files under: {categories_dir}"
+            f"{len(category_counts)} dative_type files under: {categories_dir}"
         )
 
     if dative_type_counts:
@@ -1824,7 +2294,7 @@ def run_pair_generation_main(
         for label in DATIVE_TYPE_LABELS:
             n = dative_type_counts.get(label, 0)
             pct = 100.0 * n / total_dt if total_dt else 0.0
-            print(f"  {label}: {n} ({pct:.1f}%)")
+            print(f"  {label}: {n}")
         other_labels = sorted(
             k for k in dative_type_counts if k not in DATIVE_TYPE_LABELS
         )

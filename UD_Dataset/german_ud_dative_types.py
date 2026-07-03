@@ -88,9 +88,15 @@ def get_preposition(sent, head_id):
     return normalize_case_prep_lemma(case_lemma)
 
 
-def classify_dative(token, case_lemma):
-    type = classify_dative_type(token, case_lemma)
-    return type
+def classify_dative(token, case_lemma, sent=None, tok_idx=None):
+    return classify_dative_type(
+        token,
+        case_lemma,
+        tokens=sent,
+        head_idx=tok_idx,
+        span_start=tok_idx,
+        span_end=tok_idx,
+    )
 
 
 
@@ -140,7 +146,8 @@ for split in splits:
                     gov_form = gov["form"]
                     gov_upos = gov["upos"]
 
-                subtype = classify_dative(tok, case_marker)
+                tok_idx = next(i for i, t in enumerate(sent) if t["id"] == tok["id"])
+                subtype = classify_dative(tok, case_marker, sent=sent, tok_idx=tok_idx)
 
                 rows.append({
                     "sent_id": sent_id,

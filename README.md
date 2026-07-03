@@ -129,7 +129,7 @@ At the end of a run, an **elimination summary** is printed (`span_elimination_re
 
 ### Dat → Acc: dative typing and category splits
 
-[`corrupt_dat_acc_pairs.py`](UD_Dataset/corrupt_dat_acc_pairs.py) attaches a `dative_type` label from [`dative_spans/german_datives_all.csv`](UD_Dataset/dative_spans/german_datives_all.csv) (built in [`UD_German.ipynb`](UD_Dataset/UD_German.ipynb)). Labels include core arguments, preposition classes (`dative_prep_in`, …), `comparative_case_dative`, `nominal_dative_modifier`, `oblique_dative`, and others — see `DATIVE_TYPE_LABELS` in `ud_corruption_utils.py`.
+[`corrupt_dat_acc_pairs.py`](UD_Dataset/corrupt_dat_acc_pairs.py) attaches a `dative_type` label from [`dative_spans/german_datives_all.csv`](UD_Dataset/dative_spans/german_datives_all.csv) (built in [`UD_German.ipynb`](UD_Dataset/UD_German.ipynb)). Labels include core arguments, preposition classes (`dative_prep_in`, …), `dative_comparative`, `kill_dative_nmod_nominal`, `dative_obl`, and others — see `DATIVE_TYPE_LABELS` in `ud_corruption_utils.py`.
 
 The same run also writes one JSON per label under `testset/dative_categories/` (e.g. `dative_prep_mit.json`).
 
