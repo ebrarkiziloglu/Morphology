@@ -1,0 +1,82 @@
+[
+  {
+    "split": "train",
+    "sent_id": "train-s1806",
+    "group_start": 3,
+    "group_end": 4,
+    "group_span_text": "anderen Gewerkschaften",
+    "gold_text": "Mehr noch als anderen Gewerkschaften bläst der IG Medien auch anderswo der Wind ins Gesicht.",
+    "corrupted": "Mehr noch als andere Gewerkschaften bläst der IG Medien auch anderswo der Wind ins Gesicht.",
+    "dative_type": "dative_comparative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4565",
+    "group_start": 2,
+    "group_end": 12,
+    "group_span_text": "der mittlerweile wieder aufgehobenen \"Lex Balaguer\", einer Verfassungsänderung",
+    "gold_text": "Als Folge der mittlerweile wieder aufgehobenen \"Lex Balaguer\", einer Verfassungsänderung, die dem Präsidenten eine direkte Wiederwahl verbietet, trat dieser 2000 nicht zur Präsidentenwahl an, die Hipólito Mejía -- abermals gegen Balaguer, der im Alter von 93 Jahren zum letzten Mal kandidierte -- gewann.",
+    "corrupted": "Als Folge der mittlerweile wieder aufgehobenen \" Lex Balaguer \", eine Verfassungsänderung, die dem Präsidenten eine direkte Wiederwahl verbietet, trat dieser 2000 nicht zur Präsidentenwahl an, die Hipólito Mejía -- abermals gegen Balaguer, der im Alter von 93 Jahren zum letzten Mal kandidierte -- gewann.",
+    "dative_type": "dative_comparative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8917",
+    "group_start": 10,
+    "group_end": 10,
+    "group_span_text": "dem",
+    "gold_text": "Das Körperskelett der Rennratten ähnelt eher dem der Wühlmäuse als dem der Hamster.",
+    "corrupted": "Das Körperskelett der Rennratten ähnelt eher dem der Wühlmäuse als das der Hamster.",
+    "dative_type": "dative_comparative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9468",
+    "group_start": 53,
+    "group_end": 59,
+    "group_span_text": "frühestem Reit des Menschen",
+    "gold_text": "Ausgehend von der Enharmonik der Griechen mit ihren Vierteltönen und einer sicher frühen Mehrstimmigkeit gelangte Vogel durch älteste Felszeichnungen im Jemen und in Eritrea zu der Erkenntnis, dass entscheidende frühe kulturelle Errungenschaften wie Metallverarbeitung, Fernhandel, Tierzucht und eben unsere Musik auf das engste mit der Domestizierung des Esels als frühestem Reit - und Lasttier des Menschen verknüpft waren.",
+    "corrupted": "Ausgehend von der Enharmonik der Griechen mit ihren Vierteltönen und einer sicher frühen Mehrstimmigkeit gelangte Vogel durch älteste Felszeichnungen im Jemen und in Eritrea zu der Erkenntnis, dass entscheidende frühe kulturelle Errungenschaften wie Metallverarbeitung, Fernhandel, Tierzucht und eben unsere Musik auf das engste mit der Domestizierung des Esels als früheres Reit - und Lasttier des Menschen verknüpft waren.",
+    "dative_type": "dative_comparative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10868",
+    "group_start": 3,
+    "group_end": 5,
+    "group_span_text": "ihm als Ideal",
+    "gold_text": "Das Mittelalter galt ihm als Ideal.",
+    "corrupted": "Das Mittelalter galt ihn als Ideal.",
+    "dative_type": "dative_comparative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11085",
+    "group_start": 11,
+    "group_end": 12,
+    "group_span_text": "neueren Sprachen",
+    "gold_text": "Er gehörte als Student (Studium der Geschichte, Germanistik und neueren Sprachen an der Universität Gießen) der \"Landsmannschaft Chattia Gießen\" an und war schon im Wilhelminischen Reich ein radikaler Antisemit.",
+    "corrupted": "Er gehörte als Student (Studium der Geschichte, Germanistik und neue Sprachen an der Universität Gießen) der \"Landsmannschaft Chattia Gießen\" an und war schon im Wilhelminischen Reich ein radikaler Antisemit.",
+    "dative_type": "dative_comparative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12494",
+    "group_start": 14,
+    "group_end": 15,
+    "group_span_text": "der Kirche",
+    "gold_text": "Er musste immer wieder feststellen, dass die Professoren mehr dem Staat, als der Kirche vertrauten und den katholischen Charakter als Hindernis ansahen.",
+    "corrupted": "Er musste immer wieder feststellen, dass die Professoren mehr dem Staat, als die Kirche vertrauten und den katholischen Charakter als Hindernis ansahen.",
+    "dative_type": "dative_comparative"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13206",
+    "group_start": 8,
+    "group_end": 10,
+    "group_span_text": "erster ordentlicher Oberkirchenrat",
+    "gold_text": "1808 folgte er einem Ruf nach München als erster ordentlicher Oberkirchenrat in dem damals neuerrichteten protestantischen Oberkonsistorium.",
+    "corrupted": "1808 folgte er einem Ruf nach München als erste ordentlicher Oberkirchenrat in dem damals neuerrichteten protestantischen Oberkonsistorium.",
+    "dative_type": "dative_comparative"
+  }
+]

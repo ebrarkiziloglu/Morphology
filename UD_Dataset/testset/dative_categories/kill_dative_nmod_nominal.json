@@ -1,0 +1,132 @@
+[
+  {
+    "split": "train",
+    "sent_id": "train-s2367",
+    "group_start": 19,
+    "group_end": 27,
+    "group_span_text": "der Church of St James der heutigen Kathedrale",
+    "gold_text": "Norman Gate datiert von 1120 bis 1148 und war der Zugang zur Klosterkirche und ist noch der Glockenturm der Church of St James, der heutigen Kathedrale.",
+    "corrupted": "Norman Gate datiert von 1120 bis 1148 und war der Zugang zur Klosterkirche und ist noch der Glockenturm der Church of St James, die heutige Kathedrale.",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2803",
+    "group_start": 10,
+    "group_end": 12,
+    "group_span_text": "der 1930er Jahren",
+    "gold_text": "Das Unternehmen stellt offene Fahrzeuge her, die optisch Fahrzeugen der 1930er Jahren ähneln.",
+    "corrupted": "Das Unternehmen stellt offene Fahrzeuge her, die optisch Fahrzeugen die 1930er Jahre ähneln.",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3296",
+    "group_start": 19,
+    "group_end": 20,
+    "group_span_text": "der Öffentlichkeit",
+    "gold_text": "Beispielsweise wird im Film -- wie dann auch im realen Leben -- über ein privates Unglück das der Öffentlichkeit vergessen.",
+    "corrupted": "Beispielsweise wird im Film -- wie dann auch im realen Leben -- über ein privates Unglück das die Öffentlichkeit vergessen.",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3880",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "lokaler Sponsoren",
+    "gold_text": "Dabei können auch Logos lokaler Sponsoren wechseln.",
+    "corrupted": "Dabei können auch Logos lokale Sponsoren wechseln.",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4940",
+    "group_start": 14,
+    "group_end": 16,
+    "group_span_text": "den Wolverhampton Wanderers",
+    "gold_text": "Nach einer überzeugenden Saison 2006 / 07 wurde er von zahlreichen Vereinen, wie den Wolverhampton Wanderers, FC Hibernian, oder FC Aberdeen umworben, entschied sich aber für einen Wechsel zu den Glasgow Rangers.",
+    "corrupted": "Nach einer überzeugenden Saison 2006 / 07 wurde er von zahlreichen Vereinen, wie die Wolverhampton Wanderers, FC Hibernian, oder FC Aberdeen umworben, entschied sich aber für einen Wechsel zu den Glasgow Rangers.",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5084",
+    "group_start": 10,
+    "group_end": 11,
+    "group_span_text": "einer Nation",
+    "gold_text": "Mehr noch: Oft spiegelt die, irrationale Traumarbeit 'einer Nation ihren tatsächlichen Zustand wahrheitsgetreuer wider als ihr' Ich '-- ihre offiziellen Verkündigungen oder diplomatischen Erklärungen.",
+    "corrupted": "Mehr noch: Oft spiegelt die, irrationale Traumarbeit 'eine Nation ihren tatsächlichen Zustand wahrheitsgetreuer wider als ihr' Ich '-- ihre offiziellen Verkündigungen oder diplomatischen Erklärungen.",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5828",
+    "group_start": 6,
+    "group_end": 8,
+    "group_span_text": "der 1970er Jahren",
+    "gold_text": "Die Männerbewegung in Westdeutschland entstand Mitte der 1970er Jahren in der studentischen Sponti - Szene.",
+    "corrupted": "Die Männerbewegung in Westdeutschland entstand Mitte die 1970er Jahre in der studentischen Sponti - Szene.",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6415",
+    "group_start": 18,
+    "group_end": 22,
+    "group_span_text": "seiner fünf Profi - Turniersiege",
+    "gold_text": "Er war in erster Linie ein Sandplatzspieler, was unter anderem darin deutlich wird, dass er vier seiner fünf Profi - Turniersiege auf diesem Belag errang.",
+    "corrupted": "Er war in erster Linie ein Sandplatzspieler, was unter anderem darin deutlich wird, dass er vier seiner fünf Profis - Turniersiege auf diesem Belag errang.",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7894",
+    "group_start": 9,
+    "group_end": 14,
+    "group_span_text": "dem US - amerikanischen Peace Corps",
+    "gold_text": "Durch diese hohen Anforderungen -- verglichen mit Freiwilligendiensten wie dem US - amerikanischen Peace Corps -- arbeitete der DED durchweg mit qualifiziertem Personal.",
+    "corrupted": "Durch diese hohen Anforderungen -- verglichen mit Freiwilligendiensten wie den US - amerikanischen Peace Corps -- arbeitete der DED durchweg mit qualifiziertem Personal.",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11836",
+    "group_start": 2,
+    "group_end": 4,
+    "group_span_text": "dem Palmer Ort",
+    "gold_text": "Landseitig ist dem Palmer Ort ein kleiner Küstenschutzwald vorgelagert.",
+    "corrupted": "Landseitig ist den Palmer Ort ein kleiner Küstenschutzwald vorgelagert.",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13131",
+    "group_start": 6,
+    "group_end": 16,
+    "group_span_text": "des Georg Friedrich Laemmlin, eines knapp 27 Wochen alten Knaben",
+    "gold_text": "Ebenfalls dort befindet sich der Grabstein des Georg Friedrich Laemmlin, eines knapp 27 Wochen alten Knaben, der als letzter Nachkömmling der Familie im Jahr 1605 starb.",
+    "corrupted": "Ebenfalls dort befindet sich der Grabstein des Georg Friedrich Laemmlin, einen knapp 27 Wochen ältere Knaben, der als letzter Nachkömmling der Familie im Jahr 1605 starb.",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13678",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "der Vergangenheit",
+    "gold_text": "Stalinismus und die SPÖ der Vergangenheit hatten mit Sozialismus nichts zu tun.\"",
+    "corrupted": "Stalinismus und die SPÖ die Vergangenheit hatten mit Sozialismus nichts zu tun.\"",
+    "dative_type": "kill_dative_nmod_nominal"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s935",
+    "group_start": 18,
+    "group_end": 25,
+    "group_span_text": "der Wehrdienstzeit des jungen Berger (Christoph Dostal",
+    "gold_text": "Ebenfalls aus Österreich eine Überraschung: Ich gelobe von Wolfgang Murnberger, auf den ersten Blick die Chronik der Wehrdienstzeit des jungen Berger (Christoph Dostal), in Wahrheit das vielschichtige Psychogramm eines Menschen auf der Schwelle zum Leben als Erwachsener, eine hoch literarische und zugleich durch und durch filmische Musil-Paraphrase, lyrisch, wagemutig, überzeugend.",
+    "corrupted": "Ebenfalls aus Österreich eine Überraschung: Ich gelobe von Wolfgang Murnberger, auf den ersten Blick die Chronik die Wehrdienstzeit des jungen Berger ( Christoph Dostal), in Wahrheit das vielschichtige Psychogramm eines Menschen auf der Schwelle zum Leben als Erwachsener, eine hoch literarische und zugleich durch und durch filmische Musil - Paraphrase, lyrisch, wagemutig, überzeugend.",
+    "dative_type": "kill_dative_nmod_nominal"
+  }
+]

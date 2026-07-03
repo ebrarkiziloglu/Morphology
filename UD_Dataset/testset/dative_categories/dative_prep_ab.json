@@ -1,0 +1,178 @@
+[
+  {
+    "split": "train",
+    "sent_id": "train-s2539",
+    "group_start": 3,
+    "group_end": 4,
+    "group_span_text": "dem Jahr",
+    "gold_text": "Er spielte ab dem Jahr 2000 zunächst vier Jahre in Frankreich, bevor er nach Italien wechselte, wo er später auch eingebürgert wurde.",
+    "corrupted": "Er spielte ab das Jahr 2000 zunächst vier Jahre in Frankreich, bevor er nach Italien wechselte, wo er später auch eingebürgert wurde.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2768",
+    "group_start": 1,
+    "group_end": 3,
+    "group_span_text": "der Saison 2000",
+    "gold_text": "Ab der Saison 2000 war es die zum General - Motors - Konzern gehörende Automarke Chevrolet, die den Platz des Hauptsponsors einnahm.",
+    "corrupted": "Ab die Saison 2000 war es die zum General - Motors - Konzern gehörende Automarke Chevrolet, die den Platz des Hauptsponsors einnahm.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7191",
+    "group_start": 3,
+    "group_end": 5,
+    "group_span_text": "den 1960 Jahren",
+    "gold_text": "Daher setzte ab den 1960 Jahren die Entwicklung immer schonenderer Ionisationsmethoden ein.",
+    "corrupted": "Daher setzte ab die 1960 Jahre die Entwicklung immer schonenderer Ionisationsmethoden ein.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8701",
+    "group_start": 6,
+    "group_end": 7,
+    "group_span_text": "dem Achtelfinale",
+    "gold_text": "Die vier Europacupstarter nahmen erst ab dem Achtelfinale am Bewerb teil.",
+    "corrupted": "Die vier Europacupstarter nahmen erst ab das Achtelfinale am Bewerb teil.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8819",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "dem Jahr",
+    "gold_text": "Ab dem Jahr 1900 nahm das Palais für 35 Jahre das Glückstädter Amtsgericht auf.",
+    "corrupted": "Ab das Jahr 1900 nahm das Palais für 35 Jahre das Glückstädter Amtsgericht auf.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s8869",
+    "group_start": 38,
+    "group_end": 39,
+    "group_span_text": "dem 10",
+    "gold_text": "Die ehemalige katholische Pfarrkirche St. Peter und Paul, heute die Griechisch-orthodoxe Kirche Johannes der Täufer, in Kleinbüllesheim, einem Stadtteil von Euskirchen im Kreis Euskirchen (Nordrhein - Westfalen), wurde ab dem 10.",
+    "corrupted": "Die ehemalige katholische Pfarrkirche St. Peter und Paul, heute die Griechisch-orthodoxe Kirche Johannes der Täufer, in Kleinbüllesheim, einem Stadtteil von Euskirchen im Kreis Euskirchen (Nordrhein - Westfalen), wurde ab das 10.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9341",
+    "group_start": 9,
+    "group_end": 10,
+    "group_span_text": "dem Jahr",
+    "gold_text": "ONIX 3.0 wird im deutschsprachigen Raum voraussichtlich ab dem Jahr 2015 eingesetzt.",
+    "corrupted": "ONIX 3.0 wird im deutschsprachigen Raum voraussichtlich ab das Jahr 2015 eingesetzt.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9862",
+    "group_start": 4,
+    "group_end": 5,
+    "group_span_text": "diesem Zeitpunkt",
+    "gold_text": "St. Cyriakus stand ab diesem Zeitpunkt beiden Konfessionen gleichberechtigt zur Verfügung.",
+    "corrupted": "St. Cyriakus stand ab diesen Zeitpunkt beiden Konfessionen gleichberechtigt zur Verfügung.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10606",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "dem Jahr",
+    "gold_text": "Ab dem Jahr 2005 wollte er ein neues Projekt beginnen und so schlug Caparrós die geplante Vertragsverlängerung in Sevilla aus.",
+    "corrupted": "Ab das Jahr 2005 wollte er ein neues Projekt beginnen und so schlug Caparrós die geplante Vertragsverlängerung in Sevilla aus.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10796",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "dieser Version",
+    "gold_text": "Ab dieser Version werden E - Mails im Emlx Format gespeichert.",
+    "corrupted": "Ab diese Version werden E - Mails im Emlx Format gespeichert.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10973",
+    "group_start": 10,
+    "group_end": 11,
+    "group_span_text": "18 Jahren",
+    "gold_text": "Dabei wurden etwa 25.000 Menschen aus der deutschsprachigen Wohnbevölkerung ab 18 Jahren interviewt, die über einen Festnetzanschluss zu erreichen waren.",
+    "corrupted": "Dabei wurden etwa 25.000 Menschen aus der deutschsprachigen Wohnbevölkerung ab 18 Jahre interviewt, die über einen Festnetzanschluss zu erreichen waren.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12282",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "dem Jahre",
+    "gold_text": "Ab dem Jahre 2000 wurden die Theaterspektakel unter Tage für die Sommermonate geplant.",
+    "corrupted": "Ab das Jahr 2000 wurden die Theaterspektakel unter Tage für die Sommermonate geplant.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12613",
+    "group_start": 1,
+    "group_end": 3,
+    "group_span_text": "der Saison 1917",
+    "gold_text": "Ab der Saison 1917 / 18 wurde die katalanische Meisterschaft professionell ausgetragen und schloss eine zweite Liga ein.",
+    "corrupted": "Ab die Saison 1917 / 18 wurde die katalanische Meisterschaft professionell ausgetragen und schloss eine zweite Liga ein.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12996",
+    "group_start": 9,
+    "group_end": 11,
+    "group_span_text": "der Saison 2004",
+    "gold_text": "Für das Nachwuchsteam Eisbären Juniors Berlin ging er ab der Saison 2004 / 05 in der Deutschen Nachwuchsliga aufs Eis.",
+    "corrupted": "Für das Nachwuchsteam Eisbären Juniors Berlin ging er ab die Saison 2004 / 05 in der Deutschen Nachwuchsliga aufs Eis.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13971",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "dem Jahr",
+    "gold_text": "Ab dem Jahr 1366 gehörte die Burg und vermutlich auch der Ort dem Hochstift Augsburg.",
+    "corrupted": "Ab das Jahr 1366 gehörte die Burg und vermutlich auch der Ort dem Hochstift Augsburg.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s14025",
+    "group_start": 1,
+    "group_end": 2,
+    "group_span_text": "dem Jahr",
+    "gold_text": "Ab dem Jahr 2007 führte die Vater und Sohn Eiselen - Stiftung Ausschreibung und Verleihung des Preises weiter.",
+    "corrupted": "Ab das Jahr 2007 führte die Vater und Sohn Eiselen - Stiftung Ausschreibung und Verleihung des Preises weiter.",
+    "dative_type": "dative_prep_ab",
+    "preposition": "ab"
+  }
+]

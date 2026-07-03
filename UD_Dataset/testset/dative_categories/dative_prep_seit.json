@@ -7,7 +7,8 @@
     "group_span_text": "längerer Zeit",
     "gold_text": "Ich bin seit längerer Zeit zur Behandlung verschiedenster \"Leiden\" in der Physiotherapieraxis \"Gaby Montag\" im Vital Center und kann ausschließlich Positives berichten!",
     "corrupted": "Ich bin seit lange Zeit zur Behandlung verschiedenster \" Leiden \" in der Physiotherapieraxis \" Gaby Montag \" im Vital Center und kann ausschließlich Positives berichten!",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -17,7 +18,8 @@
     "group_span_text": "vielen Jahren",
     "gold_text": "Wir sind seit vielen Jahren Mandanten der Rechtsanwälte Ruland und wurden immer optimal in bei unseren Probleme und Anliegen unterstützt.",
     "corrupted": "Wir sind seit viele Jahre Mandanten der Rechtsanwälte Ruland und wurden immer optimal in bei unseren Probleme und Anliegen unterstützt.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -27,7 +29,8 @@
     "group_span_text": "5 Jahren",
     "gold_text": "Ich bin seit fast 5 Jahren auf der Suche nach jemanden gewesen, der mich nicht übers Ohr hauen wollte.",
     "corrupted": "Ich bin seit fast 5 Jahre auf der Suche nach jemanden gewesen, der mich nicht übers Ohr hauen wollte.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -37,7 +40,8 @@
     "group_span_text": "3 Monaten",
     "gold_text": "Patient trägt seit 3 Monaten Kontaktlinsen.",
     "corrupted": "Patient trägt seit 3 Monate Kontaktlinsen.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -47,7 +51,8 @@
     "group_span_text": "einigen Jahren",
     "gold_text": "Seit einigen Jahren gehe ich regelmäßig ins Nagelstudio.",
     "corrupted": "Seit einige Jahre gehe ich regelmäßig ins Nagelstudio.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -57,7 +62,8 @@
     "group_span_text": "einiger Zeit",
     "gold_text": "Aber seit einiger Zeit schmeckt der Döner nicht mehr so lecker.",
     "corrupted": "Aber seit einige Zeit schmeckt der Döner nicht mehr so lecker.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -67,7 +73,8 @@
     "group_span_text": "20 Jahren",
     "gold_text": "Deshalb kommen wir schon seit gut 20 Jahren immer wieder gerne zum Strassenhof!",
     "corrupted": "Deshalb kommen wir schon seit gut 20 Jahre immer wieder gerne zum Strassenhof!",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -77,7 +84,8 @@
     "group_span_text": "vielen Jahren",
     "gold_text": "Wir beauftragen das die Firma Ideengut Berroth schon seit vielen Jahren.",
     "corrupted": "Wir beauftragen das die Firma Ideengut Berroth schon seit viele Jahre.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -87,7 +95,8 @@
     "group_span_text": "mehreren Jahren",
     "gold_text": "Seit mehreren Jahren arbeiten wir nun schon mit XAVA in Sachen Suchmaschinenoptimierung zusammen.",
     "corrupted": "Seit mehrere Jahre arbeiten wir nun schon mit XAVA in Sachen Suchmaschinenoptimierung zusammen.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -97,7 +106,19 @@
     "group_span_text": "20 Jahren",
     "gold_text": "Ich weiß nicht, wie Google an die Adresse gekommen ist, aber die Firma existiert seit fast 20 Jahren nicht mehr!",
     "corrupted": "Ich weiß nicht, wie Google an die Adresse gekommen ist, aber die Firma existiert seit fast 20 Jahre nicht mehr!",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s847",
+    "group_start": 8,
+    "group_end": 9,
+    "group_span_text": "der Veröffentlichung",
+    "gold_text": "Es ist wirklich ein Geheimtipp; natürlich seit der Veröffentlichung in Google Earth weniger.",
+    "corrupted": "Es ist wirklich ein Geheimtipp; natürlich seit die Veröffentlichung in Google Earth weniger.",
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -107,7 +128,8 @@
     "group_span_text": "etlichen Jahren",
     "gold_text": "Diese Gastätte ist leider schon seit etlichen Jahren geschlossen!!",
     "corrupted": "Diese Gastätte ist leider schon seit etliche Jahre geschlossen!!",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -117,7 +139,8 @@
     "group_span_text": "dieser Zeit",
     "gold_text": "Vor 11 Jahren kam ich durch Zufall in diesen Friseursalon, und gehe seit dieser Zeit zu keinem anderen Friseur.",
     "corrupted": "Vor 11 Jahren kam ich durch Zufall in diesen Friseursalon, und gehe seit diese Zeit zu keinem anderen Friseur.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -127,7 +150,8 @@
     "group_span_text": "einem Jahr",
     "gold_text": "Mein Kleiner ist jetzt seit fast einem Jahr beim Judo bei Randori.",
     "corrupted": "Mein Kleiner ist jetzt seit fast ein Jahr beim Judo bei Randori.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -137,7 +161,8 @@
     "group_span_text": "25 Jahren",
     "gold_text": "Unsere Firma wird seit über 25 Jahren von Herrn Herzgen in allen Steuerbelangen beraten und vertreten.",
     "corrupted": "Unsere Firma wird seit über 25 Jahre von Herrn Herzgen in allen Steuerbelangen beraten und vertreten.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -147,7 +172,8 @@
     "group_span_text": "6 Jahren",
     "gold_text": "Ich bin mit meinen Welsh - Corgi - Cardigan Rüden seit 6 Jahren bei Dr. Delorme.",
     "corrupted": "Ich bin mit meinen Welsh - Corgi - Cardigan Rüden seit 6 Jahre bei Dr. Delorme.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -157,7 +183,8 @@
     "group_span_text": "vielen Jahren",
     "gold_text": "Bin seit vielen Jahren mit meinen Hunden in der Tierarztpraxis Dr. Delorme.",
     "corrupted": "Bin seit viele Jahre mit meinen Hunden in der Tierarztpraxis Dr. Delorme.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -167,7 +194,8 @@
     "group_span_text": "der Renovierung",
     "gold_text": "Die Praxis ist seit der Renovierung ein echtes Schmuckstück und das gesamte Team ist an Freundlichkeit kaum zu übertreffen.",
     "corrupted": "Die Praxis ist seit die Renovierung ein echtes Schmuckstück und das gesamte Team ist an Freundlichkeit kaum zu übertreffen.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -177,7 +205,8 @@
     "group_span_text": "einigen Wochen",
     "gold_text": "Seit einigen Wochen werde ich von Dr. Kämpgen behandelt und ich bin sehr zufrieden.",
     "corrupted": "Seit einige Wochen werde ich von Dr. Kämpgen behandelt und ich bin sehr zufrieden.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -187,7 +216,8 @@
     "group_span_text": "16 Jahren",
     "gold_text": "Meine Kinder gehen nun schon seit über 16 Jahren mit ihren großen und kleinen Wehwechen zu Dr. Kaas und der Sohn ist genauso fachlich kompetent wie schon vorher sein Vater.",
     "corrupted": "Meine Kinder gehen nun schon seit über 16 Jahre mit ihren großen und kleinen Wehwechen zu Dr. Kaas und der Sohn ist genauso fachlich kompetent wie schon vorher sein Vater.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -197,7 +227,8 @@
     "group_span_text": "mehreren Jahren",
     "gold_text": "Ich bin in dieser Filiale auch seit mehreren Jahren zufriedener Kunde.",
     "corrupted": "Ich bin in dieser Filiale auch seit mehrere Jahre zufriedener Kunde.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -207,7 +238,8 @@
     "group_span_text": "vielen Jahren",
     "gold_text": "Die Kanadier hätten seit vielen Jahren Zeit, sich umzustellen, es gebe kein Argument dafür, daß die Verordnung zu früh komme, sagt Naturschutzreferent Martin Riebe.",
     "corrupted": "Die Kanadier hätten seit viele Jahre Zeit, sich umzustellen, es gebe kein Argument dafür, daß die Verordnung zu früh komme, sagt Naturschutzreferent Martin Riebe.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -217,7 +249,8 @@
     "group_span_text": "dem vierten Quartal",
     "gold_text": "Wir schreiben seit dem vierten Quartal 1992 rote Zahlen.",
     "corrupted": "Wir schreiben seit das viertes Quartal 1992 rote Zahlen.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -227,7 +260,8 @@
     "group_span_text": "dem Jahr",
     "gold_text": "Die ersten dauerhaften Siedlungen auf der Insel Menorca existieren etwa seit dem Jahr 2000 v. Chr.",
     "corrupted": "Die ersten dauerhaften Siedlungen auf der Insel Menorca existieren etwa seit das Jahr 2000 v. Chr.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -237,7 +271,8 @@
     "group_span_text": "den 1960er Jahren",
     "gold_text": "Entwickelt wurden BWOs Anfang der 1950er Jahre und industriell seit den 1960er Jahren gefertigt.",
     "corrupted": "Entwickelt wurden BWOs Anfang der 1950er Jahre und industriell seit die 1960er Jahre gefertigt.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -247,7 +282,8 @@
     "group_span_text": "den 1990er Jahren",
     "gold_text": "Christoph Langen, einer seiner früheren Anschieber wurde seit den 1990er Jahren sein Konkurrent und Nachfolger.",
     "corrupted": "Christoph Langen, einer seiner früheren Anschieber wurde seit die 1990er Jahre sein Konkurrent und Nachfolger.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -257,7 +293,8 @@
     "group_span_text": "Jahrtausenden",
     "gold_text": "Beide Inseln sind schon seit Jahrtausenden besiedelt, auf der Okishima lebte einst ein Vielfaches der heutigen Bevölkerung.",
     "corrupted": "Beide Inseln sind schon seit Jahrtausende besiedelt, auf der Okishima lebte einst ein Vielfaches der heutigen Bevölkerung.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -267,7 +304,8 @@
     "group_span_text": "Monaten",
     "gold_text": "Obwohl er seit Monaten nicht spielte, wurde er zum Champions - League - Finale 2005 in Istanbul mitgenommen, dass Liverpool furios nach 0:3 - Rückstand im Elfmeterschießen gegen den AC Mailand gewann.",
     "corrupted": "Obwohl er seit Monate nicht spielte, wurde er zum Champions - League - Finale 2005 in Istanbul mitgenommen, dass Liverpool furios nach 0:3 - Rückstand im Elfmeterschießen gegen den AC Mailand gewann.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -277,7 +315,8 @@
     "group_span_text": "Jahren",
     "gold_text": "Diese Bestrebungen werden von Bürgerinitiativen und Lokalpolitik seit Jahren verhindert, obwohl die Start - und Landebahn von \"EDML\" sich seit Jahren in einem so schlechten Zustand befindet, dass bereits mehrfach Entschädigungen an Flugzeugeigner bezahlt werden mussten, deren Maschinen etwa durch lose Teile des Pistenbelages beschädigt wurden.",
     "corrupted": "Diese Bestrebungen werden von Bürgerinitiativen und Lokalpolitik seit Jahre verhindert, obwohl die Start - und Landebahn von \"EDML\" sich seit Jahren in einem so schlechten Zustand befindet, dass bereits mehrfach Entschädigungen an Flugzeugeigner bezahlt werden mussten, deren Maschinen etwa durch lose Teile des Pistenbelages beschädigt wurden.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -287,7 +326,8 @@
     "group_span_text": "Jahren",
     "gold_text": "Diese Bestrebungen werden von Bürgerinitiativen und Lokalpolitik seit Jahren verhindert, obwohl die Start - und Landebahn von \"EDML\" sich seit Jahren in einem so schlechten Zustand befindet, dass bereits mehrfach Entschädigungen an Flugzeugeigner bezahlt werden mussten, deren Maschinen etwa durch lose Teile des Pistenbelages beschädigt wurden.",
     "corrupted": "Diese Bestrebungen werden von Bürgerinitiativen und Lokalpolitik seit Jahren verhindert, obwohl die Start - und Landebahn von \"EDML\" sich seit Jahre in einem so schlechten Zustand befindet, dass bereits mehrfach Entschädigungen an Flugzeugeigner bezahlt werden mussten, deren Maschinen etwa durch lose Teile des Pistenbelages beschädigt wurden.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -297,7 +337,8 @@
     "group_span_text": "dem Jahrtausendwechsel",
     "gold_text": "Im Gegensatz zu fast allen anderen regionalen und überregionalen Zeitungen der Niederlande hat sie seit dem Jahrtausendwechsel auch angesichts der neuen Konkurrenz in Form des Internets und der Gratiszeitungen nicht an Auflage verloren.",
     "corrupted": "Im Gegensatz zu fast allen anderen regionalen und überregionalen Zeitungen der Niederlande hat sie seit den Jahrtausendwechsel auch angesichts der neuen Konkurrenz in Form des Internets und der Gratiszeitungen nicht an Auflage verloren.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -307,7 +348,8 @@
     "group_span_text": "einigen Jahren",
     "gold_text": "In Oudomxay werden seit einigen Jahren Bemühungen unternommen, den aufkeimenden Tourismus zu fördern und als Möglichkeit zur Armutsminimierung der Bevölkerung zu nutzen.",
     "corrupted": "In Oudomxay werden seit einige Jahre Bemühungen unternommen, den aufkeimenden Tourismus zu fördern und als Möglichkeit zur Armutsminimierung der Bevölkerung zu nutzen.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -317,7 +359,8 @@
     "group_span_text": "den frühen 1960er Jahren",
     "gold_text": "Seit den frühen 1960er Jahren wurde es von der Firma Westermann & Co. als Wohn - und Verwaltungsgebäude genutzt.",
     "corrupted": "Seit die früheren 1960er Jahre wurde es von der Firma Westermann & Co. als Wohn - und Verwaltungsgebäude genutzt.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -327,7 +370,8 @@
     "group_span_text": "seinem Erscheinen",
     "gold_text": "Sein \"Elementarbuch der Sanskrit - Sprache\", der \"Stenzler\", ist das bekannteste Lehrbuch der deutschen Indologie und wurde seit seinem Erscheinen im Jahr 1869 von zahllosen Generationen von Studenten genutzt.",
     "corrupted": "Sein \"Elementarbuch der Sanskrit - Sprache\", der \"Stenzler\", ist das bekannteste Lehrbuch der deutschen Indologie und wurde seit sein Erscheinen im Jahr 1869 von zahllosen Generationen von Studenten genutzt.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -337,7 +381,8 @@
     "group_span_text": "der Saison",
     "gold_text": "Seit der Saison 2011 / 2012 spielt er für die OSG Baden - Baden.",
     "corrupted": "Seit die Saison 2011 / 2012 spielt er für die OSG Baden - Baden.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -347,7 +392,8 @@
     "group_span_text": "30 Jahren",
     "gold_text": "1964 erreichte der Verein erstmals seit 30 Jahren wieder ein österreichisches Cupfinale.",
     "corrupted": "1964 erreichte der Verein erstmals seit 30 Jahre wieder ein österreichisches Cupfinale.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -357,7 +403,8 @@
     "group_span_text": "Jahren",
     "gold_text": "Die Produktion von Holzhackschnitzeln und vor allem der Außenhandel nehmen deutlich zu, zudem steigen seit Jahren die Marktpreise.",
     "corrupted": "Die Produktion von Holzhackschnitzeln und vor allem der Außenhandel nehmen deutlich zu, zudem steigen seit Jahre die Marktpreise.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -367,7 +414,8 @@
     "group_span_text": "dem Gewinn der Weltmeisterschaft",
     "gold_text": "Mit der Namensgebung möchte der DFB an den 2002 verstorbenen Ehrenspielführer der deutschen Nationalmannschaft Fritz Walter erinnern, welcher, wie Gerhard Mayer - Vorfelder anlässlich der Verleihung 2005 sagte, seit dem Gewinn der Weltmeisterschaft 1954 sowohl sportlich als auch menschlich ein Vorbild gewesen sei.",
     "corrupted": "Mit der Namensgebung möchte der DFB an den 2002 verstorbenen Ehrenspielführer der deutschen Nationalmannschaft Fritz Walter erinnern, welcher, wie Gerhard Mayer - Vorfelder anlässlich der Verleihung 2005 sagte, seit den Gewinn der Weltmeisterschaft 1954 sowohl sportlich als auch menschlich ein Vorbild gewesen sei.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -377,7 +425,8 @@
     "group_span_text": "dem Herbst",
     "gold_text": "Seit dem Herbst 2004 sammeln sich die Gegner des Ausbaus der A 14 im Bündnis \"Keine A14\".",
     "corrupted": "Seit den Herbst 2004 sammeln sich die Gegner des Ausbaus der A 14 im Bündnis \"Keine A14\".",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -387,7 +436,8 @@
     "group_span_text": "dem Jahre",
     "gold_text": "Seit dem Jahre 1676 wurden auch erstmals Briefumschläge mit dem Aufschlag von einem Sou befördert.",
     "corrupted": "Seit das Jahr 1676 wurden auch erstmals Briefumschläge mit dem Aufschlag von einem Sou befördert.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -397,7 +447,8 @@
     "group_span_text": "der Saison",
     "gold_text": "Seit der Saison 2008 / 2009 spielt Lacković für den HSV Hamburg, mit dem er 2011 Deutscher Meister wurde.",
     "corrupted": "Seit die Saison 2008 / 2009 spielt Lacković für den HSV Hamburg, mit dem er 2011 Deutscher Meister wurde.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -407,7 +458,8 @@
     "group_span_text": "der Einrichtung der Kolonie",
     "gold_text": "Bereits seit der Einrichtung der Kolonie war der Victoria Harbour einer der bedeutendsten und wichtigsten Häfen für den Handel mit Asien und China.",
     "corrupted": "Bereits seit die Einrichtung der Kolonie war der Victoria Harbour einer der bedeutendsten und wichtigsten Häfen für den Handel mit Asien und China.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -417,7 +469,8 @@
     "group_span_text": "der Eingemeindung",
     "gold_text": "Seit der Eingemeindung durch die Stadt Syke 1974 ist die vorher selbstständige Gemeinde Jardinghausen ein Ortsteil der Stadt Syke.",
     "corrupted": "Seit die Eingemeindung durch die Stadt Syke 1974 ist die vorher selbstständige Gemeinde Jardinghausen ein Ortsteil der Stadt Syke.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -427,7 +480,8 @@
     "group_span_text": "ihrer Ehe",
     "gold_text": "Nach Leos Tod baute Reynette von Münstermaifeld, wie sie seit ihrer Ehe hieß, das Geschäft aus, so dass sie 1369 als erste Koblenzer Geldhändlerin in der Lage war, einen Kredit von 1000 fl.",
     "corrupted": "Nach Leos Tod baute Reynette von Münstermaifeld, wie sie seit ihre Ehe hieß, das Geschäft aus, so dass sie 1369 als erste Koblenzer Geldhändlerin in der Lage war, einen Kredit von 1000 fl.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -437,7 +491,8 @@
     "group_span_text": "der Saison",
     "gold_text": "Seit der Saison 2006 existiert mit Houston Dynamo ein weiteres MLS - Team im Staat Texas.",
     "corrupted": "Seit die Saison 2006 existiert mit Houston Dynamo ein weiteres MLS - Team im Staat Texas.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -447,7 +502,8 @@
     "group_span_text": "der Spielzeit",
     "gold_text": "Seit der Spielzeit 2007 / 2008 lenkt Staatsintendant Ulrich Peters, die Geschicke des Hauses, der zuletzt Intendant des Augsburger Theaters war.",
     "corrupted": "Seit die Spielzeit 2007 / 2008 lenkt Staatsintendant Ulrich Peters, die Geschicke des Hauses, der zuletzt Intendant des Augsburger Theaters war.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -457,7 +513,8 @@
     "group_span_text": "einem Umbau",
     "gold_text": "Seit einem Umbau 2004 fasst die Eishalle 3200 Zuschauer, wobei 1700 Sitz - und 1500 Stehplätze zur Verfügung stehen.",
     "corrupted": "Seit einen Umbau 2004 fasst die Eishalle 3200 Zuschauer, wobei 1700 Sitz - und 1500 Stehplätze zur Verfügung stehen.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -467,7 +524,8 @@
     "group_span_text": "dem Anschluss",
     "gold_text": "Seine Frau arbeitete seit dem Anschluss bei der NS - Frauenschaft mit, \"wegen der religiösen Bindung als Frau eines Pastors\" wurde sie nicht als Parteimitglied aufgenommen, woraufhin sie ihre Mitarbeit aufgab.",
     "corrupted": "Seine Frau arbeitete seit den Anschluss bei der NS - Frauenschaft mit, \"wegen der religiösen Bindung als Frau eines Pastors\" wurde sie nicht als Parteimitglied aufgenommen, woraufhin sie ihre Mitarbeit aufgab.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -477,7 +535,8 @@
     "group_span_text": "der Aufnahme der Geschäftstätigkeit",
     "gold_text": "Seit der Aufnahme der Geschäftstätigkeit sind Geschäftsstellen in Aerzen, Börry, Coppenbrügge, Dehmke, Grohnde, Groß Berkel, Grupenhagen, Hohnsen, Lauenstein, Oldendorf, Osterwald, Reinerbeck, Salzhemmendorf und Vahlbruch entstanden.",
     "corrupted": "Seit die Aufnahme der Geschäftstätigkeit sind Geschäftsstellen in Aerzen, Börry, Coppenbrügge, Dehmke, Grohnde, Groß Berkel, Grupenhagen, Hohnsen, Lauenstein, Oldendorf, Osterwald, Reinerbeck, Salzhemmendorf und Vahlbruch entstanden.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -487,7 +546,8 @@
     "group_span_text": "den 1960er Jahren",
     "gold_text": "Dagegen hat Balleis mehrfach angekündigt, die bereits seit den 1960er Jahren diskutierte \"Kosbacher Brücke\" als vierte Querung des Regnitzgrundes für den innerstädtischen Verkehr errichten zu wollen;",
     "corrupted": "Dagegen hat Balleis mehrfach angekündigt, die bereits seit die 1960er Jahre diskutierte \"Kosbacher Brücke\" als vierte Querung des Regnitzgrundes für den innerstädtischen Verkehr errichten zu wollen;",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -497,7 +557,8 @@
     "group_span_text": "zwei Jahren",
     "gold_text": "Bourgelats Klage, er könne Füße und rechte Hand schon seit zwei Jahren nicht mehr bewegen, wurde allerdings von Mammerickx als maßlose Übertreibung entlarvt.",
     "corrupted": "Bourgelats Klage, er könne Füße und rechte Hand schon seit zwei Jahre nicht mehr bewegen, wurde allerdings von Mammerickx als maßlose Übertreibung entlarvt.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -507,7 +568,8 @@
     "group_span_text": "dem Verfall",
     "gold_text": "Im Jahre 1996 war es noch unversehrt, seit 2007 ist es leer und dem Verfall preisgegeben, obwohl es unter Denkmalschutz steht.",
     "corrupted": "Im Jahre 1996 war es noch unversehrt, seit 2007 ist es leer und den Verfall preisgegeben, obwohl es unter Denkmalschutz steht.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -517,7 +579,8 @@
     "group_span_text": "den Wahlen",
     "gold_text": "Bei der Landtagswahl 2009 verzeichnete die FDP mit einem Plus von 3,9 % den größten Stimmenzuwachs aller Parteien und zog mit einem Ergebnis von 7,2 %, das ihr bislang bestes Ergebnis in Brandenburg überhaupt darstellt, erstmals seit den Wahlen von 1990 wieder in den Landtag ein, in dem sie seitdem mit sieben Abgeordneten vertreten ist.",
     "corrupted": "Bei der Landtagswahl 2009 verzeichnete die FDP mit einem Plus von 3,9 % den größten Stimmenzuwachs aller Parteien und zog mit einem Ergebnis von 7,2 %, das ihr bislang bestes Ergebnis in Brandenburg überhaupt darstellt, erstmals seit die Wahlen von 1990 wieder in den Landtag ein, in dem sie seitdem mit sieben Abgeordneten vertreten ist.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -527,7 +590,8 @@
     "group_span_text": "den 1970er Jahren",
     "gold_text": "Die den Hauptkamm des Kolymagebirges kreuzende Straße zur Pjostraja - Dreswa - Bucht am Ochotskischen Meer wurde bereits seit den 1970er - Jahren nicht mehr durchgehend unterhalten und wird auch in ihrem Nordabschnitt nach Aufgabe der Ortschaften Galimy und Merenga in den letzten Jahren nicht mehr befahren.",
     "corrupted": "Die den Hauptkamm des Kolymagebirges kreuzende Straße zur Pjostraja - Dreswa - Bucht am Ochotskischen Meer wurde bereits seit die 1970er - Jahre nicht mehr durchgehend unterhalten und wird auch in ihrem Nordabschnitt nach Aufgabe der Ortschaften Galimy und Merenga in den letzten Jahren nicht mehr befahren.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -537,7 +601,8 @@
     "group_span_text": "der Übernahme der früher selbständigen Heliopolis - Gesellschaft",
     "gold_text": "Seit der Übernahme der früher selbständigen Heliopolis - Gesellschaft im Jahre 1991 unterstehen alle Strecken der CTA.",
     "corrupted": "Seit die Übernahme der früher selbständigen Heliopolis - Gesellschaft im Jahre 1991 unterstehen alle Strecken der CTA.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -547,7 +612,8 @@
     "group_span_text": "welchem Jahr",
     "gold_text": "Seit welchem Jahr der Feldgottesdienst der Gemeinde Sankt Martin in Batzenhofen zu Mariä Himmelfahrt an der Kapelle gehalten wird, ist nicht überliefert.",
     "corrupted": "Seit welches Jahr der Feldgottesdienst der Gemeinde Sankt Martin in Batzenhofen zu Mariä Himmelfahrt an der Kapelle gehalten wird, ist nicht überliefert.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -557,7 +623,8 @@
     "group_span_text": "den 1980ern",
     "gold_text": "Seit den 1980ern hat DUC erste Konzessionen in der dänischen Nordsee aufgegeben, seit 1998 beuten auch andere Unternehmen dieses Gebiet aus.",
     "corrupted": "Seit die 1980ern hat DUC erste Konzessionen in der dänischen Nordsee aufgegeben, seit 1998 beuten auch andere Unternehmen dieses Gebiet aus.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -567,7 +634,8 @@
     "group_span_text": "Jahrzehnten",
     "gold_text": "Erschwerend kam für deutschsprachige phantastische Literatur hinzu, dass die meisten Autoren, die zum Teil bereits seit Jahrzehnten für Büchernachschub sorgten, nunmehr ihre Geschichten in die Wirklichkeit verlagerten und kaum noch phantastische Elemente verwendeten.",
     "corrupted": "Erschwerend kam für deutschsprachige phantastische Literatur hinzu, dass die meisten Autoren, die zum Teil bereits seit Jahrzehnte für Büchernachschub sorgten, nunmehr ihre Geschichten in die Wirklichkeit verlagerten und kaum noch phantastische Elemente verwendeten.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -577,7 +645,8 @@
     "group_span_text": "den 1950er Jahren",
     "gold_text": "Seit den 1950er Jahren bis 1968 war der Ort innerhalb der damaligen Verwaltungsgliederung Rumäniens Sitz eines Rajons.",
     "corrupted": "Seit die 1950er Jahre bis 1968 war der Ort innerhalb der damaligen Verwaltungsgliederung Rumäniens Sitz eines Rajons.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -587,7 +656,8 @@
     "group_span_text": "den 1990er Jahren",
     "gold_text": "Seit den 1990er Jahren haben sich in der deutschen Theaterszene durch die weithin ausstrahlenden Impulse der Berliner Volksbühne unter der Intendanz Frank Castorfs vielfältige Ansatzpunkte eines politisch involvierten Theaters entwickelt.",
     "corrupted": "Seit die 1990er Jahre haben sich in der deutschen Theaterszene durch die weithin ausstrahlenden Impulse der Berliner Volksbühne unter der Intendanz Frank Castorfs vielfältige Ansatzpunkte eines politisch involvierten Theaters entwickelt.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -597,7 +667,8 @@
     "group_span_text": "dem Mittelalter",
     "gold_text": "Er wird seit dem Mittelalter in vier Kapitel unterteilt.",
     "corrupted": "Er wird seit das Mittelalter in vier Kapitel unterteilt.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -607,7 +678,8 @@
     "group_span_text": "dem Jahr",
     "gold_text": "Die Entwicklung zur Schulstadt zeigte sich daran, dass seit dem Jahr 1852 die Armen Schulschwestern unserer lieben Frau eine Schule in der Stadt führen.",
     "corrupted": "Die Entwicklung zur Schulstadt zeigte sich daran, dass seit das Jahr 1852 die Armen Schulschwestern unserer lieben Frau eine Schule in der Stadt führen.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -617,7 +689,8 @@
     "group_span_text": "dem Film Die Commitments",
     "gold_text": "Im Film lautet der Name der Familie statt Rabitte allerdings Curley, da 20th Century Fox die Namensrechte seit dem Film Die Commitments (1991, der erste Teil der Trilogie) besaß.",
     "corrupted": "Im Film lautet der Name der Familie statt Rabitte allerdings Curley, da 20th Century Fox die Namensrechte seit den Film Die Commitments (1991, der erste Teil der Trilogie) besaß.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -627,7 +700,8 @@
     "group_span_text": "der Saison",
     "gold_text": "Seit der Saison 2011 / 12 ist er Assistenztrainer bei den U16 - Junioren von Brynäs IF.",
     "corrupted": "Seit die Saison 2011 / 12 ist er Assistenztrainer bei den U16 - Junioren von Brynäs IF.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -637,7 +711,8 @@
     "group_span_text": "dem Jahr 1875",
     "gold_text": "Seit dem Jahr 1875 gab es eine eigene Jahresdotation für die technische Literatur in der Landesbibliothek.",
     "corrupted": "Seit das Jahr 1875 gab es eine eigene Jahresdotation für die technische Literatur in der Landesbibliothek.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -647,7 +722,8 @@
     "group_span_text": "seinem Ausscheiden",
     "gold_text": "Neben seinem Landtagsmandat machte Mokry sich 2001 mit der Firma A.V.G. Mirko Mokry e.K. (ab 2007 A.V.G. Ascherslebener Verkehrsgesellschaft mbH) selbständig und führt das Unternehmen seit seinem Ausscheiden aus der Politik hauptberuflich.",
     "corrupted": "Neben seinem Landtagsmandat machte Mokry sich 2001 mit der Firma A.V.G. Mirko Mokry e.K. (ab 2007 A.V.G. Ascherslebener Verkehrsgesellschaft mbH) selbständig und führt das Unternehmen seit sein Ausscheiden aus der Politik hauptberuflich.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -657,7 +733,8 @@
     "group_span_text": "dem Jahr 1971",
     "gold_text": "Binzen ist Sitz des Gemeindeverwaltungsverbandes Vorderes Kandertal in dem die Gemeinden Binzen, Eimeldingen, Fischingen, Rümmingen, Schallbach und Wittlingen seit dem Jahr 1971 ihre Verwaltung zusammenfassen.",
     "corrupted": "Binzen ist Sitz des Gemeindeverwaltungsverbandes Vorderes Kandertal in dem die Gemeinden Binzen, Eimeldingen, Fischingen, Rümmingen, Schallbach und Wittlingen seit das Jahr 1971 ihre Verwaltung zusammenfassen.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -667,7 +744,8 @@
     "group_span_text": "dem Frühjahr 2011",
     "gold_text": "Seit dem Frühjahr 2011 werden diese fruchtlosen Planungsspiele nun durch Bürgerproteste angeprangert.",
     "corrupted": "Seit das Frühjahr 2011 werden diese fruchtlosen Planungsspiele nun durch Bürgerproteste angeprangert.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -677,7 +755,8 @@
     "group_span_text": "Jahrzehnten",
     "gold_text": "Der östliche Teil des Lagos - Mombasa - Highways ist seit Jahrzehnten asphaltiert und stellt die Hauptverbindungsstraße zwischen den afrikanischen Großen Seen und der Küste dar.",
     "corrupted": "Der östliche Teil des Lagos - Mombasa - Highways ist seit Jahrzehnte asphaltiert und stellt die Hauptverbindungsstraße zwischen den afrikanischen Großen Seen und der Küste dar.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -687,7 +766,8 @@
     "group_span_text": "einigen Jahren",
     "gold_text": "Einen Sonderweg beschreitet seit einigen Jahren der Posaunenchor der Kreuznacher - Diakonie - Kantorei.",
     "corrupted": "Einen Sonderweg beschreitet seit einige Jahre der Posaunenchor der Kreuznacher - Diakonie - Kantorei.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -697,7 +777,8 @@
     "group_span_text": "dem Jahreswechsel",
     "gold_text": "Seit dem Jahreswechsel 2009 / 10 ist er Cheftrainer des russischen Erstdivisionisten Schinnik Jaroslawl, davor war er in verschiedenen Positionen im Trainerstab des Rekordmeisters Spartak Moskau angestellt, darunter im Sommer 2008 für einige Wochen als Interimscheftrainer.",
     "corrupted": "Seit den Jahreswechsel 2009 / 10 ist er Cheftrainer des russischen Erstdivisionisten Schinnik Jaroslawl, davor war er in verschiedenen Positionen im Trainerstab des Rekordmeisters Spartak Moskau angestellt, darunter im Sommer 2008 für einige Wochen als Interimscheftrainer.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -707,7 +788,8 @@
     "group_span_text": "den 1980er Jahren",
     "gold_text": "Eine große Anzahl seiner Werke erschien in zahlreichen Sprachen und Auflagen und wurden seit den 1980er Jahren als Neudrucke herausgegeben.",
     "corrupted": "Eine große Anzahl seiner Werke erschien in zahlreichen Sprachen und Auflagen und wurden seit die 1980er Jahre als Neudrucke herausgegeben.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -717,7 +799,8 @@
     "group_span_text": "den 1960er Jahren",
     "gold_text": "Eine Studie Birgitta Theanders von 2006 zu den Inhalten der Mädchen - Bücher Ringnér - Lundgrens zwischen 1945 und 1965 belegt überraschenderweise, dass die Autorin weniger die klassischen Themen wie einfache Probleme oder romantische Liebesgeschichten behandelte, sondern vielmehr soziale Klassenunterschiede und seit den 1960er Jahren auch Globalisierungprobleme ansprach.",
     "corrupted": "Eine Studie Birgitta Theanders von 2006 zu den Inhalten der Mädchen - Bücher Ringnér - Lundgrens zwischen 1945 und 1965 belegt überraschenderweise, dass die Autorin weniger die klassischen Themen wie einfache Probleme oder romantische Liebesgeschichten behandelte, sondern vielmehr soziale Klassenunterschiede und seit die 1960er Jahre auch Globalisierungprobleme ansprach.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -727,7 +810,8 @@
     "group_span_text": "den 1970er Jahren",
     "gold_text": "Er plant Jugendmessen, die in der Südstadt - Gemeinde eine Tradition spätestens seit den 1970er Jahren haben.",
     "corrupted": "Er plant Jugendmessen, die in der Südstadt - Gemeinde eine Tradition spätestens seit die 1970er Jahre haben.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -737,7 +821,8 @@
     "group_span_text": "vielen Jahren",
     "gold_text": "Dies und das reichliche Nahrungsangebot im Vorgebirge führen dazu, dass es im Zittauer Gebirge seit vielen Jahren eine kleine aber stabile Uhupopulation gibt.",
     "corrupted": "Dies und das reichliche Nahrungsangebot im Vorgebirge führen dazu, dass es im Zittauer Gebirge seit viele Jahre eine kleine aber stabile Uhupopulation gibt.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -747,7 +832,8 @@
     "group_span_text": "den 1960er Jahren",
     "gold_text": "Rada übernahm seit den 1960er Jahren kleinere Rollen in Filmen und TV - Serien.",
     "corrupted": "Rada übernahm seit die 1960er Jahre kleinere Rollen in Filmen und TV - Serien.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -757,7 +843,8 @@
     "group_span_text": "der Vereinigung",
     "gold_text": "Die Herrschaft Crécy, spätere Grafschaft Crécy mit dem Hauptort Crécy - en - Brie (seit der Vereinigung mit La Chapelle - sur - Crécy 1972 Crécy - la - Chapelle) stand bis 1285 unter Vasallität des Grafen von Champagne, war ab dann direkt dem König unterstellt.",
     "corrupted": "Die Herrschaft Crécy, spätere Grafschaft Crécy mit dem Hauptort Crécy - en - Brie (seit die Vereinigung mit La Chapelle - sur - Crécy 1972 Crécy - la - Chapelle) stand bis 1285 unter Vasallität des Grafen von Champagne, war ab dann direkt dem König unterstellt.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -767,7 +854,8 @@
     "group_span_text": "der Eröffnung",
     "gold_text": "Der Timrå IK aus der Elitserien trägt seit der Eröffnung 1965 seine Heimspiele im Stadion aus.",
     "corrupted": "Der Timrå IK aus der Elitserien trägt seit die Eröffnung 1965 seine Heimspiele im Stadion aus.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "train",
@@ -777,7 +865,8 @@
     "group_span_text": "einigen Jahren",
     "gold_text": "Auch die Champions Trophy der FIH hat seit einigen Jahren einen Sponsorennamen.",
     "corrupted": "Auch die Champions Trophy der FIH hat seit einige Jahre einen Sponsorennamen.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "dev",
@@ -787,7 +876,8 @@
     "group_span_text": "15 Jahren",
     "gold_text": "Ich beschäftigte mich seit 15 Jahren mit Musik, aber wenn ich mich mit dem Beistzer Dirk unterhalte lernen ich immer wieder was dazu und stoße auf geniale Scheiben.",
     "corrupted": "Ich beschäftigte mich seit 15 Jahre mit Musik, aber wenn ich mich mit dem Beistzer Dirk unterhalte lernen ich immer wieder was dazu und stoße auf geniale Scheiben.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "dev",
@@ -797,7 +887,8 @@
     "group_span_text": "einigen Jahren",
     "gold_text": "Bin jetzt schon seit einigen Jahren bei Herrn Dr. Sieben in Behandlung und ich bin immer zufrieden gewesen!",
     "corrupted": "Bin jetzt schon seit einige Jahre bei Herrn Dr. Sieben in Behandlung und ich bin immer zufrieden gewesen!",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "dev",
@@ -807,7 +898,8 @@
     "group_span_text": "20 Jahren",
     "gold_text": "Hier gibt es richtige Burger -- ein Hamburger original seit über 20 Jahren!",
     "corrupted": "Hier gibt es richtige Burger -- ein Hamburger original seit über 20 Jahre!",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "dev",
@@ -817,7 +909,8 @@
     "group_span_text": "meinem letzten Besuch",
     "gold_text": "Das Frühstück hat sich seit meinem letzten Besuch stark verändert und hat eine grosse Auswahl an Joghurt, Säften, Käse etc. Die Mitarbeiter sind freundlich, kompetent und gästeorientiert.",
     "corrupted": "Das Frühstück hat sich seit meinen letzten Besuch stark verändert und hat eine grosse Auswahl an Joghurt, Säften, Käse etc. Die Mitarbeiter sind freundlich, kompetent und gästeorientiert.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "dev",
@@ -827,7 +920,8 @@
     "group_span_text": "5 Jahren",
     "gold_text": "Ich trage seit 5 Jahren ein Weaving Haarteil und fühle mich damit auch sehr wohl.",
     "corrupted": "Ich trage seit 5 Jahre ein Weaving Haarteil und fühle mich damit auch sehr wohl.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "dev",
@@ -837,7 +931,8 @@
     "group_span_text": "Jahren",
     "gold_text": "Ich kaufe seit Jahren dort meine Technik und wurde bisher nie enttäuscht!",
     "corrupted": "Ich kaufe seit Jahre dort meine Technik und wurde bisher nie enttäuscht!",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "dev",
@@ -847,7 +942,8 @@
     "group_span_text": "Monaten",
     "gold_text": "Das israelische Fernsehen berichtete, der 25jährige Attentäter und sein zwei Jahre älterer Bruder hätten seit Monaten versucht, Rabin umzubringen.",
     "corrupted": "Das israelische Fernsehen berichtete, der 25jährige Attentäter und sein zwei Jahre älterer Bruder hätten seit Monate versucht, Rabin umzubringen.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "dev",
@@ -857,7 +953,8 @@
     "group_span_text": "Dem seit nunmehr zwei Jahrzehnten währenden Rechtsstreit",
     "gold_text": "Dem seit nunmehr zwei Jahrzehnten währenden Rechtsstreit um das Atomkraftwerk Mülheim -- Kärlich steht am kommenden Dienstag eine weitere Entscheidung bevor:",
     "corrupted": "Den seit nunmehr zwei Jahrzehnten währende Rechtsstreit um das Atomkraftwerk Mülheim -- Kärlich steht am kommenden Dienstag eine weitere Entscheidung bevor:",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "dev",
@@ -867,7 +964,8 @@
     "group_span_text": "fünf Jahren",
     "gold_text": "Seit 1992 können Ausländer, die seit mindestens fünf Jahren in Holland wohnen, einen Paß bekommen, ohne ihre alte Staatsbürgerschaft aufzugeben.",
     "corrupted": "Seit 1992 können Ausländer, die seit mindestens fünf Jahre in Holland wohnen, einen Paß bekommen, ohne ihre alte Staatsbürgerschaft aufzugeben.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "dev",
@@ -877,7 +975,8 @@
     "group_span_text": "Jahren",
     "gold_text": "Die Gewinne liegen nach den Worten des Geschäftsführers seit Jahren zwischen 100 000 und 750 000 Mark nach Steuern.",
     "corrupted": "Die Gewinne liegen nach den Worten des Geschäftsführers seit Jahre zwischen 100 000 und 750 000 Mark nach Steuern.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "dev",
@@ -887,7 +986,8 @@
     "group_span_text": "dreieinhalb Jahren",
     "gold_text": "Die Gruppe wird für einen Großteil der Gewalttaten verantwortlich gemacht, die seit dreieinhalb Jahren in Ägypten verübt worden sind.",
     "corrupted": "Die Gruppe wird für einen Großteil der Gewalttaten verantwortlich gemacht, die seit dreieinhalb Jahre in Ägypten verübt worden sind.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "test",
@@ -897,7 +997,8 @@
     "group_span_text": "dem",
     "gold_text": "Bis ich bei Uwe war, seit dem gehe ich nur noch zu ihm.",
     "corrupted": "Bis ich bei Uwe war, seit das gehe ich nur noch zu ihm.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "test",
@@ -907,7 +1008,8 @@
     "group_span_text": "Jahren",
     "gold_text": "DasFahren wir jetzt seit Jahren hin.",
     "corrupted": "DasFahren wir jetzt seit Jahre hin.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "test",
@@ -917,7 +1019,8 @@
     "group_span_text": "einem Jahr",
     "gold_text": "Seit einem Jahr oder so kochen wir dann regelmäßig am Abend das Rezept von der Gebauer Webseite nach, das von einem Sternekoch speziell für die Gebauer Kunden veröffentlicht wird.",
     "corrupted": "Seit ein Jahr oder so kochen wir dann regelmäßig am Abend das Rezept von der Gebauer Webseite nach, das von einem Sternekoch speziell für die Gebauer Kunden veröffentlicht wird.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "test",
@@ -927,7 +1030,8 @@
     "group_span_text": "einiger Zeit",
     "gold_text": "Seit einiger Zeit hat man hier sogar eine Onlineapotheke eingerichtet.",
     "corrupted": "Seit einige Zeit hat man hier sogar eine Onlineapotheke eingerichtet.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "test",
@@ -937,7 +1041,8 @@
     "group_span_text": "Jahren",
     "gold_text": "``Das ist die erste intelligente Äußerung, die ich von der IG Metall seit Jahren höre'', sagte Stihl der FR.",
     "corrupted": "``Das ist die erste intelligente Äußerung, die ich von der IG Metall seit Jahre höre'', sagte Stihl der FR.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "test",
@@ -947,7 +1052,8 @@
     "group_span_text": "dem Regierungswechsel",
     "gold_text": "``In den Monaten seit dem Regierungswechsel ist, im Gegensatz zu den Ankündigungen der neuen Regierung, kein Fortschritt in Menschenrechtsfragen festzustellen.",
     "corrupted": "``In den Monaten seit den Regierungswechsel ist, im Gegensatz zu den Ankündigungen der neuen Regierung, kein Fortschritt in Menschenrechtsfragen festzustellen.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   },
   {
     "split": "test",
@@ -957,6 +1063,7 @@
     "group_span_text": "20 Jahren",
     "gold_text": "In Passau existiert seit gut 20 Jahren eine Universität, wo so gut oder so schlecht gelehrt und geforscht wird wie an anderen deutschen Universitäten auch.",
     "corrupted": "In Passau existiert seit gut 20 Jahre eine Universität, wo so gut oder so schlecht gelehrt und geforscht wird wie an anderen deutschen Universitäten auch.",
-    "dative_type": "dative_prep_seit"
+    "dative_type": "dative_prep_seit",
+    "preposition": "seit"
   }
 ]

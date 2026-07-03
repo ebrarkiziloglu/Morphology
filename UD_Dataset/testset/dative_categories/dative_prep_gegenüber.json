@@ -1,0 +1,178 @@
+[
+  {
+    "split": "train",
+    "sent_id": "train-s1164",
+    "group_start": 6,
+    "group_end": 7,
+    "group_span_text": "den Kunden",
+    "gold_text": "Unfreundliches und sehr arrogantes Auftreten gegenüber den Kunden.",
+    "corrupted": "Unfreundliches und sehr arrogantes Auftreten gegenüber die Kunden.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s1551",
+    "group_start": 8,
+    "group_end": 10,
+    "group_span_text": "der Bevölkerung Nigerias",
+    "gold_text": "``Wir haben immerhin eine beträchtliche Verpflichtung gegenüber der Bevölkerung Nigerias und des Niger-Deltas.''",
+    "corrupted": "``Wir haben immerhin eine beträchtliche Verpflichtung gegenüber die Bevölkerung Nigerias und des Niger-Deltas.''",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s3831",
+    "group_start": 14,
+    "group_end": 15,
+    "group_span_text": "dem Basismodell",
+    "gold_text": "Er basierte technisch auf dem Lamborghini 350 GT, allerdings wurde der Radstand gegenüber dem Basismodell um zehn Zentimeter verkürzt.",
+    "corrupted": "Er basierte technisch auf dem Lamborghini 350 GT, allerdings wurde der Radstand gegenüber das Basismodell um zehn Zentimeter verkürzt.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s4483",
+    "group_start": 12,
+    "group_end": 13,
+    "group_span_text": "dem Bahnhof",
+    "gold_text": "Nach dem Umzug der LBE - Hauptverwaltung in das neue Gebäude gegenüber dem Bahnhof wurden die alten Bahnanlagen sukzessive abgerissen.",
+    "corrupted": "Nach dem Umzug der LBE - Hauptverwaltung in das neue Gebäude gegenüber den Bahnhof wurden die alten Bahnanlagen sukzessive abgerissen.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5868",
+    "group_start": 6,
+    "group_end": 8,
+    "group_span_text": "der älteren Szene",
+    "gold_text": "Punk Planet orientierte sich politisch gegenüber der älteren Szene und legte besonderen Wert auf Feminismus und die Riot - Grrrl - Bewegung.",
+    "corrupted": "Punk Planet orientierte sich politisch gegenüber die alte Szene und legte besonderen Wert auf Feminismus und die Riot - Grrrl - Bewegung.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7104",
+    "group_start": 21,
+    "group_end": 25,
+    "group_span_text": "den Schwaben und der Landesregierung",
+    "gold_text": "Lange nach dem Konflikt um den Südwestsstaat hat sich erneut eine starke regionale badische Identität und die damit einhergehende Abgrenzung gegenüber den Schwaben und der Landesregierung in Stuttgart etabliert.",
+    "corrupted": "Lange nach dem Konflikt um den Südwestsstaat hat sich erneut eine starke regionale badische Identität und die damit einhergehende Abgrenzung gegenüber die Schwaben und die Landesregierung in Stuttgart etabliert.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7819",
+    "group_start": 3,
+    "group_end": 4,
+    "group_span_text": "dem Projekt",
+    "gold_text": "Da jede Kritik dem Projekt gegenüber untersagt wurde, konnten sich Kritiker nur im Ausland darüber äußern.",
+    "corrupted": "Da jede Kritik das Projekt gegenüber untersagt wurde, konnten sich Kritiker nur im Ausland darüber äußern.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9438",
+    "group_start": 15,
+    "group_end": 16,
+    "group_span_text": "anderen Weibchen",
+    "gold_text": "Untersuchungen zeigen, dass die Monogamie bei manchen Vogelarten auch durch Aggressivität der Weibchen gegenüber anderen Weibchen verursacht wird.",
+    "corrupted": "Untersuchungen zeigen, dass die Monogamie bei manchen Vogelarten auch durch Aggressivität der Weibchen gegenüber andere Weibchen verursacht wird.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9717",
+    "group_start": 11,
+    "group_end": 12,
+    "group_span_text": "dem Kanton",
+    "gold_text": "Die Klosteraufhebung trug auch massgeblich zur Entfremdung des Freiamts gegenüber dem Kanton bei.",
+    "corrupted": "Die Klosteraufhebung trug auch massgeblich zur Entfremdung des Freiamts gegenüber den Kanton bei.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10291",
+    "group_start": 17,
+    "group_end": 19,
+    "group_span_text": "dem sowjetischen Botschafter",
+    "gold_text": "Während die Roter Oktober an der US - amerikanischen Ostküste versteckt wird, gibt Jeffrey Pelt gegenüber dem sowjetischen Botschafter eine Erklärung zu den Geschehnissen ab.",
+    "corrupted": "Während die Roter Oktober an der US - amerikanischen Ostküste versteckt wird, gibt Jeffrey Pelt gegenüber den sowjetischen Botschafter eine Erklärung zu den Geschehnissen ab.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s10497",
+    "group_start": 23,
+    "group_end": 26,
+    "group_span_text": "politischen Führern aller Seiten",
+    "gold_text": "Als das postkoloniale Leben in Angola in Korruption, Brutalität, Gewalt und einen endlosen blutigen Bürgerkrieg entartete, blieb Bonga kritisch gegenüber politischen Führern aller Seiten.",
+    "corrupted": "Als das postkoloniale Leben in Angola in Korruption, Brutalität, Gewalt und einen endlosen blutigen Bürgerkrieg entartete, blieb Bonga kritisch gegenüber politische Führer aller Seiten.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11101",
+    "group_start": 8,
+    "group_end": 9,
+    "group_span_text": "der Presse",
+    "gold_text": "Der damalige Zoodirektor Jürgen Lange berichtete aber gegenüber der Presse, dass Yan Yan in Berlin bleiben müsse und man sich langfristig um ein junges Panda - Pärchen bemühen würde.",
+    "corrupted": "Der damalige Zoodirektor Jürgen Lange berichtete aber gegenüber die Presse, dass Yan Yan in Berlin bleiben müsse und man sich langfristig um ein junges Panda - Pärchen bemühen würde.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11418",
+    "group_start": 29,
+    "group_end": 30,
+    "group_span_text": "dem Vorjahr",
+    "gold_text": "Eine GmbH-Gründung dauert demnach hierzulande 18 Tage, umfasst 9 Schritte und kostet 4,7 Prozent des Pro-Kopf-Einkommens\", wodurch sich Deutschland gegenüber dem Vorjahr um 17 Plätze verbessert habe.",
+    "corrupted": "Eine GmbH-Gründung dauert demnach hierzulande 18 Tage, umfasst 9 Schritte und kostet 4,7 Prozent des Pro-Kopf-Einkommens\", wodurch sich Deutschland gegenüber das Vorjahr um 17 Plätze verbessert habe.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12350",
+    "group_start": 13,
+    "group_end": 18,
+    "group_span_text": "der N 1 des OKB",
+    "gold_text": "Tschelomei versuchte im Jahr 1966 erneut, die UR - 700 gegenüber der N - 1 des OKB - 1 durchzusetzen, jedoch ohne Erfolg.",
+    "corrupted": "Tschelomei versuchte im Jahr 1966 erneut, die UR - 700 gegenüber die N - 1 des OKB - 1 durchzusetzen, jedoch ohne Erfolg.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "dev",
+    "sent_id": "dev-s442",
+    "group_start": 10,
+    "group_end": 11,
+    "group_span_text": "den Hunden",
+    "gold_text": "Es herrscht ein rauher, unhöflicher Ton -- teilweise auch den Hunden gegenüber.",
+    "corrupted": "Es herrscht ein rauher, unhöflicher Ton -- teilweise auch die Hunde gegenüber.",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s521",
+    "group_start": 19,
+    "group_end": 20,
+    "group_span_text": "der CDU",
+    "gold_text": "SPD solle sich doch bitte, auch in Schwerin, ``in der Sache profilieren --'' sowohl gegenüber der CDU als auch in die andere Richtung:",
+    "corrupted": "SPD solle sich doch bitte, auch in Schwerin, ``in der Sache profilieren --'' sowohl gegenüber die CDU als auch in die andere Richtung:",
+    "dative_type": "dative_prep_gegenüber",
+    "preposition": "gegenüber"
+  }
+]

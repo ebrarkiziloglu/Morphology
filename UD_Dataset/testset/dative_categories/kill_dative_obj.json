@@ -1,0 +1,152 @@
+[
+  {
+    "split": "train",
+    "sent_id": "train-s2218",
+    "group_start": 0,
+    "group_end": 3,
+    "group_span_text": "Diese frei beweglichen Elektronen",
+    "gold_text": "Diese frei beweglichen Elektronen kann man sich als Teilchen eines Gases vorstellen, das den Platz zwischen den Atomrümpfen ausfüllt.",
+    "corrupted": "Diese frei bewegliche Elektronen kann man sich als Teilchen eines Gases vorstellen, das den Platz zwischen den Atomrümpfen ausfüllt.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s2670",
+    "group_start": 9,
+    "group_end": 13,
+    "group_span_text": "die regionalen und lokalen Auswirkungen",
+    "gold_text": "Es soll die Medien vor Ort dabei unterstützen, die regionalen und lokalen Auswirkungen von EU - Politik sowie das europäische Geschehen vor Ort in die Berichterstattung einzubinden.",
+    "corrupted": "Es soll die Medien vor Ort dabei unterstützen, die regionalen und lokale Auswirkungen von EU - Politik sowie das europäische Geschehen vor Ort in die Berichterstattung einzubinden.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s5717",
+    "group_start": 0,
+    "group_end": 7,
+    "group_span_text": "Flächenstilllegungen, also den zeitweisen oder dauerhaften Nutzungsstopp",
+    "gold_text": "Flächenstilllegungen, also den zeitweisen oder dauerhaften Nutzungsstopp auf landwirtschaftlichen Böden, lehnt er als Verschwendung ab, Umwidmungen in Produktionsfläche für Energiepflanzen begrüßt er.",
+    "corrupted": "Flächenstilllegungen, also die zeitweisen oder dauerhaften Nutzungsstopp auf landwirtschaftlichen Böden, lehnt er als Verschwendung ab, Umwidmungen in Produktionsfläche für Energiepflanzen begrüßt er.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s6479",
+    "group_start": 7,
+    "group_end": 8,
+    "group_span_text": "den Patienten",
+    "gold_text": "Die Pflegekraft prüft dann, ob sie den Patienten aufgrund der Ergebnisse höher (in Kategorie 2) eingruppiert, wobei auch das Überschreiten der Grenzwerte keine Pflicht zur Höhergruppierung auslöst.",
+    "corrupted": "Die Pflegekraft prüft dann, ob sie die Patienten aufgrund der Ergebnisse höher ( in Kategorie 2) eingruppiert, wobei auch das Überschreiten der Grenzwerte keine Pflicht zur Höhergruppierung auslöst.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s7165",
+    "group_start": 24,
+    "group_end": 29,
+    "group_span_text": "Medienforschung, die Erforschung des Themenfeldes",
+    "gold_text": "Das Hans - Bredow - Institut für Medienforschung an der Universität Hamburg (HBI) ist eine eigenständige gemeinnützige Stiftung mit dem Ziel, Medienforschung, die Erforschung des Themenfeldes öffentliche Kommunikation, insbesondere auf dem Gebiet des Hörfunks und des Fernsehens sowie anderer elektronischer Medien, in interdisziplinärer Weise zu betreiben und die Ergebnisse der Wissenschaft, Praxis und Öffentlichkeit zur Verfügung zu stellen.",
+    "corrupted": "Das Hans - Bredow - Institut für Medienforschung an der Universität Hamburg ( HBI) ist eine eigenständige gemeinnützige Stiftung mit dem Ziel, Medienforschung, die Erforschung des Themenfeldes öffentliche Kommunikation, insbesondere auf dem Gebiet des Hörfunks und des Fernsehens sowie anderer elektronischer Medien, in interdisziplinärer Weise zu betreiben und die Ergebnisse der Wissenschaft, Praxis und Öffentlichkeit zur Verfügung zu stellen.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9271",
+    "group_start": 26,
+    "group_end": 30,
+    "group_span_text": "den sieben Jahre jüngeren Foreman",
+    "gold_text": "Als sein früherer Gegner George Foreman 1994 sensationell nach 20 Jahren wieder einen WM - Titel gewann, kündigte der 52 - jährige Ali an, den sieben Jahre jüngeren Foreman noch einmal wie schon 1974 schlagen zu wollen.",
+    "corrupted": "Als sein früherer Gegner George Foreman 1994 sensationell nach 20 Jahren wieder einen WM - Titel gewann, kündigte der 52 - jährige Ali an, die sieben Jahre jüngeren Foreman noch einmal wie schon 1974 schlagen zu wollen.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s9878",
+    "group_start": 3,
+    "group_end": 6,
+    "group_span_text": "einer Privatisierung öffentlicher Aufgaben",
+    "gold_text": "NGOs, die einer Privatisierung öffentlicher Aufgaben kritisch entgegenstehen, waren gar nicht vertreten.",
+    "corrupted": "NGOs, die eine Privatisierung öffentlicher Aufgaben kritisch entgegenstehen, waren gar nicht vertreten.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11007",
+    "group_start": 0,
+    "group_end": 1,
+    "group_span_text": "Den Kern",
+    "gold_text": "Den Kern von P - 90 - Tonabnehmern bilden ein bis zwei Dauermagnete in Barrenform, wobei lediglich die ältesten P - 90 mit nur einem Magneten bestückt sind.",
+    "corrupted": "Die Kern von P - 90 - Tonabnehmern bilden ein bis zwei Dauermagnete in Barrenform, wobei lediglich die ältesten P - 90 mit nur einem Magneten bestückt sind.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s11052",
+    "group_start": 21,
+    "group_end": 24,
+    "group_span_text": "dem Aufenthalt der Könige",
+    "gold_text": "Bereits seit der Karolingerzeit war es üblich, dass die Bischöfe ihre Residenz in einer Weise ausbauten, dass sie auch dem Aufenthalt der Könige dienen konnte.",
+    "corrupted": "Bereits seit der Karolingerzeit war es üblich, dass die Bischöfe ihre Residenz in einer Weise ausbauten, dass sie auch den Aufenthalt der Könige dienen konnte.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12059",
+    "group_start": 6,
+    "group_end": 8,
+    "group_span_text": "den Egebergs Ærespris",
+    "gold_text": "Im Jahr 2000 erhielt sie den Egebergs Ærespris für ihre Leistungen im Skilanglauf, im Triathlon und im Eishockey.",
+    "corrupted": "Im Jahr 2000 erhielt sie die Egebergs Ærespris für ihre Leistungen im Skilanglauf, im Triathlon und im Eishockey.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s12829",
+    "group_start": 12,
+    "group_end": 13,
+    "group_span_text": "seinen Kontrahenten",
+    "gold_text": "In diversen Pressekonferenzen kündigte der Ex - Champion an, wie er seinen Kontrahenten durch Schnelligkeit und Intelligenz vernichten würde.",
+    "corrupted": "In diversen Pressekonferenzen kündigte der Ex - Champion an, wie er seine Kontrahenten durch Schnelligkeit und Intelligenz vernichten würde.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13899",
+    "group_start": 5,
+    "group_end": 6,
+    "group_span_text": "den Satelliten",
+    "gold_text": "Es liegt nun an ihnen den Satelliten zu zerstören bevor er auf den Planeten Ingo verlagert wird.",
+    "corrupted": "Es liegt nun an ihnen die Satelliten zu zerstören bevor er auf den Planeten Ingo verlagert wird.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "dev",
+    "sent_id": "dev-s164",
+    "group_start": 8,
+    "group_end": 9,
+    "group_span_text": "dem Kunden",
+    "gold_text": "Beim Betreten des Ladens würdigt der Inhaber dem Kunden keines Blickes.",
+    "corrupted": "Beim Betreten des Ladens würdigt der Inhaber den Kunden keines Blickes.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s136",
+    "group_start": 6,
+    "group_end": 6,
+    "group_span_text": "ihm",
+    "gold_text": "Endlich hat er abgerechnet worauf ich ihm darauf hinwies das ich keine Lust habe in so ein Stresslokal zu essen UND das er die 15 Eurocent als Trinkgeld behalten kann weil er für so viel Spass gesorgt hat und er dann auch damit sein Spass haben soll.",
+    "corrupted": "Endlich hat er abgerechnet worauf ich ihn darauf hinwies das ich keine Lust habe in so ein Stresslokal zu essen UND das er die 15 Eurocent als Trinkgeld behalten kann weil er für so viel Spass gesorgt hat und er dann auch damit sein Spass haben soll.",
+    "dative_type": "kill_dative_obj"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s277",
+    "group_start": 7,
+    "group_end": 8,
+    "group_span_text": "den Kunden",
+    "gold_text": "Während viele Apotheken heutzutage mit unmotivierten Mitarbeitern den Kunden eher vergraulen, findet man hier in Warendorf motivierte Mitarbeiter die stets freundlich sind.",
+    "corrupted": "Während viele Apotheken heutzutage mit unmotivierten Mitarbeitern die Kunden eher vergraulen, findet man hier in Warendorf motivierte Mitarbeiter die stets freundlich sind.",
+    "dative_type": "kill_dative_obj"
+  }
+]

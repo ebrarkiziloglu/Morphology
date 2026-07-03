@@ -7,7 +7,7 @@
     "group_span_text": "B.",
     "gold_text": "B. Türen oder Stühle, die sich auf dieser Seite befinden, er isst nur eine Hälfte seines Tellers leer, rasiert sich nur eine Gesichtshälfte, überspringt beim Lesen einzelne Wörter und kann Dinge, die er sucht, nicht oder nur schwer finden, wenn sie auf der kontraläsionalen Seite liegen.",
     "corrupted": "Beispiel Türen oder Stühle, die sich auf dieser Seite befinden, er isst nur eine Hälfte seines Tellers leer, rasiert sich nur eine Gesichtshälfte, überspringt beim Lesen einzelne Wörter und kann Dinge, die er sucht, nicht oder nur schwer finden, wenn sie auf der kontraläsionalen Seite liegen.",
-    "dative_type": "oblique_dative"
+    "dative_type": "dative_oblique"
   },
   {
     "split": "dev",
@@ -17,7 +17,7 @@
     "group_span_text": "der Hälfte der Staaten",
     "gold_text": "Die Inflation hat ihr niedrigstes Niveau seit den siebziger Jahren errreicht, in mehr als der Hälfte der Staaten ist die Rate einstellig.",
     "corrupted": "Die Inflation hat ihr niedrigstes Niveau seit den siebziger Jahren errreicht, in mehr als die Hälfte der Staaten ist die Rate einstellig.",
-    "dative_type": "oblique_dative"
+    "dative_type": "dative_oblique"
   },
   {
     "split": "test",
@@ -27,6 +27,16 @@
     "group_span_text": "meiner Mobilität",
     "gold_text": "Es gibt von meiner Seite nur zu bemängeln, dass ich nicht meiner Mobilität gefragt wurde und auf die Strassenbahn angewiesen war.",
     "corrupted": "Es gibt von meiner Seite nur zu bemängeln, dass ich nicht meine Mobilität gefragt wurde und auf die Strassenbahn angewiesen war.",
-    "dative_type": "oblique_dative"
+    "dative_type": "dative_oblique"
+  },
+  {
+    "split": "test",
+    "sent_id": "test-s658",
+    "group_start": 5,
+    "group_end": 5,
+    "group_span_text": "diesem",
+    "gold_text": "Mit allabendlich ausgestrahlten Fernsehspots wie diesem sucht Andreas Andrianopoulos, der griechische Minister für Handel und Industrie, seinen Landsleuten die Vorzüge seines Privatisierungsprogramms nahezubringen:",
+    "corrupted": "Mit allabendlich ausgestrahlten Fernsehspots wie diesen sucht Andreas Andrianopoulos, der griechische Minister für Handel und Industrie, seinen Landsleuten die Vorzüge seines Privatisierungsprogramms nahezubringen:",
+    "dative_type": "dative_oblique"
   }
 ]

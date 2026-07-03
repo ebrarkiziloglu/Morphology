@@ -7,7 +7,8 @@
     "group_span_text": "einer Stunde",
     "gold_text": "Nach über einer Stunde musste ich noch einmal anrufen, da man mich nicht zurück gerufen hatte.",
     "corrupted": "Nach über eine Stunde musste ich noch einmal anrufen, da man mich nicht zurück gerufen hatte.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -17,7 +18,8 @@
     "group_span_text": "den Serben",
     "gold_text": "``Das Damoklesschwert einer militärischen Intervention wird über den Serben hängen'', hieß es in der deutschen Delegation.",
     "corrupted": "``Das Damoklesschwert einer militärischen Intervention wird über die Serben hängen'', hieß es in der deutschen Delegation.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -27,7 +29,8 @@
     "group_span_text": "offenem Feuer",
     "gold_text": "Das Spektrum reicht vom Brutzeln über offenem Feuer bis zu modernen Küchengeräten.",
     "corrupted": "Das Spektrum reicht vom Brutzeln über offenes Feuer bis zu modernen Küchengeräten.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -37,7 +40,8 @@
     "group_span_text": "dem Wasser",
     "gold_text": "Sie hat eine Länge von 38 Metern, eine Höhe von 7 Metern über dem Wasser und von dort eine Höhe von 3,8 Metern, eine Breite von 5,2 Metern und eine Spannweite von 36,71 Metern.",
     "corrupted": "Sie hat eine Länge von 38 Metern, eine Höhe von 7 Metern übers Wasser und von dort eine Höhe von 3,8 Metern, eine Breite von 5,2 Metern und eine Spannweite von 36,71 Metern.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -47,7 +51,8 @@
     "group_span_text": "dem Budget",
     "gold_text": "Da jedoch der Baupreis über dem Budget lag und die Brücke zudem die Schifffahrt beeinträchtigt hätte, wurde der Plan verschoben.",
     "corrupted": "Da jedoch der Baupreis übers Budget lag und die Brücke zudem die Schifffahrt beeinträchtigt hätte, wurde der Plan verschoben.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -57,7 +62,8 @@
     "group_span_text": "den Mississippi River",
     "gold_text": "Der Abfluss erfolgt über den Ohio River und den Mississippi River in den Golf von Mexiko.",
     "corrupted": "Der Abfluss erfolgt über den Ohio River und die Mississippi River in den Golf von Mexiko.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -67,7 +73,8 @@
     "group_span_text": "diesem",
     "gold_text": "Die Sitzungen sind nicht öffentlich, allerdings informiert der Ratspräsident das Europäische Parlament über die Ergebnisse und legt diesem einen schriftlichen Bericht vor.",
     "corrupted": "Die Sitzungen sind nicht öffentlich, allerdings informiert der Ratspräsident das Europäische Parlament über die Ergebnisse und legt diesen einen schriftlichen Bericht vor.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -77,7 +84,8 @@
     "group_span_text": "den Gleisen",
     "gold_text": "Das Empfangsgebäude liegt als Reiterbahnhof auf Straßenniveau über den Gleisen.",
     "corrupted": "Das Empfangsgebäude liegt als Reiterbahnhof auf Straßenniveau über die Gleise.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -87,7 +95,8 @@
     "group_span_text": "dem Winde",
     "gold_text": "Sie liegen nicht unter dem Einfluss des Nordost - Passats wie die Inseln über dem Winde und weisen daher ein weitaus trockeneres Klima auf.",
     "corrupted": "Sie liegen nicht unter dem Einfluss des Nordost - Passats wie die Inseln über den Wind und weisen daher ein weitaus trockeneres Klima auf.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -97,7 +106,8 @@
     "group_span_text": "dem Altar",
     "gold_text": "An den Kapellenmauern befinden sich außerdem zwei tragbare Reliquiare der Heiligen Marcellus und Agricola, und über dem Altar die ehemaligen Wappen des Priorats, mit einer Holzschnitzerei (Kreuzesabnahme).",
     "corrupted": "An den Kapellenmauern befinden sich außerdem zwei tragbare Reliquiare der Heiligen Marcellus und Agricola, und über den Altar die ehemaligen Wappen des Priorats, mit einer Holzschnitzerei (Kreuzesabnahme).",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -107,7 +117,8 @@
     "group_span_text": "dem des Meeres",
     "gold_text": "Der Wasserspiegel liegt 71,2 Meter über dem des Meeres.",
     "corrupted": "Der Wasserspiegel liegt 71,2 Meter übers des Meeres.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -117,17 +128,8 @@
     "group_span_text": "ihrem Eingang",
     "gold_text": "Hierzu führte er autorisierte Händler ein, die eine Agfa - Strahlkrone über ihrem Eingang mit der Aufschrift \"autorisierter Agfa - Verkauf\" anbringen durften.",
     "corrupted": "Hierzu führte er autorisierte Händler ein, die eine Agfa - Strahlkrone über ihren Eingang mit der Aufschrift \"autorisierter Agfa - Verkauf\" anbringen durften.",
-    "dative_type": "dative_prep_über"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s8348",
-    "group_start": 27,
-    "group_end": 32,
-    "group_span_text": "dem an der Nordseite befindlichen Einfahrtstor",
-    "gold_text": "Laut Georg Matthäus Vischer aus dem Jahr 1672 und der Topographia Windhagiana aus dem Jahr 1673 war Schloss Großpoppen ein dreigeschossiges Bauwerk mit einem fünfgeschossigen Turm über dem an der Nordseite befindlichen Einfahrtstor.",
-    "corrupted": "Laut Georg Matthäus Vischer aus dem Jahr 1672 und der Topographia Windhagiana aus dem Jahr 1673 war Schloss Großpoppen ein dreigeschossiges Bauwerk mit einem fünfgeschossigen Turm über den an der Nordseite befindlichen Einfahrtstor.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -137,7 +139,8 @@
     "group_span_text": "dem Ortskern",
     "gold_text": "Eine Reihe dieser in Barcelona ansässigen deutschen Familien bewohnt in Castelldefels Sommerhäuser, vorzugsweise auf dem Hügel, der südlich der Burg über dem Ortskern liegt und sich Montemar nennt, sowie im Stadtteil \"Bellamar\".",
     "corrupted": "Eine Reihe dieser in Barcelona ansässigen deutschen Familien bewohnt in Castelldefels Sommerhäuser, vorzugsweise auf dem Hügel, der südlich der Burg über den Ortskern liegt und sich Montemar nennt, sowie im Stadtteil \"Bellamar\".",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -147,7 +150,8 @@
     "group_span_text": "den Früchten",
     "gold_text": "Während bei einfachen Obsttorten der Tortenguss meist löffelweise über den Früchten verteilt wird und dadurch eine unebene Oberfläche entsteht, aus welcher oft einzelne Früchte herausragen, können mit einem Tortenring dickere Tortengussschichten mit ebener Oberfläche hergestellt werden.",
     "corrupted": "Während bei einfachen Obsttorten der Tortenguss meist löffelweise über die Früchte verteilt wird und dadurch eine unebene Oberfläche entsteht, aus welcher oft einzelne Früchte herausragen, können mit einem Tortenring dickere Tortengussschichten mit ebener Oberfläche hergestellt werden.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -157,7 +161,8 @@
     "group_span_text": "Warschau",
     "gold_text": "Auflage dieses Radrennens bestand aus 14 Einzeletappen und führte auf einer Gesamtlänge von 1942 km von Prag über Warschau nach Berlin.",
     "corrupted": "Auflage dieses Radrennens bestand aus 14 Einzeletappen und führte auf einer Gesamtlänge von 1942 km von Prag über Warschaus nach Berlin.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -167,7 +172,8 @@
     "group_span_text": "dem Sturz",
     "gold_text": "Über dem Sturz folgt eine glatte Leiste, die ein beperltes Flechtband darüber abtrennt.",
     "corrupted": "Über den Sturz folgt eine glatte Leiste, die ein beperltes Flechtband darüber abtrennt.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -177,7 +183,8 @@
     "group_span_text": "dem Motor",
     "gold_text": "Die Konstruktion der XF 650 mit Kastenschwinge, Kettenantrieb und über dem Motor angeordnetem Tank ist konventionell.",
     "corrupted": "Die Konstruktion der XF 650 mit Kastenschwinge, Kettenantrieb und über den Motor angeordnetem Tank ist konventionell.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -187,7 +194,8 @@
     "group_span_text": "der Burg",
     "gold_text": "Damit war Elisabeth alleinige Herrin über Prozelten, die dazugehörenden Ländereien und der Burg.",
     "corrupted": "Damit war Elisabeth alleinige Herrin über Prozelten, die dazugehörenden Ländereien und die Burg.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -197,7 +205,8 @@
     "group_span_text": "dem Portal",
     "gold_text": "Über dem Portal lag ein wulstartig hervortretender Sturz, darüber ein profilierter Entlastungsbogen.",
     "corrupted": "Übers Portal lag ein wulstartig hervortretender Sturz, darüber ein profilierter Entlastungsbogen.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "train",
@@ -207,7 +216,8 @@
     "group_span_text": "Mobil Telefon SAPOS Vernetzung",
     "gold_text": "Hier werden mehrere Referenzstationen vernetzt und Korrekturdaten an den Rover im Vermessungsgebiet über Mobil - Telefon übermittelt (SAPOS - Vernetzung).",
     "corrupted": "Hier werden mehrere Referenzstationen vernetzt und Korrekturdaten an den Rover im Vermessungsgebiet über Mobiles - Telefon übermittelt (SAPOS - Vernetzung).",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "dev",
@@ -217,7 +227,8 @@
     "group_span_text": "meine \"alten\" Ansichten",
     "gold_text": "Heute kann ich über meine \"alten\" Ansichten schmunzeln.",
     "corrupted": "Heute kann ich über meine \"ältere\" Ansichten schmunzeln.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "dev",
@@ -227,7 +238,8 @@
     "group_span_text": "seinem Endstand",
     "gold_text": "Der Dax schloß mit 2192,82 Punkten und lag damit 20,52 Zähler über seinem Endstand vom Mittwoch.",
     "corrupted": "Der Dax schloß mit 2192,82 Punkten und lag damit 20,52 Zähler über seinen Endstand vom Mittwoch.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "test",
@@ -237,7 +249,8 @@
     "group_span_text": "den Serben",
     "gold_text": "``Das Damoklesschwert einer militärischen Intervention wird über den Serben hängen'', hieß es in der deutschen Delegation.",
     "corrupted": "``Das Damoklesschwert einer militärischen Intervention wird über die Serben hängen'', hieß es in der deutschen Delegation.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   },
   {
     "split": "test",
@@ -247,6 +260,7 @@
     "group_span_text": "dem Kopf",
     "gold_text": "Die Leute brauchen doch auch privat ein Dach über dem Kopf.",
     "corrupted": "Die Leute brauchen doch auch privat ein Dach über den Kopf.",
-    "dative_type": "dative_prep_über"
+    "dative_type": "dative_prep_über",
+    "preposition": "über"
   }
 ]

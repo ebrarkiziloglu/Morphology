@@ -7,7 +7,8 @@
     "group_span_text": "keinem",
     "gold_text": "Ich war schon in vielen Cafés in aller Herren Länder, aber mit diesen herrlichen Torten und Kuchen muss sich das Café am Rosengarten vor keinem davon verstecken.",
     "corrupted": "Ich war schon in vielen Cafés in aller Herren Länder, aber mit diesen herrlichen Torten und Kuchen muss sich das Café am Rosengarten vor keinen davon verstecken.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -17,7 +18,8 @@
     "group_span_text": "allem",
     "gold_text": "Die Räumlichkeiten sind sehr schön und vor allem sehr sauber.",
     "corrupted": "Die Räumlichkeiten sind sehr schön und vor alles sehr sauber.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -27,7 +29,8 @@
     "group_span_text": "2 Tagen",
     "gold_text": "Ich war schon bei vielen Steak Restaurants, vor gut 2 Tagen habe ich dieses Steakhaus gefunden.",
     "corrupted": "Ich war schon bei vielen Steak Restaurants, vor gut 2 Tage habe ich dieses Steakhaus gefunden.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -37,7 +40,8 @@
     "group_span_text": "zwei Jahren",
     "gold_text": "Meine Wärmepumpenheizung habe ich vor zwei Jahren von der Firma Wachinger installieren lassen.",
     "corrupted": "Meine Wärmepumpenheizung habe ich vor zwei Jahre von der Firma Wachinger installieren lassen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -47,7 +51,8 @@
     "group_span_text": "allem",
     "gold_text": "Dort findet man sehr ausgefallene, kreative und vor allem lustige Geschenkideen.",
     "corrupted": "Dort findet man sehr ausgefallene, kreative und vor alles lustige Geschenkideen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -57,7 +62,8 @@
     "group_span_text": "dem nächsten Geburtstag",
     "gold_text": "Ideal vor Weihnachten oder dem nächsten Geburtstag.",
     "corrupted": "Ideal vor Weihnachten oder den nahen Geburtstag.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -67,7 +73,8 @@
     "group_span_text": "allem",
     "gold_text": "Auch die verschiedenstens Servicetermine liefen immer gut ab und vor allem gibt sich der Service Mühe Reparaturen baldmöglichst auszuführen.",
     "corrupted": "Auch die verschiedenstens Servicetermine liefen immer gut ab und vor alles gibt sich der Service Mühe Reparaturen baldmöglichst auszuführen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -77,7 +84,8 @@
     "group_span_text": "dem Fenster",
     "gold_text": "Dementsprechend war der Lärm der Hamburger Straße, die direkt vor dem Fenster lang führte: durch die nahe Autobahnauffahrt nahezu unerträglich.",
     "corrupted": "Dementsprechend war der Lärm der Hamburger Straße, die direkt vors Fenster lang führte: durch die nahe Autobahnauffahrt nahezu unerträglich.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -87,7 +95,8 @@
     "group_span_text": "einiger Zeit",
     "gold_text": "Ich habe vor einiger Zeit für meinen landwirtschaftlichen Betrieb für meine Traktoren Schonspur Räder gekauft und dadurch sind meine Felder deutlich besser geworden.",
     "corrupted": "Ich habe vor einige Zeit für meinen landwirtschaftlichen Betrieb für meine Traktoren Schonspur Räder gekauft und dadurch sind meine Felder deutlich besser geworden.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -97,7 +106,8 @@
     "group_span_text": "einigen Tagen",
     "gold_text": "Ich hatte vor einigen Tagen das Cafe besucht und muss sagen: EINFACH TOLL!",
     "corrupted": "Ich hatte vor einige Tage das Cafe besucht und muss sagen: EINFACH TOLL!",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -107,7 +117,8 @@
     "group_span_text": "11 Jahren",
     "gold_text": "Vor 11 Jahren kam ich durch Zufall in diesen Friseursalon, und gehe seit dieser Zeit zu keinem anderen Friseur.",
     "corrupted": "Vor 11 Jahre kam ich durch Zufall in diesen Friseursalon, und gehe seit dieser Zeit zu keinem anderen Friseur.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -117,7 +128,8 @@
     "group_span_text": "allem",
     "gold_text": "Die Bedienungen sind sehr freundlich und zuvorkommend und vor allem, sie stammen aus Italien, was für viele Italienische Restaurants nicht unbedingt üblich ist.",
     "corrupted": "Die Bedienungen sind sehr freundlich und zuvorkommend und vor alles, sie stammen aus Italien, was für viele Italienische Restaurants nicht unbedingt üblich ist.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -127,7 +139,8 @@
     "group_span_text": "einiger Zeit",
     "gold_text": "Ich war dort vor einiger Zeit im Notdienst mit einem lahmenden Welli.",
     "corrupted": "Ich war dort vor einige Zeit im Notdienst mit einem lahmenden Welli.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -137,7 +150,8 @@
     "group_span_text": "der Eröffnung seiner eigenen Praxis",
     "gold_text": "Ich habe Herrn Dr. Kämpgen vor der Eröffnung seiner eigenen Praxis, in der Praxis für die er vorher tätig war kennen und schätzen gelernt.",
     "corrupted": "Ich habe Herrn Dr. Kämpgen vor die Eröffnung seiner eigenen Praxis, in der Praxis für die er vorher tätig war kennen und schätzen gelernt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -147,7 +161,8 @@
     "group_span_text": "jedem Besuch",
     "gold_text": "Das waren meine Gedanken vor jedem Besuch!",
     "corrupted": "Das waren meine Gedanken vor jeden Besuch!",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -157,7 +172,8 @@
     "group_span_text": "einer Woche",
     "gold_text": "Ich war mit meinem kater vor einer Woche bei ihm.",
     "corrupted": "Ich war mit meinem kater vor eine Woche bei ihm.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -167,7 +183,8 @@
     "group_span_text": "allem",
     "gold_text": "Die Anleger reagierten mit Verkäufen vor allem von exportabhängigen Werten wie etwa denen der Automobil-Hersteller.",
     "corrupted": "Die Anleger reagierten mit Verkäufen vor alles von exportabhängigen Werten wie etwa denen der Automobil-Hersteller.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -177,7 +194,8 @@
     "group_span_text": "allem",
     "gold_text": "Die Maschinen, die vor allem auf den florierenden Fernost-Strecken eingesetzt werden, sollen den Airbus A310 ersetzen.",
     "corrupted": "Die Maschinen, die vor alles auf den florierenden Fernost-Strecken eingesetzt werden, sollen den Airbus A310 ersetzen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -187,7 +205,8 @@
     "group_span_text": "unangenehmen internationalen Verpflichtungen",
     "gold_text": "Das Schild des Ost -- West -- Konfliktes, unter dem das deutsche Zweiblockland bequemen Schutz vor unangenehmen internationalen Verpflichtungen gefunden hatte, ist zerbrochen.",
     "corrupted": "Das Schild des Ost -- West -- Konfliktes, unter dem das deutsche Zweiblockland bequemen Schutz vor unangenehmen internationale Verpflichtungen gefunden hatte, ist zerbrochen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -197,7 +216,8 @@
     "group_span_text": "einem Gericht",
     "gold_text": "Der Rabin-Attentäter Jigal Amir hat am heutigen Montag morgen vor einem Gericht in Tel Aviv bei einem Haftprüfungstermin sein Geständnis wiederholt und bekräftigt, den Mord an dem israelischen Ministerpräsidenten ohne Mittäter verübt zu haben.",
     "corrupted": "Der Rabin-Attentäter Jigal Amir hat am heutigen Montag morgen vor ein Gericht in Tel Aviv bei einem Haftprüfungstermin sein Geständnis wiederholt und bekräftigt, den Mord an dem israelischen Ministerpräsidenten ohne Mittäter verübt zu haben.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -207,7 +227,8 @@
     "group_span_text": "aller Öffentlichkeit",
     "gold_text": "``Ich habe einiges erlebt, wovon ich nicht geglaubt hätte, daß ich es erleben würde'', verrät er vor aller Öffentlichkeit auf dem SPD-Parteitag.",
     "corrupted": "``Ich habe einiges erlebt, wovon ich nicht geglaubt hätte, daß ich es erleben würde'', verrät er vor alle Öffentlichkeit auf dem SPD-Parteitag.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -217,17 +238,8 @@
     "group_span_text": "Ort",
     "gold_text": "``Die Region wird damit zum Entwicklungsland, die Bodenschätze vor Ort geschürft, die Veredlung und Wertschöpfung jedoch findet im Ausland statt'', ärgert sich der Abgeordnete Meyer.",
     "corrupted": "`` Die Region wird damit zum Entwicklungsland, die Bodenschätze vor Ort geschürft, die Veredlung und Wertschöpfung jedoch findet im Ausland statt '', ärgert sich der Abgeordnete Meyer.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s1798",
-    "group_start": 22,
-    "group_end": 22,
-    "group_span_text": "dem",
-    "gold_text": "``Die Region wird damit zum Entwicklungsland, die Bodenschätze vor Ort geschürft, die Veredlung und Wertschöpfung jedoch findet im Ausland statt'', ärgert sich der Abgeordnete Meyer.",
-    "corrupted": "`` Die Region wird damit zum Entwicklungsland, die Bodenschätze vor Ort geschürft, die Veredlung und Wertschöpfung jedoch findet ins Ausland statt '', ärgert sich der Abgeordnete Meyer.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -237,7 +249,8 @@
     "group_span_text": "fünf Jahren",
     "gold_text": "Die Expo-Macher brüsten sich damit, daß für ihre Veranstaltung im Jahr 2000 bereits heute 107 Staaten ihr Kommen zugesagt haben -- genauso viele wie bei der Weltausstellung in Sevilla vor fünf Jahren dabei waren.",
     "corrupted": "Die Expo-Macher brüsten sich damit, daß für ihre Veranstaltung im Jahr 2000 bereits heute 107 Staaten ihr Kommen zugesagt haben -- genauso viele wie bei der Weltausstellung in Sevilla vor fünf Jahre dabei waren.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -247,7 +260,8 @@
     "group_span_text": "dem Rausschmiß",
     "gold_text": "``Wir haben alle Formulierungen vermieden, die irgendein Gesetz in Kuba verletzen könnten'', erklärt mit milder Stimme Castellanos, ``und das hat uns dennoch nicht vor dem Rausschmiß bewahrt.''",
     "corrupted": "``Wir haben alle Formulierungen vermieden, die irgendein Gesetz in Kuba verletzen könnten'', erklärt mit milder Stimme Castellanos, ``und das hat uns dennoch nicht vor den Rausschmiss bewahrt.''",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -257,7 +271,8 @@
     "group_span_text": "einigen Jahren",
     "gold_text": "Nur um einen Bohrkopf zu transportieren, gruben die Ölingenieure vor einigen Jahren einen vier Kilometer langen Kanal, wo sich seitdem Süß- und Salzwasser miteinander vermischen.",
     "corrupted": "Nur um einen Bohrkopf zu transportieren, gruben die Ölingenieure vor einige Jahre einen vier Kilometer langen Kanal, wo sich seitdem Süß- und Salzwasser miteinander vermischen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -267,7 +282,8 @@
     "group_span_text": "dem Plenum",
     "gold_text": "In einer Rede vor dem Plenum rief Bundesumweltministerin Angela Merkel (CDU) dazu auf, daß Industrie- und Entwicklungländer gemeinsam nach Wegen suchen, um Ressourcen nachhaltig zu entwickeln und zu erhalten.",
     "corrupted": "In einer Rede vors Plenum rief Bundesumweltministerin Angela Merkel (CDU) dazu auf, daß Industrie- und Entwicklungländer gemeinsam nach Wegen suchen, um Ressourcen nachhaltig zu entwickeln und zu erhalten.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -277,7 +293,8 @@
     "group_span_text": "dem Beginn des Forums der Asiatisch-Pazifischen Wirtschaftskooperation (Apec",
     "gold_text": "Wenige Tage vor dem Beginn des Forums der Asiatisch-Pazifischen Wirtschaftskooperation (Apec) im japanischen Osaka machen die asiatischen Staatschefs keinen Hehl aus ihrem Ärger über das Gastgeberland.",
     "corrupted": "Wenige Tage vor den Beginn des Forums der Asiatisch-Pazifischen Wirtschaftskooperation (Apec) im japanischen Osaka machen die asiatischen Staatschefs keinen Hehl aus ihrem Ärger über das Gastgeberland.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -287,7 +304,8 @@
     "group_span_text": "zwei Jahren",
     "gold_text": "Präsident Bill Clinton hatte den Liberalisierungsprozeß vor zwei Jahren initiiert, um den US -- Konzerne neue Märkte zu erschließen.",
     "corrupted": "Präsident Bill Clinton hatte den Liberalisierungsprozeß vor zwei Jahre initiiert, um den US -- Konzerne neue Märkte zu erschließen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -297,7 +315,8 @@
     "group_span_text": "400 Jahren",
     "gold_text": "Die Erfolgsgeschichte beginnt mit der Ortsgründung vor 400 Jahren.",
     "corrupted": "Die Erfolgsgeschichte beginnt mit der Ortsgründung vor 400 Jahre.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -307,17 +326,8 @@
     "group_span_text": "dem Sitz der flämischen Regionalregierung",
     "gold_text": "Die Beschäftigten hatten versucht, die Absperrungen vor dem Sitz der flämischen Regionalregierung in Brüssel zu durchbrechen.",
     "corrupted": "Die Beschäftigten hatten versucht, die Absperrungen vor den Sitz der flämischen Regionalregierung in Brüssel zu durchbrechen.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s2362",
-    "group_start": 8,
-    "group_end": 10,
-    "group_span_text": "der Küste Australiens",
-    "gold_text": "Weitere Populationen sollen im südwestlichen Pazifik vor der Küste Australiens und bei Japan existieren.",
-    "corrupted": "Weitere Populationen sollen im südwestlichen Pazifik vor die Küste Australiens und bei Japan existieren.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -327,7 +337,8 @@
     "group_span_text": "dem Ende der ersten Expedition",
     "gold_text": "Bereits vor dem Ende der ersten Expedition hatte Leichhardt Pläne gemacht, den australischen Kontinent von Ost nach West zu durchqueren um den Swan River über Land zu erreichen.",
     "corrupted": "Bereits vors Ende der ersten Expedition hatte Leichhardt Pläne gemacht, den australischen Kontinent von Ost nach West zu durchqueren um den Swan River über Land zu erreichen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -337,7 +348,8 @@
     "group_span_text": "dem Ersten Weltkrieg",
     "gold_text": "Wenige Jahre vor dem Ersten Weltkrieg war das Bankhaus Schoeller neben dem Handel, der Verwahrung und Finanzierung von Wertpapieren auch sehr aktiv bei Börseneinführungen und Kapitalerhöhungen von Aktiengesellschaften an der Wiener Börse.",
     "corrupted": "Wenige Jahre vor den Ersten Weltkrieg war das Bankhaus Schoeller neben dem Handel, der Verwahrung und Finanzierung von Wertpapieren auch sehr aktiv bei Börseneinführungen und Kapitalerhöhungen von Aktiengesellschaften an der Wiener Börse.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -347,27 +359,8 @@
     "group_span_text": "16 Jahren",
     "gold_text": "Der Bergmann Han Sanming reist aus Shanxi nach Fengjie, weil er seine Ehefrau wiederfinden möchte, die ihn vor 16 Jahren mit der kleinen Tochter verlassen hatte.",
     "corrupted": "Der Bergmann Han Sanming reist aus Shanxi nach Fengjie, weil er seine Ehefrau wiederfinden möchte, die ihn vor 16 Jahre mit der kleinen Tochter verlassen hatte.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s2605",
-    "group_start": 17,
-    "group_end": 17,
-    "group_span_text": "allem",
-    "gold_text": "Sie ist heute noch eine der 10 von der Stadt Memmingen verwalteten Stiftungen und widmet sich vor allem der ambulanten Krankenpflege über die Evangelische Diakoniestiftung.",
-    "corrupted": "Sie ist heute noch eine der 10 von der Stadt Memmingen verwalteten Stiftungen und widmet sich vor alles der ambulanten Krankenpflege über die Evangelische Diakoniestiftung.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s2704",
-    "group_start": 9,
-    "group_end": 9,
-    "group_span_text": "allem",
-    "gold_text": "Am Start standen neben drei Continental Teams vor allem Amateurmannschaften aus Brasilien, aber auch aus Argentinien, Chile oder Ecuador.",
-    "corrupted": "Am Start standen neben drei Continental Teams vor alles Amateurmannschaften aus Brasilien, aber auch aus Argentinien, Chile oder Ecuador.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -377,7 +370,8 @@
     "group_span_text": "ihm",
     "gold_text": "1987 gewann er bei der Amateur - Weltmeisterschaft ebenfalls die Silbermedaille, diesmal lag Marat Ganejew aus der UdSSR vor ihm.",
     "corrupted": "1987 gewann er bei der Amateur - Weltmeisterschaft ebenfalls die Silbermedaille, diesmal lag Marat Ganejew aus der UdSSR vor ihn.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -387,7 +381,8 @@
     "group_span_text": "allem",
     "gold_text": "Bekannt wurde er vor allem durch die Band Placebo.",
     "corrupted": "Bekannt wurde er vor alles durch die Band Placebo.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -397,7 +392,8 @@
     "group_span_text": "allem",
     "gold_text": "Dagegen wird in der übrigen Literatur der Kapitalmangel vor allem durch die Reparationslasten und die zunehmenden Kreditschulden wegen der Aufnahme hochverzinster kurzfristiger Kredite bei Londoner und New Yorker Banken erklärt.",
     "corrupted": "Dagegen wird in der übrigen Literatur der Kapitalmangel vor alles durch die Reparationslasten und die zunehmenden Kreditschulden wegen der Aufnahme hochverzinster kurzfristiger Kredite bei Londoner und New Yorker Banken erklärt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -407,7 +403,8 @@
     "group_span_text": "dieser Entwicklung",
     "gold_text": "Vor dieser Entwicklung bedurfte es dieses Begriffes freilich nicht, da das (allgemeine) Strafrecht auf Erwachsene wie auch auf Jugendliche und Heranwachsende gleichermaßen angewendet wurde.",
     "corrupted": "Vor diese Entwicklung bedurfte es dieses Begriffes freilich nicht, da das (allgemeine) Strafrecht auf Erwachsene wie auch auf Jugendliche und Heranwachsende gleichermaßen angewendet wurde.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -417,7 +414,8 @@
     "group_span_text": "allem",
     "gold_text": "Kurz nach dem Ersten Weltkrieg -- und nach dem Tod von Peter Altenberg -- machten viele Wiener Schriftsteller, die zuvor das Café Central und das Café Museum aufgesucht hatten, das Café Herrenhof zu ihrem Stammsitz, wobei sie vor allem das Hinterzimmer bevorzugten.",
     "corrupted": "Kurz nach dem Ersten Weltkrieg -- und nach dem Tod von Peter Altenberg -- machten viele Wiener Schriftsteller, die zuvor das Café Central und das Café Museum aufgesucht hatten, das Café Herrenhof zu ihrem Stammsitz, wobei sie vor alles das Hinterzimmer bevorzugten.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -427,7 +425,8 @@
     "group_span_text": "allem",
     "gold_text": "Vor allem im europäischen Raum wird aromatisierter Tabak in vielen verschiedenen Geschmacksrichtungen geraucht.",
     "corrupted": "Vor alles im europäischen Raum wird aromatisierter Tabak in vielen verschiedenen Geschmacksrichtungen geraucht.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -437,7 +436,8 @@
     "group_span_text": "ihm",
     "gold_text": "Stuhl, den vor ihm Charles Armand René de La Trémoille innegehabt hatte.",
     "corrupted": "Stuhl, den vor ihn Charles Armand René de La Trémoille innegehabt hatte.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -447,7 +447,8 @@
     "group_span_text": "seinem Abschied",
     "gold_text": "Vor seinem Abschied von der Hölle spielt Schwanda den Teufeln einen Gruß und kehrt dann geheilt von seiner Abenteuerlust zufrieden zu seiner Dorota in sein Heim zurück.",
     "corrupted": "Vor seinen Abschied von der Hölle spielt Schwanda den Teufeln einen Gruß und kehrt dann geheilt von seiner Abenteuerlust zufrieden zu seiner Dorota in sein Heim zurück.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -457,7 +458,8 @@
     "group_span_text": "der Übergabe Akkons",
     "gold_text": "Doch kurz vor der Übergabe Akkons liefen 12 aus Tyrus und Sidon kommende muslimische Galeeren und ein großes Transportschiff mit Mannschaften und Kriegsmaterial in den Hafen der Stadt ein.",
     "corrupted": "Doch kurz vor die Übergabe Akkons liefen 12 aus Tyrus und Sidon kommende muslimische Galeeren und ein großes Transportschiff mit Mannschaften und Kriegsmaterial in den Hafen der Stadt ein.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -467,7 +469,8 @@
     "group_span_text": "allem",
     "gold_text": "Schuld an den wenigen Einsätzen war, dass Bayer vor allem auf die Qualitäten des Sturmduos Demandt / Lesniak setzte.",
     "corrupted": "Schuld an den wenigen Einsätzen war, dass Bayer vor alles auf die Qualitäten des Sturmduos Demandt / Lesniak setzte.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -477,7 +480,8 @@
     "group_span_text": "den Juroren des Wettbewerbs",
     "gold_text": "Diese präsentieren ihre Ergebnisse mündlich vor den Juroren des Wettbewerbs, um diese von der fachlichen Qualität und dem gesellschaftlichen Wert ihrer Forschungen zu überzeugen.",
     "corrupted": "Diese präsentieren ihre Ergebnisse mündlich vor die Juroren des Wettbewerbs, um diese von der fachlichen Qualität und dem gesellschaftlichen Wert ihrer Forschungen zu überzeugen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -487,7 +491,8 @@
     "group_span_text": "allem",
     "gold_text": "Spätere Zusätze enthalten darin nach heutiger historisch - kritischer Sicht vor allem die Jesaja - Apokalypse in Kap 24-27 und die Kapitel 33-39.",
     "corrupted": "Spätere Zusätze enthalten darin nach heutiger historisch - kritischer Sicht vor alles die Jesaja - Apokalypse in Kap 24-27 und die Kapitel 33-39.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -497,7 +502,8 @@
     "group_span_text": "einigen Jahren",
     "gold_text": "Der Abbau von Nickel und Kobalt wurde vor einigen Jahren eingestellt.",
     "corrupted": "Der Abbau von Nickel und Kobalt wurde vor einige Jahre eingestellt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -507,7 +513,8 @@
     "group_span_text": "dem Namen",
     "gold_text": "Das am häufigsten vorkommende Beiwort ist mrj Jmen (geliebt von Amun), das, auch wenn es oft vor dem Namen stehen kann, hinter dem Namen gelesen wird: R - msj - sw mrj - Jmn (Ramses, geliebt von Amun).",
     "corrupted": "Das am häufigsten vorkommende Beiwort ist mrj Jmen (geliebt von Amun), das, auch wenn es oft vor den Namen stehen kann, hinter dem Namen gelesen wird: R - msj - sw mrj - Jmn (Ramses, geliebt von Amun).",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -517,7 +524,8 @@
     "group_span_text": "der Saison",
     "gold_text": "Er blieb ein Jahr lang in St. Pölten und kehrte vor der Saison 2006 / 07 nach Wien zurück.",
     "corrupted": "Er blieb ein Jahr lang in St. Pölten und kehrte vor die Saison 2006 / 07 nach Wien zurück.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -527,7 +535,8 @@
     "group_span_text": "dem Zweiten Weltkrieg",
     "gold_text": "Hermann Kownatzki wurde vor dem Zweiten Weltkrieg als Stadtarchivar im ostpreußischen Elbing tätig.",
     "corrupted": "Hermann Kownatzki wurde vor den Zweiten Weltkrieg als Stadtarchivar im ostpreußischen Elbing tätig.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -537,7 +546,8 @@
     "group_span_text": "Eriks Anhängern",
     "gold_text": "König Niels und sein Sohn Magnus fanden im Zuge der Auseinandersetzungen 1134 den Tod, als er auf der Flucht vor Eriks Anhängern nach Schleswig kam und dort von Brüdern der Knudsgilde erschlagen wurde.",
     "corrupted": "König Niels und sein Sohn Magnus fanden im Zuge der Auseinandersetzungen 1134 den Tod, als er auf der Flucht vor Eriks Anhänger nach Schleswig kam und dort von Brüdern der Knudsgilde erschlagen wurde.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -547,7 +557,8 @@
     "group_span_text": "den Hunnen",
     "gold_text": "Genoveva (Missionierung, Berufung, Weihe, Traum, Armenspeisung, Schutz vor den Hunnen, Aufnahme einer Ordensschwester, Tod).",
     "corrupted": "Genoveva (Missionierung, Berufung, Weihe, Traum, Armenspeisung, Schutz vor die Hunnen, Aufnahme einer Ordensschwester, Tod).",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -557,7 +568,8 @@
     "group_span_text": "dem Festival",
     "gold_text": "Vor und nach dem Festival spielten Japanische Kampfhörspiele je zwei weitere Konzerte in Richmond und New York, bevor sie am letzten Tag ihres USA - Aufenthaltes noch eine Session beim Radiosender WFMU in Jersey City, New Jersey aufnahmen.",
     "corrupted": "Vor und nach das Festival spielten Japanische Kampfhörspiele je zwei weitere Konzerte in Richmond und New York, bevor sie am letzten Tag ihres USA - Aufenthaltes noch eine Session beim Radiosender WFMU in Jersey City, New Jersey aufnahmen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -567,7 +579,8 @@
     "group_span_text": "allem",
     "gold_text": "Fiona Shaw zählt zu den bekanntesten Theaterschauspielerinnen in Großbritannien und machte sich vor allem als Darstellerin von klassischen Stücken einen Namen.",
     "corrupted": "Fiona Shaw zählt zu den bekanntesten Theaterschauspielerinnen in Großbritannien und machte sich vor alles als Darstellerin von klassischen Stücken einen Namen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -577,7 +590,8 @@
     "group_span_text": "Jahren",
     "gold_text": "Bis vor kurzem nahm man an, Megantereon sei zum ersten mal vor etwa 4-5 Millionen Jahren in Nordamerika aufgetreten und von dort aus in die Alte Welt gelangt, wo die Art vor 3-3,5 Millionen Jahren erstmals in Afrika nachgewiesen ist.",
     "corrupted": "Bis vor kurzem nahm man an, Megantereon sei zum ersten mal vor etwa 4-5 Millionen Jahre in Nordamerika aufgetreten und von dort aus in die Alte Welt gelangt, wo die Art vor 3-3,5 Millionen Jahren erstmals in Afrika nachgewiesen ist.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -587,7 +601,8 @@
     "group_span_text": "Jahren",
     "gold_text": "Bis vor kurzem nahm man an, Megantereon sei zum ersten mal vor etwa 4-5 Millionen Jahren in Nordamerika aufgetreten und von dort aus in die Alte Welt gelangt, wo die Art vor 3-3,5 Millionen Jahren erstmals in Afrika nachgewiesen ist.",
     "corrupted": "Bis vor kurzem nahm man an, Megantereon sei zum ersten mal vor etwa 4-5 Millionen Jahren in Nordamerika aufgetreten und von dort aus in die Alte Welt gelangt, wo die Art vor 3-3,5 Millionen Jahre erstmals in Afrika nachgewiesen ist.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -597,7 +612,8 @@
     "group_span_text": "dem Ziel",
     "gold_text": "Diese Rennen wurden allerdings nicht wie heute in gleichmäßig hohem Tempo (Renngalopp) gelaufen, in der Anfangsphase war das Tempo eher gemächlich und erst bei Passieren des Distanzpfostens (ca. 200 m vor dem Ziel) wurde \"richtig\" galoppiert.",
     "corrupted": "Diese Rennen wurden allerdings nicht wie heute in gleichmäßig hohem Tempo (Renngalopp) gelaufen, in der Anfangsphase war das Tempo eher gemächlich und erst bei Passieren des Distanzpfostens (ca. 200 m vors Ziel) wurde \"richtig\" galoppiert.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -607,7 +623,8 @@
     "group_span_text": "allem",
     "gold_text": "Das Schiff war vor allem für Operationen in flachen Gewässern ausgelegt und sollte ein möglichst kleines Ziel bieten.",
     "corrupted": "Das Schiff war vor alles für Operationen in flachen Gewässern ausgelegt und sollte ein möglichst kleines Ziel bieten.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -617,7 +634,8 @@
     "group_span_text": "allem",
     "gold_text": "Kollegahs Texte behandeln vor allem Kriminalität.",
     "corrupted": "Kollegahs Texte behandeln vor alles Kriminalität.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -627,7 +645,8 @@
     "group_span_text": "allem",
     "gold_text": "Im Süßwasser am häufigsten ist dabei Achnanthes lanceolata, eine euryöke, vor allem in eutrophen Gewässern vorkommende Art.",
     "corrupted": "Im Süßwasser am häufigsten ist dabei Achnanthes lanceolata, eine euryöke, vor alles in eutrophen Gewässern vorkommende Art.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -637,7 +656,8 @@
     "group_span_text": "allem",
     "gold_text": "Nach dem Tod von Abt Guéranger wurden die Arbeiten vor allem durch den Mönch André Mocquereau fortgesetzt.",
     "corrupted": "Nach dem Tod von Abt Guéranger wurden die Arbeiten vor alles durch den Mönch André Mocquereau fortgesetzt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -647,7 +667,8 @@
     "group_span_text": "dem Auftreten",
     "gold_text": "Erst seitdem ist es überhaupt möglich, das Krankheitsbild schon vor dem Auftreten von Knochenbrüchen adäquat zu erfassen und präventiv zu behandeln.",
     "corrupted": "Erst seitdem ist es überhaupt möglich, das Krankheitsbild schon vors Auftreten von Knochenbrüchen adäquat zu erfassen und präventiv zu behandeln.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -657,7 +678,8 @@
     "group_span_text": "allem",
     "gold_text": "Die Produkte werden in mehr als 450 eigenen Geschäften sowie vor allem in den USA auch in zahlreichen Partnergeschäften angeboten.",
     "corrupted": "Die Produkte werden in mehr als 450 eigenen Geschäften sowie vor alles in den USA auch in zahlreichen Partnergeschäften angeboten.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -667,7 +689,8 @@
     "group_span_text": "einigen Jahren",
     "gold_text": "Mavrat war vor einigen Jahren kurz vor seiner Entlassung geflohen und ist seitdem verschwunden.",
     "corrupted": "Mavrat war vor einige Jahre kurz vor seiner Entlassung geflohen und ist seitdem verschwunden.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -677,7 +700,8 @@
     "group_span_text": "allem",
     "gold_text": "Vor allem wird die Urbanisation auch touristisch attraktive Landschaften und mehr Landschaftsparkfläche anbieten, als London und New York zusammen aufweisen.",
     "corrupted": "Vor alles wird die Urbanisation auch touristisch attraktive Landschaften und mehr Landschaftsparkfläche anbieten, als London und New York zusammen aufweisen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -687,7 +711,8 @@
     "group_span_text": "einem weiteren Wirbel (erste Urale",
     "gold_text": "Dieser Wirbel liegt vor einem weiteren Wirbel (erste Urale), der bei allen Heringsartigen mit der zweiten Hypuralia verwachsen ist.",
     "corrupted": "Dieser Wirbel liegt vor einen weiteren Wirbel (erste Urale), der bei allen Heringsartigen mit der zweiten Hypuralia verwachsen ist.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -697,7 +722,8 @@
     "group_span_text": "allem",
     "gold_text": "Vor allem wurde diese von der gemeinsamen Abneigung zum Nachbarn FC Schalke 04 geprägt.",
     "corrupted": "Vor alles wurde diese von der gemeinsamen Abneigung zum Nachbarn FC Schalke 04 geprägt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -707,7 +733,8 @@
     "group_span_text": "dem unerwarteten Aufstieg Ahlens",
     "gold_text": "Noch vor dem unerwarteten Aufstieg Ahlens in der Regionalliga - Saison 2007 / 08 wechselte er für ein Jahr zu Rot - Weiss Essen, wo wiederum Heiko Bonan sein Trainer war.",
     "corrupted": "Noch vor den unerwarteten Aufstieg Ahlens in der Regionalliga - Saison 2007 / 08 wechselte er für ein Jahr zu Rot - Weiss Essen, wo wiederum Heiko Bonan sein Trainer war.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -717,7 +744,8 @@
     "group_span_text": "allem",
     "gold_text": "Letztere förderte zunächst vor allem Ton und Braunkohle, ab 1893 auch in großem Maße Kaolin für die Papierherstellung.",
     "corrupted": "Letztere förderte zunächst vor alles Ton und Braunkohle, ab 1893 auch in großem Maße Kaolin für die Papierherstellung.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -727,7 +755,8 @@
     "group_span_text": "allem",
     "gold_text": "Nach dem Diphtherie - Heilserum waren in schneller Folge auch ein Tetanusserum sowie verschiedene bakterizide Sera vor allem für die Veterinärmedizin entwickelt worden.",
     "corrupted": "Nach dem Diphtherie - Heilserum waren in schneller Folge auch ein Tetanusserum sowie verschiedene bakterizide Sera vor alles für die Veterinärmedizin entwickelt worden.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -737,7 +766,8 @@
     "group_span_text": "allem",
     "gold_text": "Er hat sich vor allem um die Erforschung der Geschichte der Stadt Heilbronn verdient gemacht.",
     "corrupted": "Er hat sich vor alles um die Erforschung der Geschichte der Stadt Heilbronn verdient gemacht.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -747,7 +777,8 @@
     "group_span_text": "allem",
     "gold_text": "Nach seiner aktiven Laufbahn arbeitete er vor allem als Schiedsrichter.",
     "corrupted": "Nach seiner aktiven Laufbahn arbeitete er vor alles als Schiedsrichter.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -757,7 +788,8 @@
     "group_span_text": "der Erzählung seines zweiten Feldzuges",
     "gold_text": "Vor der Erzählung seines zweiten Feldzuges gibt er einen kurzen Abriss über das Klima und die Geographie Britanniens sowie die Lebensweise seiner Bewohner.",
     "corrupted": "Vor die Erzählung seines zweiten Feldzuges gibt er einen kurzen Abriss über das Klima und die Geographie Britanniens sowie die Lebensweise seiner Bewohner.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -767,7 +799,8 @@
     "group_span_text": "der Frage",
     "gold_text": "In jenem Jahr stand er vor der Frage, ob er das verwaiste Stadtarchiv Lüneburg behalten oder zum Staatlichen Archivlager in Goslar gehen sollte.",
     "corrupted": "In jenem Jahr stand er vor die Frage, ob er das verwaiste Stadtarchiv Lüneburg behalten oder zum Staatlichen Archivlager in Goslar gehen sollte.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -777,7 +810,8 @@
     "group_span_text": "allem",
     "gold_text": "Für die Forschung ist die Rede vor allem deshalb interessant, weil Julian nicht nur die Förderung durch Eusebia beschrieb, sondern auch ausführlich auf sich selbst einging.",
     "corrupted": "Für die Forschung ist die Rede vor alles deshalb interessant, weil Julian nicht nur die Förderung durch Eusebia beschrieb, sondern auch ausführlich auf sich selbst einging.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -787,7 +821,8 @@
     "group_span_text": "dem Abstieg",
     "gold_text": "Zu Beginn der Treppen vor dem Abstieg zum Hafen sind auf den Fundamentresten des ehemaligen Rheintores etwa 1 m hohe Mauerteile aus Ziegelsteinen vorhanden.",
     "corrupted": "Zu Beginn der Treppen vor den Abstieg zum Hafen sind auf den Fundamentresten des ehemaligen Rheintores etwa 1 m hohe Mauerteile aus Ziegelsteinen vorhanden.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -797,7 +832,8 @@
     "group_span_text": "allem",
     "gold_text": "Von Hause aus marxistisch vorgebildet, interessierte er sich vor allem für das radikale Schauspiel der Sechzigerjahre und versuchte, diese offeneren Formen auch auf die Tanzbühne zu bringen.",
     "corrupted": "Von Hause aus marxistisch vorgebildet, interessierte er sich vor alles für das radikale Schauspiel der Sechzigerjahre und versuchte, diese offeneren Formen auch auf die Tanzbühne zu bringen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -807,27 +843,8 @@
     "group_span_text": "seinem Tod",
     "gold_text": "Auf der Genfer Konferenz der Interparlamentarischen Union setzte er sich wenige Tage vor seinem Tod für ein Verbot des Luftkrieges ein.",
     "corrupted": "Auf der Genfer Konferenz der Interparlamentarischen Union setzte er sich wenige Tage vor seinen Tod für ein Verbot des Luftkrieges ein.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s5583",
-    "group_start": 16,
-    "group_end": 16,
-    "group_span_text": "allem",
-    "gold_text": "Im Gegensatz zum Roman, der in Bochum spielt, wurde der Film vor allem in Berlin und Düsseldorf gedreht;",
-    "corrupted": "Im Gegensatz zum Roman, der in Bochum spielt, wurde der Film vor alles in Berlin und Düsseldorf gedreht;",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s5689",
-    "group_start": 15,
-    "group_end": 16,
-    "group_span_text": "unserem Volke",
-    "gold_text": "Sudetendeutsche Männer und Frauen: denkt an eure Verantwortung vor Gott, eurer Heimat und unserem Volke.",
-    "corrupted": "Sudetendeutsche Männer und Frauen: denkt an eure Verantwortung vor Gott, eurer Heimat und unser Volk.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -837,7 +854,8 @@
     "group_span_text": "allem",
     "gold_text": "Die Produktion von Holzhackschnitzeln und vor allem der Außenhandel nehmen deutlich zu, zudem steigen seit Jahren die Marktpreise.",
     "corrupted": "Die Produktion von Holzhackschnitzeln und vor alles der Außenhandel nehmen deutlich zu, zudem steigen seit Jahren die Marktpreise.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -847,7 +865,8 @@
     "group_span_text": "allem",
     "gold_text": "Griffith wollte mit der Parteigründung ursprünglich vor allem ein eigenes Parlament für ganz Irland im Verbund des Vereinigten Königreiches durchsetzen.",
     "corrupted": "Griffith wollte mit der Parteigründung ursprünglich vor alles ein eigenes Parlament für ganz Irland im Verbund des Vereinigten Königreiches durchsetzen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -857,17 +876,8 @@
     "group_span_text": "allem",
     "gold_text": "Die Städtische Werke Überlandwerke Coburg GmbH (SÜC) ist das Energieversorgungsunternehmen der Stadt Coburg, das vor allem die Stadt und teilweise den Landkreis Coburg mit Strom, Erdgas, Fernwärme, Trinkwasser und Telekommunikation beliefert aber auch in Coburg die öffentlichen Schwimmbäder und den öffentlichen Personennahverkehr betreibt.",
     "corrupted": "Die Städtische Werke Überlandwerke Coburg GmbH (SÜC) ist das Energieversorgungsunternehmen der Stadt Coburg, das vor alles die Stadt und teilweise den Landkreis Coburg mit Strom, Erdgas, Fernwärme, Trinkwasser und Telekommunikation beliefert aber auch in Coburg die öffentlichen Schwimmbäder und den öffentlichen Personennahverkehr betreibt.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s5936",
-    "group_start": 8,
-    "group_end": 8,
-    "group_span_text": "allem",
-    "gold_text": "Nikola Tesla benutzte diesen Effekt, welche vor allem bei Laien erstaunte Reaktionen hervorruft, in seinen Schauvorführungen wie den Columbia Lecture in New York im Mai 1891.",
-    "corrupted": "Nikola Tesla benutzte diesen Effekt, welche vor alles bei Laien erstaunte Reaktionen hervorruft, in seinen Schauvorführungen wie den Columbia Lecture in New York im Mai 1891.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -877,47 +887,8 @@
     "group_span_text": "seiner Veröffentlichung",
     "gold_text": "Bereits vor seiner Veröffentlichung bekam St. Elsewhere enorme Aufmerksamkeit durch die Leadsingle \"Crazy\", die im April 2006 erschien.",
     "corrupted": "Bereits vor seine Veröffentlichung bekam St. Elsewhere enorme Aufmerksamkeit durch die Leadsingle \"Crazy\", die im April 2006 erschien.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s6073",
-    "group_start": 18,
-    "group_end": 19,
-    "group_span_text": "10 Punkten",
-    "gold_text": "Nach dem Großen Preis von Brasilien führte Ayrton Senna die Fahrerwertung mit 6 Punkten vor Alain Prost und 10 Punkten vor Damon Hill an.",
-    "corrupted": "Nach dem Großen Preis von Brasilien führte Ayrton Senna die Fahrerwertung mit 6 Punkten vor Alain Prost und 10 Punkte vor Damon Hill an.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s6307",
-    "group_start": 6,
-    "group_end": 6,
-    "group_span_text": "allem",
-    "gold_text": "Exemplare von Iochroma lehmannii wurden vor allem im Süden Ecuadors und im angrenzenden Peru gesammelt.",
-    "corrupted": "Exemplare von Iochroma lehmannii wurden vor alles im Süden Ecuadors und im angrenzenden Peru gesammelt.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s6327",
-    "group_start": 18,
-    "group_end": 18,
-    "group_span_text": "allem",
-    "gold_text": "Gemeinsam mit anderen Mitgliedern der Nimrodi - Familie dominiert er verschiedene Unternehmen im Medien - (vor allem die Tageszeitung Maariv, seit 1992) und im Immobilienbereich.",
-    "corrupted": "Gemeinsam mit anderen Mitgliedern der Nimrodi - Familie dominiert er verschiedene Unternehmen im Medien - (vor alles die Tageszeitung Maariv, seit 1992) und im Immobilienbereich.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s6334",
-    "group_start": 1,
-    "group_end": 1,
-    "group_span_text": "allem",
-    "gold_text": "Vor allem auf Grund des Erfolgs dieser Schrift erhielt Eberhard 1778 den Ruf als Professor für Philosophie an die damals wichtigste preußische Universität, die Universität Halle.",
-    "corrupted": "Vor alles auf Grund des Erfolgs dieser Schrift erhielt Eberhard 1778 den Ruf als Professor für Philosophie an die damals wichtigste preußische Universität, die Universität Halle.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -927,7 +898,8 @@
     "group_span_text": "den Toren der Stadt",
     "gold_text": "Vor den Toren der Stadt, auf dem Hamburger Berg, in Eimsbüttel, Rotherbaum und Hamm wurden zugunsten eines freien Schussfeldes die Häuser abgerissen.",
     "corrupted": "Vor die Tore der Stadt, auf dem Hamburger Berg, in Eimsbüttel, Rotherbaum und Hamm wurden zugunsten eines freien Schussfeldes die Häuser abgerissen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -937,7 +909,8 @@
     "group_span_text": "allem",
     "gold_text": "In Deutschland werden verstärkt auch NaWaRos, wie vor allem Mais, speziell für die Verwendung in Biogasanlagen angebaut.",
     "corrupted": "In Deutschland werden verstärkt auch NaWaRos, wie vor alles Mais, speziell für die Verwendung in Biogasanlagen angebaut.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -947,7 +920,8 @@
     "group_span_text": "der Veröffentlichung des Manuskripts",
     "gold_text": "In ihrer Antwort betonte Marianne Frisch, sie habe nie daran gedacht, \"Max vor der Veröffentlichung des Manuskripts auch nur drei Silben abzuhandeln\".",
     "corrupted": "In ihrer Antwort betonte Marianne Frisch, sie habe nie daran gedacht, \"Max vor die Veröffentlichung des Manuskripts auch nur drei Silben abzuhandeln\".",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -957,7 +931,8 @@
     "group_span_text": "der Kamera",
     "gold_text": "Sie stand einige Jahre für das Magazin Abendjournal und das Promi - Format \"Fernsehbekanntschaften\" vor der Kamera.",
     "corrupted": "Sie stand einige Jahre für das Magazin Abendjournal und das Promi - Format \"Fernsehbekanntschaften\" vor die Kamera.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -967,7 +942,8 @@
     "group_span_text": "einigen Jahren",
     "gold_text": "Bei einem Gastspiel in Wien treffen sie auf Lally, die vor einigen Jahren Giulios Schülerin war und vergeblich versuchte, ihn zu verführen.",
     "corrupted": "Bei einem Gastspiel in Wien treffen sie auf Lally, die vor einige Jahre Giulios Schülerin war und vergeblich versuchte, ihn zu verführen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -977,17 +953,19 @@
     "group_span_text": "allem",
     "gold_text": "Vernon Reids Gitarre, ob elektrisch oder akustisch, bringt Biss und eine nervöse Qualität hinzu, vor allem seine E - Gitarre in Dark Prince, ein Titel, in dem Buster Williams 'eindringlicher Bass pochend in Lenny Whites feinfühligen Rahmen mit den Becken schwimmt, was eine fühlbare Spannung in dem Titel schafft.",
     "corrupted": "Vernon Reids Gitarre, ob elektrisch oder akustisch, bringt Biss und eine nervöse Qualität hinzu, vor alles seine E - Gitarre in Dark Prince, ein Titel, in dem Buster Williams 'eindringlicher Bass pochend in Lenny Whites feinfühligen Rahmen mit den Becken schwimmt, was eine fühlbare Spannung in dem Titel schafft.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
     "sent_id": "train-s7025",
-    "group_start": 10,
-    "group_end": 10,
-    "group_span_text": "allem",
+    "group_start": 9,
+    "group_end": 14,
+    "group_span_text": "vor allem der Neuorganisation der Gesundheitsverwaltung",
     "gold_text": "Seine Mitarbeit in der Regierung des neuen Staates diente vor allem der Neuorganisation der Gesundheitsverwaltung.",
-    "corrupted": "Seine Mitarbeit in der Regierung des neuen Staates diente vor alles der Neuorganisation der Gesundheitsverwaltung.",
-    "dative_type": "dative_prep_vor"
+    "corrupted": "Seine Mitarbeit in der Regierung des neuen Staates diente vor alles die Neuorganisation der Gesundheitsverwaltung.",
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -997,17 +975,8 @@
     "group_span_text": "allem",
     "gold_text": "Dabei handelt es sich vor allem um Knochen und Haare, gelegentlich finden sich jedoch auch erstaunlich gut erhaltene Mammuts im Eis.",
     "corrupted": "Dabei handelt es sich vor alles um Knochen und Haare, gelegentlich finden sich jedoch auch erstaunlich gut erhaltene Mammuts im Eis.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s7168",
-    "group_start": 8,
-    "group_end": 8,
-    "group_span_text": "allem",
-    "gold_text": "Nachfolgend wurden viele ähnliche Wirkstoffe aus Actinomyceten vor allem der Gattungen Streptomyces und Micromonospora isoliert.",
-    "corrupted": "Nachfolgend wurden viele ähnliche Wirkstoffe aus Actinomyceten vor alles der Gattungen Streptomyces und Micromonospora isoliert.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1017,7 +986,8 @@
     "group_span_text": "allem",
     "gold_text": "Cellucotton setzte man vor allem während des Ersten Weltkrieges als Verbandsmaterial ein, weil es sich durch seine Saugfähigkeit und Reißfestigkeit auszeichnete.",
     "corrupted": "Cellucotton setzte man vor alles während des Ersten Weltkrieges als Verbandsmaterial ein, weil es sich durch seine Saugfähigkeit und Reißfestigkeit auszeichnete.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1027,17 +997,8 @@
     "group_span_text": "allem",
     "gold_text": "Zu nennen ist hier vor allem die tägliche Verbindung Aue - Berlin sowie in den 1960er Jahren die Schnellzugverbindung mit Kurswagen von Berlin nach Cranzahl.",
     "corrupted": "Zu nennen ist hier vor alles die tägliche Verbindung Aue - Berlin sowie in den 1960er Jahren die Schnellzugverbindung mit Kurswagen von Berlin nach Cranzahl.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s7766",
-    "group_start": 3,
-    "group_end": 3,
-    "group_span_text": "allem",
-    "gold_text": "Dies ist vor allem um die Rialtobrücke möglich, dem ehemaligen kommerziellen Zentrum der Stadt.",
-    "corrupted": "Dies ist vor alles um die Rialtobrücke möglich, dem ehemaligen kommerziellen Zentrum der Stadt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1047,7 +1008,8 @@
     "group_span_text": "dem Hintergrund der Act - Up - Bewegung",
     "gold_text": "Die Praxis des \"Outens\" ist vor dem Hintergrund der Act - Up - Bewegung entstanden und wurde als bewusst provokative Aktion eingesetzt, um durch das Benennen von homosexuellen Prominenten diese dazu zu zwingen, sich auch in der Öffentlichkeit zu ihrer Homosexualität zu bekennen.",
     "corrupted": "Die Praxis des \"Outens\" ist vor den Hintergrund der Act - Up - Bewegung entstanden und wurde als bewusst provokative Aktion eingesetzt, um durch das Benennen von homosexuellen Prominenten diese dazu zu zwingen, sich auch in der Öffentlichkeit zu ihrer Homosexualität zu bekennen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1057,7 +1019,8 @@
     "group_span_text": "heimischem Publikum",
     "gold_text": "Diesen Titel konnten die beiden 2008 vor heimischem Publikum in Athen verteidigen, während sie bei den Olympischen Spielen in Peking nur den sechsten Platz belegten.",
     "corrupted": "Diesen Titel konnten die beiden 2008 vor heimische Publikum in Athen verteidigen, während sie bei den Olympischen Spielen in Peking nur den sechsten Platz belegten.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1067,7 +1030,8 @@
     "group_span_text": "allem",
     "gold_text": "Tatsächlich resultierte der Kreuther Trennungsbeschluss aus heftigen Auseinandersetzungen und einem Machtkampf zwischen den beiden Parteivorsitzenden Helmut Kohl (CDU) und Franz Josef Strauß (CSU), die vor allem das gemeinsame Verhältnis zur FDP und strategische Überlegungen zur Gründung einer so genannten Vierten Partei zum Inhalt hatten.",
     "corrupted": "Tatsächlich resultierte der Kreuther Trennungsbeschluss aus heftigen Auseinandersetzungen und einem Machtkampf zwischen den beiden Parteivorsitzenden Helmut Kohl ( CDU) und Franz Josef Strauß ( CSU), die vor alles das gemeinsame Verhältnis zur FDP und strategische Überlegungen zur Gründung einer so genannten Vierten Partei zum Inhalt hatten.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1077,27 +1041,8 @@
     "group_span_text": "allem",
     "gold_text": "Die weitläufigen Wälder mussten nach und nach der städtebaulichen Entwicklung weichen, zahlreiche Waldreste sind vor allem an den Ufern der Seen erhalten geblieben.",
     "corrupted": "Die weitläufigen Wälder mussten nach und nach der städtebaulichen Entwicklung weichen, zahlreiche Waldreste sind vor alles an den Ufern der Seen erhalten geblieben.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s8415",
-    "group_start": 4,
-    "group_end": 4,
-    "group_span_text": "allem",
-    "gold_text": "Diese Sichtweise beruht vor allem auf Annahmen der World Professional Association for Transgender Health (ehemals Harry Benjamin International Gender Dysphoria Association, Inc.), die sich auf Forschungen des deutsch - amerikanischen Psychologen Harry Benjamin (1885-1986) beruft.",
-    "corrupted": "Diese Sichtweise beruht vor alles auf Annahmen der World Professional Association for Transgender Health (ehemals Harry Benjamin International Gender Dysphoria Association, Inc.), die sich auf Forschungen des deutsch - amerikanischen Psychologen Harry Benjamin (1885-1986) beruft.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s8435",
-    "group_start": 20,
-    "group_end": 20,
-    "group_span_text": "allem",
-    "gold_text": "Dabei muss jedoch auch davon ausgegangen werden, dass viele Soldaten angesichts der gefährlichen Situation an der Ostfront, vor allem aus Selbsterhaltungstrieb hohe Einsatzbereitschaft zeigten.",
-    "corrupted": "Dabei muss jedoch auch davon ausgegangen werden, dass viele Soldaten angesichts der gefährlichen Situation an der Ostfront, vor alles aus Selbsterhaltungstrieb hohe Einsatzbereitschaft zeigten.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1107,17 +1052,8 @@
     "group_span_text": "allem",
     "gold_text": "Dies war der Beginn der Entwicklung einer großen Zahl sehr unterschiedlicher Computerfamilien, von denen vor allem die PDP - 11 und später die VAX unter dem Betriebssystem VMS im Markt sehr erfolgreich waren.",
     "corrupted": "Dies war der Beginn der Entwicklung einer großen Zahl sehr unterschiedlicher Computerfamilien, von denen vor alles die PDP - 11 und später die VAX unter dem Betriebssystem VMS im Markt sehr erfolgreich waren.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s8595",
-    "group_start": 3,
-    "group_end": 3,
-    "group_span_text": "allem",
-    "gold_text": "Das bewiesen vor allem seine unzutreffenden Berichte vor der Schlacht von Kursk im Juli 1943.\"",
-    "corrupted": "Das bewiesen vor alles seine unzutreffenden Berichte vor der Schlacht von Kursk im Juli 1943.\"",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1127,27 +1063,30 @@
     "group_span_text": "der Schlacht",
     "gold_text": "Das bewiesen vor allem seine unzutreffenden Berichte vor der Schlacht von Kursk im Juli 1943.\"",
     "corrupted": "Das bewiesen vor allem seine unzutreffenden Berichte vor die Schlacht von Kursk im Juli 1943.\"",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
-    "sent_id": "train-s8620",
-    "group_start": 10,
-    "group_end": 10,
+    "sent_id": "train-s8595",
+    "group_start": 3,
+    "group_end": 3,
     "group_span_text": "allem",
-    "gold_text": "So ergeben sich etwaige Ergebnisse des Turing - Tests vor allem in Dialogsituationen, die bewältigt werden müssen.",
-    "corrupted": "So ergeben sich etwaige Ergebnisse des Turing - Tests vor alles in Dialogsituationen, die bewältigt werden müssen.",
-    "dative_type": "dative_prep_vor"
+    "gold_text": "Das bewiesen vor allem seine unzutreffenden Berichte vor der Schlacht von Kursk im Juli 1943.\"",
+    "corrupted": "Das bewiesen vor alles seine unzutreffenden Berichte vor der Schlacht von Kursk im Juli 1943.\"",
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
     "sent_id": "train-s8707",
-    "group_start": 12,
+    "group_start": 10,
     "group_end": 13,
-    "group_span_text": "einer Jury",
+    "group_span_text": "Publikum und einer Jury",
     "gold_text": "Dabei treten an vier Abenden 13 Solisten und Gruppen vor Publikum und einer Jury aus Presseleuten und TAK - Mitarbeitern auf.",
     "corrupted": "Dabei treten an vier Abenden 13 Solisten und Gruppen vor Publikum und eine Jury aus Presseleuten und TAK - Mitarbeitern auf.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1157,7 +1096,8 @@
     "group_span_text": "der Kamera",
     "gold_text": "Für einen Gastauftritt in der Serie Criminal Minds stand er kürzlich mit Adrianne Palicki vor der Kamera.",
     "corrupted": "Für einen Gastauftritt in der Serie Criminal Minds stand er kürzlich mit Adrianne Palicki vor die Kamera.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1167,7 +1107,8 @@
     "group_span_text": "allem",
     "gold_text": "Cowl war in seiner Rollenwahl vor allem auf Komödien, so in einer Reihe von Filmen Jean Yannes, spezialisiert.",
     "corrupted": "Cowl war in seiner Rollenwahl vor alles auf Komödien, so in einer Reihe von Filmen Jean Yannes, spezialisiert.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1177,7 +1118,8 @@
     "group_span_text": "allem",
     "gold_text": "Vor allem über das Internet gesteuerte Teleroboter verwenden zumeist ein so einfaches Interface.",
     "corrupted": "Vor alles über das Internet gesteuerte Teleroboter verwenden zumeist ein so einfaches Interface.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1187,7 +1129,8 @@
     "group_span_text": "allem",
     "gold_text": "Es kam drei Tage lang zu heftigen Kämpfen, vor allem um den Flughafen La Abraq.",
     "corrupted": "Es kam drei Tage lang zu heftigen Kämpfen, vor alles um den Flughafen La Abraq.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1197,7 +1140,8 @@
     "group_span_text": "allem",
     "gold_text": "Bis Mitte der 1980er Jahre folgten vor allem Auftritte in verschiedenen Fernsehproduktionen.",
     "corrupted": "Bis Mitte der 1980er Jahre folgten vor alles Auftritte in verschiedenen Fernsehproduktionen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1207,7 +1151,8 @@
     "group_span_text": "den Nazis",
     "gold_text": "Während des Kriegs hielt sich das mit den Erdődy verwandte bayerische Königshaus auf dem Schloss Somlóvár auf, da diese vor den Nazis geflüchtet waren.",
     "corrupted": "Während des Kriegs hielt sich das mit den Erdődy verwandte bayerische Königshaus auf dem Schloss Somlóvár auf, da diese vor die Nazi geflüchtet waren.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1217,7 +1162,8 @@
     "group_span_text": "dem Feind",
     "gold_text": "Die Stiftungen von 1813, 1870 und 1914 schlossen sowohl \"Tapferkeit vor dem Feind\" als auch Verdienste ohne Kampfeinsatz in die Verleihungsbestimmungen ein.",
     "corrupted": "Die Stiftungen von 1813, 1870 und 1914 schlossen sowohl \"Tapferkeit vor den Feind\" als auch Verdienste ohne Kampfeinsatz in die Verleihungsbestimmungen ein.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1227,7 +1173,8 @@
     "group_span_text": "allem",
     "gold_text": "Neben einer Einführung zur \"Zigeunerplage\" war für die behördliche Praxis vor allem der Personenteil inklusive Lichtbildern von Interesse.",
     "corrupted": "Neben einer Einführung zur \" Zigeunerplage \" war für die behördliche Praxis vor alles der Personenteil inklusive Lichtbildern von Interesse.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1237,7 +1184,8 @@
     "group_span_text": "den Theatern",
     "gold_text": "Die Weltwirtschaftskrise hat auch vor den Theatern am Broadway nicht halt gemacht und Fanny hat Probleme Arbeit zu finden.",
     "corrupted": "Die Weltwirtschaftskrise hat auch vor die Theater am Broadway nicht halt gemacht und Fanny hat Probleme Arbeit zu finden.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1247,17 +1195,8 @@
     "group_span_text": "Jahren",
     "gold_text": "Der Biwa - See entstand vor etwa 5 Millionen Jahren und war den Großteil der vergangenen Zeit klein und flach.",
     "corrupted": "Der Biwa - See entstand vor etwa 5 Millionen Jahre und war den Großteil der vergangenen Zeit klein und flach.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s9376",
-    "group_start": 10,
-    "group_end": 11,
-    "group_span_text": "einem Zug",
-    "gold_text": "Die Versuche wurden mit einer Bremslokomotive, aber auch vor einem Zug mit 600 t gefahren.",
-    "corrupted": "Die Versuche wurden mit einer Bremslokomotive, aber auch vor einen Zug mit 600 t gefahren.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1267,7 +1206,8 @@
     "group_span_text": "18.000 Zuschauern",
     "gold_text": "Diese Auftritte vor jeweils 18.000 Zuschauern wurden für den Kinofilm Queen -- We Will Rock You aufgezeichnet, der 1983 seine Premiere hatte.",
     "corrupted": "Diese Auftritte vor jeweils 18.000 Zuschauer wurden für den Kinofilm Queen -- We Will Rock You aufgezeichnet, der 1983 seine Premiere hatte.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1277,7 +1217,8 @@
     "group_span_text": "den Nationalsozialisten",
     "gold_text": "Dessen Eltern, Theodor von Brand und Margarethe Brandeis, waren 1933 vor den Nationalsozialisten die in die USA geflohen.",
     "corrupted": "Dessen Eltern, Theodor von Brand und Margarethe Brandeis, waren 1933 vor die Nationalsozialisten die in die USA geflohen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1287,27 +1228,8 @@
     "group_span_text": "allem",
     "gold_text": "Vor allem wurde Zanetti bekannt durch seine wichtigste Überlieferung, ein von ihm als Violinschule zusammengestelltes Werk, der \"Il scolaro di Gasparo Zannetti per imparar a suonare di violino, et altri stromenti.",
     "corrupted": "Vor alles wurde Zanetti bekannt durch seine wichtigste Überlieferung, ein von ihm als Violinschule zusammengestelltes Werk, der \"Il scolaro di Gasparo Zannetti per imparar a suonare di violino, et altri stromenti.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s9769",
-    "group_start": 11,
-    "group_end": 11,
-    "group_span_text": "allem",
-    "gold_text": "Der Begriff taucht daher insbesondere im Schadensersatzrecht und dort vor allem bei Straßenverkehrsunfällen auf.",
-    "corrupted": "Der Begriff taucht daher insbesondere im Schadensersatzrecht und dort vor alles bei Straßenverkehrsunfällen auf.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s9794",
-    "group_start": 15,
-    "group_end": 15,
-    "group_span_text": "allem",
-    "gold_text": "Die Bevölkerung des Gebiets Westsahara von 373.008 Einwohnern (Stand Juli 2005) besteht vor allem aus Arabern und arabisierten Berbern.",
-    "corrupted": "Die Bevölkerung des Gebiets Westsahara von 373.008 Einwohnern (Stand Juli 2005) besteht vor alles aus Arabern und arabisierten Berbern.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1317,7 +1239,8 @@
     "group_span_text": "der Eröffnung des Basistunnels",
     "gold_text": "Der Bahnhof ist vor der Eröffnung des Basistunnels im Jahr 2007 modernisiert und umgestaltet worden.",
     "corrupted": "Der Bahnhof ist vor die Eröffnung des Basistunnels im Jahr 2007 modernisiert und umgestaltet worden.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1327,17 +1250,8 @@
     "group_span_text": "einem Jahr",
     "gold_text": "Hartung schreibt: \"Ich hatte sofort Verdacht auf einen Meteor, begab mich sogleich zu dem Landwirt, und es gelang, den eigenartigen Stein, der schon vor einem Jahr gefunden und inzwischen auf einen Steinhaufen am Hause abgeworfen war, zu entdecken\".",
     "corrupted": "Hartung schreibt: \"Ich hatte sofort Verdacht auf einen Meteor, begab mich sogleich zu dem Landwirt, und es gelang, den eigenartigen Stein, der schon vor ein Jahr gefunden und inzwischen auf einen Steinhaufen am Hause abgeworfen war, zu entdecken\".",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s10024",
-    "group_start": 13,
-    "group_end": 13,
-    "group_span_text": "allem",
-    "gold_text": "Typisch ist eine beinbetonte Muskelschwäche, insbesondere der Oberschenkel, welche sich vor allem beim Treppensteigen äußert, sich aber bessert, je mehr Treppenstufen erstiegen werden.",
-    "corrupted": "Typisch ist eine beinbetonte Muskelschwäche, insbesondere der Oberschenkel, welche sich vor alles beim Treppensteigen äußert, sich aber bessert, je mehr Treppenstufen erstiegen werden.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1347,7 +1261,8 @@
     "group_span_text": "den Widrigkeiten des Wetters",
     "gold_text": "Sie dienten in erster Linie der Aufstellung von Weihgeschenken, boten aber natürlich auch den Besuchern Schutz vor den Widrigkeiten des Wetters oder fungierten als Speisesäle.",
     "corrupted": "Sie dienten in erster Linie der Aufstellung von Weihgeschenken, boten aber natürlich auch den Besuchern Schutz vor die Widrigkeiten des Wetters oder fungierten als Speisesäle.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1357,7 +1272,8 @@
     "group_span_text": "allem",
     "gold_text": "Friendster ist ein 2002 gegründetes, durch die Friendster Inc. betriebenes, vor allem im englischsprachigen und asiatischem Raum beliebtes, webbasiertes soziales Netzwerk.",
     "corrupted": "Friendster ist ein 2002 gegründetes, durch die Friendster Inc. betriebenes, vor alles im englischsprachigen und asiatischem Raum beliebtes, webbasiertes soziales Netzwerk.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1367,37 +1283,8 @@
     "group_span_text": "allem",
     "gold_text": "Dietrich Adolf von der Recke war Fürstbischof von Paderborn, dessen Regierungszeit vor allem durch den Wiederaufbau des Territoriums nach dem Dreißigjährigen Krieg geprägt war.",
     "corrupted": "Dietrich Adolf von der Recke war Fürstbischof von Paderborn, dessen Regierungszeit vor alles durch den Wiederaufbau des Territoriums nach dem Dreißigjährigen Krieg geprägt war.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s10372",
-    "group_start": 15,
-    "group_end": 15,
-    "group_span_text": "allem",
-    "gold_text": "Für das achte Semester ging Ehrlich nach Freiburg im Breisgau, wo er vor allem mit dem Farbstoff Dahlia arbeitete.",
-    "corrupted": "Für das achte Semester ging Ehrlich nach Freiburg im Breisgau, wo er vor alles mit dem Farbstoff Dahlia arbeitete.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s10545",
-    "group_start": 11,
-    "group_end": 11,
-    "group_span_text": "allem",
-    "gold_text": "Der Stil ähnelte frühenen Post - Hardcore - Bands, vor allem aber der frühen Emo - Band Rites of Spring.",
-    "corrupted": "Der Stil ähnelte frühenen Post - Hardcore - Bands, vor alles aber der frühen Emo - Band Rites of Spring.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s10614",
-    "group_start": 1,
-    "group_end": 1,
-    "group_span_text": "allem",
-    "gold_text": "Vor allem auf dem Potsdamer Platz begannen schnell die Bauarbeiten für eine neue Hochhaussiedlung.",
-    "corrupted": "Vor alles auf dem Potsdamer Platz begannen schnell die Bauarbeiten für eine neue Hochhaussiedlung.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1407,7 +1294,8 @@
     "group_span_text": "allem",
     "gold_text": "Bekannt wurde er vor allem durch seine Hauptrolle des Ted Mosby in der US - Sitcom How I Met Your Mother.",
     "corrupted": "Bekannt wurde er vor alles durch seine Hauptrolle des Ted Mosby in der US - Sitcom How I Met Your Mother.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1417,7 +1305,8 @@
     "group_span_text": "der französischen Revolution",
     "gold_text": "Der französische Prinz Ludwig Philipp I. kam 1795 auf seiner Flucht vor der französischen Revolution ans Nordkap.",
     "corrupted": "Der französische Prinz Ludwig Philipp I. kam 1795 auf seiner Flucht vor die französische Revolution ans Nordkap.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1427,17 +1316,19 @@
     "group_span_text": "allem",
     "gold_text": "In diesem Amt setzte er sich für alle Ägypter ein, Christen wie Muslime, vor allem während der Kriegszeiten.",
     "corrupted": "In diesem Amt setzte er sich für alle Ägypter ein, Christen wie Muslime, vor alles während der Kriegszeiten.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
     "sent_id": "train-s11042",
-    "group_start": 14,
-    "group_end": 14,
-    "group_span_text": "allem",
+    "group_start": 13,
+    "group_end": 18,
+    "group_span_text": "vor allem dem Schutz der Basisregion",
     "gold_text": "Ihre Überwasserstreitkräfte, Kreuzer und Zerstörer, daneben später einzelne Flugzeugträger, dienten vor allem dem Schutz der Basisregion und der U-Boote.",
-    "corrupted": "Ihre Überwasserstreitkräfte, Kreuzer und Zerstörer, daneben später einzelne Flugzeugträger, dienten vor alles dem Schutz der Basisregion und der U-Boote.",
-    "dative_type": "dative_prep_vor"
+    "corrupted": "Ihre Überwasserstreitkräfte, Kreuzer und Zerstörer, daneben später einzelne Flugzeugträger, dienten vor alles den Schutz der Basisregion und der U-Boote.",
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1447,7 +1338,8 @@
     "group_span_text": "allem",
     "gold_text": "Nestor Carbonell wurde vor allem in seiner Rolle des Luis Rivera in der Sitcom Susan bekannt.",
     "corrupted": "Nestor Carbonell wurde vor alles in seiner Rolle des Luis Rivera in der Sitcom Susan bekannt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1457,7 +1349,8 @@
     "group_span_text": "allem",
     "gold_text": "Vor allem für die Seelsorge des einfachen paderborner Stadtvolkes verschaffte Dietrich Adolf Besserung, indem er den Franziskanerorden in der Landeshauptstadt ansiedelte (1657), die im reformierten Höxter vertriebenen Franziskaner siedelte er 1657 in Herstelle an.",
     "corrupted": "Vor alles für die Seelsorge des einfachen paderborner Stadtvolkes verschaffte Dietrich Adolf Besserung, indem er den Franziskanerorden in der Landeshauptstadt ansiedelte (1657), die im reformierten Höxter vertriebenen Franziskaner siedelte er 1657 in Herstelle an.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1467,7 +1360,8 @@
     "group_span_text": "seinem ersten Geburtstag",
     "gold_text": "Ralf Chubbs Familie zog vor seinem ersten Geburtstag in die historische Stadt St Albans.",
     "corrupted": "Ralf Chubbs Familie zog vor seinen ersten Geburtstag in die historische Stadt St Albans.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1477,7 +1371,8 @@
     "group_span_text": "der Spitze",
     "gold_text": "Jede Flügeldecke trägt seitlich vorn an der Schulterbeule und hinten vor der Spitze einen Punkt (Makel), wobei die hintere Makel auch in zwei kleine Punkte zerlegt sein kann.",
     "corrupted": "Jede Flügeldecke trägt seitlich vorn an der Schulterbeule und hinten vor die Spitze einen Punkt (Makel), wobei die hintere Makel auch in zwei kleine Punkte zerlegt sein kann.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1487,7 +1382,8 @@
     "group_span_text": "allem",
     "gold_text": "Diese Varianten werden vor allem für Surface Mounted Device - Leuchtdioden verwendet.",
     "corrupted": "Diese Varianten werden vor alles für Surface Mounted Device - Leuchtdioden verwendet.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1497,7 +1393,8 @@
     "group_span_text": "allem",
     "gold_text": "In diesem Feld finden sich vor allem Arbeiten, die Konzepte und Ansätze der Kognitiven Linguistik auf die Kognitive Poetik übertragen.",
     "corrupted": "In diesem Feld finden sich vor alles Arbeiten, die Konzepte und Ansätze der Kognitiven Linguistik auf die Kognitive Poetik übertragen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1507,7 +1404,8 @@
     "group_span_text": "allem",
     "gold_text": "Seine Nahrung, die er vor allem am frühen Morgen und am späten Nachmittag sucht, besteht hauptsächlich aus Samen.",
     "corrupted": "Seine Nahrung, die er vor alles am frühen Morgen und am späten Nachmittag sucht, besteht hauptsächlich aus Samen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1517,17 +1415,8 @@
     "group_span_text": "allem",
     "gold_text": "Bedeutend sind vor allem seine Beiträge zur Bremer Geschichte und sein Vollständiges bremisches Münz Cabinet der Erzbischöfe der Herzöge von Bremen und Verden.",
     "corrupted": "Bedeutend sind vor alles seine Beiträge zur Bremer Geschichte und sein Vollständiges bremisches Münz Cabinet der Erzbischöfe der Herzöge von Bremen und Verden.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s11601",
-    "group_start": 4,
-    "group_end": 4,
-    "group_span_text": "allem",
-    "gold_text": "Dort schrieb er vor allem im Auftrag der Emigrantenpresse.",
-    "corrupted": "Dort schrieb er vor alles im Auftrag der Emigrantenpresse.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1537,7 +1426,8 @@
     "group_span_text": "10.000 Jahren",
     "gold_text": "Jedoch wird angenommen, dass die Riesenbiber gemeinsam mit den Mammuts, Mastodons und Eiszeitpferden am Ende der letzten Eiszeit vor 10.000 Jahren ausgestorben sind.",
     "corrupted": "Jedoch wird angenommen, dass die Riesenbiber gemeinsam mit den Mammuts, Mastodons und Eiszeitpferden am Ende der letzten Eiszeit vor 10.000 Jahre ausgestorben sind.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1547,7 +1437,8 @@
     "group_span_text": "den Nazis",
     "gold_text": "Schmeling hatte in Bad Saarow 1933 das Sommerhaus des vor den Nazis ins Exil geflohenen expressionistischen Malers Bruno Krauskopf erworben.",
     "corrupted": "Schmeling hatte in Bad Saarow 1933 das Sommerhaus des vor die Nazis ins Exil geflohenen expressionistischen Malers Bruno Krauskopf erworben.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1557,7 +1448,8 @@
     "group_span_text": "allem",
     "gold_text": "Die Larven der Ibisfliege kommen vor allem in sauberen, mäßig - bis schnellfließenden Gewässern mit steinigem oder kiesigem Grund vor, weshalb sie auch als Bioindikator für die Wasserqualität herangezogen werden können (Saprobienindex 1,5 -- Gewässergüteklasse I - II).",
     "corrupted": "Die Larven der Ibisfliege kommen vor alles in sauberen, mäßig - bis schnellfließenden Gewässern mit steinigem oder kiesigem Grund vor, weshalb sie auch als Bioindikator für die Wasserqualität herangezogen werden können (Saprobienindex 1,5 -- Gewässergüteklasse I - II).",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1567,7 +1459,8 @@
     "group_span_text": "allem",
     "gold_text": "Dies ist vor allem bemerkenswert, weil die deutsche Luftwaffe zu dieser Zeit gegen die Tagesangriffe der USAF - Bomber mangels guter und erfahrener Piloten kaum noch effektiven Widerstand leisten konnte.",
     "corrupted": "Dies ist vor alles bemerkenswert, weil die deutsche Luftwaffe zu dieser Zeit gegen die Tagesangriffe der USAF - Bomber mangels guter und erfahrener Piloten kaum noch effektiven Widerstand leisten konnte.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1577,17 +1470,8 @@
     "group_span_text": "2000 Jahren",
     "gold_text": "Wahrscheinlich war die Gegend um Rodenbach bereits vor 2000 Jahren besiedelt, wie einige Funde z.B. auf der nahegelegenen Kalteiche beweisen.",
     "corrupted": "Wahrscheinlich war die Gegend um Rodenbach bereits vor 2000 Jahre besiedelt, wie einige Funde z.B. auf der nahegelegenen Kalteiche beweisen.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s11944",
-    "group_start": 6,
-    "group_end": 6,
-    "group_span_text": "allem",
-    "gold_text": "Bei seiner Analyse ging er vor allem von Beobachtungen des Alltagslebens der französischen Nachkriegs - Gesellschaft der 60er aus, davon, wie sich diese in den Medien widerspiegelte.",
-    "corrupted": "Bei seiner Analyse ging er vor alles von Beobachtungen des Alltagslebens der französischen Nachkriegs - Gesellschaft der 60er aus, davon, wie sich diese in den Medien widerspiegelte.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1597,7 +1481,8 @@
     "group_span_text": "20.000 Zuschauern",
     "gold_text": "Vor 20.000 Zuschauern trennten sich die Kontrahenten im Donaustadion mit einem 1:1 Unentschieden, was für Ulm den Klassenerhalt dank des besseren Torverhältnisses bedeutete.",
     "corrupted": "Vor 20.000 Zuschauer trennten sich die Kontrahenten im Donaustadion mit einem 1:1 Unentschieden, was für Ulm den Klassenerhalt dank des besseren Torverhältnisses bedeutete.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1607,7 +1492,8 @@
     "group_span_text": "dem Hintergrund",
     "gold_text": "Vor dem Hintergrund einer bis dahin ausgesprochen distanzierten Beziehung zwischen Vater und Sohn entsteht zwischen ihnen an diesem Abend eine unerwartet intime Atmosphäre und der Vater erzählt erstmals vom Selbstmord von Jeds Mutter und seinem persönlichen Werdegang.",
     "corrupted": "Vor den Hintergrund einer bis dahin ausgesprochen distanzierten Beziehung zwischen Vater und Sohn entsteht zwischen ihnen an diesem Abend eine unerwartet intime Atmosphäre und der Vater erzählt erstmals vom Selbstmord von Jeds Mutter und seinem persönlichen Werdegang.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1617,37 +1503,8 @@
     "group_span_text": "allem",
     "gold_text": "Neben Verkehrsflächen wurden dabei vor allem Industrie - und Gewerbegebiete dem jeweils anderen Gemeindebezirk zugeschlagen.",
     "corrupted": "Neben Verkehrsflächen wurden dabei vor alles Industrie - und Gewerbegebiete dem jeweils anderen Gemeindebezirk zugeschlagen.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s12224",
-    "group_start": 28,
-    "group_end": 28,
-    "group_span_text": "allem",
-    "gold_text": "Daneben gibt es noch Kurden, Armenier, Perser und die Christlichen Chaldo - Assyrer (auch Aramäer genannt), die zu verschiedenen syrischen Kirchen gehören vor allem zur Chaldäisch - Katholische Kirche und zur Assyrischen Kirche des Ostens.",
-    "corrupted": "Daneben gibt es noch Kurden, Armenier, Perser und die Christlichen Chaldo - Assyrer ( auch Aramäer genannt), die zu verschiedenen syrischen Kirchen gehören vor alles zur Chaldäisch - Katholische Kirche und zur Assyrischen Kirche des Ostens.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s12317",
-    "group_start": 1,
-    "group_end": 1,
-    "group_span_text": "allem",
-    "gold_text": "Vor allem im Jugendalter stellen die sozialen Beziehungen zu Gleichaltrigen im Hinblick auf (teil) gesellschaftliche Integration und vor dem Hintergrund von Anerkennung, Wohlbefinden und reflexiver Selbstvergewisserung ein zentrales Bezugssystem dar.",
-    "corrupted": "Vor alles im Jugendalter stellen die sozialen Beziehungen zu Gleichaltrigen im Hinblick auf (teil) gesellschaftliche Integration und vor dem Hintergrund von Anerkennung, Wohlbefinden und reflexiver Selbstvergewisserung ein zentrales Bezugssystem dar.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s12317",
-    "group_start": 22,
-    "group_end": 23,
-    "group_span_text": "dem Hintergrund",
-    "gold_text": "Vor allem im Jugendalter stellen die sozialen Beziehungen zu Gleichaltrigen im Hinblick auf (teil) gesellschaftliche Integration und vor dem Hintergrund von Anerkennung, Wohlbefinden und reflexiver Selbstvergewisserung ein zentrales Bezugssystem dar.",
-    "corrupted": "Vor allem im Jugendalter stellen die sozialen Beziehungen zu Gleichaltrigen im Hinblick auf (teil) gesellschaftliche Integration und vor den Hintergrund von Anerkennung, Wohlbefinden und reflexiver Selbstvergewisserung ein zentrales Bezugssystem dar.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1657,7 +1514,8 @@
     "group_span_text": "allem",
     "gold_text": "Während seiner Blütezeit zählte es 50 Schüler und 12 Lehrer, vor allem Söhne vornehmer Fabrikantenfamilien aus Basel und dem Elsass erhielten hier ihre Ausbildung.",
     "corrupted": "Während seiner Blütezeit zählte es 50 Schüler und 12 Lehrer, vor alles Söhne vornehmer Fabrikantenfamilien aus Basel und dem Elsass erhielten hier ihre Ausbildung.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1667,7 +1525,8 @@
     "group_span_text": "der Bevölkerung",
     "gold_text": "Der Termin für die wirtschaftliche Eingliederung an die Bundesrepublik durch die Einführung der D - Mark wurde vor der Bevölkerung lange geheim gehalten.",
     "corrupted": "Der Termin für die wirtschaftliche Eingliederung an die Bundesrepublik durch die Einführung der D - Mark wurde vor die Bevölkerung lange geheim gehalten.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1677,7 +1536,8 @@
     "group_span_text": "wenigen Jahren",
     "gold_text": "Bis vor wenigen Jahren wurde die Sole zur Bäder - und Inhalationsbehandlung angewendet.",
     "corrupted": "Bis vor wenige Jahre wurde die Sole zur Bäder - und Inhalationsbehandlung angewendet.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1687,7 +1547,8 @@
     "group_span_text": "dem Künstler",
     "gold_text": "Hierzu ist eine maximal 4,88 m × 3,66 m große Leinwand vor dem Künstler angebracht.",
     "corrupted": "Hierzu ist eine maximal 4,88 m × 3,66 m große Leinwand vor den Künstler angebracht.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1697,7 +1558,8 @@
     "group_span_text": "allem",
     "gold_text": "Djehuti ist vor allem von Grabkegeln bekannt, auf denen er auch als Vorsteher der Siegler bezeichnet wird.",
     "corrupted": "Djehuti ist vor alles von Grabkegeln bekannt, auf denen er auch als Vorsteher der Siegler bezeichnet wird.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1707,17 +1569,19 @@
     "group_span_text": "allem",
     "gold_text": "Es ist eine Schauhöhle und für die Öffentlichkeit zugänglich, vor allem bekannt für seine zahlreichen archäologische Funde.",
     "corrupted": "Es ist eine Schauhöhle und für die Öffentlichkeit zugänglich, vor alles bekannt für seine zahlreichen archäologische Funde.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
     "sent_id": "train-s12676",
-    "group_start": 4,
-    "group_end": 4,
-    "group_span_text": "allem",
+    "group_start": 3,
+    "group_end": 6,
+    "group_span_text": "vor allem dem Zweck",
     "gold_text": "Die Farbgebung dient vor allem dem Zweck, die einzelnen Objekte und Personen voneinander unterscheiden zu können, sie wird nicht als künstlerisches Mittel eingesetzt.",
-    "corrupted": "Die Farbgebung dient vor alles dem Zweck, die einzelnen Objekte und Personen voneinander unterscheiden zu können, sie wird nicht als künstlerisches Mittel eingesetzt.",
-    "dative_type": "dative_prep_vor"
+    "corrupted": "Die Farbgebung dient vor alles den Zweck, die einzelnen Objekte und Personen voneinander unterscheiden zu können, sie wird nicht als künstlerisches Mittel eingesetzt.",
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1727,7 +1591,8 @@
     "group_span_text": "der Veröffentlichung dieses Films",
     "gold_text": "Reeves wurde vor der Veröffentlichung dieses Films mit scharfer Kritik konfrontiert, jedoch lobten Filmkenner diesen Film als \"einer der besten Horror - Filme aller Zeiten\".",
     "corrupted": "Reeves wurde vor die Veröffentlichung dieses Films mit scharfer Kritik konfrontiert, jedoch lobten Filmkenner diesen Film als \"einer der besten Horror - Filme aller Zeiten\".",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1737,7 +1602,19 @@
     "group_span_text": "dem Tor",
     "gold_text": "Vor dem Tor lag eine Marienkapelle, die \"Liebfrauenkapelle\", die bereits 950 bestanden haben soll.",
     "corrupted": "Vors Tor lag eine Marienkapelle, die \"Liebfrauenkapelle\", die bereits 950 bestanden haben soll.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
+  },
+  {
+    "split": "train",
+    "sent_id": "train-s13063",
+    "group_start": 10,
+    "group_end": 11,
+    "group_span_text": "vielen Millionen",
+    "gold_text": "Der Photoschutz - Mechanismus der DNA hat sich bereits vor vielen Millionen Jahren evolutionär entwickelt.",
+    "corrupted": "Der Photoschutz - Mechanismus der DNA hat sich bereits vor viele Millionen Jahren evolutionär entwickelt.",
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1747,7 +1624,8 @@
     "group_span_text": "Jahren",
     "gold_text": "Der Photoschutz - Mechanismus der DNA hat sich bereits vor vielen Millionen Jahren evolutionär entwickelt.",
     "corrupted": "Der Photoschutz - Mechanismus der DNA hat sich bereits vor vielen Millionen Jahre evolutionär entwickelt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1757,7 +1635,8 @@
     "group_span_text": "ihrer Stilllegung",
     "gold_text": "Alle diese Linien verkehrten vor ihrer Stilllegung über die große Schleife zum Grand - Trunk - Bahnhof.",
     "corrupted": "Alle diese Linien verkehrten vor ihre Stilllegung über die große Schleife zum Grand - Trunk - Bahnhof.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1767,7 +1646,8 @@
     "group_span_text": "allem",
     "gold_text": "Wolfgang Harms bedauert vor allem Seeligers \"felsenfesten\" Glauben an die Überlegenheit der deutschen Kultur und Sprache.",
     "corrupted": "Wolfgang Harms bedauert vor alles Seeligers \"felsenfesten\" Glauben an die Überlegenheit der deutschen Kultur und Sprache.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1777,7 +1657,8 @@
     "group_span_text": "allem",
     "gold_text": "In den letzten Jahren seines Lebens war Huang Xianfan vor allem publizistisch tätig und schrieb mehrere umfassende Werke zur Geschichte der Zhuang.",
     "corrupted": "In den letzten Jahren seines Lebens war Huang Xianfan vor alles publizistisch tätig und schrieb mehrere umfassende Werke zur Geschichte der Zhuang.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1787,7 +1668,8 @@
     "group_span_text": "allem",
     "gold_text": "Die Provinz ist vor allem für ihre zahlreichen Kokosnussplantagen bekannt.",
     "corrupted": "Die Provinz ist vor alles für ihre zahlreichen Kokosnussplantagen bekannt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1797,7 +1679,8 @@
     "group_span_text": "dieser Entwicklung",
     "gold_text": "Helmut Schmidt hatte als Wehrexperte der SPD in den 1950er Jahren vor exakt dieser Entwicklung gewarnt und die NATO - Entscheidung 1958 im Bundestag scharf kritisiert: Landgestützte Atomraketen würden das NATO - Vertragsgebiet zu einem Primärziel sowjetischer Präventivangriffe machen und damit die Sicherheit Westeuropas enorm herabsetzen.",
     "corrupted": "Helmut Schmidt hatte als Wehrexperte der SPD in den 1950er Jahren vor exakt diese Entwicklung gewarnt und die NATO - Entscheidung 1958 im Bundestag scharf kritisiert: Landgestützte Atomraketen würden das NATO - Vertragsgebiet zu einem Primärziel sowjetischer Präventivangriffe machen und damit die Sicherheit Westeuropas enorm herabsetzen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1807,17 +1690,8 @@
     "group_span_text": "seiner Verhaftung",
     "gold_text": "Vor seiner Verhaftung arbeitete er an Bord der SS Siboney als erster Steward bei den American Export - Sbrandtsen Lines.",
     "corrupted": "Vor seine Verhaftung arbeitete er an Bord der SS Siboney als erster Steward bei den American Export - Sbrandtsen Lines.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s13526",
-    "group_start": 5,
-    "group_end": 5,
-    "group_span_text": "allem",
-    "gold_text": "Touristen besuchen die Stadt vor allem im Sommer um zu Schwimmen, zu Fischen und Wassersport zu betreiben.",
-    "corrupted": "Touristen besuchen die Stadt vor alles im Sommer um zu Schwimmen, zu Fischen und Wassersport zu betreiben.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1827,7 +1701,8 @@
     "group_span_text": "allem",
     "gold_text": "Neben dem Inhalt seiner Werke wurde vor allem auch sein Spiel mit den Farben gelobt.",
     "corrupted": "Neben dem Inhalt seiner Werke wurde vor alles auch sein Spiel mit den Farben gelobt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1837,7 +1712,8 @@
     "group_span_text": "den Folgen des Erdbebens dem",
     "gold_text": "Als Flüchtling vor den Folgen des Erdbebens vom 1.",
     "corrupted": "Als Flüchtling vor die Folgen des Erdbebens von das 1.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1847,7 +1723,8 @@
     "group_span_text": "dem Aufkommen der Mechanisierung",
     "gold_text": "Vor dem Aufkommen der Mechanisierung und Motorisierung (Traktoren) in der Feldbearbeitung spielten Zugpferde nicht nur in Deutschland eine große Rolle.",
     "corrupted": "Vors Aufkommen der Mechanisierung und Motorisierung (Traktoren) in der Feldbearbeitung spielten Zugpferde nicht nur in Deutschland eine große Rolle.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1857,7 +1734,8 @@
     "group_span_text": "allem",
     "gold_text": "Vor allem der Zentralrat Deutscher Sinti und Roma habe sich, so Yaron Matras, der damalige Hauptverantwortliche für die Pressearbeit sowie für Beziehungen zu internationalen Organisationen, sich dem entschieden entgegengestellt.",
     "corrupted": "Vor alles der Zentralrat Deutscher Sinti und Roma habe sich, so Yaron Matras, der damalige Hauptverantwortliche für die Pressearbeit sowie für Beziehungen zu internationalen Organisationen, sich dem entschieden entgegengestellt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1867,7 +1745,8 @@
     "group_span_text": "dem",
     "gold_text": "Vor allem der Zentralrat Deutscher Sinti und Roma habe sich, so Yaron Matras, der damalige Hauptverantwortliche für die Pressearbeit sowie für Beziehungen zu internationalen Organisationen, sich dem entschieden entgegengestellt.",
     "corrupted": "Vor allem der Zentralrat Deutscher Sinti und Roma habe sich, so Yaron Matras, der damalige Hauptverantwortliche für die Pressearbeit sowie für Beziehungen zu internationalen Organisationen, sich das entschieden entgegengestellt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1877,7 +1756,8 @@
     "group_span_text": "allem",
     "gold_text": "Vor allem die starke Düngung hatte schwere Umweltschäden hinterlassen.",
     "corrupted": "Vor alles die starke Düngung hatte schwere Umweltschäden hinterlassen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1887,7 +1767,8 @@
     "group_span_text": "allem",
     "gold_text": "Sie wurde vor allem durch ihre Rollen in den polnischen Seifenopern Magda M. und Kasia i Tomek bekannt.",
     "corrupted": "Sie wurde vor alles durch ihre Rollen in den polnischen Seifenopern Magda M. und Kasia i Tomek bekannt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1897,7 +1778,8 @@
     "group_span_text": "allem",
     "gold_text": "Auf diesem Weg wurden deshalb vor allem Sklaven aus der Sahelzone an das Mittelmeer gebracht, während im Gegenzug vor allem ältere europäische Schusswaffen nach Süden verhandelt wurden.",
     "corrupted": "Auf diesem Weg wurden deshalb vor alles Sklaven aus der Sahelzone an das Mittelmeer gebracht, während im Gegenzug vor allem ältere europäische Schusswaffen nach Süden verhandelt wurden.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1907,17 +1789,8 @@
     "group_span_text": "allem",
     "gold_text": "Auf diesem Weg wurden deshalb vor allem Sklaven aus der Sahelzone an das Mittelmeer gebracht, während im Gegenzug vor allem ältere europäische Schusswaffen nach Süden verhandelt wurden.",
     "corrupted": "Auf diesem Weg wurden deshalb vor allem Sklaven aus der Sahelzone an das Mittelmeer gebracht, während im Gegenzug vor alles ältere europäische Schusswaffen nach Süden verhandelt wurden.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "train",
-    "sent_id": "train-s13915",
-    "group_start": 13,
-    "group_end": 13,
-    "group_span_text": "Betriebsräten",
-    "gold_text": "Im November 2006 kündigte er im saarländischen Bildstock vor Gewerkschaftsvertretern und Betriebsräten an, bei der Landtagswahl 2009 als Spitzenkandidat der mit der WASG vereinten Linkspartei anzutreten.",
-    "corrupted": "Im November 2006 kündigte er im saarländischen Bildstock vor Gewerkschaftsvertretern und Betriebsräte an, bei der Landtagswahl 2009 als Spitzenkandidat der mit der WASG vereinten Linkspartei anzutreten.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1927,7 +1800,8 @@
     "group_span_text": "seinem Abschluss",
     "gold_text": "Er wurde jedoch vor seinem Abschluss für den Wehrdienst herangezogen.",
     "corrupted": "Er wurde jedoch vor seinen Abschluss für den Wehrdienst herangezogen.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1937,7 +1811,8 @@
     "group_span_text": "der Generalüberholung",
     "gold_text": "Die Kapazität der vier Wasserturbinen betrug vor der Generalüberholung 2006 insgesamt 160 MW.",
     "corrupted": "Die Kapazität der vier Wasserturbinen betrug vor die Generalüberholung 2006 insgesamt 160 MW.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1947,7 +1822,8 @@
     "group_span_text": "der Kamera",
     "gold_text": "Seit Ende der 2000er Jahre stand er für alle Langfilme Kulkarnis vor der Kamera.",
     "corrupted": "Seit Ende der 2000er Jahre stand er für alle Langfilme Kulkarnis vor die Kamera.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "train",
@@ -1957,7 +1833,8 @@
     "group_span_text": "dem Aufbruch der späten 60er Jahre",
     "gold_text": "Gleichwohl sah sie -- \"passend zum Frauenbild in der Zeit vor dem Aufbruch der späten 60er Jahre -- ihre Hauptaufgabe neben ihren Repräsentationspflichten im Zuhören\".",
     "corrupted": "Gleichwohl sah sie -- \" passend zum Frauenbild in der Zeit vor den Aufbruch der späten 60er Jahre -- ihre Hauptaufgabe neben ihren Repräsentationspflichten im Zuhören \".",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "dev",
@@ -1967,7 +1844,8 @@
     "group_span_text": "allem",
     "gold_text": "Für uns war vor allem der Hausbesuch das Highlight dieses Optikers.",
     "corrupted": "Für uns war vor alles der Hausbesuch das Highlight dieses Optikers.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "dev",
@@ -1977,7 +1855,8 @@
     "group_span_text": "sechs Jahren",
     "gold_text": "Hätte es das Hundezentrum bereits vor sechs Jahren gegeben, hätte es uns viel Zeit, Ärger, Stress und Geld gespart.",
     "corrupted": "Hätte es das Hundezentrum bereits vor sechs Jahre gegeben, hätte es uns viel Zeit, Ärger, Stress und Geld gespart.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "dev",
@@ -1987,7 +1866,8 @@
     "group_span_text": "dem ersten Gespräch",
     "gold_text": "Meine E - Mails wurden sofort beantwortet und vor dem ersten Gespräch im Büro hatte man bereits alles erforderliche in die Wege geleitet.",
     "corrupted": "Meine E - Mails wurden sofort beantwortet und vors erste Gespräch im Büro hatte man bereits alles erforderliche in die Wege geleitet.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "dev",
@@ -1997,7 +1877,8 @@
     "group_span_text": "allem",
     "gold_text": "Vor allem die offene Küche und der grosse Aufenthaltsraum sind sehr schön.",
     "corrupted": "Vor alles die offene Küche und der grosse Aufenthaltsraum sind sehr schön.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "dev",
@@ -2007,27 +1888,19 @@
     "group_span_text": "allem",
     "gold_text": "Die FRG lebt vor allem weiter von der Popularität von Rios Montt.",
     "corrupted": "Die FRG lebt vor alles weiter von der Popularität von Rios Montt.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "dev",
-    "sent_id": "dev-s627",
-    "group_start": 18,
-    "group_end": 18,
-    "group_span_text": "allem",
-    "gold_text": "Doch Vietnam kämpft mit den üblichen Schwierigkeiten sozialistischer Regimes beim ersten Flirt mit der Marktwirtschaft, vor allem mit Bürokratismus und Korruption.",
-    "corrupted": "Doch Vietnam kämpft mit den üblichen Schwierigkeiten sozialistischer Regimes beim ersten Flirt mit der Marktwirtschaft, vor alles mit Bürokratismus und Korruption.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "dev",
     "sent_id": "dev-s698",
-    "group_start": 4,
-    "group_end": 4,
-    "group_span_text": "allem",
+    "group_start": 3,
+    "group_end": 5,
+    "group_span_text": "vor allem Kindern",
     "gold_text": "Die Zeit geht vor allem Kindern verloren, denn jede Stunde mehr vor dem TV bedeutet eine Stunde weniger mit Freunden oder der Familie, mit möglicherweise negativen Folgen für die individuelle und soziale Entwicklung.",
-    "corrupted": "Die Zeit geht vor alles Kindern verloren, denn jede Stunde mehr vor dem TV bedeutet eine Stunde weniger mit Freunden oder der Familie, mit möglicherweise negativen Folgen für die individuelle und soziale Entwicklung.",
-    "dative_type": "dative_prep_vor"
+    "corrupted": "Die Zeit geht vor alles Kinder verloren, denn jede Stunde mehr vor dem TV bedeutet eine Stunde weniger mit Freunden oder der Familie, mit möglicherweise negativen Folgen für die individuelle und soziale Entwicklung.",
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "dev",
@@ -2037,7 +1910,8 @@
     "group_span_text": "dem TV",
     "gold_text": "Die Zeit geht vor allem Kindern verloren, denn jede Stunde mehr vor dem TV bedeutet eine Stunde weniger mit Freunden oder der Familie, mit möglicherweise negativen Folgen für die individuelle und soziale Entwicklung.",
     "corrupted": "Die Zeit geht vor allem Kindern verloren, denn jede Stunde mehr vors TV bedeutet eine Stunde weniger mit Freunden oder der Familie, mit möglicherweise negativen Folgen für die individuelle und soziale Entwicklung.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "dev",
@@ -2047,7 +1921,8 @@
     "group_span_text": "dem Wind einer kräftigen Exportkonjunktur",
     "gold_text": "``Es muß zu denken geben, daß die deutsche Wirtschaft selbst vor dem Wind einer kräftigen Exportkonjunktur nicht zu mehr Eigendynamik findet'', stellt das Gutachten fest.",
     "corrupted": "``Es muß zu denken geben, daß die deutsche Wirtschaft selbst vor den Wind einer kräftigen Exportkonjunktur nicht zu mehr Eigendynamik findet'', stellt das Gutachten fest.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "dev",
@@ -2057,7 +1932,8 @@
     "group_span_text": "dem Krankenhaus",
     "gold_text": "``Die Regierung Israels gibt mit tiefer Trauer den Tod des Ministerpräsidenten und Verteidigungsministers Yitzhak Rabin bekannt, der heute von einem Attentäter in Tel Aviv ermordet wurde'', teilte ein Regierungssprecher vor dem Krankenhaus Journalisten und ängstlich wartenden Israelis mit.",
     "corrupted": "``Die Regierung Israels gibt mit tiefer Trauer den Tod des Ministerpräsidenten und Verteidigungsministers Yitzhak Rabin bekannt, der heute von einem Attentäter in Tel Aviv ermordet wurde'', teilte ein Regierungssprecher vors Krankenhaus Journalisten und ängstlich wartenden Israelis mit.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "dev",
@@ -2067,7 +1943,8 @@
     "group_span_text": "allem",
     "gold_text": "Der Grund ist vor allem Enttäuschung über die traditionellen Parteien, die sich durch Korruption, Mißwirtschaft oder Machtmißbrauch auszeichneten und kaum Antwort auf die drängenden Fragen wie Verelendung und eine sich verschärfende soziale Krise finden.",
     "corrupted": "Der Grund ist vor alles Enttäuschung über die traditionellen Parteien, die sich durch Korruption, Mißwirtschaft oder Machtmißbrauch auszeichneten und kaum Antwort auf die drängenden Fragen wie Verelendung und eine sich verschärfende soziale Krise finden.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "dev",
@@ -2077,7 +1954,8 @@
     "group_span_text": "zwanzig Jahren",
     "gold_text": "``Wir wissen, daß Aufklärung nicht so schnell zu erreichen ist, wie wir das vor zwanzig Jahren gedacht haben;",
     "corrupted": "``Wir wissen, daß Aufklärung nicht so schnell zu erreichen ist, wie wir das vor zwanzig Jahre gedacht haben;",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2087,7 +1965,8 @@
     "group_span_text": "dem Termin",
     "gold_text": "Bin 4:20 Minuten vor dem Termin.",
     "corrupted": "Bin 4:20 Minuten vor den Termin.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2097,7 +1976,8 @@
     "group_span_text": "mir",
     "gold_text": "Das letzte Mal war ich vor ein paar Wochen dort und muss sagen, dass es mir sehr gut gefallen hat.",
     "corrupted": "Das letzte Mal war ich vor ein paar Wochen dort und muss sagen, dass es mich sehr gut gefallen hat.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2107,7 +1987,8 @@
     "group_span_text": "allem",
     "gold_text": "Das Personal ist klasse, vor allem der Chef und der nette \"Oberkelner\" Dennis.",
     "corrupted": "Das Personal ist klasse, vor alles der Chef und der nette \"Oberkelner\" Dennis.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2117,7 +1998,8 @@
     "group_span_text": "einigen Jahren",
     "gold_text": "Er hat vor einigen Jahren einen Orden von ihrem Hause überreicht bekommen und dies sicherlich nicht für überteuerte Preise.",
     "corrupted": "Er hat vor einige Jahre einen Orden von ihrem Hause überreicht bekommen und dies sicherlich nicht für überteuerte Preise.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2127,7 +2009,8 @@
     "group_span_text": "allem",
     "gold_text": "Es gab vor allem nicht die üblichen Grillteller.",
     "corrupted": "Es gab vor alles nicht die üblichen Grillteller.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2137,7 +2020,8 @@
     "group_span_text": "meiner kleinen Tochter 2 Jahre",
     "gold_text": "Fr. Dr. Berndt hat mich ins Behandlungszimmer gerufen und vor meiner kleinen Tochter (2 Jahre) die Tür vor der Nase zugemacht und gesagt \"Du wartest draussen!\"",
     "corrupted": "Fr. Dr. Berndt hat mich ins Behandlungszimmer gerufen und vor meine kleine Tochter ( 2 Jahre) die Tür vor der Nase zugemacht und gesagt \" Du wartest draussen! \"",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2147,7 +2031,8 @@
     "group_span_text": "der Nase",
     "gold_text": "Fr. Dr. Berndt hat mich ins Behandlungszimmer gerufen und vor meiner kleinen Tochter (2 Jahre) die Tür vor der Nase zugemacht und gesagt \"Du wartest draussen!\"",
     "corrupted": "Fr. Dr. Berndt hat mich ins Behandlungszimmer gerufen und vor meiner kleinen Tochter ( 2 Jahre) die Tür vor die Nase zugemacht und gesagt \" Du wartest draussen! \"",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2157,17 +2042,8 @@
     "group_span_text": "allem",
     "gold_text": "Zimmer sind vorsichtig ausgedrückt, schmuddelig, vor allem das Bad ist runtergewirtschaftet, schimmelige Deckenecken",
     "corrupted": "Zimmer sind vorsichtig ausgedrückt, schmuddelig, vor alles das Bad ist runtergewirtschaftet, schimmelige Deckenecken",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "test",
-    "sent_id": "test-s336",
-    "group_start": 6,
-    "group_end": 6,
-    "group_span_text": "allem",
-    "gold_text": "Den Angriff führte die Regierung vor allem auf dem Feld, auf dem sie selbst nach dem Massaker in Boipatong am ärgsten in Bedrängnis geraten war: der anhaltenden Gewalt.",
-    "corrupted": "Den Angriff führte die Regierung vor alles auf dem Feld, auf dem sie selbst nach dem Massaker in Boipatong am ärgsten in Bedrängnis geraten war: der anhaltenden Gewalt.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2177,7 +2053,8 @@
     "group_span_text": "einiger Zeit",
     "gold_text": "Der Computerbauer SNI hatte schon vor einiger Zeit bekanntgegeben, daß er weitere 3000 Jobs streichen will.",
     "corrupted": "Der Computerbauer SNI hatte schon vor einige Zeit bekanntgegeben, daß er weitere 3000 Jobs streichen will.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2187,7 +2064,8 @@
     "group_span_text": "allem",
     "gold_text": "Der Romancier, Journalist und Bühnenautor beschrieb in sieben Romanen und vier Sachbüchern beschrieb Jose Yglesias vor allem das Leben mittel- und südamerikanischer Emigranten und Exilkubaner in den USA sowie derer, die zu Hause blieben.",
     "corrupted": "Der Romancier, Journalist und Bühnenautor beschrieb in sieben Romanen und vier Sachbüchern beschrieb Jose Yglesias vor alles das Leben mittel- und südamerikanischer Emigranten und Exilkubaner in den USA sowie derer, die zu Hause blieben.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2197,7 +2075,8 @@
     "group_span_text": "dem Rausschmiß",
     "gold_text": "``Wir haben alle Formulierungen vermieden, die irgendein Gesetz in Kuba verletzen könnten'', erklärt mit milder Stimme Castellanos, ``und das hat uns dennoch nicht vor dem Rausschmiß bewahrt.''",
     "corrupted": "``Wir haben alle Formulierungen vermieden, die irgendein Gesetz in Kuba verletzen könnten'', erklärt mit milder Stimme Castellanos, ``und das hat uns dennoch nicht vor den Rausschmiss bewahrt.''",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2207,17 +2086,8 @@
     "group_span_text": "allem",
     "gold_text": "In die Schlagzeilen geriet vor allem das zu Ihrem Einzugsbereich zählende Revier Bernau, wo Beamte Vietnamesen mißhandelten.",
     "corrupted": "In die Schlagzeilen geriet vor alles das zu Ihrem Einzugsbereich zählende Revier Bernau, wo Beamte Vietnamesen mißhandelten.",
-    "dative_type": "dative_prep_vor"
-  },
-  {
-    "split": "test",
-    "sent_id": "test-s746",
-    "group_start": 10,
-    "group_end": 10,
-    "group_span_text": "allem",
-    "gold_text": "Durch Blockadeaktionen unterbrochen war der Verkehr am Montag vor allem auf den großen Nord-Süd-Verbindungen zwischen Paris, Marseille und Toulouse.",
-    "corrupted": "Durch Blockadeaktionen unterbrochen war der Verkehr am Montag vor alles auf den großen Nord-Süd-Verbindungen zwischen Paris, Marseille und Toulouse.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2227,7 +2097,8 @@
     "group_span_text": "dem Recht",
     "gold_text": "Fürwahr ein stolzes Sortiment, für das es sich womöglich gelohnt hätte, ein Stück Gleichheit vor dem Recht aufs Spiel zu setzen und demjenigen Strafrabatt zu gewähren, der diese Wundertaten während einer der Strafprozeßordnung folgenden Hauptverhandlung vollbringt, wenn....",
     "corrupted": "Fürwahr ein stolzes Sortiment, für das es sich womöglich gelohnt hätte, ein Stück Gleichheit vors Recht aufs Spiel zu setzen und demjenigen Strafrabatt zu gewähren, der diese Wundertaten während einer der Strafprozeßordnung folgenden Hauptverhandlung vollbringt, wenn ....",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2237,7 +2108,8 @@
     "group_span_text": "der Einnahme",
     "gold_text": "Laut Tanjug stehen die eingekesselten Städte Odzak und Gradacac unmittelbar vor der Einnahme.",
     "corrupted": "Laut Tanjug stehen die eingekesselten Städte Odzak und Gradacac unmittelbar vor die Einnahme.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2247,7 +2119,8 @@
     "group_span_text": "der Abschaffung der Mark",
     "gold_text": "Henkel äußerte Verständnis für die Angst der Deutschen vor der Abschaffung der Mark, hält diese Furcht aber für unbegründet.",
     "corrupted": "Henkel äußerte Verständnis für die Angst der Deutschen vor die Abschaffung der Mark, hält diese Furcht aber für unbegründet.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2257,7 +2130,8 @@
     "group_span_text": "anderthalb Jahren",
     "gold_text": "Noch anläßlich des Massakers von Hebron, als der Siedler und Arzt Baruch Goldstein vor anderthalb Jahren 29 betende Moslems niedergemetzelt hatte, stellte der jordanische Politologe Mustafa Hamarneh kategorisch fest: ``Juden schießen nicht auf Juden.''",
     "corrupted": "Noch anläßlich des Massakers von Hebron, als der Siedler und Arzt Baruch Goldstein vor anderthalb Jahre 29 betende Moslems niedergemetzelt hatte, stellte der jordanische Politologe Mustafa Hamarneh kategorisch fest: ``Juden schießen nicht auf Juden.''",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2267,7 +2141,8 @@
     "group_span_text": "allem",
     "gold_text": "Positiv wirkten sich vor allem ``interne Maßnahmen zur Steigerung der Wettbewerbsfähigkeit'' und Volumensteigerungen in allen Sparten aus.",
     "corrupted": "Positiv wirkten sich vor alles `` interne Maßnahmen zur Steigerung der Wettbewerbsfähigkeit '' und Volumensteigerungen in allen Sparten aus.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   },
   {
     "split": "test",
@@ -2277,6 +2152,7 @@
     "group_span_text": "Jahren",
     "gold_text": "Badewitz 'alter Freund Wim Wenders, der für Hof vor Jahren den Beinamen ``Home of Films'' erfand, präsentierte diesmal die deutsche Erstaufführung seines mit und für Antonioni inszenierten Films Jenseits der Wolken -- das Road Movie als Episodenfilm, der Episodenfilm als Road Movie.",
     "corrupted": "Badewitz 'alter Freund Wim Wenders, der für Hof vor Jahre den Beinamen ``Home of Films'' erfand, präsentierte diesmal die deutsche Erstaufführung seines mit und für Antonioni inszenierten Films Jenseits der Wolken -- das Road Movie als Episodenfilm, der Episodenfilm als Road Movie.",
-    "dative_type": "dative_prep_vor"
+    "dative_type": "dative_prep_vor",
+    "preposition": "vor"
   }
 ]

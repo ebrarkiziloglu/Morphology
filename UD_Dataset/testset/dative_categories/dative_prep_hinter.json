@@ -7,7 +7,8 @@
     "group_span_text": "dem Haus",
     "gold_text": "Auch in dem kleinen Gärtchen hinter dem Haus lagen dicke Äste von den Nachbarbäumen.",
     "corrupted": "Auch in dem kleinen Gärtchen hinters Haus lagen dicke Äste von den Nachbarbäumen.",
-    "dative_type": "dative_prep_hinter"
+    "dative_type": "dative_prep_hinter",
+    "preposition": "hinter"
   },
   {
     "split": "train",
@@ -17,7 +18,8 @@
     "group_span_text": "ihm",
     "gold_text": "Hinter ihm marschierte das zweite Treffen aus zwei sächsischen Brigaden, die aus 15 Bataillonen bestanden, unter Prinz Xaver von Sachsen (1730-1806) auf.",
     "corrupted": "Hinter ihn marschierte das zweite Treffen aus zwei sächsischen Brigaden, die aus 15 Bataillonen bestanden, unter Prinz Xaver von Sachsen (1730-1806) auf.",
-    "dative_type": "dative_prep_hinter"
+    "dative_type": "dative_prep_hinter",
+    "preposition": "hinter"
   },
   {
     "split": "train",
@@ -27,17 +29,19 @@
     "group_span_text": "dieser",
     "gold_text": "Obwohl die Definition der Bettizahlen sehr abstrakt ist, steckt hinter dieser eine Anschauung.",
     "corrupted": "Obwohl die Definition der Bettizahlen sehr abstrakt ist, steckt hinter diese eine Anschauung.",
-    "dative_type": "dative_prep_hinter"
+    "dative_type": "dative_prep_hinter",
+    "preposition": "hinter"
   },
   {
     "split": "train",
     "sent_id": "train-s2626",
     "group_start": 8,
-    "group_end": 9,
-    "group_span_text": "der Bastau",
+    "group_end": 13,
+    "group_span_text": "der Bastau und de Broglies Armee",
     "gold_text": "Er positionierte seine Hauptarmee südwestlich von Minden hinter der Bastau und de Broglies Armee auf dem rechten Ufer der Weser.",
     "corrupted": "Er positionierte seine Hauptarmee südwestlich von Minden hinter die Bastau und de Broglies Armee auf dem rechten Ufer der Weser.",
-    "dative_type": "dative_prep_hinter"
+    "dative_type": "dative_prep_hinter",
+    "preposition": "hinter"
   },
   {
     "split": "train",
@@ -47,7 +51,8 @@
     "group_span_text": "dem Namen",
     "gold_text": "Das am häufigsten vorkommende Beiwort ist mrj Jmen (geliebt von Amun), das, auch wenn es oft vor dem Namen stehen kann, hinter dem Namen gelesen wird: R - msj - sw mrj - Jmn (Ramses, geliebt von Amun).",
     "corrupted": "Das am häufigsten vorkommende Beiwort ist mrj Jmen (geliebt von Amun), das, auch wenn es oft vor dem Namen stehen kann, hinter den Namen gelesen wird: R - msj - sw mrj - Jmn (Ramses, geliebt von Amun).",
-    "dative_type": "dative_prep_hinter"
+    "dative_type": "dative_prep_hinter",
+    "preposition": "hinter"
   },
   {
     "split": "train",
@@ -57,7 +62,8 @@
     "group_span_text": "dem Fluss",
     "gold_text": "Gabriel will -- gegen die Regeln -- Aiden hinter dem Fluss angreifen, aber Vivian kämpft gegen ihren Anführer.",
     "corrupted": "Gabriel will -- gegen die Regeln -- Aiden hinter den Fluss angreifen, aber Vivian kämpft gegen ihren Anführer.",
-    "dative_type": "dative_prep_hinter"
+    "dative_type": "dative_prep_hinter",
+    "preposition": "hinter"
   },
   {
     "split": "train",
@@ -67,7 +73,8 @@
     "group_span_text": "der historischen Fassade des Gebäudes",
     "gold_text": "Hinter der historischen Fassade des Gebäudes wurde das Innere entkernt und mit neuen Grundrissen und veränderten Geschosshöhen wieder errichtet.",
     "corrupted": "Hinter die historische Fassade des Gebäudes wurde das Innere entkernt und mit neuen Grundrissen und veränderten Geschosshöhen wieder errichtet.",
-    "dative_type": "dative_prep_hinter"
+    "dative_type": "dative_prep_hinter",
+    "preposition": "hinter"
   },
   {
     "split": "train",
@@ -77,7 +84,8 @@
     "group_span_text": "dem Stoß",
     "gold_text": "Wenn dann der Anstellwinkel so weit erhöht wird, dass hinter dem Stoß eine lokale (nicht zu kleine) Grenzschichtablösung stattfindet, dann führt deren Interaktion zu Buffet.",
     "corrupted": "Wenn dann der Anstellwinkel so weit erhöht wird, dass hinter den Stromstoß eine lokale (nicht zu kleine) Grenzschichtablösung stattfindet, dann führt deren Interaktion zu Buffet.",
-    "dative_type": "dative_prep_hinter"
+    "dative_type": "dative_prep_hinter",
+    "preposition": "hinter"
   },
   {
     "split": "train",
@@ -87,7 +95,8 @@
     "group_span_text": "der Mauer",
     "gold_text": "Sein Kutscher macht es eben so, weil hinter der Mauer der Paradiesgarten war.",
     "corrupted": "Sein Kutscher macht es eben so, weil hinter die Mauer der Paradiesgarten war.",
-    "dative_type": "dative_prep_hinter"
+    "dative_type": "dative_prep_hinter",
+    "preposition": "hinter"
   },
   {
     "split": "train",
@@ -97,7 +106,8 @@
     "group_span_text": "der Explosion",
     "gold_text": "Im Laufe der Ermittlung zeigt sich, dass ein Kommando des französischen Geheimdienstes hinter der Explosion steckt, die dem niederländischer Fotografen portugiesischer Abstammung Fernando Pereira das Leben kostete.",
     "corrupted": "Im Laufe der Ermittlung zeigt sich, dass ein Kommando des französischen Geheimdienstes hinter die Explosion steckt, die dem niederländischer Fotografen portugiesischer Abstammung Fernando Pereira das Leben kostete.",
-    "dative_type": "dative_prep_hinter"
+    "dative_type": "dative_prep_hinter",
+    "preposition": "hinter"
   },
   {
     "split": "train",
@@ -107,6 +117,7 @@
     "group_span_text": "der nahen Stadtmauer",
     "gold_text": "Die Bewohner der Baustraße arbeiteten nicht nur in der Stadtfeldmark hinter der nahen Stadtmauer, sondern unterhielten ebenfalls Scheunen und Gehöfte in der Baustraße, meist im Auftrag der städtischen Oberschicht, in deren Besitz sich diese Objekte befanden.",
     "corrupted": "Die Bewohner der Baustraße arbeiteten nicht nur in der Stadtfeldmark hinter die nahe Stadtmauer, sondern unterhielten ebenfalls Scheunen und Gehöfte in der Baustraße, meist im Auftrag der städtischen Oberschicht, in deren Besitz sich diese Objekte befanden.",
-    "dative_type": "dative_prep_hinter"
+    "dative_type": "dative_prep_hinter",
+    "preposition": "hinter"
   }
 ]
